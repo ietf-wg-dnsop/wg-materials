@@ -1,66 +1,64 @@
 
-DNSOP actions, as of 4/2/2014
+DNSOP actions, as of 4/27/2014
 
-dnse mailing list
-    * done
 
-as112/6304
+AS112/RFC6304
     * tim - to send note and shepherd
     * both drafts go to WGLC
-Status: waiting for joe edit's but WGLC w/out
+    * (4/26) Waiting for joe edit's but can WGLC w/out
+
+draft-ietf-dnsop-delegation-trust-maintainance
+    * (4/15) WGLC
+    * (4/26) Final Edits and then move along
 
 draft-ietf-dnsop-child-syncronization
-draft-ietf-dnsop-delegation-trust-maintainance
-    * WGLC
-Status:
-    Waiting for final edits on delegation-trust-maintenance
-    Next version on child-sync
+    * (4/15) WGLC
+    * (4/26) Waiting for new version from Wes
 
 draft-ietf-dnsop-respsize
     * Volunteers: Andrew Sullivan; Peter and Stephane.
-    * (*ACTION* Followup on review)
-    * suzanne - restart the review process
-Status: Feedback from reviewers, need to integrate and revise
+    * suzanne - restart the review process, will shepherd
+    * (4/25) Feedback from reviewers, need to integrate and revise
 
 draft-ietf-dnsop-resolver-priming
     * Send this back out for review
-    * suzanne - restart conversation
-    * reviewers - paul hoffman, paul wouters
-Status:  Need to move forward
+    * Suzanne - restart conversation and shepherd
+    * Reviewers - paul hoffman, paul wouters
+    * (4/26)  Needs a spin of the draft with discussion
 
 DNSSEC Key timing
-    * Being worked on
-    * proposal forthcoming
-    * tim to chase
-Status: Options promised, followed up 4/26
+    * Stephan leading organization effort
+    * (4/15)proposal forthcoming
+    * tim to chase, Shepherd perhaps
+    * (4/26) Followup on status
 
-Re-charter
-    * Send back out
-    * Joel to move through IESG
-Status:  Joel will submit to IESG next telechat
+Re-Charter:
+    * Rough Consensus from working group
+    * (4/27) Joel will submit to IESG next telechat
 
 Special Names
-    * suzanne reading replies
-    * chapin draft?
-Status: Holding
+    * Suzanne shepherding conversation
+    * chapin draft
+    * (4/26) Some update
 
 IANA DNS TXT RRTYPE
-    * check with joel
-    * tim
-Status:  Joel does not want to hold his nose
+    * (4/20) Joel does not want to hold his nose
+    * (4/26) Will discuss in WG and perhaps collect responses
 
-Passive Common Object Format
-    * needs review
-    * tim will email aaron
-Status: Ready to begin call for adoption messages
+draft-dulaunoy-dnsop-passive-dns-cof
+    * (4/2) Tim will lead discussion
+    * (4/26) Ready to begin call for adoption messages
+
+draft-ietf-dnsop-edns-tcp-keepalive
+    * (4/2) Submitted and adopted in WG
+    * (4/26) Discussion on EDNS in general, WG discussion
 
 draft-ietf-dnsop-edns-chain-query
-draft-ietf-dnsop-edns-tcp-keepalive
-    * ready
-    * Submitted and adopted in WG
-Status:
-    Talk to Suzanne about EDNS option path
-    Begin discussion
-    Look for Shepherd
+    * (4/2) Submitted and adopted in WG
+    * (4/26) Discussion on EDNS in general, WG discussion
+
+EDNS Client Subnet
+    * Updating an Existing draft
+    * (4/26) Need to send through WG
 
 
