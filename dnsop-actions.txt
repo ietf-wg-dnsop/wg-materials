@@ -3,21 +3,21 @@ DNSOP actions, as of 4/27/2014
 
 
 AS112/RFC6304
-    * tim - to send note and shepherd
+    * Tim - to send WGLC and Shepherd
     * both drafts go to WGLC
     * (4/26) Waiting for joe edit's but can WGLC w/out
 
 draft-ietf-dnsop-delegation-trust-maintainance
-    * (4/15) WGLC
+    * (4/15) WGLC, Tim Shepherd
     * (4/26) Final Edits and then move along
 
 draft-ietf-dnsop-child-syncronization
-    * (4/15) WGLC
+    * (4/15) WGLC, Tim Shepherd
     * (4/26) Waiting for new version from Wes
 
 draft-ietf-dnsop-respsize
     * Volunteers: Andrew Sullivan; Peter and Stephane.
-    * suzanne - restart the review process, will shepherd
+    * Suzanne - restart the review process, will shepherd
     * (4/25) Feedback from reviewers, need to integrate and revise
 
 draft-ietf-dnsop-resolver-priming
@@ -32,21 +32,21 @@ DNSSEC Key timing
     * tim to chase, Shepherd perhaps
     * (4/26) Followup on status
 
-Re-Charter:
+dnsop-charter:
     * Rough Consensus from working group
-    * (4/27) Joel will submit to IESG next telechat
+    * (4/27) Joel will submit to IESG next telechat (5/15)
 
-Special Names
+Special Names:
     * Suzanne shepherding conversation
     * chapin draft
     * (4/26) Some update
 
-IANA DNS TXT RRTYPE
+draft-klensin-iana-txt-rr-registry
     * (4/20) Joel does not want to hold his nose
     * (4/26) Will discuss in WG and perhaps collect responses
 
 draft-dulaunoy-dnsop-passive-dns-cof
-    * (4/2) Tim will lead discussion
+    * (4/2) Tim will lead WG adoption discussion
     * (4/26) Ready to begin call for adoption messages
 
 draft-ietf-dnsop-edns-tcp-keepalive
@@ -57,8 +57,6 @@ draft-ietf-dnsop-edns-chain-query
     * (4/2) Submitted and adopted in WG
     * (4/26) Discussion on EDNS in general, WG discussion
 
-EDNS Client Subnet
+draft-vandergaast-edns-client-subnet
     * Updating an Existing draft
     * (4/26) Need to send through WG
-
-
