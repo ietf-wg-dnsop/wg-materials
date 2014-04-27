@@ -1,0 +1,66 @@
+
+DNSOP actions, as of 4/2/2014
+
+dnse mailing list
+    * done
+
+as112/6304
+    * tim - to send note and shepherd
+    * both drafts go to WGLC
+Status: waiting for joe edit's but WGLC w/out
+
+draft-ietf-dnsop-child-syncronization
+draft-ietf-dnsop-delegation-trust-maintainance
+    * WGLC
+Status:
+    Waiting for final edits on delegation-trust-maintenance
+    Next version on child-sync
+
+draft-ietf-dnsop-respsize
+    * Volunteers: Andrew Sullivan; Peter and Stephane.
+    * (*ACTION* Followup on review)
+    * suzanne - restart the review process
+Status: Feedback from reviewers, need to integrate and revise
+
+draft-ietf-dnsop-resolver-priming
+    * Send this back out for review
+    * suzanne - restart conversation
+    * reviewers - paul hoffman, paul wouters
+Status:  Need to move forward
+
+DNSSEC Key timing
+    * Being worked on
+    * proposal forthcoming
+    * tim to chase
+Status: Options promised, followed up 4/26
+
+Re-charter
+    * Send back out
+    * Joel to move through IESG
+Status:  Joel will submit to IESG next telechat
+
+Special Names
+    * suzanne reading replies
+    * chapin draft?
+Status: Holding
+
+IANA DNS TXT RRTYPE
+    * check with joel
+    * tim
+Status:  Joel does not want to hold his nose
+
+Passive Common Object Format
+    * needs review
+    * tim will email aaron
+Status: Ready to begin call for adoption messages
+
+draft-ietf-dnsop-edns-chain-query
+draft-ietf-dnsop-edns-tcp-keepalive
+    * ready
+    * Submitted and adopted in WG
+Status:
+    Talk to Suzanne about EDNS option path
+    Begin discussion
+    Look for Shepherd
+
+
