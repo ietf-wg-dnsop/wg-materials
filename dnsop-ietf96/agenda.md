@@ -14,3 +14,16 @@
 ## Updates of Old Work, Chairs,   10 min
 
 ## Current Working Group Business
+
+
+### People Making Requests
+
+* Durand, draft-adpkja-dnsop-special-names-problem-
+* Fujiwara, draft-ietf-dnsop-nsec-aggressiveuse
+* Woodworth, draft-woodworth-bulk-rr
+* Schinazi/Cheshire, draft-cheshire-sudn-ipv4only-dot-arpa
+* Dickinson, TLS-TCP-DNS implementation
+* Sivaraman, draft-muks-dnsop-dns-catalog-zones
+* Hoffman, dns-terminology-bis update 
+* Bellis, et al., draft-bellis-dnsop-session-signal
+* Lemon, draft-tldr-sutld-ps
