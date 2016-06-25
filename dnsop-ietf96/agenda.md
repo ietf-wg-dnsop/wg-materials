@@ -22,7 +22,7 @@
 
 * Sivaraman, draft-muks-dnsop-dns-catalog-zones
 * Woodworth, draft-woodworth-bulk-rr
-
+* Yao, draft-yao-dnsop-accompanying-questions)
 ## Special Names Portion
 
 * Durand, draft-adpkja-dnsop-special-names-problem-
