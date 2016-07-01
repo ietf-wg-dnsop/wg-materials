@@ -5,17 +5,21 @@
 ### Time: 15:40-17:40 CEST (13:40-15:40 UTC)
 ### Room: Bellvue
 ### Chairs: Tim Wicinski <tjw.ietf@gmail.com>
-###         Suzanne Woolf <suzworldwide@gmail.com>
+### Chairs: Suzanne Woolf <suzworldwide@gmail.com>
 
+### Secretary: Paul Hoffman <paul.hoffman@vpnc.org>
+
+[DNSOP Documents](https://datatracker.ietf.org/wg/dnsop/documents/)
 ---
 # Agenda
 ###  Agenda Bashing, Blue Sheets, etc,  5 min
 
 ### Updates of Old Work, Chairs,   10 min
-* Hoffman, dns-terminology-bis update 
+* Chairs, 5 min
+* Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/) status, 5 min
 
 ## Current Working Group Business, 20 min
-* Fujiwara, draft-ietf-dnsop-nsec-aggressiveuse, 10 min 
+* Fujiwara, [draft-ietf-dnsop-nsec-aggressiveuse](https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec-aggressiveuse/), 10 min
 * Dickinson, TLS-TCP-DNS implementation, 10 min 
 
 ## New Working Group Business, 25 min
