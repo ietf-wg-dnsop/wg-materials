@@ -7,12 +7,14 @@
 ### Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 ###         Suzanne Woolf <suzworldwide@gmail.com>
 
+---
+# Agenda
 ###  Agenda Bashing, Blue Sheets, etc,  5 min
 
 ### Updates of Old Work, Chairs,   10 min
 * Hoffman, dns-terminology-bis update 
 
-### Current Working Group Business, 20 min
+## Current Working Group Business, 20 min
 * Fujiwara, draft-ietf-dnsop-nsec-aggressiveuse, 10 min 
 * Dickinson, TLS-TCP-DNS implementation, 10 min 
 
