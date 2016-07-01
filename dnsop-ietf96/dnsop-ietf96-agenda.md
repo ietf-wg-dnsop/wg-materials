@@ -12,25 +12,21 @@
 ### Updates of Old Work, Chairs,   10 min
 * Hoffman, dns-terminology-bis update 
 
-### Current Working Group Business
+### Current Working Group Business, 20 min
 * Fujiwara, draft-ietf-dnsop-nsec-aggressiveuse, 10 min 
 * Dickinson, TLS-TCP-DNS implementation, 10 min 
 
-## New Working Group Business:
+## New Working Group Business, 25 min
 * Bellis, et al., draft-bellis-dnsop-session-signal, 15 min
+* Hardaker, et al, multiple-responses, 10 min
 
-* Hardaker, et al, multiple-responses
-* 
-### People Making Requests
-
-* Sivaraman, draft-muks-dnsop-dns-catalog-zones
-* Woodworth, draft-woodworth-bulk-rr
-* Yao, draft-yao-dnsop-accompanying-questions)
-
-
-## Special Names Portion
-
-* Durand, draft-adpkja-dnsop-special-names-problem-
+## Special Names Portion, 30 min
+* Durand, draft-adpkja-dnsop-special-names-problem
 * Lemon, draft-tldr-sutld-ps
 * Schinazi/Cheshire, draft-cheshire-sudn-ipv4only-dot-arpa
 
+### People Making Requests
+* Sivaraman, draft-muks-dnsop-dns-catalog-zones
+* Woodworth, draft-woodworth-bulk-rr
+* Yao, draft-yao-dnsop-accompanying-questions
+* York, draft-york-dnsop-deploying-dnssec-crypto-algs
