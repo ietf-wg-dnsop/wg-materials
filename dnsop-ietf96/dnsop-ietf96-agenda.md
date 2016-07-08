@@ -26,7 +26,10 @@
 
 ## New Working Group Business, 25 min
 * Bellis, et al., [draft-bellis-dnsop-session-signal](https://datatracker.ietf.org/doc/draft-bellis-dnsop-session-signal/) 10 min
-* Hardaker, et al, [draft-wkumari-dnsop-multiple-responses](https://datatracker.ietf.org/doc/draft-wkumari-dnsop-multiple-responses/), 10 min
+
+* Hardaker, et al, [draft-wkumari-dnsop-multiple-responses](https://datatracker.ietf.org/doc/draft-wkumari-dnsop-multiple-responses/)
+* Bellis [draft-bellis-dnsext-multi-qtypes](https://datatracker.ietf.org/doc/draft-bellis-dnsext-multi-qtypes/), 10 min
+
 * Woodworth, [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/), 5 min
 
 ## Special Names Portion, 30 min
