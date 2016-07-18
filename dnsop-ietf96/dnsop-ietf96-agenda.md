@@ -20,11 +20,11 @@
 * Chairs, 5 min
 * Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/) status, 5 min
 
-## Current Working Group Business, 20 min
+## Current Working Group Business, 25 min
 * Fujiwara, [draft-ietf-dnsop-nsec-aggressiveuse](https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec-aggressiveuse/), 10 min
 * Dickinson, TLS-TCP-DNS implementation, 5 min 
 
-## New Working Group Business, 25 min
+## New Working Group Business, 30 min
 * Bellis, et al., [draft-bellis-dnsop-session-signal](https://datatracker.ietf.org/doc/draft-bellis-dnsop-session-signal/) 10 min
 
 * Hardaker, et al, [draft-wkumari-dnsop-multiple-responses](https://datatracker.ietf.org/doc/draft-wkumari-dnsop-multiple-responses/)
@@ -32,7 +32,7 @@
 
 * Woodworth, [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/), 5 min
 
-## Special Names Portion, 30 min
+## Special Names Portion, 20 min
 * Durand, [draft-adpkja-dnsop-special-names-problem](https://datatracker.ietf.org/doc/draft-adpkja-dnsop-special-names-problem/)
 * Lemon, [draft-tldr-sutld-ps](https://datatracker.ietf.org/doc/draft-tldr-sutld-ps/)
 * Schinazi/Cheshire, [draft-cheshire-sudn-ipv4only-dot-arpa](https://datatracker.ietf.org/doc/draft-cheshire-sudn-ipv4only-dot-arpa/)
