@@ -1,0 +1,127 @@
+DNS Operations (DNSOP) Working Group
+IETF 96, Berlin
+Monday 18 July 2016
+Minutes taken Paul Hoffman
+Text from slides not included here; please read the slides
+
+Chairs: Tim Wicinski, Suzanne Woolf
+
+Current WG documents: https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html
+	Also see https://datatracker.ietf.org/wg/dnsop/documents/
+
+Agenda Bashing, Blue Sheets, etc,
+	Nothing
+
+Updates of Old Work
+	Three RFCs
+	Three drafts in IESG evaluation
+	Waiting on two docs
+	Five drafts will come through the pipeline
+	One draft in call for adoption
+	Matt Larson
+		ZSK size is increasing, KSK is rolling
+	Lots of drafts are being considered for adoption
+
+draft-ietf-dnsop-terminology-bis status: Paul Hoffman
+	Aaron Falk: If we can't agree on a term, maybe we should stop using the term
+	Benno Overeinder: Are we also looking for implementations?
+		Paul: No.
+
+draft-ietf-dnsop-nsec-aggressiveuse: Warren Kumari
+	Aaron: Your amount dropped below where it started, are legitimate queries being dropped?
+		Warren: We did check, and we're quite sure
+	John Levine: You could instead be mirroring the root
+		Warren: Yes, but this helps for some DDoS
+		John: Also usable for IPv6 reverse DNS blacklists
+			You have old advice
+	Duane Wessels: Did you turn this on for everything?
+		Warren: Yes
+
+TLS-TCP-DNS implementation: Sara Dickinson
+	Lots of recent improvement, including this weekend at the hackathon
+		Both authoritative and stubs
+	Ondrej Sury: Can you add padding to the server tests?
+
+draft-bellis-dnsop-session-signal: Ray Bellis
+	Ben Schwartz: How does interact with HTTP wire format draft?
+		Ray: Should not be bad
+		Ben: HTTP 2 allows out-of-order
+	Aaron: The PLUS BoF on Thursday might be of interest, this might be a user of PLUS
+	Stewart Cheshire: These sessions defines a session of a particular type, so it can run over any transport that handles it
+		Do we use something small (will surprise tools) or EDNS0?
+			Suzanne: take that to the list
+
+draft-wkumari-dnsop-multiple-responses: Wes Hardaker and Warren Kumari
+	Ralf Weber: EXTRA record allows DOSing
+		Wes: Suggest to have policy on when to use
+	Christian Huitema: Browsers already do something like this
+		Is this really worth it?
+		Warren: There is more than the web
+		Wes: This does not help a resolver that has already cached the information, of course
+		Christian: Double-optimization may lead to worse performance
+	Jim Reid: Similar to an ANY amplification attack
+		Can we get some data on what the optimization benefit will before we move forwards on this?
+		Warren: yes, we shoud
+	Sara: How does this affect client-subnet
+		Warren: Has to be from the authoritative server
+	Marc Blanchet: Any problem with DNS64?
+		Warren: Yes, DNSSEC
+	Teddy Hogeborn: Issue with format of record
+		Wes: This will probably change
+		Teddy: This might help because of SRV
+	David Lawrence: With client-subnet, you'll have to give the most specific answer
+		An authoritative server should need to be sure that it was authoritative
+		Wes: You have that issue today with DNSSEC and TTLs
+	Hums: Lots of people want to hear more data first
+
+draft-bellis-dnsext-multi-qtypes: Ray Bellis
+	Limited to one QNAME/QCLASS
+	If we decide not to do any mulitple-query proposals, we should write a document why
+	John Levine: What if you're getting a CNAME back?
+		Has to be specified
+		Mark Andrews: We can specify how to do this
+	Kazunori Fujiwara: Wants a summary of why the previous proposals failed
+	Ralf Weber: The only real use case is A/AAAA, the rest are not that useful optimizations
+		Ray: Also MX/A
+	David Lawrence: Likes this for A/AAAA
+	Pieter Lexis: You are copying the QR bit: why?
+		Ray: They certailny still exist. Helps prevent someone just mirroring.
+	Shane Kerr: Can be a huge win with A/AAAA
+
+draft-woodworth-bulk-rr: John Woodworth
+	Viktor Dukhovni: Is this record available for client queries?
+		John: Yes
+		Viktor: This will require on-the-fly NSEC
+		John: If it is not on-the-fly, the client needs to be updated
+			Should only use on-the-fly
+	David Lawrence: Likes this. Don't attach this to a wildcard label.
+	Teddy: It is not really a record type. Maybe it should be a directive instead, but then it doesn't work with AXFR.
+		Maybe needs a new form of zone transfer.
+	Ed Lewis: DNAME redirects but doesn't need to be signed. Just needs a signature on redirector.
+
+draft-muks-dnsop-dns-catalog-zones
+	Tim: Read the draft because this might come up in the WG
+
+Special Names Portion: Suzanne Woolf
+	Note from the minutes-taker: If you are reading this, you *really* should read all the slides, including Suzanne's
+	draft-adpkja-dnsop-special-names-problem: Geoff Huston
+	draft-tldr-sutld-ps: Ted Lemon
+	draft-wkumari-dnsop-alt-tld: Warren Kumari
+	draft-cheshire-sudn-ipv4only-dot-arpa: David Schinazi
+	Discussion starts
+	Paul Hoffman: Doesn't like the history section because it doesn't quote, it retells
+	Alain: Doesn't think that there are preferences in draft-adpkja, please send to the list
+		There is a fair amont of overlap in the problems listed
+		Difference: how to evaluate a particular string
+	Ted: draft-adpkja covers problems with 6761, draft-tldr covers the bigger problem
+	Alain: Might want to publish separately because they are on different topics
+	Joel Jaeggli: Expected an alternative draft, but thinks that adopting two would be bad
+	Ralph Droms: Thinks draft-tldr is a superset of draft-adpkja
+		Some things in draft-adpkja are not problems, but just not as well specified
+		Which covers the larger set
+		Ted: Did not cover problems with solutions
+	Stewart: Thanks to Ted and Ralph
+	Geoff: Part of the problem is what can be unilaterally solvable in the IETF
+		draft-tldr cannot be addressed ourselve
+	Suzanne: Maybe will have an interim soon
+

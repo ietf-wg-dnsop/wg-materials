@@ -32,12 +32,12 @@
 
 * Woodworth, [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/), 5 min
 
-* [draft-muks-dnsop-dns-catalog-zones](https://datatracker.ietf.org/doc/draft-muks-dnsop-dns-catalog-zones/)
+* Chairs, [draft-muks-dnsop-dns-catalog-zones](https://datatracker.ietf.org/doc/draft-muks-dnsop-dns-catalog-zones/)
 
 ## Special Names Portion, 20 min
 * Durand, [draft-adpkja-dnsop-special-names-problem](https://datatracker.ietf.org/doc/draft-adpkja-dnsop-special-names-problem/)
 * Lemon, [draft-tldr-sutld-ps](https://datatracker.ietf.org/doc/draft-tldr-sutld-ps/)
-* Schinazi/Cheshire, [draft-cheshire-sudn-ipv4only-dot-arpa](https://datatracker.ietf.org/doc/draft-cheshire-sudn-ipv4only-dot-arpa/)
+* Schinazi, Schinazi/Cheshire, [draft-cheshire-sudn-ipv4only-dot-arpa](https://datatracker.ietf.org/doc/draft-cheshire-sudn-ipv4only-dot-arpa/)
 
 ### Items of Interest
 * York, [draft-york-dnsop-deploying-dnssec-crypto-algs](https://datatracker.ietf.org/doc/draft-york-dnsop-deploying-dnssec-crypto-algs/)
