@@ -1,12 +1,14 @@
 # DNSOP Chairs Status
 
 ## current WGLC Order
-### 4 August 2016
+### 5 August 2016
 
 * draft-ietf-dnsop-resolver-priming
     - final updates
     
 * draft-ietf-dnsop-refuse-any
+
+* draft-ietf-dnsop-nsec-aggressiveuse
 
 * draft-ietf-dnsop-edns-key-tag
 
@@ -49,14 +51,7 @@
 
 * draft-ietf-dnsop-alt-tld
     - unsticking
-    -  
-## waiting on authors
-
-* draft-valsorda-dnsop-black-lies
-* draft-vavrusa-dnsop-aaaa-for-free
-    - Asked them to resubmit with less cute names
-    
-
+      
 ## considered for adoption
 
 * draft-muks-dnsop-dns-catalog-zones
