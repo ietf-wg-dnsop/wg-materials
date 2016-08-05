@@ -1,11 +1,24 @@
 # DNSOP Chairs Status
-
-## current WGLC Order
 ### 5 August 2016
 
-* draft-ietf-dnsop-resolver-priming
-    - final updates
+## WG chairs Work
+
+* draft-ietf-dnsop-dnssec-roadblock-avoidance
+    - 2 IESG Discuss to clear
+    - 
+* draft-ietf-dnsop-nxdomain-cut
+    - in IETF LC
+
+* draft-ietf-dnsop-isp-ip6rdns
+    - Need to get a new version up, do the WGLC write-up
     
+## In WGLC
+
+* draft-ietf-dnsop-resolver-priming
+    - 19 August
+
+## current WGLC Order
+  
 * draft-ietf-dnsop-refuse-any
 
 * draft-ietf-dnsop-nsec-aggressiveuse
@@ -37,17 +50,6 @@
 
 * draft-ietf-dnsop-no-response-issue
     - Need to send comments see if mark will make changes
-    
-## WG chair Work
-
-* draft-ietf-dnsop-dnssec-roadblock-avoidance
-    - 2 IESG Discuss to clear
-    - 
-* draft-ietf-dnsop-nxdomain-cut
-    - in IETF LC
-
-* draft-ietf-dnsop-isp-ip6rdns
-    - Need to get a new version up, do the WGLC write-up
 
 * draft-ietf-dnsop-alt-tld
     - unsticking
