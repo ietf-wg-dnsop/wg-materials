@@ -21,14 +21,15 @@
   
 * draft-ietf-dnsop-refuse-any
 
-* draft-ietf-dnsop-nsec-aggressiveuse
-
 * draft-ietf-dnsop-edns-key-tag
 
+* draft-ietf-dnsop-nsec-aggressiveuse
+
 * draft-ietf-dnsop-rfc2317bis
+    - needs updates
 
 * draft-ietf-dnsop-attrleaf
-    - need to ping crocker, and also perhaps Apps chairs
+    - working on an update
 
 ## Adopted
 
@@ -41,6 +42,9 @@
     - he took out the EDNS stuff, but little conversation yet
 
 ## Candidates
+
+* draft-bellis-dnsext-multi-qtypes
+    -  Architectural Discussions
 
 * draft-hardaker-rfc5011-security-considerations
 

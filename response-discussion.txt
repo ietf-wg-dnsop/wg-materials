@@ -1,0 +1,21 @@
+Larger Discussion on Differences in Response Drafts
+
+
+In Berlin we had two presentations on different methods of returning multiple responses:
+
+https://datatracker.ietf.org/doc/draft-wkumari-dnsop-multiple-responses/
+
+https://datatracker.ietf.org/doc/draft-bellis-dnsext-multi-qtypes/
+
+and a presentation in Buenos Aires:
+
+https://datatracker.ietf.org/doc/draft-vavrusa-dnsop-aaaa-for-free/
+
+All of these documents are attempting to solve a larger problem in different ways.
+The end result is "Return Associated Answer" to the client.
+
+The question is starting to coalesce around these two premises:
+
+- Do we want to Server to PUSH any or all Associated Answers, or
+
+- Do we want the Client to PULL any or all Associated Answers
