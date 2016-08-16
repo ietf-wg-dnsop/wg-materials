@@ -19,3 +19,6 @@ The question is starting to coalesce around these two premises:
 - Do we want to Server to PUSH any or all Associated Answers, or
 
 - Do we want the Client to PULL any or all Associated Answers
+
+
+(Thanks to Paul Hoffman for assistance)

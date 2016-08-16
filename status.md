@@ -21,12 +21,13 @@
   
 * draft-ietf-dnsop-refuse-any
 
-* draft-ietf-dnsop-edns-key-tag
-
 * draft-ietf-dnsop-nsec-aggressiveuse
+
+* draft-ietf-dnsop-edns-key-tag
 
 * draft-ietf-dnsop-rfc2317bis
     - needs updates
+    - Lost Tony
 
 * draft-ietf-dnsop-attrleaf
     - working on an update
@@ -36,10 +37,10 @@
 * draft-song-dns-wireformat-http
     - work with HTTPbis
     
-## Call for Adoption
-
 * draft-bellis-dnsop-session-signal
     - he took out the EDNS stuff, but little conversation yet
+
+## Call for Adoption
 
 ## Candidates
 
