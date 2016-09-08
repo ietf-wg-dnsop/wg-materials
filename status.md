@@ -1,7 +1,10 @@
 # DNSOP Chairs Status
-### 5 August 2016
+### 19 August 2016
 
 ## WG chairs Work
+
+* draft-ietf-dnsop-resolver-priming
+    - passwd WGLC, shepherd writeup
 
 * draft-ietf-dnsop-dnssec-roadblock-avoidance
     - 2 IESG Discuss to clear
@@ -13,9 +16,6 @@
     - Need to get a new version up, do the WGLC write-up
     
 ## In WGLC
-
-* draft-ietf-dnsop-resolver-priming
-    - 19 August
 
 ## current WGLC Order
   

@@ -1,0 +1,91 @@
+1. Summary
+
+Document Shepherd:  Tim Wicinski
+Area Director:      Terry Manderson
+
+Document Type:      Experimental
+
+This document proposes the use of Datagram Transport Layer Security
+(DTLS) for DNS, to protect against passive listeners and certain
+active attacks.  As latency is critical for DNS, this proposal also
+discusses mechanisms to reduce DTLS round trips and reduce DTLS
+handshake size.
+
+The working group chose Experimental over Proposed Standard because
+the authors have indicated they are not willing to attempt
+implemntating this, nor have they attempted to find anyone to
+implement this.
+
+
+2. Review and Consensus
+
+The document was reviewed very heavily by the working group, and c
+compared to the previous document DNS-over TLS
+    https://datatracker.ietf.org/doc/rfc7858/
+
+The working group made several requests which the authors performed.
+The biggest one was the removal of the Authenication profiles and
+placed in a separate document  draft-ietf-dprive-dtls-and-tls-
+profiles   which is currently working through the working group and
+is slated for last call.
+
+The consensus was positive on adopting and publishing this draft,
+and the working group did not have many comments about the lack of
+
+3. Intellectual Property
+
+The authors stated that their direct, personal knowledge of any IPR
+related to this document has already been disclosed.
+
+4. Other Points
+
+There are no downward references in this document.
+
+Currently, the document lists ietf-dprive-dtls-and-tls-profiles as
+an Informative Reference, but lists it as a MUST in section 3.2.
+Because of this, the shepherd feels this could be listed as a
+normative reference, though the document is Experimental.
+
+There is currently no Implementation Section, as needed for
+Experimental drafts.  The authors have stated they will not attempt
+any implementations.
+
+IANA Considerations:
+    There are no IANA Considerations
+
+Checklist:
+
+- Does the shepherd stand behind the document and think the document
+is ready for publication?
+
+X - Is the correct RFC type indicated in the title page header?
+
+X - Is the abstract both brief and sufficient, and does it stand
+alone as a brief summary?
+
+X - Is the intent of the document accurately and adequately
+explained in the introduction?
+
+X - Have all required formal reviews (MIB Doctor, Media Type, URI,
+etc.) been requested and/or completed?
+
+X - Has the shepherd performed automated checks -- idnits
+
+X - Has each author stated that their direct, personal knowledge of
+any IPR related to this document has already been disclosed, in
+conformance with BCPs 78 and 79?
+
+X - Have all references within this document been identified as
+either normative or informative, and does the shepherd agree with
+how they have been classified?
+
+X - Are all normative references made to documents that are ready
+for advancement and are otherwise in a clear state?
+
+X - If publication of this document changes the status of any
+existing RFCs, are those RFCs listed on the title page header, and
+are the changes listed in the abstract and discussed (explained, not
+just mentioned) in the introduction?
+
+X - If this is a "bis" document, have all of the errata been
+considered?
