@@ -16,6 +16,11 @@ the authors have indicated they are not willing to attempt
 implemntating this, nor have they attempted to find anyone to
 implement this.
 
+While the working group confirmed publication, this document
+shepherd (and working group co-chair) is conflicted.  The lack of
+implementation anytime in the near future means this will get
+published but never actually used. While the working group does not
+see this as a problem, I feel it sets a bad precedent.
 
 2. Review and Consensus
 

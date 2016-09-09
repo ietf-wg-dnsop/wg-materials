@@ -1,0 +1,77 @@
+1. Summary
+
+Document Shepherd:  Tim Wicinski
+Area Director:      Joel Jaggeli
+
+Document Type:      Best Current Practice
+
+This document describes the queries that a DNS resolver should emit
+to initialize its cache.  The result is that the resolver gets both a
+current NS RRSet for the root zone and the necessary address
+information for reaching the root servers.
+
+
+2. Review and Consensus
+
+
+This document has been active in the working group for several years. It
+had strong consensus to adopt and publish.  However, due to working
+group inertia and authors busy schedules, the document stalled several times.
+It was picked back up recently and the document went through an editing
+process to streamline the language.
+
+This time through the process there was enough attention paid by the working
+group to address any outstanding issues, provide editorial comments, and see
+the document through.
+
+3. Intellectual Property
+
+The authors stated that their direct, personal knowledge of any IPR
+related to this document has already been disclosed.
+
+4. Other Points
+
+There are no downward references to this document, and the shepherd is
+satisfied with this.
+
+IANA Considerations:
+    There are no IANA Considerations
+
+
+Checklist
+
+X - Does the shepherd stand behind the document and think the document is
+ready for publication?
+
+X - Is the correct RFC type indicated in the title page header?
+
+X - Is the abstract both brief and sufficient, and does it stand alone as
+a brief summary?
+
+X - Is the intent of the document accurately and adequately explained in
+the introduction?
+
+X - Have all required formal reviews (MIB Doctor, Media Type, URI,
+etc.) been requested and/or completed?
+
+X - Has the shepherd performed automated checks
+
+X - Has each author stated that their direct, personal knowledge of any
+IPR related to this document has already been disclosed, in conformance
+with BCPs 78 and 79?
+
+X - Have all references within this document been identified as either
+normative or informative, and does the shepherd agree with how they have
+been classified?
+
+X - Are all normative references made to documents that are ready for
+advancement and are otherwise in a clear state?
+
+X - If publication of this document changes the status of any existing RFCs,
+are those RFCs listed on the title page header, and are the changes
+listed in the abstract and discussed (explained, not just mentioned)
+in the introduction?
+
+X - If this is a "bis" document, have all of the errata been considered?
+
+X - IANA Considerations:
