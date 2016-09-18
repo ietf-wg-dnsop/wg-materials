@@ -17,9 +17,9 @@ Abstract
    respond correctly to queries causes both immediate operational
    problems and long term problems with protocol development.
 
-   This document identifies a number of common kinds of queries to which
+   This document identifies a number of common kinds of queries which
    some servers either fail to respond or else respond incorrectly.
-   This document also suggests procedures for TLD and other similar zone
+   This document also suggests procedures for TLD and other zone
    operators to apply to help reduce / eliminate the problem.
 
    The document does not look at the DNS data itself, just the structure
@@ -126,36 +126,35 @@ Internet-Draft             Failure To Respond                August 2016
    operational problems and long term problems with protocol
    development.
 
-   Failure to respond to a query is indistinguishable from a packet loss
-   without doing a analysis of query response patterns and results in
-   unnecessary additional queries being made by DNS clients and
-   unnecessary delays being introduced to the resolution process.
+   Failure to respond to a query is indistinguishable from packet loss.
+   Without doing an analysis of query response patterns will result in
+   additional queries being made by DNS clients, and
+   delays being introduced to the resolution process.
 
    Due to the inability to distinguish between packet loss and
    nameservers dropping EDNS [RFC6891] queries, packet loss is sometimes
    misclassified as lack of EDNS support which can lead to DNSSEC
    validation failures.
 
-   Allowing servers which fail to respond to queries to remain results
-   in developers being afraid to deploy implementations of recent
-   standards.  Such servers need to be identified and corrected /
-   replaced.
+   Servers which fail to respond to queries results
+   in developers being hesitant to deploy new
+   standards.  Such servers should be identified.
 
    The DNS has response codes that cover almost any conceivable query
    response.  A nameserver should be able to respond to any conceivable
    query using them.
 
    Unless a nameserver is under attack, it should respond to all queries
-   directed to it as a result of following delegations.  Additionally
-   code should not assume that there isn't a delegation to the server
-   even if it is not configured to serve the zone.  Broken delegations
+   directed to it.  Additionally, the nameserver
+   should not assume that there isn't a delegation to the server
+   even if it is not configured to serve the zone.  Broken nameserver delegations
    are a common occurrence in the DNS and receiving queries for zones
    that the server is not configured for is not necessarily an
    indication that the server is under attack.  Parent zone operators
    are supposed to regularly check that the delegating NS records are
    consistent with those of the delegated zone and to correct them when
-   they are not [RFC1034].  If this was being done regularly, the
-   instances of broken delegations would be much lower.
+   they are not [RFC1034].  Doing this regularly should reduce the
+   instances of broken delegations.
 
    When a nameserver is under attack it may wish to drop packets.  A
    common attack is to use a nameserver as a amplifier by sending
@@ -181,14 +180,23 @@ Internet-Draft             Failure To Respond                August 2016
 
 2.  Common queries kinds that result in non responses.
 
-   There are number common query kinds that result in non responses
-   today.  These are EDNS queries with and without extensions, queries
-   for unknown (unallocated) or unsupported types, and filtering of TCP
+   There are a number common query kinds that fail to respond
+   today.  They are: EDNS queries with and without extensions; queries
+   for unknown (unallocated) or unsupported types; and filtering of TCP
    queries.
 
 2.1.  Basic DNS Queries
 
-2.1.1.  Unknown / Unsupported Type Queries
+2.1.1 Zone Existence
+
+   Initially to test existence of the zone, an SOA query should be made.
+   If the SOA record is not returned but some other response is returned,
+   this is a indication of a bad delegation. If the server fails to get a
+   response to a SOA query, the  Operator should make an A query for the zone,
+   as some nameservers fail to respond to SOA queries but will respond to
+   A queries.
+
+2.1.2.  Unknown / Unsupported Type Queries
 
    Identifying servers that fail to respond to unknown or unsupported
    types can be done by making an initial DNS query for an A record,
@@ -201,7 +209,7 @@ Internet-Draft             Failure To Respond                August 2016
    faulty.  The test should be repeated a number of times to eliminate
    the likelihood of a false positive due to packet loss.
 
-2.1.2.  DNS Flags
+2.1.3.  DNS Flags
 
    Some servers fail to respond to DNS queries with various DNS flags
    set, regardless of whether they are defined or still reserved.  At
@@ -209,7 +217,7 @@ Internet-Draft             Failure To Respond                August 2016
    with the AD bit set to 1 and servers that fail to respond to queries
    with the last reserved flag bit set.
 
-2.1.3.  Unknown DNS opcodes
+2.1.4.  Unknown DNS opcodes
 
    The use of previously undefined opcodes is to be expected.  Since the
    DNS was first defined two new opcodes have been added, UPDATE and
@@ -230,7 +238,7 @@ Internet-Draft             Failure To Respond                August 2016
    structure for the rest of the message there is no requirement than
    anything other than the DNS header match.
 
-2.1.4.  TCP Queries
+2.1.5.  TCP Queries
 
    All DNS servers are supposed to respond to queries over TCP
    [RFC7766].  Firewalls that drop TCP connection attempts rather that
@@ -265,7 +273,7 @@ Internet-Draft             Failure To Respond                August 2016
 
    Firewalls may also block larger EDNS responses but there is no easy
    way to check authoritative servers to see if the firewall is
-   misconfigured.
+   mis-configured.
 
 2.2.2.  EDNS Queries - Version Specific
 
@@ -297,6 +305,11 @@ Internet-Draft             Failure To Respond                August 2016
    Some servers fail to respond to EDNS queries with EDNS flags set.
    Server should ignore EDNS flags they do not understand and should not
    add them to the response [RFC6891].
+
+2.2.5.  DNSSEC
+
+   Servers should be checked to see if they support DNSSEC.  Servers should
+   also be checked to see if they support DNSSEC with EDNS.
 
 3.  Remediating
 
@@ -414,12 +427,13 @@ Internet-Draft             Failure To Respond                August 2016
 4.  Firewalls and Load Balancers
 
    Firewalls and load balancers can affect the externally visible
-   behaviour of a nameserver.  Tests for conformance need to be done
+   behaviour of a nameserver.  Tests for conformance should be done
    from outside of any firewall so that the system as a whole is tested.
 
    Firewalls and load balancers should not drop DNS packets that they
    don't understand.  They should either pass through the packets or
    generate an appropriate error response.
+**not sure of "appropriate error response"
 
    Requests for unknown query types is normal client behaviour and
    should not be construed as an attack.  Nameservers have always been
@@ -435,10 +449,10 @@ Internet-Draft             Failure To Respond                August 2016
 
    Requests with unassigned flags set (DNS or EDNS) is expected client
    behaviour and should not be construed as an attack.  The behaviour
-   for unassigned is to ignore them in the request and to not set them
-   in the response.  All dropping DNS / EDNS packets with unassigned
-   flags does is make it harder to deploy extensions that make use of
-   them due to the need to reconfigure / update firewalls.
+   for unassigned flags is to ignore them in the request and to not set them
+   in the response.  Dropping DNS / EDNS packets with unassigned
+   flags makes it difficult to deploy extensions that make use of
+   them due to the need to reconfigure and update firewalls.
 
    Requests with unknown EDNS options is expected client behaviour and
    should not be construed as an attack.  The correct behaviour for
@@ -456,8 +470,8 @@ Internet-Draft             Failure To Respond                August 2016
    Requests with unknown EDNS versions is expected client behaviour and
    should not be construed as an attack.  The correct behaviour for
    unknown EDNS versions is to return BADVERS along with the highest
-   EDNS version the server supports.  All dropping EDNS packets does is
-   break EDNS version negotiation.
+   EDNS version the server supports.  Dropping EDNS packets
+   breaks EDNS version negotiation.
 
    Firewalls should not assume that there will only be a single response
    message to a requests.  There have been proposals to use EDNS to
@@ -473,10 +487,10 @@ Internet-Draft             Failure To Respond                August 2016
    awaiting a fix from the nameserver vendor.
 
    DNS and EDNS in particular is designed to allow clients to be able to
-   use new features against older servers without having to ask a
-   thousand questions to determine what the server supports which takes
-   time clients do not have.  Indiscriminate blocking of messages breaks
-   that design.
+   use new features against older servers without having to validate
+   every option.
+   Indiscriminate blocking of messages breaks
+   this design.
 
 5.  Scrubbing Services
 
@@ -486,7 +500,8 @@ Internet-Draft             Failure To Respond                August 2016
 
    Scrubbing services, unlike firewalls, are also turned on and off in
    response to denial of service attacks.  One needs to take care when
-   choosing a scrubbing service and ask questions like:
+   choosing a scrubbing service and ask questions like mentioned in Section 2
+   above.
 
       Do they pass unknown DNS query types?
 
@@ -509,8 +524,8 @@ Internet-Draft             Failure To Respond                August 2016
       Do they pass requests with the remaining reserved DNS header flag
       bit set?
 
-   None of these are attack vectors but some scrubbing services treat
-   them as such.
+   Ideally, Operators should run these tests against a scrubbing service to
+   ensure that these tests are seen as attack vectors.
 
 6.  Whole Answer Caches
 
@@ -523,35 +538,36 @@ Internet-Draft             Failure To Respond                August 2016
    do not take all of the attributes of the query into account, rather
    than just some of them e.g. qname, qtype and qclass.  This has
    implications when testing and with overall protocol compliance.
+   Two current examples are:
 
-   e.g.  There are whole answer caches that ignore the EDNS version
+   - Whole answer caches that ignore the EDNS version
    field which results in incorrect answers to non EDNS version 0
    queries being returned if they were preceded by a EDNS version 0
    query for the same name and type.
 
-   e.g.  There are caches that ignore the EDNS options in the query
+   - Whole answer caches that ignore the EDNS options in the query
    resulting in options only working some of the time and/or options
    being returned when not requested.
 
 7.  Response Code Selection
 
-   Choosing the correct response code when fixing a nameserver is
+   Choosing the correct response code when responding to DNS queries is
    important.  Just because a type is not implemented does not mean that
    NOTIMP is the correct response code to return.  Response codes need
    to be chosen considering how clients will handle them.
 
    For unimplemented opcodes NOTIMP is the expected response code.
-   Additionally a new opcode could change the message format by
+   For example, a new opcode could change the message format by
    extending the header or changing the structure of the records etc.
    This may result in FORMERR being returned though NOTIMP would be more
    correct.
 
-   In general, for unimplemented type codes Name Error (NXDOMAIN) and
-   NOERROR (no data) are the expected response codes.  A server is not
+   For unimplemented type codes, Name Error (NXDOMAIN) and
+   No Data (NOERROR) are the expected response codes.  A server is not
    supposed to serve a zone which contains unsupported types ([RFC1034])
    so the only thing left is return if the QNAME exists or not.  NOTIMP
    and REFUSED are not useful responses as they force the clients to try
-   all the authoritative servers for a zone looking for a server which
+   the other authoritative servers looking for a server which
    will answer the query.
 
 
@@ -564,13 +580,14 @@ Internet-Draft             Failure To Respond                August 2016
 
    Meta queries type may be the exception but these need to be thought
    about on a case by case basis.
+**example of Meta queries
 
-   If the server supports EDNS and get a query with an unsupported EDNS
+   If the server supports EDNS and receives a query with an unsupported EDNS
    version, the correct response is BADVERS [RFC6891].
 
-   If the server do not support EDNS at all, FORMERR and NOTIMP are the
-   expected error codes.  That said a minimal EDNS server implementation
-   just requires parsing the OPT records and responding with an empty
+   If the server does not support EDNS at all, FORMERR and NOTIMP are the
+   expected error codes.  A minimal EDNS server implementation
+   requires parsing the OPT records and responding with an empty
    OPT record.  There is no need to interpret any EDNS options present
    in the request as unsupported options are expected to be ignored
    [RFC6891].
@@ -926,7 +943,7 @@ Internet-Draft             Failure To Respond                August 2016
    expect: EDNS Version 0 in response
    expect: flag: aa to be present
 
-8.2.10.  When EDNS Is Not Supported
+8.3.  When EDNS Is Not Supported
 
    If EDNS is not supported by the nameserver, we expect a response to
    all the above queries.  That response may be a FORMERR or NOTIMP
