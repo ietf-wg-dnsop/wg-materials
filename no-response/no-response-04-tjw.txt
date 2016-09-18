@@ -223,7 +223,7 @@ Internet-Draft             Failure To Respond                August 2016
    DNS was first defined two new opcodes have been added, UPDATE and
    NOTIFY.
 
-   NOTIMP is the expected rcode to an unknown / unimplemented opcode.
+   NOTIMP is the expected rcode to an unknown or unimplemented opcode.
 
 
 
@@ -241,10 +241,10 @@ Internet-Draft             Failure To Respond                August 2016
 2.1.5.  TCP Queries
 
    All DNS servers are supposed to respond to queries over TCP
-   [RFC7766].  Firewalls that drop TCP connection attempts rather that
-   resetting the connect attempt or send a ICMP/ICMPv6 administratively
-   prohibited message introduce excessive delays to the resolution
-   process.
+   [RFC7766].  Firewalls should not drop TCP connection attempts, they should
+   reset the connection attempt or send a ICMP/ICMPv6 administratively
+   prohibited message. Dropping TCP connections introduces delays into the DNS
+   resolution process
 
    Whether a server accepts TCP connections can be tested by first
    checking that it responds to UDP queries to confirm that it is up and
@@ -431,7 +431,7 @@ Internet-Draft             Failure To Respond                August 2016
    from outside of any firewall so that the system as a whole is tested.
 
    Firewalls and load balancers should not drop DNS packets that they
-   don't understand.  They should either pass through the packets or
+   don't understand.  They should either pass the packets through or
    generate an appropriate error response.
 **not sure of "appropriate error response"
 
@@ -478,11 +478,11 @@ Internet-Draft             Failure To Respond                August 2016
    signal that multiple DNS messages be returned rather than a single
    UDP message that is fragmented at the IP layer.
 
-   With the above said, there will be times when a nameserver mishandles
+   However, there may be times when a nameserver mishandles
    messages with a particular flag, EDNS option, EDNS version field,
    opcode, type or class field or combination there of to the point
    where the integrity of the nameserver is compromised.  Firewalls
-   should have the ability to selectively reject messages with an
+   should offer the ability to selectively reject messages with an
    appropriately constructed response based on all these fields while
    awaiting a fix from the nameserver vendor.
 
@@ -503,15 +503,7 @@ Internet-Draft             Failure To Respond                August 2016
    choosing a scrubbing service and ask questions like mentioned in Section 2
    above.
 
-      Do they pass unknown DNS query types?
 
-      Do they pass unknown EDNS versions?
-
-      Do they pass unknown EDNS options?
-
-      Do they pass unknown EDNS flags?
-
-      Do they pass requests with unknown DNS opcodes?
 
 
 
@@ -520,9 +512,6 @@ Andrews                 Expires February 27, 2017               [Page 9]
 
 Internet-Draft             Failure To Respond                August 2016
 
-
-      Do they pass requests with the remaining reserved DNS header flag
-      bit set?
 
    Ideally, Operators should run these tests against a scrubbing service to
    ensure that these tests are seen as attack vectors.
@@ -552,9 +541,9 @@ Internet-Draft             Failure To Respond                August 2016
 7.  Response Code Selection
 
    Choosing the correct response code when responding to DNS queries is
-   important.  Just because a type is not implemented does not mean that
-   NOTIMP is the correct response code to return.  Response codes need
-   to be chosen considering how clients will handle them.
+   important.  Just because a DNS qtype is not implemented does not mean that
+   NOTIMP is the correct response code to return.  Response codes should
+   be chosen considering how clients will handle them.
 
    For unimplemented opcodes NOTIMP is the expected response code.
    For example, a new opcode could change the message format by
@@ -578,7 +567,7 @@ Andrews                 Expires February 27, 2017              [Page 10]
 Internet-Draft             Failure To Respond                August 2016
 
 
-   Meta queries type may be the exception but these need to be thought
+   Meta queries may be the exception but these need to be thought
    about on a case by case basis.
 **example of Meta queries
 
@@ -589,7 +578,7 @@ Internet-Draft             Failure To Respond                August 2016
    expected error codes.  A minimal EDNS server implementation
    requires parsing the OPT records and responding with an empty
    OPT record.  There is no need to interpret any EDNS options present
-   in the request as unsupported options are expected to be ignored
+   in the request as unsupported EDNS options are expected to be ignored
    [RFC6891].
 
 8.  Testing
