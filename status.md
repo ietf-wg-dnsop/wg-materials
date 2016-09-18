@@ -1,16 +1,19 @@
 # DNSOP Chairs Status
-### 19 August 2016
+### 19 September 2016
 
 ## WG chairs Work
 
 * draft-ietf-dnsop-resolver-priming
-    - passwd WGLC, shepherd writeup
+    - Submitted to IESG
 
 * draft-ietf-dnsop-dnssec-roadblock-avoidance
-    - 2 IESG Discuss to clear
-    - 
+    - Approved, Waiting
+     
 * draft-ietf-dnsop-nxdomain-cut
-    - in IETF LC
+    - Approved
+
+* draft-ietf-dnsop-maintain-ds
+    - IESG Telechat 9-29
 
 * draft-ietf-dnsop-isp-ip6rdns
     - Need to get a new version up, do the WGLC write-up
@@ -24,10 +27,6 @@
 * draft-ietf-dnsop-nsec-aggressiveuse
 
 * draft-ietf-dnsop-edns-key-tag
-
-* draft-ietf-dnsop-rfc2317bis
-    - needs updates
-    - Lost Tony
 
 * draft-ietf-dnsop-attrleaf
     - working on an update
@@ -52,6 +51,10 @@
 * draft-pounsett-transferring-automated-dnssec-zones
 
 ## Needs Addressing
+
+* draft-ietf-dnsop-rfc2317bis
+    - needs updates
+    - Lost Tony
 
 * draft-ietf-dnsop-no-response-issue
     - Need to send comments see if mark will make changes
