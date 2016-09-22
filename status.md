@@ -10,7 +10,7 @@
     - Approved, Waiting
      
 * draft-ietf-dnsop-nxdomain-cut
-    - Approved
+    - Approved, Waiting
 
 * draft-ietf-dnsop-maintain-ds
     - IESG Telechat 9-29
@@ -20,17 +20,22 @@
     
 ## In WGLC
 
+* draft-ietf-dnsop-nsec-aggressiveuse
+    ends 7 October
+
 ## current WGLC Order
   
 * draft-ietf-dnsop-refuse-any
-
-* draft-ietf-dnsop-nsec-aggressiveuse
+    has some outstanding items. 
 
 * draft-ietf-dnsop-edns-key-tag
 
 * draft-ietf-dnsop-attrleaf
     - working on an update
 
+* draft-ietf-dnsop-no-response-issue
+    (We still outstanding issues)
+    
 ## Adopted
 
 * draft-song-dns-wireformat-http
