@@ -23,12 +23,13 @@
 * draft-ietf-dnsop-nsec-aggressiveuse
     ends 7 October
 
+* draft-ietf-dnsop-edns-key-tag
+    - ends 20 October
+    
 ## current WGLC Order
   
 * draft-ietf-dnsop-refuse-any
-    has some outstanding items. 
-
-* draft-ietf-dnsop-edns-key-tag
+    - has some outstanding items. 
 
 * draft-ietf-dnsop-attrleaf
     - working on an update
@@ -62,7 +63,7 @@
     - Lost Tony
 
 * draft-ietf-dnsop-no-response-issue
-    - Need to send comments see if mark will make changes
+    - Will not move forward with Remediation section
 
 * draft-ietf-dnsop-alt-tld
     - unsticking
