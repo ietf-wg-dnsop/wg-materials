@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### 19 September 2016
+### 7 October 2016
 
 ## WG chairs Work
 
