@@ -49,6 +49,8 @@
 
 ## Candidates
 
+* draft-wouters-sury-dnsop-algorithm-update
+
 * draft-bellis-dnsext-multi-qtypes
     -  Architectural Discussions
 
