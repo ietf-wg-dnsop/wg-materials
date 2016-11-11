@@ -1,30 +1,31 @@
 # DNSOP Chairs Status
-### 7 October 2016
+### 12 October 2016
 
+# Done 
+* draft-ietf-dnsop-nxdomain-cut
+    - RFC8020
+    
 ## WG chairs Work
+
+* draft-ietf-dnsop-nsec-aggressiveuse
+    - ended, needs Shepherd writeup
+
+* draft-ietf-dnsop-edns-key-tag
+    - ended, needs Shepherd writeup
 
 * draft-ietf-dnsop-resolver-priming
     - Submitted to IESG
 
 * draft-ietf-dnsop-dnssec-roadblock-avoidance
-    - Approved, Waiting
+    - AUTH48
      
-* draft-ietf-dnsop-nxdomain-cut
-    - Approved, Waiting
-
 * draft-ietf-dnsop-maintain-ds
-    - IESG Telechat 9-29
+    - Deferred
 
 * draft-ietf-dnsop-isp-ip6rdns
-    - Need to get a new version up, do the WGLC write-up
-    
+    - Waiting for author to address , do the WGLC write-up
+      
 ## In WGLC
-
-* draft-ietf-dnsop-nsec-aggressiveuse
-    ends 7 October
-
-* draft-ietf-dnsop-edns-key-tag
-    - ends 20 October
     
 ## current WGLC Order
   
@@ -35,7 +36,7 @@
     - working on an update
 
 * draft-ietf-dnsop-no-response-issue
-    (We still outstanding issues)
+    (outstanding issues may be resolved)
     
 ## Adopted
 
@@ -47,10 +48,16 @@
 
 ## Call for Adoption
 
-## Candidates
+## Candidates For Adoption
 
+* draft-vixie-dns-rpz
+ 
 * draft-wouters-sury-dnsop-algorithm-update
 
+* draft-yao-dnsop-accompanying-questions
+
+* draft-fujiwara-dnsop-resolver-update
+ 
 * draft-bellis-dnsext-multi-qtypes
     -  Architectural Discussions
 
@@ -58,11 +65,11 @@
 
 * draft-pounsett-transferring-automated-dnssec-zones
 
-## Needs Addressing
+* draft-dickinson-dnsop-dns-capture-format
 
-* draft-ietf-dnsop-rfc2317bis
-    - needs updates
-    - Lost Tony
+* draft-muks-dnsop-dns-catalog-zones
+
+## Needs Addressing
 
 * draft-ietf-dnsop-no-response-issue
     - Will not move forward with Remediation section
@@ -70,10 +77,6 @@
 * draft-ietf-dnsop-alt-tld
     - unsticking
       
-## considered for adoption
-
-* draft-muks-dnsop-dns-catalog-zones
-
 ## Trying to figure this one out
 
 * draft-woodworth-bulk-rr

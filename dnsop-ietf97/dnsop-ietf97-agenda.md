@@ -20,25 +20,32 @@
 
 * Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/), 10 min
 
+* Hoffman, DNS over HTTP BoF Happening
+
 ## Current Working Group Business
 
 * Andrews, [draft-ietf-dnsop-no-response-issue](https://datatracker.ietf.org/doc/draft-ietf-dnsop-no-response-issue/), 10 min
-    
-    Action:  With rewritten redmediation, ready for WGLC?
+    - Action:  With rewritten redmediation, ready for WGLC?
 
 * Chairs, Differences in Response Drafts, 10 min
-    Action: Hopefully captured the meta-discussion
+    - Action: Hopefully captured the meta-discussion
 
 ## New Working Group Business,  
 
 * Bortzmeyer, [draft-wallstrom-dnsop-dns-delegation-requirements](https://datatracker.ietf.org/doc/draft-wallstrom-dnsop-dns-delegation-requirements/), 15 min
-    Action:  Worth adopting?
+    - Action:  Worth adopting?
 
-* Dickson, [draft-dickinson-dnsop-dns-capture-format](https://datatracker.ietf.org/doc/draft-dickinson-dnsop-dns-capture-format/), 15 min
-    Action: More work on formats?
+* Dickinson, [draft-dickinson-dnsop-dns-capture-format](https://datatracker.ietf.org/doc/draft-dickinson-dnsop-dns-capture-format/), 15 min
+    - Action: More work on formats?
 
 * Fujiwara, [draft-fujiwara-dnsop-resolver-update](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-resolver-update/), 15 min
-    Action: Continue with work?
+    - Action: Continue with work?
 
-* Sivaraman, [draft-muks-dnsop-dns-catalog-zones](https://tools.ietf.org/html/draft-muks-dnsop-dns-catalog-zones-01), 10 min
+* Pounsett, [draft-pounsett-transferring-automated-dnssec-zones](https://datatracker.ietf.org/doc/draft-pounsett-transferring-automated-dnssec-zones/)
+    - Action: Worth pursuing?
+ 
+* Yao, [draft-yao-dnsop-accompanying-questions](https://datatracker.ietf.org/doc/draft-yao-dnsop-accompanying-questions/), 5 min
+    - Action: Requested adoption, is the draft and the WG ready?
+
+* Sivaraman, [draft-muks-dnsop-dns-catalog-zones](https://tools.ietf.org/html/draft-muks-dnsop-dns-catalog-zones-01), 5 min
 
