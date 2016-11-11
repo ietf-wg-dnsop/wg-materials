@@ -41,7 +41,7 @@
 * Fujiwara, [draft-fujiwara-dnsop-resolver-update](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-resolver-update/), 15 min
     - Action: Continue with work?
 
-* Pounsett, [draft-pounsett-transferring-automated-dnssec-zones](https://datatracker.ietf.org/doc/draft-pounsett-transferring-automated-dnssec-zones/)
+* Pounsett, [draft-pounsett-transferring-automated-dnssec-zones](https://datatracker.ietf.org/doc/draft-pounsett-transferring-automated-dnssec-zones/), 5 min
     - Action: Worth pursuing?
  
 * Yao, [draft-yao-dnsop-accompanying-questions](https://datatracker.ietf.org/doc/draft-yao-dnsop-accompanying-questions/), 5 min
