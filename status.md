@@ -2,8 +2,8 @@
 ### 12 October 2016
 
 # Done 
-* draft-ietf-dnsop-nxdomain-cut
-    - RFC8020
+
+* ~~draft-ietf-dnsop-nxdomain-cut~~ RFC8020
     
 ## WG chairs Work
 
@@ -26,7 +26,7 @@
     - Waiting for author to address , do the WGLC write-up
       
 ## In WGLC
-    
+
 ## current WGLC Order
   
 * draft-ietf-dnsop-refuse-any
@@ -44,7 +44,6 @@
     - work with HTTPbis
     
 * draft-bellis-dnsop-session-signal
-    - he took out the EDNS stuff, but little conversation yet
 
 ## Call for Adoption
 
@@ -57,12 +56,9 @@
 * draft-yao-dnsop-accompanying-questions
 
 * draft-fujiwara-dnsop-resolver-update
- 
-* draft-bellis-dnsext-multi-qtypes
-    -  Architectural Discussions
 
 * draft-hardaker-rfc5011-security-considerations
-
+ 
 * draft-pounsett-transferring-automated-dnssec-zones
 
 * draft-dickinson-dnsop-dns-capture-format
@@ -71,8 +67,8 @@
 
 ## Needs Addressing
 
-* draft-ietf-dnsop-no-response-issue
-    - Will not move forward with Remediation section
+* draft-bellis-dnsext-multi-qtypes
+    -  Architectural Discussions
 
 * draft-ietf-dnsop-alt-tld
     - unsticking
