@@ -22,27 +22,30 @@
 
 * Hoffman, DNS over HTTP BoF Happening
 
+* Chairs, [draft-ietf-dnsop-no-response-issue](https://datatracker.ietf.org/doc/draft-ietf-dnsop-no-response-issue/), 10 min
+    - Action:  With rewritten redmediation, ready for WGLC?
+
 ## Current Working Group Business
 
-* Andrews, [draft-ietf-dnsop-no-response-issue](https://datatracker.ietf.org/doc/draft-ietf-dnsop-no-response-issue/), 10 min
-    - Action:  With rewritten redmediation, ready for WGLC?
+* Cheshire, [draft-ietf-dnsop-session-signal](https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/)
 
 * Chairs, Differences in Response Drafts, 10 min
     - Action: Hopefully captured the meta-discussion
 
 ## New Working Group Business,  
 
-* Bortzmeyer, [draft-wallstrom-dnsop-dns-delegation-requirements](https://datatracker.ietf.org/doc/draft-wallstrom-dnsop-dns-delegation-requirements/), 15 min
+* Bortzmeyer, [draft-wallstrom-dnsop-dns-delegation-requirements](https://datatracker.ietf.org/doc/draft-wallstrom-dnsop-dns-delegation-requirements/), 10 min
     - Action:  Worth adopting?
 
-* Dickinson, [draft-dickinson-dnsop-dns-capture-format](https://datatracker.ietf.org/doc/draft-dickinson-dnsop-dns-capture-format/), 15 min
+* Dickinson, [draft-dickinson-dnsop-dns-capture-format](https://datatracker.ietf.org/doc/draft-dickinson-dnsop-dns-capture-format/), 10 min
     - Action: More work on formats?
+    - IPR Issue
 
 * Fujiwara, [draft-fujiwara-dnsop-resolver-update](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-resolver-update/), 15 min
     - Action: Continue with work?
 
 * Pounsett, [draft-pounsett-transferring-automated-dnssec-zones](https://datatracker.ietf.org/doc/draft-pounsett-transferring-automated-dnssec-zones/), 5 min
-    - Action: Worth pursuing?
+    - Action: Worth pursuing, and IPR Issue
  
 * Yao, [draft-yao-dnsop-accompanying-questions](https://datatracker.ietf.org/doc/draft-yao-dnsop-accompanying-questions/), 5 min
     - Action: Requested adoption, is the draft and the WG ready?

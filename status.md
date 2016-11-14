@@ -8,16 +8,16 @@
 ## WG chairs Work
 
 * draft-ietf-dnsop-nsec-aggressiveuse
-    - ended, needs Shepherd writeup
+    - ended, Shepherd writeup ongoing 
 
 * draft-ietf-dnsop-edns-key-tag
-    - ended, needs Shepherd writeup
+    - ended,Shepherd writeup happening
 
 * draft-ietf-dnsop-resolver-priming
     - Submitted to IESG
 
 * draft-ietf-dnsop-dnssec-roadblock-avoidance
-    - AUTH48
+    - AUTH48!
      
 * draft-ietf-dnsop-maintain-ds
     - Deferred
@@ -29,14 +29,14 @@
 
 ## current WGLC Order
   
+* draft-ietf-dnsop-no-response-issue
+    (outstanding issues may be resolved)
+
 * draft-ietf-dnsop-refuse-any
     - has some outstanding items. 
 
 * draft-ietf-dnsop-attrleaf
-    - working on an update
-
-* draft-ietf-dnsop-no-response-issue
-    (outstanding issues may be resolved)
+    - Mr. Crocker is working on an update
     
 ## Adopted
 
@@ -50,7 +50,9 @@
 ## Candidates For Adoption
 
 * draft-vixie-dns-rpz
- 
+    - Informational Initially
+    - -bis will address new features, etc. 
+
 * draft-wouters-sury-dnsop-algorithm-update
 
 * draft-yao-dnsop-accompanying-questions
@@ -60,9 +62,11 @@
 * draft-hardaker-rfc5011-security-considerations
  
 * draft-pounsett-transferring-automated-dnssec-zones
+    - There is that Dangling IPR that needs Addressing
 
 * draft-dickinson-dnsop-dns-capture-format
-
+    - Some great comments and discussion.
+    - 
 * draft-muks-dnsop-dns-catalog-zones
 
 ## Needs Addressing
