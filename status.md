@@ -55,19 +55,25 @@
 
 * draft-wouters-sury-dnsop-algorithm-update
 
-* draft-yao-dnsop-accompanying-questions
-
-* draft-fujiwara-dnsop-resolver-update
-
 * draft-hardaker-rfc5011-security-considerations
- 
-* draft-pounsett-transferring-automated-dnssec-zones
-    - There is that Dangling IPR that needs Addressing
+
+* draft-cheshire-sudn-ipv4only-dot-arpa
+
+* draft-wallstrom-dnsop-dns-delegation-requirements
 
 * draft-dickinson-dnsop-dns-capture-format
     - Some great comments and discussion.
-    - 
+
+* draft-fujiwara-dnsop-resolver-update
+
+* draft-pounsett-transferring-automated-dnssec-zones
+    - There is that Dangling IPR that needs Addressing
+
+* draft-yao-dnsop-accompanying-questions
+
 * draft-muks-dnsop-dns-catalog-zones
+
+* draft-york-dnsop-deploying-dnssec-crypto-algs
 
 ## Needs Addressing
 

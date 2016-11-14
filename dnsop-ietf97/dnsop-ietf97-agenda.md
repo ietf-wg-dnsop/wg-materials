@@ -29,9 +29,6 @@
 
 * Cheshire, [draft-ietf-dnsop-session-signal](https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/), 5 min
 
-* Chairs, Differences in Response Drafts, 10 min
-    - Action: Hopefully captured the meta-discussion
-
 ## New Working Group Business 
 
 * Cheshire, [draft-cheshire-sudn-ipv4only-dot-arpa](https://datatracker.ietf.org/doc/draft-cheshire-sudn-ipv4only-dot-arpa/), 5 min
