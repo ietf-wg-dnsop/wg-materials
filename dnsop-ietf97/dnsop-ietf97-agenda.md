@@ -16,23 +16,25 @@
 # Agenda
 ###  Agenda Bashing, Blue Sheets, etc,  10 min
 
-### Updates of Old Work, Chairs,  
+### Updates of Old Work, Chairs
 
 * Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/), 10 min
 
 * Hoffman, DNS over HTTP BoF Happening
 
-* Chairs, [draft-ietf-dnsop-no-response-issue](https://datatracker.ietf.org/doc/draft-ietf-dnsop-no-response-issue/), 10 min
+* Chairs, [draft-ietf-dnsop-no-response-issue](https://datatracker.ietf.org/doc/draft-ietf-dnsop-no-response-issue/), 5 min
     - Action:  With rewritten redmediation, ready for WGLC?
 
 ## Current Working Group Business
 
-* Cheshire, [draft-ietf-dnsop-session-signal](https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/)
+* Cheshire, [draft-ietf-dnsop-session-signal](https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/), 5 min
 
 * Chairs, Differences in Response Drafts, 10 min
     - Action: Hopefully captured the meta-discussion
 
-## New Working Group Business,  
+## New Working Group Business 
+
+* Cheshire, [draft-cheshire-sudn-ipv4only-dot-arpa](https://datatracker.ietf.org/doc/draft-cheshire-sudn-ipv4only-dot-arpa/), 5 min
 
 * Bortzmeyer, [draft-wallstrom-dnsop-dns-delegation-requirements](https://datatracker.ietf.org/doc/draft-wallstrom-dnsop-dns-delegation-requirements/), 10 min
     - Action:  Worth adopting?
@@ -52,3 +54,4 @@
 
 * Sivaraman, [draft-muks-dnsop-dns-catalog-zones](https://tools.ietf.org/html/draft-muks-dnsop-dns-catalog-zones-01), 5 min
 
+* York, [draft-york-dnsop-deploying-dnssec-crypto-algs](https://datatracker.ietf.org/doc/draft-york-dnsop-deploying-dnssec-crypto-algs/)
