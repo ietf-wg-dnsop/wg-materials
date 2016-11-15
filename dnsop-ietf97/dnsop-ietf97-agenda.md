@@ -40,7 +40,7 @@
     - Action: More work on formats?
     - IPR Issue
 
-* Fujiwara, [draft-fujiwara-dnsop-resolver-update](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-resolver-update/), 15 min
+* Fujiwara, [draft-fujiwara-dnsop-resolver-update](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-resolver-update/), 10 min
     - Action: Continue with work?
 
 * Pounsett, [draft-pounsett-transferring-automated-dnssec-zones](https://datatracker.ietf.org/doc/draft-pounsett-transferring-automated-dnssec-zones/), 5 min
