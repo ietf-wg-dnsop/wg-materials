@@ -1,0 +1,196 @@
+DNSOP @ IETF-97 2016/11/15 13:30 Grand Ballroom #1
+
+Chairs Tim Wicinski and Suzanne Woolf start meeting at 13:31
+Scribe: Olafur Gudmundsson and ....
+Jabber Scribe: Dan York
+
+<Note well> shown
+Agenda bashing
+RFC8020 took less than 1 year to publish
+
+Concluded LC nsec-agressive may need second LC due to changes and edns-key-tag
+Resolver-priming (after 10 years almost done)
+
+Maintain-ds is now blocked for RFC7344 to be advanced to standards track.
+
+refuse-any  waiting on editors update
+
+Special names problem statement sutld-ps adopted alt-tld in holding pattern
+NO discussion on this topic today!!!!!!
+Terry Mendelson threatinging a application for a TLD from Homenet may
+require a Interim meeting
+
+no-response-issue got big textual update, neeeds reviews soon as this is
+scheduled for WGLC SOON!!
+
+Candidates for adoption
+      draft-vixie-dns-rpz wants publication to document current practice
+       -biz can adopt new features
+       draft-wouters-sury-dnsop-algorithm-update
+       draft-hardaker-rfc5011-security-considerations needs feedback if
+       is of interest
+
+
+
+13:45 Paul Hoffman, [dns-terminology-bis]
+(https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/), 10 min
+did update late,
+
+* Hoffman, DNS over HTTP BoF Happening
+Location: Studio 7 at 18:45
+Http people want exact format of DNS HTTP, as http people want to
+have the ability to push DNS messages over HTTP.
+there are multiple drafts in this space.
+
+Multiple responses will be discussed on mailing list.
+
+* Chairs, [draft-ietf-dnsop-no-response-issue]
+(https://datatracker.ietf.org/doc/draft-ietf-dnsop-no-response-issue/), 5 min
+    - Action:  With rewritten redmediation, ready for WGLC?
+
+
+## Current Working Group Business
+
+13:50
+* Cheshire, [draft-ietf-dnsop-session-signal]
+(https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/), 5 min
+
+Question 1: Ray Bellis advocates using abbreviated 4-byte header instead of
+traditional 12-byte header.
+Is this a good idea?
+Some opinions on either side:
+Wes Hardaker asks if the savings are worth the security of risk creating a
+new parsing engine?
+Ray Bellis says this is doable
+SC does not care strongly about optimizations. Is asking for the opinion
+of the group.
+
+Question 2: Does every message need a response? Or can there be unilateral
+one-way messages?
+
+Question 3: Proposed terminology change, for clarity, from “idle timeout”
+to “KeepAlive interval”?
+
+## New Working Group Business
+13:58
+* Cheshire, [draft-cheshire-sudn-ipv4only-dot-arpa]
+(https://datatracker.ietf.org/doc/draft-cheshire-sudn-ipv4only-dot-arpa/), 5 min
+This is special name, but it is not listed in the Special Names registry.
+Usage is quite common on IPv6-only networks like cellphone operators have.
+Andrew Sullivan: There was fight in the WG that defined this (behave) over
+this topic, thus DNSOP should not adopt.
+Making the TTLS longer will mitigate the effect of server outages.
+Dan York: why do we think client will stop using this?
+SC: We don't think clients will stop using this. They will continue to use
+it, and we want it to work reliably.
+Paul Hoffman: Put it in the registry
+SC: Because the name is not listed as a special name, DNS64 gateways have
+to do a pointless lookup
+(that they already know the answer to) and that pointless lookup affects
+performance and reliability.
+Peter Koch: This is not needed and you may do more harm
+Matt Pounsett: This is special name and the document should be published
+Andrew Sullivan: On first reading of this draft I was convinced by the
+points it makes.
+Now I’m starting to have second thoughts again.
+I encourage others to read the document and form their own opinions.
+
+14:15
+
+* Bortzmeyer, [draft-wallstrom-dnsop-dns-delegation-requirements]
+(https://datatracker.ietf.org/doc/draft-wallstrom-dnsop-dns-delegation-requirements/), 10 min
+    - Action:  Worth adopting?
+
+    Jim Reed: what kind of status ==> BCP
+    discussion about Public Suffix list
+    George M: He strugles with delegation tests after delegations;
+    policing goes to bad place
+    Olafur: against adoption without major changes
+    John L: scared
+    Peter Koch: does post delegation checks hard to create list that
+    everyone can agree on; not describing eough may decrease the value
+    of the document, wants list of pure requirements
+    SW: non-response draft has been tuned down and how has tracktion
+    Ed Lewis: IETF should define the requirements for healthy delegations
+     not talk about how to/if enforce
+    David Conrad: agrees with Ed but invovkes policy
+    Jim Reid: agrees with Peter Koch for recommendations
+    Paul Hoffman: about TLS testing, there are multiple testers and they
+    all use differnt criteria's, the document is sloppy; Agrues against
+    restricting to hostnames.
+       "If you want delegation tests here is a list"
+    OndrejS: Things will be moving targets,
+    SW: will take question of the adoption is going to be taken to the list.
+
+
+14:37
+* Dickinson, [draft-dickinson-dnsop-dns-capture-format]
+(https://datatracker.ietf.org/doc/draft-dickinson-dnsop-dns-capture-format/), 10 min
+    - Action: More work on formats?
+    - IPR Issue
+
+  -- IPR disclosure WO
+     Shane Kerr: should adopt; performance?
+       SD: yes they have performance results, "remving data" seems to
+       help compression
+     GeorgeM: Defintily adopt this is appropritate. Observations: compression
+     of pcap is quite good.
+       SD: needs more meta data
+     SW: wg has not position on the IPR
+     Kaveh: Supports adoption strongly
+     Wes H: +1 on adoption
+
+     Hum for adotpion:  strong for ; none against
+
+
+14:53
+* Fujiwara, [draft-fujiwara-dnsop-resolver-update]
+(https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-resolver-update/), 15 min
+    - Action: Continue with work?
+
+  Olafur: strongly disagree there are no need for these changes
+  Onderj:  He supports making the behavior more deterministic
+  Witold:   This is a ugly hack, do not proceed
+  Ed Lews: NS will differ; wants
+  Peter Koch: small change to make sure delegation data is purged regularly
+  MarkA: only cache NS longer than the parent TTL even if they are
+  updated by shorter TTL in child
+
+  SW: more discussion needed before adoption
+
+
+  15:07
+
+* Pounsett, [draft-pounsett-transferring-automated-dnssec-zones]
+(https://datatracker.ietf.org/doc/draft-pounsett-transferring-automated-dnssec-zones/), 5 min
+    - Action: Worth pursuing, and IPR Issue
+
+    IPR issues; no jugdgemnt
+    needs more review and wants answers to questions on the mailing list
+
+    Kal Feher: as someone who does this regularly he supports addoption
+
+ 15:14
+* Yao, [draft-yao-dnsop-accompanying-questions]
+(https://datatracker.ietf.org/doc/draft-yao-dnsop-accompanying-questions/), 5 min
+    - Action: Requested adoption, is the draft and the WG ready?
+    Ondrej: Why is this needed ? this will be hard to use; sees no benefit
+    PaulH: wants more details and objects to a document w/o security
+    considerations
+
+
+* Sivaraman, [draft-muks-dnsop-dns-catalog-zones]
+(https://tools.ietf.org/html/draft-muks-dnsop-dns-catalog-zones-01), 5 min
+       John D: what about superzones in PowerDNS
+       Konstanstin: PowerDNS can not delete
+
+15:26
+* York, [draft-york-dnsop-deploying-dnssec-crypto-algs]
+(https://datatracker.ietf.org/doc/draft-york-dnsop-deploying-dnssec-crypto-algs/)
+
+       Paul, Dueane, Scott, ???
+
+
+15:28 END of meeting
+
+

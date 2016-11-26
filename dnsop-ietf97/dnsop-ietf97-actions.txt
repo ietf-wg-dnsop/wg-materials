@@ -1,0 +1,42 @@
+actions.txt
+
+All
+
+Folllowing up from the latest IETF meeting, we wanted to summarize the
+list of actions that DNSOP
+
+draft-ietf-dnsop-no-response-issue
+
+    This document will be put into WGLC "Very Soon"
+
+draft-vixie-dns-rpz
+
+    The Call for Adoption(CfA) will happen, the authors have
+    an -04 version they are preparing.
+
+draft-wouters-sury-dnsop-algorithm-update
+
+    This document should be going into a CfA soon
+
+draft-cheshire-sudn-ipv4only-dot-arpa
+
+    Whether it is relevant or not, DNSOP is not the place for this
+    document to move forward.
+
+draft-dickinson-dnsop-dns-capture-format
+
+    Strong consensus for adoption, and CfA already started.
+
+draft-muks-dnsop-dns-catalog-zones
+
+    Appears that there is mixed interest in starting a CfA
+
+The consesus with these documents need more reviews, and comments:
+
+    draft-pounsett-transferring-automated-dnssec-zones
+
+    draft-wallstrom-dnsop-dns-delegation-requirements
+
+    draft-fujiwara-dnsop-resolver-update
+
+    draft-york-dnsop-deploying-dnssec-crypto-algs

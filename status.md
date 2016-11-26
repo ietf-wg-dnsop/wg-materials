@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### 12 October 2016
+### 25 November 2016
 
 # Done 
 
@@ -8,10 +8,10 @@
 ## WG chairs Work
 
 * draft-ietf-dnsop-nsec-aggressiveuse
-    - ended, Shepherd writeup ongoing 
+    - Needs a second WGLC 
 
 * draft-ietf-dnsop-edns-key-tag
-    - ended,Shepherd writeup happening
+    - ended, Shepherd writeup happening
 
 * draft-ietf-dnsop-resolver-priming
     - Submitted to IESG
@@ -27,13 +27,13 @@
       
 ## In WGLC
 
+* draft-ietf-dnsop-refuse-any
+    - 10 December 2016
+
 ## current WGLC Order
   
 * draft-ietf-dnsop-no-response-issue
     (outstanding issues may be resolved)
-
-* draft-ietf-dnsop-refuse-any
-    - has some outstanding items. 
 
 * draft-ietf-dnsop-attrleaf
     - Mr. Crocker is working on an update
@@ -47,6 +47,8 @@
 
 ## Call for Adoption
 
+* draft-dickinson-dnsop-dns-capture-format
+
 ## Candidates For Adoption
 
 * draft-vixie-dns-rpz
@@ -55,14 +57,13 @@
 
 * draft-wouters-sury-dnsop-algorithm-update
 
+* draft-muks-dnsop-dns-catalog-zones
+
+## Needs more Review
+
 * draft-hardaker-rfc5011-security-considerations
 
-* draft-cheshire-sudn-ipv4only-dot-arpa
-
 * draft-wallstrom-dnsop-dns-delegation-requirements
-
-* draft-dickinson-dnsop-dns-capture-format
-    - Some great comments and discussion.
 
 * draft-fujiwara-dnsop-resolver-update
 
@@ -70,8 +71,6 @@
     - There is that Dangling IPR that needs Addressing
 
 * draft-yao-dnsop-accompanying-questions
-
-* draft-muks-dnsop-dns-catalog-zones
 
 * draft-york-dnsop-deploying-dnssec-crypto-algs
 
