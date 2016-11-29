@@ -20,8 +20,8 @@ draft-wouters-sury-dnsop-algorithm-update
 
 draft-cheshire-sudn-ipv4only-dot-arpa
 
-    Whether it is relevant or not, DNSOP is not the place for this
-    document to move forward.
+    Whether it is relevant or not, the draft could proceed through
+    DNSOP, though the authors may opt for Independent Submission.
 
 draft-dickinson-dnsop-dns-capture-format
 
