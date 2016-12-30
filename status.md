@@ -1,34 +1,33 @@
 # DNSOP Chairs Status
-### 25 November 2016
+### 28 December 2016
 
 # Done 
 
 * ~~draft-ietf-dnsop-nxdomain-cut~~ RFC8020
-    
+
+* ~~draft-ietf-dnsop-dnssec-roadblock-avoidance~~ RFC8027
+
 ## WG chairs Work
 
-* draft-ietf-dnsop-nsec-aggressiveuse
-    - Needs a second WGLC 
+* draft-ietf-dnsop-resolver-priming
+    - In editing cycle within IESG
 
 * draft-ietf-dnsop-edns-key-tag
-    - ended, Shepherd writeup happening
+    - in IESG process
 
-* draft-ietf-dnsop-resolver-priming
-    - Submitted to IESG
+* draft-ietf-dnsop-nsec-aggressiveuse
+    - second WGLC done, few issues left
 
-* draft-ietf-dnsop-dnssec-roadblock-avoidance
-    - AUTH48!
-     
 * draft-ietf-dnsop-maintain-ds
-    - Deferred
+    - Submitted to IESG
 
 * draft-ietf-dnsop-isp-ip6rdns
     - Waiting for author to address , do the WGLC write-up
-      
-## In WGLC
 
 * draft-ietf-dnsop-refuse-any
-    - 10 December 2016
+      - WGLC ended, addressing few outstanding issues
+      
+## In WGLC
 
 ## current WGLC Order
   
@@ -45,15 +44,13 @@
     
 * draft-bellis-dnsop-session-signal
 
-## Call for Adoption
-
 * draft-dickinson-dnsop-dns-capture-format
 
-## Candidates For Adoption
+## Call for Adoption
 
 * draft-vixie-dns-rpz
-    - Informational Initially
-    - -bis will address new features, etc. 
+
+## Candidates For Adoption
 
 * draft-wouters-sury-dnsop-algorithm-update
 

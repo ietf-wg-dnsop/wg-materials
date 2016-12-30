@@ -18,11 +18,6 @@ draft-wouters-sury-dnsop-algorithm-update
 
     This document should be going into a CfA soon
 
-draft-cheshire-sudn-ipv4only-dot-arpa
-
-    Whether the draft is relevant or not, it could proceed through
-    DNSOP, though the authors may opt for Independent Submission.
-
 draft-dickinson-dnsop-dns-capture-format
 
     Strong consensus for adoption, and CfA already started.
