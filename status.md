@@ -10,27 +10,33 @@
 ## WG chairs Work
 
 * draft-ietf-dnsop-resolver-priming
-    - In editing cycle within IESG
+    - AUTH48
+
+* draft-ietf-dnsop-maintain-ds
+    - AUTH48
 
 * draft-ietf-dnsop-edns-key-tag
     - in IESG process
 
 * draft-ietf-dnsop-nsec-aggressiveuse
-    - second WGLC done, few issues left
-
-* draft-ietf-dnsop-maintain-ds
     - Submitted to IESG
-
-* draft-ietf-dnsop-isp-ip6rdns
-    - Waiting for author to address , do the WGLC write-up
 
 * draft-ietf-dnsop-refuse-any
       - WGLC ended, addressing few outstanding issues
+      - Needs 2nd WGLC
       
+* draft-ietf-dnsop-isp-ip6rdns
+    - Waiting for author to address , do the WGLC write-up
+
+* draft-ietf-dnsop-sutld-ps
+    - WGLC completed, Awaiting write-up
+    
 ## In WGLC
 
 ## current WGLC Order
   
+* draft-ietf-dnsop-alt-tld
+
 * draft-ietf-dnsop-no-response-issue
     (outstanding issues may be resolved)
 
@@ -46,28 +52,26 @@
 
 * draft-dickinson-dnsop-dns-capture-format
 
-## Call for Adoption
-
 * draft-vixie-dns-rpz
 
-## Candidates For Adoption
+## Call for Adoption
 
 * draft-wouters-sury-dnsop-algorithm-update
 
-* draft-muks-dnsop-dns-catalog-zones
+## Candidates For Adoption
 
-## Needs more Review
+* draft-muks-dnsop-dns-catalog-zones
 
 * draft-hardaker-rfc5011-security-considerations
 
-* draft-wallstrom-dnsop-dns-delegation-requirements
+* draft-woodworth-bulk-rr
+
+## Needs more Review
 
 * draft-fujiwara-dnsop-resolver-update
 
 * draft-pounsett-transferring-automated-dnssec-zones
     - There is that Dangling IPR that needs Addressing
-
-* draft-yao-dnsop-accompanying-questions
 
 * draft-york-dnsop-deploying-dnssec-crypto-algs
 
@@ -76,10 +80,5 @@
 * draft-bellis-dnsext-multi-qtypes
     -  Architectural Discussions
 
-* draft-ietf-dnsop-alt-tld
-    - unsticking
+    - 
       
-## Trying to figure this one out
-
-* draft-woodworth-bulk-rr
-    - i don't like the perl syntax, but paul wouters is his mentor, and paul says his problem is real that GENERATE does not scale for them
