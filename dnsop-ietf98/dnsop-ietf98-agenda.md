@@ -18,6 +18,9 @@
 
 ### Updates of Old Work, Chairs,
 
+* Droms, [draft-ietf-dnsop-sutld-ps](https://datatracker.ietf.org/doc/draft-ietf-dnsop-sutld-ps/)
+    Summary from Interim
+
 ## Current Working Group Business
 
 * Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/), 10 min
@@ -30,7 +33,7 @@
 
 * draft-woodworth-bulk-rr
     BULK DNS Resource Records
-    
+
 ## New Working Group Business 
 
 * Vcelak, draft-vcelak-nsec5

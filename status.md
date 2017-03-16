@@ -1,29 +1,19 @@
 # DNSOP Chairs Status
-### 28 December 2016
+### 16 March 2017
 
 # Done 
 
-* ~~draft-ietf-dnsop-nxdomain-cut~~ RFC8020
+* ~~draft-ietf-dnsop-maintain-ds~~ RFC8078
 
-* ~~draft-ietf-dnsop-dnssec-roadblock-avoidance~~ RFC8027
+* ~~draft-ietf-dnsop-resolver-priming~~ RFC8109
 
 ## WG chairs Work
 
-* draft-ietf-dnsop-resolver-priming
-    - AUTH48
-
-* draft-ietf-dnsop-maintain-ds
-    - AUTH48
-
 * draft-ietf-dnsop-edns-key-tag
-    - in IESG process
+    - Submitted to IESG
 
 * draft-ietf-dnsop-nsec-aggressiveuse
     - Submitted to IESG
-
-* draft-ietf-dnsop-refuse-any
-      - WGLC ended, addressing few outstanding issues
-      - Needs 2nd WGLC
       
 * draft-ietf-dnsop-isp-ip6rdns
     - Waiting for author to address , do the WGLC write-up
@@ -32,6 +22,9 @@
     - WGLC completed, Awaiting write-up
     
 ## In WGLC
+
+* draft-ietf-dnsop-refuse-any
+      - 2nd WGLC ends 30 March 2017
 
 ## current WGLC Order
   
@@ -43,6 +36,9 @@
 * draft-ietf-dnsop-attrleaf
     - Mr. Crocker is working on an update
     
+*   draft-ietf-dnsop-session-signal
+    - Needs more Review
+
 ## Adopted
 
 * draft-song-dns-wireformat-http
@@ -58,13 +54,16 @@
 
 * draft-wouters-sury-dnsop-algorithm-update
 
+* draft-hardaker-rfc5011-security-considerations
+    - Ends 30 March 2017
+
 ## Candidates For Adoption
 
 * draft-muks-dnsop-dns-catalog-zones
 
-* draft-hardaker-rfc5011-security-considerations
-
 * draft-woodworth-bulk-rr
+
+* draft-wkumari-dnsop-extended-error
 
 ## Needs more Review
 

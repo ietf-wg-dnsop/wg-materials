@@ -1,0 +1,109 @@
+As required by RFC 4858, this is the current template for the Document
+Shepherd Write-Up.
+
+Document: draft-ietf-dnsop-nsec-aggressiveuse
+
+1)
+
+RFC Type: Proposed Standard
+Correct RFC type indicated in title:  yes
+
+This Document is the correct type as it updates an existing Standards
+Track Document (RFC4035)
+
+(1) What type of RFC is being requested (BCP, Proposed Standard,
+Internet Standard, Informational, Experimental, or Historic)?  Why
+is this the proper type of RFC?  Is this type of RFC indicated in the
+title page header?
+
+(2)
+
+Technical Summary
+
+This document specifies the use of NSEC/NSEC3 resource records to
+allow  DNSSEC validating resolvers to generate negative answers within
+a range, and positive answers from wildcards.  This increases
+performance / decreases latency, decreases resource utilization on
+both authoritative and recursive servers, and also increases privacy.
+It may also help increase resilience to certain DoS attacks in some
+circumstances.-33
+
+
+Working Group Summary
+
+  Was there anything in WG process that is worth noting? For
+  example, was there controversy about particular points or
+  were there decisions where the consensus was particularly
+  rough?
+
+Document Quality
+
+  Are there existing implementations of the protocol? Have a
+  significant number of vendors indicated their plan to
+  implement the specification? Are there any reviewers that
+  merit special mention as having done a thorough review,
+  e.g., one that resulted in important changes or a
+  conclusion that the document had no substantive issues? If
+  there was a MIB Doctor, Media Type or other expert review,
+  what was its course (briefly)? In the case of a Media Type
+  review, on what date was the request posted?
+
+Personnel
+
+  Who is the Document Shepherd? Who is the Responsible Area
+  Director?
+
+Document Shepherd: Tim Wicinski
+
+Area Director:    Joel Jaeggli
+
+(3)
+The document shepherd did a deep dive on the document for technical
+correctness, as well as an editorial pass for grammar and diction.
+The shepherd feels this document is ready for publication.
+
+(4)
+The document shepherd does not have any concerns about the depth or breath of
+the reviews.
+
+(5)
+No additional reviews needed.
+
+(6)
+The document shepherd has no concerns about this document for the Area
+Directors.
+
+(7) The authors have confirmed they are not aware of any IPR against this
+document.
+
+(9)
+The working group is in strong consenus for this document.
+
+(10)
+There has been no extreme discontent.
+
+(11)
+No Nits found
+
+(12)
+
+(13)
+All references have been identified as normative or informative
+
+(14)
+There are no normative references in an unclear state
+
+(15)
+There are no downward normative references
+
+
+(16)
+Publication of this document will update RFC 4035.
+
+(17)
+The IANA Considerations section requests the assignment of a new
+EDNS0 option code.  Discussing with the Expert Reviewer of DNS parameters,
+this section is correctly structured
+
+(18)
+No new IANA Registries
