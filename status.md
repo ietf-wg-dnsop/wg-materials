@@ -1,11 +1,11 @@
 # DNSOP Chairs Status
-### 16 March 2017
+#### Updated: 16 March 2017
 
 # Done 
 
-* ~~draft-ietf-dnsop-maintain-ds~~ RFC8078
+* ~~draft-ietf-dnsop-maintain-ds~~ **RFC8078**
 
-* ~~draft-ietf-dnsop-resolver-priming~~ RFC8109
+* ~~draft-ietf-dnsop-resolver-priming~~ **RFC8109**
 
 ## WG chairs Work
 
@@ -16,7 +16,7 @@
     - Submitted to IESG
       
 * draft-ietf-dnsop-isp-ip6rdns
-    - Waiting for author to address , do the WGLC write-up
+    - Authors have updated, needs another WGLC
 
 * draft-ietf-dnsop-sutld-ps
     - WGLC completed, Awaiting write-up
@@ -31,10 +31,10 @@
 * draft-ietf-dnsop-alt-tld
 
 * draft-ietf-dnsop-no-response-issue
-    (outstanding issues may be resolved)
+    - (outstanding issues may be resolved)
 
 * draft-ietf-dnsop-attrleaf
-    - Mr. Crocker is working on an update
+    - updated, needs a final review, appsarea
     
 *   draft-ietf-dnsop-session-signal
     - Needs more Review
@@ -44,8 +44,6 @@
 * draft-song-dns-wireformat-http
     - work with HTTPbis
     
-* draft-bellis-dnsop-session-signal
-
 * draft-dickinson-dnsop-dns-capture-format
 
 * draft-vixie-dns-rpz
