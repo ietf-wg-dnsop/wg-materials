@@ -3,10 +3,6 @@
 
 # Done 
 
-* ~~draft-ietf-dnsop-maintain-ds~~ **RFC8078**
-
-* ~~draft-ietf-dnsop-resolver-priming~~ **RFC8109**
-
 ## WG chairs Work
 
 * draft-ietf-dnsop-edns-key-tag
@@ -21,14 +17,18 @@
 * draft-ietf-dnsop-sutld-ps
     - WGLC completed, Awaiting write-up
     
+* draft-ietf-dnsop-refuse-any
+      - 2nd WGLC ended, needs Write Up
+
 ## In WGLC
 
-* draft-ietf-dnsop-refuse-any
-      - 2nd WGLC ends 30 March 2017
+* draft-ietf-dnsop-alt-tld
 
 ## current WGLC Order
-  
-* draft-ietf-dnsop-alt-tld
+
+* draft-ietf-dnsop-session-signal
+    - a revision from WGLC
+    - needs to follow up with security
 
 * draft-ietf-dnsop-no-response-issue
     - (outstanding issues may be resolved)
@@ -36,24 +36,25 @@
 * draft-ietf-dnsop-attrleaf
     - updated, needs a final review, appsarea
     
-*   draft-ietf-dnsop-session-signal
-    - Needs more Review
 
 ## Adopted
 
+* draft-kristoff-dnsop-dns-tcp-requirements
+
+* draft-hunt-dnsop-aname
+
 * draft-song-dns-wireformat-http
     - work with HTTPbis
-    
+
 * draft-dickinson-dnsop-dns-capture-format
 
 * draft-vixie-dns-rpz
 
-## Call for Adoption
-
 * draft-wouters-sury-dnsop-algorithm-update
 
 * draft-hardaker-rfc5011-security-considerations
-    - Ends 30 March 2017
+
+## Call for Adoption
 
 ## Candidates For Adoption
 
@@ -74,8 +75,5 @@
 
 ## Needs Addressing
 
-* draft-bellis-dnsext-multi-qtypes
-    -  Architectural Discussions
 
-    - 
-      
+

@@ -14,16 +14,20 @@
 
 ---
 # Agenda
-###  Agenda Bashing, Blue Sheets, etc,  10 min
+##  Agenda Bashing, Blue Sheets, etc,  10 min
 
-### Updates of Old Work, Chairs
-
-* Droms, [draft-ietf-dnsop-sutld-ps](https://datatracker.ietf.org/doc/draft-ietf-dnsop-sutld-ps/)
-    Summary from Interim
+## Updates of Old Work, Chairs
 
 ## Current Working Group Business
 
 * Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/), 10 min
+
+## New Working Group Business 
+
+* Vcelak, [draft-vcelak-nsec5](https://datatracker.ietf.org/doc/html/draft-vcelak-nsec5)
+    NSEC5, DNSSEC Authenticated Denial of Existence
+
+## Current Working Group Business (cont)
 
 * Dickinson, [draft-ietf-dnsop-dns-capture-format](https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-dns-capture-format)
     C-DNS: A DNS Packet Capture Format
@@ -40,9 +44,6 @@
 * Arends, [draft-arends-dnsop-dnssec-algorithm-update]
 (https://datatracker.ietf.org/doc/html/draft-arends-dnsop-dnssec-algorithm-update)
 
-* Vcelak, [draft-vcelak-nsec5](https://datatracker.ietf.org/doc/html/draft-vcelak-nsec5)
-    NSEC5, DNSSEC Authenticated Denial of Existence
-
 * Kristoff, [draft-kristoff-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/html/draft-kristoff-dnsop-dns-tcp-requirements)
     DNS Transport over TCP - Operational Requirements
 
@@ -52,7 +53,7 @@
 * Lawrence, [draft-tale-dnsop-edns0-clientid](https://datatracker.ietf.org/doc/html/draft-tale-dnsop-edns0-clientid)
     Client ID in Forwarded DNS Queries
 
-* Lawrence, [draft-wkumari-dnsop-extended-error](https://datatracker.ietf.org/doc/html/draft-wkumari-dnsop-extended-error)
+* Hardaker, [draft-wkumari-dnsop-extended-error](https://datatracker.ietf.org/doc/html/draft-wkumari-dnsop-extended-error)
     Extended DNS Errors
 
 * Sury, [draft-sury-dnssec-nsec3-blake2]
