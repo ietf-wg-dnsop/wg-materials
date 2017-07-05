@@ -5,13 +5,16 @@
 * Date: Tuesday 18 July 2017
 * Time: 15:50-17:50 CEST (UTC+2)
 * Room: Congress Hall II
+
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
 
 * Secretary: Paul Hoffman <paul.hoffman@vpnc.org>
 
-[DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
-[DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
+* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ---
 ## Agenda
@@ -20,7 +23,7 @@
 
 *  Agenda Bashing, Blue Sheets, etc,  10 min
 
-* Updates of Old Work, Chairs, 5min
+* Updates of Old Work, Chairs, 5 min
 
 ---
 ### Current Working Group Business
@@ -35,13 +38,13 @@ outstanding: how to store malformed packets
 outstanding: Mike's issues with multiple-key wording
 
 * [draft-ietf-dnsop-aname](https://tools.ietf.org/html/draft-ietf-dnsop-aname/), van Dijk, 15min
-action: next steps?
+Action: next steps?
 
 * [draft-ietf-dnsop-session-signal](https://tools.ietf.org/html/draft-ietf-dnsop-session-signal/), Dickinson, 10min
-action: Enough reviews? Is it ready for WGLC?
+Action: Enough reviews? Is it ready for WGLC?
 
 * [draft-woodworth-bulk-rr](https://tools.ietf.org/html/draft-woodworth-bulk-rr/), Lawrence, 10min
-action: new simplified version, adoption?
+Action: new simplified version, adoption?
 
 ---
 ### New Working Group Business
@@ -59,13 +62,16 @@ action: compare/contrast versions
 * Date: Thursday 20 July 2017
 * Time: 18:10-19:10 CEST (UTC+2)
 * Room: Grand Hilton Ballroom
+
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
 
 * Secretary: Paul Hoffman <paul.hoffman@vpnc.org>
 
-[DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
-[DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
+* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ---
 ## Agenda
