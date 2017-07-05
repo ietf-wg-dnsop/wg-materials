@@ -1,0 +1,46 @@
+big followup items:
+    - bulk-rr
+    - rpz
+    - alt.tld WGLC
+    - sups-tldr shepherd write up
+        time IETF around problem statement
+    - follow up on additional expert review
+
+dnsop-terminology-bis
+    Section 2 needs review, shooting for Prague WGLC
+
+draft-ietf-dnsop-session-signal
+    - a revision from WGLC
+    - needs to follow up with security
+
+draft-ietf-dnsop-dns-capture-format
+
+draft-ietf-dnsop-attrleaf
+    Needs to address some outstanding issues, but close to WGLC
+
+draft-vcelak-nsec5
+    Feedback given, looking for adoption, does not seem likely
+
+draft-woodworth-bulk-rr
+    need to talk to lawrence
+
+draft-wouters-sury-dnsop-algorithm-update
+     adopted but change to BCP
+
+draft-arends-dnsop-dnssec-algorithm-update
+    adopt?
+
+draft-kristoff-dnsop-dns-tcp-requirements
+    call for adoption
+
+draft-bellis-dnsop-xpf
+draft-tale-dnsop-edns0-clientid
+    - merge these two
+
+draft-wkumari-dnsop-extended-error
+    need to push
+
+draft-tale-dnsop-serve-stale
+
+draft-dnsop-eden-alias-rr-type
+    - merging with evan and peter

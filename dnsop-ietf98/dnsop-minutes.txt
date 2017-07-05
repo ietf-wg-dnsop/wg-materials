@@ -1,0 +1,162 @@
+## DNS Operations (DNSOP) Working Group
+# IETF 98, Chicago
+
+### Date: Monday 27 March 2017
+### Time: 13:00-15:00 CST (19:00-21:00 UTC)
+### Room: Zurich D
+### Chairs: Tim Wicinski
+### Chairs: Suzanne Woolf
+
+## Secretary: Paul Hoffman
+
+[DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+[DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
+---
+# Agenda
+##  Agenda Bashing, Blue Sheets, etc,  10 min
+
+## Updates of Old Work, Chairs
+
+New AD: Warren
+
+Stuart Cheshire speaks on session-signaling : one more revision than WGLC
+
+## Current Working Group Business
+
+* Hoffman, [dns-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/), 10 min
+
+George Michaelson(GM): Will not get full consensus on all terms
+
+unknown: start writing the older ones
+
+Paul Hoffman: Off topic for this
+
+Andrew Sullivan: look at other definitions, and see if they make sense
+
+Dan York for Viktor define 'interderminate' in DNSSEC
+
+PH: take to the list, but yes
+
+PH: WGLC by Prague hopefully
+
+* Vcelak, [draft-vcelak-nsec5](https://datatracker.ietf.org/doc/html/draft-vcelak-nsec5)
+    NSEC5, DNSSEC Authenticated Denial of Existence
+
+Ondrej: Simlified Draft
+
+unknown: nit on private vs crypto key
+
+Evsn Hunt: elegant solution to a problem I don;t think we have
+  Never heard anyone adopting dnssec w.out nsec5
+
+Daniel Kahn Gilmour:  says he knows of people who want to deploy but are waiting for NSEC5
+
+Dan York/Sam Weiler; get them to explain their requirements to us
+Dan/Viktor - planning support for x2559
+Shumon Huque:
+Sam Weiler: details or it didn't work
+Peter Koch: how will it interact with aggressive negative caching
+
+AJS: can we implement practically  ; cost to deply; cost to standards process
+depolyment effects i plan
+
+several other algorithm transistions coming up :
+
+paul vixie: zone enumeration demo using acid dns
+
+roy arends: proof key posted but the signing key is not public
+
+jim reid: IPR issues -
+
+Sara: still open IPR issues
+
+* Dickinson, [draft-ietf-dnsop-dns-capture-format](https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-dns-capture-format)
+    C-DNS: A DNS Packet Capture Format
+
+Roy Arends: love this stuff. parsing packet handling
+
+Brian Dickson: Compression pointer rabbit hole
+
+* Crocker, [draft-ietf-dnsop-attrleaf](https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-attrleaf)
+    DNS Scoped Data Through '_Underscore' Attribute Leaves
+
+DC: should go back and fix SRV and URI specs
+
+Jim Fenton: confused on leaf
+
+Lars:  haggle about the leaf part. how many need changing?
+
+DC: only two
+
+John Levine; situation less dire. SRV is fine.
+
+Brian Dickson: weird table Q
+
+Stuart Cheshire: 2782 things is fixed
+
+Paul Vixie: History may be added to document - underbars bad in hostname.
+IANA said did not need registry but now it is obvious it is needed
+
+
+* Lawrence, [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/html/draft-woodworth-bulk-rr)
+    BULK DNS Resource Records
+
+Working with Century link folks. trying to clean up
+
+Ondrej: generally like the idea, have something similar in knot.
+overengineered.
+
+Stephane Bortzmayer: RUnning Code? Like NPN but not that easy to
+understand
+
+Brian Dickson: perl regexp
+
+Jimmeni: fairly complicated
+
+Willhem: same position as Ondrej
+
+John Levine; fundamental change to how name servers operate
+
+
+## New Working Group Business
+
+* Wouters, [draft-wouters-sury-dnsop-algorithm-update](https://datatracker.ietf.org/doc/html/draft-wouters-sury-dnsop-algorithm-update)
+* Arends, [draft-arends-dnsop-dnssec-algorithm-update]
+(https://datatracker.ietf.org/doc/html/draft-arends-dnsop-dnssec-algorithm-update)
+
+Paul Wouters; Want to deprecate SHA1 but have run into an issue
+
+AJS: Tried in dnsext, was painful adding to registry
+
+PW: not going into registry, just the RFC
+
+DKG: Putting in registry not outlandish
+
+Christian:
+
+Evan Hunt: discussion on ignoring the validators
+
+Roy Arends Presenting: moving SHA1 from Mandatory to Recommended
+Turn Pauls' draft to BCP
+
+Olafur: no operators direction
+
+* Kristoff, [draft-kristoff-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/html/draft-kristoff-dnsop-dns-tcp-requirements)
+    DNS Transport over TCP - Operational Requirements
+
+Several folks step up to say it should be adopted
+
+* Bellis, [draft-bellis-dnsop-xpf](https://datatracker.ietf.org/doc/html/draft-bellis-dnsop-xpf)
+    EDNS X-Proxied-For
+
+* Lawrence, [draft-tale-dnsop-edns0-clientid](https://datatracker.ietf.org/doc/html/draft-tale-dnsop-edns0-clientid)
+    Client ID in Forwarded DNS Queries
+* Lawrence, [draft-tale-dnsop-serve-stale](https://datatracker.ietf.org/doc/html/draft-tale-dnsop-serve-stale)
+    Serving Stale Data to Improve DNS Resiliency
+
+* Hardaker, [draft-wkumari-dnsop-extended-error](https://datatracker.ietf.org/doc/html/draft-wkumari-dnsop-extended-error)
+    Extended DNS Errors
+
+* Sury, [draft-sury-dnssec-nsec3-blake2]
+    Use of BLAKE2 Algoritms in Hashed Authentication Denial of Existence (NSEC3) Records for DNSSEC

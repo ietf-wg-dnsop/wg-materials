@@ -1,86 +1,90 @@
-## DNS Operations (DNSOP) Working Group
-# IETF 99, Prague
+# DNS Operations (DNSOP) Working Group
+## IETF 99, Prague
+### Session I
 
-### Date: Tuesday 
-### Time: 
-### Room: 
-### Chairs: Tim Wicinski <tjw.ietf@gmail.com>
-### Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Date: Tuesday 18 July 2017
+* Time: 15:50-17:50 CEST (UTC+2)
+* Room: Congress Hall II
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
 
-## Secretary: Paul Hoffman <paul.hoffman@vpnc.org>
+* Secretary: Paul Hoffman <paul.hoffman@vpnc.org>
 
 [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
 [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ---
-# Agenda
-##  Agenda Bashing, Blue Sheets, etc,  10 min
+## Agenda
 
-## Updates of Old Work, Chairs, 5min
+### Administrivitia 
 
-## Current Working Group Business
+*  Agenda Bashing, Blue Sheets, etc,  10 min
 
-### draft-ietf-dnsop-terminology-bis, Hoffman, 10min
-    https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/
-    action: get some more reviews and determine how far from WGLC
+* Updates of Old Work, Chairs, 5min
 
-### draft-ietf-dnsop-dns-capture-format, Dickinson, 10min
-    https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-capture-format/
-    outstanding: how to store malformed packets
+---
+### Current Working Group Business
 
-### draft-ietf-dnsop-rfc5011-security-considerations, Hardaker, 15min
-    https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc5011-security-considerations/
-    outstanding: Mike's issues with multiple-key wording
+* [draft-ietf-dnsop-terminology-bis](https://tools.ietf.org/html/draft-ietf-dnsop-terminology-bis/), Hoffman, 10min
+Action: get some more reviews and determine how far from WGLC
 
-### draft-ietf-dnsop-aname, van Dijk, 15min
-    https://datatracker.ietf.org/doc/draft-ietf-dnsop-aname/
-    action: next steps? 
+* [draft-ietf-dnsop-dns-capture-format](https://tools.ietf.org/html/draft-ietf-dnsop-dns-capture-format/), Dickinson, 10min
+outstanding: how to store malformed packets
 
-### draft-ietf-dnsop-session-signal, Dickinson, 10min
-    https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/
-    action: Enough reviews? Is it ready for WGLC? 
+* [draft-ietf-dnsop-rfc5011-security-considerations](https://tools.ietf.org/html/draft-ietf-dnsop-rfc5011-security-considerations/), Hardaker, 15min
+outstanding: Mike's issues with multiple-key wording
 
-### draft-woodworth-bulk-rr, Lawrence, 10min
-    https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/
-    action: new simplified version, adoption?
+* [draft-ietf-dnsop-aname](https://tools.ietf.org/html/draft-ietf-dnsop-aname/), van Dijk, 15min
+action: next steps?
 
-## New Working Group Business 
+* [draft-ietf-dnsop-session-signal](https://tools.ietf.org/html/draft-ietf-dnsop-session-signal/), Dickinson, 10min
+action: Enough reviews? Is it ready for WGLC?
+
+* [draft-woodworth-bulk-rr](https://tools.ietf.org/html/draft-woodworth-bulk-rr/), Lawrence, 10min
+action: new simplified version, adoption?
+
+---
+### New Working Group Business
 
 ### Serve Old Data or Prefetch ?
 
-### draft-tale-dnsop-serve-stale, Lawrence, 15min
-    https://datatracker.ietf.org/doc/draft-tale-dnsop-serve-stale/
- 
-### draft-muks-dnsop-dns-opportunistic-refresh, Morris, 15min
-    https://datatracker.ietf.org/doc/draft-muks-dnsop-dns-opportunistic-refresh/
+* [draft-tale-dnsop-serve-stale](https://tools.ietf.org/html/draft-tale-dnsop-serve-stale/), Lawrence, 15min
 
-    action: compare/contrast versions
-
-## End of Session I
----
-Session II
-
-### Date: Thursday 20 July 2017
-### Time: 18:10-19:10 CEST (UTC+2)
-### Room: Grand Hilton Ballroom
+* [draft-muks-dnsop-dns-opportunistic-refresh](https://tools.ietf.org/html/draft-muks-dnsop-dns-opportunistic-refresh/), Morris, 15min
+action: compare/contrast versions
 
 ---
-# Agenda
-##  Agenda Bashing, Blue Sheets, etc,  10 min
+## Session II
 
-## New Working Group Business 
+* Date: Thursday 20 July 2017
+* Time: 18:10-19:10 CEST (UTC+2)
+* Room: Grand Hilton Ballroom
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
 
-### draft-bellis-dnsop-xpf, van Dijk, 10min
-    https://datatracker.ietf.org/doc/draft-bellis-dnsop-xpf/
+* Secretary: Paul Hoffman <paul.hoffman@vpnc.org>
 
-### draft-wkumari-dnsop-extended-error, Kumari(?), 10min
-    https://datatracker.ietf.org/doc/draft-wkumari-dnsop-extended-error/
+[DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+[DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-### draft-tale-dnsop-edns0-clientid, Lawrence, 10min
-    https://datatracker.ietf.org/doc/draft-tale-dnsop-edns0-clientid/
+---
+## Agenda
 
-### draft-edmonds-dnsop-capabilities, Edmonds, 10min
-    https://datatracker.ietf.org/doc/draft-edmonds-dnsop-capabilities/
+### Administrivitia 
 
-### draft-huque-dnssec-alg-nego, Huque, 10 min
-    https://datatracker.ietf.org/doc/draft-huque-dnssec-alg-nego/
+*  Agenda Bashing, Blue Sheets, etc,  10 min
+
+---
+### New Working Group Business
+
+* [draft-bellis-dnsop-xpf](https://tools.ietf.org/html/draft-bellis-dnsop-xpf/), van Dijk, 10min
+
+* [draft-wkumari-dnsop-extended-error](https://tools.ietf.org/html/draft-wkumari-dnsop-extended-error/), Kumari(?), 10min
+
+* [draft-tale-dnsop-edns0-clientid](https://tools.ietf.org/html/draft-tale-dnsop-edns0-clientid/), Lawrence, 10min
+
+* [draft-edmonds-dnsop-capabilities](https://tools.ietf.org/html/draft-edmonds-dnsop-capabilities/), Edmonds, 10min
+
+* [draft-huque-dnssec-alg-nego](https://tools.ietf.org/html/draft-huque-dnssec-alg-nego/), Huque, 10 min
+
+
