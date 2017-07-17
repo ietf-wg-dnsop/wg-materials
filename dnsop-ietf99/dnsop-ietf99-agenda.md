@@ -19,7 +19,7 @@
 ---
 ## Agenda
 
-### Administrivitia 
+### Administrivia 
 
 *  Agenda Bashing, Blue Sheets, etc,  10 min
 
@@ -32,19 +32,19 @@
 Action: get some more reviews and determine how far from WGLC
 
 * [draft-ietf-dnsop-dns-capture-format](https://tools.ietf.org/html/draft-ietf-dnsop-dns-capture-format/), Dickinson, 10min
-outstanding: how to store malformed packets
+Outstanding: how to store malformed packets, and more issues from hackathon
 
 * [draft-ietf-dnsop-rfc5011-security-considerations](https://tools.ietf.org/html/draft-ietf-dnsop-rfc5011-security-considerations/), Hardaker, 15min
-outstanding: Mike's issues with multiple-key wording
+Outstanding: Have Wes and Mike Hugged it out?
 
 * [draft-ietf-dnsop-aname](https://tools.ietf.org/html/draft-ietf-dnsop-aname/), van Dijk, 15min
-Action: next steps?
+Action: Next Steps?
 
 * [draft-ietf-dnsop-session-signal](https://tools.ietf.org/html/draft-ietf-dnsop-session-signal/), Dickinson, 10min
-Action: Enough reviews? Is it ready for WGLC?
+Outstanding: Authors appear to be in conflict
 
 * [draft-woodworth-bulk-rr](https://tools.ietf.org/html/draft-woodworth-bulk-rr/), Lawrence, 10min
-Action: new simplified version, adoption?
+Action: New simplified version? Ready For Adoption?
 
 ---
 ### New Working Group Business
@@ -76,7 +76,7 @@ action: compare/contrast versions
 ---
 ## Agenda
 
-### Administrivitia 
+### Administrivia 
 
 *  Agenda Bashing, Blue Sheets, etc,  10 min
 
@@ -92,5 +92,8 @@ action: compare/contrast versions
 * [draft-edmonds-dnsop-capabilities](https://tools.ietf.org/html/draft-edmonds-dnsop-capabilities/), Edmonds, 10min
 
 * [draft-huque-dnssec-alg-nego](https://tools.ietf.org/html/draft-huque-dnssec-alg-nego/), Huque, 10 min
+
+### Business As time allots
+
 
 
