@@ -21,7 +21,7 @@
 
 ### Administrivia 
 
-*  Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc,  10 min
 
 * Updates of Old Work, Chairs, 5 min
 
@@ -78,20 +78,25 @@ action: compare/contrast versions
 
 ### Administrivia 
 
-*  Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc,  10 min
 
 ---
 ### New Working Group Business
 
 * [draft-bellis-dnsop-xpf](https://tools.ietf.org/html/draft-bellis-dnsop-xpf/), van Dijk, 10min
+Action:  Candidate for Adoption?
 
 * [draft-wkumari-dnsop-extended-error](https://tools.ietf.org/html/draft-wkumari-dnsop-extended-error/), Kumari(?), 10min
+Action:  Candidate for Adoption?
 
 * [draft-tale-dnsop-edns0-clientid](https://tools.ietf.org/html/draft-tale-dnsop-edns0-clientid/), Lawrence, 10min
+Action:  Candidate for Adoption?
 
 * [draft-edmonds-dnsop-capabilities](https://tools.ietf.org/html/draft-edmonds-dnsop-capabilities/), Edmonds, 10min
+Action:  Candidate for Adoption?
 
 * [draft-huque-dnssec-alg-nego](https://tools.ietf.org/html/draft-huque-dnssec-alg-nego/), Huque, 10 min
+Action:  Candidate for Adoption?
 
 ### Business As time allots
 
