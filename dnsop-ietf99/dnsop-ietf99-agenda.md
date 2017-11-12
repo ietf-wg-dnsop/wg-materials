@@ -38,10 +38,10 @@ Outstanding: how to store malformed packets, and more issues from hackathon
 Outstanding: Have Wes and Mike Hugged it out?
 
 * [draft-ietf-dnsop-aname](https://tools.ietf.org/html/draft-ietf-dnsop-aname/), van Dijk, 15min
-Action: Next Steps?
+Action: Next Steps to WGLC? Reviewers, open items
 
 * [draft-ietf-dnsop-session-signal](https://tools.ietf.org/html/draft-ietf-dnsop-session-signal/), Dickinson, 10min
-Outstanding: Authors appear to be in conflict
+Outstanding: Authors appear to be in discussion, needs more reviews
 
 * [draft-woodworth-bulk-rr](https://tools.ietf.org/html/draft-woodworth-bulk-rr/), Lawrence, 10min
 Action: New simplified version? Ready For Adoption?

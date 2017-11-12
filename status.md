@@ -1,72 +1,79 @@
 # DNSOP Chairs Status
-#### Updated: 16 March 2017
+#### Updated: 30 July 2017
 
 # Done 
 
-## WG chairs Work
-
-* draft-ietf-dnsop-edns-key-tag
-    - Submitted to IESG
-
-* draft-ietf-dnsop-nsec-aggressiveuse
-    - Submitted to IESG
-
 * draft-ietf-dnsop-sutld-ps
-    - Submitted to IESG
-      
-* draft-ietf-dnsop-isp-ip6rdns
-    - Authors have updated, needs another WGLC
+    - RFC8244
 
 * draft-ietf-dnsop-alt-tld
 
-    
+## WG chairs Work
+
+* draft-ietf-dnsop-isp-ip6rdns
+    - Authors have updated, needs another WGLC
+
 * draft-ietf-dnsop-refuse-any
       - 2nd WGLC ended, needs Write Up
 
 ## In WGLC
 
+* draft-hardaker-rfc5011-security-considerations
 
 ## current WGLC Order
 
 * draft-ietf-dnsop-session-signal
     - a revision from WGLC
 
-* draft-dickinson-dnsop-dns-capture-format
-
 * draft-ietf-dnsop-attrleaf
-    - updated, needs a final review, appsarea
-    
-* draft-hardaker-rfc5011-security-considerations
+    - Author has comments to fold in, will re-submit
+
+* draft-dickinson-dnsop-dns-capture-format
 
 * draft-ietf-dnsop-no-response-issue
     - (outstanding issues may be resolved)
 
 ## Adopted
 
-* draft-kristoff-dnsop-dns-tcp-requirements
+* draft-ietf-dnsop-dns-tcp-requirements
 
-* draft-hunt-dnsop-aname
+* draft-ietf-dnsop-aname
 
 * draft-song-dns-wireformat-http
     - work with HTTPbis
 
 * draft-vixie-dns-rpz
 
-* draft-wouters-sury-dnsop-algorithm-update
+* draft-ietf-dnsop-extended-error
+
+* draft-ietf-dnsop-serve-stale
+
+* draft-ietf-dnsop-terminology-bis
 
 ## Call for Adoption
 
+
 ## Candidates For Adoption
 
-* draft-muks-dnsop-dns-catalog-zones
+* draft-dupont-dnsop-rfc2845bis
 
 * draft-woodworth-bulk-rr
 
-* draft-wkumari-dnsop-extended-error
+* draft-wouters-sury-dnsop-algorithm-update
+
+* draft-bellis-dnsop-xpf
+
+## Possible Candidates 
+
+* draft-huston-kskroll-sentinel
+
+* draft-fujiwara-dnsop-additional-answers
+
+* draft-mglt-dnsop-dnssec-validator-requirements 
+
+* draft-wkumari-dnsop-internal
 
 ## Needs more Review
-
-* draft-york-dnsop-deploying-dnssec-crypto-algs
 
 ## Needs Addressing
 

@@ -34,7 +34,7 @@
 * [draft-ietf-dnsop-rfc5011-security-considerations](https://tools.ietf.org/html/draft-ietf-dnsop-rfc5011-security-considerations-07), Hardaker, 10min
     WGLC ended with lack of consensus and gaping questions. 
 
-* [draft-ietf-dnsop-extended-error](https://tools.ietf.org/html/draft-ietf-dnsop-extended-error-00), Hardeker, 10min
+* [draft-ietf-dnsop-extended-error](https://tools.ietf.org/html/draft-ietf-dnsop-extended-error-00), Hardaker, 10min
     questions from 16 October 
 
 * [draft-ietf-dnsop-let-localhost-be-localhost](https://tools.ietf.org/html/draft-ietf-dnsop-let-localhost-be-localhost-01), Random HTTP Person, 10min
@@ -53,9 +53,14 @@
     Authors feel this should be a WG document?
 
 * [draft-huston-kskroll-sentinel](https://tools.ietf.org/html/draft-huston-kskroll-sentinel-02), Huston, 10min
-    does the working group feel as a useful option?
+    Does the working group feel as a useful option?
 
 * [draft-dupont-dnsop-rfc2845bis](https://tools.ietf.org/html/draft-dupont-dnsop-rfc2845bis-00), Dupont, 10min
-    this addresses the TSIG bug from this summer
+    This addresses the TSIG bug from this summer
 
 * [draft-wkumari-dnsop-internal](https://tools.ietf.org/html/draft-wkumari-dnsop-internal-00), Kumari, 10min
+
+---
+### Time Permitting
+
+* RFC7706 localroot demo (http://localroot.isi.edu), Hardaker
