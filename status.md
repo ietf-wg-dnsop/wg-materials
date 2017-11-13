@@ -6,8 +6,6 @@
 * draft-ietf-dnsop-sutld-ps
     - RFC8244
 
-* draft-ietf-dnsop-alt-tld
-
 ## WG chairs Work
 
 * draft-ietf-dnsop-isp-ip6rdns
@@ -18,7 +16,10 @@
 
 ## In WGLC
 
-* draft-hardaker-rfc5011-security-considerations
+* draft-ietf-dnsop-alt-tld
+    - Needs updates and shortened 2nd WGLC 
+
+* draft-ietf-dnsop-rfc5011-security-considerations
 
 ## current WGLC Order
 
@@ -28,7 +29,7 @@
 * draft-ietf-dnsop-attrleaf
     - Author has comments to fold in, will re-submit
 
-* draft-dickinson-dnsop-dns-capture-format
+* draft-ietf-dnsop-dns-capture-format
 
 * draft-ietf-dnsop-no-response-issue
     - (outstanding issues may be resolved)
@@ -39,8 +40,8 @@
 
 * draft-ietf-dnsop-aname
 
-* draft-song-dns-wireformat-http
-    - work with HTTPbis
+<!-- * draft-song-dns-wireformat-http
+    - work with HTTPbis -->
 
 * draft-vixie-dns-rpz
 
