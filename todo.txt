@@ -8,11 +8,9 @@ Get status on:
 - tcp requirements 
 
 - server stale
+	- tbd
 - session signaling
-
-- wireformat: email DOH Chairs 
 
 - no-response
 
 - RPZ 
-

@@ -3,9 +3,6 @@
 
 # Done 
 
-* draft-ietf-dnsop-sutld-ps
-    - RFC8244
-
 ## WG chairs Work
 
 * draft-ietf-dnsop-isp-ip6rdns
@@ -20,6 +17,7 @@
     - Needs updates and shortened 2nd WGLC 
 
 * draft-ietf-dnsop-rfc5011-security-considerations
+    - Needs updates and shortened 2nd WGLC 
 
 ## current WGLC Order
 
@@ -40,9 +38,6 @@
 
 * draft-ietf-dnsop-aname
 
-<!-- * draft-song-dns-wireformat-http
-    - work with HTTPbis -->
-
 * draft-vixie-dns-rpz
 
 * draft-ietf-dnsop-extended-error
@@ -53,10 +48,11 @@
 
 ## Call for Adoption
 
-
-## Candidates For Adoption
+* draft-huston-kskroll-sentinel
 
 * draft-dupont-dnsop-rfc2845bis
+
+## Candidates For Adoption
 
 * draft-woodworth-bulk-rr
 
@@ -66,13 +62,16 @@
 
 ## Possible Candidates 
 
-* draft-huston-kskroll-sentinel
-
 * draft-fujiwara-dnsop-additional-answers
 
 * draft-mglt-dnsop-dnssec-validator-requirements 
 
 * draft-wkumari-dnsop-internal
+
+## Expired 
+
+* draft-song-dns-wireformat-http
+    - work with HTTPbis
 
 ## Needs more Review
 
