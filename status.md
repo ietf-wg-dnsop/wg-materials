@@ -1,7 +1,7 @@
 # DNSOP Chairs Status
-#### Updated: 30 July 2017
+### Updated: 30 July 2017
 
-# Done 
+# Done
 
 ## WG chairs Work
 
@@ -11,15 +11,15 @@
 * draft-ietf-dnsop-refuse-any
       - 2nd WGLC ended, needs Write Up
 
+* draft-ietf-dnsop-alt-tld
+    - Needs updates and shortened 2nd WGLC
+
 ## In WGLC
 
-* draft-ietf-dnsop-alt-tld
-    - Needs updates and shortened 2nd WGLC 
-
 * draft-ietf-dnsop-rfc5011-security-considerations
-    - Needs updates and shortened 2nd WGLC 
+    - Needs updates and shortened 2nd WGLC
 
-## current WGLC Order
+## Current WGLC Order
 
 * draft-ietf-dnsop-session-signal
     - a revision from WGLC
@@ -60,15 +60,15 @@
 
 * draft-bellis-dnsop-xpf
 
-## Possible Candidates 
+## Possible Candidates
 
 * draft-fujiwara-dnsop-additional-answers
 
-* draft-mglt-dnsop-dnssec-validator-requirements 
+* draft-mglt-dnsop-dnssec-validator-requirements
 
 * draft-wkumari-dnsop-internal
 
-## Expired 
+## Expired
 
 * draft-song-dns-wireformat-http
     - work with HTTPbis
