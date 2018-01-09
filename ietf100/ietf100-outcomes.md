@@ -1,5 +1,10 @@
 # DNSOP
 
+## Other work
+
+* Multiple Queries / Multiple Answers
+    - Paul to work on chart
+
 ## Adopted Documents
 
 * draft-ietf-dnsop-isp-ip6rdns
@@ -51,3 +56,5 @@
 
 * draft-wkumari-dnsop-internal
     - NO
+
+##
