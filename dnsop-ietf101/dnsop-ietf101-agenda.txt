@@ -1,0 +1,97 @@
+# DNS Operations (DNSOP) Working Group
+## IETF 101, London
+### Session I 
+
+* Date: 20 March 2018
+* Time: 15:50-18:20 (GMT)
+* Room: Sandringham
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+
+* Secretary: Paul Hoffman <paul.hoffman@icann.org>
+
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
+* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
+---
+## Agenda
+
+### Administrivia 
+
+* Agenda Bashing, Blue Sheets, etc,  10 min
+
+* Updates of Old Work, Chairs, 10 min
+
+---
+### Current Working Group Business
+
+* draft-ietf-dnsop-terminology-bis, 15 min
+
+* draft-ietf-dnsop-session-signal, 10 min 
+
+* draft-ietf-dnsop-refuse-any,   10 min 
+
+* draft-ietf-5011-security-considerations, 10 min
+    (if needed) 
+        
+* draft-ietf-dnsop-aname        15
+
+* draft-ietf-dnsop-kskroll-sentinel     10
+
+* draft-ietf-dnsop-dns-capture-format       10
+ 
+
+---
+### New Working Group Business
+
+* The DNS Camel, Hubert, 15
+
+
+### Session II
+* Date: 22 March 2018
+* Time: 18:10-19:10
+* Room: Sandringham 
+
+
+* draft-huque-dnsop-multi-provider-dnssec
+
+* draft-gavrichenkov-dnsop-dnssapi
+
+
+* draft-muks-dnsop-dns-catalog-zones
+
+(others)
+---
+###  List of Drafts
+
+* draft-gavrichenkov-dnsop-dnssapi
+https://datatracker.ietf.org/doc/draft-gavrichenkov-dnsop-dnssapi/
+
+* draft-ietf-dnsop-refuse-any
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-refuse-any/
+
+* draft-ietf-dnsop-session-signal
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-session-signal/
+
+* draft-ietf-dnsop-terminology-bis
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/
+
+* draft-ietf-dnsop-dns-capture-format
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-capture-format/
+
+* draft-ietf-dnsop-aname
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-aname/
+
+* draft-ietf-dnsop-kskroll-sentinel
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-kskroll-sentinel/
+
+* draft-huque-dnsop-multi-provider-dnssec
+https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/
+
+
+* Date: 22 March 2018
+* Time: 18:10-19:10
+* Room: Sandringham 
