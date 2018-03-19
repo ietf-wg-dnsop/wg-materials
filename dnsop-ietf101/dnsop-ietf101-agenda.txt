@@ -37,12 +37,11 @@
 * draft-ietf-5011-security-considerations, 10 min
     (if needed) 
         
-* draft-ietf-dnsop-aname        15
+* draft-ietf-dnsop-dns-capture-format       10
 
 * draft-ietf-dnsop-kskroll-sentinel     10
 
-* draft-ietf-dnsop-dns-capture-format       10
- 
+* draft-ietf-dnsop-aname        15
 
 ---
 ### New Working Group Business
@@ -56,12 +55,13 @@
 * Room: Sandringham 
 
 
-* draft-huque-dnsop-multi-provider-dnssec
+* draft-huque-dnsop-multi-provider-dnssec, 15 
 
-* draft-gavrichenkov-dnsop-dnssapi
+* draft-gavrichenkov-dnsop-dnssapi, 15
 
+* draft-muks-dnsop-dns-catalog-zones, 15
 
-* draft-muks-dnsop-dns-catalog-zones
+* draft-pwouters-powerbind, 15
 
 (others)
 ---
@@ -90,8 +90,3 @@ https://datatracker.ietf.org/doc/draft-ietf-dnsop-kskroll-sentinel/
 
 * draft-huque-dnsop-multi-provider-dnssec
 https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/
-
-
-* Date: 22 March 2018
-* Time: 18:10-19:10
-* Room: Sandringham 
