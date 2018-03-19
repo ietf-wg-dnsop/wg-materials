@@ -32,16 +32,18 @@
 
 * draft-ietf-dnsop-session-signal, 10 min 
 
-* draft-ietf-dnsop-refuse-any,   10 min 
+* draft-ietf-dnsop-refuse-any,   10 min
+    - Finally ready for WGLC 
 
 * draft-ietf-5011-security-considerations, 10 min
     (if needed) 
         
 * draft-ietf-dnsop-dns-capture-format       10
 
-* draft-ietf-dnsop-kskroll-sentinel     10
+* draft-ietf-dnsop-kskroll-sentinel     5
+    - Changes since last version before WGLC
 
-* draft-ietf-dnsop-aname        15
+* draft-ietf-dnsop-aname,           15
 
 ---
 ### New Working Group Business
@@ -59,10 +61,11 @@
 
 * draft-gavrichenkov-dnsop-dnssapi, 15
 
-* draft-muks-dnsop-dns-catalog-zones, 15
+* draft-muks-dnsop-dns-catalog-zones, 10
 
-* draft-pwouters-powerbind, 15
+* draft-pwouters-powerbind, 10
 
+* draft-kh-dnsop-7706bis, 10
 (others)
 ---
 ###  List of Drafts
