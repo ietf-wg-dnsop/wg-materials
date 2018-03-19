@@ -12,7 +12,9 @@
     - Authors have updated, needs another WGLC
 
 * draft-ietf-dnsop-alt-tld
-    - Needs updates and shortened 2nd WGLC
+    - *expired*
+
+## Expired documents 
 
 ## In WGLC
 
@@ -22,10 +24,10 @@
 ## current WGLC Order
 
 * draft-ietf-dnsop-session-signal
-    - a revision from WGLC
+    - *waiting on new version*
 
 * draft-ietf-dnsop-attrleaf
-    - Author has comments to fold in, will re-submit
+    - *expired*
 
 * draft-ietf-dnsop-dns-capture-format
     - reached out to authors
@@ -39,6 +41,7 @@
     - Section 4 and 5.3 TODOs
 
 * draft-ietf-dnsop-aname
+    - resubmitted
 
 * draft-ietf-dnsop-extended-error
 
@@ -46,20 +49,19 @@
 
 * draft-ietf-dnsop-let-localhost-be-localhost
 
-* draft-ietf-dnsop-terminology-bis
+* draft-huston-kskroll-sentinel
 
 ## Call for Adoption
 
-* draft-huston-kskroll-sentinel
-    - ends 30 November
-
 * draft-dupont-dnsop-rfc2845bis
+    - *waiting*
 
 ## Candidates For Adoption
 
-* draft-bellis-dnsop-xpf
 
 ## Possible Candidates
+
+* draft-bellis-dnsop-xpf
 
 * draft-woodworth-bulk-rr
 
@@ -77,15 +79,10 @@
 
 ## Expired
 
-* draft-song-dns-wireformat-http
-    - work with HTTPbis
-
 * draft-ietf-dnsop-no-response-issue
     - (outstanding issues may be resolved)
 
 ## No
-
-* draft-wkumari-dnsop-internal
 
 ### Drafts
 

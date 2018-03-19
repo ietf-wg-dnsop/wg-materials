@@ -1,6 +1,6 @@
 ## Comparison of proposals
 
-| Drafts | Additional<br>Answers | Multiple<br>Responses | AAAA for<br> Free | Multi<br>Qtypes | Accompanying<br>Questions|
+| Drafts | Additional<br>Answers | Multiple<br>Responses | AAAA for<br>Free | Multi<br>Qtypes | Accompanying<br>Questions|
 | --- | --- | --- | --- | --- | --- |
 | Protocol Change | No | No | Yes? | Yes | Yes |
 | Code Size | little | some | little | large? | large? |
