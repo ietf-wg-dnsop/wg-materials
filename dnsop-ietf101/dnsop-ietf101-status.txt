@@ -4,33 +4,34 @@
 # Done
 
 ## WG chairs Work
+
 * draft-ietf-dnsop-rfc5011-security-considerations
-    - authors need final WGLC 
+    - Write up and move forward
 
 * draft-ietf-dnsop-isp-ip6rdns
-    - Authors have updated, needs another WGLC
+    - 1 week WGLC
 
 * draft-ietf-dnsop-refuse-any
-    - Authors have updated, needs another WGLC
+    - will confirm authors resolved issues, 1 Week WGLC
 
 * draft-ietf-dnsop-alt-tld
-    - Needs updates and shortened 2nd WGLC
+    - WTF
 
 ## In WGLC
 
+* draft-ietf-dnsop-session-signal
+    - Updates addressed during WGLC
+
 * draft-ietf-dnsop-let-localhost-be-localhost
-    - WGLC over waiting on Author... 
+    - WGLC over waiting on Authors... 
 
 ## current WGLC Order
 
-* draft-ietf-dnsop-session-signal
-    - ready WGLC
-
 * draft-ietf-dnsop-dns-capture-format
-    - Ready for WGLC
+    - version 06 appears ready for WGLC
 
-* draft-ietf-dnsop-attrleaf
-    - Author has comments to fold in, will re-submit
+* draft-huston-kskroll-sentinel
+    - Updates since last version
 
 * draft-ietf-dnsop-terminology-bis
     - tentatively mid-April 2018 for WGLC
@@ -41,15 +42,14 @@
     - Section 4 and 5.3 TODOs
 
 * draft-ietf-dnsop-aname
-    - split into 2 drafts 
+    - Authors want to split into 2 drafts 
 
 * draft-ietf-dnsop-extended-error
+    - Authors owe an update, and ready for WGLC
 
 * draft-ietf-dnsop-serve-stale
+    - 
 
-* draft-ietf-dnsop-terminology-bis
-
-* draft-huston-kskroll-sentinel
 
 ## Call for Adoption
 
@@ -75,11 +75,14 @@
 
 ## Expired
 
+* draft-ietf-dnsop-attrleaf
+    - Author has comments to fold in, will re-submit
+
 * draft-song-dns-wireformat-http
-    - work with HTTPbis
+    - new version, should push forward and/or why
 
 * draft-ietf-dnsop-no-response-issue
-    - (outstanding issues may be resolved)
+    - author will upload new version
 
 ### Drafts
 

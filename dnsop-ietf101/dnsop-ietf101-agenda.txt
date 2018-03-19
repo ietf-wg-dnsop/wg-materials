@@ -28,34 +28,37 @@
 ---
 ### Current Working Group Business
 
-* draft-ietf-dnsop-terminology-bis, 15 min
+* draft-ietf-dnsop-terminology-bis, Hoffman  10 min
+    - WGLC currently planned for mid-april 2018
 
-* draft-ietf-dnsop-session-signal, 10 min 
+* draft-ietf-dnsop-session-signal, Cheshire, 10 min
+    - covering changes brought up during WGLC
 
-* draft-ietf-dnsop-refuse-any,   10 min
-    - Finally ready for WGLC 
+* draft-ietf-dnsop-refuse-any, Abley   10 min
+    - If Authors addressing issues, then 1 week WGLC
 
-* draft-ietf-5011-security-considerations, 10 min
-    (if needed) 
-        
-* draft-ietf-dnsop-dns-capture-format       10
+* draft-ietf-dnsop-dns-capture-format, Hague    10 min 
+    - Latest version ready for WGLC? 
 
-* draft-ietf-dnsop-kskroll-sentinel     5
-    - Changes since last version before WGLC
+* draft-ietf-dnsop-kskroll-sentinel, Hoffman   10 min
+    - Changes since last version, looks ready WGLC
 
-* draft-ietf-dnsop-aname,           15
+* draft-ietf-dnsop-aname, Hunt    15 min
+    - Should we split the drafts ? 
 
 ---
 ### New Working Group Business
 
-* The DNS Camel, Hubert, 15
+* draft-jabley-dnsop-bootstrap-validator, Abley   10 min
+    - Another way to look at the 5011 issue 
 
+* The DNS Camel, Hubert, 15 min
+    - An operational view to RFC 8324 ?
 
 ### Session II
 * Date: 22 March 2018
 * Time: 18:10-19:10
 * Room: Sandringham 
-
 
 * draft-huque-dnsop-multi-provider-dnssec, 15 
 
