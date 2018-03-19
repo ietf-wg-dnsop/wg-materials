@@ -2,6 +2,7 @@ todo.txt
 
 - multiple responses Q
 
+<<<<<<< HEAD
 Get status on: 
 - track down capture format
 - aname status
@@ -16,3 +17,20 @@ Get status on:
 
 - RPZ 
 
+=======
+Get status on:
+- track down capture format
+
+- aname status
+
+- tcp requirements
+    - Section 4 and 5.3 TODOs
+
+- server stale
+	- tbd
+
+- session signaling
+
+- no-response
+
+- RPZ

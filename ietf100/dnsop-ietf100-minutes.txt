@@ -1,0 +1,187 @@
+DNSOP WG minutes
+IETF 100, Singapore
+2017-11-13
+Tim Wicinski and Suzanne Woolf, chairs
+Minutes taken by Paul Hoffman
+Material from the slides not reproduced here
+
+Agenda Bashing, Blue Sheets
+
+Updates of Old Work - Chairs
+
+draft-ietf-dnsop-terminology-bis - Paul Hoffman
+        Consider getting your assitants / colleagues / bosses who should understand the DNS more to review
+        Alex Meyerhofer: Volunteers to review the whole document
+                Maybe define "local anycast"
+        Stéphane Bortzmeyer: Disagrees with how Paul discussed QNAME in the slides
+                We need to decice whether to roll back to old definition, or acknowledge that there are two definitions
+                Paul: Do we acknowledge that some people are using the new one but most people are using the old one
+        Suzanne: We should have a raffle: adopt-a-term
+        Bill Manning: Terminology is not static
+                People will come up with new terms over time
+        Andrew Sullivan:
+                No one thinks we're pouring concrete
+                This is just like normal dictionaries
+        Tim: This will be Standards Track whereas RFC 7719 was Informational
+
+draft-ietf-dnsop-rfc5011-security-considerations - Wes Hardaker
+    A bunch of comments from a few people
+    New version coming out this week
+    Should this be published at all?
+        Need more opinions?
+        George Michaelson: Disagrees with Ed about it's the wrong authors
+                Struggles with the complexity of the math
+                It's days, not seconds
+        David Lawrence: Should be advanced, suprised that there is even a question
+                Focus on the words being said
+        Joe Abley: Should be published, even though there is probably just one zone important
+                Took something that was complicated, and made it more complicated
+                Hasn't heard anyone say intervals is important, likes wall time better
+        David Conrad: Thinks Ed meant that there should be more operator input
+                Supports publication
+                Prefers interval
+        Mike StJohns: Root did two things he didn't contemplate
+                Single trust anchor steady state
+                Early signatures of things that make it in the wild
+        Eric Osterweil: Good to publish because it is good to show perspectives
+    More discussion on the list on interval vs. wall time
+
+draft-ietf-dnsop-extended-error - Wes Hardaker
+        Four choices for how to create the full error code
+                Paul Hoffman: This didn't work well in HTTP, use choice 4
+                Stephane: There might be errors that would cross mulitple categories
+                Joe: First three need additional processing, so fourth is the only reasonable one
+                Ralf Weber: Copying information we already have in the packet isn't a good idea
+                Alex: IANA registry could also have the list of which RCODEs could be used together
+        Stefan: For security, use DNS-over-TLS
+        Eric: Security concern: it's OK as long as you think about what will cause an action based on error
+                Don't use transport security
+        Robert Story: Maybe use flags instead of code
+                Wes: It could get really long
+        Joe: This is definitely transport, not objects
+                Codes are about transport
+                Wes: Are we only doing things that are transport-specific?
+        Stephane: Open question about whether to have informational messages
+
+draft-ietf-dnsop-let-localhost-be-localhost - Tim
+        Major issue is DNSSEC
+        Suzanne: if the name needs to be signed, we would need to get it in the root
+        Warren Kumari: Thinks that NXDOMAIN is a fine answer for what this needs
+        Wes: We know that there are multiple naming systems, so NXDOMAIN is a good answer here
+                This is outside the DNS, so fall back to one of your local resolution system
+        Willem Toroop: FreeBSD jails need individual loopback addresses
+
+draft-bellis-dnsop-xpf - Ray Bellis
+        (No slides)
+        Lots of feeback from last meeting, updated draft
+        Already have one implementation: dns-dist
+        Many have read the draft
+        Sara Dickenson had raised privacy objections earlier
+
+draft-fujiwara-dnsop-additional-answers - Kazunori Fujiwara
+        Wes: This and mulitple-responses could be combined.
+        Benno Overeinder: Good chart.
+        Mukund Sivaraman: In BIND, moving away from large responses.
+                Guessing what to add in a response wastes time
+        Ondrej Sury: What are we actually saving?
+                Addional answers increases complexity and overhead and DDoS vector
+                Is this really helpful beyond bootstrapping or just low TTL?
+        Ralf: All of this is solving a terribly small problem
+                Cache hit rates are already so high
+                Adds complexity to the code
+        Dave: Still supports multi-QTYPEs
+                Deployment is gradual because the client asks
+        Jianking Yao: The WG is obviously issued in the topic
+                Demonstrates cooperation of proposals
+        Carl Anderson: Needs a cost-benefit analysis of how much more you get
+        Jim Reid: Needs a cost-benefit analysis
+                Tim: People like clients asking instead of servers telling
+        Bill: This is a good venue for an attack profile
+        Joe: The amount of bandwidth is so close to zero as to be free
+        Davey Song: Need to think about IPv6 context for sizes
+        Isabell (?): Happy to be reviewing
+        Suzanne: Lot of interest in the general problem space
+                Chart is very good to the point
+                What problems do these proposals solve that are worth doing
+                Who will work on use cases?
+                        David Lawrence, Isabell
+                Tim: we can start from the table and maybe add rows
+                Ray: Found problems in the table
+                Alex: If operator can do a cost simulation or a benefit simulation, that would be good
+
+draft-mglt-dnsop-dnssec-validator-requirements - Daniel Migault
+        Ralf: Thinks it is good work
+        Jim: Revoking data in a cache because the key has gone bad is a bad idea
+                Leave it as the TTL
+                Don't add complexity to something already complex
+        Joe: Agrees with Jim
+                Still would like WG to pick up validator bootstrapping
+                        Should be off to the side
+        Eric: Also doesn't like the revoking in the draft
+                Caching is separate
+                Flushing a revoked key out of the cache could make it forgotten
+        Russ Mundy: If there is a sudden revocation, everything associated with it should be flushed
+        Wes: Can't imagine implementers wanting to keep the list of the keys so they can be flushed individually
+                Doesn't see a viable mechanism for this
+        Duane Wessels: Be careful with KSK / ZSK
+                Work with people who just use one key for signing the zone
+        Jim: What if the revoked key is for the root zone?
+        Suzanne: Is it ready to consider adoption? Not clear outcome of the hum.
+
+draft-huston-kskroll-sentinel - Geoff Huston
+        Benno: Good job
+                Can implement in a month
+        Geoff: Leading underscore makes it a non-host name
+        Ray: Question about how to tell difference between failure to resolve
+        Ondrej: What should happen if the keytag is not a keytag?
+                Geoff: Send back whatever you would have
+        Warren: How hard is this to implement?
+        David Conrad: Getting resolution sooner rather than later would be helpful on the review
+
+draft-dupont-dnsop-rfc2845bis - Francis Dupont
+        Not many people have read it yet.
+        Mukund: Wants to see this
+                2845 is unclear in a places
+                Should remove deficiences from the 2845 text
+        Tim: Once we open the document, we should do it fully
+
+draft-wkumari-dnsop-internal - Warren Kumari
+        Jim: Probably a good idea
+                Not sure it is good idea to get a delegation
+                Will get into ICANN policy
+                Warren: Otherwise DNSSEC break
+                        Maybe ask for the delegation in parallel
+        Alain Durand: Mergers is not the only problem
+                Referrals is another problem
+        Joe: Doesn't think it needs a delegation
+                Doesn't think there is any work for the IETF here
+        Andrew: Agrees with Joe
+                Requires process in a different organization: ICANN
+                Get it out of here
+        Olaf Kolkmann: Internationalization issues
+        David Conrad: Why should this be thrown over to ICANN?
+                Nominee for specal use registry
+        Bernie Voltz: Reduce collisions by using your name
+        Andrew: This is not a special-use name
+                It is just for split horizon
+        Warren: Maybe the IETF is not the right place for this discussion
+        Edmond: This work should be at ICANN
+                Board just started work through SSAC
+        Stuart Cheshire: Don't put our head in the sand
+                Maybe used for bootstrapping systems out of the box
+                Other valuable use cases
+        David Conrad: How is this different than .local in the special use directory
+                SSAC work is orthogonal to this
+                If done in ICANN, that suggests that it is DNS-related
+                If done in special use registry, it could be done quickly
+        John Levine: Differentiates whose issues it is
+
+Closing commments - Tim
+        draft-ietf-dnsop-terminology-bis: Shoot for Jan 15 for WG last call with reviews now
+        draft-ietf-dnsop-rfc5011-security-considerations: New version coming out, do a short WG Last Call
+        draft-bellis-dnsop-xpf: Joe and Sara will a review, then call for adoption
+        Additional answers: Opens up the whole discussion of framing it
+        draft-huston-kskroll-sentinel: If we can see some reviews this week, a call for adoption could be in the next couple of weeks
+        Wes Hardaker has a demo of RFC 7706 automated updates
+        draft-tariq-dnsop-iviptr: Ran out of time, but please review
+        Stateful Operations: wants a WG Last Call in a few weeks
