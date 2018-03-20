@@ -5,90 +5,90 @@
 
 ## WG chairs Work
 
-* draft-ietf-dnsop-rfc5011-security-considerations
+* [draft-ietf-dnsop-rfc5011-security-considerations]
     - update to reflect Victor's comments
     - Write up and move forward
 
-* draft-ietf-dnsop-isp-ip6rdns
+* [draft-ietf-dnsop-isp-ip6rdns]
     - 1 week WGLC
 
-* draft-ietf-dnsop-refuse-any
+* [draft-ietf-dnsop-refuse-any]
     - will confirm authors resolved issues, 1 Week WGLC
 
-* draft-ietf-dnsop-alt-tld
+* [draft-ietf-dnsop-alt-tld](https://tools.ietf.org/html/draft-ietf-dnsop-alt-tld-09)
     - W-T-F
 
 ## In WGLC
 
-* draft-ietf-dnsop-session-signal
+* [draft-ietf-dnsop-session-signal]
     - Updates addressed during WGLC
 
-* draft-ietf-dnsop-let-localhost-be-localhost
+* [draft-ietf-dnsop-let-localhost-be-localhost]
     - WGLC over waiting on Authors... 
 
 ## current WGLC Order
 
-* draft-ietf-dnsop-dns-capture-format
+* [draft-ietf-dnsop-dns-capture-format]
     - version 06 appears ready for WGLC
 
-* draft-huston-kskroll-sentinel
-    - Updates since last version
+* [draft-ietf-dnsop-kskroll-sentinel]
+    - Updates since last version, ready for WGLC
 
-* draft-ietf-dnsop-terminology-bis
+* [draft-ietf-dnsop-terminology-bis]
     - tentatively mid-April 2018 for WGLC
 
 ## Adopted
 
-* draft-ietf-dnsop-attrleaf
+* [draft-ietf-dnsop-attrleaf]
     - Authors published update, splitting document
 
-* draft-ietf-dnsop-aname
+* [draft-ietf-dnsop-aname](https://tools.ietf.org/html/draft-ietf-dnsop-aname-01)
     - Authors want to split into 2 drafts (per talk)
 
-* draft-ietf-dnsop-extended-error
+* [draft-ietf-dnsop-extended-error]
     - Authors owe an update, and ready for WGLC
 
-* draft-ietf-dnsop-serve-stale
+* [draft-ietf-dnsop-serve-stale]
     - May be too contentious?
 
-* draft-ietf-dnsop-dns-tcp-requirements
+* [draft-ietf-dnsop-dns-tcp-requirements]
     - Section 4 and 5.3 TODOs
 
 ## Call for Adoption
 
-* draft-dupont-dnsop-rfc2845bis
+* [draft-dupont-dnsop-rfc2845bis]
     - Yes
 
 ## What Happened
 
-* draft-wouters-sury-dnsop-algorithm-update
+* [draft-wouters-sury-dnsop-algorithm-update
     - Adopted by WG 2017-03-16, but no new version
 
 ## Candidates For Adoption
 
 ## Documents Worth Considering
 
-* draft-bellis-dnsop-xpf
+* [draft-bellis-dnsop-xpf]
 
-* draft-huque-dnsop-multi-provider-dnssec
+* [draft-huque-dnsop-multi-provider-dnssec]
 
-* draft-gavrichenkov-dnsop-dnssapi
+* [draft-gavrichenkov-dnsop-dnssapi]
 
-* draft-muks-dnsop-dns-catalog-zones
+* [draft-muks-dnsop-dns-catalog-zones]
     - stronger drive
 
-* draft-pwouters-powerbind
+* [draft-pwouters-powerbind]
 
-* draft-jabley-dnsop-bootstrap-validator
+* [draft-jabley-dnsop-bootstrap-validator]
 
-* draft-woodworth-bulk-rr
+* [draft-woodworth-bulk-rr]
 
 ## Needs more Review
 
 ## Expired
 
-* draft-song-dns-wireformat-http
+* [draft-song-dns-wireformat-http]
     - new version, should push forward and/or why
 
-* draft-ietf-dnsop-no-response-issue
+* [draft-ietf-dnsop-no-response-issue]
     - author will upload new version
