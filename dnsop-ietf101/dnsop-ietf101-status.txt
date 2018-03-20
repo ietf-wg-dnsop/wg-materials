@@ -59,6 +59,11 @@
 * draft-dupont-dnsop-rfc2845bis
     - Yes
 
+## What Happened
+
+* draft-wouters-sury-dnsop-algorithm-update
+    - Adopted by WG 2017-03-16, but no new version
+
 ## Candidates For Adoption
 
 ## Documents Worth Considering
@@ -87,5 +92,3 @@
 
 * draft-ietf-dnsop-no-response-issue
     - author will upload new version
-
-### Drafts
