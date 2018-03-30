@@ -54,6 +54,7 @@ draft-ietf-dnsop-aname, Evan Hunt
         Matthijs Mekking: Sane
                 This affects vendors who have implemented other ideas
                 Can see which features we want, will prevent missing some
+                If we can cover vendor features in ANAME it is more likely to succeed
         Sam Weiler: Splitting is unwise because we will find edge cases in one after we're done in the other
         Andrew Sullivan: Not clear an implentor would do if the documents are split
                 Evan: The behavior of the resolver is optional
@@ -70,7 +71,7 @@ draft-ietf-dnsop-aname, Evan Hunt
         John Levine: Have you considered returning the original signatures?
                 Evan: Send the improved answer in the Additional section
         Matthijs: Is OK to be shipped together
-                Reduce the scope on recursive
+                Fix authoritative first, that will reduce the scope on recursive
         Suzanne: Please untagle
         Paul Hoffman: Let's talk about untangling before we start with the technical work
         Sam, Tony, Benno, Paul will help untangle
@@ -175,7 +176,7 @@ The DNS Camel, Bert Hubert
         Mark Andrews: Biggest problem is bad implementation
         Tim: TCP folks have been doing this piecemeal
                 Not sexy
-        Matthjis: What is the followup
+        Matthijs: What is the followup
                 Tim: We come up with more ideas
                 Suzanne: This talk informs the WG
 
