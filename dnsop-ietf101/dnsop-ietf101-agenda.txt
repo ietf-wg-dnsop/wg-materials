@@ -61,15 +61,51 @@
 * Time: 18:10-19:10
 * Room: Sandringham 
 
-* draft-huque-dnsop-multi-provider-dnssec, 15 
+* Agenda Bashing, Blue Sheets, etc,  5 min
 
-* draft-gavrichenkov-dnsop-dnssapi, 15
+### (Mostly) New Documents Scrum!!! 
 
-* draft-muks-dnsop-dns-catalog-zones, 10
+DNSOP Sees lots of new DNS-related documents pass by 
+    - Some Interesting 
+    - Some Rough Gems
+    - Some "Wait....What?!"
+    - Some "Oh Hey, it's the IETF Bad Idea Fairy!!"
 
-* draft-pwouters-powerbind, 10
+This is our chance to give authors a few minutes to pitch their ideas. 
+**Some of these are first time IETF attendees**
 
-* draft-kh-dnsop-7706bis, 10
+Selection Criteria:
+    - Is this chair intrigued?
+        + (It is wise to not let Tim speak for others)
+    - Something Hackathon Related?
+    - First Time Authors/Attendees? 
+        + (The Chairs care a lot about this)
+    - (New!) Extra Credit:  Do you address The Camel? 
+        + (We may need to name The Camel)
+
+** With all these drafts, there are two (2) Mic Discussions
+
+    - Worth Working On?
+    - Worth Adopting (now or in future)?
+
+**Everything else should go to the mailing list**
+
+* draft-bellis-dnsop-xpf,    Peter van Dijk, 5 min 
+
+* draft-muks-dnsop-dns-catalog-zones,  Ray Bellis 5 min 
+
+* draft-huque-dnsop-multi-provider-dnssec, Shumon Huque,  5 min 
+
+* draft-mekking-mixfr,  Matthias Mekking, 5 min 
+
+* draft-gavrichenkov-dnsop-dnssapi, Artom Gavrichenkov 5 min 
+
+* draft-pwouters-powerbind,  Paul Wouters, 5 min
+
+* draft-spacek-edns-camel-diet, Petr Spacek, 5 min 
+
+* draft-kh-dnsop-7706bis, Paul Hoffmanm 5 min 
+
 (others)
 ---
 ###  List of Drafts

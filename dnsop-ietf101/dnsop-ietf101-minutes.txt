@@ -1,0 +1,259 @@
+# DNSOP WG
+IETF 101, London
+2018-03-20 
+Tim Wicinski and Suzanne Woolf, chairs
+Minutes by Paul Hoffman
+Words from slides generally not reproduced here
+
+## Session I
+
+Chairs: Tim Wicinski and Suzanne Woolf
+
+DOH WG update, David Lawrence
+        WG Last Call after this meeting
+
+WG update, Suzanne and Tim
+        Wants more informed commentary on draft-ietf-dnsop-alt-tld
+        Warren Kumari: DNSOP gets excited about getting docs started, but not finished
+                Looking for volunteer for third chair
+
+draft-ietf-dnsop-terminology-bis, Paul Hoffman
+        WGLC currently planned for mid-april 2018
+        Andrew Sullivan: Is this the right format for this?
+                Maybe a wiki?
+
+draft-ietf-dnsop-session-signal, Stuart Cheshire
+        DNSSD is keen to see this finished
+        Ready for IETF Last Call
+        David Schinazi: Thinks it is ready to move forward
+
+draft-ietf-dnsop-refuse-any, Joe Abley
+        Thinks it's ready to go
+        Tim: one-week WG Last Call coming soon
+
+draft-ietf-dnsop-dns-capture-format, Jim Hague
+        Tim: You are deployed at some root servers?
+                Jim: Yes, using the -03 draft
+                Get some differences resolved on the list?
+        Jim Reid: Any progress on the IPR issues?
+                Jim: No
+                Tim: Gets dealt with up the chain
+        Tim: Will go to WG Last Call soon
+
+draft-ietf-dnsop-kskroll-sentinel, Warren Kumari
+        Gotten lots of pull requests with text: yay!
+        Thinks have addressed all outstanding concerns
+        Suzanne: Would like to start WG Last Call as soon as possible
+
+draft-ietf-dnsop-aname, Evan Hunt
+        Some issues with the recursive side of the proposal with DNSSEC validation
+        Propose splitting into authoritative behavior / recursive behavior
+                Having auth draft within a moth
+        David Lawrence: Not crazy to split
+                Separating would bring focus to each side
+        Matthijs Mekking: Sane
+                This affects vendors who have implemented other ideas
+                Can see which features we want, will prevent missing some
+        Sam Weiler: Splitting is unwise because we will find edge cases in one after we're done in the other
+        Andrew Sullivan: Not clear an implentor would do if the documents are split
+                Evan: The behavior of the resolver is optional
+                Andrew: Understands the intention, but scared about edge cases
+                        Terrified about drift between authoritative and recursive
+                        Stretches the meaning of an RRtype if it is different between the authoritative and recursive
+        Tony Finch: Crazy
+                Risk of missing edge cases if not thought through end-to-end
+        Wes Hardaker: Must be moved forward together
+                Should stay together, with good section numbering
+        神明達哉 (Tatuya JINMEI): Splitting makes it look not serious
+        Benno Overeinder: Same as Wes
+                Offline signing needs to be explicit
+        John Levine: Have you considered returning the original signatures?
+                Evan: Send the improved answer in the Additional section
+        Matthijs: Is OK to be shipped together
+                Reduce the scope on recursive
+        Suzanne: Please untagle
+        Paul Hoffman: Let's talk about untangling before we start with the technical work
+        Sam, Tony, Benno, Paul will help untangle
+
+draft-jabley-dnsop-bootstrap-validator, Joe Abley
+        Wes: Warren and he are working on something, should chat
+        Paul Wouters: Would like to see RFC 5011 replaced with something else
+                Joe: Draft is about trusting something
+        Olafur Gudmundsson: Supports
+        David Conrad: Strong support
+        Geoff Huston: Supports this because we could go back to square zero
+        Mike StJohn: We had this discussion before
+                End up trusting a CA key
+                Pushes off by one
+                Joe: This is about manual
+        Nick Johnson: Not sure we can trust CAs for longer than KSKs
+                Joe: This draft can change the way that things are trusted
+                        Might be more automatic
+        Andrew: Finding the one true way is the wrong idea
+                Good to write down this mechanism, but this is not the only way
+                Mistake to try to make it all in the protcol
+        Roland van Rijswijk-Deij: Publishing DS on t-shirts and videos by ICANN
+                Joe: Also supposed
+        Willim Toroop: Don't know when an application will need validation
+                Run in userspace
+                getdns uses this already
+        Wes: This could be a full session at an IETF
+                Joe: Could publish this and then deprecate
+        Mike: Read up on the history, especially RFC 4986
+                Don't push off the problem to someone else
+                Joe: Has to handle boxes that are not managed
+        George Michaelson: Pre-sign the next key?
+        Tony: Had an early draft on the idea of seeing keys, maybe find a quorum
+        Suzanne: Lots of early interest in specifying local policy
+
+The DNS Camel, Bert Hubert
+        <general applause>
+        Olafur: Advocating DNS diet?
+                Apologize for older work
+                Kill NSEC3, client-subnet
+        Matthijs: Community should write documents explaining why some decisions were made
+                Should focus more on reference implementation before standardization
+                Don't have to implement everything
+                        Bert: But don't do it halfway
+                Kill small things
+        Alain Durand: Push back on putting DNS on a diet
+                Not limited to DNS
+                Bert: In our industry, all features are free
+                This is the price of success of the protocol
+                Should have better process for developing new features
+                        Also better tools for implementers
+                Bert: Open source makes this difficult
+        Petr Špaček: Vendors can work together to put implementations on a diet
+        John Klensin: See RFC 8324 for things similar to this
+        David Lawrence: What is the call to action?
+                Back in the day had DNSSEC workshop to make things work together early
+                How can implementers work together?
+                Andrew tried to get a reconciliation of the 185 RFCs
+                What metric do we need to know if we need to change to a new identifier system
+        Andrew: IAB had a document that defined protocol success and wild success
+                Wild success isn't necessarily what you want
+                        People use your protocol in ways you didn't expect
+                DNS is "the database" that everyone wants to use
+                Doesn't know how to stop the development
+                Bert: If you give something a REST interface, everyone finds it shiny
+                DOH WG might open ability for a new DNS
+        Dan York: We are living with this success
+                We are adding many features, such as DNS privacy
+                Made a bad joke with the "b" word
+                Need to get the operational community involved
+        Benno: Doesn't know about an RFC diet
+                Developer community should get more spine
+                Listened to the users before implementing features
+        JohnK: Maybe don't add feture until we have an omnibus document
+                Not do new features until we have a cost justification
+        Ondřej Surý: Did grow some spine with EDN workarounds
+                Maybe we should create the smallest set of RFCs that are needed
+                Bert: Would help write list "essential RFCs"
+        Job Snijders: In router world, implementers have their own WG (IDR)
+                Maybe this can be a way to find a diet
+                GROW WG (for operators) advises IDR, sometimes say "no"
+        神明達哉: Thinks of all proposals as implementer
+                Situation not as black as presented, but still complicated
+        Puneet Sood: Should have implementations when we have RFCs
+                Also wants a collected RFC
+                Wants a protocol evaluator / compliance testing tools
+                Bert: Some testing tools exist
+        David: Independing interoperable implementations used to be expected in the IETF
+                Maybe bring it back
+                DNSEXT got closed with the idea that operators in DNSOPS would be better
+                We have done a bad job on moving our RFCs to Full Standards
+        Roland: Grow confidence to not fix other folks' bugs
+                Bert: Wants to get paid
+                Compliance list will help
+                Bert: Maybe make non-compliant stuff run more slowly
+        Shane Kerr: Should evolve the set of standards so we can fix and remove
+        Peter Koch: Saddened if there was a new RFCs which lists which are important and which are not
+                Purpose of standardization is not just to add features
+                Architectural oversight
+                Too much is done on the DNS when it can be done in other layers
+        John: The ability to make a feature work is not suffient to be a standard
+        Mark Andrews: Biggest problem is bad implementation
+        Tim: TCP folks have been doing this piecemeal
+                Not sexy
+        Matthjis: What is the followup
+                Tim: We come up with more ideas
+                Suzanne: This talk informs the WG
+
+
+## Second session,  2018-03-20 
+Chairs: Suzanne Woolf and Brian Haberman
+
+draft-bellis-dnsop-xpf, Peter van Dijk
+        Many people have have seen the draft
+        PaulW: Wants otehr documents to handle privacy as well
+        Andrew: Good document
+                Straw for camel's back
+        George: What if I was a bad actor? Am I going to get all the privacy data?
+                Peter: Yes, if you are misconfigured
+        Ray: Don't do that
+                Only meant to the front of a server farm
+                You have to be cooperating to be used
+        神明達哉: Similar to other drafts
+        Lars-Johan Liman: We can't rely on good behavior
+        Ray: Would have to be misconfigured
+
+draft-muks-dnsop-dns-catalog-zones, Ray Bellis
+        Many people have have seen the draft
+        Paul: Concerned that ISC is implmenting version 2 if it's going to change
+                Ray: Version 1 was not good, not sure about ISC past version 2
+        Petr: Stretching DNS protocol too far
+                Looks nice to be in-band
+                Ray: Provisioning system, not a protocol
+                        It's just data
+                More like YANG
+        Benno: Interesting to consider operator's needs
+                Ray: Wants to hear more from Tim's co-worker
+                Shouldn't over-stretch the protocol
+                Ray: Some people are using this
+        Tony: Is using this for experimental server
+                Useful for stealth secondary servers
+                Would like to be able to get list of zones that they are authoritative for
+        Mukund: Operators can really use this
+        Shane: Does too much and too little at the same time
+                If you were going to design a protocol today, you wouldn't put it in the DNS
+        Bert: PowerDNS has this
+                It is outside the PowerDNS base
+        John: Doesn't like the fact it is in the DNS
+                Knot has a good set of features
+        Brett Carr: Plan to use some immutable servers at Nominet
+                Also considers using Ansible
+        Andrew: We are creating a camel farm
+        Hum: Evenly split
+
+draft-huque-dnsop-multi-provider-dnssec, Shumon Huque
+        Lots have read the document
+        David: It is mistake for anyone to have a single vendor
+                Multi-vendor is really important for the resilience of the Internet
+        Karl: Likes model #2
+                Shumon: No one is doing this currently
+                        DNSKEY response will be larger
+        Wes: This is needed for DNSSEC to be well-deployed
+                Dislike split DNS
+        Matthijs: Read it, likes it
+                Not BCP
+        Lars-Johan: Agrees with Matthijs
+        Dan: Agrees
+        Jim: Disagrees that this will help
+                Are there any customers who are asking for it?
+                Another straw for the camel
+                Shumon: We are a large customer
+                We need to build interest in customers signing first
+
+draft-mekking-mixfr, Matthijs Mekking
+        George: There is mathematics to prove that some sets of changes are identical
+                There is a lot work already done on that math
+        Frederico Neves: Thinks this good work
+                Is an improvement to the current protocol
+                Helps with shorter waits for updates
+        Shane: Thinks this is a terrible idea and should have a different protocol
+
+draft-gavrichenkov-dnsop-dnssapi, Artom Gavrichenkov
+        Tom Peterson: Should possibly use DOH
+                Artom: Not changing the way that stuff is transported
+        Petr: This feels like Not Invented Here syndrome
+                Use something like YANG
