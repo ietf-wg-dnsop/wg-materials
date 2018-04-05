@@ -3,7 +3,8 @@ IETF 101, London
 2018-03-20 
 Tim Wicinski and Suzanne Woolf, chairs
 Minutes by Paul Hoffman
-Words from slides generally not reproduced here
+
+**Note:** Words from slides generally not reproduced here
 
 ## Session I
 

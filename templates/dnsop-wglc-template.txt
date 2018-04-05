@@ -1,0 +1,19 @@
+Template: Working Group Last Call for 
+
+
+
+This starts a Working Group Last Call for $DRAFT
+
+Current versions of the draft is available here:
+$DATATRACKER
+
+The Current Intended Status of this document is: $STATUS
+
+Please review the draft and offer relevant comments.
+If this does not seem appropriate please speak out. 
+if someone feels the document is *not* ready for publication, please speak out with your reasons.
+
+This starts a two week Working Group Last Call process, and ends on:  $DATE
+
+thanks
+tim

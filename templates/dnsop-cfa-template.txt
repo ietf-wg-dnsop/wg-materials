@@ -1,0 +1,16 @@
+Template: Call for Adoption: 
+
+This starts a Call for Adoption for $DRAFT
+
+The draft is available here: $DATATRACKER
+
+Please review this draft to see if you think it is suitable for adoption
+by DNSOP, and comments to the list, clearly stating your view.
+
+Please also indicate if you are willing to contribute text, review, etc.
+
+This call for adoption ends: $DATE
+
+Thanks,
+tim wicinski
+DNSOP co-chair
