@@ -16,7 +16,7 @@
     - 1 Week WGLC
 
 * draft-ietf-dnsop-alt-tld
-    - W-T-F
+    - Pending guidance from the IESG
 
 ## In WGLC
 
