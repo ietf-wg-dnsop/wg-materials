@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-#### Updated: 20 March 2018
+#### Updated: 11 April 2018
 
 # Done
 
@@ -13,7 +13,7 @@
     - 1 week WGLC
 
 * draft-ietf-dnsop-refuse-any
-    - will confirm authors resolved issues, 1 Week WGLC
+    - 1 Week WGLC
 
 * draft-ietf-dnsop-alt-tld
     - W-T-F
@@ -26,12 +26,13 @@
 * draft-ietf-dnsop-let-localhost-be-localhost
     - WGLC over waiting on Authors... 
 
+* draft-huston-kskroll-sentinel
+    - 
 ## current WGLC Order
 
 * draft-ietf-dnsop-dns-capture-format
     - version 06 appears ready for WGLC
 
-* draft-huston-kskroll-sentinel
     - Updates since last version
 
 * draft-ietf-dnsop-terminology-bis
