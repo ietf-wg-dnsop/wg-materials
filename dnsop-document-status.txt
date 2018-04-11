@@ -21,18 +21,18 @@
 ## In WGLC
 
 * draft-ietf-dnsop-session-signal
-    - Updates addressed during WGLC
+    - Waiting on updating version addressing WGLC
 
 * draft-ietf-dnsop-let-localhost-be-localhost
     - WGLC over waiting on Authors... 
 
 * draft-huston-kskroll-sentinel
-    - 
+    - ends 19 April 
+
 ## current WGLC Order
 
 * draft-ietf-dnsop-dns-capture-format
     - version 06 appears ready for WGLC
-
     - Updates since last version
 
 * draft-ietf-dnsop-terminology-bis
@@ -41,55 +41,63 @@
 ## Adopted
 
 * draft-ietf-dnsop-attrleaf
-    - Authors published update, splitting document
+    - Authors published update, mucho discussion 
 
 * draft-ietf-dnsop-aname
     - Authors want to split into 2 drafts (per talk)
+    - idea shelved
 
 * draft-ietf-dnsop-extended-error
     - Authors owe an update, and ready for WGLC
 
 * draft-ietf-dnsop-serve-stale
-    - May be too contentious?
+    - May be too contentious
 
 * draft-ietf-dnsop-dns-tcp-requirements
-    - Section 4 and 5.3 TODOs
+    - Section 4 and 5.3 TODOs, John and Duane are working on
+
+* draft-ietf-dnsop-algorithm-update
+    - Finally updated, good discussions 
 
 ## Call for Adoption
 
 * draft-dupont-dnsop-rfc2845bis
-    - Yes
+    - ends 25 April 
 
 ## What Happened
 
-* draft-wouters-sury-dnsop-algorithm-update
-    - Adopted by WG 2017-03-16, but no new version
+* draft-song-dns-wireformat-http
+    - needs to sort out in DOH 
 
 ## Candidates For Adoption
 
 ## Documents Worth Considering
 
 * draft-bellis-dnsop-xpf
+    - no 
 
 * draft-huque-dnsop-multi-provider-dnssec
-
+    - yes 
+    
 * draft-gavrichenkov-dnsop-dnssapi
 
 * draft-muks-dnsop-dns-catalog-zones
-    - stronger drive
+    - s/w vendors appear in agreement
 
 * draft-pwouters-powerbind
 
 * draft-jabley-dnsop-bootstrap-validator
-
-* draft-woodworth-bulk-rr
+    - signs point to yes
 
 ## Needs more Review
 
+## No
+
+* draft-woodworth-bulk-rr
+
+
 ## Expired
 
-* draft-song-dns-wireformat-http
-    - new version, should push forward and/or why
 
 * draft-ietf-dnsop-no-response-issue
     - author will upload new version
