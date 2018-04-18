@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-#### Updated: 11 April 2018
+#### Updated: 19 April 2018
 
 # Done
 
@@ -7,49 +7,48 @@
 
 * draft-ietf-dnsop-rfc5011-security-considerations
     - update to reflect Victor's comments
-    - Write up and move forward
+    - Shepherd Write up and move forward with caveat
 
-* draft-ietf-dnsop-isp-ip6rdns
-    - 1 week WGLC
+* draft-ietf-dnsop-isp-ip6rdns (b)
+    - Benno to Shepherd
 
-* draft-ietf-dnsop-refuse-any
+* draft-ietf-dnsop-refuse-any (t)
     - 1 Week WGLC
 
-* draft-ietf-dnsop-alt-tld
-    - Pending guidance from the IESG
+* draft-ietf-dnsop-alt-tld (s)
+    - Pending guidance from the AD/IESG
 
 ## In WGLC
 
-* draft-ietf-dnsop-session-signal
+* draft-ietf-dnsop-session-signal (t)
     - Waiting on updating version addressing WGLC
 
-* draft-ietf-dnsop-let-localhost-be-localhost
+* draft-ietf-dnsop-let-localhost-be-localhost (s)
     - WGLC over waiting on Authors... 
 
 * draft-huston-kskroll-sentinel
     - ends 19 April 
-    -- on hold?
+    - consensus questionable
 
 ## current WGLC Order
 
 * draft-ietf-dnsop-dns-capture-format
-    - version 06 appears ready for WGLC
+    - version 06 appears ready for WGLC (t)
     - Updates since last version
 
 * draft-ietf-dnsop-terminology-bis
-    - tentatively mid-April 2018 for WGLC
+    - tentatively mid-April 2018 for WGLC (s)
 
 ## Adopted
 
 * draft-ietf-dnsop-attrleaf
-    - Authors published update, mucho discussion 
+    - Authors published update, mucho discussion (t)
 
 * draft-ietf-dnsop-aname
-    - Authors want to split into 2 drafts (per talk)
-    - idea shelved
+    - Authors getting editing help
 
-* draft-ietf-dnsop-extended-error
-    - Authors owe an update, and ready for WGLC
+* draft-ietf-dnsop-extended-error (s)
+    - pending expiration. 
 
 * draft-ietf-dnsop-serve-stale
     - May be too contentious
@@ -57,12 +56,12 @@
 * draft-ietf-dnsop-dns-tcp-requirements
     - Section 4 and 5.3 TODOs, John and Duane are working on
 
-* draft-ietf-dnsop-algorithm-update
-    - Finally updated, good discussions 
+* draft-ietf-dnsop-algorithm-update (b)
+    - Finally updated, good discussions
 
 ## Call for Adoption
 
-* draft-dupont-dnsop-rfc2845bis
+* draft-dupont-dnsop-rfc2845bis (b)
     - ends 25 April 
 
 ## What Happened
@@ -72,18 +71,19 @@
 
 ## Candidates For Adoption
 
+* draft-huque-dnsop-multi-provider-dnssec
+    - yes 
+
+* draft-muks-dnsop-dns-catalog-zones
+    - most s/w vendors appear in agreement
+    - authors need to address TBD sections
+
 ## Documents Worth Considering
 
 * draft-bellis-dnsop-xpf
     - no 
 
-* draft-huque-dnsop-multi-provider-dnssec
-    - yes 
-    
 * draft-gavrichenkov-dnsop-dnssapi
-
-* draft-muks-dnsop-dns-catalog-zones
-    - s/w vendors appear in agreement
 
 * draft-pwouters-powerbind
 
@@ -93,8 +93,6 @@
 ## Needs more Review
 
 ## No
-
-* draft-woodworth-bulk-rr
 
 
 ## Expired
