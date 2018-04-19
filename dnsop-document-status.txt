@@ -5,25 +5,25 @@
 
 ## WG chairs Work
 
-* draft-ietf-dnsop-rfc5011-security-considerations
+* draft-ietf-dnsop-rfc5011-security-considerations (t) []
     - update to reflect Victor's comments
     - Shepherd Write up and move forward with caveat
 
-* draft-ietf-dnsop-isp-ip6rdns (b)
+* draft-ietf-dnsop-isp-ip6rdns (b) []
     - Benno to Shepherd
 
-* draft-ietf-dnsop-refuse-any (t)
+* draft-ietf-dnsop-refuse-any (t) []
     - 1 Week WGLC
 
-* draft-ietf-dnsop-alt-tld (s)
+* draft-ietf-dnsop-alt-tld (s) []
     - Pending guidance from the AD/IESG
 
 ## In WGLC
 
-* draft-ietf-dnsop-session-signal (t)
-    - Waiting on updating version addressing WGLC
+* draft-ietf-dnsop-session-signal (t) []
+    - Version -07 addressed outstanding items. 
 
-* draft-ietf-dnsop-let-localhost-be-localhost (s)
+* draft-ietf-dnsop-let-localhost-be-localhost (s) [x]
     - WGLC over waiting on Authors... 
 
 * draft-huston-kskroll-sentinel
@@ -33,21 +33,21 @@
 ## current WGLC Order
 
 * draft-ietf-dnsop-dns-capture-format
-    - version 06 appears ready for WGLC (t)
+    - version 06 appears ready for WGLC (t)[]
     - Updates since last version
 
 * draft-ietf-dnsop-terminology-bis
-    - tentatively mid-April 2018 for WGLC (s)
+    - tentatively mid-April 2018 for WGLC (s)[]
 
 ## Adopted
 
 * draft-ietf-dnsop-attrleaf
-    - Authors published update, mucho discussion (t)
+    - Authors published update, mucho discussion (t)[]
 
 * draft-ietf-dnsop-aname
     - Authors getting editing help
 
-* draft-ietf-dnsop-extended-error (s)
+* draft-ietf-dnsop-extended-error (s)[]
     - pending expiration. 
 
 * draft-ietf-dnsop-serve-stale
@@ -56,12 +56,12 @@
 * draft-ietf-dnsop-dns-tcp-requirements
     - Section 4 and 5.3 TODOs, John and Duane are working on
 
-* draft-ietf-dnsop-algorithm-update (b)
+* draft-ietf-dnsop-algorithm-update (b)[]
     - Finally updated, good discussions
 
 ## Call for Adoption
 
-* draft-dupont-dnsop-rfc2845bis (b)
+* draft-dupont-dnsop-rfc2845bis (b)[]
     - ends 25 April 
 
 ## What Happened
@@ -74,11 +74,17 @@
 * draft-huque-dnsop-multi-provider-dnssec
     - yes 
 
-* draft-muks-dnsop-dns-catalog-zones
+* draft-muks-dnsop-dns-catalog-zones (t)[x]
     - most s/w vendors appear in agreement
     - authors need to address TBD sections
 
 ## Documents Worth Considering
+
+* draft-jabley-dnsop-bootstrap-validator
+    - signs point to yes
+
+* draft-mekking-mixfr
+    - one chair finds highly useful 
 
 * draft-bellis-dnsop-xpf
     - no 
@@ -87,8 +93,10 @@
 
 * draft-pwouters-powerbind
 
-* draft-jabley-dnsop-bootstrap-validator
-    - signs point to yes
+
+* draft-spacek-edns-camel-diet
+
+* draft-kh-dnsop-7706bis
 
 ## Needs more Review
 

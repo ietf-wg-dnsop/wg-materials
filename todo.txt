@@ -2,22 +2,6 @@ todo.txt
 
 - multiple responses Q
 
-<<<<<<< HEAD
-Get status on: 
-- track down capture format
-- aname status
-- tcp requirements 
-
-- server stale
-- session signaling
-
-- wireformat: email DOH Chairs 
-
-- no-response
-
-- RPZ 
-
-=======
 Get status on:
 - track down capture format
 
