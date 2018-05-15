@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-#### Updated: 19 April 2018
+#### Updated: 15 May 2018
 
 # Done
 
@@ -18,17 +18,15 @@
 * draft-ietf-dnsop-alt-tld (s) []
     - Pending guidance from the AD/IESG
 
-## In WGLC
+* draft-ietf-dnsop-session-signal
+    - Submitted to IESG
 
-* draft-ietf-dnsop-session-signal (t) []
-    - Version -07 addressed outstanding items. 
+## In WGLC
 
 * draft-ietf-dnsop-let-localhost-be-localhost (s) [x]
     - WGLC over waiting on Authors... 
 
 * draft-huston-kskroll-sentinel
-    - ends 19 April 
-    - consensus questionable
 
 ## current WGLC Order
 
@@ -92,7 +90,6 @@
 * draft-gavrichenkov-dnsop-dnssapi
 
 * draft-pwouters-powerbind
-
 
 * draft-spacek-edns-camel-diet
 
