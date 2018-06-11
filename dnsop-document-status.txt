@@ -13,7 +13,8 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 ## After WG Last Call
 
 * draft-ietf-dnsop-session-signal (t)
-    - Submitted to AD for IETF Last Call 2018-05-15
+    - In IETF Last Call starting 2018-06-11
+    - Comments due by 2018-06-25
 
 ## In WG Last Call
 
