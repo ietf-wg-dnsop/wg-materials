@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-#### Updated: 16 May 2018
+#### Updated: 16 June 2018
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -26,8 +26,8 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - WG Last Call finished but no conclusion given on list
     - Waiting on Authors since 2018-02-19
 
-* draft-ietf-dnsop-kskroll-sentinel
-	- Went into WG Last Call 2018-0405
+* draft-ietf-dnsop-kskroll-sentinel (s) []
+	- Went into WG Last Call 2018-04-05
     - WG Last Call finished but no conclusion given on list
     - Question from AD about special use name started on 2018-05-14
 
