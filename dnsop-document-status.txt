@@ -26,14 +26,19 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - WG Last Call finished but no conclusion given on list
     - Waiting on Authors since 2018-02-19
 
-* draft-ietf-dnsop-kskroll-sentinel (s) []
+* draft-ietf-dnsop-kskroll-sentinel (b) []
 	- Went into WG Last Call 2018-04-05
     - WG Last Call finished but no conclusion given on list
     - Question from AD about special use name started on 2018-05-14
+    - 2nd WG Last call 2018-06-22, for one week
 
 * draft-ietf-dnsop-isp-ip6rdns (b) []
     - Went into WG Last Call 2016-04-25
     - Updated 2018-04-25
+
+* draft-ietf-dnsop-terminology-bis (s) []
+    - Authors asked for for WG Last Call 2018-04-27
+    - Went into WG Last Call 2018-06-22
 
 ## Current WG Last Call Order
 
@@ -44,13 +49,11 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - Version 07 appears ready for WG last Call
     - Authors asked for more input on 2018-05-10
 
-* draft-ietf-dnsop-terminology-bis (s) []
-    - Authors asked for for WG Last Call 2018-04-27
+* draft-ietf-dnsop-attrleaf (b) []
+    - Authors published update, mucho discussion 
+    - Version 10 appears to be ready for WG Last Call 
 
 ## Adopted
-
-* draft-ietf-dnsop-attrleaf
-    - Authors published update, mucho discussion (t) []
 
 * draft-ietf-dnsop-aname
     - Authors getting editing help
