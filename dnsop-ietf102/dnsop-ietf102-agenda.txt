@@ -1,9 +1,9 @@
 # DNS Operations (DNSOP) Working Group
 ## IETF 
 
-* Date: 
-* Time: 
-* Room: 
+* Date: Wednesday 18 July, 2018
+* Time: 09:30-12:00 EDT (13:30-16:00 UTC)
+* Room: Laurier
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
@@ -27,13 +27,46 @@
 ---
 ### Current Working Group Business
 
-* 
+* [draft-ietf-dnsop-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/)
+    - Hoffman, 10min
+
+* [draft-ietf-dnsop-algorithm-update](https://datatracker.ietf.org/doc/draft-ietf-dnsop-algorithm-update/)
+    - Sury, 10min
+
+* DNS Cookies and their Operational Impacts
+    - Sury, 15min
+
+* Let's Talk CNAME @ APEX
+
+## Previously Discussed Work
+
+* [draft-huque-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/) 
+    - Huque, 10min
+
+* [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)
+    - Woodworth, 10min
+
+* [dns-ietf-dnsop-wireformat-http](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-wireformat-http/)
+    - Song, 10min
 
 
 ---
 ### New Working Group Business
 
-* 
+* [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
+    - Wouters
+
+* [draft-wessels-dns-zone-digest](https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/)
+    - Hardaker
+
+* [draft-kh-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-kh-dnsop-7706bis/)
+    - Hoffman
+
+* [draft-tariq-dnsop-iviptr](https://tools.ietf.org/html/draft-tariq-dnsop-iviptr)
+    - Taqiq
+    
+* [draft-song-atr-large-resp](https://datatracker.ietf.org/doc/draft-song-atr-large-resp/)
+    - Song
 
 
 ---

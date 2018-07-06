@@ -1,7 +1,11 @@
 # DNSOP Chairs Status
-#### Updated: 16 June 2018
+#### Updated: 06 July 2018
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
+
+## IESG 
+
+* draft-ietf-dnsop-refuse-any
 
 ## WG Chairs Work
 
@@ -9,6 +13,9 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 	- Finished WG Last Call 2017-11-3
     - Update to reflect Victor's comments
     - Shepherd Writeup and move forward with caveat
+
+* draft-ietf-dnsop-kskroll-sentinel (b) []
+    - Finished WGLC
 
 ## After WG Last Call
 
@@ -18,6 +25,15 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## In WG Last Call
 
+* draft-ietf-dnsop-terminology-bis (s) []
+    - Went into WG Last Call 2018-06-22
+
+* draft-ietf-dnsop-attrleaf (b) 
+    - Went into WG Last Call 2018-06-25
+    
+* draft-ietf-dnsop-attrleaf-fix
+    - Went into WG Last Call 2018-06-27
+
 * draft-ietf-dnsop-alt-tld (s) []
 	- Still in WG Last Call since 2017-03-12
     - Pending guidance from the AD/IESG
@@ -26,32 +42,15 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - WG Last Call finished but no conclusion given on list
     - Waiting on Authors since 2018-02-19
 
-* draft-ietf-dnsop-kskroll-sentinel (b) []
-	- Went into WG Last Call 2018-04-05
-    - WG Last Call finished but no conclusion given on list
-    - Question from AD about special use name started on 2018-05-14
-    - 2nd WG Last call 2018-06-22, for one week
-
 * draft-ietf-dnsop-isp-ip6rdns (b) []
     - Went into WG Last Call 2016-04-25
     - Updated 2018-04-25
 
-* draft-ietf-dnsop-terminology-bis (s) []
-    - Authors asked for for WG Last Call 2018-04-27
-    - Went into WG Last Call 2018-06-22
 
 ## Current WG Last Call Order
 
-* draft-ietf-dnsop-refuse-any (t) []
-    - Chairs suggested that there should be a WG Last Call 2018-02-19
-
 * draft-ietf-dnsop-dns-capture-format (t) []
     - Version 07 appears ready for WG last Call
-    - Authors asked for more input on 2018-05-10
-
-* draft-ietf-dnsop-attrleaf (b) []
-    - Authors published update, mucho discussion 
-    - Version 10 appears to be ready for WG Last Call 
 
 ## Adopted
 
@@ -67,9 +66,14 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 * draft-ietf-dnsop-algorithm-update (b) []
     - Finally updated, good discussions
 
+* draft-dupont-dnsop-rfc2845bis (b) []
+    - Accepted
+    - Chairs asked for draft in WG on 2018-05-08
+
+
 * draft-song-dns-wireformat-http
     - Needs to be updated to reflect DOH
-
+    
 ## Expired Adopted Documents
 
 * draft-ietf-dnsop-extended-error (s) []
@@ -79,10 +83,6 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - Author will upload new version
 
 ## Call for Adoption
-
-* draft-dupont-dnsop-rfc2845bis (b) []
-	- Accepted
-    - Chairs asked for draft in WG on 2018-05-08
 
 ## Candidates For Adoption
 
