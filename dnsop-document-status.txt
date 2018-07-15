@@ -7,26 +7,22 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 * draft-ietf-dnsop-refuse-any
 
-## WG Chairs Work
+* draft-ietf-dnsop-rfc5011-security-considerations 
 
-* draft-ietf-dnsop-rfc5011-security-considerations (t) []
-	- Finished WG Last Call 2017-11-3
-    - Update to reflect Victor's comments
-    - Shepherd Writeup and move forward with caveat
+## WG Chairs Work
 
 * draft-ietf-dnsop-kskroll-sentinel (b) []
     - Finished WGLC
 
 ## After WG Last Call
 
-* draft-ietf-dnsop-session-signal (t)
-    - In IETF Last Call starting 2018-06-11
-    - Comments due by 2018-06-25
+* draft-ietf-dnsop-session-signal 
+
+* draft-ietf-dnsop-terminology-bis
+    - Finished 2018-07-06
+
 
 ## In WG Last Call
-
-* draft-ietf-dnsop-terminology-bis (s) []
-    - Went into WG Last Call 2018-06-22
 
 * draft-ietf-dnsop-attrleaf (b) 
     - Went into WG Last Call 2018-06-25
@@ -38,6 +34,9 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 	- Still in WG Last Call since 2017-03-12
     - Pending guidance from the AD/IESG
 
+* draft-ietf-dnsop-dns-capture-format 
+    - Went into WG Last Call 2018-07-06
+
 * draft-ietf-dnsop-let-localhost-be-localhost (s) [x]
     - WG Last Call finished but no conclusion given on list
     - Waiting on Authors since 2018-02-19
@@ -46,11 +45,8 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - Went into WG Last Call 2016-04-25
     - Updated 2018-04-25
 
-
 ## Current WG Last Call Order
 
-* draft-ietf-dnsop-dns-capture-format (t) []
-    - Version 07 appears ready for WG last Call
 
 ## Adopted
 
@@ -70,7 +66,6 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - Accepted
     - Chairs asked for draft in WG on 2018-05-08
 
-
 * draft-song-dns-wireformat-http
     - Needs to be updated to reflect DOH
     
@@ -84,16 +79,15 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## Call for Adoption
 
+* draft-huque-dnsop-multi-provider-dnssec
+    - CfA Issues 2018-07-06
+
 ## Candidates For Adoption
 
-* draft-huque-dnsop-multi-provider-dnssec
-	- Some WG agreement
-
-* draft-muks-dnsop-dns-catalog-zones (t) [x]
-    - Most software vendors appear in agreement
-    - Authors need to address TBD sections
 
 ## Documents Worth Considering
+
+* draft-muks-dnsop-dns-catalog-zones 
 
 * draft-jabley-dnsop-bootstrap-validator
     - Signs point to yes
@@ -111,6 +105,14 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 * draft-spacek-edns-camel-diet
 
 * draft-kh-dnsop-7706bis
+
+## New Documents 
+
+* draft-wessels-dns-zone-digest
+
+* draft-tariq-dnsop-iviptr
+
+* draft-song-atr-large-resp
 
 ## Needs more Review
 

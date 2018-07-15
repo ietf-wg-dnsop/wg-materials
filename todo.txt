@@ -1,20 +1,8 @@
 todo.txt
 
-- multiple responses Q
 
-Get status on:
-- track down capture format
+CfA - 
 
-- aname status
+WGLC - 
 
-- tcp requirements
-    - Section 4 and 5.3 TODOs
-
-- server stale
-	- tbd
-
-- session signaling
-
-- no-response
-
-- RPZ
+Agenda - 

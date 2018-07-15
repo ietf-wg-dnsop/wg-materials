@@ -7,6 +7,7 @@
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Benno Overeinder <benno@nlnetlabs.nl>
 
 * Secretary: Paul Hoffman <paul.hoffman@icann.org>
 
@@ -38,6 +39,7 @@
 
 * Let's Talk CNAME @ APEX
 
+---
 ## Previously Discussed Work
 
 * [draft-huque-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/) 
@@ -46,15 +48,18 @@
 * [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)
     - Woodworth, 10min
 
+* [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
+    - Wouters
+
+## Session II 
+
 * [dns-ietf-dnsop-wireformat-http](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-wireformat-http/)
     - Song, 10min
 
-
----
 ### New Working Group Business
 
-* [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
-    - Wouters
+### Time Permitting
+
 
 * [draft-wessels-dns-zone-digest](https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/)
     - Hardaker
@@ -70,5 +75,4 @@
 
 
 ---
-### Time Permitting
 

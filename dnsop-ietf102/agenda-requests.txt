@@ -1,0 +1,50 @@
+agenda-requests.txt
+
+# Current Adopted work 
+
+* [draft-ietf-dnsop-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/)
+    The terminology team would *maybe* like agenda time to discuss what we hope 
+    will be the closing of the WG Last Call. We ask that the chairs watch the WG 
+    Last Call discussion to see if there is anything controversial. If not, saying in 
+    the chairs report that you are moving this the IETF Last Call is fine, but if there 
+    is something from the WG Last Call you want discussed, let us know and we can d
+    o a short presentation.
+
+* DNS Cookies and their Operational Impacts
+
+* Let's Talk CNAME @ APEX
+
+* [draft-ietf-dnsop-algorithm-update](https://datatracker.ietf.org/doc/draft-ietf-dnsop-algorithm-update/)
+    think we might be able to enter WGLC after the IETF
+
+# Previously Discussed Work 
+
+* [draft-huque-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/) 
+
+* [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)
+    - not sure this will get traction
+
+* dns-ietf-dnsop-wireformat-http
+    - tim: This is a messier problem 
+
+# New Presentations
+* [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
+
+* [draft-wessels-dns-zone-digest](https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/)
+    - hardaker as presenter
+
+
+* [draft-tariq-dnsop-iviptr](https://tools.ietf.org/html/draft-tariq-dnsop-iviptr)
+    - this does not stand a chance. 
+
+* [draft-kh-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-kh-dnsop-7706bis/)
+    Warren and I have recently updated draft-kh-dnsop-7706bis to make the
+    document match current practice. In the past year, there is more
+    interest from resolver developers in supporting the ideas behind 7706 in
+    shipping products, and there is a bit of groundswell in some ICANN
+    communities to have a more formal way to distribute the root zone for
+    resolvers to use. We would like at least 10 minutes to present the new
+    and expected diffs from 7706 and see if the WG wants to take this topic
+    up again.
+
+* draft-song-atr-large-resp 
