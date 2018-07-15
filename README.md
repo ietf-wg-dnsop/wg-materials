@@ -11,6 +11,8 @@ Area Director: Warren Kumari
 
 Mailing List: http://www.ietf.org/mailman/listinfo/dnsop
 
+Contributing:  https://github.com/DNSOP/wg-materials/blob/master/CONTRIBUTING.md
+
 # Note Well
 
 This is a reminder of IETF policies in effect on various topics such
