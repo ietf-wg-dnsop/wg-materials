@@ -3,51 +3,55 @@
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
-## IESG 
+## IESG Queue
 
 * draft-ietf-dnsop-refuse-any
 
-* draft-ietf-dnsop-rfc5011-security-considerations 
+* draft-ietf-dnsop-session-signal 
+
+## Limbo
+
+* draft-ietf-dnsop-alt-tld (s) []
+    - Held by WG. 
+    - Pending guidance from the IESG/IAB
 
 ## WG Chairs Work
 
-* draft-ietf-dnsop-kskroll-sentinel (b) []
-    - Finished WGLC
-
-## After WG Last Call
-
-* draft-ietf-dnsop-session-signal 
+* draft-ietf-dnsop-kskroll-sentinel
+    - awaiting write up
 
 * draft-ietf-dnsop-terminology-bis
-    - Finished 2018-07-06
+    - awaiting write-up
 
+* draft-ietf-dnsop-attrleaf  
+    - awaiting write up
+    
+* draft-ietf-dnsop-attrleaf-fix
+    - awaiting write up
+
+* draft-ietf-dnsop-isp-ip6rdns 
+    - awaiting write up
 
 ## In WG Last Call
 
-* draft-ietf-dnsop-attrleaf (b) 
-    - Went into WG Last Call 2018-06-25
+* draft-ietf-dnsop-rfc5011-security-considerations 
+    - WGLC Ends 20 Friday 2018
+    - Consensus is extremely rough 
     
-* draft-ietf-dnsop-attrleaf-fix
-    - Went into WG Last Call 2018-06-27
-
-* draft-ietf-dnsop-alt-tld (s) []
-	- Still in WG Last Call since 2017-03-12
-    - Pending guidance from the AD/IESG
-
 * draft-ietf-dnsop-dns-capture-format 
-    - Went into WG Last Call 2018-07-06
+    - WGLC Ends 20 Friday 2018
 
-* draft-ietf-dnsop-let-localhost-be-localhost (s) [x]
-    - WG Last Call finished but no conclusion given on list
+* draft-ietf-dnsop-let-localhost-be-localhost 
     - Waiting on Authors since 2018-02-19
-
-* draft-ietf-dnsop-isp-ip6rdns (b) []
-    - Went into WG Last Call 2016-04-25
-    - Updated 2018-04-25
 
 ## Current WG Last Call Order
 
+* draft-ietf-dnsop-algorithm-update 
+    - Should be ready for WGLC
 
+* draft-dupont-dnsop-rfc2845bis 
+    - Should be ready for WGLC *very soon*
+    
 ## Adopted
 
 * draft-ietf-dnsop-aname
@@ -59,19 +63,12 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 * draft-ietf-dnsop-dns-tcp-requirements
     - Section 4 and 5.3 TODOs, John and Duane are working on
 
-* draft-ietf-dnsop-algorithm-update (b) []
-    - Finally updated, good discussions
-
-* draft-dupont-dnsop-rfc2845bis (b) []
-    - Accepted
-    - Chairs asked for draft in WG on 2018-05-08
-
 * draft-song-dns-wireformat-http
     - Needs to be updated to reflect DOH
     
 ## Expired Adopted Documents
 
-* draft-ietf-dnsop-extended-error (s) []
+* draft-ietf-dnsop-extended-error 
     - Last list discussion was 2017-11-07
 
 * draft-ietf-dnsop-no-response-issue
@@ -80,14 +77,15 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 ## Call for Adoption
 
 * draft-huque-dnsop-multi-provider-dnssec
-    - CfA Issues 2018-07-06
+    - CfA Ends 20 July 2018
 
 ## Candidates For Adoption
 
+* draft-bortzmeyer-rfc7816bis
 
 ## Documents Worth Considering
 
-* draft-muks-dnsop-dns-catalog-zones 
+* draft-wessels-dns-zone-digest
 
 * draft-jabley-dnsop-bootstrap-validator
     - Signs point to yes
@@ -95,10 +93,7 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 * draft-mekking-mixfr
     - One chair finds highly useful 
 
-* draft-bellis-dnsop-xpf
-    - No significant interest 
-
-* draft-gavrichenkov-dnsop-dnssapi
+* draft-woodworth-bulk-rr
 
 * draft-pwouters-powerbind
 
@@ -108,13 +103,19 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## New Documents 
 
-* draft-wessels-dns-zone-digest
-
 * draft-tariq-dnsop-iviptr
 
 * draft-song-atr-large-resp
 
 ## Needs more Review
 
-## No
+## Not At This Time 
+
+* draft-muks-dnsop-dns-catalog-zones 
+
+* draft-bellis-dnsop-xpf
+    - No significant interest 
+
+* draft-gavrichenkov-dnsop-dnssapi
+
 
