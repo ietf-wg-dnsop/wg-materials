@@ -7,7 +7,7 @@
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
 
 * Secretary: Paul Hoffman <paul.hoffman@icann.org>
 
@@ -21,7 +21,7 @@
 
 ### Administrivia 
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc, 10 min
 
 * Updates of Old Work, Chairs, 10 min
 
@@ -38,6 +38,7 @@
     - Sury, 15min
 
 * Let's Talk CNAME @ APEX
+    - Toorop and Sury
 
 ---
 ## Previously Discussed Work
