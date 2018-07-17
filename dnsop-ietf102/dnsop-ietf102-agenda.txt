@@ -34,7 +34,7 @@
 
 * DNS Cookies and their Operational Impacts
     - Sury, 20 min
-    - Path Forward
+    - bis-document ?
 
 ---
 ### Previously Discussed Work
@@ -48,13 +48,14 @@
 
 * Let's Talk CNAME @ APEX
     - Toorop and Sury, 25 min
-    - 
+    - Path Forward
+
 ---
 ### New Working Group Business
 
 * [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
     - Wouters, 15 min 
-    - Adoption? 
+    - Adoptable? 
 
 ## Session II 
 
