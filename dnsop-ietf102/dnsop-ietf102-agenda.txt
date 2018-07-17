@@ -29,28 +29,28 @@
 ### Current Working Group Business
 
 * [draft-ietf-dnsop-algorithm-update](https://datatracker.ietf.org/doc/draft-ietf-dnsop-algorithm-update/)
-    - Sury, 15min
+    - Sury, 15 min
 
 * DNS Cookies and their Operational Impacts
-    - Sury, 20min
+    - Sury, 20 min
 
 ---
 ### Previously Discussed Work
 
 * [draft-huque-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/) 
-    - Huque, 15min
+    - Huque, 15 min
 
 * [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)
-    - Woodworth, 15min
+    - Woodworth, 15 min
 
 * Let's Talk CNAME @ APEX
-    - Toorop and Sury, 25min
+    - Toorop and Sury, 25 min
 
 ---
 ### New Working Group Business
 
 * [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
-    - Wouters 
+    - Wouters, 15 min 
 
 
 ## Session II 
@@ -70,29 +70,33 @@
 * [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
+### Administrivia 
+
+* Agenda Bashing, Blue Sheets, etc, 5 min
+
 ---
 ### Current Working Group Business
 
 * [dns-ietf-dnsop-wireformat-http](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-wireformat-http/)
-    - Song, 10min
+    - Song, 15 min
 
+---
 ### New Working Group Business
 
-### Time Permitting
-
-
+* [draft-tariq-dnsop-iviptr](https://tools.ietf.org/html/draft-tariq-dnsop-iviptr)
+    - Tariq, 15 min
+    
 * [draft-wessels-dns-zone-digest](https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/)
-    - Hardaker
+    - Hardaker, 15 min
 
 * [draft-kh-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-kh-dnsop-7706bis/)
-    - Hoffman
+    - Hoffman, 10 min
 
-* [draft-tariq-dnsop-iviptr](https://tools.ietf.org/html/draft-tariq-dnsop-iviptr)
-    - Taqiq
-    
+---
+### Time Permitting
+
 * [draft-song-atr-large-resp](https://datatracker.ietf.org/doc/draft-song-atr-large-resp/)
     - Song
-
 
 ---
 
