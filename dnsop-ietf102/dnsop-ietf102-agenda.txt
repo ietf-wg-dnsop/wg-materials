@@ -28,31 +28,35 @@
 ---
 ### Current Working Group Business
 
-* [draft-ietf-dnsop-terminology-bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-terminology-bis/)
-    - Hoffman, 10min
-
 * [draft-ietf-dnsop-algorithm-update](https://datatracker.ietf.org/doc/draft-ietf-dnsop-algorithm-update/)
-    - Sury, 10min
-
-* DNS Cookies and their Operational Impacts
     - Sury, 15min
 
-* Let's Talk CNAME @ APEX
-    - Toorop and Sury
+* DNS Cookies and their Operational Impacts
+    - Sury, 20min
 
 ---
-## Previously Discussed Work
+### Previously Discussed Work
 
 * [draft-huque-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-provider-dnssec/) 
-    - Huque, 10min
+    - Huque, 15min
 
 * [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)
-    - Woodworth, 10min
+    - Woodworth, 15min
+
+* Let's Talk CNAME @ APEX
+    - Toorop and Sury, 25min
+
+---
+### New Working Group Business
 
 * [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
-    - Wouters
+    - Wouters 
+
 
 ## Session II 
+
+---
+### Current Working Group Business
 
 * [dns-ietf-dnsop-wireformat-http](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-wireformat-http/)
     - Song, 10min
