@@ -55,6 +55,21 @@
 
 ## Session II 
 
+* Date: Thurday 19 July, 2018
+* Time: 18:10-19:10 EDT (23:10-00:10 UTC)
+* Room: Place du Canada
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
+
+* Secretary: Paul Hoffman <paul.hoffman@icann.org>
+
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
+* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
 ---
 ### Current Working Group Business
 
