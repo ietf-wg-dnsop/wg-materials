@@ -1,0 +1,232 @@
+# DNSOP
+## Chairs: Suzanne Woolf, Tim Wicinski, Benno Overeinder
+## Minutes taken by Paul Hoffman and Benno Overeinder, Tomek Mrugalski
+Text on slides is not reproduced here
+
+## Updates of Old Work, Chairs, 10 min
+5 documents completed WGLC: kskroll, terminology-bis attrlead, attrleaf-fix, ip6rdns.
+Shepherd write-up ready for end of Friday for completed WGLC documents.
+
+*Lack of feedback for capture-format, please send to the list.*
+
+* draft-ietf-dnsop-rfc5011-security-considerations
+Mike St. John: There is no list consensus
+Wes Hardaker: Should the document move forward?
+Please speak up on the list
+Is it benefitial to the RFC Series?
+Warren Kumari (as author): Happy to change the document name, if needed
+Suzanne Woolf: It is the chairs' job to judge consensus
+Wes: Silence is a fail
+Mike: Agrees.
+Has a problem with the content of the document
+In current form, more harmful than useful
+
+### Working group has to speak out support or no support on the mailing list
+
+## Current Working Group Business
+
+* draft-ietf-dnsop-algorithm-update, Ondrej Sury
+Lots of people have read
+Tim: Any pushback from the vendors for the curves?
+Ondrej: No, they're in plenty of adoption in libraries
+John Levine: Does this match what the implementers are doing?
+Ondrej: Yes
+Mark Andrews: Should do the same thing for SIG(0)
+Ondrej: This should be a new document
+Geoff Huston: Wants RECOMMENDED to be SHOULD
+Ondrej: Thinks that it closer to natural language
+Olaf Kolkman: Reads from RFC 2119
+Paul Wouters: Should be more conservative for SIG(0)
+Marco Davids: Suggests to change MUST to REQUIRED
+Jim Fenton: Just for implementions, not for actions
+Suzanne: Can you add implementation section
+Warren: Add more text above and below the table about implementations
+David Lawrence: Wants a hum on 2119 words
+
+### Hum: Leave the wording alone
+### Add implementation status/details and then Working Group Last Call
+
+* DNS Cookies and their Operational Impacts, Ondrej Sury and Willem Toorop
+Paul Woulters: mandatory algorithms, but some optional?
+Ondrej: Need to work on this
+Francis Dupont: There are some questions on which is faster? Ask cryptographers
+Don Eastlake: Has been revving the draft, will join authors
+?: What the response in the anycast goes to a different instance
+Dan York: Have to go back to the audience who is writing
+Don't give too many options
+OK to have more than one, but not choices within
+Olafur Gudmundsson: With TCP we don't need cookies. This is extra work
+Kill cookies
+Just use TCP
+Ondrej: Has a real world problem with cookies
+Paul Woulters: There are other drafts that mention cookies
+Tariq Saraj: What about privacy?
+Ondrej: It's in the draft
+   Lorenzo Colitti: Instead of just using TCP, you can also use TFO
+   Ted Lemon: In TCP, there is a suggestion to not use fragmentations
+This also goes to don't use cookies
+Ondrej: If we want to kill cookies, do this actively
+Have the conversation first
+Ray Bellis: There are operators who want to deploy cookies
+Mark Andrews: You are "literally" saying kill DNS over UDP 
+Ted: Not personally arguing for this
+Cookies have many features
+I don't want to open a new socket for every request
+Managing a lot of sockets is hard
+Warren: Leaving things like this is dangerous
+Jan ?: Doesn't implement cookies on server, and doesn't intend to add them
+Generally down on cookies
+Paul Wouters: If the only goal of cookies to help accidentally make open resolvers not become part of botnets
+Please do not kill the cookies.
+Olafur: Let's write a kill cookies draft
+Ben Schwartz: Would like to hear from stub resolver developers about what their experience has been
+Willem Toorop: Already in getdns library and with it in Stubby stub resolver
+David: Already a mess, against TCP everywhere
+Skeptical that the BIND code could be made good enough
+Questions about speed of DNS
+Dan: Understands what Olafur wants to do
+How successful have we been on massive update to the DNS infrastructure? Takes ages.
+
+### Working group must speak out on DNS cookies, its value, interop between implementation and how to proceed, or write another draft Kill DNS Cookies. We cannot do nothing, because as of now things break.
+
+* Let's Talk CNAME at the Apex, Willem Toorop and Ondrej Sury and Tim Wicinski
+(( Tim speaks from slides ))
+Lars-Johan Liman: Can we have a clear problem description?
+Tim: We need to be able to say something at the top of the zone
+Ray: Amazon's solution only works if it is hosted on Amazon
+Stéphane Bortzmeyer: Doesn't agree with the definition of problem
+Want a match between the name and the server
+Knows it won't be easy
+Problem is not "CNAME at apex"
+Likes SRV
+Tony Finch: This also needs to support alias-plus-MX
+Dan: Need to deal with the "not using www" problem
+Needs to use proprietary solutions
+Tim: Wants to be able to move between vendors easily
+Liman: Please don't overload CNAME
+Likes SRV solution
+Mark: Had productive discussion yesterday
+Should have a combined DNS/HTTP meeting, lock us in a room
+Wes: Keeps falling on both sides of the fence
+We are being asked to be solving a problem
+(Lot's of yelling "no")
+Joel Jaggli: Rejects notion that this is driven by another protocol
+*Driven by meat bags in front of keyboards*
+Wes: It was not the protocols' fault
+Roy Arends: Locally host CNAME at parent
+It still works, but is a horrible hack
+We need to solve this
+Wants a list of what breaks with CNAME at apex
+Jared Mauch: There is lots of history of how this is handled in email
+Many applications have such a hack
+Assign some record types for these protocols
+Tony Finch: We need a better fix than RFC 976(?)
+Dan: How can we make something that people will use
+Wants to meet business goals that push towards proprietary
+Murray Kucherawy: Nervous about making changes to protocol that is really for a change in users
+Liman: Willing to look at new record type
+Maybe do in software tools to configure DNS
+(( Willem and Ondrej speak from slides ))
+John Levine: This looks like BNAME
+Worth writing up, please do not progress it
+.cat uses DNAME
+Nearly zero web servers were configured correctly for this
+This is a code path that probably no one has tested
+Suzanne: How the world works vs. how the world ought to work
+Ray: The meeting last night was going to set up a mailing list
+
+### Chairs will look into setting up a seperate mailing list for this discussion
+
+Ben: Quad9 uses PowerDNS
+Ondrej: Quad9 uses both PowerDNS and Unbound, and does see inconsistent answers
+Suzanne: Encouragment for people who wanted to do work
+Shane Kerr: Wants to know how to document how the work from last night should be documented
+Suzanne: Out of scope
+(( Shane's notes from last night's meeting can be found at https://www.ietf.org/mail-archive/web/dnsop/current/msg23419.html ))
+
+## Previously Discussed Work
+
+* draft-huque-dnsop-multi-provider-dnssec, Shumon Huque
+
+How in the modern age do we get an operational document through DNSOP WG?
+Tim: Asking for more feedback.
+Sara Dickinson: Should go forward.
+Dislikes companies needing to decided between multi-vendor and deploying DNSSEC
+Does this model make it harder for someone using DNSSEC to migrate from one vendor to another?
+
+### Call for adoption is on the mailing list and ends by Friday
+
+* draft-woodworth-bulk-rr, John Woodworth
+Dozen people have read the document
+David: a lot of relevant operators are not here
+There is an interesting issue: if you have an RRtype that will change authoritative behavior, we don't know how to signal to secondaries
+Mike: It sort of intends to break DNSSEC in interesting ways
+Would be a more baked statement on that
+Need such a statement before knowing if it would be ready for adoption
+Shane: Doesn't think that not knowing the DNSSEC changes should prevent adoption
+Paul Wouters: Confused about "informational", why isn't this experimental?
+Suzanne: It probably needs to not be informational
+Warren: Needs to explain what the experiment is
+John: Can people figure out how to implement this without breaking DNSSEC
+What sort of expansions do people actually do?
+Ray: This cannot just use Expert Review
+*Will* not go to expert review
+Peter van Dijk: What does this solve?
+Allows ability to transfer zones that are eally large from one server to another
+Jared: Generate large reverse zones for IPv6 takes long and makes large zone
+John: Thinks this is not a problem that should not be solved
+John: Has seen large zone transfer fails
+Peter: Kill GENERATE
+Tony: Doesn't need GENERATE
+Mark: ISPs weren't willing to delegate the reverse zones to their customers
+Use UPDATE
+This is solvable without BULK
+Takes client request
+John: A lot of times the customer is not technical enough to do this
+Use SIG(0) for forward
+Lorenzo: Need a document saying how to do this
+Send it to v6ops
+David: We are not cowards in this space
+There are other use cases
+There are many problems that GENERATE creates
+Ted Lemon: There are a lot drafts in HOMENET and DNSSD about updates
+Tobias Fiebig: About 15% of zones do dynamic zone updates
+Dan: Thank you for bringing this here
+This is the reality of operators
+John: There is number of vendors who are deploying something like this
+
+### Chairs will discuss with AD (Warren) about status of the draft (EXPERIMENTAL?)
+
+## New Working Group Business
+
+* draft-pwouters-powerbind, Paul Wouters
+Shortened version of what was given at ICANN IDS meeting last Friday
+Stuart Cheshire: Delegation only just one level down, not any depth?
+Paul: Correct
+George Michaelson: This helps with the hunting the zone cut problem
+Paul: To some extent, but you have to follow up
+This is better than web PKI
+Peter: All parents above me cannot skip me should be done today
+Roy: .co.uk is not an ENT
+Need clarification of how many levels down it
+A parent could still be coerced to delegate just one level down, then the next
+Paul: This is why we need DNSSEC Transparency
+Helps limit the logging needed for DT
+Seems a bit similar to label counter in DNSSEC
+Matt Pounsett: How does interact with delegation data in real zones?
+Paul: This would make orphaned glue rejected
+This could be a deployment problem
+Ben: Big supporter of DT
+Why does the commitment need to be in the DNS?
+Paul: That's only for top level
+Wes: If you don't signal it in protocol, don't know what can't be logged
+Equivalent to "we allow logging at this point of the tree"
+This bounds the problem for the log
+Ben: It is sufficient for the root to say it won't do this, and can tell the TLDs what to do
+Paul: ICANN can't tell ccTLDs what to do
+Shumon: This sort of assumes that most zones are delegation-only
+Would need to sign at each level
+Wes: Wants more feedback about what should go into the document
+How complex should the signaling be?
+Giovane Moura: Should go to see presentation in MAPRG tomorrow 
+

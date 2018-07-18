@@ -9,6 +9,8 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 * draft-ietf-dnsop-session-signal 
 
+* draft-ietf-dnsop-isp-ip6rdns 
+
 ## Limbo
 
 * draft-ietf-dnsop-alt-tld 
@@ -27,9 +29,6 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - awaiting write up
     
 * draft-ietf-dnsop-attrleaf-fix
-    - awaiting write up
-
-* draft-ietf-dnsop-isp-ip6rdns 
     - awaiting write up
 
 ## In WG Last Call
