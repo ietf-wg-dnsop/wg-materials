@@ -72,7 +72,7 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - Last list discussion was 2017-11-07
 
 * draft-ietf-dnsop-no-response-issue
-    - Author will upload new version
+    - New version uploaded. 
 
 ## Call for Adoption
 
@@ -82,6 +82,8 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 ## Candidates For Adoption
 
 * draft-bortzmeyer-rfc7816bis
+
+* draft-bellis-dnsext-multi-qtypes
 
 ## Documents Worth Considering
 
@@ -112,6 +114,7 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 ## Not At This Time 
 
 * draft-muks-dnsop-dns-catalog-zones 
+    - considered but WG passed on
 
 * draft-bellis-dnsop-xpf
     - No significant interest 
