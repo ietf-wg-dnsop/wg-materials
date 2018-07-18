@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-#### Updated: 06 July 2018
+#### Updated: 17 July 2018
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,7 +11,7 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## Limbo
 
-* draft-ietf-dnsop-alt-tld (s) []
+* draft-ietf-dnsop-alt-tld 
     - Held by WG. 
     - Pending guidance from the IESG/IAB
 

@@ -13,7 +13,7 @@
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
-* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ---

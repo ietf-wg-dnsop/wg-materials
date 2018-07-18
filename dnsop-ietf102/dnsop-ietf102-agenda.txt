@@ -13,7 +13,7 @@
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
-* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ---
@@ -43,23 +43,22 @@
     - Huque, 15 min
     - CfA ends Friday
 
-* ~~[draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)~~
-    ~~- Woodworth, 15 min~~
+* [draft-woodworth-bulk-rr](https://datatracker.ietf.org/doc/draft-woodworth-bulk-rr/)
+    - Woodworth, 15 min
 
 * Let's Talk CNAME @ APEX
     - Toorop and Sury, 25 min
     - Path Forward
 
+* [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
+    - Wouters, 15 min 
+    - Adoptable? 
+
 * [dns-ietf-dnsop-wireformat-http](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-wireformat-http/)
     - Song, 15 min
     - AD Level issue 
 
----
 ### New Working Group Business
-
-* [draft-pwouters-powerbind](https://datatracker.ietf.org/doc/draft-pwouters-powerbind/)
-    - Wouters, 15 min 
-    - Adoptable? 
 
 ## Session II 
 
@@ -75,7 +74,7 @@
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
-* [DocList](https://svn.tools.ietf.org/svn/wg/dnsop/doclist.html)
+* [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ### Administrivia 
