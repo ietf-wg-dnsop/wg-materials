@@ -84,9 +84,9 @@
 ---
 ### Current Working Group Business
 
-* [dns-ietf-dnsop-wireformat-http](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-wireformat-http/)
+* [draft-song-atr-large-resp](https://datatracker.ietf.org/doc/draft-song-atr-large-resp/)
     - Song, 15 min
-    - AD Level issue 
+    - Adoptable?
 
 ---
 ### New Working Group Business
@@ -106,5 +106,4 @@
 ---
 ### Time Permitting
 
-* [draft-song-atr-large-resp](https://datatracker.ietf.org/doc/draft-song-atr-large-resp/)
-    - Song
+
