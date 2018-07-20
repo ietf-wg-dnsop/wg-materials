@@ -230,3 +230,67 @@ Wes: Wants more feedback about what should go into the document
 How complex should the signaling be?
 Giovane Moura: Should go to see presentation in MAPRG tomorrow 
 
+-------
+[[ Day 2 starts here ]]
+
+* draft-song-atr-large-resp, Davey Song
+Dozen people have read the draft
+Geoff Huston: We are not confusing one
+If you are on infrastructure that drops frags, this is great
+If signed with DNSSEC, bigger respons
+Ondřej: Implementer's report
+Doesn't like the idea
+Doesn't intend to implement unless there is a lot of interest
+Shane: The extra packet is pretty small
+In the worst case, it's 50% more packets and they are small
+Likes the idea
+Doesn't have to be implemented in the server, could be a daemon
+Mark: Likes this
+Whether bit or option is another matter
+Not a big negative at all
+JINMEI, Tatuya (神明達哉): Clever idea
+Worth discussing 
+Makes UDP request stateful
+Peter van Dijk: ATR changes a best case from 2 packets into 5 packets
+APNIC research is useless
+We are making amplification attacks worse
+We have no intent to implement and is against adoption
+## Chairs Action: Some interest but not enough for adoption at this time 
+
+draft-tariq-dnsop-iviptr, Tariq Saraj
+Mark: Zero interest in implementing with this
+Why not just start with names?
+Doesn't think enough people will use these records
+Ondřej: This is about IDR
+Pushing provisioning problems into the DNS
+Should not be implemented
+## Chairs Action: No Interest 
+
+draft-wessels-dns-zone-digest, Wes Hardaker
+George: Remove "Merkle trees"
+On the list, asked for PGP; now likes this proposal
+Ondřej: Likes the idea
+Should be adopted
+Maybe distribute by a torrent
+Davey: Why not just use a checksum outside the zone
+Wes: Same as PGP slide
+Don't need to keep two file copies
+Encourage more widespread of zone
+Instead just add copyright on zone file itself
+Wes: allows the checksum
+Gain is that you get unmodified zone
+Paul Wouters: Signature is over the wireformat?
+Wes: Yes
+Glue and child NS are not signed
+Paul Wouters: Seems like rsync or whatever would be better
+Warren: Could only update this when you want to write this to disk or transfer
+Jim: Sign the rest of the zone first?
+Wes: Yes
+Mark: It is possible to do something similar: hash just the delegation points
+Will work with dynamic updates
+Also can loose RRSIGs
+## Chairs Action: Interest in continuing, multiple implementations. 
+
+draft-kh-dnsop-7706bis, Paul Hoffman-Kumari
+
+## Chairs Action: Sounds like Interest in Contuining 

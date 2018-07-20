@@ -1,0 +1,74 @@
+All 
+
+Thanks for a pretty productive week and thanks for 
+breaking in our new chair slowly.  
+
+Rough Minutes have been uploaded:
+
+https://datatracker.ietf.org/doc/minutes-102-dnsop/
+
+And I apologize - I took notes of the last topic on Thursday but have
+somehow lost them. I will listen to the audio and update those comments 
+early next week. 
+
+If you have issues with the minutes drop the chairs a note, *or*
+send us a pull request:
+
+https://github.com/DNSOP/wg-materials/blob/master/dnsop-ietf102/dnsop-ietf102-minutes-1.txt
+
+IETF103:  I am thinking we will focus on one meeting next time, 
+though who knows, we may 
+
+Actions: 
+
+Here is what we have in terms of actions from this week.  
+If we missed something, it's my fault.  
+
+* draft-ietf-dnsop-kskroll-sentinel - Submitted to IESG 
+
+* draft-ietf-dnsop-isp-ip6rdns - Submitted to IESG
+
+* draft-ietf-dnsop-attrleaf  
+* draft-ietf-dnsop-attrleaf-fix
+    - WGLC has ended, Shepherd write up is underway (with thanks
+    to Mr. Crocker!), and working with Benno on this.  He's 
+    double checking everything to make sure pushing the button
+    won't end the world. 
+
+    - The chairs feel these documents need to move thru the process 
+    promptly so other working groups can seek their guidance. 
+
+* draft-ietf-dnsop-rfc5011-security-considerations 
+    - We are holding this for now, and the chairs feel that 
+    there is an issue with consensus and content that will 
+    most likely kill this moving forward. 
+
+* draft-ietf-dnsop-terminology-bis
+    - Write-up is wrapping up and *will be submitted* by Monday at 
+    the latest. 
+
+* draft-ietf-dnsop-dns-capture-format 
+    - WGLC last call ended with two issues to be addressed.
+    These will be resolved in Early August after Holiday. 
+
+* draft-huque-dnsop-multi-provider-dnssec:  Adopted ! 
+
+* draft-ietf-dnsop-algorithm-update - is almost ready for WGLC
+
+* draft-dupont-dnsop-rfc2845bis - is almost ready for WGLC
+
+* draft-wessels-dns-zone-digest - Candidate for adoption
+
+* draft-kh-dnsop-7706bis - Candidate for adoption.
+
+* draft-bortzmeyer-rfc7816bis - Candidate for adoption
+
+* draft-song-atr-large-resp - Candidate for adoption, though more contentious. 
+
+* DNS Cookies and their Operational Impacts 
+    - We expect to see drafts addressing these issues, as well as 
+    drafts urging to move cookies to Historic to appear. 
+
+* Addressing the Zone Apex Synthetic Records (CNAME/ALIAS/ANAME/ZNAME) 
+    - We will continue to work to address this gap between the user community 
+    and the protocol folks. 

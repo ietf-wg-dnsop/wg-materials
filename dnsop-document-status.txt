@@ -65,6 +65,8 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 * draft-song-dns-wireformat-http
     - Needs to be updated to reflect DOH
     
+* draft-huque-dnsop-multi-provider-dnssec
+
 ## Expired Adopted Documents
 
 * draft-ietf-dnsop-extended-error 
@@ -75,18 +77,18 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## Call for Adoption
 
-* draft-huque-dnsop-multi-provider-dnssec
-    - CfA Ends 20 July 2018
 
 ## Candidates For Adoption
 
 * draft-bortzmeyer-rfc7816bis
 
 * draft-bellis-dnsext-multi-qtypes
+* draft-wessels-dns-zone-digest
+* draft-kh-dnsop-7706bis
+* draft-song-atr-large-resp
 
 ## Documents Worth Considering
 
-* draft-wessels-dns-zone-digest
 
 * draft-jabley-dnsop-bootstrap-validator
     - Signs point to yes
@@ -100,13 +102,10 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 * draft-spacek-edns-camel-diet
 
-* draft-kh-dnsop-7706bis
 
 ## New Documents 
 
-* draft-tariq-dnsop-iviptr
 
-* draft-song-atr-large-resp
 
 ## Needs more Review
 
@@ -119,5 +118,7 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - No significant interest 
 
 * draft-gavrichenkov-dnsop-dnssapi
+
+* draft-tariq-dnsop-iviptr
 
 
