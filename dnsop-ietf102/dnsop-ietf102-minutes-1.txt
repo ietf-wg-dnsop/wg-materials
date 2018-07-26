@@ -230,6 +230,7 @@ Wes: Wants more feedback about what should go into the document
 How complex should the signaling be?
 Giovane Moura: Should go to see presentation in MAPRG tomorrow 
 
+### Chairs Action:  Needs More Review
 -------
 [[ Day 2 starts here ]]
 
@@ -255,7 +256,8 @@ Peter van Dijk: ATR changes a best case from 2 packets into 5 packets
 APNIC research is useless
 We are making amplification attacks worse
 We have no intent to implement and is against adoption
-## Chairs Action: Some interest but not enough for adoption at this time 
+
+### Chairs Action: Some interest but not enough for adoption at this time
 
 draft-tariq-dnsop-iviptr, Tariq Saraj
 Mark: Zero interest in implementing with this
@@ -264,7 +266,8 @@ Doesn't think enough people will use these records
 Ondřej: This is about IDR
 Pushing provisioning problems into the DNS
 Should not be implemented
-## Chairs Action: No Interest 
+
+### Chairs Action: No Interest 
 
 draft-wessels-dns-zone-digest, Wes Hardaker
 George: Remove "Merkle trees"
@@ -289,8 +292,27 @@ Wes: Yes
 Mark: It is possible to do something similar: hash just the delegation points
 Will work with dynamic updates
 Also can loose RRSIGs
-## Chairs Action: Interest in continuing, multiple implementations. 
+
+### Chairs Action: Interest in continuing, multiple implementations. 
 
 draft-kh-dnsop-7706bis, Paul Hoffman-Kumari
+Geoff: Imagine I'm on a server on a host, I'm multi-homed, and forwards from IP to the other. Am I breaking the rules?
+Paul:  Question for the doc.
+Geoff: What if I have 3 IPs?  You're trying to constrain the moment.  You can't apply constraint. 
+Paul: We should discuss this in the document. 
+Shane: Aggressive NSEC now published, should reduce temptation...
+Paul: Why?
+Shane: All cache misses will be handled Locally...
+Paul:  One reason of 7706 is to preserve privacy. If you pull the root and pre-loading, nothing leaks.
+Shane: Will send text on performance
+Andrew: If people do weird things, no protocol police...
+Paul: Fairies but not police
+Wes: IETF document what people do on the internet. We should adopt
+Ray: Don't care on restrictions, local mirror of root zone is more important. 
+Ondrej: Feel more Strongly than Ray and Andrew, don't understand why its wrong. 
+Peter (via Dan): All Major Resolvers decided not to 7706 directly, so update is necessary. adopt 
+Lars: Can change the keys. 
 
-## Chairs Action: Sounds like Interest in Contuining 
+### Chairs Action: Interest in adoption
+
+### Chairs Action: Sounds like Interest in Contuining 

@@ -1,7 +1,10 @@
 # DNSOP Chairs Status
-#### Updated: 17 July 2018
+### Updated: 25 July 2018
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
+This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
+
+Questions, Concerns, etc:  dnsop-chairs at ietf.org 
 
 ## IESG Queue
 
@@ -11,25 +14,27 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 * draft-ietf-dnsop-isp-ip6rdns 
 
+* draft-ietf-dnsop-kskroll-sentinel
+
+* draft-ietf-dnsop-terminology-bis
+
+* draft-ietf-dnsop-attrleaf
+
+* draft-ietf-dnsop-attrleaf-fix
+
 ## Limbo
 
 * draft-ietf-dnsop-alt-tld 
     - Held by WG. 
     - Pending guidance from the IESG/IAB
 
+* draft-song-dns-wireformat-http
+    - Parked
+
 ## WG Chairs Work
 
-* draft-ietf-dnsop-kskroll-sentinel
-    - awaiting write up
-
-* draft-ietf-dnsop-terminology-bis
-    - awaiting write-up
-
-* draft-ietf-dnsop-attrleaf  
-    - awaiting write up
-    
-* draft-ietf-dnsop-attrleaf-fix
-    - awaiting write up
+* draft-ietf-dnsop-dns-capture-format
+    - Revision to address version numbers and math
 
 ## In WG Last Call
 
@@ -37,9 +42,6 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     - WGLC Ends 20 Friday 2018
     - Consensus is extremely rough 
     
-* draft-ietf-dnsop-dns-capture-format 
-    - WGLC Ends 20 Friday 2018
-
 * draft-ietf-dnsop-let-localhost-be-localhost 
     - Waiting on Authors since 2018-02-19
 
@@ -53,21 +55,17 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
     
 ## Adopted
 
-* draft-ietf-dnsop-aname
-    - Authors getting editing help
-
 * draft-ietf-dnsop-serve-stale
     - May be too contentious
 
 * draft-ietf-dnsop-dns-tcp-requirements
     - Section 4 and 5.3 TODOs, John and Duane are working on
-
-* draft-song-dns-wireformat-http
-    - Needs to be updated to reflect DOH
     
 * draft-huque-dnsop-multi-provider-dnssec
 
 ## Expired Adopted Documents
+
+* draft-ietf-dnsop-aname
 
 * draft-ietf-dnsop-extended-error 
     - Last list discussion was 2017-11-07
@@ -77,18 +75,19 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## Call for Adoption
 
+* draft-bortzmeyer-rfc7816bis
+
+* draft-kh-dnsop-7706bis
 
 ## Candidates For Adoption
 
-* draft-bortzmeyer-rfc7816bis
-
 * draft-bellis-dnsext-multi-qtypes
+
 * draft-wessels-dns-zone-digest
-* draft-kh-dnsop-7706bis
+
 * draft-song-atr-large-resp
 
 ## Documents Worth Considering
-
 
 * draft-jabley-dnsop-bootstrap-validator
     - Signs point to yes
@@ -102,9 +101,7 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 * draft-spacek-edns-camel-diet
 
-
 ## New Documents 
-
 
 
 ## Needs more Review
@@ -113,11 +110,6 @@ Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
 * draft-muks-dnsop-dns-catalog-zones 
     - considered but WG passed on
-
-* draft-bellis-dnsop-xpf
-    - No significant interest 
-
-* draft-gavrichenkov-dnsop-dnssapi
 
 * draft-tariq-dnsop-iviptr
 
