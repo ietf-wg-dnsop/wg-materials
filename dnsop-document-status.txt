@@ -57,10 +57,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-dupont-dnsop-rfc2845bis 
     - Should be ready for WGLC *very soon*
-    
-## Adopted
+
+* draft-ietf-dnsop-no-response-issue
 
 * draft-ietf-dnsop-extended-error 
+    
+## Adopted
 
 * draft-ietf-dnsop-serve-stale
 
@@ -73,7 +75,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-kh-dnsop-7706bis
 
-* draft-ietf-dnsop-no-response-issue
 
 ## Expired Adopted Documents
 
@@ -86,6 +87,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-hoffman-dns-special-labels 
 
 * draft-lhotka-dnsop-iana-class-type-yang
+
 * draft-bellis-dnsext-multi-qtypes
 
 * draft-wessels-dns-zone-digest
@@ -112,9 +114,5 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Not At This Time 
 
-* draft-muks-dnsop-dns-catalog-zones 
-    - considered but WG passed on
-
-* draft-tariq-dnsop-iviptr
 
 
