@@ -8,9 +8,10 @@ Three items for current work:
 - draft-ietf-dnsop-serve-stale (with Dave)
 
 Two items for possible future WG work:
-- draft-hoffman-resolver-associated-doh (as far as I can tell, there will not be a DOH WG)
+- draft-mayrhofer-did-dns, alex.mayrhofer.ietf@gmail.com
 - draft-hoffman-dns-special-labels (because y'all asked for it)
+- draft-hoffman-resolver-associated-doh (as far as I can tell, there will not be a DOH WG)
 
-lhotka@nic.cz   draft-lhotka-dnsop-iana-class-type-yang
+Time Permitting:
+- draft-lhotka-dnsop-iana-class-type-yang   lhotka@nic.cz
 
-alex.mayrhofer.ietf@gmail.com   draft-mayrhofer-did-dns

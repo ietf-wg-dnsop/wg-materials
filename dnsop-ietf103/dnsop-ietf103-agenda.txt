@@ -1,0 +1,50 @@
+# DNS Operations (DNSOP) Working Group
+## IETF 103
+
+* Date: 5 November 2018
+* Time: 13:50-15:50
+* Room: Chitlada 1
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Benno Overeinder <benno@nlnetlabs.nl>
+
+* Secretary: Paul Hoffman <paul.hoffman@icann.org>
+
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
+* [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
+---
+## Agenda
+
+### Administrivia 
+
+* Agenda Bashing, Blue Sheets, etc,  10 min
+
+* Updates of Old Work, Chairs, 10 min
+
+---
+### Current Working Group Business
+
+* draft-ietf-dnsop-serve-stale, 15 min
+
+* draft-ietf-dnsop-rfc7816bis, 15 min
+
+* draft-ietf-dnsop-7706bis, 15 min
+
+---
+### New Working Group Business
+
+* draft-mayrhofer-did-dns, 10 min
+
+* draft-hoffman-dns-special-labels, 15 min
+
+* draft-lhotka-dnsop-iana-class-type-yang, 15 min
+
+* draft-hoffman-resolver-associated-doh, 15 min
+
+---
+### Time Permitting
+
