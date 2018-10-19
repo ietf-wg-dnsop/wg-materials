@@ -30,6 +30,8 @@
 
 * draft-ietf-dnsop-serve-stale, 15 min
 
+* draft-ietf-dnsop-aname, 15 min 
+
 * draft-ietf-dnsop-rfc7816bis, 15 min
 
 * draft-ietf-dnsop-7706bis, 15 min
@@ -41,10 +43,9 @@
 
 * draft-hoffman-dns-special-labels, 15 min
 
-* draft-lhotka-dnsop-iana-class-type-yang, 15 min
-
-* draft-hoffman-resolver-associated-doh, 15 min
+* draft-lhotka-dnsop-iana-class-type-yang, 10 min
 
 ---
 ### Time Permitting
 
+* draft-hoffman-resolver-associated-doh, 15 min
