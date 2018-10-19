@@ -12,3 +12,5 @@ Two items for possible future WG work:
 - draft-hoffman-dns-special-labels (because y'all asked for it)
 
 lhotka@nic.cz   draft-lhotka-dnsop-iana-class-type-yang
+
+alex.mayrhofer.ietf@gmail.com   draft-mayrhofer-did-dns
