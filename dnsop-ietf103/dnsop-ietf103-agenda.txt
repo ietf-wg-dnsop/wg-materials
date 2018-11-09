@@ -2,7 +2,7 @@
 ## IETF 103
 
 * Date: 5 November 2018
-* Time: 13:50-15:50
+* Time: 13:50-15:50 ICT (0650-0850 UTC)
 * Room: Chitlada 1
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
@@ -25,25 +25,23 @@
 
 * Updates of Old Work, Chairs, 10 min
 
----
 ### Current Working Group Business
 
-* draft-ietf-dnsop-serve-stale, 15 min
+* draft-ietf-dnsop-serve-stale,   Lawrence, 15 min
 
-* draft-ietf-dnsop-aname, 15 min 
+* draft-ietf-dnsop-aname,  Chairs,  15 min 
 
-* draft-ietf-dnsop-rfc7816bis, 15 min
+* draft-ietf-dnsop-rfc7816bis, Hofmann,  15 min
 
-* draft-ietf-dnsop-7706bis, 15 min
+* draft-ietf-dnsop-7706bis, Hofmann, 15 min
 
----
 ### New Working Group Business
 
-* draft-mayrhofer-did-dns, 10 min
+* draft-mayrhofer-did-dns,  Mayrhofer, 10 min
 
-* draft-hoffman-dns-special-labels, 15 min
+* draft-hoffman-dns-special-labels, Hofmann, 15 min
 
-* draft-lhotka-dnsop-iana-class-type-yang, 10 min
+* draft-lhotka-dnsop-iana-class-type-yang, lhotka, 10 min
 
 ---
 ### Time Permitting

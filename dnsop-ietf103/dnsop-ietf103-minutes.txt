@@ -1,0 +1,128 @@
+# DNS Operations (DNSOP) Working Group 
+   
+## IETF 103
+
+* Date: 5 November 2018 
+* Time: 13:50-15:50 ICT (0650-0850 UTC) 
+* Room: Chitlada 1  
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com> 
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com> 
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>  
+
+* Minutes: Thomas Peterson <hidinginthebbc@gmail.com>
+
+* Secretary: Paul Hoffman <paul.hoffman@icann.org>  
+* IESG Overlord: Warren Kumari <warren@kumari.net>  
+
+* [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt) 
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)  --- 
+
+## Agenda  
+
+### Administrivia  
+* Agenda Bashing, Blue Sheets, etc,  10 min  
+* Updates of Old Work, Chairs, 10 min  
+
+
+Next up for DNSOP WG adoption: draft-wessels-dns-zone-digest
+
+Warren Kumari - ipv4.arpa draft
+
+Paul Hoffman: KSK roll side meetings on Wednesday afternoon at 4pm and Friday morning at 9am
+
+### Current Working Group Business  
+
+* draft-ietf-dnsop-serve-stale,   Lawrence, 15 min
+
+Stuart Cheshire: I think this is a really good idea, we did something similar at iOS 12. iOS behaviour is similar, and works inconjunction with Happy Eyeballs. It would be nice if the client could signal to the resolver that it could wait for correct answers. Could we discuss cache-refresh before expiration?
+
+David Lawrence: Draft now specifies refresh.
+    
+Ondrej Sury: Believe this is a good idea, but options should be dropped due to security implications. Suggest to document existing implementations like Unbound.
+    
+Wes Hardaker: Supports this document, and higher TTLs are determental. What would you do with EDNS options? The values in timer recommendations are less important that defining acceptable ranges.
+    
+Paul Wouters: Options are terrible idea, but serve-stale is great idea. 
+    
+Mukund Sivaraman: RFC2181 should remain to treat it as 0 as it assumes an error.
+David Lawrence: Both options (cache for 68 years or constant refresh) are terrible
+    
+Giovane Moura: Resolvers already deployed in the world already do this, e.g. OpenDNS
+
+Chris Lemmons: EDNS makes things more complex, other means should provide access to debug information
+
+John Ihren: Who is in the best position to serve stale? The zone owner. Go with long TTL, but change update TTL behaviour.
+
+Mark Andrews: We should add a second TTL, a serve stale TTL, and another to signify how often things need refreshing. It would require using EDNS1 to ensure server support.
+
+David Lawrence: Do you see this as an eveolution?
+
+Mark: We should bite the bullet. EDNS makes signalling a new field to client easy. We should give authoritative ability to serve stale for and update interval.
+
+* draft-ietf-dnsop-aname,  Chairs,  15 min  
+
+Ray Bellis (in discussing draft-bellis-dnsop-http-record-00): CNAME/DNAME is a orthoganal problem, as it does not cover "CNAME at the apex". Point of HTTP record is to get traction from browser vendors as they dislike SRV, as well SRV no good for wildcards. Browsers also islike priority and labels. Hopefully minimal changes to browsers. No changes to authoritive infrastructure, RDATA identical structure as PTR. Recursors change small - optional ability to fill in A/AAAA, and in being optional negates expert review. HTTP is just a resource record.
+
+Wes Hardaker: We need to ensure we are looking far ahead, this may bite us again in future. This should be solved generically.
+Ray Bellis: Then just get a new record type for it
+
+Mark Andrews: SRV and Port 0 is same as HTTP. Types should not become class independant. SRV is perfectly fine.
+Tim: But HTTP people won't touch SRV.
+Wes Hardaker: This would help in the secnario of multiple responses
+Ray Bellis: Have a multiple query types draft in the works.
+
+* draft-ietf-dnsop-rfc7816bis, Hofmann,  15 min  
+
+Ondrej Surry: BIND has sponsored work to implement QNAME, release being prepared
+
+Petr Spacek: Had QNAME on for ~2 years
+
+Ralph Dolmans: We name QNAME minimisation by default
+
+* draft-ietf-dnsop-7706bis, Hofmann, 15 min 
+
+Mukund Sivaraman: This draft is a fine idea, we want resolvers closer. Questions about scaling, as every resolver will need a copy of a root, which needs testing. Copy of root on a blackhole local network resolver.
+
+Wes Hardaker: Issue of running on localhost/1918 address space. Presented that draft is more secure and better for privacy. Some roots have turned on transfers.
+
+Ondrej Surry: ICANNN have sponsored local copy of root into BIND, and will send example configuration.
+
+Paul: If there is language that precludes non-root zone, please call it out.
+
+John Levine: Are you providing copies of root with expiring signatures?
+
+Ralf Weber: Why not move this directly into the resolver?
+Paul: This answers resolves getting answers as if it were root, however flags may differ
+Ralf: Would you consider moving to the resolver doing this itself?
+Paul: No opposition
+
+Tony Finch (via Jabber): Do we need this when we have NSEC + Prefetch + Serve Stale?
+Paul: Aggressive prefetch could do that, which doens't yet exist.
+Petr Spacek: We have explored this, zone is more efficient to get in bulk.
+
+Dan York: At ICANNN this is called "hyper-local".
+
+ ### New Working Group Business  
+* draft-mayrhofer-did-dns,  Mayrhofer, 10 min
+
+Jim Reid: In the past changes to EnumService, IANA refused to update register despite valid use case. Please be careful how you articulate to area managers.
+
+* draft-hoffman-dns-special-labels, Hofmann, 15 min
+
+Ondrej Surry: Thank you for doing this, but it's so boring
+
+Petr Spacek: Also grateful but boring
+
+* draft-lhotka-dnsop-iana-class-type-yang, lhotka, 10 min
+
+Ondrej Surry: Who will be doing the updates?
+Ladislav: The idea IANA maintains this model as per the IANA considerations
+
+Ian Farrer: Vote of support for the work
+
+Wes Hardaker: The more we have structs and enums available, the better. RFC 6168 is worth looking into.
+
+* draft-hoffman-resolver-associated-doh, 15 min
+
+Dan York: Requesting eyes on draft-york-dnsop-deploying-dnssec-crypto-algs-01
