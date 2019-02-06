@@ -26,21 +26,21 @@ None
 ## In WG Consensus
 
 * draft-ietf-dnsop-algorithm-update
-    - Waiting for write-up
+    - Waiting for shepherd write-up (Tim)
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error
-    - First LC ended 16 October, consider 2nd LC soon
+    - WG Last Call ended 16 October 2018, will possibly have a second Last Call soon
 
-## Current WG Last Call Order
+## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-rfc2845bis 
     - Ready for WGLC
 
 * draft-ietf-dnsop-no-response-issue
 
-## Adopted
+## Adopted by WG, Under Discussion
 
 * draft-ietf-dnsop-7706bis
 
@@ -54,27 +54,26 @@ None
 
 * draft-ietf-dnsop-serve-stale
 
-
-## Expired Adopted Documents
-
-
-## Limbo
-
-* draft-ietf-dnsop-alt-tld 
-    - Held by WG. 
-    - Pending guidance from the IESG/IAB
+## Expired Documents That Were Adopted by the WG
 
 * draft-ietf-dnsop-rfc5011-security-considerations 
-    - WGLC Ends 20 Friday 2018
+    - WG Last Call ended 20 Friday 2018
     - Consensus is extremely rough 
-    
+    - Needs decision by WG Chairs on next steps
+
 * draft-ietf-dnsop-let-localhost-be-localhost 
     - Waiting on Authors since 2018-02-19
+
+## Adopted by the WG, But Are In Limbo
+
+* draft-ietf-dnsop-alt-tld 
+    - Held by WG
+    - Need guidance from the IESG/IAB
 
 * draft-song-dns-wireformat-http
     - Parked
 
-## Call for Adoption
+## Active Calls for Adoption
 
 * draft-song-atr-large-resp
 
