@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 1 October 2018
+### Updated: 6 February 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
@@ -11,26 +11,52 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ###  RFC Ed Queue
 
-* draft-ietf-dnsop-refuse-any
+* draft-ietf-dnsop-attrleaf
 
-* draft-ietf-dnsop-terminology-bis
+* draft-ietf-dnsop-attrleaf-fix 
 
-* draft-ietf-dnsop-isp-ip6rdns 
+* draft-ietf-dnsop-dns-capture-format
+
+* draft-ietf-dnsop-session-signal
     
 ## IESG Queue
 
-* draft-ietf-dnsop-session-signal 
-    - Issues addressed, Warren poking DISCUSS  
+None
 
-* draft-ietf-dnsop-kskroll-sentinel
-    - needs a new version 
+## In WG Consensus
 
-* draft-ietf-dnsop-attrleaf
-* draft-ietf-dnsop-attrleaf-fix
-    - IESG Telechat  
+* draft-ietf-dnsop-algorithm-update
+    - Waiting for write-up
 
-* draft-ietf-dnsop-dns-capture-format
-    - Submitted to IESG  
+## In WG Last Call
+
+* draft-ietf-dnsop-extended-error
+    - First LC ended 16 October, consider 2nd LC soon
+
+## Current WG Last Call Order
+
+* draft-ietf-dnsop-rfc2845bis 
+    - Ready for WGLC
+
+* draft-ietf-dnsop-no-response-issue
+
+## Adopted
+
+* draft-ietf-dnsop-7706bis
+
+* draft-ietf-dnsop-aname
+
+* draft-ietf-dnsop-dns-tcp-requirements
+    
+* draft-ietf-dnsop-multi-provider-dnssec
+
+* draft-ietf-dnsop-rfc7816bis
+
+* draft-ietf-dnsop-serve-stale
+
+
+## Expired Adopted Documents
+
 
 ## Limbo
 
@@ -48,39 +74,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-song-dns-wireformat-http
     - Parked
 
-## In WG Last Call
-
-* draft-ietf-dnsop-algorithm-update 
-    - ends 16 October 
-
-## Current WG Last Call Order
-
-* draft-dupont-dnsop-rfc2845bis 
-    - Should be ready for WGLC *very soon*
-
-* draft-ietf-dnsop-no-response-issue
-
-* draft-ietf-dnsop-extended-error 
-    
-## Adopted
-
-* draft-ietf-dnsop-serve-stale
-
-* draft-ietf-dnsop-dns-tcp-requirements
-    - Section 4 and 5.3 TODOs, John and Duane are working on
-    
-* draft-huque-dnsop-multi-provider-dnssec
-
-* draft-bortzmeyer-rfc7816bis
-
-* draft-kh-dnsop-7706bis
-
-
-## Expired Adopted Documents
-
-* draft-ietf-dnsop-aname
-
 ## Call for Adoption
+
+* draft-song-atr-large-resp
 
 ## Candidates For Adoption
 
@@ -91,8 +87,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-bellis-dnsext-multi-qtypes
 
 * draft-wessels-dns-zone-digest
-
-* draft-song-atr-large-resp
 
 ## Documents Worth Considering
 
