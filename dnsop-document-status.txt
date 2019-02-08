@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 6 February 2019
+### Updated: 8 February 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
@@ -8,6 +8,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 
 ## Done
+
+* RFC8499 
+* RFC8501
+* RFC8509
+* RFC8482
 
 ###  RFC Ed Queue
 
@@ -21,12 +26,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     
 ## IESG Queue
 
-None
+* draft-ietf-dnsop-algorithm-update
 
 ## In WG Consensus
-
-* draft-ietf-dnsop-algorithm-update
-    - Waiting for shepherd write-up (Tim)
 
 ## In WG Last Call
 
@@ -56,11 +58,6 @@ None
 
 ## Expired Documents That Were Adopted by the WG
 
-* draft-ietf-dnsop-rfc5011-security-considerations 
-    - WG Last Call ended 20 Friday 2018
-    - Consensus is extremely rough 
-    - Needs decision by WG Chairs on next steps
-
 * draft-ietf-dnsop-let-localhost-be-localhost 
     - Waiting on Authors since 2018-02-19
 
@@ -70,12 +67,10 @@ None
     - Held by WG
     - Need guidance from the IESG/IAB
 
-* draft-song-dns-wireformat-http
-    - Parked
-
 ## Active Calls for Adoption
 
 * draft-song-atr-large-resp
+    - Failed
 
 ## Candidates For Adoption
 
@@ -83,9 +78,9 @@ None
 
 * draft-lhotka-dnsop-iana-class-type-yang
 
-* draft-bellis-dnsext-multi-qtypes
-
 * draft-wessels-dns-zone-digest
+
+* draft-bellis-dnsext-multi-qtypes
 
 ## Documents Worth Considering
 
@@ -94,12 +89,6 @@ None
 
 * draft-mekking-mixfr
     - One chair finds highly useful 
-
-* draft-woodworth-bulk-rr
-
-* draft-pwouters-powerbind
-
-* draft-spacek-edns-camel-diet
 
 ## New Documents 
 
