@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 8 February 2019
+### Updated: 21 February 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
@@ -9,10 +9,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done
 
-* RFC8499 
-* RFC8501
-* RFC8509
-* RFC8482
+* draft-ietf-dnsop-terminology-bis RFC8499 
+* draft-ietf-dnsop-isp-ip6rdns RFC8501
+* draft-ietf-dnsop-kskroll-sentinel RFC8509
+* draft-ietf-dnsop-refuse-any RFC8482
 
 ###  RFC Ed Queue
 
@@ -27,13 +27,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-algorithm-update
-
-## In WG Consensus
+    - IETF Last Call 
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error
-    - WG Last Call ended 16 October 2018, will possibly have a second Last Call soon
+    - WG Last Call ended 16 October 2018, will need have a second Last Call soon
 
 ## Upcoming WG Last Calls
 
@@ -56,29 +55,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-serve-stale
 
-## Expired Documents That Were Adopted by the WG
-
-* draft-ietf-dnsop-let-localhost-be-localhost 
-    - Waiting on Authors since 2018-02-19
-
-## Adopted by the WG, But Are In Limbo
-
-* draft-ietf-dnsop-alt-tld 
-    - Held by WG
-    - Need guidance from the IESG/IAB
-
 ## Active Calls for Adoption
 
-* draft-song-atr-large-resp
-    - Failed
 
 ## Candidates For Adoption
+
+* draft-wessels-dns-zone-digest
 
 * draft-hoffman-dns-special-labels 
 
 * draft-lhotka-dnsop-iana-class-type-yang
-
-* draft-wessels-dns-zone-digest
 
 * draft-bellis-dnsext-multi-qtypes
 
@@ -92,9 +78,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## New Documents 
 
+* draft-livingood-dnsop-dont-switch-resolvers 
+
+* draft-moura-dnsop-authoritative-recommendations
+
+* draft-pusateri-dnsop-update-timeout
+
 ## Needs more Review
 
 ## Not At This Time 
 
+* draft-song-atr-large-resp
+    - Failed
 
+* draft-ietf-dnsop-let-localhost-be-localhost 
+    - Waiting on Authors since 2018-02-19
 
+* draft-ietf-dnsop-alt-tld 
