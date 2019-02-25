@@ -15,5 +15,9 @@
 * Draft name: draft-lhotka-dnsop-iana-class-type-yang
   datatracker URL: https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/
   Requester Email: Ladislav Lhotka <lhotka@nic.cz>
+  
+* Draft name: dns-cookies-bis (draft-sury-rfc7873bis)
+  datatracker URL: 
+  Requester Email: Ondrej Sury <ondrej@isc.org>
 
 ## 
