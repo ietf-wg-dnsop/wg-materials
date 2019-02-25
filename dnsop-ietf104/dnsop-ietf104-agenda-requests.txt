@@ -2,9 +2,18 @@
 
 ## Request Template Example
 
-* Draft name 
-* datatracker  URL
-* Requester Email 
+* Draft name: 
+* datatracker URL: 
+* Requester Email: 
 
+## Requests
+
+* Draft name: draft-moura-dnsop-authoritative-recommendations
+  datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/
+  Requester Email: giovane.moura@sidn.nl
+
+* Draft name: draft-lhotka-dnsop-iana-class-type-yang
+  datatracker URL: https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/
+  Requester Email: Ladislav Lhotka <lhotka@nic.cz>
 
 ## 
