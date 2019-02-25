@@ -9,7 +9,7 @@
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
@@ -49,7 +49,7 @@
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
+* Charis: Benno Overeinder <benno@nlnetlabs.nl>
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
