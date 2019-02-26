@@ -8,3 +8,9 @@
 
 
 ## 
+
+* draft-wessels-dns-zone-digest-06
+* https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/
+* dwessels@verisign.com
+
+##
