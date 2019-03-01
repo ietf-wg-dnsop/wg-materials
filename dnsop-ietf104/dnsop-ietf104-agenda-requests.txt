@@ -20,4 +20,8 @@
   datatracker URL: 
   Requester Email: Ondrej Sury <ondrej@isc.org>
 
+* Draft name: draft-wessels-dns-zone-digest-06
+  datatracker URL: https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/
+  Requester Email: dwessels@verisign.com
+
 ## 
