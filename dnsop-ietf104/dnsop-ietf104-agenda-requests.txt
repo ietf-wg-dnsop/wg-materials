@@ -16,12 +16,16 @@
   datatracker URL: https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/
   Requester Email: Ladislav Lhotka <lhotka@nic.cz>
   
-* Draft name: dns-cookies-bis (draft-sury-rfc7873bis)
-  datatracker URL: 
+* Draft name: draft-sury-toorop-dns-cookies-algorithms (draft-sury-rfc7873bis)
+  datatracker URL: https://datatracker.ietf.org/doc/draft-sury-toorop-dns-cookies-algorithms/
   Requester Email: Ondrej Sury <ondrej@isc.org>
 
 * Draft name: draft-wessels-dns-zone-digest-06
   datatracker URL: https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/
+  Requester Email: dwessels@verisign.com
+
+* Draft name: raft-ietf-dnsop-dns-tcp-requirements-03
+  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/
   Requester Email: dwessels@verisign.com
 
 * Draft name: draft-ietf-dnsop-multi-provider-dnssec-00
