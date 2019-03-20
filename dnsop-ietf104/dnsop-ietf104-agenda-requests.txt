@@ -8,6 +8,10 @@
 
 ## Requests
 
+* Draft name: draft-ietf-dnsop-7706bis
+  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/
+  Requester Email: paul.hoffman@icann.org
+  
 * Draft name: draft-moura-dnsop-authoritative-recommendations
   datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/
   Requester Email: giovane.moura@sidn.nl

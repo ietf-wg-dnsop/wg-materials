@@ -33,6 +33,10 @@
   URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-multi-provider-dnssec/
   Requester Email: Shumon Huque <shuque@gmail.com>
 
+* Draft name: draft-ietf-dnsop-7706bis
+  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/
+  Requester Email: paul.hoffman@icann.org
+  
 * Draft name: draft-wessels-dns-zone-digest-06  (If Needed)
   datatracker URL: https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/
   Requester Email: dwessels@verisign.com
@@ -68,7 +72,7 @@
 * Draft name: draft-stw-6761ext
   datatracker URL: https://datatracker.ietf.org/doc/draft-stw-6761ext/
   Requester Email: Suzanne Woolf <suzworldwide@gmail.com>
-  
+
 ---
 ### Time Permitting
 
