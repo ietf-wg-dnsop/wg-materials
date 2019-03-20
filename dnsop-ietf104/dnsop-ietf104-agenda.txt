@@ -28,15 +28,47 @@
 ---
 ### Current Working Group Business
 
-* 
 
+* Draft name: draft-ietf-dnsop-multi-provider-dnssec-00
+  URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-multi-provider-dnssec/
+  Requester Email: Shumon Huque <shuque@gmail.com>
 
+* Draft name: draft-wessels-dns-zone-digest-06  (If Needed)
+  datatracker URL: https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/
+  Requester Email: dwessels@verisign.com
+
+* Draft name: raft-ietf-dnsop-dns-tcp-requirements-03
+  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/
+  Requester Email: dwessels@verisign.com
+
+* Draft name: draft-livingood-dnsop-dont-switch-resolvers
+  datatracker URL: https://datatracker.ietf.org/doc/draft-livingood-dnsop-dont-switch-resolvers/
+  Requester Email: Jason Livingood <Jason_Livingood@comcast.com>
+
+* Draft name: draft-livingood-dnsop-auth-dnssec-mistakes
+  datatracker URL: https://datatracker.ietf.org/doc/draft-livingood-dnsop-auth-dnssec-mistakes/
+  Requester Email: Jason Livingood <Jason_Livingood@comcast.com>
+
+* Draft name: draft-lhotka-dnsop-iana-class-type-yang
+  datatracker URL: https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/
+  Requester Email: Ladislav Lhotka <lhotka@nic.cz>
+  
 ---
 ### New Working Group Business
 
-* 
+* Draft name: draft-moura-dnsop-authoritative-recommendations
+  datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/
+  Requester Email: giovane.moura@sidn.nl
+  
+* Draft name: draft-sury-toorop-dns-cookies-algorithms (draft-sury-rfc7873bis)
+  datatracker URL: https://datatracker.ietf.org/doc/draft-sury-toorop-dns-cookies-algorithms/
+  Requester Email: Ondrej Sury <ondrej@isc.org>
 
 
+* Draft name: draft-stw-6761ext
+  datatracker URL: https://datatracker.ietf.org/doc/draft-stw-6761ext/
+  Requester Email: Suzanne Woolf <suzworldwide@gmail.com>
+  
 ---
 ### Time Permitting
 
