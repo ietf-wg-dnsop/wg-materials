@@ -1,0 +1,26 @@
+dnsop-ietf104-chairs.txt
+
+---
+# Since our Last Meeting 
+
+# Agenda
+
+## Doc Status 
+
+## Current
+
+## New 
+
+
+---
+# KSK Futures BoF
+Thursday, 0900-1030, Congress Hall 2
+
+IANA is collecting community input so it can decide what to do in the future with the DNS root KSK
+
+BoF will be a short introduction followed by lots of mic time
+
+Similar meeting happened at ICANN 64 in Kobe, and another will happen at the ICANN DNS Symposium in May
+
+There is also a mailing list which allows longer discussion threads: https://mm.icann.org/mailman/listinfo/ksk-rollover
+---

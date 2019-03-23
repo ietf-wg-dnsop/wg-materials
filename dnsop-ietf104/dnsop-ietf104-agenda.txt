@@ -29,52 +29,37 @@
 ### Current Working Group Business
 
 
-* Draft name: draft-ietf-dnsop-multi-provider-dnssec-00
-  URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-multi-provider-dnssec/
-  Requester Email: Shumon Huque <shuque@gmail.com>
+* [draft-ietf-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-ietf-dnsop-multi-provider-dnssec/)
+    - Huque, 15min
+    - Action:  Ready for WGLC?_
 
-* Draft name: draft-ietf-dnsop-7706bis
-  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/
+* [draft-ietf-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/)
+    - Hoffman, 15min
+    - Action:  Updated enough 
   Requester Email: paul.hoffman@icann.org
-  
-* Draft name: draft-wessels-dns-zone-digest-06  (If Needed)
-  datatracker URL: https://datatracker.ietf.org/doc/draft-wessels-dns-zone-digest/
-  Requester Email: dwessels@verisign.com
 
-* Draft name: raft-ietf-dnsop-dns-tcp-requirements-03
-  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/
-  Requester Email: dwessels@verisign.com
+* [draft-ietf-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/)
+    - Wessel, 15min
+    - Action: Are We Ready?
 
-* Draft name: draft-livingood-dnsop-dont-switch-resolvers
-  datatracker URL: https://datatracker.ietf.org/doc/draft-livingood-dnsop-dont-switch-resolvers/
-  Requester Email: Jason Livingood <Jason_Livingood@comcast.com>
+* [draft-livingood-dnsop-dont-switch-resolvers](https://datatracker.ietf.org/doc/draft-livingood-dnsop-dont-switch-resolvers/)
+    - Livingood, 10min
+    - Action:  Adoptable?  
 
-* Draft name: draft-livingood-dnsop-auth-dnssec-mistakes
-  datatracker URL: https://datatracker.ietf.org/doc/draft-livingood-dnsop-auth-dnssec-mistakes/
-  Requester Email: Jason Livingood <Jason_Livingood@comcast.com>
+* [draft-livingood-dnsop-auth-dnssec-mistakes](https://datatracker.ietf.org/doc/draft-livingood-dnsop-auth-dnssec-mistakes/)
+    - Livingood, 10min
+    - Action:  Adoptable? 
 
-* Draft name: draft-lhotka-dnsop-iana-class-type-yang
-  datatracker URL: https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/
-  Requester Email: Ladislav Lhotka <lhotka@nic.cz>
+* [draft-lhotka-dnsop-iana-class-type-yang](https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/)
+    - Lhotka, 15min
+    - Action: ? 
   
 ---
 ### New Working Group Business
 
-* Draft name: draft-moura-dnsop-authoritative-recommendations
-  datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/
-  Requester Email: giovane.moura@sidn.nl
-  
-* Draft name: draft-sury-toorop-dns-cookies-algorithms (draft-sury-rfc7873bis)
-  datatracker URL: https://datatracker.ietf.org/doc/draft-sury-toorop-dns-cookies-algorithms/
-  Requester Email: Ondrej Sury <ondrej@isc.org>
-
-
-* Draft name: draft-stw-6761ext
-  datatracker URL: https://datatracker.ietf.org/doc/draft-stw-6761ext/
-  Requester Email: Suzanne Woolf <suzworldwide@gmail.com>
-
----
-### Time Permitting
+* [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
+    - Moura, 15min 
+    - Action:  CfA 
 
 
 ## Session II
@@ -94,3 +79,13 @@
 
 ---
 ## Agenda
+
+### New Working Group Business
+
+* [draft-sury-toorop-dns-cookies-algorithms](https://datatracker.ietf.org/doc/draft-sury-toorop-dns-cookies-algorithms/)
+    - Sury, 15min
+    - Action: 
+
+* [draft-stw-6761ext](https://datatracker.ietf.org/doc/draft-stw-6761ext/)
+    - Woolf, 15min
+    - 
