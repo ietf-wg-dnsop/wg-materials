@@ -54,13 +54,6 @@
     - Lhotka, 15min
     - Action: ? 
   
----
-### New Working Group Business
-
-* [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
-    - Moura, 15min 
-    - Action:  CfA 
-
 
 ## Session II
 
@@ -81,6 +74,10 @@
 ## Agenda
 
 ### New Working Group Business
+
+* [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
+    - Moura, 15min 
+    - Action:  CfA 
 
 * [draft-sury-toorop-dns-cookies-algorithms](https://datatracker.ietf.org/doc/draft-sury-toorop-dns-cookies-algorithms/)
     - Sury, 15min
