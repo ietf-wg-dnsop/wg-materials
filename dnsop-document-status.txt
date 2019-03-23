@@ -1,43 +1,39 @@
 # DNSOP Chairs Status
-### Updated: 21 February 2019
+### Updated: 22 March 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
 
 Questions, Concerns, etc:  dnsop-chairs at ietf.org 
 
-
 ## Done
 
-* draft-ietf-dnsop-terminology-bis RFC8499 
-* draft-ietf-dnsop-isp-ip6rdns RFC8501
-* draft-ietf-dnsop-kskroll-sentinel RFC8509
-* draft-ietf-dnsop-refuse-any RFC8482
+* ~~draft-ietf-dnsop-terminology-bis~~ RFC8499 
+* ~~draft-ietf-dnsop-isp-ip6rdns~~ RFC8501
+* ~~draft-ietf-dnsop-kskroll-sentinel~~ RFC8509
+* ~~draft-ietf-dnsop-refuse-any~~ RFC8482
+* ~~draft-ietf-dnsop-attrleaf~~ RFC8552
+* ~~draft-ietf-dnsop-attrleaf-fix~~  RFC8553
+* ~~draft-ietf-dnsop-session-signal~~ RFC8490
 
 ###  RFC Ed Queue
 
-* draft-ietf-dnsop-attrleaf
-
-* draft-ietf-dnsop-attrleaf-fix 
-
 * draft-ietf-dnsop-dns-capture-format
+    - waiting on cbor-cddl 
 
-* draft-ietf-dnsop-session-signal
-    
 ## IESG Queue
 
 * draft-ietf-dnsop-algorithm-update
-    - IETF Last Call 
+    - Telechat 11 April 
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error
-    - WG Last Call ended 16 October 2018, will need have a second Last Call soon
+    - 
 
 ## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-rfc2845bis 
-    - Ready for WGLC
 
 * draft-ietf-dnsop-no-response-issue
 
@@ -57,24 +53,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
+* draft-wessels-dns-zone-digest
 
 ## Candidates For Adoption
-
-* draft-wessels-dns-zone-digest
 
 * draft-hoffman-dns-special-labels 
 
 * draft-lhotka-dnsop-iana-class-type-yang
-
-* draft-bellis-dnsext-multi-qtypes
-
-## Documents Worth Considering
-
-* draft-jabley-dnsop-bootstrap-validator
-    - Signs point to yes
-
-* draft-mekking-mixfr
-    - One chair finds highly useful 
 
 ## New Documents 
 
@@ -82,16 +67,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-moura-dnsop-authoritative-recommendations
 
+* draft-livingood-dnsop-auth-dnssec-mistakes
+
 * draft-pusateri-dnsop-update-timeout
+
+* draft-sury-toorop-dns-cookies-algorithms
 
 ## Needs more Review
 
 ## Not At This Time 
 
-* draft-song-atr-large-resp
-    - Failed
-
-* draft-ietf-dnsop-let-localhost-be-localhost 
-    - Waiting on Authors since 2018-02-19
-
-* draft-ietf-dnsop-alt-tld 
