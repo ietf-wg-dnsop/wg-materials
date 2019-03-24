@@ -86,3 +86,7 @@
 * [draft-stw-6761ext](https://datatracker.ietf.org/doc/draft-stw-6761ext/)
     - Woolf, 15min
     - 
+
+* [draft-brotman-rdbd](https://datatracker.ietf.org/doc/draft-brotman-rdbd/)
+    - Farrell, 10min
+    - Action: draw attention from the DNS WG to the draft 
