@@ -26,8 +26,12 @@
 * Updates of Old Work, Chairs, 10 min
 
 ---
-### Current Working Group Business
+### Results from the IETF Hackathon
 
+* IETF Hackathon: Everything DNS
+    - Sara Dickinson
+
+### Current Working Group Business
 
 * [draft-ietf-dnsop-multi-provider-dnssec](https://datatracker.ietf.org/doc/draft-ietf-dnsop-multi-provider-dnssec/)
     - Huque, 15min
@@ -44,15 +48,15 @@
 
 * [draft-livingood-dnsop-dont-switch-resolvers](https://datatracker.ietf.org/doc/draft-livingood-dnsop-dont-switch-resolvers/)
     - Livingood, 10min
-    - Action:  Adoptable?  
+    - Action: Adoptable?  
 
 * [draft-livingood-dnsop-auth-dnssec-mistakes](https://datatracker.ietf.org/doc/draft-livingood-dnsop-auth-dnssec-mistakes/)
     - Livingood, 10min
-    - Action:  Adoptable? 
+    - Action: Adoptable? 
 
 * [draft-lhotka-dnsop-iana-class-type-yang](https://datatracker.ietf.org/doc/draft-lhotka-dnsop-iana-class-type-yang/)
     - Lhotka, 15min
-    - Action: ? 
+    - Action: Adoptable? 
   
 
 ## Session II
