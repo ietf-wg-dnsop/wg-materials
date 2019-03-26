@@ -1,19 +1,40 @@
 dnsop-ietf104-chairs.txt
 
 ---
-# Since our Last Meeting 
-
 # Agenda
 
-## Doc Status 
+## Since Our Last Meeting 
 
-## Current
+* ~~draft-ietf-dnsop-terminology-bis~~ RFC8499 
+* ~~draft-ietf-dnsop-isp-ip6rdns~~ RFC8501
+* ~~draft-ietf-dnsop-kskroll-sentinel~~ RFC8509
+* ~~draft-ietf-dnsop-refuse-any~~ RFC8482
+* ~~draft-ietf-dnsop-attrleaf~~ RFC8552
+* ~~draft-ietf-dnsop-attrleaf-fix~~  RFC8553
+* ~~draft-ietf-dnsop-session-signal~~ RFC8490
 
-## New 
+## Document Status 
+
+* draft-ietf-dnsop-extended-error
+
+* draft-ietf-dnsop-rfc2845bis
+    - Needs an iteration
+
+* draft-ietf-dnsop-no-response-issue
+    - Chairs feel ready for WGLC
+
+* draft-ietf-dnsop-serve-stale
+    - ?
+
+* draft-ietf-dnsop-rfc7816bis
+    - Going to take some time to address operational issues
+
+* draft-ietf-dnsop-aname
+    - address by June
 
 
 ---
-# KSK Futures BoF
+## KSK Futures BoF
 Thursday, 0900-1030, Congress Hall 2
 
 IANA is collecting community input so it can decide what to do in the future with the DNS root KSK
@@ -23,4 +44,11 @@ BoF will be a short introduction followed by lots of mic time
 Similar meeting happened at ICANN 64 in Kobe, and another will happen at the ICANN DNS Symposium in May
 
 There is also a mailing list which allows longer discussion threads: https://mm.icann.org/mailman/listinfo/ksk-rollover
+---
+## Various issues raised in the DoH context
+Karlin 1/2, Wednesday 15:00 CEST
+
+There have been some interest and discussion about the deployment of DoH (DNS-over-HTTPS, RFC 8484) and some of its possible consequences. While it appeared in the DoH context, it may be broader. 
+
+The discussions currently take place on WG doh and dprive but could also be of interest for dnsop and HRPC
 ---
