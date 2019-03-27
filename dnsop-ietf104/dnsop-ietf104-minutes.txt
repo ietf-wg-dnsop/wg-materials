@@ -1,0 +1,105 @@
+DNSOP WG
+IETF 104
+26 March 2019, 13:50-15:50 local time
+Chairs: Tim Wicinski, Suzanne Woolf, Benno Overeinder
+Minutes: Paul Hoffman
+Text from slides not reproduced here
+
+Session 1
+
+Administrivia
+    See slides
+    ANAME authors may be reducing scope of document
+    
+DNS-SD Document Updates; Stewart Chesire
+    Will take more things to the WG list, wants more review from DNSOP folks
+
+IETF Hackathon: Everything DNS; Sara Dickinson
+    Paul: Encourages people to come because it helps you when you are doing code
+    Suzanne: Because the DNS lives in the real world, the hackathon is especially important
+
+draft-ietf-dnsop-multi-provider-dnssec; Pallavi Aras and Shumon Huque
+    Shumon: Not ready for WG last call because there is a bunch of pending issues
+    Jan Vcelak: Definitely looking for more input
+    Shumon: Would like new draft to be ready for next meeting
+    Willem Toorop: What are the colors of the keys?
+        Blue is private key
+    John Reed: Is this intended for steady-state, or transitioning?
+        Shumon: Was for steady-state, but now moving to transitioning
+        John: Will this help get rid of 6761 and non-cooperating operators
+    Christian Grothoff: Have you thought about threshold signatures
+        Shumon: Will do
+    Tim: REGEXT is looking at registry handoff, also a side meeting on registry lock
+    Mike StJohns: What if different providers are signing different parts?
+        Shumon: Each provider is signing the whole zone
+        Pallavi: Each signer needs to do NSEC or NSEC3, but not different
+    Shumon: What about response size? Only changes DNSKEY records
+    Petr Špaček: Does this affect aggressive NSEC?
+        Jan: yes
+
+draft-ietf-dnsop-7706bis; Paul Hoffman
+    Wes Hardaker: Why is the root special?
+        Paul: Root is not special 
+    Wes: Seems useful to do pre-caching for any zone. 
+    Paul: Examples in Appendix showing how to do for other zones
+    Wes: Root Zone List not correct
+        Paul:  Please send email 
+    Andreas Schulze:  Anyone can try and see if it works. 
+        Paul: Should be for zone administrators who want this served this way.
+    Matt Pounsett:  Listing non-ICANN or ICANN projects, side projects come and go. Perhaps discuss these projects are ephemeral. 
+        Paul: Off-boarding is really important for this. 
+    Chairs: HyperLocal date?
+        Paul: I don't predict well
+    Paul: Knowing when a service stops working is really important
+
+draft-ietf-dnsop-dns-tcp-requirements; Duane Wessels
+    Slides were originally for tcpm WG (TCP Maintenance)
+    Sara: There are also privacy concerns with TFO
+        Yes to promoting TLS
+        Do you want to talk about DSO? Will send text
+    Wes: 7706 code snippets
+    Petr: From flag day, operators said this was not Internet Standard
+        Suzanne: Chairs will follow up on that
+    Suzanne: Have people tested this?
+        Sara: DNS Privacy web site has some data on that for open source implementations        
+
+draft-livingood-dnsop-dont-switch-resolvers; Jason Livingood
+draft-livingood-dnsop-auth-dnssec-mistakes; Jason Livingood
+    George Michaelson: When the signalling mechanism is SERVFAIL, how do I know?
+        Have to have extended errors
+    Tim: Can they be combined into one?
+        Jason: Yes
+    Jim Reid: Supports
+        Validating resolvers that will soft-fail: needs wording
+    Matthijs Mekking: One document
+    Ralf Weber: Could be split into different sections
+    Warren Kumari: Who is the actual audience?
+        Jason: Lots of people outside the IETF read RFCs
+    Stéphane Bortzmeyer: Lots of people who talk to users read these documents
+    Tim: Audience is network operations people who aren't obsessed with DNS like we are
+    Matt Pounsett: Should work on it.
+    Peter Koch: RFCs don't reach the right audience
+        Paul: IETF Blog helps
+    Joe Abley: Old RFCs get use
+    Petr: Supports draft
+    Dan York: Likes these kind of drafts
+        We can point to RFCs
+    Tim: We can bring this to NANOG
+    Suz: Customer Support folks at operator shops care about these
+    Dan: You want a small number of best practices documents
+    Matthijs: Would prefer one document because they are intertwined
+    Benno: Go for one document, then call on mailing list
+
+draft-lhotka-dnsop-iana-class-type-yang; Ladislav Lhotka and Petr Špaček
+    Andrew Sullivan: Has opinions on IANA registries
+        Do not get out of sync with IANA registry
+        You will run into things that are deprecated
+        Everything that is marked as "obsolete" is treated as "deprecated"
+            You don't have to care about these
+    Draft will be reviewed by YANG doctors
+    Wes: Did you consider RFC 6168?
+        Ladislav: This can be a difficult process
+            This is just types that can be used in other places
+        Wes: Think about TSIG keys
+    
+
