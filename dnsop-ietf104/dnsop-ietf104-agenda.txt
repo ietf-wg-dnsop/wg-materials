@@ -7,11 +7,11 @@
 * Time: 13:50-15:50 CET (12:50-14:50 UTC)
 * Room:  Congress Hall 1
 
-* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
-* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
+* Chairs: Tim Wicinski
+* Chairs: Suzanne Woolf
+* Chairs: Benno Overeinder
 
-* IESG Overlord: Warren Kumari <warren@kumari.net>
+* IESG Overlord: Warren Kumari
 
 * [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
@@ -66,14 +66,14 @@
 ## Session II
 
 * Date: 29 March 2019
-* Time: 09:30-10:30 CET (08:30-09:30 UTC)
+* Time: 09:00-10:30 CET (08:00-09:30 UTC)
 * Room:  Congress Hall 2
 
-* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
-* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Charis: Benno Overeinder <benno@nlnetlabs.nl>
+* Chairs: Tim Wicinski
+* Chairs: Suzanne Woolf
+* Charis: Benno Overeinder
 
-* IESG Overlord: Warren Kumari <warren@kumari.net>
+* IESG Overlord: Warren Kumari
 
 * [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
@@ -89,7 +89,7 @@
 
 * [draft-sury-toorop-dns-cookies-algorithms](https://datatracker.ietf.org/doc/draft-sury-toorop-dns-cookies-algorithms/)
     - Sury, 15min
-    - Action: 
+    - Action: CfA
 
 * [draft-stw-6761ext](https://datatracker.ietf.org/doc/draft-stw-6761ext/)
     - Woolf, 15min
@@ -98,3 +98,7 @@
 * [draft-brotman-rdbd](https://datatracker.ietf.org/doc/draft-brotman-rdbd/)
     - Farrell, 10min
     - Action: draw attention from the DNS WG to the draft 
+ 
+ * ANAME: How to move forward
+    - Matthijs Mekking
+    - Tim Wicinski
