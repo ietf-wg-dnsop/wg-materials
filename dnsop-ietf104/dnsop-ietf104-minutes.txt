@@ -220,7 +220,8 @@ ANAME discussion; Matthijs Mekking
         Did simulations up to 10m zones
     Petr: Two documents: how to do zone transfer, rest
         Allow people to use multiple providers
-    Olli Vannoja: Doesn't think it breaks DNSSEC
+    Olli Vannoja: Doesn't think it breaks geo-dns/edns because some providers
+        have already implemented both.
     Brian: Being offered by vertical integration suppliers, not authoritatives
     Matt: No
     Benno: Easier for two documents, but wants to hear more on the list
