@@ -101,5 +101,130 @@ draft-lhotka-dnsop-iana-class-type-yang; Ladislav Lhotka and Petr Špaček
         Ladislav: This can be a difficult process
             This is just types that can be used in other places
         Wes: Think about TSIG keys
-    
 
+
+Session 2
+"New work day"
+
+draft-moura-dnsop-authoritative-recommendations; Giovane Moura
+    George: R2: Disagrees that the study is representative because uses RIPE Atlas
+    Wes: Asks whether we should bring to the WG, or remove some recommendations
+    Lars-Johan Liman: What status do you want?
+        Giovane: Informational, not BCP
+    Liman: Suggestions or things to think about; not recommendations
+        Customers will insist that "we much have this" and lose diversity
+        Giovane: Reproducing the recommendations
+        Liman: Not buying into that; needs to be observations
+        Wes: Will think about it
+    Stéphane: Thought it was good research
+        Concern that this is only for big authoritative servers, not even medium-sized zone
+        Wants title changed to make the scope narrow
+        Giovane: Will change
+    Peter van Dijk: Question about R5
+    Joe: Has read four of these papers
+        Really about anycast, not about DNS
+        Quite nuanced and subtle observations that are in context, but this document makes broad claims
+        Don't think it is sensible to expand the papers
+        Would prefer that this was a "literature review"
+        These are too broad and across the board
+    Peter Koch: 15 years ago, Lixia had a draft on TTLs
+        WG could not agree on this
+        Drop R5 from the document
+        Open to making papers more accessible, but not to be recommendations or observations
+        Wants more diversity of papers
+    Benno: Wants more discussion on mailing list
+
+draft-sury-toorop-dns-cookies-algorithms; Willem
+    Paul: Why SipHash?
+    Ondřej Surý: Already used everywhere even though new
+    Peter Lexis: License is public domain
+    Benno: Will send out call for adoption, feels positive vibes
+    Warren: Make sure security groups and CFRG know
+
+draft-stw-6761ext; Suzanne Woolf
+    Warren: Would be nice if we could avoid the .onion discussion again
+        Wants to work on this so we only do it once
+    Jim: Good to not use DNSOP in the review, but needs a review process
+        Expert review panel?
+        Would be good to have some visibility
+        Need to think about liason with ICANN
+            Worried about double-dipping or gaming of ICANN process
+            Doesn't want people coming to IETF to circumvent ICANN process
+    Paul Wouters: Froze 6761 with selectively allowing others
+        If we do not update 6761, we must move it to historic
+        Suzanne: Want the process to not look arbitrary
+    Christian Grothoff: Has proposal to overwrite root zone
+        Has done usabilty studies to show that this works
+    Wes: How to have input from ICANN is important
+        Note to chairs: don't let this drop, critical to solve
+    PeterK: Missing a recommendation: makes the name special, doesn't allocate the name
+        If you have a name, you can make it special
+        Doubts that DNSOP is the right venue, but doesn't have a better one
+        IETF and ICANN have tried hard to coordinate
+        Example of corp/home/mail
+    Stéphane: Doesn't solve the real problem
+        When people from outside to reserve TLDs
+        We can talk to ICANN
+        Draft doesn't solve the problem: it gives advice to people who already know about it
+    Suzanne: "single label names" or not
+        Are people asking for the name to be delegated in the DNS with specific behavior, or that the name be instantiated
+        Distinct cases
+        Other approaches are welcome
+        Warren will decide how to move forward
+    Warren: Would the WG please consider working on it?
+
+draft-brotman-rdbd; Stephen Farrell and Alex Brotman
+    Brian Dickinson: Explicit declaration of non-mapping vs. missing declaration of mapping
+        Defensive records saying that there are no other zones
+    Alexander Mayrhofer: How can this work without semantics?
+        There are other mechanisms, such as meta-tags
+        Stephen: Trying to not do semantics
+        Alexander: Makes this useless
+    Jim: Not sure the DNS is the place for this kind of semantics
+        How is this different than DNAME?
+    Joe: Thinks the cesspool is fine
+        The current mechanisms are terrible and inaccurate
+        What incentive does the domain name holder to have to publish these?
+        Alex: When people want to look legitimate
+    Matt: Hard time seeing use cases
+        Boils down to interpretation by anti-abuse researchers
+        What will the absence of records mean? Could be messy
+        More semantics
+    John Reed: Which direction should it be?
+        Lists can get real big real fast
+        How to make sure it's gone on both ends when the relationship ends
+    Murray Kucherawy: Need to address unidirectional cases may be attacks
+    Sam Weiler:
+        First party sets proposals
+        Signing is crazy
+    Warren: Not sure if it should be in the DNS
+        Would like to disavow: more useful
+    Dan York: Thanks for bringing it here
+        Have you spoken other vendors who might implement this?
+        What prevents less ethical people from claiming 
+    Murray: Has application in DBOUND
+
+ANAME discussion; Matthijs Mekking
+    Wants discussion to be about current draft, or maybe a reduced scope
+    Willem: Likes current draft, wants to implement it
+    Brian: Issues that authoritatives must act in a way that resolvers used to do
+        Won't scale, is an existential threat to authoritative servers
+        Interferes with geo-ip that they have implemented
+        Recursives scale by queries, authoritatives scale by zone
+        Changes business model in a bad way
+        Matthijs: New document would need to deal with authoritative aspects
+            Similar to DNSSEC for geoip
+    Shane Kerr: People have implemented things just like this, it scales
+    Matt: This sort of thing does work
+        Had to do ramp-up and back-off strategies
+        Did simulations up to 10m zones
+    Petr: Two documents: how to do zone transfer, rest
+        Allow people to use multiple providers
+    Olli Vannoja: Doesn't think it breaks DNSSEC
+    Brian: Being offered by vertical integration suppliers, not authoritatives
+    Matt: No
+    Benno: Easier for two documents, but wants to hear more on the list
+    Tim: Brian is incorrect
+        One document is OK
+        This scales, everybody does it
+    Tony Finch: Would like more comments on the list from people who are already do this
