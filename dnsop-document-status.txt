@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 22 March 2019
+### Updated: 03 July 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
@@ -15,21 +15,23 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * ~~draft-ietf-dnsop-attrleaf~~ RFC8552
 * ~~draft-ietf-dnsop-attrleaf-fix~~  RFC8553
 * ~~draft-ietf-dnsop-session-signal~~ RFC8490
+* ~~draft-ietf-dnsop-algorithm-update~~ RFC8624
 
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-dns-capture-format
-    - waiting on cbor-cddl 
+    - in AUTH48 
 
 ## IESG Queue
 
-* draft-ietf-dnsop-algorithm-update
+* 
     - Telechat 11 April 
 
 ## In WG Last Call
 
-* draft-ietf-dnsop-extended-error
-    - 
+* draft-ietf-dnsop-extended-error since 2018-10-23
+
+* draft-ietf-dnsop-serve-stale since 2019-07-02
 
 ## Upcoming WG Last Calls
 
@@ -44,12 +46,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-aname
 
 * draft-ietf-dnsop-dns-tcp-requirements
+
+* draft-ietf-dnsop-dns-zone-digest
     
 * draft-ietf-dnsop-multi-provider-dnssec
 
+* draft-ietf-dnsop-no-response-issue
+
+* draft-ietf-dnsop-rfc2845bis
+
 * draft-ietf-dnsop-rfc7816bis
 
-* draft-ietf-dnsop-serve-stale
+## WG Documents Held by WG
+
+* draft-ietf-dnsop-alt-tld
 
 ## Active Calls for Adoption
 
