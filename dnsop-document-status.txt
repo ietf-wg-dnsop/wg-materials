@@ -15,16 +15,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * ~~draft-ietf-dnsop-attrleaf~~ RFC8552
 * ~~draft-ietf-dnsop-attrleaf-fix~~  RFC8553
 * ~~draft-ietf-dnsop-session-signal~~ RFC8490
+* ~~draft-ietf-dnsop-algorithm-update~~ RFC8624
 
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-dns-capture-format
-    - waiting on cbor-cddl 
+    - RFC-EDITOR 
 
 ## IESG Queue
-
-* draft-ietf-dnsop-algorithm-update
-    - Telechat 11 April 
 
 ## In WG Last Call
 
@@ -33,13 +31,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Upcoming WG Last Calls
 
-* draft-ietf-dnsop-rfc2845bis 
+* draft-ietf-dnsop-rfc2845bis
 
 * draft-ietf-dnsop-no-response-issue
 
 ## Adopted by WG, Under Discussion
 
 * draft-ietf-dnsop-7706bis
+    - 
 
 * draft-ietf-dnsop-aname
 
@@ -51,9 +50,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-serve-stale
 
-## Active Calls for Adoption
-
 * draft-wessels-dns-zone-digest
+
+## Active Calls for Adoption
 
 ## Candidates For Adoption
 
