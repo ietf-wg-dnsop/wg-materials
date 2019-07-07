@@ -48,9 +48,15 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-multi-provider-dnssec
 
+* draft-ietf-dnsop-no-response-issue
+
+* draft-ietf-dnsop-rfc2845bis
+
 * draft-ietf-dnsop-rfc7816bis
 
-* draft-ietf-dnsop-serve-stale
+## WG Documents Held by WG
+
+* draft-ietf-dnsop-alt-tld
 
 ## Active Calls for Adoption
 
