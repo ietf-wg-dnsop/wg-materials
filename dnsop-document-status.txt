@@ -4,11 +4,11 @@
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
 
-Questions, Concerns, etc:  dnsop-chairs at ietf.org 
+Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done
 
-* ~~draft-ietf-dnsop-terminology-bis~~ RFC8499 
+* ~~draft-ietf-dnsop-terminology-bis~~ RFC8499
 * ~~draft-ietf-dnsop-isp-ip6rdns~~ RFC8501
 * ~~draft-ietf-dnsop-kskroll-sentinel~~ RFC8509
 * ~~draft-ietf-dnsop-refuse-any~~ RFC8482
@@ -20,12 +20,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-dns-capture-format
-    - in AUTH48 
+    - in AUTH48
 
 ## IESG Queue
-
-* 
-    - Telechat 11 April 
 
 ## In WG Last Call
 
@@ -35,20 +32,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Upcoming WG Last Calls
 
-* draft-ietf-dnsop-rfc2845bis 
+* draft-ietf-dnsop-rfc2845bis
 
 * draft-ietf-dnsop-no-response-issue
 
-## Adopted by WG, Under Discussion
-
 * draft-ietf-dnsop-7706bis
+
+## Adopted by WG, Under Discussion
 
 * draft-ietf-dnsop-aname
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
 * draft-ietf-dnsop-dns-zone-digest
-    
+
 * draft-ietf-dnsop-multi-provider-dnssec
 
 * draft-ietf-dnsop-no-response-issue
@@ -63,27 +60,23 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-* draft-wessels-dns-zone-digest
+* draft-sury-toorop-dns-cookies-algorithms
 
 ## Candidates For Adoption
 
-* draft-hoffman-dns-special-labels 
-
 * draft-lhotka-dnsop-iana-class-type-yang
-
-## New Documents 
-
-* draft-livingood-dnsop-dont-switch-resolvers 
-
+*
 * draft-moura-dnsop-authoritative-recommendations
+
+## New Documents
+
+* draft-livingood-dnsop-dont-switch-resolvers
 
 * draft-livingood-dnsop-auth-dnssec-mistakes
 
 * draft-pusateri-dnsop-update-timeout
 
-* draft-sury-toorop-dns-cookies-algorithms
-
 ## Needs more Review
 
-## Not At This Time 
+## Not At This Time
 
