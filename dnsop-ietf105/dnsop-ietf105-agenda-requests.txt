@@ -10,7 +10,7 @@
 
 ### Current Working Group Business
 
-*   Draft name: draft-moura-dnsop-authoritative-recommendations
+*   Draft name: draft-moura-dnsop-authoritative-recommendations  
     Datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/  
     Requester Email: <giovane.moura@sidn.nl>,<hardaker@isi.edu>,<Marco.Davids@sidn.nl>,<johnh@isi.edu>  
 
