@@ -8,6 +8,10 @@
 
 ## Requests
 
+* Draft name: draft-moura-dnsop-authoritative-recommendations
+  datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/
+  Requester Email: <giovane.moura@sidn.nl>,<hardaker@isi.edu>,<Marco.Davids@sidn.nl>,<johnh@isi.edu>
+
 * Draft name: draft-nygren-httpbis-httpssvc
   datatracker URL: https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/
   Requester Email: <erik@nygren.org>,<bemasc@google.com>,<mbishop@evequefou.be>
@@ -16,9 +20,16 @@
   datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
   Requester Email: fujiwara@jprs.co.jp
 
+
+* Draft name: draft-ietf-dnsop-7706bis
+  datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/
+  Requester Email:  <paul.hoffman@icann.org>,  <wkumari@google.com>
+
+
+
+* Draft name: draft-hoffman-dns-terminology-ter
+  datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-dns-terminology-ter/
+  Requester Email: <paul.hoffman@icann.org>
+
+
 ##
-
-
-draft-ietf-dnsop-7706bis
-
-draft-hoffman-dns-terminology-ter tdraft-hoffman-dns-terminology-ter t
