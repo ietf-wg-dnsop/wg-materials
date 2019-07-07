@@ -2,11 +2,20 @@
 
 ## Request Template Example
 
-* Draft name: 
-  datatracker URL: 
-  Requester Email: 
+* Draft name:
+  datatracker URL:
+  Requester Email:
 
 ## Requests
 
-  
-## 
+* Draft name: draft-nygren-httpbis-httpssvc
+  datatracker URL:  https://tools.ietf.org/html/draft-nygren-httpbis-httpssvc-01
+  Requester Email: <erik@nygren.org>,<bemasc@google.com>,<mbishop@evequefou.be>
+
+* Draft name:  draft-fujiwara-dnsop-avoid-fragmentation
+  datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
+  Requester Email:
+
+##
+
+
