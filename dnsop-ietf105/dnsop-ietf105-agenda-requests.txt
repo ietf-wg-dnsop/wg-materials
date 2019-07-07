@@ -13,29 +13,26 @@
 *   Draft name: draft-moura-dnsop-authoritative-recommendations  
     Datatracker URL: https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/  
     Requester Email: <giovane.moura@sidn.nl>,<hardaker@isi.edu>,<Marco.Davids@sidn.nl>,<johnh@isi.edu>  
-
-
-
+    
 *   Draft name: draft-ietf-dnsop-7706bis  
     Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/  
     Requester Email:  <paul.hoffman@icann.org>,  <wkumari@google.com>  
 
-
-* Draft name: draft-hoffman-dns-terminology-ter  
-  datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-dns-terminology-ter/  
-  Requester Email: <paul.hoffman@icann.org>  
+*   Draft name: draft-hoffman-dns-terminology-ter  
+    Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-dns-terminology-ter/  
+    Requester Email: <paul.hoffman@icann.org>  
 
 
 ### New Working Group Business
 
-* Draft name: draft-nygren-httpbis-httpssvc  
-  datatracker URL: https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/  
-  Requester Email: <erik@nygren.org>,<bemasc@google.com>,<mbishop@evequefou.be>  
+*   Draft name: draft-nygren-httpbis-httpssvc  
+    Datatracker URL: https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/  
+    Requester Email: <erik@nygren.org>,<bemasc@google.com>,<mbishop@evequefou.be>  
 
 
-* Draft name:  draft-fujiwara-dnsop-avoid-fragmentation  
-  datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/  
-  Requester Email: fujiwara@jprs.co.jp
+*   Draft name:  draft-fujiwara-dnsop-avoid-fragmentation  
+    Datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/  
+    Requester Email: fujiwara@jprs.co.jp
 
 
 ##
