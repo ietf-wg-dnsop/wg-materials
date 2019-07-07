@@ -20,7 +20,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-dns-capture-format
-    - AUTH48
+    - in AUTH48
 
 ## IESG Queue
 
@@ -44,13 +44,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
+* draft-ietf-dnsop-dns-zone-digest
+
 * draft-ietf-dnsop-multi-provider-dnssec
 
 * draft-ietf-dnsop-rfc7816bis
 
 * draft-ietf-dnsop-serve-stale
-
-* draft-ietf-dnsop-dns-zone-digest
 
 ## Active Calls for Adoption
 
