@@ -9,13 +9,16 @@
 ## Requests
 
 * Draft name: draft-nygren-httpbis-httpssvc
-  datatracker URL:  https://tools.ietf.org/html/draft-nygren-httpbis-httpssvc-01
+  datatracker URL: https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/
   Requester Email: <erik@nygren.org>,<bemasc@google.com>,<mbishop@evequefou.be>
 
 * Draft name:  draft-fujiwara-dnsop-avoid-fragmentation
   datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
-  Requester Email:
+  Requester Email: fujiwara@jprs.co.jp
 
 ##
 
 
+draft-ietf-dnsop-7706bis
+
+draft-hoffman-dns-terminology-ter tdraft-hoffman-dns-terminology-ter t
