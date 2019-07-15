@@ -1,17 +1,17 @@
 # DNS Operations (DNSOP) Working Group
-## IETF 
+## IETF 105
 
-* Date: 
-* Time: 
-* Room: 
+## Session I
 
-* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
-* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
+* Date: 22 July 2019
+* Time: 18:10-19:10 EDT (22:10-23:10 UTC)
+* Room: Place du Canada
 
-* Secretary: Paul Hoffman <paul.hoffman@icann.org>
+* Chairs: Tim Wicinski
+* Chairs: Suzanne Woolf
+* CHairs: Benno Overeinder
 
-* IESG Overlord: Warren Kumari <warren@kumari.net>
+* IESG Overlord: Warren Kumari
 
 * [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
 * [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
@@ -23,18 +23,68 @@
 
 * Agenda Bashing, Blue Sheets, etc,  10 min
 
-* Updates of Old Work, Chairs, 10 min
+* Updtes of Old Work, DLV historic, 10 min
+
+* Hackathon Results, 10 min
 
 ---
+### Results from the IETF Hackathon
+
+* IETF Hackathon: Everything DNS
+    - TBD
+
 ### Current Working Group Business
 
-* 
+* [draft-sury-toorop-dnsop-server-cookies](https://datatracker.ietf.org/doc/draft-sury-toorop-dnsop-server-cookies/)
+    - Toorop, 10 min
 
+* [draft-ietf-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/)
+    - Hoffman, 10 min
+
+* [draft-hoffman-dns-terminology-ter](https://datatracker.ietf.org/doc/draft-hoffman-dns-terminology-ter/)
+    - Hoffman, 10 min
+
+
+## Session II
+
+* Date: 23 July 2019
+* Time: 10:00-12:00 EDT (14:00-16:00 UTC)
+* Room: Viger
+
+* Chairs: Tim Wicinski
+* Chairs: Suzanne Woolf
+* Chairs: Benno Overeinder
+
+* IESG Overlord: Warren Kumari
 
 ---
+## Agenda
+
+### Administrivia 
+
+* Agenda, Blue Sheets, etc, 5 min
+
+### Current Working Group Business
+
+* ANAME: Chair's introduction, 5 min
+
+* [draft-ietf-dnsop-aname](https://datatracker.ietf.org/doc/draft-ietf-dnsop-aname/)
+    - Mekking and Hunt, 20 min
+
+* [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
+    - Moura, 10 min
+    
+
 ### New Working Group Business
 
-* 
+* [draft-nygren-httpbis-httpssvc](https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/)  
+    - Nygren, 15 min
+
+* [draft-fujiwara-dnsop-avoid-fragmentation](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/) 
+    - Fujiwara, 15 min
+
+* [draft-brotman-rdbd](https://datatracker.ietf.org/doc/draft-brotman-rdbd/)
+    - Farrell and Brotman, 10 min
 
 
 ---
