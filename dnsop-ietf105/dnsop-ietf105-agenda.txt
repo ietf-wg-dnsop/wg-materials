@@ -30,7 +30,7 @@
 ---
 ### Results from the IETF Hackathon
 
-* IETF Hackathon: Everything DNS
+* IETF Hackathon: Everything DNS N      N
     - TBD
 
 ### Current Working Group Business
@@ -76,6 +76,9 @@
     
 
 ### New Working Group Business
+
+* [draft-sah-resolver-information](https://datatracker.ietf.org/doc/draft-sah-resolver-information/)
+    - Hoffmann, 15min
 
 * [draft-nygren-httpbis-httpssvc](https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/)  
     - Nygren, 15 min

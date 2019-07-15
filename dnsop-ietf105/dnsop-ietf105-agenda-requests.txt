@@ -22,6 +22,13 @@
     Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-dns-terminology-ter/  
     Requester Email: <paul.hoffman@icann.org>  
 
+*   Draft name:  draft-sury-toorop-dnsop-server-cookies  
+    Datatracker URL:  https://datatracker.ietf.org/doc/draft-sury-toorop-dnsop-server-cookies/  
+    Requester Email:  
+
+*   Draft name:  draft-ietf-dnsop-aname
+    Datatracker URL:  https://datatracker.ietf.org/doc/draft-ietf-dnsop-aname/
+    Requester Email:  
 
 ### New Working Group Business
 
@@ -29,10 +36,18 @@
     Datatracker URL: https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/  
     Requester Email: <erik@nygren.org>,<bemasc@google.com>,<mbishop@evequefou.be>  
 
-
 *   Draft name:  draft-fujiwara-dnsop-avoid-fragmentation  
     Datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/  
     Requester Email: fujiwara@jprs.co.jp
+
+*   Draft name:  draft-sah-resolver-information  
+    Datatracker URL:  https://datatracker.ietf.org/doc/draft-sah-resolver-information/  
+    Requester Email:  <paul.hoffman@icann.org>  
+
+*   Draft name:  draft-brotman-rdbd
+    Datatracker URL:  https://datatracker.ietf.org/doc/draft-brotman-rdbd/
+    Requester Email:  
+
 
 
 ##
