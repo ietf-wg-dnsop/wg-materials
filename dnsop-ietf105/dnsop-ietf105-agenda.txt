@@ -9,7 +9,7 @@
 
 * Chairs: Tim Wicinski
 * Chairs: Suzanne Woolf
-* CHairs: Benno Overeinder
+* Chairs: Benno Overeinder
 
 * IESG Overlord: Warren Kumari
 
