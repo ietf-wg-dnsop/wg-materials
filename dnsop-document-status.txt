@@ -60,12 +60,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-* draft-sury-toorop-dns-cookies-algorithms
+* draft-sury-toorop-dnsop-server-cookies started 2019-07-06
+
+* draft-lhotka-dnsop-iana-class-type-yang started 2019-07-15
 
 ## Candidates For Adoption
 
-* draft-lhotka-dnsop-iana-class-type-yang
-*
 * draft-moura-dnsop-authoritative-recommendations
 
 ## New Documents
