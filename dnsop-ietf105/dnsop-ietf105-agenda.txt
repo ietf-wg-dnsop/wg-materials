@@ -1,3 +1,4 @@
+
 # DNS Operations (DNSOP) Working Group
 ## IETF 105
 
@@ -30,19 +31,22 @@
 ---
 ### Results from the IETF Hackathon
 
-* IETF Hackathon: Everything DNS N      N
+* IETF Hackathon: Everything DNS
     - TBD
 
 ### Current Working Group Business
 
 * [draft-sury-toorop-dnsop-server-cookies](https://datatracker.ietf.org/doc/draft-sury-toorop-dnsop-server-cookies/)
     - Toorop, 10 min
+    - Action: 
 
 * [draft-ietf-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/)
     - Hoffman, 10 min
+    - Action: WGLC
 
 * [draft-hoffman-dns-terminology-ter](https://datatracker.ietf.org/doc/draft-hoffman-dns-terminology-ter/)
     - Hoffman, 10 min
+    - Action: Adopt?
 
 
 ## Session II
@@ -70,25 +74,30 @@
 
 * [draft-ietf-dnsop-aname](https://datatracker.ietf.org/doc/draft-ietf-dnsop-aname/)
     - Mekking and Hunt, 20 min
+    - Action: With Loop Answer, Review and WGLC
 
 * [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
     - Moura, 10 min
+    - Action: 
     
 
 ### New Working Group Business
 
 * [draft-sah-resolver-information](https://datatracker.ietf.org/doc/draft-sah-resolver-information/)
     - Hoffmann, 15min
+    - Action: CfA
 
 * [draft-nygren-httpbis-httpssvc](https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/)  
     - Nygren, 15 min
+    - Action:  
 
 * [draft-fujiwara-dnsop-avoid-fragmentation](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/) 
     - Fujiwara, 15 min
+    - Action: 
 
 * [draft-brotman-rdbd](https://datatracker.ietf.org/doc/draft-brotman-rdbd/)
     - Farrell and Brotman, 10 min
-
+    - Action: 
 
 ---
 ### Time Permitting

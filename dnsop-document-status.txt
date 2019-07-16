@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 03 July 2019
+### Updated: 16 July 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
@@ -30,13 +30,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-serve-stale since 2019-07-02
 
-## Upcoming WG Last Calls
-
 * draft-ietf-dnsop-rfc2845bis
+
+## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-no-response-issue
 
 * draft-ietf-dnsop-7706bis
+
+## Special AD Process
+
+* draft-mekking-dnsop-obsolete-dlv
+    - Will send to AD 24 July 2019 
 
 ## Adopted by WG, Under Discussion
 
@@ -47,10 +52,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dns-zone-digest
 
 * draft-ietf-dnsop-multi-provider-dnssec
-
-* draft-ietf-dnsop-no-response-issue
-
-* draft-ietf-dnsop-rfc2845bis
 
 * draft-ietf-dnsop-rfc7816bis
 
@@ -68,6 +69,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-moura-dnsop-authoritative-recommendations
 
+* draft-sah-resolver-information 
+
 ## New Documents
 
 * draft-livingood-dnsop-dont-switch-resolvers
@@ -75,6 +78,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-livingood-dnsop-auth-dnssec-mistakes
 
 * draft-pusateri-dnsop-update-timeout
+
+* draft-fujiwara-dnsop-avoid-fragmentation 
 
 ## Needs more Review
 
