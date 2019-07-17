@@ -8,13 +8,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-terminology-bis~~ RFC8499
-* ~~draft-ietf-dnsop-isp-ip6rdns~~ RFC8501
-* ~~draft-ietf-dnsop-kskroll-sentinel~~ RFC8509
-* ~~draft-ietf-dnsop-refuse-any~~ RFC8482
-* ~~draft-ietf-dnsop-attrleaf~~ RFC8552
-* ~~draft-ietf-dnsop-attrleaf-fix~~  RFC8553
-* ~~draft-ietf-dnsop-session-signal~~ RFC8490
 * ~~draft-ietf-dnsop-algorithm-update~~ RFC8624
 
 ###  RFC Ed Queue
