@@ -48,6 +48,9 @@
     Datatracker URL:  https://datatracker.ietf.org/doc/draft-brotman-rdbd/
     Requester Email:  
 
+*   Draft name:  bulk-rr
+    Datatracker URL:  
+    Requester Email:  
 
 
 ##
