@@ -68,11 +68,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-sah-resolver-information 
 
+* draft-nygren-httpbis-httpssvc
+
 ## New Documents
 
 * draft-fujiwara-dnsop-avoid-fragmentation 
 
 * andrews-dnsop-defeat-frag-attack
+
 
 * draft-livingood-dnsop-dont-switch-resolvers
 
