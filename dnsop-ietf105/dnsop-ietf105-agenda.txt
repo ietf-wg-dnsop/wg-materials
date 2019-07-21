@@ -38,7 +38,7 @@
 
 * [draft-sury-toorop-dnsop-server-cookies](https://datatracker.ietf.org/doc/draft-sury-toorop-dnsop-server-cookies/)
     - Toorop, 10 min
-    - Action: 
+    - Action: Adopted!
 
 * [draft-ietf-dnsop-7706bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-7706bis/)
     - Hoffman, 10 min
@@ -88,7 +88,7 @@
     - Action: CfA
 
 * [draft-nygren-httpbis-httpssvc](https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/)  
-    - Nygren, 15 min
+    - Nygren, 20 min
     - Action:  
 
 * [draft-fujiwara-dnsop-avoid-fragmentation](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/) 
