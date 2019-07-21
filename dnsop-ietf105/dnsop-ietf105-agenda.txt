@@ -105,7 +105,7 @@
 ---
 ### Time Permitting
 
-* [draft-krecicki-dns-covert](https://datatracker.ietf.org/doc/draft-krecicki-dns-covert/) \\
+* [draft-krecicki-dns-covert](https://datatracker.ietf.org/doc/draft-krecicki-dns-covert/) and
   [draft-hunt-note-rr](https://datatracker.ietf.org/doc/draft-hunt-note-rr/)
     - Krecicki, 10 min
     - Action:
