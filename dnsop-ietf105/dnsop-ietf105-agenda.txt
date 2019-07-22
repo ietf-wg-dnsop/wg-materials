@@ -73,26 +73,25 @@
 
 * [draft-ietf-dnsop-aname](https://datatracker.ietf.org/doc/draft-ietf-dnsop-aname/)
     - Mekking and Hunt, 20 min
-    - Action: With Loop Answer, Review and WGLC
+    - Action: With Loop Answer, Review 
+
+### New Working Group Business
 
 * [draft-nygren-httpbis-httpssvc](https://datatracker.ietf.org/doc/draft-nygren-httpbis-httpssvc/)  
     - Nygren, 20 min
     - Action:  
 
-
-### New Working Group Business
-
 * [draft-brotman-rdbd](https://datatracker.ietf.org/doc/draft-brotman-rdbd/)
     - Farrell and Brotman, 10 min
-    - Action: 
-    
-* [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
-    - Moura, 10 min
-    - Action: 
+    - Action:     
     
 * [draft-sah-resolver-information](https://datatracker.ietf.org/doc/draft-sah-resolver-information/)
     - Hoffmann, 15min
     - Action: CfA
+
+* [draft-moura-dnsop-authoritative-recommendations](https://datatracker.ietf.org/doc/draft-moura-dnsop-authoritative-recommendations/)
+    - Moura, 10 min
+    - Action: 
 
 * [draft-fujiwara-dnsop-avoid-fragmentation](https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/) 
     - Fujiwara, 15 min
