@@ -23,7 +23,7 @@
 
 * Agenda Bashing, Blue Sheets, etc,  10 min
 
-* Updtes of Old Work, DLV historic, 10 min
+* Updates of Old Work, DLV historic, 10 min
 
 * Hackathon Results, 10 min
 
@@ -31,7 +31,7 @@
 ### Results from the IETF Hackathon
 
 * IETF Hackathon: Everything DNS
-    - TBD
+    - Toorop
 
 ### Current Working Group Business
 
@@ -67,6 +67,7 @@
 
 * Agenda, Blue Sheets, etc, 5 min
 
+---
 ### Current Working Group Business
 
 * ANAME: Chair's introduction, 5 min
