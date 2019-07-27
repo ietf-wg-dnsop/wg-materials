@@ -1,0 +1,225 @@
+DNS Operations (DNSOP) Working Group
+Suzanne Woolf, Tim Wicinski, Benno Overeinder
+IETF 105
+Minutes taken by Paul Hoffman and Tim Wicinski
+Notes do not include text from slides
+Slides can be found at <https://datatracker.ietf.org/meeting/105/materials.html>
+
+## Session I, 2019-07-22, 1810
+
+Administrivia 
+        See the chair slides at <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessb-dnsop-chairs-slides-01>
+        Agenda bashing, blue sheets, etc
+        Other things happening this week
+        draft-ietf-dnsop-alt-tld
+                Andrew Sullivan: Why is this being sent to GenArea
+                        Maybe will be a loop with DNSOP
+                Jared Mauch: Maybe just drop this
+                Paul Wouters: We froze other people out of this, it feels weird to start it here
+                        Suzanne: We told people we needed to do more work, and we did
+                Wes Hardaker: Good question is "is this needed"?
+                        People outside show frustration with no ability at all
+                Warren Kumari: Fine if this dies, but want to know for sure
+                        Could come back to DNSOP
+                Paul Vixie: Something like this is kinda needed
+                        Like RFC 1918 was kinda neede
+                        If we do nothing, should do negative RFC saying why
+                Tim: We will talk to the authors
+        Lots of review of current document status
+
+Hackathon 105 results, Willem Toorop
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessb-hackathon-results-00>
+        Lots on DNS privacy
+        Other projects too
+
+draft-sury-toorop-dnsop-server-cookies, Willem Toorop
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessb-interoperable-dns-server-cookies-00>
+        About interoperable cookes across vendors
+        Testing at this Hackathon turned up issues with the draft
+
+draft-ietf-dnsop-7706bis, Paul Hoffman
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-draft-ietf-dnsop-7706bis-00>
+        Use Cases need to be updated, and still TODOs in document. 
+        Another Version by Sep 1, then WGLC
+        Puneep: Restriction root server accessible locally, but not good for scale. 
+        Wording so it doesn't have to be on same machine, but not accessible.
+        Paul Hofmann: "explicit use cases" discussion
+        Giovane: If run locally what NS TTL do you use - child zone or root zone?
+        Paul Hofmann: We do not say
+        Wes Hardaker:  Local copy of the root only answers authoratively as if it is root server.
+        When returning records for TLDs, resolvers should look at child server for which TTL to use.
+        Paul Hofmann: This is no more authorative than asking a root server. 
+
+draft-hoffman-dns-terminology-ter, Paul Hoffman
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-draft-hoffman-dns-terminology-ter-00>
+        George Michaelson: Ship the dictionary. It will never be finished. 
+        Paul Wouters: Does not like Do53. 
+        Brian Dickson: ADD should reflect all transports 
+        Giovane: 53 - UDP only? No - TCP/UDP
+        Jim Reed: let's get a document out the door. 
+        Stephane Bortzmeyer: Last one only not defined in RFC. 
+
+## Session II, 2019-07-23, 1000
+
+Chairs introduction
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-chairs-slides-session-ii-00>
+        ANAME and HTTPSSVC have overlapping use cases, should both be considered
+        The "extra work" for each is done in different spaces
+
+draft-ietf-dnsop-aname, Matthijs Mekking
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-aname-update-00>
+        Ben Schwartz: We want both proposals standardized
+                Could still simplify ANAME, pushing some of the complex parts to HTTPSSVC
+        Evan Hunt: Don't go to last call quickly
+                Did not expect browser update of other solutions but now sees HTTPSSVC
+                Carry on as if they won't
+                WG Last Call is premature until we know
+        Tim: Likes HTTPSSVC
+                ANAME wasn't trying to solve the "web problem", but instead the CNAME problem
+                Deals with containers all day as an operator
+                Sees no zones with A and AAAA, but instead doing crazy zone cuts or AWS kruft
+                ANAME could be simpler
+        Brian Dickson: Also likes HTTPSSVC
+                For the API use cases, maybe go to SRV instead of ANAME
+        Petr Špaček: ANAME sections 5 and 6 need more work
+                Matthijs: Not wanting to have ANAME in WG last call
+        David Lawrence: Didn't understand Tim's points
+                Tim: Seeing lots of stuff with "service endpoints"
+                        Backend servers talking to services and others
+                        In container world, you don't get an A record until the very end of the stream
+                Put the use cases in the doc
+        Erik Nygren: Work with the providers before finishing 
+                Might be going to an IP/port pair
+        Matthijs: Don't move forward yet if the use cases aren't clear
+        Benno: maybe have a interim to deal with new use cases
+
+draft-nygren-httpbis-httpssvc, Erik Nygren
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-httpssvc-service-location-and-parameter-specification-via-the-dns-dns-httpssvc-draft-nygren-httpbis-httpssvc-0-05>
+        Warren Kumari: How big do these things end up? Could be DoS fodder
+                Erik: Should have considerations on what to put in
+                        alt-svc could be split off to separate draft
+                        Not clear if browsers will do this on port Do53 or DOH
+        Olafur Gudmundsson: This has subtyping, which is bad
+                Get rid them, just have one format that is extensible in the string at the end
+                SNI key in the multi-cloud will require online generation of the records
+        Evan Hunt: Has a better pronunciation
+                Implemented on browser side yet?
+                        Erik: Not yet
+                Making it more generic, not specific to HTTPS?
+                        Erik: Worried that the RRset will get really big
+        Lorenzo Colitti: Can we design it for more than the browser?
+                Maybe TLSSVC
+                Don't box ourselves in
+                Argues to have it in DNSOP
+                Size constraints might not be important
+        Stephen Farrell: If browsers implement this, I like it
+                If there is a ESNI RRtype, would clients look up both?
+                        Erik: It would be nice to have both on one service
+        Ben: On ESNI, pick HTTPSSVC instead of ESNI
+                This draft allows arbitrary new protocols to use this
+                alt-svc can be expanded to other protocols
+        Eric Orth: Chrome team likes the sound of this
+                Would likely only use this when they have DoH
+                Worried about sending out third query for each request
+                Still room for other solutions like ANAME when not doing DoH    
+
+draft-brotman-rdbd, Stephen Farrell
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-related-zones-by-dns-00>
+        Jeff Hodges: Kicking this can down the road for a long time
+                There is a problem statement draft
+                This draft does not yet cover all the intricacies, could be added
+                Needs ability to say "I don't belong in that policy domain"
+        Stéphane Bortzmeyer: Why not use DNSSEC instead of adding its own authentication
+                Stephen: Maybe what's in here is a subset
+        John Bradley: We have a bunch of projects that need this
+                Lots of other authentication specs could use this
+        Paul Wouters: Was against this in the past, but is now in favor
+                Possibly could encompass "more specific URL" from forms and so on
+                Use DNSSEC as the trust model
+                If powerbind proposal moves forward, can distance from your parent
+        Murray Kucherawy: DMARC WG is also working in this space
+                Can this do something to replace the entire set of things
+        Benno: Move the discussion from DBOUND to DNSOP
+
+draft-sah-resolver-information, Puneet Sood
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-draft-sah-resolver-information-00>
+        Moving DoH endpoints to separate draft. 
+        Ben Schwarz: support adoption, like to solve use case. Like the Special use Domain 
+        use case more than reverse IP. 
+        Paul Wouters: Had a discussion in Trans on BCP190 and .well-known and was shot down. 
+        Not using .well-known is a hard problem. 
+        Stephane Bortzmeyer: Do Not Like. Close to captive portal WG. special case of 
+        Provisioning Domains? 
+        Paul Hofmann:  Could be done in DHC, but DoH WG not interested. But resolver might
+        want to tell you other things. Not a Provisioning thing.  
+        Stephane Bortzmeyer: Seems similar problem, add words.
+        Jim Reid: attempts to solve real problem, WG should adopt
+        Wes Hardaker: Support in concept 
+        Paul Hoffman: Very Lightweight. Totally open to updating format. 
+        Ben Schwarz: Provisioning is useful for local, but I view this as non-local.
+        Wants DNS Traceroute
+
+draft-moura-dnsop-authoritative-recommendations, Giovane Moura
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-draft-moura-dnsop-authoritative-recommendations-00>
+        Chairs discussion of whether the document should be adopted
+        Asks for more review
+        Matt Pounsett: Since this is a review of academic papers, what is the contribution of the WG?
+                Feels like independent submission
+
+draft-fujiwara-dnsop-avoid-fragmentation, Kazinori Fujiwara
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-avoid-fragmentation-00>
+        Lars-Johan Liman: How to put this to the end users
+                "Recommendations" vs. "Consideration"
+                Technically fine
+        Puneet: In favor of fixing UDP frag issue
+                Can work on specifics in the WG
+        Erik: PLPMTUD draft in Int Area
+        Petr: Support the document
+        Brian: The reality is worse than what is in the original research
+                Supports resolver vendors doing this
+        Mark Andrews: Also could use well-known TSIG key (new draft)
+                75% of top servers could deploy the well-known TSIG
+                There are ways around this without getting rid of fragmentation, but there are issues with going to TCP
+        Benno: WG seems interested in this draft as well as Mark's
+
+draft-woodworth-bulk-rr, John Woodworth
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-bulk-rr-00>
+    Geoff Huston: How do you sign it?
+        With NPM, or online signing
+        Warren: I have a lot of v6 space, so he wants this
+        Olafur: Likes this, but doesn't like the name of RRTYPE
+                Could use more examples, maybe not using so many regexps
+                Online signing is OK.
+
+draft-krecicki-dns-covert and draft-hunt-note-rr: Witold Kręcicki
+        <https://datatracker.ietf.org/meeting/105/materials/slides-105-dnsop-sessa-resource-record-types-for-transferring-covert-information-from-primary-to-secondaries-05>
+        Petr: Smells like database with ACLs
+                Can of worms, doesn't belong in DNS
+        Stephen: Things could go wrong with authentication change of DNS-TLS-
+        Terry Manderson: Just because you can, doesn't mean you should
+                Doesn't want to see this in the DNS
+        Warren: Special range feels icky
+                Witold: Prevent each draft from needind to do their own
+                        Don't do subtyping
+        Evan: This kind of thing is already in the DNS
+                Many operators have asked for this
+                Examples of things that cannot be queried
+                Some use cases have already been done
+        Petr: Evan has a point
+                Opportunity to make a much better zone transfer protocol
+        Wes: DNS is not designed to be an entity-to-entity protocol
+                In security context, we almost always require private data out-of-band
+        Jim Reid: Thinks it a bad idea
+                Security through obscurity
+                Slippery slope
+                The DNS is public
+        Liman: Doesn't belong in the zone
+                Maybe invent a new transfer type
+                Doesn't feel right to have it inside the zone
+        Petr: Can this be done with catalog zones instead?
+                Catalog zones are for entire zone
+                Wants it in the same hierarchy in the zone
+        Paul Hoffman: Re-emphasized Petr's suggestion of a new zone transfer program
+
+
+
