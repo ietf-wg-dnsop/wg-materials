@@ -1,0 +1,38 @@
+# dnsop-ietf105-actions
+
+* [draft-sury-toorop-dnsop-server-cookies]
+    - adopted, needs a small revision before WGLC 
+
+* [draft-ietf-dnsop-7706bis]
+    - Needs one more update, ready for WGLC in September 
+
+* [draft-hoffman-dns-terminology-ter]
+    - Issue Call for Adoption 
+
+* [draft-ietf-dnsop-aname]
+    - Needs another update and discussion before WGLC
+
+* [draft-nygren-httpbis-httpssvc]
+    - Chairs would like to adopt, will check with httpbis 
+
+* [draft-brotman-rdbd]
+    - Needs another update and review before possible adoption 
+
+* [draft-sah-resolver-information]
+    - Issue Call for Adoption 
+
+* [draft-moura-dnsop-authoritative-recommendations]
+
+* [draft-fujiwara-dnsop-avoid-fragmentation]
+
+* [draft-woodworth-bulk-rr]
+
+* [draft-krecicki-dns-covert]
+
+* [draft-hunt-note-rr]
+
+* andrews-dnsop-defeat-frag-attack
+    - Discussed with draft-fujiwara-dnsop-avoid-fragmentation
+
+* draft-pusateri-dnsop-update-timeout
+    - Not discussed but appears interest in adopting
