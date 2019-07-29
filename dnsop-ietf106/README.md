@@ -1,1 +1,1 @@
-dnsop-ietf106/dnsop-ietf106-agenda.txt
+dnsop-ietf106-agenda-requests.txt
