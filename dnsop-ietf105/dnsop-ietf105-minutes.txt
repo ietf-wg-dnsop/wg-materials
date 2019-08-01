@@ -232,7 +232,7 @@ draft-krecicki-dns-covert and draft-hunt-note-rr: Witold Kręcicki
     - Needs one more update, ready for WGLC in September 
 
 * [draft-hoffman-dns-terminology-ter]
-    - Issue Call for Adoption 
+    - Issue Call for Adoption **done**
 
 * [draft-ietf-dnsop-aname]
     - Needs another update and discussion before WGLC
@@ -250,14 +250,15 @@ draft-krecicki-dns-covert and draft-hunt-note-rr: Witold Kręcicki
 
 * [draft-fujiwara-dnsop-avoid-fragmentation]
 
+* andrews-dnsop-defeat-frag-attack
+    - Discussed with draft-fujiwara-dnsop-avoid-fragmentation
+
 * [draft-woodworth-bulk-rr]
 
 * [draft-krecicki-dns-covert]
+    - Sorry 
 
 * [draft-hunt-note-rr]
-
-* andrews-dnsop-defeat-frag-attack
-    - Discussed with draft-fujiwara-dnsop-avoid-fragmentation
 
 * draft-pusateri-dnsop-update-timeout
     - Not discussed but appears interest in adopting
