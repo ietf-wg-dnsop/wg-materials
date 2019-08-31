@@ -22,17 +22,23 @@
     - Issue Call for Adoption 
 
 * [draft-moura-dnsop-authoritative-recommendations]
+    - ISE/AD Sponsored. Blessed by WG. 
 
 * [draft-fujiwara-dnsop-avoid-fragmentation]
+    - Chairs will consult.
 
 * [draft-woodworth-bulk-rr]
+    - gathering positivity
 
 * [draft-krecicki-dns-covert]
+    - Not at this time 
 
 * [draft-hunt-note-rr]
+    - Not at this time 
 
 * andrews-dnsop-defeat-frag-attack
     - Discussed with draft-fujiwara-dnsop-avoid-fragmentation
+    - Chairs will consult. 
 
 * draft-pusateri-dnsop-update-timeout
     - Not discussed but appears interest in adopting

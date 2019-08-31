@@ -22,10 +22,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc2845bis
 
 * draft-ietf-dnsop-no-response-issue
+    - Tim Needs to look at Matt's comments
  
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error since 2018-10-23
+    - Tim needs to review Wes's responses
 
 * draft-ietf-dnsop-serve-stale since 2019-07-02
 
@@ -54,7 +56,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc7816bis
 
-* draft-sury-toorop-dnsop-server-cookies 
+* draft-ietf-dnsop-server-cookies
+
+* draft-ietf-dnsop-terminology-ter
+
+* draft-ietf-dnsop-resolver-information 
 
 ## WG Documents Held by WG
 
@@ -68,8 +74,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Candidates For Adoption
 
 * draft-moura-dnsop-authoritative-recommendations
-
-* draft-sah-resolver-information 
+    - Submitted to Independent Stream
 
 * draft-nygren-httpbis-httpssvc
 
