@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 1 August 2019
+### Updated: 1 September 2019
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
@@ -17,19 +17,23 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## IESG Queue
 
+* draft-ietf-dnsop-serve-stale
+
 ## WGLC Approved 
 
 * draft-ietf-dnsop-rfc2845bis
+    - Needs Shepherd
 
 * draft-ietf-dnsop-no-response-issue
-    - Tim Needs to look at Matt's comments
+    - Tim Needs to finish
  
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error since 2018-10-23
     - Tim needs to review Wes's responses
 
-* draft-ietf-dnsop-serve-stale since 2019-07-02
+* draft-ietf-dnsop-obsolete-dlv
+    - Will send to AD 3 September 
 
 ## Upcoming WG Last Calls
 
@@ -44,11 +48,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     
 * draft-ietf-dnsop-dns-zone-digest
     - Start 2019-09-15
-
-## Special AD Process
-
-* draft-ietf-dnsop-obsolete-dlv
-    - Will send to AD 24 July 2019 
 
 ## Adopted by WG, Under Discussion
 
