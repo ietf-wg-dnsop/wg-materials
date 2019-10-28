@@ -7,9 +7,7 @@
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
-
-* Secretary: Paul Hoffman <paul.hoffman@icann.org>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
