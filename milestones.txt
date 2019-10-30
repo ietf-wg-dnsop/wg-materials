@@ -1,10 +1,10 @@
 
-- March 2020: Advance Operational Issues with DNS Cookies 
+- January 2020: Work on addressing the DNS fragmentation concerns draft-fujiwara-dnsop-avoid-fragmentation and andrews-dnsop-defeat-frag-attack - potentially adopt one.
 
-- XXX 2020: Resolve the ANAME/HTTPSVC questions
+- March 2020: Advance Operational Issues with DNS Cookies 
 
 - March 2020: Advance draft-ietf-dnsop-resolver-information  and expand on the examples 
 
 - June 2020: Extend the Resolver Information to address Authorative Servers
 
-- January 2020: Work on addressing the DNS fragmentation concerns draft-fujiwara-dnsop-avoid-fragmentation and andrews-dnsop-defeat-frag-attack 
+- July 2020: Resolve the ANAME/HTTPSVC questions
