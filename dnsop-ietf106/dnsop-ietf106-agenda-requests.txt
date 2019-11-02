@@ -8,3 +8,9 @@
     - Time Requested:  
 
 ## Requests
+
+*   draft-ietf-dnsop-dns-zone-digest-02
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-zone-digest/
+    - dwessels@verisign.com
+    - 5 min (no slides)
+    
