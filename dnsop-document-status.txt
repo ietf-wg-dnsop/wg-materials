@@ -20,11 +20,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-serve-stale
 
 * draft-ietf-dnsop-obsolete-dlv
+    - IETF LC until 2019-10-25
     
 ## WGLC Approved 
 
 * draft-ietf-dnsop-rfc2845bis
-    - Needs Shepherd
 
 * draft-ietf-dnsop-no-response-issue
     - Tim Needs to finish
@@ -32,21 +32,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error 
-    - WGLC ends 2019-09-26
+
+* draft-ietf-dnsop-7706bis
+    - WGLC ends 2019-11-15
+
+* draft-ietf-dnsop-multi-provider-dnssec
+    - WGLC ends 2019-11-15
 
 ## Upcoming WG Last Calls
 
-* draft-ietf-dnsop-7706bis
-    - Start 2019-09-01
-
-* draft-ietf-dnsop-multi-provider-dnssec
-    - Start 2019-08-15 
-
 * draft-ietf-dnsop-dns-tcp-requirements
-    - Start 2019-08-15 
     
 * draft-ietf-dnsop-dns-zone-digest
-    - Start 2019-09-15
 
 ## Adopted by WG, Under Discussion
 
@@ -59,6 +56,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-terminology-ter
 
 * draft-ietf-dnsop-resolver-information 
+
+* draft-ietf-dnsop-httpssvc
 
 ## WG Documents Held by WG
 
@@ -73,8 +72,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-moura-dnsop-authoritative-recommendations
     - Submitted to Independent Stream
-
-* draft-nygren-httpbis-httpssvc
 
 * draft-pusateri-dnsop-update-timeout
 

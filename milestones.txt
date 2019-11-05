@@ -3,8 +3,8 @@
 
 - March 2020: Advance Operational Issues with DNS Cookies 
 
-- March 2020: Advance draft-ietf-dnsop-resolver-information  and expand on the examples 
+- June 2020: Advance draft-ietf-dnsop-resolver-information and expand on the examples 
 
-- June 2020: Extend the Resolver Information to address Authorative Servers
+- November 2020: Extend the Resolver Information to address Authorative Servers
 
 - July 2020: Resolve the ANAME/HTTPSVC questions
