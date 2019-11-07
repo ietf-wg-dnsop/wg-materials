@@ -1,9 +1,11 @@
 # DNS Operations (DNSOP) Working Group
-## IETF 
+## IETF 106
 
-* Date: 
-* Time: 
-* Room: 
+## Session I
+
+* Date: Tuesday 19 November 2019
+* Time: 1710-1840 SST, 0910-1040 UTC
+* Room: Canning
 
 * Chairs: Tim Wicinski <tjw.ietf@gmail.com>
 * Chairs: Suzanne Woolf <suzworldwide@gmail.com>
@@ -37,4 +39,17 @@
 
 ---
 ### Time Permitting
+
+---
+## Session II
+
+* Date: Thursday 21 November 2019
+* Time: 1330-1530 SST, 0530-0730 UTC
+* Room: Padang
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
+
+* IESG Overlord: Warren Kumari <warren@kumari.net>
 

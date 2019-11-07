@@ -14,3 +14,9 @@
     - dwessels@verisign.com
     - 5 min (no slides)
     
+*   Draft name:  draft-mglt-dnsop-dnssec-validator
+    - Datatracker URL:  https://datatracker.ietf.org/doc/draft-mglt-dnsop-dnssec-validator-requirements/
+    - Requester Email: draft-mglt-dnsop-dnssec-validator-requirements@ietf.org
+    - Time Requested: 10 
+
+
