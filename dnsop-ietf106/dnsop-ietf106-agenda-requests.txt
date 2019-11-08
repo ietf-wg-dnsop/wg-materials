@@ -28,3 +28,8 @@
     - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
     - Daniel Migault, mglt.biz@gmail.com
     - 15 min
+
+*   User Assigned ISO 3166-1 Alpha-2 Codes and the DNS Root Zone  
+    - https://datatracker.ietf.org/doc/draft-arends-private-use-tld/  
+    - Roy Arends, roy.arends@icann.org
+    - 15 min  

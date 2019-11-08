@@ -1,0 +1,75 @@
+
+# DNS Operations (DNSOP) Working Group
+## IETF 106
+
+## Session I
+
+* Date: Tuesday 19 November 2019
+* Time: 1710-1840 SST, 0910-1040 UTC
+* Room: Canning
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
+
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
+* [Document Status](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt)
+* [DataTracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
+---
+## Agenda
+
+### Administrivia 
+
+* Agenda Bashing, Blue Sheets, etc,  10 min
+
+* Updates of Old Work, Chairs, 10 min
+
+---
+### Current Working Group Business
+
+*   Message Digest for DNS Zones
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-zone-digest/
+    - Duane Wessels, dwessels@verisign.com
+    - 5 min (no slides)
+
+*   Extended DNS Errors 
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-extended-error/
+    - Wes Hardaker, wjhns1@hardakers.net 
+    - 20 min
+
+*   Interoperable Domain Name System (DNS) Server Cookies
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
+    - Willem Toorup, draft-ietf-dnsop-server-cookies@ietf.org
+    - 15 min
+
+
+
+---
+### New Working Group Business
+
+*   Operational recommendations for management of DNSSEC Validator
+    - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
+    - Daniel Migault, mglt.biz@gmail.com
+    - 15 min
+
+
+
+
+---
+### Time Permitting
+
+---
+## Session II
+
+* Date: Thursday 21 November 2019
+* Time: 1330-1530 SST, 0530-0730 UTC
+* Room: Padang
+
+* Chairs: Tim Wicinski <tjw.ietf@gmail.com>
+* Chairs: Suzanne Woolf <suzworldwide@gmail.com>
+* Chairs: Benno Overeinder <benno@nlnetlabs.nl>
+
+* IESG Overlord: Warren Kumari <warren@kumari.net>
+
