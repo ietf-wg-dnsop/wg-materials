@@ -2,30 +2,29 @@
 
 ## Request Template Example
 
-*   Draft name:  
+*   Draft Title:  
     - Datatracker URL:  
-    - Requester Email:
+    - Requester Name/Email:
     - Time Requested:  
 
 ## Requests
 
-*   draft-ietf-dnsop-dns-zone-digest-02
+*   Message Digest for DNS Zones
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-zone-digest/
-    - dwessels@verisign.com
+    - Duane Wessels, dwessels@verisign.com
     - 5 min (no slides)
-    
-*   Operational recommendations for management of DNSSEC Validator
-    - Datatracker URL:  https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
-    - Requester Email: mglt.biz@gmail.com
-    - Time Requested: 15 
 
 *   Extended DNS Errors 
-    - Datatracker URL:  https://datatracker.ietf.org/doc/draft-ietf-dnsop-extended-error/
-    - Requester Email: wjhns1@hardakers.net 
-    - Time Requested:  20
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-extended-error/
+    - Wes Hardaker, wjhns1@hardakers.net 
+    - 20 min
 
 *   Interoperable Domain Name System (DNS) Server Cookies
-    - Datatracker URL:  https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
-    - Requester Email: draft-ietf-dnsop-server-cookies@ietf.org
-    - Time Requested:  15
-
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
+    - Willem Toorup, draft-ietf-dnsop-server-cookies@ietf.org
+    - 15 min
+    
+*   Operational recommendations for management of DNSSEC Validator
+    - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
+    - Daniel Migault, mglt.biz@gmail.com
+    - 15 min
