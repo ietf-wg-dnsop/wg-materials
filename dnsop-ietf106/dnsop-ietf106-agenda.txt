@@ -39,26 +39,15 @@
     - Wes Hardaker, wjhns1@hardakers.net 
     - 20 min
 
+*   Service binding and parameter specification via the DNS (DNS SVCB and HTTPSSVC)  
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/  
+    - Ben Schwartz bemasc@google.com
+    - 20 min
+
 *   Interoperable Domain Name System (DNS) Server Cookies
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
     - Willem Toorup, draft-ietf-dnsop-server-cookies@ietf.org
     - 15 min
-
-
-
----
-### New Working Group Business
-
-*   Operational recommendations for management of DNSSEC Validator
-    - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
-    - Daniel Migault, mglt.biz@gmail.com
-    - 15 min
-
-
-
-
----
-### Time Permitting
 
 ---
 ## Session II
@@ -72,4 +61,23 @@
 * Chairs: Benno Overeinder <benno@nlnetlabs.nl>
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
+
+### New Working Group Business
+
+*   Operational recommendations for management of DNSSEC Validator
+    - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
+    - Daniel Migault, mglt.biz@gmail.com
+    - 15 min
+
+
+*   User Assigned ISO 3166-1 Alpha-2 Codes and the DNS Root Zone  
+    - https://datatracker.ietf.org/doc/draft-arends-private-use-tld/  
+    - Roy Arends, roy.arends@icann.org
+    - 15 min  
+
+---
+
+
+---
+### Time Permitting
 

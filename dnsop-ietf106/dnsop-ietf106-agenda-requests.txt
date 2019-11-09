@@ -19,6 +19,11 @@
     - Wes Hardaker, wjhns1@hardakers.net 
     - 20 min
 
+*   Service binding and parameter specification via the DNS (DNS SVCB and HTTPSSVC)  
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/  
+    - Ben Schwartz bemasc@google.com
+    - 20 min
+
 *   Interoperable Domain Name System (DNS) Server Cookies
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
     - Willem Toorup, draft-ietf-dnsop-server-cookies@ietf.org
