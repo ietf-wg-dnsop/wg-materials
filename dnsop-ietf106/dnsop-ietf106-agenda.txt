@@ -81,6 +81,12 @@
     - Roy Arends, roy.arends@icann.org
     - 15 min  
 
+*   DNS TIMEOUT Resource Record  
+    - https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
+    - Tom Pusateri, pusateri@bangj.com
+    - 15 min
+
+
 ---
 
 

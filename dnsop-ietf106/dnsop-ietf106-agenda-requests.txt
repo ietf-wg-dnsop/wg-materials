@@ -43,3 +43,8 @@
     - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
     - Kazunori Fujiwara, fujiwara@jprs.co.jp
     - 15 minutes
+
+*   DNS TIMEOUT Resource Record  
+    - https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
+    - Tom Pusateri, pusateri@bangj.com
+    - 15 min
