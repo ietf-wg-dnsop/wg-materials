@@ -71,6 +71,10 @@
     - Daniel Migault, mglt.biz@gmail.com
     - 15 min
 
+*   Avoid IP fragmentation in DNS
+    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
+    - Kazunori Fujiwara, fujiwara@jprs.co.jp
+    - 15 minutes
 
 *   User Assigned ISO 3166-1 Alpha-2 Codes and the DNS Root Zone  
     - https://datatracker.ietf.org/doc/draft-arends-private-use-tld/  
