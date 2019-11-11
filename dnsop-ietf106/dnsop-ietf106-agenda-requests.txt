@@ -48,3 +48,8 @@
     - https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
     - Tom Pusateri, pusateri@bangj.com
     - 15 min
+
+*   Related Domains By DNS  
+    - https://datatracker.ietf.org/doc/draft-brotman-rdbd/ 
+    - Stephen Farrell, 
+    - 10min

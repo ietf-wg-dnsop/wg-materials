@@ -66,6 +66,11 @@
 
 ### New Working Group Business
 
+*   Related Domains By DNS  
+    - https://datatracker.ietf.org/doc/draft-brotman-rdbd/ 
+    - Stephen Farrell, 
+    - 10min
+
 *   Operational recommendations for management of DNSSEC Validator
     - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
     - Daniel Migault, mglt.biz@gmail.com
