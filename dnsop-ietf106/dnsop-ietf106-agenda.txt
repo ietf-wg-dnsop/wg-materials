@@ -88,7 +88,7 @@
 
 *   DNS TIMEOUT Resource Record  
     - https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
-    - Tom Pusateri, pusateri@bangj.com
+    - Tim Wattenberg, mail@timwattenberg.de
     - 15 min
 
 
