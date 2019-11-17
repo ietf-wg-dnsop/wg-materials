@@ -8,32 +8,28 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-algorithm-update~~ RFC8624
-
 * ~~draft-ietf-dnsop-dns-capture-format~~ RFC8618
 
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-obsolete-dlv
 
-
 ## IESG Queue
 
 * draft-ietf-dnsop-serve-stale
+
+* draft-ietf-dnsop-no-response-issue
     
 ## WGLC Approved 
 
+* draft-ietf-dnsop-7706bis
+
 * draft-ietf-dnsop-rfc2845bis
 
-* draft-ietf-dnsop-no-response-issue
-    - Tim Needs to finish
- 
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error 
-
-* draft-ietf-dnsop-7706bis
-    - WGLC ends 2019-11-15
+    - Address WGLC Issues
 
 * draft-ietf-dnsop-multi-provider-dnssec
     - WGLC ends 2019-11-15
