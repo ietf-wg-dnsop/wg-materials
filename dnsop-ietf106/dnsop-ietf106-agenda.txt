@@ -64,12 +64,20 @@
 
 * IESG Overlord: Warren Kumari <warren@kumari.net>
 
+---
+### Current Working Group Business
+
+*   DNS Transport over TCP - Operational Requirements
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/
+    - Duane Wessels
+    - 15 min
+
 ### New Working Group Business
 
 *   Related Domains By DNS  
     - https://datatracker.ietf.org/doc/draft-brotman-rdbd/ 
     - Stephen Farrell, 
-    - 10min
+    - 10 min
 
 *   Operational recommendations for management of DNSSEC Validator
     - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
