@@ -46,11 +46,6 @@
     - Ben Schwartz bemasc@google.com
     - 20 min
 
-*   Interoperable Domain Name System (DNS) Server Cookies
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
-    - Willem Toorup, draft-ietf-dnsop-server-cookies@ietf.org
-    - 15 min
-
 ---
 ## Session II
 
@@ -70,6 +65,11 @@
 *   DNS Transport over TCP - Operational Requirements
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/
     - Duane Wessels
+    - 10 min
+    
+*   Interoperable Domain Name System (DNS) Server Cookies
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
+    - Willem Toorup, draft-ietf-dnsop-server-cookies@ietf.org
     - 15 min
 
 ### New Working Group Business
