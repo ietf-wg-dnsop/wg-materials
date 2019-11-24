@@ -80,7 +80,7 @@
     - 10 min
 
 *   Operational recommendations for management of DNSSEC Validator
-    - https://github.com/mglt/draft-mglt-dnsop-dnssec-validator-requirements/
+    - https://datatracker.ietf.org/doc/draft-mglt-dnsop-dnssec-validator-requirements/
     - Daniel Migault, mglt.biz@gmail.com
     - 15 min
 

@@ -1,0 +1,240 @@
+DNSOP WG
+IETF 106, Singapore
+Chairs: Suzanne Woolf, Tim Wicinski, Benno Overeinder
+Minutes taken by Paul Hoffman
+Text from slides not given here
+
+### Day 1 ###
+
+Administrivia
+
+Hackathon Report
+Benno Overeinder
+	Overview of the many projects from this Hackathon
+
+Message Digest for DNS Zones
+draft-ietf-dnsop-dns-zone-digest
+Duane Wessels
+	(No slides)
+	Added multiple digests per zone
+	Two interoperable implementations
+	Ready for WG Last Call? Proposed standard or experimental?
+	Suzanne: Are people comfortable with deploying at scale, even with the experimental stuff in Section 5
+	John Levine: Doesn't understand what is hard to deploy with this
+		Duane: Large dynamic zones
+		John: Comfortable with static, and people will experiment later
+	Alex Mayrhofer: Which are the implementations?
+		Duane: LDNS in C, and Shane Kerr in Python
+		Alex: Experimental
+	Warren Kumari: If it experimental, we have to say what the experiment is
+		Suzanne: That leans towards standards
+		Benno: NLNetLabs plans to implement in next year
+
+Extended DNS Errors
+draft-ietf-dnsop-extended-error
+Wes Hardaker
+	People seem to really care!
+	Better than not caring
+	Discussion of EDE overflow options
+		Set TC bit, don't set TC bit, create new bit
+		Ray Bellis: A minimal error response only needs the Question section
+			Wes: Could still live in the wild
+		Mike StJohns: Need to say for UDP-specific
+			Likes create new bit
+		Ondrej Sury: Don't do anything special
+			Set TC bit
+		Ralf Weber:
+			Set TC bit
+		Eric Orth:
+			Create a new bit
+			Doesn't want to do another round trip
+		Petr Špaček: Don't set TC bit
+		Robert Story: Keep EDE but throw away glue records
+		Brian Dickson: Use TC bit and create new bit
+		Mike StJohns: Definition of TC bit says you will get the same thing back
+			Wes: No, it's a hint
+		Ondrej: You could hit a different server if you come back over TCP
+	Forwarding case
+		Brian: Locally-generated generated identity from ABCD group
+			Wants 4.1
+		Ray: Don't do anything
+		RalfW: Multiple boxes in the stream won't have been updated
+		Ben Schwartz: Doesn't like the idea
+			Efficiency issue
+			There is no signal in the query, so you have to do this all the time
+			Forward it, or set your own answer
+		Ondrej: Forwarding is not specified in this document, might be added when there is more experience
+			Wes: That's what we have now
+				The list wanted resolvers to pass to end uers
+		Vittorio Bertola: Without tracing, will be useful
+		Ray: EDNS doesn't work this way, it is really hop-by-hop
+		Brian: Forwarders that don't know EDE don't add any value
+			Finding the resolver's name is the big value
+	More on the list about both
+
+Service binding and parameter specification via the DNS (DNS SVCB and HTTPSSVC)
+draft-ietf-dnsop-svcb-httpssvc
+Ben Schwartz
+	Mark Andrews: Keep the zero
+	Ray: Using a SHOULD may make getting early allocation for code point
+	Eric: Wants shorter chain legths
+		Come up with a better name
+	Alex: Could the names be for the authoritative name server
+	Mark: SHOULD is fine, if it isn't MUST
+	(?) from Cloudflare: Is the alias form required?
+		Ben: No
+			Examples are the most complicated possible
+			Will add simpler examples
+	(?) from Jabber: Concerned about when no clients need ANAME record
+	Brian: Updates DNAME and CNAME
+	(?): ESNI has its own format
+		Helps make server that only does HTTP3 clearer
+	RalfW: With caching, the stub is rarely affected
+		Hints section text is now superflouous?
+		Ben: Requested from ESNI folks
+			Prevents the stub from doing chain-walking for address records
+		In 11.1, could not find key0 and key5
+	Tommy Pauly: Needs to work well with resolvers that don't know about it
+		What is the timeframe for the bikeshed?
+	Ralf Dolmans: How does alias chain spread out?
+		Ben: If resolver see an alias record, need to send out three queries
+	Ondrej: Likes the idea of IP hint
+	Dan York: Are there client implementers for this?
+		Eric: Yes
+	Mark: Wire formats need to be stable for early allocation
+	David Schinazi: Yes, we want this
+	Brian: Implementing at least the 0 case, maybe others
+
+### Day 2 ###
+
+DNS Transport over TCP - Operational Requirements
+draft-ietf-dnsop-dns-tcp-requirements
+Duane Wessels
+	Latest draft -05
+		Mentions TLS
+		Dropped TFO to MAY
+		Other updates
+	Ready for WG LC?
+	Ondrej: Will use this document as a base for BIND updates
+	Brian: Will look over it for GoDaddy suthoritative implementation
+	Petr: We have feedback next year
+
+Interoperable Domain Name System (DNS) Server Cookies
+draft-ietf-dnsop-server-cookies
+Willem Toorop
+	PaulW: What privacy is gained?
+		Willem: Don't send out the address when the address changes
+	Wes: Agrees with PaulW, but why can't the client just change its secret all the time?
+		Willem: The server would send the same cookie
+		Wes: Client can decide how long its cookies live
+		Willem: Client should notice if the server doesn't support cookies
+	Jim: How often is often?
+		Willem: If your client IP does not change, you don't need to change it
+		Jim: Give guidance about "often"
+		Ondrej: Draft says one year
+	PaulH: Maybe bring this to the list
+	Suzanne: Next step is coding
+
+Related Domains By DNS
+draft-brotman-rdbd
+Stephen Farrell
+	Warren: Do you need both sides to point to each other for "related"?
+		Stephen: Yes
+	Warren: Likes the "unrelated" case
+	Petr: Looking for practical use cases, not theoretical
+		Stephen: Comcast has some
+	Daniel Migault: Impact on size of responses?
+		Stephen: Pretty small
+	John L: Not convinced about DNSSEC-like
+		Also: without the Mozilla PSL, this isn't useful
+		Would want to do the DBOUND problem
+		Stephen: Is there a small part of the problem that can be used?
+	Tim: Salesforce has a real use case
+		This is step 1
+		Would like to see something like this start to happen
+	John L: Useful to say "two subtrees are the same"
+	Benno: Will take to mailing list
+	PaulH: Define "this"
+	Stephen: Maybe ask the list about each doc
+
+Operational recommendations for management of DNSSEC Validator
+draft-mglt-dnsop-dnssec-validator-requirements
+Daniel Migault
+	Leif Johanson: Is it meaniful to expose this to the outside world? "Here is how I establish trust?"
+		Making trust auditable?
+		Daniel: Haven't thought about it
+		Leif: It's turtles all the way down
+		Daniel: Underspecified in the current version
+	Chris Box: Thank you for the document
+		Really useful
+		Daniel: Had issues for positioning correctly
+	Yoshiro Yoneya: Supports document
+		Impetus of MTA operation is to have more contact the customer support center
+		Add this to the draft
+		Daniel: Is in NTA document
+	Lots of people now interested in reading the document
+
+Avoid IP fragmentation in DNS
+draft-fujiwara-dnsop-avoid-fragmentation
+Kazunori Fujiwara
+	Ondrej: There is a draft in the Int Area saying that fragmentation is fragil
+		All this is UDP-specific
+		Let that draft finish first, then do DNS-specific things
+	Warren: It is in RFC Editor queue
+	John L: There is DNS-specific stuff that we can say
+		Should adopt
+	Brian: Might need embellishments, split out resolver-to-auth and stub-to-recursive
+		Give the recommendations up front
+	Geoff Huston: This is too prescriptive
+		Jumping to solutions based on edge case
+		Timeouts are most important
+		Probably the wrong approach
+		Davey Song's ATR
+		For UDP, run with high MTUs because TCP is the last resort
+		This is solving the 6-12% problem by making it a problem on everyone
+		There is no hurry
+		Not ready for adoption
+	Brian: Vulnerability to cache poisoning due to fragmentation
+	Suzanne: Shows a lot of effort, but we should wait and see the status on the Int Area work
+		Then see what of this work is DNS-specific and useful
+	Mark: Cookies are not perfect
+
+User Assigned ISO 3166-1 Alpha-2 Codes and the DNS Root Zone
+draft-arends-private-use-tld
+Roy Arends
+	Brian: Great, has a use case for it
+		Prefer delegated unsiged
+	Warren: Lots of thoughts
+		Agree that we need an interal namespace
+		Took it to ICANN
+		Roy: Wants it to be private space
+			Doesn't want it to semantic
+		Wants it to be semantic
+		Needs to be an insecure delegation
+		Wants it to go somewhere
+		Read Suzanne's expired document
+	Suzanne: IETF cannot decide what goes into the root zone
+	Stewart Cheshire: Inspired idea, wish we had thought of it 15 years ago
+		Discuss with ICANN to be sure there will not be conflict
+		Teminology suggestion: don't use "private", but instead "internal"
+		Different people have different views of who gets to choose the name
+		Industry can pick within the industry
+	Jim: Could become a rathole quickly
+		Simpler is to list the codes, say "pick one"
+	Terry Manderson: Loves this
+		Avoids a lot of political skirmishes
+	Wes: Do both signed and unsigned
+		Roy: this could be the undelegated, .internal could be delegated
+	Petr: Collisions will happen when organizations merge
+		Terrible things will happen the longer it goes on
+		Roy: Merging firms will have lots of problems
+	Klensin: No representative of history
+		TC 46 can do different things
+		Roy: Looks for engagement on WG list
+	(?) Gupta: Enterprise users don't read / don't care
+		Who would anyone use this?
+		Roy: There has never been a BCP, so we can point to it
+	Stewart: As things evolve in the DNS
+		The incentive increases for identifying internal names
+
+Chairs: Please read draft-pusateri-dnsop-update-timeout because we ran out of time
