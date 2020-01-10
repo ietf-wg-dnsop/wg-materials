@@ -1,5 +1,5 @@
-# DNSOP Chairs Status
-### Updated: 18 November 2019
+ # DNSOP Chairs Status
+### Updated: 4 January 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -15,31 +15,33 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-obsolete-dlv
 
-## IESG Queue
-
 * draft-ietf-dnsop-serve-stale
 
+## IESG Queue
+
 * draft-ietf-dnsop-no-response-issue
-    
+    - IETF LC, some issues 
+
+* draft-ietf-dnsop-multi-provider-dnssec
+
+* draft-ietf-dnsop-rfc2845bis
+
 ## WGLC Approved 
 
 * draft-ietf-dnsop-7706bis
-
-* draft-ietf-dnsop-rfc2845bis
+    - Waiting Shepherd Writeup
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error 
     - Address WGLC Issues
 
-* draft-ietf-dnsop-multi-provider-dnssec
-    - WGLC ends 2019-11-15
+* draft-ietf-dnsop-dns-zone-digest
+    - Ends 18 January 2020 
 
 ## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-dns-tcp-requirements
-    
-* draft-ietf-dnsop-dns-zone-digest
 
 ## Adopted by WG, Under Discussion
 
@@ -56,7 +58,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-svcb-httpssvc
 
-* draft-lhotka-dnsop-iana-class-type-yang
+* draft-ietf-dnsop-iana-class-type-yang
     - Need Larger Yang Resolution 
 
 ## WG Documents Held by WG
