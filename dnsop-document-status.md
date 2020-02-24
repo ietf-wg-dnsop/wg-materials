@@ -1,5 +1,5 @@
  # DNSOP Chairs Status
-### Updated: 4 January 2020
+### Updated: 20 February 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -20,16 +20,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-no-response-issue
-    - IETF LC, some issues 
+    - Revised I-D 
 
 * draft-ietf-dnsop-multi-provider-dnssec
+    - Revised I-D Needed
 
 * draft-ietf-dnsop-rfc2845bis
-
-## WGLC Approved 
+    - Writeup Needed
 
 * draft-ietf-dnsop-7706bis
-    - Waiting Shepherd Writeup
+    - Last Call until 28 February 2020
+
+## WGLC Approved 
 
 ## In WG Last Call
 
