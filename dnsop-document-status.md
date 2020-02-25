@@ -20,7 +20,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-no-response-issue
-    - Revised I-D 
+    - Revised I-D Needed
 
 * draft-ietf-dnsop-multi-provider-dnssec
     - Revised I-D Needed
@@ -36,10 +36,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## In WG Last Call
 
 * draft-ietf-dnsop-extended-error 
-    - Address WGLC Issues
+    - Third WGLC Ends 8 March 2020
 
 * draft-ietf-dnsop-dns-zone-digest
-    - Ends 18 January 2020 
+    - Second WGLC Ends 8 March 2020
 
 ## Upcoming WG Last Calls
 
