@@ -1,19 +1,18 @@
- # DNSOP Chairs Status
-### Updated: 20 February 2020
+# DNSOP Chairs Status
+### Updated: 28 February 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
-This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.txt
+This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
 
 Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-dns-capture-format~~ RFC8618
-
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-obsolete-dlv
+    - AUTH48
 
 * draft-ietf-dnsop-serve-stale
 
@@ -26,10 +25,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Revised I-D Needed
 
 * draft-ietf-dnsop-rfc2845bis
-    - Writeup Needed
+    - IESG Telechat 12 March 2020
 
 * draft-ietf-dnsop-7706bis
-    - Last Call until 28 February 2020
+    - IESG Telechat 12 March 2020
 
 ## WGLC Approved 
 
@@ -56,16 +55,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-terminology-ter
 
-* draft-ietf-dnsop-resolver-information 
+* draft-ietf-dnsop-resolver-information
+    - Moving to the ADD WG
 
 * draft-ietf-dnsop-svcb-httpssvc
 
 * draft-ietf-dnsop-iana-class-type-yang
-    - Need Larger Yang Resolution 
 
 ## WG Documents Held by WG
-
-* draft-ietf-dnsop-alt-tld
 
 ## Active Calls for Adoption
 
