@@ -24,3 +24,7 @@
     - Requester Email: draft-ietf-dnsop-svcb-httpssvc@ietf.org
     - Time Requested: 15
 
+*   Draft name: DNS Query Name Minimisation to Improve Privacy (bis)
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/
+    - Requester Email: ralph@nlnetlabs.nl
+    - Time Requested: 15min
