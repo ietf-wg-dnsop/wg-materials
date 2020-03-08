@@ -32,3 +32,4 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/
     - Requester Email: ralph@nlnetlabs.nl
     - Time Requested: 15min
+    - Chairs Action: How close to WGLC? 
