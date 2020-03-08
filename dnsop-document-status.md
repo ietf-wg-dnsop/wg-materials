@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 28 February 2020
+### Updated: 8 March 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -30,15 +30,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-7706bis
     - IESG Telechat 12 March 2020
 
+* draft-ietf-dnsop-extended-error 
+
+* draft-ietf-dnsop-dns-zone-digest
+
 ## WGLC Approved 
 
 ## In WG Last Call
-
-* draft-ietf-dnsop-extended-error 
-    - Third WGLC Ends 8 March 2020
-
-* draft-ietf-dnsop-dns-zone-digest
-    - Second WGLC Ends 8 March 2020
 
 ## Upcoming WG Last Calls
 
@@ -49,18 +47,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-aname
 
 * draft-ietf-dnsop-rfc7816bis
-    - Expired
 
 * draft-ietf-dnsop-server-cookies
 
 * draft-ietf-dnsop-terminology-ter
 
-* draft-ietf-dnsop-resolver-information
-    - Moving to the ADD WG
-
 * draft-ietf-dnsop-svcb-httpssvc
 
 * draft-ietf-dnsop-iana-class-type-yang
+
+* draft-ietf-dnsop-resolver-information
+    - Moving to the ADD WG
 
 ## WG Documents Held by WG
 
