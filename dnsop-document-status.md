@@ -22,7 +22,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Revised I-D Needed
 
 * draft-ietf-dnsop-multi-provider-dnssec
-    - Revised I-D Needed
 
 * draft-ietf-dnsop-rfc2845bis
     - IESG Telechat 12 March 2020
@@ -32,11 +31,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-extended-error 
 
-* draft-ietf-dnsop-dns-zone-digest
-
 ## WGLC Approved 
 
 ## In WG Last Call
+
+* draft-ietf-dnsop-dns-zone-digest
 
 ## Upcoming WG Last Calls
 

@@ -1,4 +1,4 @@
-# DNS Operatios (DNSOP) Working Group of the Internet Engineering Task Force (IETF)
+# DNS Operations (DNSOP) Working Group of the Internet Engineering Task Force (IETF)
 
 https://datatracker.ietf.org/wg/dnsop/about/
 

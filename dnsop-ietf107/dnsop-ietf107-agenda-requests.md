@@ -33,3 +33,9 @@
     - Requester Email: ralph@nlnetlabs.nl
     - Time Requested: 15min
     - Chairs Action: How close to WGLC? 
+
+*   Draft name: Parameterized Nameserver Delegation with NS2 and NS2T
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-tapril-ns2/
+    - Requester Email: tim@tapril.net,rweber@akamai.com
+    - Time Requested: 15min
+    - Chairs Action:
