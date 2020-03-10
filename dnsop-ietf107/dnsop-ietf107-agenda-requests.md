@@ -39,3 +39,12 @@
     - Requester Email: tim@tapril.net,rweber@akamai.com
     - Time Requested: 15min
     - Chairs Action:
+
+*   Presentation title: Cross-implementation configuration and provisioning management
+    1. Draft name: DNS Catalog Zones
+       - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/
+    2. Draft name: A Data Model for configuring Domain Name System (DNS) Zone Provisioning on Authoritative Nameservers
+       - Datatracker URL: https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/
+    - Requester Email: willem@nlnetlabs.nl
+    - Time Requested: 20min
+    - Chairs Action:
