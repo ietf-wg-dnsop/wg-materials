@@ -2,10 +2,10 @@
 
 ## Request Template Example
 
-*   Draft name:  
-    - Datatracker URL:  
+*   Draft name:
+    - Datatracker URL:
     - Requester Email:
-    - Time Requested:  
+    - Time Requested:
     - Chairs Action:
 
 ## Requests

@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 8 March 2020
+### Updated: 8 April 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,29 +9,30 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
+* ~~draft-ietf-dnsop-obsolete-dlv~~ **RFC8749**
+
+* ~~draft-ietf-dnsop-serve-stale~~ **RFC8767**
+
 ###  RFC Ed Queue
 
-* draft-ietf-dnsop-obsolete-dlv
-    - AUTH48
+* draft-ietf-dnsop-7706bis
 
-* draft-ietf-dnsop-serve-stale
 
 ## IESG Queue
 
 * draft-ietf-dnsop-no-response-issue
-    - Revised I-D Needed
+    - IESG Telechat 09 April 2020
 
 * draft-ietf-dnsop-multi-provider-dnssec
+    - IESG Telechat 09 April 2020
 
 * draft-ietf-dnsop-rfc2845bis
-    - IESG Telechat 12 March 2020
+    - Revised ID Needed
 
-* draft-ietf-dnsop-7706bis
-    - IESG Telechat 12 March 2020
+* draft-ietf-dnsop-extended-error
+    - Waiting for AD
 
-* draft-ietf-dnsop-extended-error 
-
-## WGLC Approved 
+## WGLC Approved
 
 ## In WG Last Call
 
@@ -66,15 +67,23 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-pusateri-dnsop-update-timeout
 
-* draft-brotman-rdbd
+* draft-fujiwara-dnsop-avoid-fragmentation
 
-* draft-mglt-dnsop-dnssec-validator-requirements 
+* draft-pwouters-powerbind
+
+* draft-mglt-dnsop-dnssec-validator-requirements
 
 ## New Documents
 
-* draft-fujiwara-dnsop-avoid-fragmentation 
+* draft-brotman-rdbd
 
 * andrews-dnsop-defeat-frag-attack
+
+* draft-tapril-ns2
+
+* draft-toorop-dnsop-dns-catalog-zones
+
+* draft-toorop-dnsop-dns-zone-provisioning-yang
 
 * draft-livingood-dnsop-dont-switch-resolvers
 
