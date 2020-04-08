@@ -2,11 +2,11 @@
 title: DNSOP-interim-2020-01
 ---
 # DNS Operations (DNSOP) Working Group
-## IETF 107
+## interim-2020-dnsop-01
 
-* Date:
-* Time:
-* Webex:
+* Date: 14 April 2020
+* Time: 1400-1600 UTC
+* Webex: <https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630>
 
 ###
 * Jabber:  <dnsop@jabber.ietf.org>
@@ -83,16 +83,15 @@ Attendees are asked to visit and enter your Name+Affiliation in the Blue-Sheet s
 ### Mic Line Queue
 
 The Mic Line will use the WebEx chat channel.  To get in the queue type q+ to leave type q-.
-Please don’t type questions or other things into the WebEx chat channel as that will make
+Please don't type questions or other things into the WebEx chat channel as that will make
 managing the queue very hard for the chairs.  Please use the Jabber channel for side conversations.
 
-When you connect into WebEx you should start off as auto-muted so you’ll
+When you connect into WebEx you should start off as auto-muted so you'll
 need to unmute yourself to speak when called.
 
 ### Helpful Info & Prep
 
-The IETF has prepared a couple of documents to help get everyone ready,
-including a reminder that you need to register for IETF107 as a remote participant to join remotely.
+The IETF has prepared a couple of documents to help get everyone ready.
 
   <https://www.ietf.org/how/meetings/107/session-participant-guide/>
 

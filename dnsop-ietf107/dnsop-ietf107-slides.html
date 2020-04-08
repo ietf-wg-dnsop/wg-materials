@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>DNSOP DNS Operations Interim interim-2020-01</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-8859-1">
+<STYLE TYPE="text/css"><!--
+BLOCKQUOTE { font-family: sans-serif; text-align: center; width: 70%;
+ font-size: 36pt; margin:auto; }
+@media print { .center { height: 100vh; position: relative; }
+.center blockquote { margin: 0; position: absolute;
+  top: 50%; left: 50%; -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); } }
+BODY { font-family: serif; }
+H1 { font-family: sans-serif; page-break-before:always; }
+H2 { font-family: sans-serif; }
+H3 { font-family: sans-serif; }
+H4 { font-family: sans-serif; }
+H5 { font-family: sans-serif; }
+H6 { font-family: sans-serif; }
+SUB { font-size: smaller; }
+SUP { font-size: smaller; }
+PRE { font-family: monospace; margin-left: 36pt; }
+--></STYLE>
+</HEAD>
+<BODY LINK="8f8f8f" VLINK="8f8f8f" ALINK="8f8f8f">
+<div class="center"><blockquote>
+<p>DNS OPerations (DNSOP) 14 April 2020</p>
+</blockquote></div>
+<h1><a id="dnsop">DNSOP</a></h1>
+<h2><a id="dns-operations">DNS Operations</a></h2>
+<h1><a id="welcome-to-dnsop">Welcome to DNSOP</a></h1>
+<h3><a id="interim-2020-dnsop-01">interim-2020-dnsop-01</a></h3>
+<ul>
+<li>
+<p>Date: 14 April 2020</p>
+</li>
+<li>
+<p>Time: 1400-1600 UTC</p>
+</li>
+<li>
+<p>Webex: <a href="https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630">
+https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630</a>
+</p>
+</li>
+</ul>
+<h3><a id=""></a></h3>
+<ul>
+<li>
+<p>Jabber: <a href="dnsop@jabber.ietf.org">dnsop@jabber.ietf.org</a></p>
+</li>
+<li>
+<p>EtherPad: <a href="https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01">
+https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01</a></p>
+</li>
+</ul>
+<h2><a id="chairs">Chairs</a></h2>
+<ul>
+<li>
+<p>Benno Overeinder <a href="benno@NLnetLabs.nl">benno@NLnetLabs.nl</a></p>
+</li>
+<li>
+<p>Tim Wicinski <a href="tjw.ietf@gmail.com">tjw.ietf@gmail.com</a></p>
+</li>
+<li>
+<p>Suzanne Woolf <a href="suzworldwide@gmail.com">suzworldwide@gmail.com</a>
+</p>
+</li>
+</ul>
+<h2><a id="iesg-overlord">IESG Overlord</a></h2>
+<ul>
+<li>
+<p>Warren Kumari <a href="warren@kumari.net">warren@kumari.net</a></p>
+</li>
+</ul>
+<h3><a id="jabber-room">Jabber Room</a></h3>
+<ul>
+<li>
+<p><a href="dnsop@ietf.jabber.org">dnsop@ietf.jabber.org</a></p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Webex: <a href="https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630">
+https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630</a>
+</p>
+</li>
+</ul>
+<h3><a id="minutes">Minutes:</a></h3>
+<ul>
+<li>
+<p>EtherPad: <a href="https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01">
+https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01</a></p>
+</li>
+</ul>
+<h1><a id="note-well">Note Well</a></h1>
+<p>This is a reminder of IETF policies in effect on various topics such
+ as patents or code of conduct. It is only meant to point you in the
+ right direction. Exceptions may apply. The IETF's patent policy and the
+ definition of an IETF &quot;contribution&quot; and &quot;participation&quot; are set forth
+ in BCP 79; please read it carefully.</p>
+<p>As a reminder:</p>
+<p>By participating in the IETF, you agree to follow IETF processes and
+ policies. If you are aware that any IETF contribution is covered by
+ patents or patent applications that are owned or controlled by you or
+ your sponsor, you must disclose that fact, or not participate in the
+ discussion. As a participant in or attendee to any IETF activity you
+ acknowledge that written, audio, video, and photographic records of
+ meetings may be made public. Personal information that you provide to
+ IETF will be handled in accordance with the IETF Privacy Statement. As
+ a participant or attendee, you agree to work respectfully with other
+ participants; please contact the <a href="https://www.ietf.org/contact/ombudsteam/">
+ombudsteam</a> if you have questions or concerns about this. Definitive
+ information is in the documents listed below and other IETF BCPs. For
+ advice, please talk to WG chairs or ADs:</p>
+<ul>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp9">BCP 9</a> (Internet
+ Standards Process)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp25">BCP 25</a> (Working Group
+ processes)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp25">BCP 25</a>
+ (Anti-Harassment Procedures)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp54">BCP 54</a> (Code of
+ Conduct)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp78">BCP 78</a> (Copyright)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp79">BCP 79</a> (Patents,
+ Participation)</p>
+</li>
+<li>
+<p><a href="https://www.ietf.org/privacy-policy/">Privacy Policy</a></p>
+</li>
+</ul>
+<h1><a id="blue-sheets">Blue Sheets</a></h1>
+<div class="center"><blockquote>
+<p>Attendees are asked enter your Name+Affiliation in the Blue-Sheet
+ section of the DNSOP Etherpad.</p>
+</blockquote></div>
+<h1><a id="agenda">Agenda</a></h1>
+<h3><a id="administrivia">Administrivia</a></h3>
+<ul>
+<li>
+<p>Agenda, Blue Sheets, etc</p>
+</li>
+<li>
+<p>Updates of Old Work, Chairs</p>
+</li>
+</ul>
+<h3><a id="current-working-group-business">Current Working Group
+ Business</a></h3>
+<h1><a id="document-updates">Document Updates</a></h1>
+<h2><a id="since-our-last-meeting">Since Our Last Meeting</a></h2>
+<h3><a id="draft-ietf-dnsop-obsolete-dlv-rfc8749"><del>
+draft-ietf-dnsop-obsolete-dlv</del> <strong>RFC8749</strong></a></h3>
+<h3><a id="draft-ietf-dnsop-serve-stale-rfc8767"><del>
+draft-ietf-dnsop-serve-stale</del> <strong>RFC8767</strong></a></h3>
+<h2><a id="rfc-ed-queue">RFC Ed Queue</a></h2>
+<h3><a id="draft-ietf-dnsop-7706bis">draft-ietf-dnsop-7706bis</a></h3>
+<h1><a id="document-updates">Document Updates</a></h1>
+<h2><a id="iesg-queue">IESG Queue</a></h2>
+<h3><a id="draft-ietf-dnsop-no-response-issue">
+draft-ietf-dnsop-no-response-issue</a></h3>
+<ul>
+<li>
+<p>IESG Telechat 09 April 2020</p>
+</li>
+</ul>
+<h3><a id="draft-ietf-dnsop-multi-provider-dnssec">
+draft-ietf-dnsop-multi-provider-dnssec</a></h3>
+<ul>
+<li>
+<p>IESG Telechat 09 April 2020</p>
+</li>
+</ul>
+<h3><a id="draft-ietf-dnsop-rfc2845bis">draft-ietf-dnsop-rfc2845bis</a></h3>
+<ul>
+<li>
+<p>Revised ID Needed</p>
+</li>
+</ul>
+<h3><a id="draft-ietf-dnsop-extended-error">
+draft-ietf-dnsop-extended-error</a></h3>
+<ul>
+<li>
+<p>Waiting for AD</p>
+</li>
+</ul>
+<h2><a id="in-wg-last-call">In WG Last Call</a></h2>
+<h3><a id="draft-ietf-dnsop-dns-zone-digest">
+draft-ietf-dnsop-dns-zone-digest</a></h3>
+<h1><a id="what-are-we-working-on">What Are We Working On?</a></h1>
+<h2><a id="datatracker">DataTracker</a></h2>
+<p><a href="https://datatracker.ietf.org/wg/dnsop/documents/">
+https://datatracker.ietf.org/wg/dnsop/documents/</a></p>
+<h2><a id="github">GitHub</a></h2>
+<p><a href="https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md">
+https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
+</a></p>
+<h1><a id="agenda">Agenda</a></h1>
+<h3><a id="current-working-group-business">Current Working Group
+ Business</a></h3>
+<h4><a id="service-binding-and-parameter-specification-via-the-dns">
+Service binding and parameter specification via the DNS</a></h4>
+<ul>
+<li>
+<p><a href="https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/">
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/</a></p>
+</li>
+<li>
+<p>Eric Nygren, 15 min</p>
+</li>
+<li>
+<p>Chairs Action: ?</p>
+</li>
+</ul>
+<h4><a id="dns-query-name-minimisation-to-improve-privacy-bis">DNS Query
+ Name Minimisation to Improve Privacy (bis)</a></h4>
+<ul>
+<li>
+<p><a href="https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/">
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/</a></p>
+</li>
+<li>
+<p>Ralph Dolmans, 15min</p>
+</li>
+<li>
+<p>Chairs Action: How close to WGLC?</p>
+</li>
+</ul>
+<h1><a id="agenda">Agenda</a></h1>
+<h3><a id="new-working-group-business">New Working Group Business</a></h3>
+<h4><a id="avoid-ip-fragmentation-in-dns">Avoid IP fragmentation in DNS</a>
+</h4>
+<ul>
+<li>
+<p><a href="https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/">
+https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
+</a></p>
+</li>
+<li>
+<p>Kazunori Fujiwara, 15 min</p>
+</li>
+<li>
+<p>Chairs Action: Adopt?</p>
+</li>
+</ul>
+<h4><a id="the-delegationonly-dnskey-flag">The Delegation_Only DNSKEY
+ flag</a></h4>
+<ul>
+<li>
+<p><a href="https://tools.ietf.org/html/draft-pwouters-powerbind-03">
+https://tools.ietf.org/html/draft-pwouters-powerbind-03</a></p>
+</li>
+<li>
+<p>Paul Wouters, 10 min</p>
+</li>
+<li>
+<p>Chairs Action: Adopt?</p>
+</li>
+</ul>
+<h4><a id="parameterized-nameserver-delegation-with-ns2-and-ns2t">
+Parameterized Nameserver Delegation with NS2 and NS2T</a></h4>
+<ul>
+<li>
+<p><a href="https://datatracker.ietf.org/doc/draft-tapril-ns2/">
+https://datatracker.ietf.org/doc/draft-tapril-ns2/</a></p>
+</li>
+<li>
+<p>Tim April, 15 min</p>
+</li>
+<li>
+<p>Chairs Action:</p>
+</li>
+</ul>
+<h4><a id="dns-catalog-zones">DNS Catalog Zones</a></h4>
+<ul>
+<li>
+<p><a href="https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/">
+https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/</a>
+</p>
+</li>
+<li>
+<p>Willem Toorop, 15 min</p>
+</li>
+<li>
+<p>Chairs Action:</p>
+</li>
+</ul>
+<h4><a id="a-data-model-for-configuring-domain-name-system-dns-zone-provisioning-on-authoritative-nameservers">
+A Data Model for configuring Domain Name System (DNS) Zone Provisioning
+ on Authoritative Nameservers</a></h4>
+<ul>
+<li>
+<p><a href="https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/">
+https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/
+</a></p>
+</li>
+<li>
+<p>Willem Toorop, 15 min</p>
+</li>
+<li>
+<p>Chairs Action:</p>
+</li>
+</ul>
+<h1><a id="reference">Reference</a></h1>
+<h3><a id="bluesheets">BlueSheets</a></h3>
+<p>Attendees are asked to visit and enter your Name+Affiliation in the
+ Blue-Sheet section of the DNSOP Etherpad.</p>
+<h3><a id="mic-line-queue">Mic Line Queue</a></h3>
+<p>The Mic Line will use the WebEx chat channel. To get in the queue
+ type q+ to leave type q-. Please don't type questions or other things
+ into the WebEx chat channel as that will make managing the queue very
+ hard for the chairs. Please use the Jabber channel for side
+ conversations.</p>
+<p>When you connect into WebEx you should start off as auto-muted so
+ you'll need to unmute yourself to speak when called.</p>
+<h3><a id="helpful-info--prep">Helpful Info &amp; Prep</a></h3>
+<p>The IETF has prepared a couple of documents to help get everyone
+ ready.</p>
+<p><a href="https://www.ietf.org/how/meetings/107/session-participant-guide/">
+https://www.ietf.org/how/meetings/107/session-participant-guide/</a></p>
+<p><a href="https://www.ietf.org/how/meetings/107/session-presenter-guide/">
+https://www.ietf.org/how/meetings/107/session-presenter-guide/</a></p>
+</BODY>
+</HTML>

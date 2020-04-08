@@ -17,7 +17,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-7706bis
 
-
 ## IESG Queue
 
 * draft-ietf-dnsop-no-response-issue
