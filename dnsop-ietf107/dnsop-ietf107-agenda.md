@@ -10,7 +10,7 @@ title: DNSOP-interim-2020-01
 
 ###
 * Jabber:  <dnsop@jabber.ietf.org>
-* EtherPad: <https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01>
+* EtherPad: <https://etherpad.ietf.org/p/interim-2020-dnsop-01>
 
 ### Chairs
 * Tim Wicinski <tjw.ietf@gmail.com>
@@ -63,12 +63,8 @@ title: DNSOP-interim-2020-01
     - Tim April, 15 min
     - Chairs Action:
 
-### DNS Catalog Zones
+### DNS Catalog Zones & A Data Model for Configuring DNS Zone Provisioning
     - <https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/>
-    - Willem Toorop, 15 min
-    - Chairs Action:
-
-### A Data Model for configuring Domain Name System (DNS) Zone Provisioning on Authoritative Nameservers
     - <https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/>
     - Willem Toorop, 15 min
     - Chairs Action:
