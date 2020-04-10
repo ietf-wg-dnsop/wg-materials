@@ -11,27 +11,20 @@ title: DNSOP DNS Operations Interim interim-2020-01
 
 * Date: 14 April 2020
 * Time: 1400-1600 UTC
-* Webex: <https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630>
+* Webex: [https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630](https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630)
 
-###
-* Jabber:  <dnsop@jabber.ietf.org>
-* EtherPad: <https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01>
+### 
+* Jabber: [dnsop@ietf.jabber.org](dnsop@ietf.jabber.org)
+* EtherPaid [https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true](https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true)
 
 ## Chairs
-
-    * Benno Overeinder <benno@NLnetLabs.nl>
-    * Tim Wicinski <tjw.ietf@gmail.com>
-    * Suzanne Woolf <suzworldwide@gmail.com>
+* Benno Overeinder [benno@NLnetLabs.nl](benno@NLnetLabs.nl)
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
 
 ## IESG Overlord
-* Warren Kumari <warren@kumari.net>
+* Warren Kumari [warren@kumari.net](warren@kumari.net)
 
-### Jabber Room
-    * <dnsop@ietf.jabber.org>
-* Webex: <https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630>
-
-### Minutes:
-    * EtherPad: <https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01>
 
 # Note Well
 

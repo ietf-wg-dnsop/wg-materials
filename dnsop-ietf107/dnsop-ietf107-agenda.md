@@ -6,25 +6,25 @@ title: DNSOP-interim-2020-01
 
 * Date: 14 April 2020
 * Time: 1400-1600 UTC
-* Webex: <https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630>
+* Webex: https://ietf.webex.com/ietf/j.php?MTID=m706bba8b48e3db3db02d72f0941b2630
 
 ###
-* Jabber:  <dnsop@jabber.ietf.org>
-* EtherPad: <https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01>
+* Jabber:  dnsop@jabber.ietf.org
+* EtherPad: https://etherpad.ietf.org:9009/p/interim-2020-dnsop-01
 
 ### Chairs
-* Tim Wicinski <tjw.ietf@gmail.com>
-* Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
+* Tim Wicinski tjw.ietf@gmail.com
+* Suzanne Woolf suzworldwide@gmail.com
+* Benno Overeinder benno@nlnetlabs.nl
 
 ### IESG Overlord
-* Warren Kumari <warren@kumari.net>
+* Warren Kumari warren@kumari.net
 
 ### Document Status
-* <https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md>
+* https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
 
 ### Datatracker
-* <https://datatracker.ietf.org/wg/dnsop/documents/>
+* https://datatracker.ietf.org/wg/dnsop/documents/
 
 # Agenda
 
@@ -35,12 +35,12 @@ title: DNSOP-interim-2020-01
 ## Current Working Group Business
 
 ###  Service binding and parameter specification via the DNS
-    - <https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/>
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/
     - Eric Nygren, 15 min
     - Chairs Action: ?
 
 ### DNS Query Name Minimisation to Improve Privacy (bis)
-    - <https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/>
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/
     - Ralph Dolmans, 15min
     - Chairs Action: How close to WGLC?
 
@@ -49,27 +49,27 @@ title: DNSOP-interim-2020-01
 ## New Working Group Business
 
 ### Avoid IP fragmentation in DNS
-    - <https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/>
+    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
     - Kazunori Fujiwara, 15 min
     - Chairs Action: Adopt?
 
 ### The Delegation_Only DNSKEY flag
-    - <https://tools.ietf.org/html/draft-pwouters-powerbind-03>
+    - https://tools.ietf.org/html/draft-pwouters-powerbind-03
     - Paul Wouters, 10 min
     - Chairs Action: Adopt?
 
 ### Parameterized Nameserver Delegation with NS2 and NS2T
-    - <https://datatracker.ietf.org/doc/draft-tapril-ns2/>
+    - https://datatracker.ietf.org/doc/draft-tapril-ns2/
     - Tim April, 15 min
     - Chairs Action:
 
 ### DNS Catalog Zones
-    - <https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/>
+    - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/
     - Willem Toorop, 15 min
     - Chairs Action:
 
 ### A Data Model for configuring Domain Name System (DNS) Zone Provisioning on Authoritative Nameservers
-    - <https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/>
+    - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/
     - Willem Toorop, 15 min
     - Chairs Action:
 
@@ -93,6 +93,6 @@ need to unmute yourself to speak when called.
 
 The IETF has prepared a couple of documents to help get everyone ready.
 
-  <https://www.ietf.org/how/meetings/107/session-participant-guide/>
+  https://www.ietf.org/how/meetings/107/session-participant-guide/
 
-  <https://www.ietf.org/how/meetings/107/session-presenter-guide/>
+  https://www.ietf.org/how/meetings/107/session-presenter-guide/
