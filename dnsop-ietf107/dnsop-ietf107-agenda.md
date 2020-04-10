@@ -63,12 +63,8 @@ title: DNSOP-interim-2020-01
     - Tim April, 15 min
     - Chairs Action:
 
-### DNS Catalog Zones
+### DNS Catalog Zones & A Data Model for Configuring DNS Zone Provisioning
     - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/
-    - Willem Toorop, 15 min
-    - Chairs Action:
-
-### A Data Model for configuring Domain Name System (DNS) Zone Provisioning on Authoritative Nameservers
     - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/
     - Willem Toorop, 15 min
     - Chairs Action:
