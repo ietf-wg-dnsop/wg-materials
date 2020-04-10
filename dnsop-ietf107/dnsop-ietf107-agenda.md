@@ -10,7 +10,7 @@ title: DNSOP-interim-2020-01
 
 ###
 * Jabber:  <dnsop@jabber.ietf.org>
-* EtherPad: <https://etherpad.ietf.org/p/interim-2020-dnsop-01>
+* EtherPad: <https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true>
 
 ### Chairs
 * Tim Wicinski <tjw.ietf@gmail.com>
