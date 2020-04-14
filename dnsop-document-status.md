@@ -17,19 +17,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-7706bis
 
+* draft-ietf-dnsop-no-response-issue
+
 ## IESG Queue
 
-* draft-ietf-dnsop-no-response-issue
-    - IESG Telechat 09 April 2020
-
 * draft-ietf-dnsop-multi-provider-dnssec
-    - IESG Telechat 09 April 2020
 
 * draft-ietf-dnsop-rfc2845bis
     - Revised ID Needed
 
 * draft-ietf-dnsop-extended-error
-    - Waiting for AD
+    - IESG Telechat 24 April 2020
 
 ## WGLC Approved
 

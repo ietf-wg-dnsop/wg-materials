@@ -3,7 +3,6 @@ title: DNSOP DNS Operations Interim interim-2020-01
 ---
 
  > DNS OPerations (DNSOP)
- > 14 April 2020
 
 # Welcome to DNSOP
 
@@ -15,7 +14,7 @@ title: DNSOP DNS Operations Interim interim-2020-01
 
 ### 
 * Jabber: [dnsop@ietf.jabber.org](dnsop@ietf.jabber.org)
-* EtherPaid [https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true](https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true)
+* EtherPad [https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true](https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-01?useMonospaceFont=true)
 
 ## Chairs
 * Benno Overeinder [benno@NLnetLabs.nl](benno@NLnetLabs.nl)
@@ -67,12 +66,17 @@ talk to WG chairs or ADs:
 
 # Agenda
 
-### Administrivia
-    * Agenda, Blue Sheets, etc
+## Agenda, Blue Sheets, etc
 
-    * Updates of Old Work, Chairs
+## Document Updates
 
-### Current Working Group Business
+## Current Working Group Business
+
+## New Working Group Business
+
+#
+
+ > Document Updates
 
 # Document Updates
 
@@ -86,43 +90,61 @@ talk to WG chairs or ADs:
 
 ### draft-ietf-dnsop-7706bis
 
+### draft-ietf-dnsop-no-response-issue
+
 # Document Updates
+
 ## IESG Queue
 
-### draft-ietf-dnsop-no-response-issue
-    - IESG Telechat 09 April 2020
-
 ### draft-ietf-dnsop-multi-provider-dnssec
-    - IESG Telechat 09 April 2020
 
 ### draft-ietf-dnsop-rfc2845bis
     - Revised ID Needed
 
 ### draft-ietf-dnsop-extended-error
-    - Waiting for AD  
 
 ## In WG Last Call
 
 ### draft-ietf-dnsop-dns-zone-digest
 
+## Upcoming WG Last Calls
+
+### draft-ietf-dnsop-dns-tcp-requirements
+
+#
+## Adopted by WG, Under Discussion
+
+### draft-ietf-dnsop-terminology-ter
+
+### draft-ietf-dnsop-resolver-information
+    - Moving to the ADD WG
+
+### draft-ietf-dnsop-rfc7816bis
+### draft-ietf-dnsop-svcb-httpssvc
+    - On Schedule Today
+
+### draft-ietf-dnsop-iana-class-type-yang
+### draft-ietf-dnsop-server-cookies
+    - On Schedule for 24 April 2020
+
 # What Are We Working On?
 
 ## DataTracker
-<https://datatracker.ietf.org/wg/dnsop/documents/>
+https://datatracker.ietf.org/wg/dnsop/documents/
 
 ## GitHub
-<https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md>
+https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
 
 # Agenda
 ### Current Working Group Business
 
 ####  Service binding and parameter specification via the DNS
-    - <https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/>
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-httpssvc/
     - Eric Nygren, 15 min
     - Chairs Action: ?
 
 #### DNS Query Name Minimisation to Improve Privacy (bis)
-    - <https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/>
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/
     - Ralph Dolmans, 15min
     - Chairs Action: How close to WGLC?
 
@@ -130,29 +152,30 @@ talk to WG chairs or ADs:
 ### New Working Group Business
 
 #### Avoid IP fragmentation in DNS
-    - <https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/>
+    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
     - Kazunori Fujiwara, 15 min
     - Chairs Action: Adopt?
 
 #### The Delegation_Only DNSKEY flag
-    - <https://tools.ietf.org/html/draft-pwouters-powerbind-03>
+    - https://tools.ietf.org/html/draft-pwouters-powerbind-03
     - Paul Wouters, 10 min
     - Chairs Action: Adopt?
 
 #### Parameterized Nameserver Delegation with NS2 and NS2T
-    - <https://datatracker.ietf.org/doc/draft-tapril-ns2/>
+    - https://datatracker.ietf.org/doc/draft-tapril-ns2/
     - Tim April, 15 min
     - Chairs Action:
 
 #### DNS Catalog Zones
-    - <https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/>
+    - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/
     - Willem Toorop, 15 min
     - Chairs Action:
 
-#### A Data Model for configuring Domain Name System (DNS) Zone Provisioning on Authoritative Nameservers
-    - <https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/>
+### DNS Catalog Zones & A Data Model for Configuring DNS Zone Provisioning
+    - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/
+    - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/
     - Willem Toorop, 15 min
-    - Chairs Action:
+    - Chairs Action(s): 
 
 # Reference
 
@@ -174,6 +197,6 @@ need to unmute yourself to speak when called.
 
 The IETF has prepared a couple of documents to help get everyone ready.
 
-  <https://www.ietf.org/how/meetings/107/session-participant-guide/>
+  https://www.ietf.org/how/meetings/107/session-participant-guide/
 
-  <https://www.ietf.org/how/meetings/107/session-presenter-guide/>
+  https://www.ietf.org/how/meetings/107/session-presenter-guide/
