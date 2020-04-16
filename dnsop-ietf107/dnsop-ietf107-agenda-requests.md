@@ -51,3 +51,27 @@
     - Requester Email: willem@nlnetlabs.nl
     - Time Requested: 15min
     - Chairs Action:
+
+*   Draft name: YANG Types for DNS Classes and Resource Record Types
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/
+    - Requester Email: lhotka@nic.cz
+    - Time Requested: 10min
+    - Chairs Action:
+
+*   Draft name: Interoperable Domain Name System (DNS) Server Cookies
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
+    - Requester Email: willem@nlnetlabs.nl
+    - Time Requested: 15min
+    - Chairs Action: How close to WGLC?
+
+*   Draft name: DNS TIMEOUT Resource Record
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
+    - Requester Email: pusateri@bangj.com
+    - Time Requested: 15min
+    - Chairs Action: Adopt?
+
+*   Draft name: Delegation Revalidation by DNS Resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/
+    - Requester Email: shuque@gmail.com
+    - Time Requested: 15min
+    - Chairs Action:
