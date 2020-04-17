@@ -75,3 +75,9 @@
     - Requester Email: shuque@gmail.com
     - Time Requested: 15min
     - Chairs Action:
+
+*   Draft name: Use of GOST 2012 Signature Algorithms
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/
+    - Requester Email: beldmit@gmail.com
+    - Time Requested: 15min
+    - Chairs Action:

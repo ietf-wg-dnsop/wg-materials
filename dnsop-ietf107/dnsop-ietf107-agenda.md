@@ -128,6 +128,10 @@ title: DNSOP-interim-2020-01/-02
     - Shumon Huque, 15 min
     - Chairs Action: 
 
+### Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC
+    - https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/
+    - Dmitry Belyavsky, 15min
+    - Chairs Action:
 
 #
 ## Reference
