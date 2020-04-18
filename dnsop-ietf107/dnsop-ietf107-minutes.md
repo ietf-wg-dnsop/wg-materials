@@ -43,7 +43,7 @@ Paul Vixie: I proposed removing port number. add a warning that operators should
 Non-default ports may be firewalled in client networks, so may appear to work in testing but may not work for some clients/users.
 Ben Schwartz: We can fix this with 1-2 sentences
 
-Chairs:  Want to encourage Interop testing, and WGLC before 108
+Chairs Action:  Want to encourage Interop testing, and WGLC before 108
 
 ### DNS Query Name Minimisation to Improve Privacy (bis)
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/
@@ -51,19 +51,19 @@ Chairs:  Want to encourage Interop testing, and WGLC before 108
     - Chairs Action: How close to WGLC?
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-draft-ietf-dnsop-rfc7816bis/
 
-Ralf Weber: don't minimize forwarding; 
+Ralf Weber: don't minimize forwarding; don't recommend complex mechanisms
 Jim Reid: query limiting - wording on labels
 Stehane Bortzmeyer: number of queries - SHOULD is reasonable (also, see section 7.1 of RFC 1035)
-Paul Vixie: 1) auth misconfig hard to detect, mixed-mode authority and delegation disappeared. with NS, answer in answer section. 
-2) rate limiting have ddos implications. 
-Joe Abley: choice of qtype - use SOA as an option. 
-Ralph: small set of qtypes
-Joe: any benefit to a small set?
-Paul: Agree with Joe, SOA should be in the mix
-Mark Andrews: Forwarders and qname 
+Paul Vixie: 1) auth misconfig hard to detect, mixed-mode authority and the delegation has disappeared. 
+with qtype=NS, answer in answer section. 2) rate limiting have ddos implications. 
+Joe Abley: not all qtypes are equal. choice of qtype - use 1 qtype and use SOA as an option. 
+Ralph Dolmans: maybe small set of qtypes
+Joe Abley: any benefit to a small set?
+Paul Vixie: Agree with Joe, SOA should be in the mix
+Mark Andrews: Forwarders should be trusted, but can't trust beyong forwarder
 Warren Kumari: Why are we not using the original qtype 
-Ralph: Pick the most common qtype the upstream would use
-Ralph: NS queries are sometimes blocked, but A are not. 
+Ralph Dolmans: Pick the most common qtype the upstream would use
+Ralph Dolmans: Unbound switched from NS to A, NS queries are sometimes blocked, but A are not. 
 Erik Nygren: A vs AAAA query. A may stick out more. 
 
 Chairs Action: New Version, then working toward WGLC
@@ -74,36 +74,40 @@ Chairs Action: New Version, then working toward WGLC
 ### Avoid IP fragmentation in DNS
     - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-avoid-fragmentation/
     - Kazunori Fujiwara, 15 min
-    - Chairs Action: Adopt?
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-avoid-fragmentation-in-dns/
 
 Joe Abley: this is useful
 Ralf Weber: Useful
+Paul Vixie: No intent to design Path MTU Discovery. Allow someone to do that.
 
+Chairs Action: CfA sent
 
 ### The Delegation_Only DNSKEY flag
     - https://tools.ietf.org/html/draft-pwouters-powerbind-03
     - Paul Wouters, 10 min
-    - Chairs Action: Adopt?
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-slides-interim-2020-dnsop-01-draft-pwouters-powerbind/
 
-ben Schwartz: Why does it need to be machine readable? 
-Peter van Dijk:
-Ralf Weber:
+Ben Schwartz: Likes DNSSEC transparency, Why does it need to be machine readable? 
+Paul Wouters: How to put into resolvers? Send Q to list
+Peter van Dijk: Authorative should check during loading; does not protect child apex delegation.
+Ralf Weber: resolver has to do work. technical solution to political problem. 
 Joe Abley: adding complexity must have problem to solve 
-PW: Large outside subset to never trust DNSSEC.
-Wes Hardaker: DNSSEC transparency because don't trust DNSSEC
+Paul Wouters: Large outside subset to never trust DNSSEC.
+Wes Hardaker: DNSSEC transparency because don't trust DNSSEC properly 
 Joe Abley: World is not as clean as it seems
-Warren Kumari:
-Matthijs Mekking:
+Warren Kumari: Not sure how this behaves
+Paul Wouters: Log all DS changes once this is set
+Wes Hardaker: currently have to log every signed record for DNSSEC transparency. with this bit, only log DS records
+Matthijs Mekking: 
+
+Chairs Action: Will send out CfA
 
 ### Parameterized Nameserver Delegation with NS2 and NS2T
     - https://datatracker.ietf.org/doc/draft-tapril-ns2/
     - Tim April, 15 min
-    - Chairs Action:
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-slides-draft-tapril-ns2/
 
-Sam Weiler:  Chil/Parent/both no restrictions. new record type that only appears on the parent is a can of worms. 
+Sam Weiler:  Child/Parent/both no restrictions. new record type that only appears on the parent is a can of worms. 
 Matt Pounsett: if redesigning NS, remove the current ambiquity. 
 Joe Abley:  Can allow clients to never use old polocy
 Peter van Dijk: Agree with Sam/Joe, as a resolver implementor, this is scary. 
@@ -112,14 +116,19 @@ Paul Hoffman:  Similiar to work done in ADD queue
 Ralf Weber: Stub/resolver different than resolver/authorative
 Ben Schwartz: Work like this is blocking current dprive work
 
+Chairs Action: Need work and discussion with ADD/DPRIVE/DNSOP chairs
+
 ### DNS Catalog Zones & A Data Model for Configuring DNS Zone Provisioning
     - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-catalog-zones/
     - https://datatracker.ietf.org/doc/draft-toorop-dnsop-dns-zone-provisioning-yang/
     - Willem Toorop, 15 min
-    - Chairs Action:
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-cross-implementation-configuration-and-provisioning-management/
 
-Vixie:  Will drop metazone in favor of this
+Wes Hardaker: would be good to suceed; should look at RFC6168
+Paul Vixie:  supports; Will drop metazone in favor of this
+
+Chairs Action: Catalog Zones - CfA 
+Chairs Action: Yang - Needs work
 
 #
 ## Reference
