@@ -39,8 +39,10 @@
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-svcb-httpssvc-slides/
 
 Stephen Farrell:  Keep the ALPN port; 
+
 Paul Vixie: I proposed removing port number. add a warning that operators should avoid using non-default ports for general Internet use. 
 Non-default ports may be firewalled in client networks, so may appear to work in testing but may not work for some clients/users.
+
 Ben Schwartz: We can fix this with 1-2 sentences
 
 Chairs Action:  Want to encourage Interop testing, and WGLC before 108
@@ -52,18 +54,30 @@ Chairs Action:  Want to encourage Interop testing, and WGLC before 108
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-draft-ietf-dnsop-rfc7816bis/
 
 Ralf Weber: don't minimize forwarding; don't recommend complex mechanisms
+
 Jim Reid: query limiting - wording on labels
+
 Stehane Bortzmeyer: number of queries - SHOULD is reasonable (also, see section 7.1 of RFC 1035)
+
 Paul Vixie: 1) auth misconfig hard to detect, mixed-mode authority and the delegation has disappeared. 
 with qtype=NS, answer in answer section. 2) rate limiting have ddos implications. 
+
 Joe Abley: not all qtypes are equal. choice of qtype - use 1 qtype and use SOA as an option. 
+
 Ralph Dolmans: maybe small set of qtypes
+
 Joe Abley: any benefit to a small set?
+
 Paul Vixie: Agree with Joe, SOA should be in the mix
+
 Mark Andrews: Forwarders should be trusted, but can't trust beyong forwarder
+
 Warren Kumari: Why are we not using the original qtype 
+
 Ralph Dolmans: Pick the most common qtype the upstream would use
+
 Ralph Dolmans: Unbound switched from NS to A, NS queries are sometimes blocked, but A are not. 
+
 Erik Nygren: A vs AAAA query. A may stick out more. 
 
 Chairs Action: New Version, then working toward WGLC
@@ -77,7 +91,9 @@ Chairs Action: New Version, then working toward WGLC
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-avoid-fragmentation-in-dns/
 
 Joe Abley: this is useful
+
 Ralf Weber: Useful
+
 Paul Vixie: No intent to design Path MTU Discovery. Allow someone to do that.
 
 Chairs Action: CfA sent
@@ -88,16 +104,27 @@ Chairs Action: CfA sent
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-slides-interim-2020-dnsop-01-draft-pwouters-powerbind/
 
 Ben Schwartz: Likes DNSSEC transparency, Why does it need to be machine readable? 
+
 Paul Wouters: How to put into resolvers? Send Q to list
+
 Peter van Dijk: Authorative should check during loading; does not protect child apex delegation.
+
 Ralf Weber: resolver has to do work. technical solution to political problem. 
+
 Joe Abley: adding complexity must have problem to solve 
+
 Paul Wouters: Large outside subset to never trust DNSSEC.
+
 Wes Hardaker: DNSSEC transparency because don't trust DNSSEC properly 
+
 Joe Abley: World is not as clean as it seems
+
 Warren Kumari: Not sure how this behaves
+
 Paul Wouters: Log all DS changes once this is set
+
 Wes Hardaker: currently have to log every signed record for DNSSEC transparency. with this bit, only log DS records
+
 Matthijs Mekking: 
 
 Chairs Action: Will send out CfA
@@ -108,12 +135,19 @@ Chairs Action: Will send out CfA
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-slides-draft-tapril-ns2/
 
 Sam Weiler:  Child/Parent/both no restrictions. new record type that only appears on the parent is a can of worms. 
+
 Matt Pounsett: if redesigning NS, remove the current ambiquity. 
-Joe Abley:  Can allow clients to never use old polocy
+
+Joe Abley:  Can allow clients to never use old policy
+
 Peter van Dijk: Agree with Sam/Joe, as a resolver implementor, this is scary. 
+
 Alexander Dupuy: If done, present in parent, and in authority sections. 
+
 Paul Hoffman:  Similiar to work done in ADD queue
+
 Ralf Weber: Stub/resolver different than resolver/authorative
+
 Ben Schwartz: Work like this is blocking current dprive work
 
 Chairs Action: Need work and discussion with ADD/DPRIVE/DNSOP chairs
@@ -125,9 +159,11 @@ Chairs Action: Need work and discussion with ADD/DPRIVE/DNSOP chairs
 https://datatracker.ietf.org/doc/slides-interim-2020-dnsop-01-sessa-cross-implementation-configuration-and-provisioning-management/
 
 Wes Hardaker: would be good to suceed; should look at RFC6168
+
 Paul Vixie:  supports; Will drop metazone in favor of this
 
 Chairs Action: Catalog Zones - CfA 
+
 Chairs Action: Yang - Needs work
 
 #
