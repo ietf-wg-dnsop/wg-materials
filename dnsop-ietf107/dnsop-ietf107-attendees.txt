@@ -1,0 +1,80 @@
+Attendee List
+==========
+Warren Kumari, Google
+Stephen Farell, Trinity College Dublin
+Hugo Salgado, .CL
+Ralph Dolmans, NLnet Labs
+Donald Eastlake, Futurewei
+Paul Ebersman, Neustar
+Joe Abley, PIR
+Joao Damas, APNIC
+Willem Toorop, NLnet Labs
+John Border, Hughes
+Kazunori Fujiawra, JPRS
+Mike Bishop, Akamai
+Ted Hardie, Google
+Murray Kucherawy, Facebook
+Tim Wicinski, unaffialted
+Stéphane Bortzmeyer, AFNIC
+Sean Turner, sn3rd
+Shumon Huque, Salesforce
+Peter van Dijk, Open-Xchange PowerDNS
+Keith Mitchell, DNS-OARC
+Ben Schwartz, Google
+Yoshiro YONEYA, JPRS
+Sam Weiler, W3C/MIT
+John Dickinson Sinodun IT
+Vittorio Bertola, Open-Xchange
+David Kinzel, Shaw Communications
+Ralf Weber, Akamai Technologies
+Scott Hollenbeck, Verisign
+Michael Gibbs, Verisign
+Ash Wilson, Valimail
+Eric Orth, Google
+Michael Hausding, SWITCH
+Jerry Lundström, DNS-OARC
+Witold Kręcicki, ISC
+Puneet Sood, Google
+Paul Vixie, Farsight
+Jim Popovitch, DomainMail, LLC (just curious)
+Shinta Sato, JPRS
+Ladislav Lhotka, CZ.NIC
+Joey Salazar, ARTICLE19
+Dick Franks, unaffiliated
+Zaid AlBanna, Verisign
+Tim April, Akamai Technologies
+Mallory Knodel, CDT
+Matthijs Mekking, ISC
+Roland van Rijswijk-Deij, NLnet Labs
+Fredereico Neves, Nic.br
+Cathy Aronson, ARIN
+Mark Andrews, ISC
+Pieter Lexis, Open-Xchange PowerDNS
+Jeff Osborn, ISC
+Duane Wessels, Verisign
+Shane Kerr, NS1
+Erik Nygren, Akamai
+Matthew Pounsett, DNS-OARC
+Bernie Innocenti, Google
+Petr Špaček, CZ.NIC
+James Gould, Verisign
+Vladimir Cunat, cz.nic
+Denesh Bhabuta, DNS-OARC
+daniel migault
+Jim Reid, RTFM llp
+Alexander Dupuy, Google
+David Blacka, Verisign
+Robert Story, USC/ISI
+Chi-Jiun Su, Hughes Network Systems
+Mauricio Vergara Ereche, ICANN
+Claire Pershan, unaffiliated
+Michael Richardson, Sandelman Software Works
+Wes Hardaker, ISI
+Kaustubha Govind, Google Chrome
+Marc Groeneweg, SIDN
+Hugo Kobayashi, NIC.br
+Paul Wouters, Red Hat
+Paul Hoffman, ICANN
+Benno Overeinder, NLNet Labs
+Suzanne Woolf, PIR
+Dan McArdle, Google/Chrome

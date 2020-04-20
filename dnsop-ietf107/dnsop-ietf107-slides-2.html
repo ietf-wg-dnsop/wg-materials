@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>DNSOP DNS Operations Interim interim-2020-02</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-8859-1">
+<STYLE TYPE="text/css"><!--
+BLOCKQUOTE { font-family: sans-serif; text-align: center; width: 70%;
+ font-size: 36pt; padding: 13px; margin:auto; }
+@media print { .center { height: 100vh; position: relative; }
+.center blockquote { margin: 0; position: absolute;
+  top: 50%; left: 50%; -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); } }
+BODY { font-family: serif; }
+H1 { font-family: sans-serif; page-break-before:always; }
+H2 { font-family: sans-serif; }
+H3 { font-family: sans-serif; }
+H4 { font-family: sans-serif; }
+H5 { font-family: sans-serif; }
+H6 { font-family: sans-serif; }
+SUB { font-size: smaller; }
+SUP { font-size: smaller; }
+PRE { font-family: monospace; margin-left: 36pt; }
+--></STYLE>
+</HEAD>
+<BODY LINK="8f8f8f" VLINK="8f8f8f" ALINK="8f8f8f">
+<div class="center"><blockquote>
+<p>DNS OPerations (DNSOP)</p>
+</blockquote></div>
+<h1><a id="welcome-to-dnsop">Welcome to DNSOP</a></h1>
+<h3><a id="interim-2020-dnsop-02">interim-2020-dnsop-02</a></h3>
+<ul>
+<li>
+<p>Date: 23 April 2020</p>
+</li>
+<li>
+<p>Time: 1500 - 1600 UTC</p>
+</li>
+<li>
+<p>Webex:
+ https://ietf.webex.com/ietf/j.php?MTID=m8d49e59807a47eec1d8cf5fbd4f81fa3
+</p>
+</li>
+</ul>
+<h3><a id=""></a></h3>
+<ul>
+<li>
+<p>Jabber: dnsop@jabber.ietf.org</p>
+</li>
+<li>
+<p>EtherPad:
+ https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-02?useMonospaceFont=true
+</p>
+</li>
+</ul>
+<h2><a id="chairs">Chairs</a></h2>
+<ul>
+<li>
+<p>Benno Overeinder <a href="benno@NLnetLabs.nl">benno@NLnetLabs.nl</a></p>
+</li>
+<li>
+<p>Tim Wicinski <a href="tjw.ietf@gmail.com">tjw.ietf@gmail.com</a></p>
+</li>
+<li>
+<p>Suzanne Woolf <a href="suzworldwide@gmail.com">suzworldwide@gmail.com</a>
+</p>
+</li>
+</ul>
+<h2><a id="iesg-overlord">IESG Overlord</a></h2>
+<ul>
+<li>
+<p>Warren Kumari <a href="warren@kumari.net">warren@kumari.net</a></p>
+</li>
+</ul>
+<h2><a id="datatracker">DataTracker</a></h2>
+<p>https://datatracker.ietf.org/wg/dnsop/documents/</p>
+<h2><a id="github">GitHub</a></h2>
+<p>
+https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
+</p>
+<h1><a id="note-well">Note Well</a></h1>
+<p>This is a reminder of IETF policies in effect on various topics such
+ as patents or code of conduct. It is only meant to point you in the
+ right direction. Exceptions may apply. The IETF's patent policy and the
+ definition of an IETF &quot;contribution&quot; and &quot;participation&quot; are set forth
+ in BCP 79; please read it carefully.</p>
+<p>As a reminder:</p>
+<p>By participating in the IETF, you agree to follow IETF processes and
+ policies. If you are aware that any IETF contribution is covered by
+ patents or patent applications that are owned or controlled by you or
+ your sponsor, you must disclose that fact, or not participate in the
+ discussion. As a participant in or attendee to any IETF activity you
+ acknowledge that written, audio, video, and photographic records of
+ meetings may be made public. Personal information that you provide to
+ IETF will be handled in accordance with the IETF Privacy Statement. As
+ a participant or attendee, you agree to work respectfully with other
+ participants; please contact the <a href="https://www.ietf.org/contact/ombudsteam/">
+ombudsteam</a> if you have questions or concerns about this. Definitive
+ information is in the documents listed below and other IETF BCPs. For
+ advice, please talk to WG chairs or ADs:</p>
+<ul>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp9">BCP 9</a> (Internet
+ Standards Process)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp25">BCP 25</a> (Working Group
+ processes)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp25">BCP 25</a>
+ (Anti-Harassment Procedures)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp54">BCP 54</a> (Code of
+ Conduct)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp78">BCP 78</a> (Copyright)</p>
+</li>
+<li>
+<p><a href="https://tools.ietf.org/html/bcp79">BCP 79</a> (Patents,
+ Participation)</p>
+</li>
+<li>
+<p><a href="https://www.ietf.org/privacy-policy/">Privacy Policy</a></p>
+</li>
+</ul>
+<h1><a id="blue-sheets">Blue Sheets</a></h1>
+<div class="center"><blockquote>
+<p>Attendees are asked enter your Name+Affiliation in the Blue-Sheet
+ section of the DNSOP Etherpad.</p>
+</blockquote></div>
+<h1><a id="agenda">Agenda</a></h1>
+<h3><a id="agenda-bashing-blue-sheets-etc-5-min">Agenda Bashing, Blue
+ Sheets, etc, 5 min</a></h3>
+<h2><a id="current-working-group-business">Current Working Group
+ Business</a></h2>
+<h3><a id="yang-types-for-dns-classes-and-resource-record-types">YANG
+ Types for DNS Classes and Resource Record Types</a></h3>
+<ul>
+<li>
+<p>
+https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/</p>
+</li>
+<li>
+<p>Ladislav Lhotka, 10 min</p>
+</li>
+<li>
+<p>Chairs Action:</p>
+</li>
+</ul>
+<h3><a id="interoperable-domain-name-system-dns-server-cookies">
+Interoperable Domain Name System (DNS) Server Cookies</a></h3>
+<ul>
+<li>
+<p>https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/</p>
+</li>
+<li>
+<p>Willem Toorop, 15min</p>
+</li>
+<li>
+<p>Chairs Action: How close to WGLC?</p>
+</li>
+</ul>
+<h1><a id=""></a></h1>
+<h2><a id="new-working-group-business">New Working Group Business</a></h2>
+<h3><a id="dns-timeout-resource-record">DNS TIMEOUT Resource Record</a></h3>
+<ul>
+<li>
+<p>https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/</p>
+</li>
+<li>
+<p>Tom Pusateri/Tim Wattenberg, 15 min</p>
+</li>
+<li>
+<p>Chairs Action: Adopt?</p>
+</li>
+</ul>
+<h3><a id="delegation-revalidation-by-dns-resolvers">Delegation
+ Revalidation by DNS Resolvers</a></h3>
+<ul>
+<li>
+<p>https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/</p>
+</li>
+<li>
+<p>Shumon Huque, 15 min</p>
+</li>
+<li>
+<p>Chairs Action:</p>
+</li>
+</ul>
+<h3><a id="use-of-gost-2012-signature-algorithms-in-dnskey-and-rrsig-resource-records-for-dnssec">
+Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource
+ Records for DNSSEC</a></h3>
+<ul>
+<li>
+<p>https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/</p>
+</li>
+<li>
+<p>Dmitry Belyavsky, 15min</p>
+</li>
+<li>
+<p>Chairs Action:</p>
+</li>
+</ul>
+<h1><a id="reference">Reference</a></h1>
+<h3><a id="bluesheets">BlueSheets</a></h3>
+<p>Attendees are asked to visit and enter your Name+Affiliation in the
+ Blue-Sheet section of the DNSOP Etherpad.</p>
+<h3><a id="mic-line-queue">Mic Line Queue</a></h3>
+<p>The Mic Line will use the WebEx chat channel. To get in the queue
+ type q+ to leave type q-. Please don't type questions or other things
+ into the WebEx chat channel as that will make managing the queue very
+ hard for the chairs. Please use the Jabber channel for side
+ conversations.</p>
+<p>When you connect into WebEx you should start off as auto-muted so
+ you'll need to unmute yourself to speak when called.</p>
+<h3><a id="helpful-info--prep">Helpful Info &amp; Prep</a></h3>
+<p>The IETF has prepared a couple of documents to help get everyone
+ ready.</p>
+<p>https://www.ietf.org/how/meetings/107/session-participant-guide/</p>
+<p>https://www.ietf.org/how/meetings/107/session-presenter-guide/</p>
+</BODY>
+</HTML>
