@@ -69,16 +69,22 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Candidates For Adoption
 
 * draft-huque-dnsop-ns-revalidation
+    - week of 27 April
 
 * draft-pusateri-dnsop-update-timeout
-
-* draft-toorop-dnsop-dns-catalog-zones
-
-* draft-andrews-dnsop-glue-is-not-optional
+    - week of 4 May
 
 * draft-mglt-dnsop-dnssec-validator-requirements
+    - week of 11 May
+
+* draft-toorop-dnsop-dns-catalog-zones
+    - week of 18 May
+
+* draft-andrews-dnsop-glue-is-not-optional
+    - week of 25 May
 
 * draft-belyavskiy-rfc5933-bis
+    - week of 1 June
 
 ## New Documents
 
