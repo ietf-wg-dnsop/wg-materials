@@ -3,26 +3,26 @@
 
 * Date: 23 April 2020
 * Time: 1500 - 1600 UTC
-* Webex: https://ietf.webex.com/ietf/j.php?MTID=m8d49e59807a47eec1d8cf5fbd4f81fa3
-* wbx://ietf.webex.com/ietf?MK=616191802&MPW=3JNxacS23pS
+* [Webex Desktop](https://ietf.webex.com/ietf/j.php?MTID=m8d49e59807a47eec1d8cf5fbd4f81fa3)
+* [Webex Mobile](wbx://ietf.webex.com/ietf?MK=616191802&MPW=3JNxacS23pS)
 
 ###
-* Jabber:  dnsop@jabber.ietf.org
-* EtherPad: https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-02?useMonospaceFont=true
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* EtherPad: [https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-02?useMonospaceFont=true](https://etherpad.ietf.org/p/notes-ietf-interim-2020-dnsop-02?useMonospaceFont=true)
 
 ### Chairs
-* Tim Wicinski tjw.ietf@gmail.com
-* Suzanne Woolf suzworldwide@gmail.com
-* Benno Overeinder benno@nlnetlabs.nl
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
 
 ### IESG Overlord
 * Warren Kumari warren@kumari.net
 
 ### Document Status
-* https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
+* [https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
 
 ### Datatracker
-* https://datatracker.ietf.org/wg/dnsop/documents/
+* [https://datatracker.ietf.org/wg/dnsop/documents/](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 # Agenda
 
@@ -32,31 +32,31 @@
 ## Current Working Group Business
 
 ### YANG Types for DNS Classes and Resource Record Types
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/
-    - Ladislav Lhotka, 10 min
-    - Chairs Action:
+* [draft-ietf-dnsop-iana-class-type-yang/](https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/)
+* Ladislav Lhotka, 10 min
+* Chairs Action:
 
 ### Interoperable Domain Name System (DNS) Server Cookies
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
-    - Willem Toorop, 15min
-    - Chairs Action: How close to WGLC?
+    * [https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/](https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/)
+    * Willem Toorop, 15min
+    * Chairs Action: How close to WGLC?
 
 
 #
 ## New Working Group Business
 
 ### DNS TIMEOUT Resource Record
-    - https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
-    - Tom Pusateri/Tim Wattenberg, 15 min
-    - Chairs Action: Adopt?
+- [](https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/)
+- Tom Pusateri/Tim Wattenberg, 15 min
+- Chairs Action: Adopt?
 
 ### Delegation Revalidation by DNS Resolvers
-    - https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/
+    - [https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/](https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/)
     - Shumon Huque, 15 min
     - Chairs Action: 
 
 ### Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC
-    - https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/
+    - [https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/](https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/)
     - Dmitry Belyavsky, 15min
     - Chairs Action:
 
@@ -80,6 +80,6 @@ need to unmute yourself to speak when called.
 
 The IETF has prepared a couple of documents to help get everyone ready.
 
-  https://www.ietf.org/how/meetings/107/session-participant-guide/
+  [https://www.ietf.org/how/meetings/107/session-participant-guide/](https://www.ietf.org/how/meetings/107/session-participant-guide/)
 
-  https://www.ietf.org/how/meetings/107/session-presenter-guide/
+  [https://www.ietf.org/how/meetings/107/session-presenter-guide/](https://www.ietf.org/how/meetings/107/session-presenter-guide/)
