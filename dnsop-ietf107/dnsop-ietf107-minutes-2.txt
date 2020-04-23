@@ -1,0 +1,75 @@
+
+# DNS Operations (DNSOP) Working Group
+## interim-2020-dnsop-02
+### 23 April 2020, 1500 - 1600 UTC
+
+### Chairs
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
+
+
+Benno went over the agenda, said that it was expected to run over time
+
+YANG Types for DNS Classes and Resource Record Types, Ladislav Lhotka
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/
+    Thinks this is ready for WG LC, but also needs a review by the YANG doctors
+    Joe Abley: If IANA is not ready for keeping modules like this, could be hinging
+        Ladislav: IANA already has some registries, but not like this one
+            There were objections, particularly from Paul Wouters
+            Only thing not clear is whether this publication mechanism is acceptable to IANA
+    Michelle Cotton (IANA): IANA has been testing it out
+        Haven't seen the document yet, would like to do an early review
+        Will do an early review
+
+Interoperable Domain Name System (DNS) Server Cookies, Willem Toorop
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/
+    First slide has the obligitory photo of yummy-looking cookies
+    Marc Groenewg: When will the NSD implementation be available?
+        Willem: Soonish, but waiting for RFC
+        Benno (NSD hat): Will implement when there is an RFC
+    Benno (chair hat): will schedule WG Last Call soon
+
+DNS TIMEOUT Resource Record, Tom Pusateri
+    https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/
+    Joe: Another use for an RRtype is to troubshoot
+        Likes this better than an EDNS0 type
+        Maybe do this just for RRsets instead of hash
+    Mark Andrews: Definitely need the hash for regeneration of timeout records
+        Such as for Bonjour
+    Jim Reid: Do you need to signal hash algorithm?
+        Tom: Preference is to define a single hash
+            Registry in the draft
+            Uses "method"
+    Benno: Will have call for adoption in a few weeks
+
+Delegation Revalidation by DNS Resolvers, Shumon Huque
+    https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/
+    Warren Kumari: There was other stuff in the "resimprove" work from the past that was useful
+        Shumon: This covers all the useful stuff
+    Stéphane Bortzmeyer: Also related to QNAME minimization
+        Some auth resolvers timeout on explicit NS queries
+    Ralf Dolmans: This draft is opportunistic, QNAME minimization would not conflic
+    Daniel Migault: Likes this kind of work
+        Why consider capping based on the NS record in the parent instead of the DS
+        Shumon: Can't do that unless DNSSEC is universally deployed, which it isn't
+            Can't rely on DS being the same
+        Paul Vixie: Could add DS adding this into the revalidating equation
+            But this is already what a validator will do
+    Mark: BIND has already done this for a decade
+    Benno: Wants more discussion on mailing list, then WG call later (but before Madrid)
+    Suzanne: Wants to see a -01, then call for adoption
+
+Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC, Dmitry Belyavsky
+    https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/
+    Stanislav Smyshlyaev: Supports work for crypto agaility
+        Can be used at least inside Russia
+    Valery Smyslov: Supports this change because old algorithm is deprecated
+    Jim: Supports work
+        Wants references to old ones to be deprecated
+    Warren: Wanted this to got through DNSOP, not AD-sponsored
+        Does it work with DNSSEC, not have discussions on the algorithm itself
+    Benno: Will schedule call for adoption
+
+Summary of meeting, Benno
+    Summarized the upcoming calls for adoptions

@@ -1,0 +1,75 @@
+Attendee List
+==========
+Willem Toorop - NLnet Labs
+Zaid AlBanna - Verisign
+Paul Ebersman - Neustar
+Yoshiro YONEYA - JPRS
+Hugo Salgado - NIC Chile
+Marc Groeneweg - SIDN
+Paul Hoffman - ICANN
+David Kinzel - Shaw Communications
+Vladimir Cunat - cz.nic
+Mike StJohns
+Matthijs Mekking - ISC
+Stephen Morris - ISC
+Peter van Dijk - PowerDNS
+Eric Orth - Google
+Dmitry Belyavskiy - TCI
+Jordan A. Borgner - self
+Valery Smyslov, ELVIS-PLUS    
+有道词典
+@gmail.com * Su ...
+详细X
+Scott Hollenbeck, Verisign
+James Gould, Verisign
+Tim April, Akamai Technologies
+Brian Haberman, Johns Hopkins
+Moritz Müller - SIDN Labs
+Peter Koch, DENIC eG
+Joey Salazar, ARTICLE 19
+Petr Špaček, CZ.NIC
+João Damas, APNIC
+Mike Bishop, Akamai
+Mark Andrews, ISC
+Ralph Dolmans, NLnet Labs
+Richard Wilhelm, Verisign
+Duane Wessels, Verisign
+David Blacka, Verisign
+Stéphane Bortzmeyer, AFNIC
+Kazunori Fujiwara, JPRS
+Joe Abley, PIR
+John Border, Hughes
+Matthew Pounsett, DNS-OARC
+Puneet Sood, Google
+chi-jiun su, hughes network systems
+tim costello, BT
+Manu Bretelle, Facebook
+Jorge Cano, NIC Mexico
+Dan York, Internet Society
+Donald Eastalke, Futurewei Technologies
+Jim Reid RTFM llp
+d d E
+Tim Wattenberg
+Glenn Deen Comcast-NBCUniversal
+John Levine, Standcore LLC
+Vittorio Bertola, Open-Xchange
+Sam Weiler, W3C/MIT
+Warren Kumari, Google
+56. Sergey Myasoedov, NetArt Group
+57. Shumon Huque, Salesforce
+58. Ted Hardie, Google
+59. https://datatracker.ietf.org/person/Michael%20Richardson
+60. Bob Harold, University of Michigan
+61. Ladislav Lhotka, CZ.NIC
+62. Michelle Cotton, IANA
+63. Michael Breuer, ilSF
+64. tale, Oracle
+65. Dan McArdle, Google/Chrome
+66. Sara Dickinson, Sinodun
+67. Pieter Lexis, PowerDNS
+68. Tom Pusateri, Unaffiliated
+69. paul vixie
+70. Ulrich Wisser, .SE
+71. Daniel Migault Ericsson
+72. Amelia Andersdotter CENTR
+73. Tim Wicinski, unaffiliated
