@@ -16,49 +16,47 @@
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
 
 ### IESG Overlord
-* Warren Kumari warren@kumari.net
+* Warren Kumari [warren@kumari.net](warren@kumari.net)
 
 ### Document Status
-* [https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
-
-### Datatracker
-* [https://datatracker.ietf.org/wg/dnsop/documents/](https://datatracker.ietf.org/wg/dnsop/documents/)
+* [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
+* [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 # Agenda
 
 ## Administrivia
-    * Agenda Bashing, Blue Sheets, etc, 5 min
+* Agenda Bashing, Blue Sheets, etc, 5 min
 
 ## Current Working Group Business
 
 ### YANG Types for DNS Classes and Resource Record Types
-* [draft-ietf-dnsop-iana-class-type-yang/](https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/)
+* [draft-ietf-dnsop-iana-class-type-yang](https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/)
 * Ladislav Lhotka, 10 min
 * Chairs Action:
 
 ### Interoperable Domain Name System (DNS) Server Cookies
-    * [https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/](https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/)
-    * Willem Toorop, 15min
-    * Chairs Action: How close to WGLC?
+* [draft-ietf-dnsop-server-cookies](https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/)
+* Willem Toorop, 15min
+* Chairs Action: How close to WGLC?
 
 
 #
 ## New Working Group Business
 
 ### DNS TIMEOUT Resource Record
-- [](https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/)
-- Tom Pusateri/Tim Wattenberg, 15 min
-- Chairs Action: Adopt?
+* [draft-pusateri-dnsop-update-timeout](https://datatracker.ietf.org/doc/draft-pusateri-dnsop-update-timeout/)
+* Tom Pusateri/Tim Wattenberg, 15 min
+* Chairs Action: Adopt?
 
 ### Delegation Revalidation by DNS Resolvers
-    - [https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/](https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/)
-    - Shumon Huque, 15 min
-    - Chairs Action: 
+* [draft-huque-dnsop-ns-revalidation](https://datatracker.ietf.org/doc/draft-huque-dnsop-ns-revalidation/)
+* Shumon Huque, 15 min
+* Chairs Action: 
 
 ### Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC
-    - [https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/](https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/)
-    - Dmitry Belyavsky, 15min
-    - Chairs Action:
+* [draft-belyavskiy-rfc5933-bis](https://datatracker.ietf.org/doc/draft-belyavskiy-rfc5933-bis/)
+* Dmitry Belyavsky, 15min
+* Chairs Action:
 
 #
 ## Reference
