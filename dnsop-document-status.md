@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 18 April 2020
+### Updated: 23 April 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -19,10 +19,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-no-response-issue
 
-## IESG Queue
-
 * draft-ietf-dnsop-multi-provider-dnssec
-    - Revised ID Needed
+
+## IESG Queue
 
 * draft-ietf-dnsop-rfc2845bis
     - Revised ID Needed
@@ -64,17 +63,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-fujiwara-dnsop-avoid-fragmentation
     - ends 27 April
 
+* draft-pwouters-powerbind
+    - ends 4 May  
+
 ## Candidates For Adoption
 
-* draft-pwouters-powerbind
-
 * draft-huque-dnsop-ns-revalidation
+
+* draft-pusateri-dnsop-update-timeout
 
 * draft-toorop-dnsop-dns-catalog-zones
 
 * draft-andrews-dnsop-glue-is-not-optional
-
-* draft-pusateri-dnsop-update-timeout
 
 * draft-mglt-dnsop-dnssec-validator-requirements
 
