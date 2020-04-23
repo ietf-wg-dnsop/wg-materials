@@ -1,3 +1,4 @@
+
 # DNS Operations (DNSOP) Working Group
 ## interim-2020-dnsop-02
 
@@ -38,7 +39,6 @@
 * [draft-ietf-dnsop-server-cookies](https://datatracker.ietf.org/doc/draft-ietf-dnsop-server-cookies/)
 * Willem Toorop, 15min
 * Chairs Action: How close to WGLC?
-
 
 #
 ## New Working Group Business

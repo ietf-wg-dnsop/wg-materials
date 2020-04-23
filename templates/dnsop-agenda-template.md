@@ -8,19 +8,20 @@ title: DNSOP IETF XXX
 * Time:
 * Room:
 
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* EtherPad: []()
+
 ### Chairs
-* Tim Wicinski <tjw.ietf@gmail.com>
-* Suzanne Woolf <suzworldwide@gmail.com>
-* Benno Overeinder <benno@nlnetlabs.nl>
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
 
 ### IESG Overlord
-* Warren Kumari <warren@kumari.net>
+* Warren Kumari [warren@kumari.net](warren@kumari.net)
 
 ### Document Status
-* <https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md>
-
-### Datatracker
-* <https://datatracker.ietf.org/wg/dnsop/documents/>
+* [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
+* [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 #
 ## Agenda
