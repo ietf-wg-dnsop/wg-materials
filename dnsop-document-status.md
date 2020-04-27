@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 23 April 2020
+### Updated: 26 April 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -56,20 +56,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-resolver-information
     - Moving to the ADD WG
 
+* draft-fujiwara-dnsop-avoid-fragmentation
+
 ## WG Documents Held by WG
 
 ## Active Calls for Adoption
 
-* draft-fujiwara-dnsop-avoid-fragmentation
-    - ends 27 April
-
 * draft-pwouters-powerbind
     - ends 4 May  
 
-## Candidates For Adoption
-
 * draft-pusateri-dnsop-update-timeout
-    - week of 27 April
+    - ends 11 May  
+
+## Candidates For Adoption
 
 * draft-mglt-dnsop-dnssec-validator-requirements
     - week of 4 May
