@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 23 April 2020
+### Updated: 28 April 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
