@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 26 April 2020
+### Updated: 4 May 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -27,7 +27,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Revised ID Needed
 
 * draft-ietf-dnsop-extended-error
-    - IESG Telechat 24 April 2020
+    -  Revised ID Needed
 
 ## WGLC Approved
 
@@ -58,20 +58,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-fujiwara-dnsop-avoid-fragmentation
 
+* draft-pwouters-powerbind
+
 ## WG Documents Held by WG
 
 ## Active Calls for Adoption
 
-* draft-pwouters-powerbind
-    - ends 4 May  
-
 * draft-pusateri-dnsop-update-timeout
     - ends 11 May  
 
-## Candidates For Adoption
-
 * draft-mglt-dnsop-dnssec-validator-requirements
-    - week of 4 May
+    - ends 18 May
+
+## Candidates For Adoption
 
 * draft-toorop-dnsop-dns-catalog-zones
     - week of 11 May
@@ -89,11 +88,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-tapril-ns2
 
+* draft-arends-private-use-tld 
+
 * draft-toorop-dnsop-dns-zone-provisioning-yang
-
-* draft-livingood-dnsop-dont-switch-resolvers
-
-* draft-livingood-dnsop-auth-dnssec-mistakes
 
 ## Needs more Review
 
