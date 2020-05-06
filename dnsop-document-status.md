@@ -39,6 +39,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
+* draft-ietf-dnsop-server-cookies
+
 ## Adopted by WG, Under Discussion
 
 * draft-ietf-dnsop-aname
