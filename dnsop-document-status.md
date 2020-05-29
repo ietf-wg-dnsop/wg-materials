@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 4 May 2020
+### Updated: 25 May 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -21,13 +21,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-multi-provider-dnssec
 
+* draft-ietf-dnsop-extended-error
+
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc2845bis
     - Revised ID Needed
-
-* draft-ietf-dnsop-extended-error
-    -  Revised ID Needed
 
 ## WGLC Approved
 
@@ -60,37 +59,35 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-fujiwara-dnsop-avoid-fragmentation
 
-* draft-pwouters-powerbind
+* draft-ietf-dnsop-delegation-only
+
+* draft-ietf-dnsop-dnssec-validator-requirements
+
+* draft-pusateri-dnsop-update-timeout
+
+* draft-toorop-dnsop-dns-catalog-zones
 
 ## WG Documents Held by WG
 
 ## Active Calls for Adoption
 
-* draft-pusateri-dnsop-update-timeout
-    - ends 11 May  
+* draft-andrews-dnsop-glue-is-not-optional
+    - Ends 1 June 
 
-* draft-mglt-dnsop-dnssec-validator-requirements
-    - ends 18 May
+ * draft-huque-dnsop-ns-revalidation
+    - Ends 8 June 
 
 ## Candidates For Adoption
-
-* draft-toorop-dnsop-dns-catalog-zones
-    - week of 11 May
-
-* draft-andrews-dnsop-glue-is-not-optional
-    - week of 18 May
-
-* draft-huque-dnsop-ns-revalidation
-    - week of 25 May
 
 * draft-belyavskiy-rfc5933-bis
     - week of 1 June
 
+* draft-arends-private-use-tld 
+    - Week of 8 June
+
 ## New Documents
 
 * draft-tapril-ns2
-
-* draft-arends-private-use-tld 
 
 * draft-toorop-dnsop-dns-zone-provisioning-yang
 
