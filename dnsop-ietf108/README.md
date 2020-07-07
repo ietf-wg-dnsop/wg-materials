@@ -1,1 +1,1 @@
-dnsop-ietf108/dnsop-ietf108-agenda-requests.md
+dnsop-ietf108-agenda-requests.md
