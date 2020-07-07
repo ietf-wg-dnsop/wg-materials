@@ -1,15 +1,18 @@
+
 ---
-title: DNSOP IETF XXX
+title: DNSOP IETF 108
 ---
 # DNS Operations (DNSOP) Working Group
-## IETF
+## IETF 108
 
-* Date:
-* Time:
-* Room:
+## Session I
+
+* Date: 29 July 2020
+* Time: 1100-1240 UTC
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
+* MeetEcho: [http://www.meetecho.com/ietf108/dnsop/](http://www.meetecho.com/ietf108/dnsop/)
+* Etherpad: [https://codimd.ietf.org/notes-ietf-108-dnsop](https://codimd.ietf.org/notes-ietf-108-dnsop)
 
 ### Chairs
 * Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
@@ -40,6 +43,10 @@ title: DNSOP IETF XXX
 ### New Working Group Business
 
 *
+
+## Session II 
+
+* Date: 29 July 2020
 
 
 ### Time Permitting
