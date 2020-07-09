@@ -9,3 +9,27 @@
     - Chairs Action:
 
 ## Requests
+
+*   Draft name: DNS Access Denied Error page
+    - Datatracker URL: https://tools.ietf.org/html/draft-reddy-dnsop-error-page-00 
+    - Requester Email: kondtir@gmail.com
+    - Time Requested: 15
+    - Chairs Action:
+
+*   Draft name: The DELEGATION_ONLY DNSKEY flag
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-only/
+    - Requester Email: paul@nohats.ca
+    - Time Requested: 15
+    - Chairs Action:
+
+*   Draft name: Revised IANA Considerations for DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-dnssec-iana-cons/
+    - Requester Email: paul.hoffman@icann.org
+    - Time Requested: 15
+    - Chairs Action:
+
+*   Draft name: Initializing a DNS Resolver with Priming Queries
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-klh-dnsop-rfc8109bis/
+    - Requester Email: paul.hoffman@icann.org
+    - Time Requested: 15
+    - Chairs Action:
