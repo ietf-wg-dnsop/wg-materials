@@ -40,3 +40,8 @@
     - Time Requested: 15
     - Chairs Action:
 
+*   Draft name: Service binding and parameter specification via the DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/
+    - Requester Email: bemasc@google.com
+    - Time Requested: 15
+    - Chairs Action:
