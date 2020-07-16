@@ -33,3 +33,10 @@
     - Requester Email: paul.hoffman@icann.org
     - Time Requested: 15
     - Chairs Action:
+    
+*   Draft name: Fragmentation Avoidance in DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - Requester Email: fujiwara@jprs.co.jp
+    - Time Requested: 15
+    - Chairs Action:
+
