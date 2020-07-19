@@ -22,27 +22,66 @@ title: DNSOP IETF 108
 ### IESG Overlord
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
 
+### Chairs
+* Tim Wicinski tjw.ietf@gmail.com
+* Suzanne Woolf suzworldwide@gmail.com
+* Benno Overeinder benno@nlnetlabs.nl
+
+### IESG Overlord
+* Warren Kumari warren@kumari.net
+
 ### Document Status
 * [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-#
-## Agenda
+### Document Status
+* https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
 
-### Administrivia
+### Datatracker
+* https://datatracker.ietf.org/wg/dnsop/documents/
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+# Agenda
 
-* Updates of Old Work, Chairs, 10 min
+## Administrivia
+    * Agenda Bashing, Blue Sheets, etc,  10 min
+    * Updates of Old Work, Chairs, 10 min
 
 ### Current Working Group Business
 
-*
+*   Draft name: Fragmentation Avoidance in DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - fujiwara@jprs.co.jp 15min
+    - Chairs Action:
 
+*   Draft name: Service binding and parameter specification via the DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/
+    - bemasc@google.com
+    - Chairs Action:
+
+
+*   Draft name: The DELEGATION_ONLY DNSKEY flag
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-only/
+    - paul@nohats.ca 15min
+    - Chairs Action:
 
 ### New Working Group Business
 
-*
+*   Draft name: DNS Access Denied Error page
+    - https://tools.ietf.org/html/draft-reddy-dnsop-error-page-00 
+    - kondtir@gmail.com 15min
+    - Chairs Action:
+
+*   Draft name: Revised IANA Considerations for DNSSEC
+    - https://datatracker.ietf.org/doc/draft-hoffman-dnssec-iana-cons/
+    - paul.hoffman@icann.org 15min
+    - Chairs Action:
+
+*   Draft name: Initializing a DNS Resolver with Priming Queries
+    - https://datatracker.ietf.org/doc/draft-klh-dnsop-rfc8109bis/
+    - paul.hoffman@icann.org 15min
+    - Chairs Action:
+    
+
 
 ## Session II 
 
