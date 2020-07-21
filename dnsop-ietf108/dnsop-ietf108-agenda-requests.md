@@ -45,3 +45,9 @@
     - Requester Email: bemasc@google.com
     - Time Requested: 15
     - Chairs Action:
+
+*   Parameterized Nameserver Delegation with NS2 and NS2T
+    -  https://datatracker.ietf.org/doc/draft-tapril-ns2/
+    - Requester Email: ietf@tapril.net
+    - Time Requested: 15 min
+    - Chairs Action:
