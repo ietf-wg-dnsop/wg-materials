@@ -51,3 +51,9 @@
     - Requester Email: ietf@tapril.net
     - Time Requested: 15 min
     - Chairs Action:
+
+*   464XLAT/NAT64 Optimization
+    -  https://datatracker.ietf.org/doc/draft-ietf-v6ops-464xlat-optimization/
+    - Requester Email: Fred Baker
+    - Time Requested: 15 min
+    - Chairs Action:

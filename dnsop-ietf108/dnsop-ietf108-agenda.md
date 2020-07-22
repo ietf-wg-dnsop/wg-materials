@@ -70,13 +70,10 @@ title: DNSOP IETF 108
     - Tim April 15min
     - Chairs Action:
 
-
 *   Draft name: Initializing a DNS Resolver with Priming Queries
     - https://datatracker.ietf.org/doc/draft-klh-dnsop-rfc8109bis/
     - paul.hoffman@icann.org 15min
     - Chairs Action:
-    
-
 
 
 ## Session II 
@@ -86,15 +83,17 @@ title: DNSOP IETF 108
 
 ### New Working Group Business
 
+*   Draft name: Revised IANA Considerations for DNSSEC
+    - https://datatracker.ietf.org/doc/draft-hoffman-dnssec-iana-cons/
+    - paul.hoffman@icann.org 20min
+    - Chairs Action:
+
 *   Draft name: DNS Access Denied Error page
     - https://tools.ietf.org/html/draft-reddy-dnsop-error-page-00 
     - kondtir@gmail.com 15min
     - Chairs Action:
 
-*   Draft name: Revised IANA Considerations for DNSSEC
-    - https://datatracker.ietf.org/doc/draft-hoffman-dnssec-iana-cons/
-    - paul.hoffman@icann.org 15min
+*   Draft Name: 464XLAT/NAT64 Optimization
+    -  https://datatracker.ietf.org/doc/draft-ietf-v6ops-464xlat-optimization/
+    - Fred Baker 15 min
     - Chairs Action:
-
-### Time Permitting
-
