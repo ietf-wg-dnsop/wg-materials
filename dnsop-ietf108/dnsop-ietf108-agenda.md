@@ -22,14 +22,6 @@ title: DNSOP IETF 108
 ### IESG Overlord
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
 
-### Chairs
-* Tim Wicinski tjw.ietf@gmail.com
-* Suzanne Woolf suzworldwide@gmail.com
-* Benno Overeinder benno@nlnetlabs.nl
-
-### IESG Overlord
-* Warren Kumari warren@kumari.net
-
 ### Document Status
 * [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
