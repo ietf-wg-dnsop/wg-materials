@@ -42,29 +42,29 @@ title: DNSOP IETF 108
 
 *   Draft name: Fragmentation Avoidance in DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
-    - fujiwara@jprs.co.jp 15min
+    - fujiwara@jprs.co.jp, 15 min
     - Chairs Action:
 
 *   Draft name: Service binding and parameter specification via the DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/
-    - Ben Schwartz 20min
+    - Ben Schwartz, 20 min
     - Chairs Action:
 
 *   Draft name: The DELEGATION_ONLY DNSKEY flag
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-only/
-    - paul@nohats.ca 15min
+    - paul@nohats.ca, 15 min
     - Chairs Action:
 
 ### New Working Group Business
 
 *   Parameterized Nameserver Delegation with NS2 and NS2T
     - https://datatracker.ietf.org/doc/draft-tapril-ns2/
-    - Tim April 15min
+    - Tim April, 15min
     - Chairs Action:
 
 *   Draft name: Initializing a DNS Resolver with Priming Queries
     - https://datatracker.ietf.org/doc/draft-klh-dnsop-rfc8109bis/
-    - paul.hoffman@icann.org 15min
+    - paul.hoffman@icann.org, 15min
     - Chairs Action:
 
 
@@ -77,15 +77,15 @@ title: DNSOP IETF 108
 
 *   Draft name: Revised IANA Considerations for DNSSEC
     - https://datatracker.ietf.org/doc/draft-hoffman-dnssec-iana-cons/
-    - paul.hoffman@icann.org 20min
+    - paul.hoffman@icann.org, 20 min
     - Chairs Action:
 
 *   Draft name: DNS Access Denied Error page
     - https://tools.ietf.org/html/draft-reddy-dnsop-error-page-00 
-    - kondtir@gmail.com 15min
+    - kondtir@gmail.com, 15 min
     - Chairs Action:
 
 *   Draft Name: 464XLAT/NAT64 Optimization
-    -  https://datatracker.ietf.org/doc/draft-ietf-v6ops-464xlat-optimization/
-    - Fred Baker 15 min
+    - https://datatracker.ietf.org/doc/draft-ietf-v6ops-464xlat-optimization/
+    - Jordi Palet Martinez, 15 min
     - Chairs Action:
