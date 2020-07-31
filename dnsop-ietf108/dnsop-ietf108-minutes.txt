@@ -1,0 +1,131 @@
+DNS Operations (DNSOP) Working Group
+IETF 108
+29 July 2020
+Sessions 1 and 2
+Tim Wicinski, Suzanne Woolf, Benno Overeinder
+Minutes by Paul Hoffman
+Only things that are said at the mic line noted, not text from the slides
+
+Administrivia
+        Normal review of old work, preview of new work
+        Is thinking of opening tup discussion of terminology
+
+Fragmentation Avoidance in DNS, draft-ietf-dnsop-avoid-fragmentation
+        Kazunori Fujiwara
+        No comments came from the floor
+
+Service binding and parameter specification via the DNS, draft-ietf-dnsop-svcb-https
+        Ben Schwartz
+        Ready for WG Last Call
+        Benno: Are you coordinating interop testing, or should the chairs?
+        Ben: Authors have not done any yet, want advice on how that should work
+                Range of implementors that are known
+        Benno: Will mobilize developers for WG Last Call
+        Suzanne: Need adequate cross-area review
+        Ben: Implications go up to the application area
+        Tommy Pauly: Apple has an implementation of this
+                Actively in beta, but not all features currently
+                Some networks don't play well with new RRtypes
+        Allison Mankin: Impressed with progress
+                Hoping that the interop testing focuses on large DNS providers
+                Salesforce will try to encourage among their vendors
+        Benno: Interop before WG Last Call
+        Suzanne: Want more WG review now, don't wait for WG Last Call
+
+The DELEGATION_ONLY DNSKEY flag, draft-ietf-dnsop-delegation-only
+        Paul Wouters
+        No comments from the floor
+        Benno: Would like to see more feedback from the WG
+        PaulW: Got private feedback that there is interest
+
+Parameterized Nameserver Delegation with NS2 and NS2T, draft-tapril-ns2
+        Tim April
+        PaulH: Need to coordinate across WGs
+        Peter van Dijk: Has different draft in DPRIVE
+        Ben: Also overlaps with "adaptive DNS" proposal in ADD
+                Would like to see them all, maybe combined
+        Sam Weiler: Have you thought of the processing rules if it is only in the parent?
+                Tim: Authoritative in the child
+        Jim Reid: Would be better to settle on one WG to deal with this
+        Suzanne: There should be one place
+        Puneet Sood: In Section 3.1, the EDNSO size is in conflict with current proposals
+                Should try to keep to a minimum how much information goes into the records
+        Ben: Doesn't need to take this down to one draft
+        PaulH: Please look at these as use cases, not drafts
+        Benno: Will coordinate with other WGs
+
+Initializing a DNS Resolver with Priming Queries, draft-klh-dnsop-rfc8109bis
+        Paul Hoffman
+        No questions from the floor
+        The chairs tested the hum tool
+        Hum for adoption: strong
+        Hum against adoption: weak
+        Wes Hardaker: It is not clear if people who don't hum count as humming weakly
+
+Revised IANA Considerations for DNSSEC, draft-hoffman-dnssec-iana-cons
+        Paul Hoffman
+        Sam: S/MIME and TLS are end-to-end, DNSSEC is in the middle
+                IPsec is similar
+        Viktor Dukhovni: Agree with Sam about importance of the middle
+        Ben: Not a strong feeling
+                TLS ciphersuites are larger spaces
+                TLS client certificate types, also single octet, might also be relevant
+                PGP has IETF review
+                Fairly diverse range of practices
+        Jim Reid: should adopt, make similar to other WGs
+                Needs to be more flexible
+                Should add mandatory or optional to implement
+        Ondřej Surý: Camel issues
+                Interop is more important in DNSSEC than in TLS world
+                Clients and servers are upgraded more slowly
+                Should be careful about relaxing the requirement
+                Maybe want guidance from CFRG before we accept new algorithms
+        Warren Kumari: standards track feels like endorsing
+                Likes RFC required
+                Still needs to go through a process
+                Some TLS registries has notes in them
+                Interop is important, which argues for why we should make the registry easier to get into
+        Mike St Johns: point-to-multipoint system
+                Could have different policies for TSIG
+                How do we get/maintain interop?
+                National crypto should be second signature on standard crypto
+        Valery Smyslov: In favor of adoption to make more consistent
+                Will not place high bar so national crypto can get code points without too much dificulty
+        Daniel Kahn Gilmore: Using PGP and TLS as examples is bad because they have negotiation
+                Want a minimum number of ciphersuites for DNS
+        Benno: good discussion here and on mailing list
+
+
+DNS Access Denied Error page, draft-reddy-dnsop-error-page
+        Tirumaleswar Reddy
+        Ben: This is not a good use of the HTTPS record type
+                HTTPS is a way to reach the page
+                Not compatible with DNSSEC if there is a validating stub answer
+                Restrictions might not be implementable in web browsers
+                Even then, not actually safe due to phishing
+                Tiru: that's why it has to be a trusted DoH or DoT server
+        Jim: Breaks the DNS protocol because the answer is not what the client asked
+                Tiru: comes in the Additional section
+                        And only comes with extended error codes
+        Jonathan Reed: Appreciates a draft that helps end users despite implementation concerns
+        Wes Hardaker: This is not safe even if it is a trusted DoH or DoT
+                Allows malicious ISPs who have MITMs
+                Tiru: must be a trusted DoH or DoT
+        Erid Orth: General support for solving this problem
+                We can't trust this protocol as-is
+                Bad idea to do anything for forging results
+                Maybe put in EDNS0
+        Warren: No hats, hate the idea of DNS filtering, so we need a way to make it as non-harmful as possible
+                Needs signals from the browser to the users if something like this is done
+                Needs input from browser vendors first
+        Eric Rescorla: Doesn't think Firefox would be interested to this
+                Wants to keep the interface to themselves, not to farm it out to resolvers
+                Trusted resolvers are trusting with user data, not with the data
+        Viktor: The Additional section is OK
+                DoT resolver often makes unauthenticated requests and creates false sense of security
+
+464XLAT/NAT64 Optimization, draft-ietf-v6ops-464xlat-optimization
+        Jordi Palet Martinez
+        Work in V6OPS WG that relates to DNSOP
+        Please have the discussion in V6OPS, not in DNSOP
+

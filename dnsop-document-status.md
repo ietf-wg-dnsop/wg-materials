@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 25 May 2020
+### Updated: 30 July 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,13 +9,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-obsolete-dlv~~ **RFC8749**
 
-* ~~draft-ietf-dnsop-serve-stale~~ **RFC8767**
+* ~~draft-ietf-dnsop-7706bis~~ **RFC8806**
 
 ###  RFC Ed Queue
-
-* draft-ietf-dnsop-7706bis
 
 * draft-ietf-dnsop-no-response-issue
 
@@ -23,16 +20,15 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-extended-error
 
+* draft-ietf-dnsop-rfc2845bis
+
 ## IESG Queue
 
-* draft-ietf-dnsop-rfc2845bis
-    - Revised ID Needed
+* draft-ietf-dnsop-dns-zone-digest
 
 ## WGLC Approved
 
 ## In WG Last Call
-
-* draft-ietf-dnsop-dns-zone-digest
 
 ## Upcoming WG Last Calls
 
@@ -41,8 +37,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-server-cookies
 
 ## Adopted by WG, Under Discussion
-
-* draft-ietf-dnsop-aname
 
 * draft-ietf-dnsop-rfc7816bis
 
@@ -55,7 +49,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-iana-class-type-yang
 
 * draft-ietf-dnsop-resolver-information
-    - Moving to the ADD WG
 
 * draft-fujiwara-dnsop-avoid-fragmentation
 
@@ -63,33 +56,30 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-validator-requirements
 
-* draft-pusateri-dnsop-update-timeout
+* draft-ietf-dnsop-update-timeout
 
 * draft-toorop-dnsop-dns-catalog-zones
 
-## WG Documents Held by WG
+* draft-ietf-dnsop-glue-is-not-optional
+
+* draft-ietf-dnsop-ns-revalidation
+
+* draft-ietf-dnsop-rfc5933-bis
 
 ## Active Calls for Adoption
 
-* draft-andrews-dnsop-glue-is-not-optional
-    - Ends 1 June 
-
- * draft-huque-dnsop-ns-revalidation
-    - Ends 8 June 
+* draft-arends-private-use-tld 
+    - Ugh
 
 ## Candidates For Adoption
-
-* draft-belyavskiy-rfc5933-bis
-    - week of 1 June
-
-* draft-arends-private-use-tld 
-    - Week of 8 June
 
 ## New Documents
 
 * draft-tapril-ns2
 
 * draft-toorop-dnsop-dns-zone-provisioning-yang
+
+* draft-klh-dnsop-rfc8109bis
 
 ## Needs more Review
 
