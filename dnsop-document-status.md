@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 30 July 2020
+### Updated: 7 September 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,14 +9,15 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-
 * ~~draft-ietf-dnsop-7706bis~~ **RFC8806**
 
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-no-response-issue
+    - AUTH48 **RFC8906**
 
 * draft-ietf-dnsop-multi-provider-dnssec
+    - AUTH48 **RFC8901**
 
 * draft-ietf-dnsop-extended-error
 
@@ -25,6 +26,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-dns-zone-digest
+    - IETF LC ends 2020-09-14
 
 ## WGLC Approved
 
@@ -34,17 +36,15 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
+* draft-ietf-dnsop-svcb-httpssvc
+
 * draft-ietf-dnsop-server-cookies
 
 ## Adopted by WG, Under Discussion
 
 * draft-ietf-dnsop-rfc7816bis
 
-* draft-ietf-dnsop-server-cookies
-
 * draft-ietf-dnsop-terminology-ter
-
-* draft-ietf-dnsop-svcb-httpssvc
 
 * draft-ietf-dnsop-iana-class-type-yang
 
@@ -73,13 +73,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Candidates For Adoption
 
+* draft-klh-dnsop-rfc8109bis
+
 ## New Documents
 
 * draft-tapril-ns2
 
 * draft-toorop-dnsop-dns-zone-provisioning-yang
-
-* draft-klh-dnsop-rfc8109bis
 
 ## Needs more Review
 
