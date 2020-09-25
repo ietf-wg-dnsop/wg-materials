@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 7 September 2020
+### Updated: 24 September 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,17 +9,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-7706bis~~ **RFC8806**
+* ~~draft-ietf-dnsop-no-response-issue~~ **RFC8906**
+
+* ~~draft-ietf-dnsop-multi-provider-dnssec~~ **RFC8901**
+
+* ~~draft-ietf-dnsop-extended-error~~ **RFC8914**
 
 ###  RFC Ed Queue
-
-* draft-ietf-dnsop-no-response-issue
-    - AUTH48 **RFC8906**
-
-* draft-ietf-dnsop-multi-provider-dnssec
-    - AUTH48 **RFC8901**
-
-* draft-ietf-dnsop-extended-error
 
 * draft-ietf-dnsop-rfc2845bis
 
@@ -46,7 +42,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-terminology-ter
 
-* draft-ietf-dnsop-iana-class-type-yang
 
 * draft-ietf-dnsop-resolver-information
 
