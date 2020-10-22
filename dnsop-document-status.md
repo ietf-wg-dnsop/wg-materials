@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 24 September 2020
+### Updated: 15 October 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -22,26 +22,29 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-dns-zone-digest
-    - IETF LC ends 2020-09-14
+    - IETF 
 
 ## WGLC Approved
 
 ## In WG Last Call
 
+* draft-ietf-dnsop-server-cookies
+    - Ends 23 October
+
+* draft-ietf-dnsop-iana-class-type-yang
+    - Ends 30 October
+
 ## Upcoming WG Last Calls
+
+* draft-ietf-dnsop-rfc7816bis
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
 * draft-ietf-dnsop-svcb-httpssvc
 
-* draft-ietf-dnsop-server-cookies
-
 ## Adopted by WG, Under Discussion
 
-* draft-ietf-dnsop-rfc7816bis
-
 * draft-ietf-dnsop-terminology-ter
-
 
 * draft-ietf-dnsop-resolver-information
 
@@ -61,10 +64,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc5933-bis
 
+* draft-ietf-dnsop-private-use-tld 
+
 ## Active Calls for Adoption
 
-* draft-arends-private-use-tld 
-    - Ugh
 
 ## Candidates For Adoption
 
@@ -75,6 +78,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-tapril-ns2
 
 * draft-toorop-dnsop-dns-zone-provisioning-yang
+
+* draft-pp-dnsop-authinfo
 
 ## Needs more Review
 
