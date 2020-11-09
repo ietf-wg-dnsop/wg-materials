@@ -15,9 +15,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ~~draft-ietf-dnsop-extended-error~~ **RFC8914**
 
+* ~~draft-ietf-dnsop-rfc2845bis~~ **RFC8945**
+
 ###  RFC Ed Queue
 
-* draft-ietf-dnsop-rfc2845bis
 
 ## IESG Queue
 
@@ -26,17 +27,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## WGLC Approved
 
-## In WG Last Call
-
 * draft-ietf-dnsop-server-cookies
-    - Ends 23 October
+
+## In WG Last Call
 
 * draft-ietf-dnsop-iana-class-type-yang
     - Ends 30 October
 
-## Upcoming WG Last Calls
-
 * draft-ietf-dnsop-rfc7816bis
+    - Ends 10 November 
+
+## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
@@ -70,6 +71,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 
 ## Candidates For Adoption
+
+* draft-hoffman-dnssec-iana-cons
 
 * draft-klh-dnsop-rfc8109bis
 

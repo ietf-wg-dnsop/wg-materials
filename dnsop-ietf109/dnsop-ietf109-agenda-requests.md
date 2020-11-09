@@ -45,3 +45,9 @@
     - Requester Email: roy.arends@icann.org
     - Time Requested: 15 min
     - Chairs Action:
+
+*   Draft name:  DNS over HTTPS (DoH) Considerations for Operator Networks
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fhllr-dnsop-dohoperator/
+    - Requester Email: jim@rfc1035.com
+    - Time Requested: 15min
+    - Chairs Action:
