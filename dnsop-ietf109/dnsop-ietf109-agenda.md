@@ -67,7 +67,7 @@ title: DNSOP IETF 109
 ## Session II 
 
 * Date: 20 November 2020 
-* Time: 1430-1530 +7, 1200-1400 UTC
+* Time: 1430-1530 +7, 0730-0830 UTC
 https://meetings.conf.meetecho.com/ietf109/?group=dnsop&short=&item=2
 
 ### New Working Group Business
