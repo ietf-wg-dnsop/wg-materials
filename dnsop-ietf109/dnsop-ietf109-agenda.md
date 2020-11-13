@@ -43,6 +43,15 @@ title: DNSOP IETF 109
     - beldmit@gmail.com, 15min
     - Chairs Action:
 
+*   Draft name:  Top-level Domains for Private Internets
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-private-use-tld/
+    - roy@dnss.ec, 15min
+    - Chairs Action:
+
+*   Draft name:  Fragmentation Avoidance in DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - Requester Email: fujiwara@jprs.co.jp, 15min
+    - Chairs Action:
 
 ### New Working Group Business
 
@@ -82,3 +91,14 @@ https://meetings.conf.meetecho.com/ietf109/?group=dnsop&short=&item=2
     - https://datatracker.ietf.org/doc/draft-fhllr-dnsop-dohoperator/
     - jim@rfc1035.com, 15min
     - Chairs Action:
+
+*   Draft name:  DNS over HTTPS (DoH) Considerations for Operator Networks
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fhllr-dnsop-dohoperator/
+    - Requester Email: jim@rfc1035.com, 15min
+    - Chairs Action:
+    
+*   Draft name:  Delegation Information (Referrals) Signer for DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-delegation-information-signer/
+    - fujiwara@jprs.co.jp, 10min
+    - Chairs Action:
+
