@@ -79,9 +79,13 @@ title: DNSOP IETF 109
 * Time: 1430-1530 +7, 0730-0830 UTC
 https://meetings.conf.meetecho.com/ietf109/?group=dnsop&short=&item=2
 
+### Updates
+
+*   IETF Hackathon DNS results
+    - willem@NLnetLabs.nl, 15min
+
 ### New Working Group Business
 
-    
 *   Draft name: DNS Error Reporting
     - https://datatracker.ietf.org/doc/draft-arends-dns-error-reporting/
     - roy.arends@icann.org, 15min
@@ -92,11 +96,8 @@ https://meetings.conf.meetecho.com/ietf109/?group=dnsop&short=&item=2
     - jim@rfc1035.com, 15min
     - Chairs Action:
 
-*   Draft name:  DNS over HTTPS (DoH) Considerations for Operator Networks
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fhllr-dnsop-dohoperator/
-    - Requester Email: jim@rfc1035.com, 15min
-    - Chairs Action:
-    
+### Time Permitting 
+   
 *   Draft name:  Delegation Information (Referrals) Signer for DNSSEC
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-delegation-information-signer/
     - fujiwara@jprs.co.jp, 10min
