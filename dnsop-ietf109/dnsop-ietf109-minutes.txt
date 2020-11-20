@@ -1,0 +1,234 @@
+DNSOP WG
+IETF 109, virtual (would have been Bangkok)
+Chairs: Tim Wicinski, Suzanne Woolf, Benno Overeinder
+Minutes taken by Paul Hoffman
+Text from slides not shown here; see the slides for much more info
+
+Session 1: 17 November 2020, 1200-1400 +7, 0500-0700 UTC
+
+Administrivia
+    Review of documents moved forward since last meeting
+
+Delegation Revalidation by DNS Resolvers, Shumon Huque
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+    Ralf Weber: Feels strongly that we should not do this work
+        Wandering way too far into implementation territory
+        There are other ways to do resolution
+        This will be abused
+        Trying to implement something that helps one or two use cases
+        Will make resolvers more abusable.
+        Shumon: consensus went the other way
+    Brian Dickson: Does this take into consideration extended errors?
+        GoDaddy uses error code 20 (explains "refused")
+        Shumon: thinks this is reasonable
+
+    
+Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC, Dmitry Belyavskiy
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc5933-bis/
+    Peter van Dijk: Would really like test vectors in the draft
+        Dmitry: they are there
+    Jim Reid: Is they crypto code in many libraries?
+        Dmitry: Yes in OpenSSL, Linux kernel
+    PaulH: Wants to wait for WG Last Call until we know if it will needs to be on standards track
+
+Top-level Domains for Private Internets, Roy Arends
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-private-use-tld/
+    Ted Hardie: Likes the idea for splitting the drafts
+        What does "locally used" mean
+        Thinks the second document shoudl be by ISO talking to ICANN, not from IETF
+        This would make it essentially impossible for ISO to change the use
+        Does not feel it is right for IETF to do that to ISO
+        Joe Abley: Different cans for different worms
+            Try to limit the scope to just the things that IETF can think about
+            Observation that we have used thise before; just document that
+            Noting that code points have been used in the past
+            Historic 3166 policy
+        Roy: ISO has already said that the names are reserved locally
+            ICANN has adopted ISO's policy
+            Look as a Venn diagram
+            Needs all three to say that they can be locally used
+    Brian: ISO says these names are not used and will never be used
+        This is about IETF saying that we will not use these per se
+        Roy: Let's make it explicit for everyone
+    Warren Kurmari: Policy implications
+        ICANN CEO sent statement to IETF
+        Response from IETF and IAB
+        Want to engage experts between IETF and ICANN
+    Ted: Two pieces that need to be more careful
+        Serious distinction between intent and the conclusion and that they should be used in the DNS for this purpose
+        These are being squatted on, and we see this happening
+        We think we know what they can be used for, so we can get ISO, IETF, ICANN to be in agreement
+        Don't just draw the conclusion, make it cleaner
+    Eberhard Lisse: ccNSO has thought about what happens if a country stops existing
+        Has been looking at ISO naming carefully
+        ISO has been predictable in saying that the code points are not part of the standard
+        Extremely unlikely that any will be changed
+        Makes sense to split it into two drafts
+    Stuart Cheshire: Whenever you say something is reserved, people think it is reserved for them
+        Need to say it is reserved for
+        Conflicting local uses
+        Tempting to say "do what you like", but this is abdicating its responsibility
+        Need to say what purpose it is reserved for
+    Jim: Documenting everyone else is using these for is inappropriate or relevant
+        Useful for background
+        Roy: Move to an appendix of examples, non-normative, anecdotal
+    Warren: Agreed with Ted and Stuart's concerns
+        Doesn't like "extremely unlikely"
+        Uncoordinated use makes it hard to undo future problems
+        Wants to hear from ISO that they will never reassigns
+
+Fragmentation Avoidance in DNS, Kazunori Fujiwara
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    Mark Andrews: This document doesn't talk about recovery when you are using TSIG
+        TSIG reply can be fragmented as much as you want, it won't be misinterpreted
+        This document should take into consideration TSIG-signed requests
+        TSIG prevents reassembly attacks
+        This draft should have different replies for a TSIG message than non-TSIG message
+        Kazunori: Likes the well-known TSIG draft
+        Mark: Differnet problem space
+            Will try to send text to the list
+    Ralf: TSIG is only a small part of DNS traffic
+        Fragmentation within IPv6 is just not working
+        Maybe only TSIG over v4
+        Mark: v6 fragements can be delivered reliably
+            v6 is in early deployment
+        Difference between fragementation and header extensions
+    Tim: Needs to be on the list
+    Peter: All DNS vendors have come together to agree on a default size, that this document disagrees with
+        This document is devisive; that text should be removed
+
+Revised IANA Considerations for DNSSEC, Paul Hoffman
+    https://datatracker.ietf.org/doc/draft-hoffman-dnssec-iana-cons/
+    Tim: Some implementors had issues with how do we give guidance to them about what to implement
+        Paul: This will tie right into this document
+            Post-quantum will be much more painful
+    Dmitry: Fond of the idea to lessen the requirements
+        Not sure if changing the process for draft-ietf-dnsop-rfc5933-bis is the best possible solution
+    Mark: Go with RFC required
+        Specifications are not stable, they disappear
+    Jim: Prefernce is specification required
+        Wants something light-weight
+        Requiring RFC seems overkill
+        Paul: Some protocols have done just fine with "specification required", but some specs have disappeared (such as in S/MIME)
+        Follow what other WGs are doing
+    Tim: If a code point can be assigned sooner rather than later while the WG works on this document, that may keep things moving along for him as well
+        Paul: Then the WG needs to discuss whether the WG wants to standarize a signature algorithm that is less secure than EdDSA      
+    Lars-Johan Liman: Differentiates between records
+        Structure-carrying records require special processing in the server (NS records, DNSSEC-related, ...)
+        Data records (just carry data)
+        Wants a distinction betweeen the two, and wants RFC required for structure-carrying
+    Dmitry: <Politely corrects Paul about the basis for the GOST algorithm curve and parameter choices>
+        Paul: <Says whoops, didn't see that in the GOST spec, apologizes>
+    Brian: Specifications disappear
+        If something gets approved, maybe create a backup copy of the specs periodically as an informational RFC
+    Warren: We used to pull IDs from the archives, but they are now kept around forever
+        
+
+Recursive Resolvers IP Ranges location distribution and discovery, Manu Bretelle
+    https://datatracker.ietf.org/doc/draft-bretelle-dnsop-recursive-iprange-location/
+    Ben Schwartz: Not a good use of HTTPS record
+        Would help with service bindings in URI or TXT
+        Distributing the list of IP prefix seems OK, but confused about geocodes
+        Why is the location of the resolver of any interest
+        Manu: Resolvers are using geo now, but is not the most granular
+        Ben: Can understand using geocoding for country-specific service requirement
+            Is this about latency optimization? If so, use user location
+        Manu: few people can build latency-measuring systems
+    Liman: Don't use TXT; not the kitchen sink
+        Conflating the resolver side with the authoritative side; should be disjunct
+        A better place to put this information is in the query from the rsolver
+        Mark: Idea is to create collections of resolvers into a country
+    Joe: ECS exists because the state of the art was using the address of the resolver
+        It's a real problem
+        Real world example: resolver cluster had to have 200 exist addresses just to work
+    Mark: Look at APL records
+    Alex Mayrhofer: URI record with a "geo:" URI, doesn't use TXT
+
+DNS Access Denied Error page, Tirumaleswar Reddy
+    https://datatracker.ietf.org/doc/draft-reddy-dnsop-error-page/
+    Ben: Why is a web page better than extended error code
+        Tiru: Extended errors allows cleartext responses, this is protected web
+        Ben: Start deploying EDE first before considering this
+            Why is there a signature tied to the TLS signature?
+        Tiru: To hadle upstream services from forwarders
+    Joe: EDNS options are hop-by-hop
+        How would they be passed back?
+        Other than DoT/DoH, there are usually intermediaries
+        Not a solution for the general case
+        Tiru: Thinks it is clear
+    Wes Hardaker: Didn't come to consensus on EDE that the free text is for logging
+        This draft significantly differs from that
+        There be dragons
+
+===================================================================================================
+
+Session 2: 20 November 2020, 1430-1530 +7, 0730-0830 UTC
+
+IETF Hackathon DNS results, Willem Toorop
+    Used DNS-OARC chat service
+    14 signed up
+    May do it again for IETF 110
+
+DNS Error Reporting, Roy Arends
+    https://datatracker.ietf.org/doc/draft-arends-dns-error-reporting/
+    Jonathan Reed: Is there any data on cases where the authoritative is up enough to report
+        Roy: DNSSEC is big one
+            Even lame delegations can be reported this way
+            In almost all cases the auth has something to report
+            Lame delegation is a harder case; need to figure out more
+    Jim: Likes the draft
+        What is the role of the reporting agent?
+        Are they gathering telemetry data?
+        Wants more text about the role
+    Ralf: Is there any way to prevent people about lying about the reporting server
+        Roy: No. Anyone can send anything anywhere.
+        Could be abused, keep it separate from your normal name servers
+            Roy: It's already in the draft
+        Will send thoughts about abuse scenarios
+    Bernie Hoeneisen: Does this have anything to do with network blocking?
+        Roy: No, it's orthogonal, because you would have gotten a response back.
+
+DNS over HTTPS (DoH) Considerations for Operator Networks, Jim Reid
+    https://datatracker.ietf.org/doc/draft-fhllr-dnsop-dohoperator/
+    Ben: Would not want to use it as a starting point
+        Has bad information, too much regulatory stuff
+    Mark McFadden: Good to use here
+        Documenting it needs to be done somewhere
+    Stephen Farrell: Doesn't understand how this could finish before ADD does its work
+    Ted: Landscape is changing fairly fast
+        Not the time to write down the best practices
+        Maybe ask questions now, but this is not ready for publication
+    Andrew Campling: Agrees with MarkM
+        Serves a useful purpose
+        Doesn't see linkage to ADD
+        Important to get operator experience
+        Good starting point
+    Paul: Thinks it should be done, but not in DNSOP
+    Tim: Understands the operational points of view
+        Policy stuff will be a minefield, makes him nervous
+        If DNSOP doesn't take it on, it will still be vetted here
+        Jim: Policy stuff makes him nervous too
+            Say that "these are what the policy issues might be; there might be dragons"
+            Not asking the IETF to work on them
+    Ben: This is not our place, and thus not useful just to say "they exist"
+        By documenting anything in an RFC, you imply that certain policy choices are correct or even exist
+    Andrew: It is reasonable to note that policy issues exist, and OK to highlight them
+    Suzanne: Need to decide if this is not in scope for DNSOP, relationship to ISE
+        Would the community benefit from DNSOP adopting this document
+        Can continue discussion on the mailing list, or send messages to the authors
+
+Delegation Information (Referrals) Signer for DNSSEC, Kazunori Fujiwara
+    https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-delegation-information-signer/
+    Peter: Something like this might be the thing that works for DPRIVE
+    Ben: Very interesting
+        Overlaps with lots of DPRIVE
+        Maybe move to DPRIVE
+    Jim: Interesting draft, not sure if it is really needed
+        Not sure if the signed meta-data is needed
+        Is this part of DS set, or meant to replace it
+        Add complexity, could make it worse
+        Needs cost/benefit analysis
+    Peter Koch: 
+    Olaf Kolkman: Was very careful not to muck with what we didn't know at the time
+        Afraid to over-step, make the most minimal changes to the DNS
+    
