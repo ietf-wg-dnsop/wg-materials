@@ -117,8 +117,8 @@ Revised IANA Considerations for DNSSEC, Paul Hoffman
         Structure-carrying records require special processing in the server (NS records, DNSSEC-related, ...)
         Data records (just carry data)
         Wants a distinction betweeen the two, and wants RFC required for structure-carrying
-    Dmitry: <Politely corrects Paul about the basis for the GOST algorithm curve and parameter choices>
-        Paul: <Says whoops, didn't see that in the GOST spec, apologizes>
+    Dmitry: mentioned that the algorithm's parameters are as good as EdDSA
+        Paul: agrees and apologizes
     Brian: Specifications disappear
         If something gets approved, maybe create a backup copy of the specs periodically as an informational RFC
     Warren: We used to pull IDs from the archives, but they are now kept around forever
