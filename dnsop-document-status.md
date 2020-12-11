@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 15 October 2020
+### Updated: 12 December 2020
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,70 +9,68 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-no-response-issue~~ **RFC8906**
-
-* ~~draft-ietf-dnsop-multi-provider-dnssec~~ **RFC8901**
-
-* ~~draft-ietf-dnsop-extended-error~~ **RFC8914**
-
-* ~~draft-ietf-dnsop-rfc2845bis~~ **RFC8945**
-
 ###  RFC Ed Queue
-
 
 ## IESG Queue
 
 * draft-ietf-dnsop-dns-zone-digest
     - IETF 
 
+* draft-ietf-dnsop-server-cookies
+
 ## WGLC Approved
 
-* draft-ietf-dnsop-server-cookies
+* draft-ietf-dnsop-iana-class-type-yang
+
+* draft-ietf-dnsop-rfc7816bis
 
 ## In WG Last Call
 
-* draft-ietf-dnsop-iana-class-type-yang
-    - Ends 30 October
-
-* draft-ietf-dnsop-rfc7816bis
-    - Ends 10 November 
-
 ## Upcoming WG Last Calls
-
-* draft-ietf-dnsop-dns-tcp-requirements
 
 * draft-ietf-dnsop-svcb-httpssvc
 
 ## Adopted by WG, Under Discussion
-
-* draft-ietf-dnsop-terminology-ter
-
-* draft-ietf-dnsop-resolver-information
 
 * draft-fujiwara-dnsop-avoid-fragmentation
 
 * draft-ietf-dnsop-delegation-only
 
 * draft-ietf-dnsop-dnssec-validator-requirements
+    - need updated version
+
+* draft-ietf-dnsop-glue-is-not-optional
+    - need updated version
+
+* draft-ietf-dnsop-ns-revalidation
+
+* draft-ietf-dnsop-private-use-tld
+
+* draft-ietf-dnsop-resolver-information
+
+* draft-ietf-dnsop-rfc5933-bis
+
+* draft-ietf-dnsop-rfc8499bis
+
+* draft-ietf-dnsop-terminology-ter
+    - merge into rfc8499bis
+
+* draft-ietf-dnsop-dns-tcp-requirements
+    - need updated version
 
 * draft-ietf-dnsop-update-timeout
 
 * draft-toorop-dnsop-dns-catalog-zones
 
-* draft-ietf-dnsop-glue-is-not-optional
-
-* draft-ietf-dnsop-ns-revalidation
-
-* draft-ietf-dnsop-rfc5933-bis
-
-* draft-ietf-dnsop-private-use-tld 
-
 ## Active Calls for Adoption
 
+* draft-hoffman-dnssec-iana-cons
+    - Ends 31 December 2020
+
+* draft-vandijk-dnsop-nsec-ttl
+    - Ends 28 December 2020
 
 ## Candidates For Adoption
-
-* draft-hoffman-dnssec-iana-cons
 
 * draft-klh-dnsop-rfc8109bis
 
