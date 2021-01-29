@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 12 December 2020
+### Updated: 29 January 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,10 +11,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ###  RFC Ed Queue
 
-## IESG Queue
 
 * draft-ietf-dnsop-dns-zone-digest
-    - IETF 
+    - AUTH48 
+
+## IESG Queue
 
 * draft-ietf-dnsop-server-cookies
 
@@ -25,6 +26,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc7816bis
 
 ## In WG Last Call
+
+* draft-ietf-dnsop-nsec-ttl
+    - Ends 12 February 2021 
 
 ## Upcoming WG Last Calls
 
@@ -62,13 +66,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-toorop-dnsop-dns-catalog-zones
 
+* draft-ietf-dnsop-dnssec-iana-cons
+
 ## Active Calls for Adoption
 
-* draft-hoffman-dnssec-iana-cons
-    - Ends 31 December 2020
-
-* draft-vandijk-dnsop-nsec-ttl
-    - Ends 28 December 2020
 
 ## Candidates For Adoption
 
