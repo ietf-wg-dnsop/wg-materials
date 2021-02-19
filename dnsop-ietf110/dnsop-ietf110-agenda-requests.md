@@ -16,3 +16,9 @@
     - Time Requested: 20 minutes
     - Chairs Action:
 
+*   Draft name: draft-hardaker-dnsop-nsec3-guidance
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hardaker-dnsop-nsec3-guidance
+    - Requester Email: wjhns1@hardakers.net
+    - Time Requested: 5 or 10 minutes
+    - Chairs Action:
+
