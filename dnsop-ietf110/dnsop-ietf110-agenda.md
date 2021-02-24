@@ -23,52 +23,49 @@ title: DNSOP IETF 110
 * [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-#
-## Agenda
 
-### Administrivia
+# Agenda
+
+## Administrivia
 
 * Agenda Bashing, Blue Sheets, etc,  10 min
 
 * Updates of Old Work, Chairs, 10 min
 
+
 ### Current Working Group Business
 
-*   Draft name: draft-ietf-dnsop-dns-catalog-zones
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
-    - Requester Email: willem@nlnetlabs.nl
-    - Time Requested: 20 minutes
+*   IETF Hackathon DNS results
+
+
+*   draft-ietf-dnsop-dns-catalog-zones
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
+    - willem@nlnetlabs.nl, 20min
     - Chairs Action:
 
 
 ### New Working Group Business
 
 
-*   Draft name: draft-hardaker-dnsop-nsec3-guidance
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hardaker-dnsop-nsec3-guidance
-    - Requester Email: wjhns1@hardakers.net
-    - Time Requested: 15
+*   draft-hardaker-dnsop-nsec3-guidance
+    - https://datatracker.ietf.org/doc/draft-hardaker-dnsop-nsec3-guidance
+    - wjhns1@hardakers.net, 15min
     - Chairs Action:
 
-*   Draft name: draft-wisser-dnssec-automation
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
-    - Requester Email: ulrich.wisser@internetstiftelsen.se
-    - Time Requested: 15
-    - Chairs Action:
-
-
-*   Draft name: draft-reddy-dnsop-error-page
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-reddy-dnsop-error-page/
-    - Requester Email: kondtir@gmail.com
-    - Time Requested: 15 
+*   draft-wisser-dnssec-automation
+    - https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
+    - ulrich.wisser@internetstiftelsen.se, 15min
     - Chairs Action:
 
 
+*   draft-reddy-dnsop-error-page
+    - https://datatracker.ietf.org/doc/draft-reddy-dnsop-error-page/
+    - kondtir@gmail.com, 15min
+    - Chairs Action:
 
-*   Draft name: draft-ietf-opsawg-mud-iot-dns-considerations
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/
-    - Requester Email: mcr+ietf@sandelman.ca
-    - Time Requested: 10
+*   draft-ietf-opsawg-mud-iot-dns-considerations
+    - https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/
+    - mcr+ietf@sandelman.ca, 10min
     - Chairs Action:
 
 ### Time Permitting
