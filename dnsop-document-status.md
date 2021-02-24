@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 29 January 2021
+### Updated: 5 February 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,19 +11,21 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ###  RFC Ed Queue
 
-
 * draft-ietf-dnsop-dns-zone-digest
+    - AUTH48 
+
+* draft-ietf-dnsop-server-cookies
     - AUTH48 
 
 ## IESG Queue
 
-* draft-ietf-dnsop-server-cookies
-
 ## WGLC Approved
 
 * draft-ietf-dnsop-iana-class-type-yang
+    - Needs Writeup
 
 * draft-ietf-dnsop-rfc7816bis
+    - Waiting for author's revisions
 
 ## In WG Last Call
 
@@ -51,18 +53,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-private-use-tld
 
 * draft-ietf-dnsop-resolver-information
+    - need updated version
 
 * draft-ietf-dnsop-rfc5933-bis
 
 * draft-ietf-dnsop-rfc8499bis
 
-* draft-ietf-dnsop-terminology-ter
-    - merge into rfc8499bis
-
 * draft-ietf-dnsop-dns-tcp-requirements
     - need updated version
 
 * draft-ietf-dnsop-update-timeout
+    - need updated version
 
 * draft-toorop-dnsop-dns-catalog-zones
 
