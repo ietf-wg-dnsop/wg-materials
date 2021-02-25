@@ -36,6 +36,12 @@
     - Time Requested: 15 
     - Chairs Action:
 
+*   Draft name: draft-arends-dns-error-reporting
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-arends-dns-error-reporting/
+    - Requester Email: roy.arends@icann.org
+    - Time Requested: 15 
+    - Chairs Action: call for adoption
+
 
 *   Draft name: draft-ietf-opsawg-mud-iot-dns-considerations
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/

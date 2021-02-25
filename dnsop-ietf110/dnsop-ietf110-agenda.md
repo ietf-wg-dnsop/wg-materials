@@ -63,6 +63,11 @@ title: DNSOP IETF 110
     - kondtir@gmail.com, 15min
     - Chairs Action:
 
+*   draft-arends-dns-error-reporting
+    - https://datatracker.ietf.org/doc/draft-arends-dns-error-reporting/
+    - roy.arends@icann.org, 15min
+    - Chairs Action:
+
 *   draft-ietf-opsawg-mud-iot-dns-considerations
     - https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/
     - mcr+ietf@sandelman.ca, 10min
