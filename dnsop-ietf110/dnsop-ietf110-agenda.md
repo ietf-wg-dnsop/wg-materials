@@ -1,15 +1,6 @@
----
-title: DNSOP IETF 110
----
+
 # DNS Operations (DNSOP) Working Group
 ## IETF 110
-
-* Date: 11 March 2021 
-* Time: 1530 - 1900 CEST
-* Room: 4/6
-
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
 
 ### Chairs
 * Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
@@ -24,6 +15,15 @@ title: DNSOP IETF 110
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 
+## Session I
+
+* Date: 11 March 2021
+* Time: 1530-1630 CEST, 1430-1530 UTC
+* Room: [https://meetings.conf.meetecho.com/ietf110/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf110/?group=dnsop&short=&item=1)
+
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* EtherPad: [https://codimd.ietf.org/notes-ietf-110-dnsop](https://codimd.ietf.org/notes-ietf-110-dnsop)
+
 # Agenda
 
 ## Administrivia
@@ -36,12 +36,24 @@ title: DNSOP IETF 110
 ### Current Working Group Business
 
 *   IETF Hackathon DNS results
+    -   10min
 
 
 *   draft-ietf-dnsop-dns-catalog-zones
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
     - willem@nlnetlabs.nl, 20min
     - Chairs Action:
+
+## Session II
+
+* Date: 11 March 2021
+* Time: 1700-1900 CEST. 1600-1800 UTC
+* Room: [https://meetings.conf.meetecho.com/ietf110/?group=dnsop&short=&item=2](https://meetings.conf.meetecho.com/ietf110/?group=dnsop&short=&item=2)
+
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* EtherPad: [https://codimd.ietf.org/notes-ietf-110-dnsop](https://codimd.ietf.org/notes-ietf-110-dnsop)
+
+# Agenda
 
 
 ### New Working Group Business
@@ -67,6 +79,8 @@ title: DNSOP IETF 110
     - https://datatracker.ietf.org/doc/draft-arends-dns-error-reporting/
     - roy.arends@icann.org, 15min
     - Chairs Action:
+
+### Related Business
 
 *   draft-ietf-opsawg-mud-iot-dns-considerations
     - https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/

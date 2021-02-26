@@ -1,15 +1,7 @@
----
-title: DNSOP IETF XXX
----
+
 # DNS Operations (DNSOP) Working Group
 ## IETF
 
-* Date:
-* Time:
-* Room:
-
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
 
 ### Chairs
 * Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
@@ -22,6 +14,16 @@ title: DNSOP IETF XXX
 ### Document Status
 * [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
+## Session I
+
+* Date:
+* Time:
+* Room: []()
+
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* EtherPad: []()
+
 
 #
 ## Agenda
@@ -44,3 +46,11 @@ title: DNSOP IETF XXX
 
 ### Time Permitting
 
+## Session II
+
+* Date:
+* Time:
+* Room: []()
+
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* EtherPad: []()
