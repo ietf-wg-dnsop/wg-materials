@@ -95,6 +95,10 @@ title: DNSOP IETF 110
     - Roy Arends, 15 min
     - Chairs Action:
 
+*   draft-arkko-dns-confidential
+    - https://datatracker.ietf.org/doc/draft-arkko-dns-confidential/
+    - ari.arkko@piuha.net, 15 min
+    - Chairs Action: discussion
 
 ### Related Business
 

@@ -52,3 +52,9 @@
     - Requester Email: mcr+ietf@sandelman.ca
     - Time Requested: 10
     - Chairs Action:
+
+*   Draft name: draft-arkko-dns-confidential
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-arkko-dns-confidential/
+    - Requester Email: jari.arkko@piuha.net
+    - Time Requested: 15min
+    - Chairs Action: discussion
