@@ -41,6 +41,12 @@
     - Time Requested: 15
     - Chairs Action: call for adoption
 
+*   Draft name: draft-ietf-dnsop-avoid-fragmentation
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - Requester Email: fujiwara@jprs.co.jp
+    - Time Requested: 15 min
+    - Chairs Action:
+
 *   Draft name: draft-ietf-opsawg-mud-iot-dns-considerations
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/
     - Requester Email: mcr+ietf@sandelman.ca

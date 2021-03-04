@@ -1,6 +1,9 @@
-
+---
+title: DNSOP IETF 110
+---
 # DNS Operations (DNSOP) Working Group
 ## IETF 110
+
 
 ### Chairs
 * Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
@@ -36,18 +39,18 @@
 ### Current Working Group Business
 
 *   IETF Hackathon DNS results
-    -   10min
-
+    - Willem Toorop, 10 min
 
 *   draft-ietf-dnsop-dns-catalog-zones
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
-    - willem@nlnetlabs.nl, 20min
+    - Willem Toorop, 20 min
     - Chairs Action:
 
 * draft-ietf-dnsop-dnssec-iana-cons
-    -
-    - Hoffman 
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/
+    - Paul Hoffman, 10 min
     - Chairs Action:
+
 
 ## Session II
 
@@ -61,34 +64,44 @@
 # Agenda
 
 
+### Current Working Group Business
+
+*   draft-ietf-dnsop-avoid-fragmentation
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - Kazunori Fujiwara, 15 min
+    - Chairs Action:
+
+
 ### New Working Group Business
 
 
 *   draft-hardaker-dnsop-nsec3-guidance
-    - https://datatracker.ietf.org/doc/draft-hardaker-dnsop-nsec3-guidance
-    - wjhns1@hardakers.net, 15min
+    - https://datatracker.ietf.org/doc/draft-hardaker-dnsop-nsec3-guidance/
+    - Wes Hardaker, 15 min
     - Chairs Action:
 
 *   draft-wisser-dnssec-automation
     - https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
-    - ulrich.wisser@internetstiftelsen.se, 15min
+    - Ulrich Wisser, 15 min
     - Chairs Action:
 
 *   draft-reddy-dnsop-error-page
     - https://datatracker.ietf.org/doc/draft-reddy-dnsop-error-page/
-    - kondtir@gmail.com, 15min
+    - T. Reddy, 15 min
     - Chairs Action:
 
 *   draft-arends-dns-error-reporting
     - https://datatracker.ietf.org/doc/draft-arends-dns-error-reporting/
-    - roy.arends@icann.org, 15min
+    - Roy Arends, 15 min
     - Chairs Action:
+
+*   
 
 ### Related Business
 
 *   draft-ietf-opsawg-mud-iot-dns-considerations
     - https://datatracker.ietf.org/doc/draft-ietf-opsawg-mud-iot-dns-considerations/
-    - mcr+ietf@sandelman.ca, 10min
+    - Michael Richardson, 10 min
     - Chairs Action:
 
 ### Time Permitting
