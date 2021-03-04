@@ -95,7 +95,6 @@ title: DNSOP IETF 110
     - Roy Arends, 15 min
     - Chairs Action:
 
-*   
 
 ### Related Business
 
