@@ -43,7 +43,7 @@ title: DNSOP IETF 110
 
 *   draft-ietf-dnsop-dns-catalog-zones
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
-    - Willem Toorop, 20 min
+    - Libor Peltan and Peter van Dijk, 20 min
     - Chairs Action:
 
 * draft-ietf-dnsop-dnssec-iana-cons
