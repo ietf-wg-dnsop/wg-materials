@@ -1,0 +1,182 @@
+DNS Operations (DNSOP) Working Group
+IETF 110
+11 March 2021
+Chairs: Tim Wicinski, Suzanne Woolf, Benno Overeinder
+Minutes taken by Paul Hoffman
+Notes here do not include material from the slides
+    Mostly comments on presentations
+About 125 people in the meetings
+
+
+IETF 110 Hackathon DNS results
+Willem Toorop
+    "Soft" hackathon
+    Used DNS-OARC Mattermost for communication
+    Not as many participants as for f2f, but plenty of work was done
+    XoT interop was good
+    Suzanne: Glad that the hackathon is not being forgotten
+
+
+draft-ietf-dnsop-dns-catalog-zones
+Libor Peltan and Peter van Dijk
+    Alexander Mayrhofer: Requirement to see the serial number of the catalog zone
+        Wants a catalog of serial numbers, no matter what the form is
+    Ray Bellis: Concerned abut the serial signalling
+        How will they be kept up to date?
+        If it is going to be mandatory, it needs to be better specified, maybe don't do that
+        PetervD: PowerDNS does it synthetically, but doing it manually is harder
+            Wants to keep it optional
+        ISC is using this in production
+    Libor: Wants more discussion of the new approach
+        Could lead to a huge catalog zone is being updated frequently
+    Alexander: Consider one zone that is pretty static, one is very dynamic
+        Maybe list the use cases
+        Target is a very narrow: inter-operator
+            Can be a bit more ugly
+        PetervD: That change could be easy
+    Ray: Doesn't want synching should be CSYNC, is a semantic abuse
+        Not sure if a new RRtype is useful, would be a metatype
+    Peter Tomassen: Catalog zone size can become pretty large
+        Other ways around that, such as IXFR or sharding or grouping
+        Catalog might be publicly queried in the future, such as by people checking if NS has been updated
+
+
+draft-ietf-dnsop-dnssec-iana-cons
+Paul Hoffman
+    Jim Reid: Ready for WG Last Call
+        Maybe have another draft on new crypto requirements
+    Dmitry Belyavskiy: Supports draft
+        If this was here two years ago, he'd be done by now
+
+
+draft-ietf-dnsop-avoid-fragmentation
+Kazunori Fujiwara
+    Paul: There is a vast range on the last slide, we can't pick a "good" value
+    Benno: How can we come to consensus?
+    Puneet Sood: Did 1400 on v4 and v6 for Google Public DNS
+        Working well
+        Maybe picking one value is impossible, instead use a range
+    Jim: Impossible to converge on a single value
+        Minimum value, upper value, give guideline for each
+        Wants progress on this document
+    PetervD: 1232 has worked well
+        A resolver does not have time to probe because slows down
+        Auths cannot probe MTU to clients, not implementable
+    Benno: Please say on the mailing list what is implementable, what is not possible
+    Suzanne: On mailing list, what can we say?
+        Can we get consensus?
+
+
+draft-hardaker-dnsop-nsec3-guidance
+Wes Hardaker
+    Roy Arends: Any change will affect millions of zones
+        Has an issue SERVFAIL, would prefer to treat the zone as unsigned as current
+        Happy to lower the cap
+        Maybe just clarify salt or opt-out
+        Wes: OK with narrowing
+    Jim: On the right track
+        Number 100 seems arbitrary, would prefer to have data
+        Resolver operators will know more
+        Wes: have data from Viktor Dukhovni, will share
+    PeterT: Are there proponents for keeping salts?
+        Wes: Allows larger zones to make difficult to make rainbow tables
+            Only useful if you are going to rotate it
+    Ulrich Wisser: How many domains will be hit if we limit to 100?
+    Benno: Will take adoption to the list
+    Libor: Likes 0 or 1, but most important is capping
+        Maybe reduce to 10
+    
+
+draft-wisser-dnssec-automation
+Ulrich Wisser
+    Jonathan Reed: This is talking about the ZSK
+        Guidance about pausing the ZSK rolling would be good
+        Best practices on how long this should take
+        Ulrich: more about the TTLs
+            Maybe a day
+    Ulrich: will present more at ICANN DNS Symposium
+
+
+draft-reddy-dnsop-error-page
+Neil Cook
+    Ben Schwartz: What name is the client validating the signature against?
+        Should be limited to the same domain name to limit phishing and related attacks
+        Only adopted if has client side (browser) interest
+        Requires total redesign of browser security model
+    Tiru Reddy: Similar to captive portal standards
+    Ben: Server side signing problem is also huge
+        Front end processors are different between web and DNS
+    Neil: Wants to get a browser vendor interested in co-authoring
+    Benno: Wants more discussion on the list before call for adoption
+    Neil: Maybe DNSOP is a limited audience
+    Suzanne: Will try to get review in other audiences
+
+
+draft-arends-dns-error-reporting
+Roy Arends
+    Paul: Doesn't want DPRIVE to do this on their own
+    Puneet: Sounds interesting.
+        This is going over unencrypted transport. What prevents spam?
+        Roy: If done over an encrypted channel, error should go over channel
+            Nothing can ever prevent spamming of error reports
+        Some smart adversary could cause you to investigate falsely
+        Roy: Can rely on on numbers of errors, have to deal with false positives
+    Brett Carr: Supports
+        Wants more information when failures occur
+    Jim: Supports
+        Need to think more about threat models
+        Can't validate error codes either.
+    Ben: Support, please adopt
+        Maybe restrict to TCP or some other way of doing source tracing
+    Matt Pounsett: Worried about getting many error reports an hour, maybe will be useless
+        Who would implement?
+        Maybe with TSIG?
+        Roy: It is opt-in for auth server
+    PeterT: Needs some tooling to aggregate and tooling
+        About the zone contents itself, not errors with resolver
+        Why not just tool the auth side?
+        Roy: If we had such tooling, we wouldn't need it
+            We don't have all such tooling
+    Paul: Auth servers can change the endpoint whenever they want
+    Alex: Pretty interesting
+        Put a higher level of trust in protocols that are harder to spoof
+    Benno: Room is positive
+        Will do call for adoption
+
+draft-arkko-dns-confidential
+Jari Arkko
+    Suzanne: This might be in DNSOP, or other WGs such as ADD or DPRIV
+    Warren Kumari: Seems interesting
+        Remote asset is very important, must show how
+        Jari: Other IETF WGs are working on this
+    Ben: Interested
+        Lots of challenges
+        Maybe a non-WG-forming BoF
+        Highly speculative
+        Related to PEARG
+        Lots of questions of threat models and guarantees
+        Privacy of things that forward?
+        Jari: Maybe some interop or open source work
+            Caches can confuse the timing
+    Sara Dickinson: PEARG would be interested
+    Daniel Kahn Gilmore: Excited about thinking about this
+        Dubious about using TPMs
+    Jim: Lots of policy considerations
+        DNSOP might be best place because it never dies
+
+
+draft-ietf-opsawg-mud-iot-dns-considerations
+Michael Richardson
+    Not for the WG, but wants comments from developers and operators
+    Ben: RRsets are unordered and atomic
+        But the answers can change often
+        Cannot rely on the cache to give the same answer
+        Michael: Isn't reliant on ordering, but cares about getting all of them
+    PetervD: Round robin has always been statistically true
+    Ben: Has hit on a real problem, but can't be solved in this draft
+
+DANEISH BoF
+Michael Richardson
+    IoT security hardening using DANE
+    Much about problem space
+    Non-WG forming for now, charter might come later

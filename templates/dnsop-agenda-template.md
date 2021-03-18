@@ -12,7 +12,7 @@
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
 
 ### Document Status
-* [Github](https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md)
+* [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 ## Session I
