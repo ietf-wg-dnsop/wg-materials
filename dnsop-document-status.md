@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 18 March 2021
+### Updated: 20 April 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,15 +9,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
+* ~~draft-ietf-dnsop-server-cookies~~ RFC9018
+
 ###  RFC Ed Queue
 
-* ~~draft-ietf-dnsop-dns-zone-digest~~ RFC8976
-    - AUTH48 
-
-* draft-ietf-dnsop-server-cookies
-    - RFC Editor Queue 
 
 ## IESG Queue
+
+* draft-ietf-dnsop-nsec-ttl
 
 ## WGLC Approved
 
@@ -25,19 +24,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Needs Writeup
 
 * draft-ietf-dnsop-rfc7816bis
-    - Waiting for author's revisions
+    - wrap wglc 26 April
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-svcb-https
     - Ends 2 April
 
-* draft-ietf-dnsop-nsec-ttl
-    - Needs Shepherd Work 
+* draft-ietf-dnsop-dns-tcp-requirements
+    - Ends 3 May 
 
 ## Upcoming WG Last Calls
 
-* draft-ietf-dnsop-svcb-https
 
 ## Adopted by WG, Under Discussion
 
@@ -68,22 +66,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-resolver-information
     - need updated version
 
-* draft-ietf-dnsop-dns-tcp-requirements
-    - need updated version
-
 * draft-ietf-dnsop-update-timeout
-    - need updated version
+    - Authors No time to work on right now
 
 ## Active Calls for Adoption
 
+* draft-arends-dns-error-reporting
+    - Ends 20 April
 
 ## Candidates For Adoption
 
 * draft-klh-dnsop-rfc8109bis
 
 ## New Documents
-
-* draft-arends-dns-error-reporting
 
 * draft-wisser-dnssec-automation
 
