@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 20 April 2021
+### Updated: 10 May 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -18,21 +18,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-nsec-ttl
 
-## WGLC Approved
-
 * draft-ietf-dnsop-iana-class-type-yang
-    - Needs Writeup
+    - IESG LC ends 24 May 
 
 * draft-ietf-dnsop-rfc7816bis
-    - wrap wglc 26 April
+
+## WGLC Approved
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-svcb-https
-    - Ends 2 April
+    - Needs Writeup
 
 * draft-ietf-dnsop-dns-tcp-requirements
-    - Ends 3 May 
+    - Needs Writeup
 
 ## Upcoming WG Last Calls
 
@@ -55,6 +54,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-iana-cons
 
+* draft-ietf-dnsop-dns-error-reporting
+
 ## Expired Documents
 
 * draft-ietf-dnsop-dnssec-validator-requirements
@@ -71,10 +72,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-* draft-arends-dns-error-reporting
-    - Ends 20 April
+* draft-hardaker-dnsop-nsec3-guidance 
+    - Ends 24 May 2021 
 
 ## Candidates For Adoption
+
+* draft-salgado-dnsop-rrserial
 
 * draft-klh-dnsop-rfc8109bis
 
