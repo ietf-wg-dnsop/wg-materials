@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 10 May 2021
+### Updated: 28 May 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -13,25 +13,25 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ###  RFC Ed Queue
 
+* draft-ietf-dnsop-nsec-ttl
 
 ## IESG Queue
 
-* draft-ietf-dnsop-nsec-ttl
-
 * draft-ietf-dnsop-iana-class-type-yang
-    - IESG LC ends 24 May 
 
 * draft-ietf-dnsop-rfc7816bis
+    - IESG LC ends 6 June
 
 ## WGLC Approved
-
-## In WG Last Call
 
 * draft-ietf-dnsop-svcb-https
     - Needs Writeup
 
 * draft-ietf-dnsop-dns-tcp-requirements
     - Needs Writeup
+
+## In WG Last Call
+
 
 ## Upcoming WG Last Calls
 
@@ -42,19 +42,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-delegation-only
 
-* draft-ietf-dnsop-ns-revalidation
-
 * draft-ietf-dnsop-private-use-tld
 
 * draft-ietf-dnsop-rfc5933-bis
-
-* draft-ietf-dnsop-rfc8499bis
 
 * draft-ietf-dnsop-dns-catalog-zones
 
 * draft-ietf-dnsop-dnssec-iana-cons
 
 * draft-ietf-dnsop-dns-error-reporting
+
+* draft-ietf-dnsop-nsec3-guidance
 
 ## Expired Documents
 
@@ -70,14 +68,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-update-timeout
     - Authors No time to work on right now
 
+* draft-ietf-dnsop-rfc8499bis
+
+* draft-ietf-dnsop-ns-revalidation
+
 ## Active Calls for Adoption
 
-* draft-hardaker-dnsop-nsec3-guidance 
-    - Ends 24 May 2021 
+* draft-salgado-dnsop-rrserial
+    - Ends 11 June
 
 ## Candidates For Adoption
-
-* draft-salgado-dnsop-rrserial
 
 * draft-klh-dnsop-rfc8109bis
 
