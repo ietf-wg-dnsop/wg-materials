@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 28 May 2021
+### Updated: 10 June 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -20,7 +20,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-iana-class-type-yang
 
 * draft-ietf-dnsop-rfc7816bis
-    - IESG LC ends 6 June
+    - LC ended, needs update
 
 ## WGLC Approved
 
@@ -57,10 +57,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Expired Documents
 
 * draft-ietf-dnsop-dnssec-validator-requirements
-    - need updated version
+    - 10 June: Authors working on doing a revision
 
 * draft-ietf-dnsop-glue-is-not-optional
-    - need updated version
+    - acquired XML, can proceed
 
 * draft-ietf-dnsop-resolver-information
     - need updated version
@@ -71,6 +71,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc8499bis
 
 * draft-ietf-dnsop-ns-revalidation
+    - 6 June: authors working on update
 
 ## Active Calls for Adoption
 
