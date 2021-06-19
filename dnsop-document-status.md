@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 10 June 2021
+### Updated: 20 June 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -15,9 +15,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-nsec-ttl
 
-## IESG Queue
-
 * draft-ietf-dnsop-iana-class-type-yang
+
+## IESG Queue
 
 * draft-ietf-dnsop-rfc7816bis
     - LC ended, needs update
@@ -42,17 +42,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-delegation-only
 
+* draft-ietf-dnsop-dns-catalog-zones
+
+* draft-ietf-dnsop-dns-error-reporting
+
+* draft-ietf-dnsop-dnssec-iana-cons
+
+* draft-ietf-dnsop-nsec3-guidance
+
 * draft-ietf-dnsop-private-use-tld
 
 * draft-ietf-dnsop-rfc5933-bis
 
-* draft-ietf-dnsop-dns-catalog-zones
-
-* draft-ietf-dnsop-dnssec-iana-cons
-
-* draft-ietf-dnsop-dns-error-reporting
-
-* draft-ietf-dnsop-nsec3-guidance
+* draft-ietf-dnsop-rrserial
 
 ## Expired Documents
 
@@ -75,9 +77,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-* draft-salgado-dnsop-rrserial
-    - Ends 11 June
-
 ## Candidates For Adoption
 
 * draft-klh-dnsop-rfc8109bis
@@ -90,3 +89,38 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Not At This Time
 
+* draft-reddy-dnsop-error-page
+    -  not enoguh interest, wg saw many issues
+
+## Expired Documents 
+
+* draft-ietf-dnsop-rfc8499bis
+    - 
+
+* draft-ietf-dnsop-terminology-ter
+    - 
+
+* draft-ietf-dnsop-resolver-information
+    - Request to let drop
+
+* draft-ietf-dnsop-alt-tld-12
+    - Held by WG      
+
+* draft-ietf-dnsop-aname
+    - Should be dropped
+
+* draft-ietf-dnsop-rfc5011-security-considerations
+    - Held by WG 
+
+* draft-ietf-dnsop-dns-wireformat-http
+    - Parked WG Document      
+
+* draft-ietf-dnsop-let-localhost-be-localhost
+    - 
+
+* draft-ietf-dnsop-ip6rdns
+    - Became rfc8501
+    - was also draft-howard-isp-ip6rdns
+
+* draft-ietf-dnsop-rfc2317bis
+    - 
