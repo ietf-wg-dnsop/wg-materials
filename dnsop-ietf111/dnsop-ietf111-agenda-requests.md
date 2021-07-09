@@ -19,6 +19,12 @@
     - Chairs Action:
 
 
+*   Draft name: Glue is not optional
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
+    - Requester Email: shuque@gmail.com 
+    - Time Requested: 15min
+    - Chairs Action:
+
 ### New Work
 
 *   Draft name: Survey of Domain Verification Techniques using DNS
@@ -26,4 +32,5 @@
     - Requester Email: shuque@gmail.com
     - Time Requested: 15 min
     - Chairs Action:
+
 
