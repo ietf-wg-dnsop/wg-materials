@@ -1,6 +1,6 @@
 
 # DNS Operations (DNSOP) Working Group
-## IETF
+## IETF111
 
 
 ### Chairs
@@ -17,12 +17,12 @@
 
 ## Session I
 
-* Date:
-* Time:
-* Room: []()
+* Date: 26 July 2021
+* Time: 1900-2100 PDT (2300-0100 UTC)
+* Room: [http://www.meetecho.com/ietf111/recordings#DNSOP](http://www.meetecho.com/ietf111/recordings#DNSOP)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
+* EtherPad: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
 
 
 #
@@ -36,12 +36,42 @@
 
 ### Current Working Group Business
 
-*
+*   NSEC and NSEC3 TTLs and NSEC Aggressive Use
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec-ttl/
+    - wjhns1@hardakers.net, 10 min
+    - Chairs Action:
+
+*   Glue is not optional
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
+    - shuque@gmail.com, 15min
+    - Chairs Action:
 
 
 ### New Working Group Business
 
-*
+*   Survey of Domain Verification Techniques using DNS
+    - https://datatracker.ietf.org/doc/draft-sahib-domain-verification-techniques/
+    - shuque@gmail.com
+    - Time Requested: 15 min
+    - Chairs Action:
+
+*   DNSSEC automation
+    - https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
+    - ulrich@wisser.se
+    - Time Requested: 15 min
+    - Chairs Action:
+
+*   DNS Access Denied Error Page
+    - https://datatracker.ietf.org/doc/draft-reddy-dnsop-error-page/
+    - kondtir@gmail.com
+    - Time Requested: 10 min
+    - Chairs Action:
+
+*   Structured Data for DNS Access Denied Error Page
+    - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - kondtir@gmail.com
+    - Time Requested: 15 min
+    - Chairs Action:
 
 
 ### Time Permitting

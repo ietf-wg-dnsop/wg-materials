@@ -41,12 +41,12 @@
 
 *   Draft name: DNS Access Denied Error Page
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-reddy-dnsop-error-page/
-    - Requester Email: kondtir@gmail.com>
+    - Requester Email: kondtir@gmail.com
     - Time Requested: 10 min
     - Chairs Action:
 
 *   Draft name: Structured Data for DNS Access Denied Error Page
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
-    - Requester Email: kondtir@gmail.com>
+    - Requester Email: kondtir@gmail.com
     - Time Requested: 15 min
     - Chairs Action:

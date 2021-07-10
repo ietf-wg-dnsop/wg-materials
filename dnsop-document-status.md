@@ -56,7 +56,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc8499bis
 
-* draft-ietf-dnsop-rrserial
+* draft-ietf-dmnsop-rrserial
 
 * draft-ietf-dnsop-glue-is-not-optional
 
