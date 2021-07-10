@@ -35,6 +35,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Adopted by WG, Under Discussion
 
+* draft-ietf-dnsop-alt-tld
+    - Currently being Held
+
 * draft-ietf-dnsop-avoid-fragmentation
 
 * draft-ietf-dnsop-delegation-only
