@@ -33,4 +33,8 @@
     - Time Requested: 15 min
     - Chairs Action:
 
-
+*   Draft name: DNSSEC automation
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
+    - Requester Email: ulrich@wisser.se
+    - Time Requested: 15 min
+    - Chairs Action:
