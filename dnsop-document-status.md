@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 20 June 2021
+### Updated: 10 July 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -22,19 +22,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc7816bis
     - LC ended, needs update
 
+* draft-ietf-dnsop-dns-tcp-requirements
+
 ## WGLC Approved
 
 * draft-ietf-dnsop-svcb-https
     - Needs Writeup
 
-* draft-ietf-dnsop-dns-tcp-requirements
-    - Needs Writeup
-
 ## In WG Last Call
 
-
 ## Upcoming WG Last Calls
-
 
 ## Adopted by WG, Under Discussion
 
@@ -54,23 +51,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc5933-bis
 
+* draft-ietf-dnsop-rfc8499bis
+
 * draft-ietf-dnsop-rrserial
+
+* draft-ietf-dnsop-glue-is-not-optional
 
 ## Expired Documents
 
 * draft-ietf-dnsop-dnssec-validator-requirements
     - 10 June: Authors working on doing a revision
-
-* draft-ietf-dnsop-glue-is-not-optional
-    - acquired XML, can proceed
-
-* draft-ietf-dnsop-resolver-information
-    - need updated version
-
-* draft-ietf-dnsop-update-timeout
-    - Authors No time to work on right now
-
-* draft-ietf-dnsop-rfc8499bis
 
 * draft-ietf-dnsop-ns-revalidation
     - 6 June: authors working on update
@@ -94,33 +84,34 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Expired Documents 
 
-* draft-ietf-dnsop-rfc8499bis
-    - 
+* draft-ietf-dnsop-update-timeout
+    - Authors No time to work on right now
+    - Parked WG Document
 
 * draft-ietf-dnsop-terminology-ter
-    - 
+    - Parked WG Document
 
 * draft-ietf-dnsop-resolver-information
-    - Request to let drop
-
-* draft-ietf-dnsop-alt-tld-12
-    - Held by WG      
-
-* draft-ietf-dnsop-aname
-    - Should be dropped
+    - Released from WG
 
 * draft-ietf-dnsop-rfc5011-security-considerations
     - Held by WG 
 
-* draft-ietf-dnsop-dns-wireformat-http
-    - Parked WG Document      
-
 * draft-ietf-dnsop-let-localhost-be-localhost
     - 
 
-* draft-ietf-dnsop-ip6rdns
-    - Became rfc8501
-    - was also draft-howard-isp-ip6rdns
-
 * draft-ietf-dnsop-rfc2317bis
     - 
+
+## Chairs ToDo List 
+
+
+* email on 8499bis 
+    - tim 
+
+* email on iana-cons 
+    - tim 
+
+* avoid-fragmentation discussion 
+    - Benno 
+
