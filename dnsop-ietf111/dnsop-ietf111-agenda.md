@@ -4,9 +4,9 @@
 
 
 ### Chairs
-* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
-* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
 
 ### IESG Overlord
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
@@ -19,10 +19,10 @@
 
 * Date: 26 July 2021
 * Time: 1900-2100 PDT (2300-0100 UTC)
-* Room: [http://www.meetecho.com/ietf111/recordings#DNSOP](http://www.meetecho.com/ietf111/recordings#DNSOP)
+* MeetEcho: [http://www.meetecho.com/ietf111/recordings#DNSOP](http://www.meetecho.com/ietf111/recordings#DNSOP)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
+* Minutes: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
 
 
 #

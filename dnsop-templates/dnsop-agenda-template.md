@@ -1,12 +1,12 @@
 
 # DNS Operations (DNSOP) Working Group
-## IETF
+## IETF %%MTG%%
 
 
 ### Chairs
-* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
-* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
 
 ### IESG Overlord
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
@@ -19,10 +19,10 @@
 
 * Date:
 * Time:
-* Room: []()
+* MeetEcho: [https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1)
+* Minutes: [https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop](https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
 
 
 #
