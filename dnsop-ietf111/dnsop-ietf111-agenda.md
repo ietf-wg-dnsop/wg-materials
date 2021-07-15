@@ -36,8 +36,8 @@
 
 ### Current Working Group Business
 
-*   NSEC and NSEC3 TTLs and NSEC Aggressive Use
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec-ttl/
+*   Guidance for NSEC3 parameter settings
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/
     - wjhns1@hardakers.net, 10 min
     - Chairs Action:
 

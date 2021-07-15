@@ -12,8 +12,8 @@
 
 ### Current Work 
 
-*   Draft name: NSEC and NSEC3 TTLs and NSEC Aggressive Use
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec-ttl/
+*   Draft name: Guidance for NSEC3 parameter settings
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/
     - Requester Email: wjhns1@hardakers.net
     - Time Requested: 10 min
     - Chairs Action:
