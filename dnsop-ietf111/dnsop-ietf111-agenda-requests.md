@@ -27,7 +27,8 @@
 
 *   Fragmentation Avoidance in DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
-    - fujiwara@jprs.co.jp, 15min
+    - Requester Email: fujiwara@jprs.co.jp,
+    - Time Requested: 
     - Chairs Action:
 
 ### New Work
