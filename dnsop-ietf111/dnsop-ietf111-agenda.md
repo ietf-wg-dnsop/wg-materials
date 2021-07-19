@@ -46,6 +46,10 @@
     - shuque@gmail.com, 15min
     - Chairs Action:
 
+*   Fragmentation Avoidance in DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - fujiwara@jprs.co.jp, 15min
+    - Chairs Action:
 
 ### New Working Group Business
 
