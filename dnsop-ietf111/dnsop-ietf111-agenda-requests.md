@@ -25,6 +25,11 @@
     - Time Requested: 15min
     - Chairs Action:
 
+*   Fragmentation Avoidance in DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
+    - fujiwara@jprs.co.jp, 15min
+    - Chairs Action:
+
 ### New Work
 
 *   Draft name: Survey of Domain Verification Techniques using DNS
