@@ -18,23 +18,23 @@
 ## Session I
 
 * Date: 26 July 2021
-* Time: 1900-2100 PDT (2300-0100 UTC)
-* MeetEcho: [http://www.meetecho.com/ietf111/recordings#DNSOP](http://www.meetecho.com/ietf111/recordings#DNSOP)
+* Time: 16:00-18:00 PDT (23:00-01:00 UTC)
+* MeetEcho: [https://meetings.conf.meetecho.com/ietf111/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf111/?group=dnsop&short=&item=1)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
 * Minutes: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
 
 
-#
+
 ## Agenda
 
 ### Administrivia
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc,  5 min
 
 * Updates of Old Work, Chairs, 10 min
 
-### Current Working Group Business
+## Current Working Group Business
 
 *   Guidance for NSEC3 parameter settings
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/
@@ -43,12 +43,17 @@
 
 *   Glue is not optional
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
-    - shuque@gmail.com, 15min
+    - shuque@gmail.com, 15 min
     - Chairs Action:
 
 *   Fragmentation Avoidance in DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/
-    - fujiwara@jprs.co.jp, 15min
+    - fujiwara@jprs.co.jp, 15 min
+    - Chairs Action:
+
+*   Revised IANA Considerations for DNSSEC
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/
+    - paul.hoffman@icann.org, 10 min
     - Chairs Action:
 
 ### New Working Group Business
@@ -82,9 +87,11 @@
 
 ## Session II
 
-* Date:
-* Time:
-* Room: []()
+* Date: 29 July 2021
+* Time: 16:30-17:30 PDT (23:30-00:30 UTC)
+* MeetEcho: [https://meetings.conf.meetecho.com/ietf111/?group=dnsop&short=&item=2](https://meetings.conf.meetecho.com/ietf111/?group=dnsop&short=&item=2)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
+* EtherPad: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
+
+
