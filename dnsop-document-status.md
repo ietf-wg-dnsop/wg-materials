@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 10 July 2021
+### Updated: 20 July 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -20,14 +20,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc7816bis
-    - LC ended, needs update
+    - Waiting for AD Go-Ahead
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
-## WGLC Approved
-
 * draft-ietf-dnsop-svcb-https
-    - Needs Writeup
+
+## WGLC Approved
 
 ## In WG Last Call
 
@@ -36,7 +35,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Adopted by WG, Under Discussion
 
 * draft-ietf-dnsop-alt-tld
-    - Currently being Held
+    - Currently being Held, Liason Statement forthcoming
 
 * draft-ietf-dnsop-avoid-fragmentation
 
@@ -48,6 +47,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-iana-cons
 
+* draft-ietf-dnsop-glue-is-not-optional
+
+* draft-ietf-dnsop-ns-revalidation
+
 * draft-ietf-dnsop-nsec3-guidance
 
 * draft-ietf-dnsop-private-use-tld
@@ -56,17 +59,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc8499bis
 
-* draft-ietf-dmnsop-rrserial
+* draft-ietf-dnsop-rrserial
 
-* draft-ietf-dnsop-glue-is-not-optional
-
-## Expired Documents
+## Recently Expired Documents
 
 * draft-ietf-dnsop-dnssec-validator-requirements
     - 10 June: Authors working on doing a revision
 
-* draft-ietf-dnsop-ns-revalidation
-    - 6 June: authors working on update
+* draft-ietf-dnsop-update-timeout
+    - Authors No time to work on right now
+    - Parked WG Document
+
+* draft-ietf-dnsop-terminology-ter
+    - Parked WG Document
+
 
 ## Active Calls for Adoption
 
@@ -76,23 +82,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## New Documents
 
-* draft-wisser-dnssec-automation
-
 ## Needs more Review
 
 ## Not At This Time
 
 * draft-reddy-dnsop-error-page
-    -  not enoguh interest, wg saw many issues
+    -  not enough interest, wg saw many issues
 
-## Expired Documents 
-
-* draft-ietf-dnsop-update-timeout
-    - Authors No time to work on right now
-    - Parked WG Document
-
-* draft-ietf-dnsop-terminology-ter
-    - Parked WG Document
+## Older Expired Documents 
 
 * draft-ietf-dnsop-resolver-information
     - Released from WG
@@ -101,10 +98,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Held by WG 
 
 * draft-ietf-dnsop-let-localhost-be-localhost
-    - 
 
 * draft-ietf-dnsop-rfc2317bis
-    - 
 
 ## Chairs ToDo List 
 
