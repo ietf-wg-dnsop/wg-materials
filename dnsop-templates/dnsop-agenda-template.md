@@ -15,6 +15,9 @@
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
+* [Upload Slides](https://datatracker.ietf.org/meeting/%%MTG%%/session/dnsop)
+
+
 ## Session I
 
 * Date:

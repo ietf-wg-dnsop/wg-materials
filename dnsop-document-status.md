@@ -11,9 +11,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ~~draft-ietf-dnsop-server-cookies~~ RFC9018
 
-###  RFC Ed Queue
+* ~~draft-ietf-dnsop-nsec-ttl~~  RFC9077
 
-* draft-ietf-dnsop-nsec-ttl
+###  RFC Ed Queue
 
 * draft-ietf-dnsop-iana-class-type-yang
 
@@ -72,7 +72,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-terminology-ter
     - Parked WG Document
-
 
 ## Active Calls for Adoption
 

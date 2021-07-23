@@ -15,6 +15,8 @@
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
+* [Propose Slides](https://datatracker.ietf.org/meeting/111/session/dnsop)
+
 ## Session I
 
 * Date: 26 July 2021

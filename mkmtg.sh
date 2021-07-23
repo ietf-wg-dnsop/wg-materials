@@ -22,7 +22,7 @@ echo "Creating ${IETF}..."
 
 ${ECHO} mkdir -p "${IETF}"
 
-${ECHO} cp ${WG}-templates/${WG}-agenda-requests-template.md "${IETF}"/"${IETF}"-agenda-requests.md
+${ECHO} sed -e "s/%%MTG%%/${mtg}/g" ${WG}-templates/${WG}-agenda-requests-template.md > "${IETF}"/"${IETF}"-agenda-requests.md
 
 ${ECHO} sed -e "s/%%MTG%%/${mtg}/g"  ${WG}-templates/${WG}-agenda-template.md > "${IETF}"/"${IETF}"-agenda.md
 

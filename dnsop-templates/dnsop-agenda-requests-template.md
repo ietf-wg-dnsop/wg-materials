@@ -1,5 +1,7 @@
 ## IETF DNSOP Agenda Requests
 
+## Propose Slides: https://datatracker.ietf.org/meeting/%%MTG%%/session/dnsop
+
 ## Request Template Example
 
 *   Draft name:
