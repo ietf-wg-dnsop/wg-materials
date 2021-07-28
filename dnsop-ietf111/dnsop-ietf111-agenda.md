@@ -91,7 +91,7 @@
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf111/?group=dnsop&short=&item=2](https://meetings.conf.meetecho.com/ietf111/?group=dnsop&short=&item=2)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
+* Minutes: [https://codimd.ietf.org/notes-ietf-111-dnsop](https://codimd.ietf.org/notes-ietf-111-dnsop)
 
 
 ## Agenda
