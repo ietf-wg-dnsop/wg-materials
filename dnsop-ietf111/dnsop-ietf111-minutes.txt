@@ -1,0 +1,208 @@
+DNS Operations (DNSOP) Working Group
+IETF 111, virtual instead of San Francisco
+Chairs: Tim Wicinski, Suzanne Woolf, Benno Overeinder
+Minutes taken by Paul Hoffman
+Notes here do not include material from the slides
+	Mostly comments on presentations
+About 110 people in the meeting
+
+Session 1, 2021-07-26
+
+Administrivia
+
+Current WG documents
+
+Guidance for NSEC3 parameter settings, Wes Hardaker
+	draft-ietf-dnsop-nsec3-guidance
+	Jim Reid: Would rather be based on measuring effort needed by resolvers instead of just existing practice
+		Wes: Would need to understand what the impact is for high values
+	Viktor Dukhovni: Had an off-list discussion with vendors on Jim's question
+		The spike at 100 will disappear in the near future
+	Wes: A number of people want 25 or 50
+	Ulrich Wisser: Why go insecure? Why not SERVFAIL immediately?
+		Wes: At least allow the request to go through
+		Viktor: SERVFAIL has merit, but might might break things without easy resolution
+	Jim: Maybe use error code to say why response was insecure or SERVFAIL
+
+
+Glue is not optional, Shumon Huque
+	draft-ietf-dnsop-glue-is-not-optional
+	Duane Wessels: "All glue" is different than the way that authoritative servers today
+	Geoff Huston: Why is sibling glue mandatory?
+		Not sure that sibling case justified
+		Mark Andrews: Can also get delegation loops with sibling glue
+		Geoff: Put that statement in the draft
+	Ralf Weber: Would rather not have this be a MUST
+		Could open to Kaminsky-style attack, causes more data
+		Shumon: Not imposing on resolvers, only authoritative
+	Peter van Dijk: .com/.net do not do sibling glue today
+		Please add an implementation section
+		Shumon: Corrects Verisign setup
+	Ulrich: Orphan glue is a security risk
+		Shumon: Wants agreement that this could be discussed
+	John Levine: Glad about the "all" glue point
+		Don't add distractions with sibling and orphan
+	
+
+Fragmentation Avoidance in DNS, Kazunori Fujiwara
+	draft-ietf-dnsop-avoid-fragmentation
+	Paul Hoffman: Not giving a suggested value goes agains Best Current Practice
+	Viktor: Is it sufficient to set "don't fragment" on the client?
+		Maybe the attacker can fragement
+		More detail would be great
+	Paul: ANRW attack is about .5%
+	Viktor: Would like a set of appropriate practices
+
+
+Revised IANA Considerations for DNSSEC, Paul Hoffman
+	draft-ietf-dnsop-dnssec-iana-cons
+	Suzanne: Registry policy is uninteresting but has long-term effects
+	Viktor: Old GOST algorithm is long-obsolete
+
+
+Other drafts of discussion / New working group business
+
+Survey of Domain Verification Techniques using DNS, Shivan Sahib
+	draft-sahib-domain-verification-techniques
+	Viktor: There is an obvious attacker-in-the-middle attack
+		How do we scope this properly?
+		Wanting to prevent challenge replay
+	Donald Eastlake: There is already a registry for underscore names
+		Shivan: Wants to use that for this use case
+	Ben Schwartz: Supports this, wants more security attention
+		Could trigger RR parsing bugs
+		Could trigger wildcard bugs
+		Some forms have predictable QNAMEs
+	
+
+DNSSEC automation, Ulrich Wisser
+	draft-wisser-dnssec-automation
+	Brian Dickson: GoDaddy is interested in supporting multi-signer
+		Also want to support CDS/CDNKEY through EPP
+		Also interest in bootstrap
+		Ulrich: Bootstrap can establish initial trust between signers
+	Shuman: Bootstrap document is interesting and should have more discussion in the community
+	Suzanne: Not trivial to implement
+		Wants to see interoperable implementations on the horizon
+		Ulrich: Currents with PowerDNS, working in BIND; this, soon
+			Wants independent service providers on board
+
+
+DNS Access Denied Error Page, Dan Wing
+	draft-reddy-dnsop-error-page
+	Ben: This is aimed at browsers, but the browser vendors criticism have been ignored 
+		Would want to see implementation interest before moving forward
+		Dan: Next draft deals with this
+
+
+Structured Data for DNS Access Denied Error Page, Tirumaleswar Reddy
+	draft-wing-dnsop-structured-dns-error-page
+	Ben: Is an improvement, still has concerns
+		Name in structure is not authenticated, URLs are not constrained, lots of pitfalls
+		Would prefer no URLs, not intended to be shown to users
+		Would like to harmonize with HTTP response code 451
+		Indirection through HTTP is complicated and unnecessary; won't work without an HTTP stack
+			Dan: Categorizing is hard
+		Some of the language here normalizes DNS response forgery, not acceptable
+	Viktor: Make the responses as compact as possible
+		Some resolvers are doing DoH on behalf of user: should errors be cached and returned from cache?
+	Warren Kumari: Needs to be coordinated with SECDISPATCH and maybe TLS WGs
+		Be careful that this does not normalize DNS filtering
+	Vittorio Bertola: Better than unstructured one
+		Why use indirection? Just use DNS reply
+		Could just use hooks
+		Will never get agreement on whether DNS filters are good
+	Jonathan Reed: Could minimize responses by getting rid of cause of error
+		Reality is that DNS is a control plane
+		Wants to see filtering normalized
+	Joey Salazar: Agree with Jonathon
+		Will get people agreeing on concerns, particularly about misuse
+		Doesn't see how this would normalize censorship, would help informed consent
+	Andrew Campling: Agrees with earlier on this being positive development for user experience
+	Paul: This is not simple
+		We can make a bad thing easily
+	Warren: Agrees this is much larger
+		Questions whether documenting this will be seen as endorsing censorship
+		Creates an attractive nuisance
+	Andrew: Not helpful to use terms like "DNS censorship", many people opt into DNS filtering
+		Surely this useful to help bring it out in the open
+	
+	
+Session 2, 2021-07-29
+
+Empty Non-Terminal Sentinel for Black Lies, Shumon Huque
+	draft-huque-dnsop-blacklies-ent
+	Peter van Dijk: Should be documented
+	Joe Abley: Thinks it shoudl be documented
+	Paul Wouters: Agrees
+	Shuman: Cloudflare is on board with renaming and publishing
+	Donald Eastlake: Requires a standards option to get IANA allocation
+	Brian Dickson: Is this for NSEC3 or just NSEC?
+		Shumon: Just for NSEC
+	Shane Kerr: No benefit to use NSEC3
+		Wants this to be a WG item so it can be fixed up
+
+Liaison reply ISO 3166-1 user defined codes for draft-ietf-dnsop-private-use-tld
+	Suzanne Woolf gave presentation from chairs
+	Joe Abley gave presentation from the document editors (just the last slide)
+	Viktor Dukhovni: Has thoughts on how to find things that are safe to use
+		Joe: We are trying to capture what people are doing
+			There are lots of ideas around this
+			Not trying to close any doors
+	Wes Hardaker: This is a cool hack
+		Need to come at this from various vantage points
+		Disagreemnt about whether this is even needed
+		ISO's vantage point: the user is supposed to be countries that don't yet have a name
+		We could be adding potential contexts for bad use
+		It's their codespace from history
+		Look what it looks like if we publish a document that says that we're maybe taking it back
+		IETF vantage point: what is the precident if we reuse someone else's codepoints
+		We would be furious if someone did this to us
+		Thinks we should not do this at all
+		Joe: History is not that important, but not as Wes as indicated
+			Purpose is just to document what people are doing
+			Thinks there is some benefit
+	Brian: Would be useful if we could document and vaguely deprecate it if we have something that can replace it
+		Or maybe an unsigned delegation
+		Joe: There is no shortage of ideas
+	Warren Kumari (no hats): If we were to document this, we should document all the strings
+		Concerned that if we do just the 3166 codes, it will look like nudge-nudge-wink-wink if we just say "interesting"
+		Joe: Agrees with Warren
+			If we published something, needs to be very clear about what IETF means
+	Wes: Looked at queries to B-root
+		Number of queries for ZZ have been 4x since the draft was published
+		Should document "do not do this"
+
+Prioritisation of WG activities, Tim Wicinski
+	PaulW: Doesn't like the methods being used
+		There will always be drafts that are less important than the more important ones
+		Wants some things removed
+	Warren: If someone has said something is important, they should do a useful review in WG Last Call
+	Shumon: draft-ietf-dnsop-ns-revalidation had delay
+	Viktor: draft-ietf-dnsop-nsec3-guidance could be by next meeting
+	PaulH: Why is alt-tld going nowhere?
+		Suzanne: Needs to go look at it.
+		Warren: Held it for special use domain problem statement, but that never finished
+			Let's move it forward (as author)
+		Tim: We poke authors off-list
+			Not terribly transparent, maybe want to make it more transparent
+			Does this independently of the WG
+			Now have feedback from the poll
+			Maybe pushing stuff down but not go away
+		Brian: Thinks there is interest in this, can we do a show of hands for this draft
+		Suzanne: It's been parked for a while, will take to the list, let them review the current draft
+	Benno: This session is about the process
+		Some drafts might need new authors
+		Need to think about alt-tld
+	Tim: Maybe have between-meeting meeting about the process
+		Think the boostrapping document is interesting
+		Will be responsive if people raise issues
+		Suzanne: People should yell at us first
+			Maybe publish a status report to the list a week before the meeting
+	PaulW: Send a list of items we are working on every month
+		Will help people to know which to kill
+		Three times a year is not good enough to do this
+		Tim: We keep something like that already, internally
+	Brian: At DPRIVE, had things he wants to bring that to DPRIVE
+	Ben Schwartz: Wants to know where documents should go between DNSOP and DPRIVE
+	Warren: Had talked about a joint interim meeting between DNSOP and DPRIVE and ADD
