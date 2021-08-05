@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 20 July 2021
+### Updated: 6 August 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,10 +9,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ~~draft-ietf-dnsop-server-cookies~~ RFC9018
-
-* ~~draft-ietf-dnsop-nsec-ttl~~  RFC9077
-
 ###  RFC Ed Queue
 
 * draft-ietf-dnsop-iana-class-type-yang
@@ -20,7 +16,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc7816bis
-    - Waiting for AD Go-Ahead
+    - IESG 2021-08-26
 
 * draft-ietf-dnsop-dns-tcp-requirements
 
@@ -30,36 +26,43 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## In WG Last Call
 
+* draft-ietf-dnsop-dnssec-iana-cons
+    - Ends 2021-08-18
+
 ## Upcoming WG Last Calls
 
-## Adopted by WG, Under Discussion
+## Adopted by WG, Under Discussion (ranked)
 
-* draft-ietf-dnsop-alt-tld
-    - Currently being Held, Liason Statement forthcoming
+* draft-ietf-dnsop-rfc8499bis
+    - asked authors to look at new terms in draft-ietf-dprive-xfr-over-tls
+
+* draft-ietf-dnsop-nsec3-guidance
 
 * draft-ietf-dnsop-avoid-fragmentation
 
-* draft-ietf-dnsop-delegation-only
+* draft-ietf-dnsop-glue-is-not-optional
+    - few issues came up during meeting to address
+
+* draft-ietf-dnsop-ns-revalidation
+    - document has three TODO to address
 
 * draft-ietf-dnsop-dns-catalog-zones
 
 * draft-ietf-dnsop-dns-error-reporting
 
-* draft-ietf-dnsop-dnssec-iana-cons
-
-* draft-ietf-dnsop-glue-is-not-optional
-
-* draft-ietf-dnsop-ns-revalidation
-
-* draft-ietf-dnsop-nsec3-guidance
+* draft-ietf-dnsop-rrserial
 
 * draft-ietf-dnsop-private-use-tld
+    - Currently being Held
+
+* draft-ietf-dnsop-alt-tld
+    - Currently being Held
 
 * draft-ietf-dnsop-rfc5933-bis
+    - Should fall out with iana-cons moving forward
 
-* draft-ietf-dnsop-rfc8499bis
-
-* draft-ietf-dnsop-rrserial
+* draft-ietf-dnsop-delegation-only
+    - Note sent to drop
 
 ## Recently Expired Documents
 
@@ -70,12 +73,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Authors No time to work on right now
     - Parked WG Document
 
-* draft-ietf-dnsop-terminology-ter
-    - Parked WG Document
-
 ## Active Calls for Adoption
 
 ## Candidates For Adoption
+
+* draft-thomassen-dnsop-dnssec-bootstrapping
+
+* draft-huque-dnsop-blacklies-ent
 
 * draft-klh-dnsop-rfc8109bis
 
@@ -102,12 +106,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Chairs ToDo List 
 
-
-* email on 8499bis 
-    - tim 
-
-* email on iana-cons 
-    - tim 
 
 * avoid-fragmentation discussion 
     - Benno 
