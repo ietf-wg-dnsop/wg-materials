@@ -19,26 +19,33 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - IESG 2021-08-26
 
 * draft-ietf-dnsop-dns-tcp-requirements
+    - AD Evaluation
 
 * draft-ietf-dnsop-svcb-https
+    - IETF LC ends 2021-08-19
 
 ## WGLC Approved
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-dnssec-iana-cons
-    - Ends 2021-08-18
+    - WGLC ends 2021-08-18
 
 ## Upcoming WG Last Calls
 
 ## Adopted by WG, Under Discussion (ranked)
 
+* draft-ietf-dnsop-delegation-only
+    - Note sent to drop ends 2021-08-19
+
 * draft-ietf-dnsop-rfc8499bis
     - asked authors to look at new terms in draft-ietf-dprive-xfr-over-tls
 
 * draft-ietf-dnsop-nsec3-guidance
+    - value selection
 
 * draft-ietf-dnsop-avoid-fragmentation
+    - value or values
 
 * draft-ietf-dnsop-glue-is-not-optional
     - few issues came up during meeting to address
@@ -61,8 +68,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc5933-bis
     - Should fall out with iana-cons moving forward
 
-* draft-ietf-dnsop-delegation-only
-    - Note sent to drop
 
 ## Recently Expired Documents
 
@@ -85,6 +90,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## New Documents
 
+* draft-schwartz-svcb-dns
+
 ## Needs more Review
 
 ## Not At This Time
@@ -105,8 +112,4 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc2317bis
 
 ## Chairs ToDo List 
-
-
-* avoid-fragmentation discussion 
-    - Benno 
 
