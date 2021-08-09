@@ -1,5 +1,7 @@
 # Chairs Meeting Notes
 
+This File: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/chairs-notes-2021.md
+
 Doc Status: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md
 
 ## 2021-08-06
