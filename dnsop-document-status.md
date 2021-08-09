@@ -68,7 +68,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc5933-bis
     - Should fall out with iana-cons moving forward
 
-
 ## Recently Expired Documents
 
 * draft-ietf-dnsop-dnssec-validator-requirements
@@ -99,17 +98,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-reddy-dnsop-error-page
     -  not enough interest, wg saw many issues
 
-## Older Expired Documents 
-
-* draft-ietf-dnsop-resolver-information
-    - Released from WG
-
-* draft-ietf-dnsop-rfc5011-security-considerations
-    - Held by WG 
-
-* draft-ietf-dnsop-let-localhost-be-localhost
-
-* draft-ietf-dnsop-rfc2317bis
 
 ## Chairs ToDo List 
 
