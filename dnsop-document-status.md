@@ -43,17 +43,23 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-nsec3-guidance
     - value selection
+    - [ ] tim followup
 
 * draft-ietf-dnsop-avoid-fragmentation
     - value or values
+    - [ ] Benno followup
 
 * draft-ietf-dnsop-glue-is-not-optional
     - few issues came up during meeting to address
+    - pending
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
+    - [ ] tim will followup
 
 * draft-ietf-dnsop-dns-catalog-zones
+    - Six outstanding questions in draft needing resolution
+    - [ ] Benno 
 
 * draft-ietf-dnsop-dns-error-reporting
 
@@ -98,18 +104,4 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-reddy-dnsop-error-page
     -  not enough interest, wg saw many issues
-
-## Older Expired Documents 
-
-* draft-ietf-dnsop-resolver-information
-    - Released from WG
-
-* draft-ietf-dnsop-rfc5011-security-considerations
-    - Held by WG 
-
-* draft-ietf-dnsop-let-localhost-be-localhost
-
-* draft-ietf-dnsop-rfc2317bis
-
-## Chairs ToDo List 
 
