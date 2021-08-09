@@ -111,5 +111,3 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-reddy-dnsop-error-page
     -  not enough interest, wg saw many issues
 
-## Chairs ToDo List 
-
