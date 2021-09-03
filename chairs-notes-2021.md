@@ -19,6 +19,10 @@ Doc Status: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-docume
     - [ ] Suzanne to revive "[Guidelines for Use of the Special Use Names Registry"](https://datatracker.ietf.org/doc/draft-stw-6761ext/)
     - [ ] Warren/ Chairs to talk to WG about writing the "solution" part of ["Special-Use Domain Names Problem Statement"](https://datatracker.ietf.org/doc/html/rfc8244)
 
+* [ ] RFC8499bis updates going to start up
+    - Authors are putting together to-do list 
+    - Please submit suggestions (the chairs have)
+
 ## 2021-08-20
 
 * [X] draft-ietf-dnsop-dns-catalog-zones
@@ -26,7 +30,7 @@ Doc Status: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-docume
 
 * [x] draft-ietf-dnsop-dns-error-reporting
     - Reach out to authors
-    - [x Benno to follow up
+    - [x] Benno to follow up
 
 * [x] draft-ietf-dnsop-rfc8499bis
     - Reach out to authors to begin work
