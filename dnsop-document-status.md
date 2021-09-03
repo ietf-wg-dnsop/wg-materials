@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 9 August 2021
+### Updated: 3 September 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,40 +9,35 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-###  RFC Ed Queue
+~~draft-ietf-dnsop-iana-class-type-yang~~ RFC9108
 
-* ["YANG Types for DNS Classes and Resource Record Types" - draft-ietf-dnsop-iana-class-type-yang](https://datatracker.ietf.org/doc/draft-ietf-dnsop-iana-class-type-yang/)
-   - [RFC Editor Queue](https://www.rfc-editor.org/current_queue.php)
+###  RFC Ed Queue
 
 ## IESG Queue
 
 * ["DNS Query Name Minimisation to Improve Privacy" - draft-ietf-dnsop-rfc7816bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/)
-    - IESG Telechat: 2021-08-26
+    - **Status**: Revised ID needed
 
 * ["DNS Transport over TCP - Operational Requirements" - draft-ietf-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/)
     - AD Evaluation
-    - **Status**: Waiting on authors - (2021-08-06)
+    - **Status**: IETF Last Call Ends 2021-09-03
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-    - IETF LC ends 2021-08-19
+    - **Status**: Authors Finish up LC comments
+
+* ["Revised IANA Considerations for DNSSEC"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/)
+    - IETF Last Call until 2021-09-16
 
 ## WGLC Approved
 
 ## In WG Last Call
 
-* draft-ietf-dnsop-dnssec-iana-cons
-    - WGLC ends 2021-08-18
-
 ## Upcoming WG Last Calls
 
 ## Adopted by WG, Under Discussion (ranked)
 
-* draft-ietf-dnsop-delegation-only
-    - Note sent to drop ends 2021-08-19
-    - **Action**: Chairs 
-
 * draft-ietf-dnsop-rfc8499bis
-    - asked authors to look at new terms in draft-ietf-dprive-xfr-over-tls
+    - Authors working on to-do list
     - **Action**: Editors 
 
 * draft-ietf-dnsop-nsec3-guidance
@@ -51,21 +46,26 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-avoid-fragmentation
     - Value or values
-    - **Action**: Editors
+    - **Action**: Interim Topic
      
 * draft-ietf-dnsop-glue-is-not-optional
     - few issues came up during meeting to address
-    - **Action**: Editors
+    - **Action**: Interim Topic
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
     - **Action**: Editors
 
 * draft-ietf-dnsop-dns-catalog-zones
+    - Draft updated, waiting to hear from authors
+    - **Action**: Authors
 
 * draft-ietf-dnsop-dns-error-reporting
+    - Reach out to Authors
+    - **Action**: Chairs/Benno
 
 * draft-ietf-dnsop-rrserial
+    - Authors working on interoperability tests
 
 * draft-ietf-dnsop-private-use-tld
     - Currently being Held
@@ -107,6 +107,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Needs more Review
 
 ## Not At This Time
+
+* draft-ietf-dnsop-delegation-only
+    - Note sent dropping this work
 
 * draft-reddy-dnsop-error-page
     -  not enough interest, wg saw many issues
