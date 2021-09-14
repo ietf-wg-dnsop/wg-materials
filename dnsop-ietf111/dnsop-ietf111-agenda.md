@@ -100,20 +100,22 @@
 
 *   Agenda Bashing, Blue Sheets, etc,  5 min
 
-### Current Working Group Business
-
-*   Liaison reply ISO 3166-1 user defined codes for private-use-tld
-    - Suzanne Woolf/DNSOP chairs, 15 min
-    - Chairs Action:
-
-*   Prioritisation of WG activities (incl. discussion)
-    - DNSOP chairs, 15 min
-    - Chairs Action:
-
 ### New Working Group Business
 
 *   Empty Non-Terminal Sentinel for Black Lies
     - https://datatracker.ietf.org/doc/draft-huque-dnsop-blacklies-ent/
-    - shuque@gmail.com, 15 min
+    - shuque@gmail.com, 10 min
+    - Chairs Action:
+
+### Current Working Group Business
+
+*   Liaison reply ISO 3166-1 user defined codes for private-use-tld
+    - Suzanne Woolf/DNSOP chairs, 20 min
+
+*   private-use-tld proposed next steps
+    - Joe Abley/Roy Arends (combined with the above agenda item)
+
+*   Prioritisation of WG activities (incl. discussion)
+    - DNSOP chairs, 25 min
     - Chairs Action:
 
