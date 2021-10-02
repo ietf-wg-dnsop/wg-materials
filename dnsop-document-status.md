@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 3 September 2021
+### Updated: 2 October 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -13,20 +13,21 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ###  RFC Ed Queue
 
+* ["DNS Query Name Minimisation to Improve Privacy" - draft-ietf-dnsop-rfc7816bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/)
+
+
 ## IESG Queue
 
-* ["DNS Query Name Minimisation to Improve Privacy" - draft-ietf-dnsop-rfc7816bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/)
-    - **Status**: Revised ID needed
 
 * ["DNS Transport over TCP - Operational Requirements" - draft-ietf-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/)
     - AD Evaluation
-    - **Status**: IETF Last Call Ends 2021-09-03
+    - **Status**: Waiting for Go-Ahead
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
     - **Status**: Authors Finish up LC comments
 
 * ["Revised IANA Considerations for DNSSEC"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/)
-    - IETF Last Call until 2021-09-16
+    - Telechat 2021-10-07
 
 ## WGLC Approved
 

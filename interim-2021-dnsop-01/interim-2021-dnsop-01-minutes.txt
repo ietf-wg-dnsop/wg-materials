@@ -47,7 +47,7 @@ Duane Wessels
         Ben: Make it fail
     Paul: Would need to change the wording for RFC 1034 if we go to SHOULD
     John Levine: Clarify the new sentence for 1034
-        Agrees with Ben on MUST NOT for sibling loops
+        Agrees with Ben on soMUST NOT for sibling loops
         Worth adding more words
         Duane: Please send text
     Warren: There should be an example of a sibling glue loop
