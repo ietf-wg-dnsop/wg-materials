@@ -45,6 +45,6 @@
     1. Introduction: state of the I-D
     2. Dependency on RFC8914 (Extended DNS Errors): State of implementation of EDE in various implementation
     3. Issues and potential solutions
-	- encapsulation of the erroneous domain
+        - encapsulation of the erroneous domain
         - signalling EDE support
 
