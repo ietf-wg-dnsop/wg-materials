@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 2 October 2021
+### Updated: 15 October 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,23 +11,22 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ~~draft-ietf-dnsop-iana-class-type-yang~~ RFC9108
 
-###  RFC Ed Queue
+### RFC Ed Queue
 
 * ["DNS Query Name Minimisation to Improve Privacy" - draft-ietf-dnsop-rfc7816bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/)
 
+* ["Revised IANA Considerations for DNSSEC"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/)
 
 ## IESG Queue
 
 
 * ["DNS Transport over TCP - Operational Requirements" - draft-ietf-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/)
     - AD Evaluation
-    - **Status**: Waiting for Go-Ahead
+    - **Status**: IESG Evaluation
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-    - **Status**: Authors Finish up LC comments
+    - **Status**: IESG Evaluation
 
-* ["Revised IANA Considerations for DNSSEC"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/)
-    - Telechat 2021-10-07
 
 ## WGLC Approved
 
@@ -47,11 +46,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-avoid-fragmentation
     - Value or values
-    - **Action**: Interim Topic
+    - **Action**: Make progress
      
 * draft-ietf-dnsop-glue-is-not-optional
-    - few issues came up during meeting to address
-    - **Action**: Interim Topic
+    - Updated after interim
+    - **Action**: 
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
@@ -63,21 +62,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dns-error-reporting
     - Reach out to Authors
-    - **Action**: Chairs/Benno
+    - **Action**: Second Interim
 
 * draft-ietf-dnsop-rrserial
     - Authors working on interoperability tests
-
-* draft-ietf-dnsop-private-use-tld
-    - Currently being Held
-    - **Action**: Chairs
 
 * draft-ietf-dnsop-alt-tld
     - Currently being Held
     - **Action**: Chairs
 
 * draft-ietf-dnsop-rfc5933-bis
-    - Should fall out with iana-cons moving forward
+    - Change to Informational and move forward?
     - **Action**: Chairs
 
 ## Recently Expired Documents
@@ -101,17 +96,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-klh-dnsop-rfc8109bis
 
-## New Documents
+* draft-wisser-dnssec-automation
 
-* draft-schwartz-svcb-dns
+## New Documents
 
 ## Needs more Review
 
 ## Not At This Time
-
-* draft-ietf-dnsop-delegation-only
-    - Note sent dropping this work
-
-* draft-reddy-dnsop-error-page
-    -  not enough interest, wg saw many issues
 
