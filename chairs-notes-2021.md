@@ -4,6 +4,57 @@ This File: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/chairs-notes-
 
 Doc Status: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md
 
+## 2021-10-15
+
+- Second interim timing
+
+- Call for for agenda items
+    - cutoff 10/25 (update to WG after Tim asks Warren his q’s…) 
+
+- respond to Fujiwara on his email
+
+
+- 2 Qs for warren
+     - 5933-bis
+     - can we adopt drafts again?
+
+- ns-revalidation
+  - benno
+
+
+## 2021-10-04
+
+* [ ] Second Interim Planning
+    - Possibly week of October 11 - 12, 13, 14
+    - [X] Benno send note to list
+    - Possible options
+        + error-reporting
+        + nsec3-guidance
+        + ns-revalidation
+
+* [ ] Send out Emails!
+
+## 2021-09-17
+
+* avoid-fragmentation
+- Q - can this doc be a BCP if it’s a range of values?
+    + (Chairs believe so; the ‘best current practice’ being recommended is to tune this parameter as potentially important, not accept system defaults w/out looking)
+- Single value or range of values?
+    + Appropriate value(s)? (Different values may be appropriate for different conditions; how much detail to include?)
+    + Editorial changes for readability?
+- preferred value needs to be justified, not just stated
+
+* dnsop-glue-is-not-optional
+    - Is sibling glue optional or required? (MUST or SHOULD)
+    - Examples of valid sibling glue
+    - Also bad/invalid examples
+    - Clarification on truncated glue
+
+* Ben: Two questions: what is the glue policy, and what happens when the glue doesn't fit
+    - Suggestion: Separate out the glue policy
+    - Permit a range of behaviors
+
+
 ## 2021-09-03
 
 * Interim Planning
