@@ -1,0 +1,44 @@
+﻿DSNOP WG Interim meeting 2021-10-26
+Notes here do not include text from the slides
+Approximately 40 folks attended
+
+Discussion of draft-ietf-dnsop-dns-error-reporting
+	Paul Hoffman: Pointed out that the draft submission deadline had passed
+	Ralf Weber: Everything that can go wrong will go wrong
+		Should report back everything even if it came from the authoritative server
+		Resolvers could report back if filtering if it wants
+		Roy: Should I mimic from RFC 8914? For security considerations, some errors show problems
+	Petr Špaček: There is no reason for the RFC to prescribe which options are and are not allowed
+		Explicitily say that all are allowed
+		Roy: Difference between an error in a response and an error in resolver processing
+		Petr: Problem if the resolver had to go to many auth servers
+	Peter van Dijk: A resolving session might generate 20 errors
+		Maybe have some sampling, with weighted towards the most valuable error
+		Petr: Implementation-specific, but maybe talk about considerations
+		Peter: Don't be too prescriptive
+	Roy: NLnetLabs has proof-of-concept on the authoritative side
+		None on resolver side yet
+		Benno: Some EDE already on the resolver side
+		Roy: Would love to have a session at Hackathon at IETF 113
+			Quad9 has said they will support this
+	Willem Toorop: Concerned about authoritative reporting agent name on every response vs. keeping state
+		Maybe could measure whether resolvers are resilient to unknown EDNS options unsolicited at Hackathon
+		Roy: Will talk to Matt Larson about getting research done on this
+	Petr: Should try to keep this draft as stateless as possible
+		State makes harder to debug, and is unneeded
+	Paul: Doesn't have to be all or none
+		Auths can send unsolicited announcements randomly
+	Roy: Wants to know about more implementations
+	Matthijs Mekking: There might also be underscore label in the name itself
+		Roy: Will look in the current registry
+			Wants encapsulation to prevent problems with QNAME minimization
+		Tim Wicinski: We can define more than one underscore label
+	Vladimir Čunát: The NULL QTYPE might differentiate it enough; posted that on the list already.
+	Benno Overeinder: Good discussion
+		Good ideas for Hackathon
+		Please continue discussion on mailing list
+		Plug for IETF 112
+		Tim: Will find authors and tell them to do stuff
+		Warren Kumari: We are making really good progress now
+		
+
