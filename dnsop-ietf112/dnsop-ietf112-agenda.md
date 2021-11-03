@@ -83,7 +83,7 @@
 
 *   Automatic DNSSEC Bootstrapping using Authenticated Signals from the Zone's Operator
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-dnssec-bootstrapping/
-    - Peter thomassen, 15 min
+    - Peter Thomassen, 15 min
     - Chairs Action:
 
 *   Draft names: draft-dickson-dnsop-{ds-hack,glueless} and draft-dickson-dprive-{adot-auth,dnst}
