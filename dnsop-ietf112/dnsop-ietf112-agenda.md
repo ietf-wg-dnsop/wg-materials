@@ -28,7 +28,6 @@
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
 
 
-#
 ## Agenda
 
 ### Administrivia
@@ -39,12 +38,28 @@
 
 ### Current Working Group Business
 
-*
+*   Guidance for NSEC3 parameter settings
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/
+    - wjhns1@hardakers.net, 15 min
+    - Chairs Action:
 
+*   DNS Catalog Zones
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
+    - willem@NLnetLabs.nl, 15 min
+    - Chairs Action:
 
 ### New Working Group Business
 
-*
+*   DNSSEC automation
+    - https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
+    - ulrich@wisser.se, 15 min
+    - Chairs Action:
+
+*   Structured Data for DNS Access Denied Error Page
+    - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - kondtir@gmail.com, 15 min
+    - Chairs Action:
+
 
 
 ### Time Permitting
@@ -57,3 +72,24 @@
 * Minutes: [https://codimd.ietf.org/notes-ietf-112-dnsop](https://codimd.ietf.org/notes-ietf-112-dnsop)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+
+## Agenda
+
+### Administrivia
+
+*   Agenda Bashing, Blue Sheets, etc,  5 min
+
+### New Working Group Business
+
+*   Automatic DNSSEC Bootstrapping using Authenticated Signals from the Zone's Operator
+    - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-dnssec-bootstrapping/
+    - Peter thomassen, 15 min
+    - Chairs Action:
+
+*   Draft names: draft-dickson-dnsop-{ds-hack,glueless} and draft-dickson-dprive-{adot-auth,dnst}
+    - https://datatracker.ietf.org/doc/draft-dickson-dnsop-ds-hack/
+    - https://datatracker.ietf.org/doc/draft-dickson-dnsop-glueless/
+    - https://datatracker.ietf.org/doc/draft-dickson-dprive-adot-auth/
+    - https://datatracker.ietf.org/doc/draft-dickson-dprive-dnst/
+    - Brian Dickson, 30 min
+    - Chairs Action:
