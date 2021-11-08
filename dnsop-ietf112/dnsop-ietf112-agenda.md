@@ -43,16 +43,17 @@
     - wjhns1@hardakers.net, 15 min
     - Chairs Action:
 
-*   DNS Catalog Zones
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
-    - willem@NLnetLabs.nl, 15 min
-    - Chairs Action:
 
 ### New Working Group Business
 
 *   DNSSEC automation
     - https://datatracker.ietf.org/doc/draft-wisser-dnssec-automation/
-    - ulrich@wisser.se, 15 min
+    - Ulrich Wisser, 15 min
+    - Chairs Action:
+
+*   Survey of Domain Verification Techniques using DNS
+    - https://datatracker.ietf.org/doc/draft-sahib-domain-verification-techniques/
+    - Shivan Kaul Sahib, 10 min
     - Chairs Action:
 
 *   Structured Data for DNS Access Denied Error Page
@@ -60,6 +61,13 @@
     - kondtir@gmail.com, 15 min
     - Chairs Action:
 
+*   Draft names: draft-dickson-dnsop-{ds-hack,glueless} and draft-dickson-dprive-{adot-auth,dnst}
+    - https://datatracker.ietf.org/doc/draft-dickson-dnsop-ds-hack/
+    - https://datatracker.ietf.org/doc/draft-dickson-dnsop-glueless/
+    - https://datatracker.ietf.org/doc/draft-dickson-dprive-adot-auth/
+    - https://datatracker.ietf.org/doc/draft-dickson-dprive-dnst/
+    - Brian Dickson, 30 min
+    - Chairs Action:
 
 
 ### Time Permitting
@@ -79,17 +87,20 @@
 
 *   Agenda Bashing, Blue Sheets, etc,  5 min
 
+### Current Working Group Business
+
+*   DNS Catalog Zones
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
+    - Willem Toorop, 15 min
+    - Chairs Action:
+
+*   IETF Hackathon DNS Results
+    - Willem Toorop, 10 mins
+    - Chairs Action:
+
 ### New Working Group Business
 
 *   Automatic DNSSEC Bootstrapping using Authenticated Signals from the Zone's Operator
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-dnssec-bootstrapping/
     - Peter Thomassen, 15 min
-    - Chairs Action:
-
-*   Draft names: draft-dickson-dnsop-{ds-hack,glueless} and draft-dickson-dprive-{adot-auth,dnst}
-    - https://datatracker.ietf.org/doc/draft-dickson-dnsop-ds-hack/
-    - https://datatracker.ietf.org/doc/draft-dickson-dnsop-glueless/
-    - https://datatracker.ietf.org/doc/draft-dickson-dprive-adot-auth/
-    - https://datatracker.ietf.org/doc/draft-dickson-dprive-dnst/
-    - Brian Dickson, 30 min
     - Chairs Action:
