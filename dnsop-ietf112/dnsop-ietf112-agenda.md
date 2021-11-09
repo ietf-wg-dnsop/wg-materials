@@ -40,7 +40,7 @@
 
 *   Guidance for NSEC3 parameter settings
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/
-    - wjhns1@hardakers.net, 15 min
+    - Wes Hardaker, 15 min
     - Chairs Action:
 
 
@@ -58,7 +58,7 @@
 
 *   Structured Data for DNS Access Denied Error Page
     - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
-    - kondtir@gmail.com, 15 min
+    - Dan Wing, 15 min
     - Chairs Action:
 
 *   Draft names: draft-dickson-dnsop-{ds-hack,glueless} and draft-dickson-dprive-{adot-auth,dnst}
