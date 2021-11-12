@@ -23,7 +23,7 @@
 * Date: Thursday, 11 November 2021
 * Time: 1600-1800 UTC
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf112/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf112/?group=dnsop&short=&item=1)
-* Minutes: [https://codimd.ietf.org/notes-ietf-112-dnsop](https://codimd.ietf.org/notes-ietf-112-dnsop)
+* Minutes: [https://notes.ietf.org/notes-ietf-112-dnsop](https://notes.ietf.org/notes-ietf-112-dnsop)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
 
@@ -77,7 +77,7 @@
 * Date: Friday, 12 November 2021
 * Time: 1430-1530 UTC
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf112/?group=dnsop&short=&item=2](https://meetings.conf.meetecho.com/ietf112/?group=dnsop&short=&item=2)
-* Minutes: [https://codimd.ietf.org/notes-ietf-112-dnsop](https://codimd.ietf.org/notes-ietf-112-dnsop)
+* Minutes: [https://notes.ietf.org/notes-ietf-112-dnsop](https://notes.ietf.org/notes-ietf-112-dnsop)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
 
