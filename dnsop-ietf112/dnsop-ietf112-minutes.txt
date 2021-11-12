@@ -1,0 +1,162 @@
+DNSOP WG at IETF 112
+November 11 and 12, 2021
+On Meetecho, not in Madrid
+Agenda is at https://datatracker.ietf.org/meeting/112/materials/agenda-112-dnsop
+Minutes here only reflect the mic line, not text on the slides
+
+Chairs discussion
+
+Guidance for NSEC3 parameter settings, Wes Hardaker
+	draft-ietf-dnsop-nsec3-guidance
+	Ted Lemon: Questions choice of insecure for validating stub resolver
+		Stub resolver might want to treat >100 as an attack
+		Wes: Gut reaction is that splitting types will lead to chaos
+			Precedent is to act like NSEC3 works today
+	Viktor Dukhovni: When we treat high counts as insecure, every answer under that must be treated as insecure
+		Gap between insecure and SERVFAIL: SERVFAIL allows the zone to be treated as secure
+	Jim Reid: Agrees with Ted, would prefer to respond with SERVFAIL instead of insecure at 0 or 1
+	Ralf Weber: Middleground can cause problems, just have one signal
+		Wants a hard cut
+	Wes: Maybe have draft allow sliding toward goal
+	Petr Špaček: Be strict for zone owners, but allow sliding for validators
+		Just describe for validators why there are thresholds, but don't give values
+		Describe the properties
+	Benno Overeinder (as implementer): Agrees with Petr
+		Thanks Viktor for doing the measurements
+
+DNSSEC automation, Ulrich Wisser
+	draft-wisser-dnssec-automation
+	Shumon Huque: Working on the draft has helped get providers to implement the key operations part
+		Will get more progress if this is a WG document
+	Paul Hoffman: Does this need to be in DNSOP, or maybe a different WG that is more operator-specific
+	Peter Thomassen: If the receiving operator uses a different algorithm, there could be protocol implications
+	Ralf: Thinks this belongs in DNSOP
+	Viktor: Implementers of nameservers might need to make changes to software, so leave it here
+	Ulrich: Requires complicated state machine in the nameserver to make this work
+		Will have implementation in coming months, testing before IETF 113
+
+Survey of Domain Verification Techniques using DNS, Shivan Kaul
+	draft-sahib-domain-verification-techniques
+	Paul Wouters: This is very important, already a huge problem
+	Shumon: Current use is quite ad hoc, big security gap
+	Joey Salazar: Other than a security analysis, what are the next steps?
+		What has changed since last meeting to support adoption more?
+		Shivan: Collecting issues
+			Will add section comparing TXT vs. CNAME
+	Benno: Discussed how this can fit in with other documents in the queue
+	Tim Wicinski: Don't stop working on this, it's important
+		Shumon: Will keep plugging, but want more collaborators
+	Brett Carr: Supports; suggests that the title be changed to not just be about survey
+		Shivan: Will be more about guidance instead of prescriptive
+	PeterT: Wonders who the target for the draft is
+		Wants to be sure the major users are involved in preparing the draft
+	Shumon: Will do outreach to the communities that are already doing this
+		Ask what would persuade them to adopt this
+	PaulW and Brett volunteered to help
+
+Structured Data for DNS Access Denied Error Page, Dan Wing
+	draft-wing-dnsop-structured-dns-error-page
+	Ben Schwartz: Very cautious about anything that lets the DNS operator to jump into a web conversation
+		There are no safe use case in the web context
+		Would like a shift to technical use cases and debugging
+		Could also be used for other DNS failures; an addendum for extended error code
+		Should not be shown to the user to lie or scare them
+	Jonathan Reed: Sees a use case for debugging and enterprises
+		Wants an indicator with an NXDOMAIN
+		Can be in the middle ground between blocking and full access
+		Could be a signal that "it's not just you"
+	Andrew Campling: Bad censors work just fine, this helps good censors
+		Gives visibility to the good cases
+		Current UI is crap, this gives a better end-user experience in enterprises
+	Eric Orth: It should be scary 
+		Agrees with Ben
+		Usable for debugging, like EDE, but wants more info on 
+	PaulH: Is scared by the idea that this is for enterprise only (from earlier speakers)
+		Dan: Saying what is and isn't enterprise is impossible
+			Is meant for the whole Internet
+	Brian Dickson: Thinking about RPZ changing response codes
+		Could add provenience in these responses based on trust of the source
+		Dan: Didn't go that way because of requirements for DNSSEC
+		
+Various drafts, Brian Dickson
+	draft-dickson-dnsop-ds-hack, draft-dickson-dnsop-glueless, draft-dickson-dprive-adot-auth, draft-dickson-dprive-dnst
+	Ben: Thinking along the same lines, good that we have lots of interest
+		We are not ready to jump in on any of these
+		SVCB-DNS is adopted in ADD WG, similar to DST, would prefer not to have multiple methods
+			Brian: was using none of the value proposition, did DST as a shortcut
+				Agrees we should not have two ways, wants more expedient
+		Glueless delegations have a lot of security properties
+			Assumes that this set of queries are non-sensitive
+			Wants more discussion on this
+	Viktor: What does NSV bring to the table?
+		Wants more discussion about value in cases where there is already encryption
+		Brian: Doesn't assume that data encryption gives data integrity
+		Why new TLSA type?
+		Brian: Motivation to remove the prefixes is for better signaling
+	Daniel Kahn Gillmor: Have you attempted to deploy the NSV algorithm to active zones?
+		Brian: Tried a few, but couldn't get past the UI
+			Easier to get deployment if they have an early allocation
+			Doesn't expect pushback from registry operators
+		Viktor: Some registries reject new types
+		
+[[ Beginning of second meeting ]]
+
+DNS Catalog Zones, Willem Toorop
+	draft-ietf-dnsop-dns-catalog-zones
+	Wes: Some names will leak; what are you thinking of naming for the left side?
+		Would like examples under .arpa, don't use a real TLD
+		Willem: Agrees
+	PeterT: How about suggesting only using only names they own?
+		Willem: Or a reserved TLD
+	PaulW: Was initially skeptical, is now really happy with it
+		Likes the multi-vendor part
+		Kudos, keep going
+	Viktor: Questions the security of the transport
+		Willem: It's in the draft
+		Could these zones be signed? Is this crazy?
+			Willem: Interesting to consider
+	Benno: Getting close to WG Last Call
+		Already implemented, getting feedback from users
+		Willem: Interop testing still going on
+
+IETF Hackathon DNS Results, Willem Toorop
+	Tom Carpay presented on EDER results  (see slides)
+	Peter van Dijk: Asked if there was a bug in the spec or in the testing
+		Tom: In the testing
+	Ben: Why are you sending an unsolicited extension
+		Willem: Was discussed at last iterim
+			Wanting to determine if this is OK
+		Questions whether 0.1% is too high
+			Willem: This might be due to the normal DNS error rate
+		Will like to see more testing
+
+Guidance for NSEC3 parameter settings (nsec3.2), Wes Hardaker
+	draft-ietf-dnsop-nsec3-guidance  (new set of slides)
+	PaulW: Don't normally expiry dates
+		Don't think this should be in the document
+		Should appear in the normally-updated document
+		Wes: This is history, not future
+			"As of this publication"
+	Petr: Maybe make a history appendix
+		This is not setting any expire date, doesn't see the objection
+	Viktor: Maybe just recommend 100 as the upper bound for the upper bound
+		Wordsmithing
+	Peter Koch: Are we talking about operators or vendors?
+		Wes: Will clarify difference
+	Petr: As a vendor, needs reasonable guidance for defaults
+	Suzanne: Much more on the mailing list
+		Send text
+	Viktor: PeterK if he has any problems reducing to 0
+	PeterK: Has a concern of the approach of driving this through by a standard
+		Slippery slope that this is a compliance game
+		Wes: It is a security issue
+
+Automatic DNSSEC Bootstrapping using Authenticated Signals from the Zone's Operator, Peter Thomassen
+	draft-thomassen-dnsop-dnssec-bootstrapping
+	Glad people chimed in on the hashing discussion
+	Viktor: Let's adopt, without hashing
+	PaulW: Likes the majority of the work
+	Benno: Are adopting new work, but in a controlled way
+		Are on the short list
+
+Suzanne: Will likely have interims between IETF meetings
