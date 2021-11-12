@@ -89,14 +89,20 @@
 
 ### Current Working Group Business
 
+*   IETF Hackathon DNS Results
+    - Willem Toorop, 10 mins
+    - Chairs Action:
+
 *   DNS Catalog Zones
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/
     - Willem Toorop, 15 min
     - Chairs Action:
 
-*   IETF Hackathon DNS Results
-    - Willem Toorop, 10 mins
+*   Guidance for NSEC3 parameter settings cont'd
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/
+    - Wes Hardaker, 15 min
     - Chairs Action:
+
 
 ### New Working Group Business
 
