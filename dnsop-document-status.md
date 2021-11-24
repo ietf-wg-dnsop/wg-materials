@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 15 October 2021
+### Updated: 24 November 2021
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,18 +11,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ~~draft-ietf-dnsop-iana-class-type-yang~~ RFC9108
 
+~~draft-ietf-dnsop-rfc7816bis~~ RFC9156
+
+~~draft-ietf-dnsop-dnssec-iana-cons/~~ RFC9157
+
 ### RFC Ed Queue
 
-* ["DNS Query Name Minimisation to Improve Privacy" - draft-ietf-dnsop-rfc7816bis](https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7816bis/)
-
-* ["Revised IANA Considerations for DNSSEC"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-iana-cons/)
 
 ## IESG Queue
 
 
 * ["DNS Transport over TCP - Operational Requirements" - draft-ietf-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/)
     - AD Evaluation
-    - **Status**: IESG Evaluation
+    - **Status**: New Version Needed
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
     - **Status**: IESG Evaluation
@@ -32,17 +33,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## In WG Last Call
 
+* draft-ietf-dnsop-rfc5933-bis
+
 ## Upcoming WG Last Calls
 
 ## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-rfc8499bis
     - Authors working on to-do list
-    - **Action**: Editors 
+    - **Action**: December Interim 
 
 * draft-ietf-dnsop-nsec3-guidance
     - Value selection
-    - **Action**: Editors
+    - **Action**: New Version out
 
 * draft-ietf-dnsop-avoid-fragmentation
     - Value or values
@@ -54,25 +57,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
-    - **Action**: Editors
+    - **Action**: December Interim 
 
 * draft-ietf-dnsop-dns-catalog-zones
-    - Draft updated, waiting to hear from authors
-    - **Action**: Authors
+    - Updated 
+    - **Action**: 
 
 * draft-ietf-dnsop-dns-error-reporting
-    - Reach out to Authors
-    - **Action**: Second Interim
+    - **Action**: 
 
 * draft-ietf-dnsop-rrserial
     - Authors working on interoperability tests
 
 * draft-ietf-dnsop-alt-tld
     - Currently being Held
-    - **Action**: Chairs
-
-* draft-ietf-dnsop-rfc5933-bis
-    - Change to Informational and move forward?
     - **Action**: Chairs
 
 ## Recently Expired Documents

@@ -4,6 +4,22 @@ This File: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/chairs-notes-
 
 Doc Status: https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md
 
+## 2021-11-19
+
+* WGLC 5933-bis
+    - [X] Tim WGLC
+
+* Adopting new work
+    - Considering a poll on which work adopt, preference to -bis docs
+
+* Interim Planning
+    - 8499-bis, ns-revalidation
+    - [X] Benno send out poll
+
+* Experiment: one session next time
+    - will continue to discuss
+
+
 ## 2021-10-15
 
 - Second interim timing
