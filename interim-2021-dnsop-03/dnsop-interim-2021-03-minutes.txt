@@ -1,0 +1,70 @@
+
+# DNS Operations (DNSOP) Working Group
+## interim-2021-dnsop-03
+
+
+### Chairs
+* Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
+
+### IESG Overlord
+* Warren Kumari [warren@kumari.net](warren@kumari.net)
+
+### Document Status
+* [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
+* [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+
+* [Propose Slides](https://datatracker.ietf.org/meeting/interim-2021-dnsop-03/session/dnsop)
+
+
+## Session interim-2021-dnsop-03
+
+* Date: 15 December 2021
+* Time: 17:00-18:00 UTC
+* MeetEcho: [https://meetings.conf.meetecho.com/interim/?short=d57b1252-6a56-4941-93a2-fc6e409b0eff](https://meetings.conf.meetecho.com/interim/?short=d57b1252-6a56-4941-93a2-fc6e409b0eff)
+
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* Minutes: [https://notes.ietf.org/notes-ietf-interim-2021-dnsop-03-dnsop](https://notes.ietf.org/notes-ietf-interim-2021-dnsop-03-dnsop)
+
+
+## Agenda
+
+### Administrivia
+
+* Agenda Bashing, Blue Sheets, etc,  5 min
+
+### Current Working Group Business
+
+*   DNS Terminology
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8499bis/
+    - Paul Hoffman, 30 min
+    - Chairs Action:
+
+Only two open discussion points
+    - Glue
+    - Baliwick
+    
+PH: We appear to be mixing up the definitions and glue 
+PH: Keep separate DNS Protocol vs. Registry Requirements. 
+
+Matthijs:  perhaps a new definition of glue for the later definition of glue (2181). 
+
+Fujiwara: Definition of glue between terminolgy and glue-is-not-optional draft should be in sync
+
+Suzanne Woolf: Sometimes we document a term is used ambigiously.
+
+PH: Have an entry for bailiwick that says this is not a useful term. It seems that people feel Glue 
+is a useful term. 
+
+Warren Kumari: Woudl be nice to have 
+
+*   Delegation Revalidation by DNS Resolvers,
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+    - Shumon Huque, Paul Vixie and Puneet Sood, 25 min
+    - Chairs Actions:
+
+
+Warren:  What is missing from the original resimprove
+
+Paul Vixie: There were three topics 1) NXDOMAIn is NXDOMAIN; 2) this point; and 3) one more obscure point
