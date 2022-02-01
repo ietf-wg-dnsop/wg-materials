@@ -11,3 +11,9 @@
     - Chairs Action:
 
 ## Requests
+
+*   Draft name: draft-dwmtwc-dnsop-caching-resolution-failures
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-dwmtwc-dnsop-caching-resolution-failures/
+    - Requester Email: dwessels@verisign.com
+    - Time Requested: 10 min
+    - Chairs Action:
