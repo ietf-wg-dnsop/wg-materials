@@ -17,3 +17,9 @@
     - Requester Email: dwessels@verisign.com
     - Time Requested: 10 min
     - Chairs Action:
+
+*   Draft name: draft-ietf-dnsop-glue-is-not-optional
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
+    - Requester Email: dwessels@verisign.com
+    - Time Requested: 15 min
+    - Chairs Action:
