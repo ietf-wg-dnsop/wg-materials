@@ -23,3 +23,15 @@
     - Requester Email: dwessels@verisign.com
     - Time Requested: 15 min
     - Chairs Action:
+
+*   Draft name: draft-yorgos-dnsop-dry-run-dnssec
+    - Datatracker URL: to be submitted before March 7
+    - Requester Email: willem@NLnetLabs.nl
+    - Time Requested: 15 min
+    - Chairs Action:
+
+*   Draft name: Stateful Hash-Based Signatures for DNSSEC
+    - Datatracker URL: to be submitted before March 7
+    - Requester Email: afregly@verisign.com
+    - Time Requested: 15 min
+    - Chairs Action:
