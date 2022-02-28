@@ -39,21 +39,31 @@
 
 ### Current Working Group Business
 
-*
+
+*   draft-ietf-dnsop-glue-is-not-optional
+    -  https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
+    - dwessels@verisign.com, 15min
+    - Chairs Action:
 
 
 ### New Working Group Business
 
-*
+*   draft-dwmtwc-dnsop-caching-resolution-failures
+    -  https://datatracker.ietf.org/doc/draft-dwmtwc-dnsop-caching-resolution-failures/
+    - dwessels@verisign.com, 15min
+    - Chairs Action:
+
+*   draft-yorgos-dnsop-dry-run-dnssec
+    -  to be submitted before March 7
+    - willem@NLnetLabs.nl, 15min
+    - Chairs Action:
+
+*   Stateful Hash-Based Signatures for DNSSEC
+    -  to be submitted before March 7
+    - afregly@verisign.com, 15min
+    - Chairs Action:
 
 
 ### Time Permitting
 
-## Session II
 
-* Date:
-* Time:
-* Room: []()
-
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
