@@ -31,7 +31,7 @@
     - Chairs Action:
 
 *   Draft name: Stateful Hash-Based Signatures for DNSSEC
-    - Datatracker URL: to be submitted before March 7
-    - Requester Email: afregly@verisign.com
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-afrvrd-dnsop-stateful-hbs-for-dnssec/
+    - Requester Email: r.m.vanrijswijk@utwente.nl
     - Time Requested: 15 min
     - Chairs Action:
