@@ -35,3 +35,15 @@
     - Requester Email: r.m.vanrijswijk@utwente.nl
     - Time Requested: 15 min
     - Chairs Action:
+
+*   Draft name: Expressing Quality of Service Requirements (QoS) in Domain Name System (DNS) Queries
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-eastlake-dnsop-expressing-qos-requirements/
+    - Requester Email: Donald Eastlake <d3e3e3@gmail.com>
+    - Time Requested: 15 min
+    - Chairs Action:
+
+*   Draft name: Structured Data for Filtered DNS 
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - Requester Email: Tirumal Reddy <kondtir@gmail.com>
+    - Time Requested: 15 min
+    - Chairs Action:

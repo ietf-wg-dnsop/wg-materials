@@ -53,8 +53,8 @@
     - Duane Wessels, 15 min
     - Chairs Action:
 
-*   draft-yorgos-dnsop-dry-run-dnssec
-    -  to be submitted before March 7
+*   dry-run DNSSEC
+    - https://datatracker.ietf.org/doc/draft-yorgos-dnsop-dry-run-dnssec/
     - Willem Toorop, 15 min
     - Chairs Action:
 
@@ -63,7 +63,16 @@
     - Roland van Rijswijk-Deij, 15 min
     - Chairs Action:
 
+*   Expressing Quality of Service Requirements (QoS) in Domain Name System (DNS) Queries
+    - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-expressing-qos-requirements/
+    - Donald Eastlake, 15 min
+    - Chairs Action:
+
 
 ### Time Permitting
 
+*   Structured Data for Filtered DNS
+    - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - Tirumal Reddy, 15 min
+    - Chairs Action:
 
