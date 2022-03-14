@@ -18,6 +18,12 @@
     - Time Requested: 10 min
     - Chairs Action:
 
+*   Draft name:  draft-rebs-dnsop-svcb-dane
+    - Datatracker URL: https://datatracker.ietf.org/doc/html/draft-rebs-dnsop-svcb-dane
+    - Requester Email: Ben Schwartz <bemasc@google.com>
+    - Time Requested: 15 min
+    - Chairs Action:
+
 *   Draft name: draft-ietf-dnsop-glue-is-not-optional
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
     - Requester Email: dwessels@verisign.com

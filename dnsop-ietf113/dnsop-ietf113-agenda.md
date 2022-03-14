@@ -33,14 +33,14 @@
 
 ### Administrivia
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc, 10 min
 
 * Updates of Old Work, Chairs, 10 min
 
 ### Current Working Group Business
 
 
-*   draft-ietf-dnsop-glue-is-not-optional
+*   DNS Referral Glue Requirements
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/
     - Duane Wessels, 15 min
     - Chairs Action:
@@ -48,9 +48,14 @@
 
 ### New Working Group Business
 
-*   draft-dwmtwc-dnsop-caching-resolution-failures
+*   Negative Caching of DNS Resolution Failures
     - https://datatracker.ietf.org/doc/draft-dwmtwc-dnsop-caching-resolution-failures/
     - Duane Wessels, 15 min
+    - Chairs Action:
+
+*   Using Service Bindings with DANE
+    - https://datatracker.ietf.org/doc/draft-rebs-dnsop-svcb-dane/
+    - Ben Schwartz, 15 min
     - Chairs Action:
 
 *   dry-run DNSSEC
@@ -73,6 +78,6 @@
 
 *   Structured Data for Filtered DNS
     - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
-    - Tirumal Reddy, 15 min
+    - Tirumal Reddy, 10 min
     - Chairs Action:
 
