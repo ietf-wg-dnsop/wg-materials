@@ -68,13 +68,13 @@
     - Roland van Rijswijk-Deij, 15 min
     - Chairs Action:
 
+
+### Time Permitting
+
 *   Expressing Quality of Service Requirements (QoS) in Domain Name System (DNS) Queries
     - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-expressing-qos-requirements/
     - Donald Eastlake, 15 min
     - Chairs Action:
-
-
-### Time Permitting
 
 *   Structured Data for Filtered DNS
     - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
