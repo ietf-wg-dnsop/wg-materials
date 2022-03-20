@@ -20,8 +20,8 @@
 
 ## Session I
 
-* Date:
-* Time:
+* Date: 22 March
+* Time: 1000-1200 CEST (UTC+1)
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf113/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf113/?group=dnsop&short=&item=1)
 * Minutes: [https://codimd.ietf.org/notes-ietf-113-dnsop](https://codimd.ietf.org/notes-ietf-113-dnsop)
 
