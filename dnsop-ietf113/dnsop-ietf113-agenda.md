@@ -23,7 +23,7 @@
 * Date: 22 March
 * Time: 1000-1200 CEST (UTC+1)
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf113/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf113/?group=dnsop&short=&item=1)
-* Minutes: [https://codimd.ietf.org/notes-ietf-113-dnsop](https://codimd.ietf.org/notes-ietf-113-dnsop)
+* Minutes: [https://notes.ietf.org/notes-ietf-113-dnsop](https://notes.ietf.org/notes-ietf-113-dnsop)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
 
