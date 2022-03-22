@@ -1,0 +1,116 @@
+
+DNSOP WG
+IETF 113, Vienna
+2022-03-22
+Minutes by Paul Hoffman
+Text on slides is not reproduced here
+~125 people in MeetEcho
+
+Administrivia
+    Sent longer note top the mailing list with full status
+    https://mailarchive.ietf.org/arch/msg/dnsop/jZ2OYzwvGaHLD9caC4a4Q_pXRMk
+    Warren Kumari: Would really like something in addition
+        Discussed with the IESG to start up a short WG for DNSSEC-as-BCP, weren't interested
+        Asks WG for a favor to move this to the front of the queue
+    Adjustments for Multi-signer: Ulrich Wisser
+        Request to consider changes to RFC 4034 about requiring signatures for all algorithms
+        Wants more discussion on list
+
+Negative Caching of DNS Resolution Failures
+draft-dwmtwc-dnsop-caching-resolution-failures, Duane Wessels
+    Also presented at the DNS-OARC meeting in 2022-02
+    Paul Wouters: Why is exponential backoff a must?
+        Duane: Most important is "at least 5 seconds"
+         Would be willing to make this mandatory
+    Ralf Weber: Supports adoption
+    Lars-Johan Liman: Supports adoption
+    Hazel Smith: Good idea
+        What proportion is coming from large public resolvers?
+        Are these restrictions supposed to be across all anycast addresses?
+            Duane: This is per backend server
+                Maybe can be more specific in language
+                Sees thousands of queries per second from each backend server
+    Jim Reid: Strong support
+        Wants the numbers of seconds to wait to be more evidence-based
+        Was the bulk from a small number of resolvers?
+            Duane: Verisign identified some of the sources, including the large recursive resolvers (by address)
+    WG chairs will send out call for adoption soon
+
+DNS Referral Glue Requirements
+draft-ietf-dnsop-glue-is-not-optional, Duane Wessels
+    Ben Schwartz: Terminology is confusing, with conflicting defintions in different RFCs
+        Doesn't think "referral glue" distinction is helpful
+        Should be from parents uniformly
+        Duane: But we have sibling glue different than in-domain glue
+        Important distinction is location
+    Paul Hoffman: Put definition in the terminology document
+    Brett Carr: Put it in the terminology doucment
+        Good for training new staff
+        Keep the terminology document active
+    Ralf: All glue is for referral
+        Not sure if taking out the registry requirement is good
+        If a registry doesn't need to implement this, we are not gaining anything
+        Duane: Take this to the list
+            Different registries have different modes of operation, didn't want to change their models
+            "Host object" use
+    Hazel: Could not find a straight answer whether DS records are glue or not
+    Alexander Mayrhofer: Important to differentiate "registry accepts data", "registry puts data in zone", "auth server sends data"
+        This document focuses on third step
+        Maybe second step could be in REGEXT WG
+    Some things will go back to the list
+
+Using Service Bindings with DANE,
+draft-rebs-dnsop-svcb-dane, Ben Schwartz
+    Wes Hardaker: The reason DANE changes the target is about control of the certificate
+        Doesn't want to chase CDN certs, do the least amount of management
+        Ben: Thinks this pushes the furthest in that direction
+
+dry-run DNSSEC
+draft-yorgos-dnsop-dry-run-dnssec, Willem Toorop
+    Gavin Brown: Useful tool
+        Validate DS algorithms from EPP, check the hash lengths
+        Can't add dry run, would need an EPP extension
+    Shane Kerr: Can this help with a root algorithm rollover?
+        Willem: Useful for any dommain
+    Ralf: Adding complexity to validation code
+        Get clients to implement EDE
+        Should not make resolver more and more complex
+        Willem: Goal is to give operators more confidence
+    Ben: This is a recurring paterm (stuff things into DS types)
+        Should maybe have a general-purpose meta DS type
+        Would we be better off providing some best practice on how to set up a duplicate parallel zone  
+
+Stateful Hash-Based Signatures for DNSSEC
+draft-afrvrd-dnsop-stateful-hbs-for-dnssec, Roland van Rijswijk-Deij
+    Stephen Farrell: "Safe" is not the whole thing
+        Roland: Must stop with the finite number of signatures
+    Gavin: How much state needs to be stored, and for how long?
+        Roland: Which key has been used (sequence number) for the lifetime of the key
+        Have a finite time for your key, need to roll before you finish
+        Roland: Depends on parameter choices
+        Should implement but not use?
+        Rolamd: Maybe for the root and TLDs?
+            Would be not be MUST implement, MUST be able to valdidated
+    Paul: Would not want adoption until the implementation aspects doc is published
+    Stephen: Bad idea all arond
+        Never think about stateful signatures for DNSSEC
+    Peter Thomassen: Confused about how it could be not preferred but implemented
+        Roland: Should be implemented but not deployed
+
+Expressing Quality of Service Requirements (QoS) in Domain Name System (DNS) Queries
+draft-eastlake-dnsop-expressing-qos-requirements, Donald Eastlake III
+    Ben: This sounds like a job for service bindings
+        Doesn't like the idea of putting this in a label very appealing
+        Use SVBC instead
+        Donald: Requires application know about SVCB, but this could be used without
+    Ulrich: QoS is a property of the network path
+        How would resolver know about the path?
+
+Structured Data for Filtered DNS
+draft-wing-dnsop-structured-dns-error-page, Tirumal Reddy
+    Ralf: Shows good usage of extended errors, has an experimental implementation
+    Tommy Pauly: Supportive of this area, wants adoption
+    Ben: Meant for the client that opens a web page that is selected by the resolver
+        Very different security model than what we have now
+        Wants it to be truly machine-readable, not presented to the user
+        Tiru: Text fields are optional

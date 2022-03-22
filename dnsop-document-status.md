@@ -9,24 +9,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-~~draft-ietf-dnsop-iana-class-type-yang~~ RFC9108
-
-~~draft-ietf-dnsop-rfc7816bis~~ RFC9156
-
 ~~draft-ietf-dnsop-dnssec-iana-cons/~~ RFC9157
+
+~~draft-ietf-dnsop-dns-tcp-requirements~~ RFC9210
 
 ### RFC Ed Queue
 
 
 ## IESG Queue
 
-
-* ["DNS Transport over TCP - Operational Requirements" - draft-ietf-dnsop-dns-tcp-requirements](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-tcp-requirements/)
-    - AD Evaluation
-    - **Status**: New Version Needed
-
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-    - **Status**: IESG Evaluation
+    - **Status**: IESG Evaluation: Revised I-D Needed
 
 
 ## WGLC Approved
@@ -40,12 +33,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-rfc8499bis
-    - Authors working on to-do list
-    - **Action**: December Interim 
+    -  **Action**:Authors working on to-do list
 
 * draft-ietf-dnsop-nsec3-guidance
-    - Value selection
-    - **Action**: New Version out
+    -  **Action**: Value selection
 
 * draft-ietf-dnsop-avoid-fragmentation
     - Value or values
@@ -57,7 +48,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
-    - **Action**: December Interim 
+    - **Action**: 
 
 * draft-ietf-dnsop-dns-catalog-zones
     - Updated 
@@ -67,7 +58,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - **Action**: 
 
 * draft-ietf-dnsop-rrserial
-    - Authors working on interoperability tests
+    - **Action**: Authors working on interoperability tests
 
 * draft-ietf-dnsop-alt-tld
     - Currently being Held
@@ -76,13 +67,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Recently Expired Documents
 
 * draft-ietf-dnsop-dnssec-validator-requirements
-    - 10 June: Authors working on doing a revision
-    - *Action*: Editors
-
-* draft-ietf-dnsop-update-timeout
-    - Authors No time to work on right now
-    - Parked WG Document
-    - *Action*: Editors
+    - Authors are submitted updated document. 
 
 ## Active Calls for Adoption
 
@@ -97,6 +82,15 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-wisser-dnssec-automation
 
 ## New Documents
+
+domain-verification-techniques
+
+caching-resolution-failures
+passive-dns-cof 
+
+intentionally-temporary-insec
+dry-run-dnssec  
+svcb-dane
 
 ## Needs more Review
 
