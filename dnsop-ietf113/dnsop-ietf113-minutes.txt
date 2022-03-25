@@ -114,3 +114,211 @@ draft-wing-dnsop-structured-dns-error-page, Tirumal Reddy
         Very different security model than what we have now
         Wants it to be truly machine-readable, not presented to the user
         Tiru: Text fields are optional
+
+-----
+ChatLogs
+```
+[08:58:57] <Marco Davids_web_360> https://klok.sidnlabs.nl:8123/ :wink:
+[09:01:54] <Donald Eastlake_web_557> Ah, that's good.
+[09:02:07] <Suzanne Woolf_web_261> Looks like a good turnout on-site....hello all!
+[09:02:50] <Brian Dickson_web_732> wrong slide??
+[09:02:57] <MarcoSIDN@MacPro> ;-)
+[09:03:20] <Tim Wicinski_web_551> Hello !
+[09:03:21] <Andrew Campling_web_714> @Suzanne: possibly the busiest room so far this week?
+[09:15:13] <Samuel Weiler_web_502> Ulrich, where does that discussion start?  I see the new thread this Sunday, started by Libor, and I'm wondering what came before.
+[09:17:14] <Andrew Campling_web_714> Remedial Meetecho training for session chairs  :slightly_smiling_face:
+[09:17:35] <Suzanne Woolf_web_261> @all: remote participants in meetecho can join the queue directly, but if you're in jabber (not in meetecho) and have a comment for the mic, please prefix it in the chat with MIC: and I'll read it out for you
+[09:18:38] <Suzanne Woolf_web_261> @Andrew:  there's always a glitch somewhere....good to get it out of the way early ;-)
+[09:19:33] <Andrew Campling_web_714> Fair comment.  In truth, the hybrid Meetecho experience has been pretty good so far ……
+[09:21:42] <George Michaelson_web_323> we're getting foldback from the room.
+[09:21:50] <Jonathan Reed_web_460> I'm hearing a slight echo (which I think is Duane's audio being picked up on the room mics, and then rebroadcast
+[09:21:53] <George Michaelson_web_323> its not yet a feedback loop but I worry it could be
+[09:23:19] <Benjamin Schwartz_web_698> (Just a reminder to remote presenters: the easiest way to talk over the reverb is to mute the room audio using the mute button in the bottom right of Meetecho.)
+[09:23:37] <fanf> the speakers (er not the people, the black boxes on stilts) in the room could be turned down which would make my ears happier and reduce echo/feedback
+[09:24:53] <Meetecho> fanf: going to do that right niw
+[09:24:56] <Meetecho> *now
+[09:27:17] <Andrew Campling_web_714> Ironically for those of us in the room it’s hardest to hear in-room mic comments - the remote speakers are very clear
+[09:28:31] <David Lawrence_web_423> I'm fully in favor of these requirements, but do wonder what practical effect it will have in the wondrous Internet of Things.   Better to state it, of course, so at least small implementations have a better chance of doing the right thing.
+[09:29:17] <Brian Dickson_web_732> Strongly support (Brian Dickson of GoDaddy). Fine with tweaking after adoption.
+[09:29:20] <Benjamin Schwartz_web_698> Scale the cache duration based on RTT :-)
+[09:29:35] <David Lawrence_web_423> (Yes, what Jim is saying re which implementations are most implicated.)
+[09:29:42] <Brett Carr_web_361> Strong support for this from me. Something we should of probably done quite some time ago (benefit of hindsight of course)
+[09:29:52] <Geoff Huston_web_419> The question is - will an RFC change obviously demented misbehaviour? The answer is no! Unfortunately,
+[09:30:51] <David Lawrence_web_423> Mmm, it is most likely to have an effect if it turns out BIND or Unbound or Google or Umbrella was somehow a big part of the problem.  Maybe even dnsmasq.   Not so much Joe's Special IoT DNS.
+[09:31:01] <David Lawrence_web_423> (Sorry Joe)
+[09:31:30] <Geoff Huston_web_419> I think its custom resolvers running in large resolver farms with loose orchestration - way outside conventional RFC space
+[09:31:33] <Benjamin Schwartz_web_698> David: I don't think too many IoT devices are trying to resolve facebook.com in full-recursive mode.
+[09:31:49] <Tim Wicinski_web_551> https://blog.verisign.com/security/facebook-dns-outage/
+[09:32:18] <Tim Wicinski_web_551> I believe that is the post Duane was referring to
+[09:33:04] <David Lawrence_web_423> Right, fair point about IoT specifically.
+[09:33:38] <George Michaelson_web_323> I for one would have preferred glue to be narrow in definition
+[09:33:57] <George Michaelson_web_323> I think term misappropriation is a huge problem in IETF. we do it all the time, hijacking somebody else's core concept
+[09:33:58] <PE_web_564> agree. using referral glue to be specific seems prudent
+[09:34:11] <fanf> +1
+[09:34:29] <Peter Koch_web_125> glue is about data origin, so "referral glue" sounds a bit weird (denoting the _use_ of glue)
+[09:34:58] <Benjamin Schwartz_web_698> I don't get "referral glue".  Of course all glue is for referral, including the various things contemplated in DPRIVE.
+[09:35:03] <Peter Koch_web_125> referrals could also be filled by auth data, which is not glue at all
+[09:35:12] <Peter Hessler_web_202> I think a reference to what we mean by "glue" is very useful for this document; be it in this draft or in another (published and referenced) document
+[09:35:19] <PE_web_564> less concerned with exact term than that we have a specific term for A/AAAA glue only
+[09:35:47] <Brett Carr_web_361> I would like to see the definitions put in the terminology RFC. The huge amount of terminology in DNS is often a barrier when trying to train new staff in ops. I'd like to move towards a single place for terminology.
+[09:35:56] <PE_web_564> and +1 on definition in doc
+[09:36:00] <Shumon Huque_web_400> "nameserver glue"? But I also agree with the criticism of co-opting a well known term to mean something new and larger in scope.
+[09:36:04] <David Lawrence_web_423> I am stodgy old school on this.  Glue is only the records you *need* to have in the answer because otherwise you're self-referrential and can't make any progress on the query.   The other junk is just additional data.
+[09:36:13] <George Michaelson_web_323> +1 to definitions to terminology doc
+[09:36:42] <Peter Hessler_web_202> imho as long as the terminology doc can be referenced from this document, sure!
+[09:36:49] <George Michaelson_web_323> "more work for Paul Hoffman HA HA AHAHAHAHAH!!!"
+[09:37:01] <PE_web_564> maybe "delegation glue"?
+[09:37:53] <PE_web_564> problem with Ben's "treat it all the same" makes definition creep a real problem
+[09:38:01] <Peter Koch_web_125> shameless plug <https://datatracker.ietf.org/doc/html/draft-koch-dns-glue-clarifications-05>
+[09:38:09] <Peter Koch_web_125> https://datatracker.ietf.org/doc/html/draft-koch-dns-glue-clarifications-05
+[09:38:15] <David Lawrence_web_423> "sibling glue" just isn't a thing that currently exists in my brain.  i'd prefer to not see it start to exist.
+[09:39:09] <George Michaelson_web_323> I would have thought that draft you plugged was worth referencing in this document Peter
+[09:40:33] <fanf> sibling glue (from my pov) is something that exists more strongly in EPP than DNS - registries often require nameserver addresses for any names under their TLD, not just nameservers inside the registrant's domain
+[09:41:14] <Benjamin Schwartz_web_698> I'm hearing crazy distortion
+[09:41:18] <Jonathan Reed_web_460> same
+[09:41:19] <Wes Hardaker_web_378> yep
+[09:41:19] <Samuel Weiler_web_747> +1
+[09:41:33] <Dan McArdle_web_458> Reconnect audio stream? Maybe a bit got flipped
+[09:41:48] <Peter Hessler_web_202> almost sounds like something is resting on the mic diaphram
+[09:41:50] <Shumon Huque_web_400> Sibling glue is also explicitly included in RFC 1034/1035 although it did not have a separate name.
+[09:43:05] <Meetecho> Checking audio
+[09:43:19] <Meetecho> Audio seems fine here, was it a remote speaker?
+[09:43:33] <Peter Hessler_web_202> yea, it was the remote speaker; seems it is all cleared up now
+[09:45:16] <Hugo Salgado> Alexander +1. Besides that, the problem with some registries is with SIBLING glues. The in-domain are covered in all cases.
+[09:50:42] <David Lawrence_web_234> Is chat still up?  Seems weird I haven't had a new message in over 5 minutes.
+[09:50:54] <Brian Dickson_web_732> yes
+[09:50:57] <Geoff Huston_web_419> yes
+[09:51:51] <Geoff Huston_web_419> do you want me to set up a bot to "yes" every 4 minutes and 50 seconds to reassure you? :-)
+[09:53:05] <David Lawrence_web_234> I'll just accept the warm glow of your earlier reassurance.
+[09:53:28] <Geoff Huston_web_419> fair enough! :-)
+[09:53:55] <fanf> i was moaning silently to myself and failing to turn that into any coherent words to put here
+[09:54:47] <Andrew Campling_web_236> Perhaps we need a chat equivalent of background music to avoid awkward silences?  :-)
+[09:55:04] <Geoff Huston_web_419> Why would you want different keys for different transports? What am I missing here?
+[09:56:53] <Andrew Fregly_web_182> He seems to be hanging from the ceiling
+[09:56:56] <Donald Eastlake_web_557> Is he in Autralia? :-)
+[09:57:42] <Andrew Campling_web_236> Calling from the bat cave?
+[09:57:43] <Geoff Huston_web_419> I was wondering why every other video was upside down
+[09:59:24] <Samuel Weiler_web_747> You couldn't hear anything, right?
+[09:59:31] <Suzanne Woolf_web_261> @Sam correct
+[09:59:37] <Wes Hardaker_web_378> it's a long story about the camera mount I'm using and keeping it out of field of view by mounting the camera upside down and then video flipping it.  But I failed to turn on flipping.
+[10:00:09] <Thom> That wasn’t a very long story after all
+[10:00:17] <Wes Hardaker_web_378> I could make it longer.
+[10:00:24] <Wes Hardaker_web_378> that was the tLDR
+[10:01:10] <fanf> funny that they do dry runs for EVA in a swimming pool
+[10:01:16] <Brian Dickson_web_732> Or given the camera reference, a tSLR?
+[10:01:30] <Wes Hardaker_web_378> :perfect:
+[10:01:47] <Samuel Weiler_web_747> argh, technology.  Reiterating Wes's comments, I'm also concerned about adding needed operational synchronizations, e.g. with a CDN.  It reminds me of one of the flaws in rfc2535 DNSSEC, where when a parent rolled its keys (think, in this case, CDN), it had to get every child to update their zone (think, in this case, customers of the CDN).
+[10:02:08] <Benjamin Schwartz_web_698> Sam: Yep, this is all about avoiding that
+[10:03:05] <Jim Reid_web_729> @fanf, if the astronauts get wet in the swimming pool, there's a much more serious problem to fix.
+[10:03:29] <Hazel Smith_web_993> @Wes: I'm very confused/curious what kind of camera mount you're using that it would be in the field of view... Personally, I use a DSLR on a quick release plate, on a manfrotto ball head, on a hague camera supports angle bracket bolted to a Manfrotto Super Clamp, which is clamped to a Lindy 70cm desk clamped monitor mounting pole... which works really well to hold a 1DX2 above my VC monitor
+[10:05:54] <Jim Reid_web_729> Do these camera things support DNSSEC? :-)
+[10:06:18] <Hazel Smith_web_993> Great question... it has a gigabit ethernet port, but I've not observed its DNS behaviour
+[10:06:34] <Andrew Fregly_web_182> Does it produce signed video?
+[10:07:06] <Hazel Smith_web_993> that sounds like that would be a question for MOQ WG maybe?
+[10:07:14] <Hazel Smith_web_993> ;)
+[10:07:49] <Andrew Fregly_web_182> I think signing on a per-video-frame basis might be too much overhead
+[10:09:36] <Hazel Smith_web_993> jokes aside, that sounds like an application for stream ciphers.
+[10:09:44] <Wes Hardaker_web_378> @hazel: so I recently bought a mount to move the simple web camera off the top of my monitor to be closer to me, since the field was too wide (and zooming causes drop in quality).  But the mount attaches to the bottom of the webcam, and the flexible mount's arm causes a drop into the field of the monitor's view.  So by flipping the mount upside down, the arc of the flexible mount goes *up* allowing me to put the camera at the right spot out of the way of the monitor.  If I was doing professional video zooming then I'd certainly sacrifice my monitor view for recording.  But for my 4-6 hours of daily meetings, I'm lazy and haven't bought anything better.  So the hack is to flip the video of an upside down camera instead (trivial in zoom, requires a fake virtual device for anything else).
+[10:10:15] <Hazel Smith_web_993> ahhh
+[10:10:48] <Wes Hardaker_web_378> I should just start over with a new camera :-)
+[10:11:56] <Andrew Fregly_web_182> I am in favor of signing media so that you at least know the origin device as a way of dealing with deep fakes.
+[10:12:10] <Hazel Smith_web_993> (I feed my video out of the camera as HDMI, and then through a HDMI distribution amplifier, so I get a copy for the confidence monitor plus a copy for each VC machine. The Google Meet box and the Intel NUC I use for Meetecho and Zoom each have a Magewell USB Capture HDMI Gen 2 device that takes the HDMI video and pretends to be a webcam to the OS :))
+[10:18:10] <Benjamin Schwartz_web_698> Andrew: See talk #2 in https://datatracker.ietf.org/doc/agenda-113-hrpc/
+[10:21:20] <Wes Hardaker_web_378> ha ha; @ben: didn't you push back on that for people that disliked the digest type hack you originally wrote?
+[10:22:09] <Jonathan Reed_web_460> INORITE!   I said last time, let's please have a general purpose record to stop doing that, and got told it'll never happen.
+[10:22:48] <Hazel Smith_web_993> Is Roland's audio clipping harshly for others too?
+[10:23:01] <Benjamin Schwartz_web_698> There's a difference here between "define a new META digest type" and "define a new NOTDS RR type"
+[10:23:02] <Meetecho> Checking
+[10:23:10] <Joao Damas_web_174> he sounds fine in the room
+[10:23:11] <Suzanne Woolf_web_261> I'm hearing echo again too
+[10:23:17] <Benjamin Schwartz_web_698> No clipping here
+[10:23:33] <Hazel Smith_web_993> yeah, the clipping/crackling stopped the moment I asked, haha.
+[10:23:35] <George Michaelson_web_262> since he has headphones, it cannot be foldback his side
+[10:23:39] <Jim Reid_web_729> No echo or clipping in the room
+[10:23:56] <Hazel Smith_web_993> and, I have been hearing quiet echos of every speaker so far, I assumed it was the room microphones picking up the room speakers
+[10:24:16] <George Michaelson_web_262> Is one of the chairs mic live?
+[10:24:29] <Meetecho> Hazel: yes, that's what usually happens but we've been working to tweak this and minimize the impact
+[10:24:35] <Tom Carpay_web_789> Noema <3
+[10:24:36] <George Michaelson_web_262> ie benno/suz/tim
+[10:24:38] <sftcd-x> hash based sigs for DNSSEC seems like a bad idea to me - why not wait for a new signature algorithm from NIST that is not stateful?
+[10:24:46] <Meetecho> DNSOP is in oneof the largest rooms, so physics don't help :)
+[10:24:48] <Geoff Huston_web_419> I think the dog has a live mic
+[10:24:55] <sftcd-x> remider: stateful implies a finite number of signing operations before the private key leaks
+[10:24:57] <Thom> Dog is in favour of PQC
+[10:25:01] <George Michaelson_web_262> BIFF. somebody somewhere has mail
+[10:25:39] <sftcd-x> stateful sigs != safe
+[10:25:59] <Jim Reid_web_729> https://www.amazon.com/How-Teach-Quantum-Physics-Your/dp/1416572295
+[10:26:13] <Benjamin Schwartz_web_698> sftcd-x: That seems fairly manageable in DNSSEC.  You update your zone as needed, and BIND rotates the keys as needed.
+[10:26:15] <Hazel Smith_web_993> @Meetecho: ack. (I use a Biamp TesiraForte audio interface which does a pretty good job of hardware AEC (Acoustic Echo Cancellation) and has 12 mic inputs and 8 outputs, might be worth considering using something like that if you aren't already)
+[10:27:16] <Meetecho> The audio is WebRTC based so there's an echo canceller involved too, plus we play with gains and mixer settings: looking into some hardware might be helpful in the future!
+[10:27:58] <sftcd-x> @ben: whether manageable or not, better to wait for something without that problem
+[10:28:08] <Suzanne Woolf_web_261> qirg meets in the next session for those QC-curious
+[10:29:19] <sftcd-x> the break here is leaking the private key
+[10:30:44] <Andrew Fregly_web_182> The multi-tree model handles distributed signing and scalability though is more complex
+[10:31:04] <sftcd-x> @ben: also in terms of "manageable" - if the root zone is signed using classical crypto then use of PQC algs lower down isn't compelling, but stateful sigs at the root seems like a horrible thought
+[10:31:46] <sftcd-x> eddsa doesn't have the stateful unsafety problem
+[10:31:48] <Andrew Fregly_web_182> Needs a bit of explanation of how it would work for root.
+[10:32:38] <Benjamin Schwartz_web_698> The only special consideration for the root is that you need to give yourself enough margin to do a root rollover before you run out of signatures.
+[10:32:47] <Andrew Fregly_web_182> The draft of implementation considerations would discuss the issues.
+[10:33:00] <George Michaelson_web_262> on average how many signings per key are being made at present in the root?
+[10:33:14] <George Michaelson_web_262> if we understand the bounds as limits, we can say if the risk of those bounds is real.
+[10:34:29] <Andrew Fregly_web_182> Some configurations support 2^60 one time signing keys.
+[10:34:41] <Andrew Fregly_web_182> Not likely to run out.
+[10:35:07] <Andrew Fregly_web_182> Need to set tree sizes based on expected number of signings.
+[10:35:19] <sftcd-x> but all the code for handling the 2nd last signature operation is still needed (for no good reason)
+[10:35:50] <Andrew Fregly_web_182> With several orders of magnitude to deal with fudge factor.
+[10:37:00] <Andrew Fregly_web_182> We pulled implementation consideration out as it is quite a robust topic.
+[10:37:16] <Andrew Fregly_web_182> Signatures for SPHINCS+ are much larger
+[10:38:59] <Andrew Fregly_web_182> Also, we want a more considered discussion of implementation issues. It takes a bit of time to understand it.
+[10:39:58] <Thom> If your machine turns off before having committed the sequence number to disk you have to rotate your keys
+[10:40:35] <Maarten Aertsen_web_160> I think I unintentionally may have found a bug :-)
+[10:40:46] <Hazel Smith_web_993> @Thom: silly question maybe, but... couldn't you just bump the number first, write it to disk, *then* use it?
+[10:41:29] <Maarten Aertsen_web_160> (It was a fat finger though)
+[10:43:22] <Andrew Fregly_web_182> You can allocate enough OTS keys that you can checkpoint in batches. If doing in memory, just skip to the next batch if you go down.
+[10:45:01] <Hazel Smith_web_993> sounds similar to implementations of "sequence" types in RDBMSes. (where you are much more worried about using a number twice than you are about skipping a number, and taking a batch of numbers in advance saves you from having to fsync for every one)
+[10:46:17] <Vicky Risk_web_174> maybe this is a failure of imagination, ,but what is this draft FOR? what/who needs this QoS data?
+[10:46:31] <sftcd-x> on post-quantum stuff more generally: the *real* problem is the threat to confidentiality, even there, it's IMO still to early to standardise anything (we need more experience with newer algs 1st), for things like DNSSEC it makes no sense at all to try "get ahead of the game" esp if that'd involve figuring out how to avoid all the pitfalls of stateful sigs
+[10:46:56] <George Michaelson_web_262> nothing about DNSSEC is about confidentiality
+[10:47:04] <George Michaelson_web_262> its about trust in the label and RRSet.
+[10:47:17] <George Michaelson_web_262> all that is required is that you cannot forge its state
+[10:47:23] <sftcd-x> exactly - so let those with confidentiality problems figure out the PQ stuff first
+[10:48:05] <George Michaelson_web_262> it must be driven by belief use of flawed PQ algs means people CAN forge state
+[10:48:18] <David Lawrence_web_234> I don't think I really grok you here.  I mean, I totally get the DNSSEC-is-not-about-confidentiality part.  I don't get why we'd be unconcerned with the thread to authenticity.
+[10:48:21] <George Michaelson_web_262> algs, subsequently flawed by shors alg
+[10:48:45] <George Michaelson_web_262> if there is a belief continued use of RSA poses a risk to authenticity, then PQ is needed
+[10:48:50] <sftcd-x> @tale: because there's a lot of "figuring out" to be done before deployment of PQ stuff will be ready for primetime
+[10:49:11] <Benjamin Schwartz_web_349> Confidentiality requires solving the problem now.  Authenticity requires solving the problem eventually.
+[10:49:22] <Roland van Rijswijk-Deij_web_805> there are two observations I'd like to make regarding that: PQC schemes are split into KEM/Key Exchange and Signature schemes, so letting the confidentiality people figure things out might not work. Second, as soon as PQC schemes are standardised, there will be pressure to support them, and I think it's good to start preparing for that now.
+[10:49:35] <David Lawrence_web_234> Okay, that part I'm fine with.   I thought an argument was being made that somehow the authenticity part wasn't somehow relevant.
+[10:49:57] <sftcd-x> @roland: in this case, I think that's not "preparing" but rather "succumbing" and to what's (for now) a fashion choide
+[10:50:09] <Joao Damas_web_174> at this point this feels like a fully academic endeavour, so perhaps best addressed in that real rather than in the iEtf
+[10:50:23] <Jim Reid_web_729> Will the server return QoS info for the resolver or the end client>
+[10:50:53] <Andrew Campling_web_236> @Joao: IRTF?
+[10:50:55] <Joao Damas_web_174> (I was referring to the PQC item)
+[10:50:59] <Benjamin Schwartz_web_349> Vicky: Yeah, I don't understand exactly.  I can sort of imagine a response that says "BTW, this server is ~~XX ms away from you"
+[10:51:09] <Joao Damas_web_174> IRTF would be a lot more appropriate, yes
+[10:51:21] <sftcd-x> btw, if people start working on some kind of PQ-DNSSEC, it's 100% for sure that people will propose ways of signing with >1 alg (a mix of classical and new PQ algs), so if dnsop goes there, dealing with that'll be part of the price to pay
+[10:52:09] <Roland van Rijswijk-Deij_web_805> @sftcd-x: the point of this draft is not to succumb to any fashions ;-), HBS-es are _old_ and proven, hence our idea to standardise a failsafe. Happy to receive feedback or pushback on that from the WG.
+[10:52:15] <George Michaelson_web_262> is JSON capable of surviving DNS string compression?
+[10:52:38] <Joao Damas_web_174> agreed. so let's not have dnsop take it until a) there is a reasonable need and b) it has been figured out elsewhere
+[10:52:53] <Benjamin Schwartz_web_349> George: Compression would not be applied here, so there's no worry there
+[10:53:10] <Roland van Rijswijk-Deij_web_805> and @sftcd-x: yes, when talking PQC, multi-algorithm signing is just around the corner, that is a valid concern (with all the pain it brings)
+[10:53:13] <sftcd-x> @roland: yes the idea of HBS is old, and can be secure but afaik basically *nobody* has experience in using any of the RFCs on those topics so I really can't see that as in any way "safe"
+[10:53:44] <Andrew Fregly_web_182> The stateful HBS algorithms have been specified for message signing in two RFCs
+[10:54:16] <Roland van Rijswijk-Deij_web_805> @sftcd-x is your concern mostly operational? There is ample cryptoanalytic research supporting the security of HBS schemes.
+[10:54:16] <George Michaelson_web_262> Thanks Ben. I had memory (wrong I guess) that payload was compressed, but if not, then no worries!
+[10:54:33] <sftcd-x> @roland: I have >1 concern (sorry;-)
+[10:55:14] <sftcd-x> but yes, the utter lack of experience in real use of HBS means, for me, they can't be a current failsafe
+[10:55:19] <Andrew Campling_web_236> +1 to proceeding with this draft (ie Structured Data for Filtered DNS) in order to improve transparency
+[10:55:21] <Andrew Fregly_web_182> The stareful HBS algorithms are also NIST specified in NIS SP 800-208
+[10:55:31] <George Michaelson_web_262> Ben's comments are echoes of comments made when Tiramul first presented on this
+[10:55:41] <Tommy Pauly_web_196> The client behavior of actually using the page can be worked out
+[10:56:52] <Thom> Hazel Smith_web_993 re: hbs: getting that assurance from the file system is not trivial with all the weird layers of caching…
+[10:57:49] <Suzanne Woolf_web_261> Thanks everyone!!
+[10:58:00] <Roland van Rijswijk-Deij_web_805> Thanks! Hybrid was smooth!
+[10:58:05] <Roland van Rijswijk-Deij_web_805> Compliments to the chairs!
+[10:58:12] <Brian Dickson_web_732> +1
+[10:58:25] <Suzanne Woolf_web_261> thanks Roland! Also shout-out to @meetecho for the new features.
+[10:58:28] <Hazel Smith_web_993> Yep, +1, hybrid with MeetEcho and the mobile line joining thing seemed to work well
+[10:59:00] <Meetecho> Glad to be of help!
+```
