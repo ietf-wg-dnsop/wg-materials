@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 24 November 2021
+### Updated: 5 April 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -24,41 +24,40 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## WGLC Approved
 
+* draft-ietf-dnsop-rfc5933-bis
+
 ## In WG Last Call
 
-* draft-ietf-dnsop-rfc5933-bis
+* draft-ietf-dnsop-nsec3-guidance
+    - Ends 7 April
+
 
 ## Upcoming WG Last Calls
 
 ## Adopted by WG, Under Discussion (ranked)
 
-* draft-ietf-dnsop-rfc8499bis
-    -  **Action**:Authors working on to-do list
-
-* draft-ietf-dnsop-nsec3-guidance
-    -  **Action**: Value selection
-
 * draft-ietf-dnsop-avoid-fragmentation
     - Value or values
     - **Action**: Make progress
-     
+
+* draft-ietf-dnsop-dns-catalog-zones
+    - **Action**: 
+
+* draft-ietf-dnsop-dns-error-reporting
+    - **Action**: 
+
 * draft-ietf-dnsop-glue-is-not-optional
-    - Updated after interim
     - **Action**: 
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
     - **Action**: 
 
-* draft-ietf-dnsop-dns-catalog-zones
-    - Updated 
-    - **Action**: 
-
-* draft-ietf-dnsop-dns-error-reporting
-    - **Action**: 
+* draft-ietf-dnsop-rfc8499bis
+    -  **Action**:
 
 * draft-ietf-dnsop-rrserial
-    - **Action**: Authors working on interoperability tests
+    - **Action**: Authors need to update
 
 * draft-ietf-dnsop-alt-tld
     - Currently being Held
@@ -71,26 +70,31 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-## Candidates For Adoption
+* draft-hoffman-dnssec
+    - Ends 7 April
+
+* draft-wisser-dnssec-automation
+    - Ends 7 April
 
 * draft-thomassen-dnsop-dnssec-bootstrapping
+    - Ends 7 April
 
-* draft-huque-dnsop-blacklies-ent
+## Candidates For Adoption
+
+* draft-sahib-domain-verification-techniques
+
+* draft-rebs-dnsop-svcb-dane
+
+* draft-dulaunoy-dnsop-passive-dns-cof
 
 * draft-klh-dnsop-rfc8109bis
 
-* draft-wisser-dnssec-automation
-
 ## New Documents
 
-domain-verification-techniques
+* draft-dwmtwc-dnsop-caching-resolution-failures
 
-caching-resolution-failures
-passive-dns-cof 
+* draft-yorgos-dnsop-dry-run-dnssec
 
-intentionally-temporary-insec
-dry-run-dnssec  
-svcb-dane
 
 ## Needs more Review
 
