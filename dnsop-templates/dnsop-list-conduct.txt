@@ -1,0 +1,27 @@
+Colleagues,
+
+As some of you have noted,  the thread under the subject XXX has
+included some inappropriate posts, not consistent with the IETF
+Code of Conduct or guidance on keeping the WG mailing list professional
+and productive. A DNSOP mailing list participant has been warned
+about their posts and asked to stop.
+
+As a reminder to the list: people here can be vigorous and intense
+in their arguments and tone, but generally stay to the civil and
+constructive side, and the chairs don’t like stepping into substantive
+technical discussions. However, we do monitor the list, do listen
+to complaints, and do have the ability to take action when list
+conversation turns into persistently repeating arguments that have
+already been addressed, ad hominem attacks, or other behavior that
+has no apparent purpose besides disruption.
+
+
+It’s important to bring your best technical arguments to DNSOP, but
+just as important in getting our work done to bring civility and
+respect for everyone else. These things matter even more over the
+last couple of years of seeing each other only online.
+
+
+In general, DNSOP has done pretty well at keeping things professional
+and productive. It’s part of the chairs’ job to keep it that way.
+Thanks everyone,
