@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 5 April 2022
+### Updated: 25 April 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,10 +9,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-~~draft-ietf-dnsop-dnssec-iana-cons/~~ RFC9157
-
-~~draft-ietf-dnsop-dns-tcp-requirements~~ RFC9210
-
 ### RFC Ed Queue
 
 
@@ -21,6 +17,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
     - **Status**: IESG Evaluation: Revised I-D Needed
 
+* draft-ietf-dnsop-nsec3-guidance
+    - IETF LC ends 2022-05-02
 
 ## WGLC Approved
 
@@ -28,13 +26,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## In WG Last Call
 
-* draft-ietf-dnsop-nsec3-guidance
-    - Ends 7 April
-
 
 ## Upcoming WG Last Calls
 
 ## Adopted by WG, Under Discussion (ranked)
+
+* draft-ietf-dnsop-alt-tld
+    - Currently being Held
+    - **Action**: Chairs
 
 * draft-ietf-dnsop-avoid-fragmentation
     - Value or values
@@ -46,6 +45,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dns-error-reporting
     - **Action**: 
 
+* draft-ietf-dnsop-dnssec-bcp
+    - recently adopted
+
+* draft-ietf-dnsop-dnssec-bootstrapping
+    - Recently adopted
+
 * draft-ietf-dnsop-glue-is-not-optional
     - **Action**: 
 
@@ -56,12 +61,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc8499bis
     -  **Action**:
 
-* draft-ietf-dnsop-rrserial
-    - **Action**: Authors need to update
+* draft-ietf-dnsop-zoneversion
+    - Was named rrserial
 
-* draft-ietf-dnsop-alt-tld
-    - Currently being Held
-    - **Action**: Chairs
+* draft-ietf-dnsop-dnssec-automation
+    - Recently adopted
+
 
 ## Recently Expired Documents
 
@@ -70,14 +75,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-* draft-hoffman-dnssec
-    - Ends 7 April
-
-* draft-wisser-dnssec-automation
-    - Ends 7 April
-
-* draft-thomassen-dnsop-dnssec-bootstrapping
-    - Ends 7 April
 
 ## Candidates For Adoption
 
