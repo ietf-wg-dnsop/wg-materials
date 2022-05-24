@@ -32,7 +32,7 @@
 
 ### Administrivia
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc,  5 min
 
 ### Current Working Group Business
 
@@ -44,4 +44,11 @@
 *   Automatic DNSSEC Bootstrapping using Authenticated Signals from the Zone's Operator,
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bootstrapping/
     - Peter Thomassen and Nils Wisiol, 25 min
-    - Chairs Actions:
+    - Chairs Action:
+
+### Time Permitting
+
+*   A well-known URI for publishing ECHConfigList values
+    - https://datatracker.ietf.org/doc/draft-farrell-tls-wkesni/
+    - Stephen Farrell
+    - Chairs Action:
