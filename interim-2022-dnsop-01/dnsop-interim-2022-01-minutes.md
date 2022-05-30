@@ -25,7 +25,7 @@
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
 * Minutes: [https://notes.ietf.org/notes-ietf-interim-2022-dnsop-01-dnsop](https://notes.ietf.org/notes-ietf-interim-2022-dnsop-01-dnsop)
-
+* Minutes: [https://github.com/ietf-wg-dnsop/wg-materials/blob/main/interim-2022-dnsop-01/dnsop-interim-2022-01-minutes.md](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/interim-2022-dnsop-01/dnsop-interim-2022-01-minutes.md)
 
 ## Agenda
 
@@ -44,7 +44,8 @@ ksk/zsk working but need more explicit handling of CSK
 
 basic working of algorithms. but work through implementation pieces
 
-Currently has an implementation that works with dynamic updates and an interface with deSEC is in development
+Currently has an implementation that works with dynamic updates and an interface with deSEC is in development. 
+
 
 *   Automatic DNSSEC Bootstrapping using Authenticated Signals from the Zone's Operator,
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bootstrapping/
@@ -57,41 +58,52 @@ several implementations done or in progress
 
 three issues
 
-- operator be required to serve bootstrapping issues for all domains?
+* Issue 1: operator be required to serve bootstrapping issues for all domains?
 
-Ben Schwartz: Should not be required and wrong technically
+Ben Schwartz(BS): Should not be required and wrong technically
+
+Peter Thomassen(PT): maybe a political requirement
 
 Wes Hardaker: Should not unless we have a good reason
 
-- do we need an IANA action?
+BS: Do all nameserver operators of a zone must participate? 
 
-- Delegations within a bootstrapping zone
+PT: Only needed for the first time. If domain is insecure and multi provider,
+draft currently says all name servers serve bootstrapping records. 
 
-- Tuple with (name, RRType)
+* Issue 2: do we need an IANA action?
 
-  - Solution Options
+Benno: Many +1 in chat to IANA action. 
 
-    - different record type
-    - hashed naming scheme (ruled out)
-    - bootstrap under _dsauth
-    - disallow CDS/CDNSKEY usage for subzone rollover
-    - disallow zone cuts underneath _dsauth 
-    - underscore prefix for actual signal
-    
+* Issue 3: Delegations within a bootstrapping zone
 
-Peter van Dijk:  How would you know if something is the leaf domain or not?
+Solution Options
 
-Ben: Can't rollover these domains unless bootstrapping
+    1. different record type
+    2. hashed naming scheme (ruled out)
+    3. bootstrap under \_dsauth
+    4. disallow CDS/CDNSKEY usage for subzone rollover
+    5. disallow zone cuts underneath \_dsauth 
+    6.  underscore prefix for actual signal
+
+Peter van Dijk:  for No 3 - How would you know if something is the leaf domain or not?
+
+BS: can we say records carry both semantics? Can we demand they are the same?
+
+PT: They will have different cds records
 
 John Levine: Corner Case but leans toward #5 
 
-Peter: people think of #6 ? 
+PT: people think of #6 ? 
 
-Nils: Ben's comment from chat - #6 needs it's own #5 
+PT: Easy to add new record types
+
+Nils: Ben's comment from chat - #6 needs it's own #5, strong argument. 
 
 Warren Kumari: Burning code points using #1. 
 
-Roger Murray: Personally like #1, but maybe sending more queries. 
+Roger Murray: Will differences between 1 and 6 affect the scanning.
+Personally like #1, but maybe sending more queries. 
 
 
 ```
