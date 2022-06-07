@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 25 April 2022
+### Updated: 6 June 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,14 +11,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ### RFC Ed Queue
 
+* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
+
+* ["Guidance for NSEC3 parameter settings" - draft-ietf-dnsop-nsec3-guidance](https://datatracker.ietf.org/doc/draft-ietf-dnsop-nsec3-guidance/)
 
 ## IESG Queue
 
-* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-    - **Status**: IESG Evaluation: Revised I-D Needed
-
-* draft-ietf-dnsop-nsec3-guidance
-    - IETF LC ends 2022-05-02
 
 ## WGLC Approved
 
@@ -51,6 +49,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dnssec-bootstrapping
     - Recently adopted
 
+* draft-ietf-dnsop-dnssec-validator-requirements
+
 * draft-ietf-dnsop-glue-is-not-optional
     - **Action**: 
 
@@ -67,11 +67,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dnssec-automation
     - Recently adopted
 
-
 ## Recently Expired Documents
 
-* draft-ietf-dnsop-dnssec-validator-requirements
-    - Authors are submitted updated document. 
 
 ## Active Calls for Adoption
 
@@ -80,15 +77,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-sahib-domain-verification-techniques
 
+* draft-wing-dnsop-structured-dns-error-page
+
 * draft-rebs-dnsop-svcb-dane
+
+* draft-dwmtwc-dnsop-caching-resolution-failures
 
 * draft-dulaunoy-dnsop-passive-dns-cof
 
 * draft-klh-dnsop-rfc8109bis
 
-## New Documents
 
-* draft-dwmtwc-dnsop-caching-resolution-failures
+## New Documents
 
 * draft-yorgos-dnsop-dry-run-dnssec
 
