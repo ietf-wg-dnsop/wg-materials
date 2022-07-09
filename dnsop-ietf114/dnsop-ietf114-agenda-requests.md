@@ -37,6 +37,12 @@
     - Time Requested: 15
     - Chairs Action:
 
+*   Draft name: Structured Data for Filtered DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - Requester Email: Dan Wing <danwing@gmail.com>
+    - Time Requested: 15
+    - Chairs Action:
+
 *   Draft name: Automation of multi-signer key exchange
     - Datatracker URL: none
     - Requester Email: Peter Thomassen <peter@desec.io>
