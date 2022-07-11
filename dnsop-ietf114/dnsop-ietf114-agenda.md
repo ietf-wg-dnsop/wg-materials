@@ -37,12 +37,45 @@
 
 ### Current Working Group Business
 
-*
+
+*   DNS Security Extensions (DNSSEC)/ DNS Terminology
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8499bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 15min 
+    - Chairs Action:
+
+*   Survey of Domain Verification Techniques using DNS
+    - https://datatracker.ietf.org/doc/draft-sahib-domain-verification-techniques/
+    - Shivan Kaul Sahib <shivankaulsahib@gmail.com>, 15min 
+    - Chairs Action:
+
+*   dry-run DNSSEC
+    - https://datatracker.ietf.org/doc/draft-yorgos-dnsop-dry-run-dnssec/
+    - Yorgos Thessalonikefs <george@nlnetlabs.nl>, 15min 
+    - Chairs Action:
+
 
 
 ### New Working Group Business
 
-*
+
+*   Recommendations for DNSSEC Resolvers Operators
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-validator-requirements/
+    - Daniel Migault daniel.migault@ericsson.com, 15min 
+    - Chairs Action:
 
 
 ### Time Permitting
+
+
+*   Structured Data for Filtered DNS
+    - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - Dan Wing <danwing@gmail.com>, 15min 
+    - Time Requested: 15
+    - Chairs Action:
+
+*   Automation of multi-signer key exchange
+    - none
+    - Requester Email: Peter Thomassen <peter@desec.io> , 15min
+    - Time Requested: 15 (time permitting)
+    - Chairs Action:
