@@ -3,8 +3,8 @@
 ## IETF 114
 
 
-* Date:
-* Time:
+* Date: 28 July 2022
+* Time: 13:30-15:30 EDT (UTC-4)
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf114/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf114/?group=dnsop&short=&item=1)
 * Minutes: [https://codimd.ietf.org/notes-ietf-114-dnsop](https://codimd.ietf.org/notes-ietf-114-dnsop)
 
