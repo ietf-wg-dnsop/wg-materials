@@ -31,16 +31,20 @@
 
 ### Administrivia
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc, 5 min
 
 * Updates of Old Work, Chairs, 10 min
 
 ### Current Working Group Business
 
 
-*   DNS Security Extensions (DNSSEC)/ DNS Terminology
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/
+*   DNS Terminology
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8499bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 15min 
+    - Chairs Action:
+
+*   DNS Security Extensions (DNSSEC)
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/
     - Paul Hoffman <paul.hoffman@icann.org>, 15min 
     - Chairs Action:
 
@@ -54,15 +58,14 @@
     - Yorgos Thessalonikefs <george@nlnetlabs.nl>, 15min 
     - Chairs Action:
 
-
-
-### New Working Group Business
-
-
 *   Recommendations for DNSSEC Resolvers Operators
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-validator-requirements/
     - Daniel Migault daniel.migault@ericsson.com, 15min 
     - Chairs Action:
+
+
+### New Working Group Business
+
 
 
 ### Time Permitting
