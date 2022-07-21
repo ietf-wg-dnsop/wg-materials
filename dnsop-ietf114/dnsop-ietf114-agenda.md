@@ -35,18 +35,23 @@
 
 * Updates of Old Work, Chairs, 10 min
 
+* Namespace Design Team, Warren Kumari, 10 min
+
+
 ### Current Working Group Business
-
-
-*   DNS Terminology
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8499bis/
-    - Paul Hoffman <paul.hoffman@icann.org>, 15min 
-    - Chairs Action:
 
 *   DNS Security Extensions (DNSSEC)
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/
     - Paul Hoffman <paul.hoffman@icann.org>, 15min 
     - Chairs Action:
+
+*   Recommendations for DNSSEC Resolvers Operators
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-validator-requirements/
+    - Daniel Migault daniel.migault@ericsson.com, 15min 
+    - Chairs Action:
+
+
+### New Working Group Business
 
 *   Survey of Domain Verification Techniques using DNS
     - https://datatracker.ietf.org/doc/draft-sahib-domain-verification-techniques/
@@ -58,27 +63,20 @@
     - Yorgos Thessalonikefs <george@nlnetlabs.nl>, 15min 
     - Chairs Action:
 
-*   Recommendations for DNSSEC Resolvers Operators
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-validator-requirements/
-    - Daniel Migault daniel.migault@ericsson.com, 15min 
+*   Initializing a DNS Resolver with Priming Queries
+    - https://datatracker.ietf.org/doc/draft-klh-dnsop-rfc8109bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 15min 
     - Chairs Action:
-
-
-### New Working Group Business
-
 
 
 ### Time Permitting
 
-
 *   Structured Data for Filtered DNS
     - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
-    - Dan Wing <danwing@gmail.com>, 15min 
-    - Time Requested: 15
+    - Dan Wing <danwing@gmail.com>, 10min 
     - Chairs Action:
 
-*   Automation of multi-signer key exchange
-    - none
-    - Requester Email: Peter Thomassen <peter@desec.io> , 15min
-    - Time Requested: 15 (time permitting)
+*   Recent results on measuring the end-to-end success rate of DNSSEC and new record types
+    - no I-D
+    - Eric Rescorla <ekr@rtfm.com>, 10 min
     - Chairs Action:
