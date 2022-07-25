@@ -35,7 +35,7 @@
 
 * Updates of Old Work, Chairs, 10 min
 
-* Namespace Design Team, Warren Kumari, 10 min
+* DNS Directorate, Warren Kumari (OPS AD), 10 min
 
 
 ### Current Working Group Business
@@ -51,7 +51,7 @@
     - Chairs Action:
 
 
-### New Working Group Business
+### For Consideration
 
 *   Survey of Domain Verification Techniques using DNS
     - https://datatracker.ietf.org/doc/draft-sahib-domain-verification-techniques/
