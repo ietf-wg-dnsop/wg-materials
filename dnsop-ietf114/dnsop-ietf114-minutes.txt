@@ -1,0 +1,122 @@
+DNSOP WG
+IETF 114
+2022-07-28
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+Notes here are only what happened at the mic, not on the slides
+About 120 people attended
+
+Administrivia
+
+DNS Directorate: Warren Kumari
+    Please volunteer to review documents for the new directorate
+
+IETF 114 Hackathon Results
+    Nils Wisiol talked about work on DNSSEC bootstrapping
+    Yorgos Thessalonikefs talked about DNS error reporting
+
+DNS Security Extensions (DNSSEC): Paul Hoffman
+    draft-ietf-dnsop-dnssec-bcp
+    No questions at the mic
+
+Recommendations for DNSSEC Resolvers Operators: Daniel Migault
+    draft-ietf-dnsop-dnssec-validator-requirements
+    No questions at the mic 
+
+Survey of Domain Verification Techniques using DNS: Shivan Kaul Sahib
+    draft-sahib-domain-verification-techniques
+    John O'Brien: Glad to see commentary on time-limited
+        Some service providers require that a domain being validated by a second-level domain
+        Some require that it be at a zone cut
+    John Levine: It should be a BCP
+        Shivan: Could be an RRtype, but dropped
+            Was meant as a survey, but could be a BCP
+    Brett Carr: Make it a BCP
+        Too many ways to do it
+    Anthony Somerset: Make it a BCP
+        Draw more attention to the TCP fallback problem
+    Ben Schwartz: Add a sentence about DNAME
+        Doesn't care what it says, but it should say something
+    Chairs: Asked if there were objections to BCP; none in the room
+
+dry-run DNSSEC: Yorgos Thessalonikefs
+    draft-yorgos-dnsop-dry-run-dnssec
+    Wes Hardaker: Likes this
+        Must not get in the way of current validation
+        Thus: no DS hacks
+    Steve Crocker: Doesn't like going insecure
+        Yorgos: Only arises when you are testing, not when actually signed
+    Viktor Dukhovni: Concern that all resolvers will act correctly when presented with an unknown DS
+        Tested with DS 0, found failure
+        Would need many resolvers to adopt this before it would be useful
+    Paul Hoffman: Would like the variable-size DS for pre-testing post-quantum signing algorithms
+    Ben: Would like to know the error rate, not just the reporters
+        Yorgos: Can turn on "no error" report
+    Lars-Johan Liman: Likes this
+        In order to avoid having lingering things, would like to have timers to turn this off
+        Suggests that software pull them after a time
+    Wes: This supports doing algorithm roll
+        Lots of corner cases, including larger responses
+    Peter Thomassen: Keeping around longer is only harder on the registry
+        Should be their policy
+        Maybe not needed for PQC because the hash size won't change much
+        Resolver will choose the first DS type it knows, so naive resolver might not see this
+            Yorgos: Have an idea on how to implement for this
+    Sam Weiler: RFC 4955 says to use a reserved DNSKEY to do this
+    Nils: Would prefer EDNS0 in clients where clients have opted in
+    Viktor: Doesn't think client-side will work because of caching
+        Likes stealing a bit from the hash algorithm
+    Mark Andrews: Variable length digests for private OID types; don't be scared of them
+        Maybe want a dry-run as DNSKEY as well
+        Thinks this is safe to experiment
+
+Initializing a DNS Resolver with Priming Queries: Paul Hoffman
+    draft-klh-dnsop-rfc8109bis
+    No questions at the mic 
+
+Structured Data for Filtered DNS: Dan Wing
+    draft-wing-dnsop-structured-dns-error-page
+    John O'Brien: Should look at how this interacts with RPZs
+    Petr Spaček: Have you heard from browser vendors?
+        More positive response
+    Brett: Supports adoption
+    Ben: This revision is an improvement
+        Should this be in DNSOP? This is a deeper question
+        Browsers already have their own private mechanisms 
+    Tim: Chairs want to hear from folks who want to implement this
+    Johnathan Reed: Supports adoption
+        Akamai could implement this for some of its services
+    Viktor: This is for reporting RPZ names
+        Not in conflict with what browsers are doing
+    Chris Box: Would like to see this developed
+    John O'Brien: Useful for applications other than web browsers
+
+Recent results on measuring the end-to-end success rate of DNSSEC and new record types: Eric Rescorla
+    Ray Bellis: Home gateway resolvers are much worse at passing DNSSEC records
+    Brian Dickson: Could you test this for particular routers
+        Eric: Probably yes
+    Hazel Smith: Had done some testing on DoT and DoH resolvers; do you have any called-out data?
+        Eric: No, started at the end of their study
+            Assume that they work
+    Viktor: Can this be done by geography?
+        Eric: Data will be in the paper
+    Mark: Could you do the EDNS0 query?
+        Eric: Can show the code
+    Daniel Kahn Gillmore: Wants to see by size of packets
+        Eric: In the report
+        Daniel: We need to think what we can do when we know there are parts of the network is garbage
+    Wes: RFC 8027 covered some of this
+        Table is missing RRSIG
+        Eric: Took out of the report
+        
+CDS/CDNSKEY Consistency Is Mandatory: Peter Thomassen
+    draft-thomassen-dnsop-cds-consistency
+    Mark: CDS records are no different than any others
+        One NS might be down, which would stop the 
+        Peter: This is telling the parent how to act when faced with inconsistent information
+    Viktor: There might be hidden masters
+        Don't want to get stuck
+        Peter: Wording could be changed to allow servers down
+    Ben: There is a missing time constant
+        When do I recheck if I get an inconsistent set?
+        Peter: 7344 doesn't put any time limit
+        Ben: Should suggest some time to retry when there is an inconstancy
