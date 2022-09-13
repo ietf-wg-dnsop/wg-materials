@@ -1,0 +1,426 @@
+Anthony Somerset 13:29
+are we expecting enough controversial content that the questions mic has been taken away :D
+
+Éric Vyncke 13:31
+;-)
+
+Anthony Somerset 13:31
+warren has magiced it back into existence
+
+Brett Carr 13:32
+Hello Everyone :)
+
+Eric Rescorla 13:32
+Can someone transcribe when presentations are starting in this channel? I have a conflict so I have to jump in at the end for my presentation
+
+Shivan Sahib 13:33
+Hi all!
+
+Barry Leiba 13:33
+Chair slides starting
+
+Andrew Campling 13:33
+Hi Brett
+
+Eric Rescorla 13:34
+@Barry Leiba thanks!
+
+Andrew Campling 13:36
+The agenda is pretty content rich! :-)
+
+Barry Leiba 13:37
+Warren talks about DNS directorate
+Tim W talks about doc status
+
+Warren Kumari 13:47
+Erm. Should I turn down the in-room speakers? I think that the other mics are not quite as hot, so don't want to futz with it unless needed...
+Actually, I will ask the technical ppl instead of me twiddling the knobs...
+
+Éric Vyncke 13:48
+Possible safer ;-)
+
+Anthony Somerset 13:49
+i think we should be fine now
+
+Barry Leiba 13:49
+Nils talks about the hackathon
+Yorgos, more hackathon
+Paul H, DNSSEC as a BCP
+Moving to WGLC now…
+
+Benno Overeinder 13:55
+We will keep you informed ekr.
+
+Barry Leiba 13:56
+Daniel M, Recommendations for DNSSEC Resolvers
+
+Petr Špaček 13:57
+It sounds there might be an overlap between the Paul's document and this document...
+
+Anthony Somerset 13:58
+i agree - i was going to ask the same question
+
+Eric Rescorla 13:58
+@Benno Overeinder thank you!
+
+Barry Leiba 14:00
+Shivan, Domain Verification Techniques
+
+Tim Wicinski 14:01
+@Andrew Campling DNSOP is always a good time - don't like one document, there will be another one coming round the bend !
+I did an editorial dive on Daniel's doc and will shepherd Paul's DNSSEC BCP, so I'll make a note to review both and compare.
+
+Petr Špaček 14:08
+Excellent, thank you!
+
+Tim Wicinski 14:09
+of course, The chairs are to serve.
+(y'all can stop laughing now)
+
+Hazel Smith 14:11
+Do people use DNAME for domain verification? (I haven't seen it used like that personally, but I haven't been surveying the matter either.)
+
+Petr Špaček 14:11
+FWIW BCP makes more sense to me as well.
+
+Brett Carr 14:11
+Happy to help as a reviewer when this moves towards being a BCP
+
+Barry Leiba 14:12
+Yorgos, Dry-Run DNSSEC
+
+Shumon Huque 14:13
+re: BCP for domain verification techniques, I agree also. We initially set a low bar for ourselves to feel out the working group, so it was a primarily a survey. But we would like to have provide solid recommendations about good ways to do this.
+
+Brian Dickson 14:14
+I'm not aware of usage of DNAME, but an anti-caveat is that DNAME can exist at zone apex, with no impact/pollution on the apex itself, it's actually an elegant method.
+foo.domain.example hits domain.example DNAME bar.example, rewrite to foo.bar.example, QED
+(But must not be a persistent record since only one DNAME can exist.)
+
+Petr Špaček 14:17
+I would be more worried about unintended interaction of DNAME vs. other techniques - when provides requires you to verify using _subdomain but you have DNAME in place, what does it mean? IMHO that's what should be described in the BCP.
+
+Brian Dickson 14:17
+Note to meeting folks, not seeing presentation on meetecho feed?
+
+Petr Špaček 14:17
+I do see it on MeetEcho.
+
+Shumon Huque 14:17
+I agree that we should clarify what happens when a DNAME is present at the domain name where a verification record exists. We should probably clarify that the domain name being verified is the owner of the record, rather than the DNAME target.
+
+Brett Carr 14:18
+I can see it here brian
+
+Brian Dickson 14:18
+Thanks, Brett
+
+Éric Vyncke 14:19
+@Brian be sure to click on the right most icon on the top right
+
+John O'Brien 14:19
+re: DDS RR type -- An idle thought: Shouldn't it be PDS?
+
+Shumon Huque 14:20
+Yeah, that's a good point Petr - the subdomains of the DNAME owner will essentially be occluded so no domain verif record can exist there.
+
+John Levine 14:20
+also that dname at foo and _tag.foo won't work
+
+Yoshitaka Aharen 14:20
+maybe I misunderstand something, but looking at the example in slide 9, can it be used to validate ca.us with "[ldh-challenge-label].ca.us DNAME [challenge-domain-name]"?
+
+Suzanne Woolf 14:22
+<no hats> I like this draft
+
+Tim Wicinski 14:22
+i like this draft, and I wear the hat of an operator to state this.
+
+Brett Carr 14:22
++1 for a seperate record
+
+Shumon Huque 14:23
+Part of the work on the domain verification draft should also involve us reaching out to app folks (including outside IETF). If they do not buy into and adopt our recommendations, we might be wasting our time.
+
+Hazel Smith 14:23
+Presumably the alternative is to not "go secure" either in the first place? i.e. never set the AD bit when validating dry-run DS?
+
+Antoin Verschuren 14:25
+If we can't convince people to implement DNSSEC, then how can we convince people to try dry-run DNSSEC?
+
+David Lawrence 14:26
+Am I the only one not digging it? I'm not really sure why this is superior to pre-delegation testing that we can already do, and I'm not even one that normally complains about the Camel. We can achieve what is needed without protocol modifications, so why pursue this?
+
+Samuel Weiler 14:26
+We have a proposed standard RFC on DNSSEC Experiments, 4955, that suggests using algorithm numbers to signal experiments, not the DS alg identifiers. I'm thinking we should follow its guidance....
+
+David Lawrence 14:27
+I'm currently against adoption, for whatever that's worth.
+
+Jim Reid 14:27
+Good point Antoin.
+
+Antoin Verschuren 14:27
++1 David. THis is a DNS Camel proposal, because we can and it's fancy to do something DNS
+
+Peter Koch 14:28
+Maybe the IETF could use the re-instantiated DNS Directorate to discuss a moratorium on methods that "ease" DNSSEC deployment, so the poor folk out there have something remotely stable to understand and roll out?
+
+Petr Špaček 14:28
+Antoin, Jim. I think it's the opposite. Why would people risk breaking their domain... slack.com could tell stories.
+
+David Lawrence 14:29
+The Slack story would not have improved with this.
+
+Éric Vyncke 14:29
+For what it is worth, the DNS directorate is not a gating point, but will have a very useful role in reviewing and pointing issues. (for @Peter)
+
+Hazel Smith 14:29
+Yeah, there are no "success reports"
+
+Antoin Verschuren 14:30
+Adoption is not about breakage. Adoption is about cost and initiative. Look at the .nl adoption.
+
+Petr Špaček 14:30
+@Dave It could. The error was detectable because the NSEC was rubbish, and it might have been reported to operator instead of breaking stuff.
+
+Hazel Smith 14:30
+I wonder if you could have a sample rate?
+
+John Klensin 14:30
+Antoin, David: As a would-be camel herder, I would certainly agree that the bar to this should be rather high.
+
+Petr Špaček 14:30
+Yes, error reporting does allow sampling.
+
+Jim Reid 14:30
+This ID adds a lot of complexity for marginal benefit IMO. I'm not sure it's a good idea to tweak a protocol to enable configuration testing.
+
+Randy Bush 14:31
+@jim: we're gonna stop now?
+
+Petr Špaček 14:31
+I agree with the complexity objection, certainly. Having said that, I still think it is a useful feature.
+
+Jim Reid 14:32
+Sure Randy. We have to stop somwhere. :-)
+
+Shumon Huque 14:32
+@David Lawrence - I agree. More complete pre-delegation testing would have caught the issue that took Slack down.
+
+John Klensin 14:32
+@Randy, if not now, when ? (translated from the camel)
+
+Antoin Verschuren 14:34
+In my opinion, implementing real DNSSEC is just as hard, or even simpler than doing dry-run DNSSEC.
+
+Hazel Smith 14:34
+I wonder if it would be useful to have an (Informational?) document on suggested approaches for testing DNSSEC with a parallel domain? (e.g. slack.com -> fynpx.com or whatever test domain you want to buy)
+(E.g. suggestions of tooling to use to compare the zones or something?)
+i.e. curate a collection of "What we tried, what went well, what went poorly, what we learned" type observations from large DNS domains that did a migration to DNSSEC
+
+Petr Špaček 14:35
+Hazel, I like that idea - that might be an excellent BCP.
+
+Tim Wicinski 14:36
+The Slack writeup was really well done
+(Agreeing with Hazel)
+
+Jim Reid 14:36
+Using dry-run DNSSEC with a pretendy key before using the actual key seems clumsy: more moving parts, more ways to complicate or break things. What does this ID do that can't be done already?
+
+Brian Dickson 14:36
+Antoin, when you say "DNSSEC implementation", do you actually mean "DNSSEC deployment" instead? E.g. enabling/configuring DNSSEC, rather than actual code development? Are there any significant DNS implementations (auth, resolver, client) that haven't done DNSSEC yet? I'm not convinced those are blockers, e.g. that there are enough implementations that operators can switch to, on auth/resolver at least.
+
+Hazel Smith 14:37
+@Jim Reid Yeah, that would be my concern, that there's plenty of scope to still shoot yourself in the foot when mangling the dry-run DS record to make it a real one... (tooling would likely help here ofc)
+
+David Lawrence 14:39
+I'm not so much a stubborn old goat, but I'm not yet seeing anything that convinces me that a protocol changing approach is superior to the perennial request for better tooling. Even the protocol change would still need tooling anyway, so it's not like that somehow saves that part of the problem.
+
+Jim Reid 14:39
+Yes Hazel. More tooling would help of course. IMO that effort should focus on the real DS records and keys - not diversions.
+
+Petr Špaček 14:39
+Well, testing from one spot is not an issue. The hard part is validating it all over the world where you don't have control over clients.
+
+David Lawrence 14:40
+I do my dry runs with dnsviz command line. A spiffy web front end with dancing bananas could make it more accessible.
+
+Antoin Verschuren 14:41
+@Brian Dickson, yes, I meant deployment. Experience in DNSSEC deployment tell me that the protocol is not the issue, but the operational process and maintainence is where it can go wrong. People that don't think about maintainability..
+
+Hazel Smith 14:41
+@Petr Špaček Quite.
+Some of the sort of things I was thinking of for how to test this where you care (e.g. in the browser for web operators, but other scenarios should be covered too!) was experiments with client-side javascript (or embedded 1x1 pixel jpgs, or...) on webpages to test if "non-dnssec-test-1-slack.com" and "dnssec-test-1-slack.com" both succeed or both fail or only one succeeds etc?
+
+Barry Leiba 14:43
+Paul H, Initializing a DNS Resolver with Priming Queries
+
+Petr Špaček 14:43
+Generally what Geoff Huston does, in many variations possible. If you control the page it's even easier.
+
+Benno Overeinder 14:46
+@ekr, heads up in about 15 minutes.
+
+Eric Rescorla 14:46
+@Benno Overeinder thank you. I am outside the room
+
+John Klensin 14:46
+Please ask Paul to try to stop moving back and forth... in some positions, he becomes nearly inaudible.
+
+Tim Wicinski 14:47
+Done John
+
+John Klensin 14:47
+Thanks. Immediate improvement noted.
+
+Tim Wicinski 14:48
+Also, Shout Out to @Barry Leiba for the chat transcribing.
+Chairs have interest in this work.
+
+Warren Kumari 14:49
+As do I (with no hats)
+
+Brian Dickson 14:49
+ObHumor/Pun: Optimus Priming
+
+Barry Leiba 14:49
+Dan Wing, Structured Data for Filtered DNS
+
+Eric Rescorla 14:50
+Thank you. I am in the back of the room now and ready to go whenever
+
+Brett Carr 14:53
+I support the adoption of this document, we would welcome this in our RPZ based DNS Resolver.
+
+Tim Wicinski 14:53
+Chairs are interested in hearing about folks willing to implement
+
+Petr Špaček 14:54
+Excellent, thank you for feedback!
+
+Andrew Campling 14:54
+Providing greater transparancy on why content is filtered is a really positive step
+
+John O'Brien 14:55
+Re: structured DNS error with RPZ -- I'm specifically thinking about whether it is possible and advisable to include EDE with NOERROR responses; those in which a known-naughty response has been rewritten to a captive portal address, for instance.
+
+Hazel Smith 14:57
+Re: "should we" (shove this into the DNS)... surely some non-trivial proportion of operators have already shoved this functionality into their DNS recursive services, and I guess the question is whether we want to support/obstruct/encourage/discourage/have no opinion on that
+
+Petr Špaček 14:58
+@Ben I think the question is not if DNS is the right place. This things is happening in the wild. The question is if want to allow better UX for what is happening right now.
+
+Hazel Smith 14:58
+"this functionality" as in "malware filtering etc being done by DNS operators at query time"
+
+Tim Wicinski 14:58
+agree Hazel - as an operator I see so many variations on this that maybe some consistency would be useful?
+
+Petr Špaček 14:58
+Ah, I forgot to scroll down to see that other people already said.
+
+Andrew Campling 14:58
++1 to Petr
+
+Warren Kumari 14:59
+Philosophically, people shouldn't futz with answers... but, if they are going to, it should would be nice if they could tell you that they did, and why..
+
+Andrew Campling 15:00
+A great point about non-browser client s/w
+
+Barry Leiba 15:00
+EKR, Recent results on measuring the end-to-end success rate of DNSSEC and new record types
+
+Brian Dickson 15:00
+E.g. REST APIs, so +1 and echoing Viktor
+
+John O'Brien 15:06
+Did somebody set the session on 2x speed?
+
+Antoin Verschuren 15:07
+;-) It's Eric. It's very hard for him to talk even slower :-)
+
+Hazel Smith 15:07
+(Speed is fine for me, but I see your point - I thought you meant the whole WG)
+
+Petr Špaček 15:12
+We cannot hear the room.
+Or is it just me?
+
+Antoin Verschuren 15:12
+I hear the room...
+
+Yoshitaka Aharen 15:13
+I can hear EKR speaking
+
+Randy Bush 15:13
+audio ok for me except when ekr turns away from mic
+
+Tim Wicinski 15:13
+not the remote speaker?
+
+Petr Špaček 15:13
+Okay, local problem. Sorry for the noise.
+
+Antoin Verschuren 15:13
+I can hear everybody
+
+Warren Kumari 15:13
+I'll just type instead: EKR, you've made me sad....
+
+Randy Bush 15:15
+@warren: as ekr said, ImperialViolet told us this a decade ago. but these are finer grained measurements, which is cool
+
+Petr Špaček 15:16
+Well, next time ISPs start to weep about DoH and DoT I know the slides to show them.
+
+Warren Kumari 15:16
+Yup. Also, I was hoping that things had gotten much better over time...
+
+Brian Dickson 15:16
+@ekr or whoever else, could you make anonymized raw data available for other slicing/dicing/aggregation of it, to provide back to you for your benefit too?
+
+Randy Bush 15:17
+i wish i lived in that universe
+
+Warren Kumari 15:17
+@Randy: You mean the one where things get better over time? Yeah, me too...
+But hope springs eternal...
+
+Hazel Smith 15:19
+One person's comment in the room that it's "interesting and depressing" is a fair summary I think
+Thanks, ekr for doing this and sharing the results!
+
+Barry Leiba 15:19
+Peter T, consistency is mandatory
+
+Petr Špaček 15:19
+@ekr Excellent data, thank you very much. By any chance, is a preprint version of the paper available somewhere?
+
+Hugo Salgado 15:25
+I support the demand for consistency between NS, it's the mechanism that we have implemented in our TLD for scanning, and I understand that zonemaster also performs checks in all NS. It is the right and necessary thing to do.
+Bootstraping from unsigned to signed has more demanding requirements than a simple rollover.
+
+Jabber 15:28
+dkg: Ben: the draft doesn't say anything about querying cadence at all -- why add querying cadence for this part?
+
+Benjamin Schwartz 15:29
+dkg: I think the correct cadence is not obvious, so some guidance would be useful
+
+Jabber 15:29
+dkg: it seems to me that the most relevant missing time constant has to do with whether the responses are consistent, given that the responses don't all come in perfectly simultaneously
+
+Hazel Smith 15:29
+Thanks everyone!
+
+Jabber 15:29
+dkg: i'd assume that the answer to that is "within the slop allowed by the TTLs"
+
+Tim Wicinski 15:29
+Yes Thanks ALL
+
+Jabber 15:30
+dkg: but the text that was on the slide at least didn't explicitly say that
+dkg: ben, i think the correct cadence is non-obvious for all of the CDS/CDNSKEY polling
