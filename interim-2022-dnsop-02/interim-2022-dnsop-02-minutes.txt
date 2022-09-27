@@ -1,0 +1,301 @@
+# DNS Operations (DNSOP) Working Group
+## interim-2022-dnsop-02
+
+
+### Chairs
+* Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
+* Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
+* Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
+
+### IESG Overlord
+* Warren Kumari [warren@kumari.net](warren@kumari.net)
+
+### Document Status
+* [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
+* [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
+* [Propose Slides](https://datatracker.ietf.org/meeting/interim-2022-dnsop-02/session/dnsop)
+
+
+## Session interim-2022-dnsop-02
+
+* Date: 26 September 2022
+* Time: 15:00-16:00 UTC
+* MeetEcho: [https://meetings.conf.meetecho.com/interim/?short=40f2f302-13a7-477b-b6fd-3d3d0754f05f](https://meetings.conf.meetecho.com/interim/?short=40f2f302-13a7-477b-b6fd-3d3d0754f05f)
+
+* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* Minutes: [https://notes.ietf.org/notes-ietf-interim-2022-dnsop-02-dnsop](https://notes.ietf.org/notes-ietf-interim-2022-dnsop-02-dnsop)
+
+
+## Agenda
+
+### Administrivia
+
+* Agenda Bashing, Blue Sheets, etc,  5 min
+
+
+### Current Working Group Business
+
+*   DNS Terminology 
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8499bis/
+    - Paul Hoffman and Kazunori Fujiwara, 55 min
+    - Chairs Action:
+
+Paul Hoffman(PH): Are we interept original document; or new definitions based on current DNS usage
+
+
+### Definition of Bailiwick
+
+* Number of proposals
+* Definition of in-bailiwick
+  - in-domain
+  - sibling domain
+  - out-of-bailiwick
+ 
+Warren Kumari(WK): should not fully drop a definition, but note no longer using. 
+
+PH: What should be saying on how its defined. 
+
+John Levine(JH): don't try to define now
+
+PH: Has been used in the past, but we don't really know anymore
+
+Jim Reid(JR): drop the term in-baliwick we must mention not to define it
+
+
+* Drop the term “in-bailiwick”
+  - Only use “in-domain” and “sibling domain”?
+ 
+**Action** Pull the formal definition and write a historical definition
+
+
+
+* Scope of use of bailiwick
+  - Strict use with A/AAAA: “needed for DNS resolution”
+  - Other RR types for DNSSEC, SVCB, …
+
+PH: in-baliwick consensus call Old vs Current; Current means future
+
+Kazunori Fujiwara: I think the terms *bailiwick, in-domain, sibling are necessary for glue is not optional draft.
+(in-domain glue is necessary, sibling glue is optional, out-of-bailiwick glue SHOULD be ignored)
+
+
+### Definition of glue 
+
+* Definition of glue (on DNSOP mailing list, plus some small amendments)
+  - “Glue is non-authoritative data in a zone that is transmitted in the additional section of a referral response on the basis that the data might be necessary for resolution to proceed at the referred name servers.”
+
+* Necessary vs. useful discussion
+  - too broad definition?
+  - use “glue for in-domain/sibling domain name servers” as a term (from draft glue-is-not-optional)
+
+PH: definition of glue has changed over time
+
+Duane Wessels: This definition does not say which RRTypes are used, we may need a registry
+Narrow definition for now. 
+
+List of RRTypes
+
+Defintion use necessary or useful
+
+**action** wording on in-domain
+
+### Definition of sibling glue
+
+* Definition of sibling zone and glue 
+
+* Sibling zones: two zones whose delegations are in the same parent zone.
+
+* Sibling glue: addresses of nameservers that are in a sibling zone.
+
+* Necessary vs. useful interpretation
+  - Same as for in-domain glue?
+
+sibling zone
+sibling glue
+
+
+```
+Jim Reid 11:01
+Is anyone speaking or is my audio bust?
+
+Eliot Lear 11:02
+I can hear you
+
+Sean Turner 11:02
+I can hear.
+
+Warren Kumari 11:02
+I can hear you
+
+Suzanne Woolf 11:02
+Benno sounds fine
+
+Tim Wicinski 11:02
+https://notes.ietf.org/notes-ietf-interim-2022-dnsop-02-dnsop?edit
+
+Jim Reid 11:02
+Thanks Benno. I hear you OK.
+
+Tim Wicinski 11:02
+I'll be taking notes today
+But primary today is putting together wording on baliwick
+
+Kazunori Fujiwara 11:07
+draft-ietf-dnsop-glue-is-not-optional-06 uses "in-domain" and "sibling", However, it does not define these words and does not refer RFC8499...
+
+Tim Wicinski 11:08
+Correct - what should come out of this discussion is terminology that the glue-is-not-optional draft will use.
+My opinion is that one goal of the terminology doc was to create current definitions
+but we want to hear from y'all
+I copied/pasted the 8499 text at the end of the HedgeDoc https://notes.ietf.org/notes-ietf-interim-2022-dnsop-02-dnsop?edit
+
+Kazunori Fujiwara 11:15
+"in-bailiwick" is often used in non-IETF documents.
+
+Warren Kumari 11:15
+"current definitions" + a note that the definition has changed over time so that people reading historic documents are not confused? Or jsut "this is what it means, be told" ?
+
+Wes Hardaker 11:17
+it exists in way too many docs and logs to not define it
+
+PE 11:17
+so you mean definition as more histrorical context than current best use of term?
+
+Warren Kumari 11:17
+@PE : Yah, kinda. "I jsut read a document with this term, but had no idea what it means" help...
+
+Tim Wicinski 11:20
+broken up on my end
+
+Warren Kumari 11:20
+Not just at Benos emd. Audio dropped out for me too
+
+John Levine 11:20
+Yes, and don not try to define it now
+
+Roy Arends 11:21
+audio dropped here too
+
+John Levine 11:21
+Sorry bad ipad audio
+Only as a historical use
+
+Suzanne Woolf 11:22
+IMO it's okay to admit the term is widely used but ambiguous.
+
+Paul Hoffman 11:24
+I like "historical term"
+
+Duane Wessels 11:24
+agreed
+
+Tim Wicinski 11:25
+yes
+
+Kazunori Fujiwara 11:26
+For "in-domain" and "sibling", there was no clear definition of terminology before RFC 7719, but I thought it was necessary, so I borrowed terminology from Peter Koch's draft.
+
+Jim Reid 11:27
+@ Wes, I think it's impractical to come up with definitions for how that term as been used in all those non-IETF docs. IMO a "we chose not do that" is the right way forward.
+
+Tim Wicinski 11:29
+"Pull the formal definition of baliwick and write a historical definition"
+
+Kazunori Fujiwara 11:29
+I think the terms *bailiwick, in-domain, sibling are necessary for glue is not optional draft.
+
+Tim Wicinski 11:29
+I do agree
+
+Duane Wessels 11:31
+no audio, I'll use chat
+is this slide really about use of glue?
+rather than use of in-bailiwick?
+
+Warren Kumari 11:32
+I don't really care -- for my use case, I'm assuming people can solve their issue with: https://www.google.com/search?q=in+ballwick
+
+Duane Wessels 11:32
+ok, thanks
+yes I think that would be best
+I'd rather not define the terms in the glue is not optional doc
+agreed
+
+Tim Wicinski 11:35
+strict definition or more ambigious historical?
+
+Duane Wessels 11:36
+sorry still no audio for me
+
+Kazunori Fujiwara 11:39
+(in-domain glue is necessary, sibling glue is optional, out-of-bailiwick glue is unnecessary)
+
+Tim Wicinski 11:39
+Thank You Kazunori !
+
+Kazunori Fujiwara 11:40
+(out-of-bailiwick glue SHOULD be ignored, sorry)
+
+Tim Wicinski 11:41
+I'm happy of not updating 2181
+
+John Levine 11:42
+Agree with Paul, most useful to describe fuzzy existing practice
+then I hope say this is the preferred meaning
+
+Kazunori Fujiwara 11:43
+RFC 2181 5.4.1 Ranking Data seems to target older nameserver implementations that merge all the data.
+
+Tim Wicinski 11:48
+My feeling is in the future something like SVCB may become glue, we're not there yet
+
+Kazunori Fujiwara 11:52
+Is the EXCHANGE A/AAAA that comes with the MX RR glue ?
+
+John Levine 11:52
+Not as I've ever understood it
+
+Duane Wessels 11:53
+@kazunori I'd say no because those could be done as a separate query
+
+John Levine 11:54
+we had a big fight about sibling glue
+since it only works sometimes
+
+Kazunori Fujiwara 11:56
+in-domain, sibling, out-of-bailiwick are exclusive.
+in-bailiwick = in-domain + sibling
+
+Warren Kumari 11:58
+I dont.
+
+Paul Hoffman 11:58
+Please: no
+
+Peter Thomassen 11:58
+I'll have to leave
+
+Warren Kumari 11:58
+I have another meeting now
+
+Eliot Lear 11:58
+nah
+
+Paul Hoffman 11:59
+It's not a short conversation
+
+Eliot Lear 11:59
+^^^
+
+Sean Turner 11:59
+until next time
+
+Eliot Lear 11:59
+thanks chairs
+
+Kazunori Fujiwara12:00
+Thank you.
+
+Suzanne Woolf12:00
+Thanks all, this was a good session!
+
