@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 3 August 2022
+### Updated: 13 September 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -16,18 +16,24 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## IESG Queue
 
+* draft-ietf-dnsop-dnssec-bcp
 
 ## WGLC Approved
 
 * draft-ietf-dnsop-rfc5933-bis
 
-## In WG Last Call
-
 * draft-ietf-dnsop-avoid-fragmentation
 
-* draft-ietf-dnsop-dnssec-bcp
+* draft-ietf-dnsop-dns-catalog-zones
+
+## In WG Last Call
+
+* draft-ietf-dnsop-dnssec-validator-requirements
 
 ## Upcoming WG Last Calls
+
+* draft-ietf-dnsop-glue-is-not-optional
+    - WGLC Real Soon Now 
 
 ## Adopted by WG, Under Discussion (ranked)
 
@@ -35,27 +41,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Currently being Held
     - **Action**: Chairs
 
-* draft-ietf-dnsop-dns-catalog-zones
-    - WGLC in September 
-
 * draft-ietf-dnsop-dns-error-reporting
     - **Action**: 
 
 * draft-ietf-dnsop-dnssec-bootstrapping
     - Recently adopted
 
-* draft-ietf-dnsop-dnssec-validator-requirements
-    - WGLC in September 
-
-* draft-ietf-dnsop-glue-is-not-optional
-    - WGLC Real Soon Now 
-
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
     - **Action**: Shumon working on adding an author to help
 
 * draft-ietf-dnsop-rfc8499bis
-    -  **Action**: Interim in September
+    -  **Action**: Interim 25 September
 
 * draft-ietf-dnsop-zoneversion
     - Was named rrserial

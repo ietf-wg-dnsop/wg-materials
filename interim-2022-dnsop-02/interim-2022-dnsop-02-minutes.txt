@@ -61,13 +61,10 @@ PH: Has been used in the past, but we don't really know anymore
 
 Jim Reid(JR): drop the term in-baliwick we must mention not to define it
 
-
 * Drop the term “in-bailiwick”
   - Only use “in-domain” and “sibling domain”?
  
 **Action** Pull the formal definition and write a historical definition
-
-
 
 * Scope of use of bailiwick
   - Strict use with A/AAAA: “needed for DNS resolution”
@@ -78,8 +75,7 @@ PH: in-baliwick consensus call Old vs Current; Current means future
 Kazunori Fujiwara: I think the terms *bailiwick, in-domain, sibling are necessary for glue is not optional draft.
 (in-domain glue is necessary, sibling glue is optional, out-of-bailiwick glue SHOULD be ignored)
 
-
-### Definition of glue 
+### Definition of Glue
 
 * Definition of glue (on DNSOP mailing list, plus some small amendments)
   - “Glue is non-authoritative data in a zone that is transmitted in the additional section of a referral response on the basis that the data might be necessary for resolution to proceed at the referred name servers.”
@@ -97,9 +93,9 @@ List of RRTypes
 
 Defintion use necessary or useful
 
-**action** wording on in-domain
+**Action** wording on in-domain
 
-### Definition of sibling glue
+### Definition of Sibling Glue
 
 * Definition of sibling zone and glue 
 
