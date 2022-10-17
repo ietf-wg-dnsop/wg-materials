@@ -11,3 +11,9 @@
     - Chairs Action:
 
 ## Requests
+
+*   draft-ietf-dnsop-caching-resolution-failures:
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
+    - Requester Email: dwessels@verisign.com
+    - Time Requested: 5-10 minutes
+    - Chairs Action:
