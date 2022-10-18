@@ -17,3 +17,10 @@
     - Requester Email: dwessels@verisign.com
     - Time Requested: 5-10 minutes
     - Chairs Action:
+
+*   Draft name: draft-homburg-add-codcp
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-add-codcp/
+    - Requester Email: philip@nlnetlabs.nl
+    - Time Requested: 15 minutes
+    - Chairs Action:
+
