@@ -18,8 +18,9 @@
 * [Upload Slides](https://datatracker.ietf.org/meeting/115/session/dnsop)
 
 
-* Date:
-* Time:
+* Date: Tuesday November 8, 2022
+* Time: 0930-1130 UTC
+* Kensington 2
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf115/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf115/?group=dnsop&short=&item=1)
 * Minutes: [https://codimd.ietf.org/notes-ietf-115-dnsop](https://codimd.ietf.org/notes-ietf-115-dnsop)
 
@@ -44,7 +45,7 @@
 
 *   Negative Caching of DNS Resolution Failures
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
-    - Duane Wessels dwessels@verisign.com, 5-10 min
+    - Duane Wessels dwessels@verisign.com, 10 min
     - Chairs Action:
 
 ### For Consideration
