@@ -21,7 +21,7 @@
 *   Negative Caching of DNS Resolution Failures
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
     - Requester Email: Duane Wessels dwessels@verisign.com
-    - Time Requested: 5-10 minutes
+    - Time Requested: 10 minutes
     - Chairs Action:
 
 *   Control Options For DNS Client Proxies
@@ -36,8 +36,8 @@
     - Time Requested: 15 minutes
     - Chairs Action:
 
-*   key exchange in multi-signer setups
-    - Datatracker URL: https://datatracker.ietf.org/
+*   Multi-Signer Key-Exchange (MSKE)
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-mske/
     - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 15 minutes
     - Chairs Action:
