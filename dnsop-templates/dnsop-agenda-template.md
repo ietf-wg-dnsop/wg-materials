@@ -42,18 +42,10 @@
 *
 
 
-### New Working Group Business
+### For Consideration
 
 *
 
 
 ### Time Permitting
 
-## Session II
-
-* Date:
-* Time:
-* Room: []()
-
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()

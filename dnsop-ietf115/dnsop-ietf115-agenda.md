@@ -18,8 +18,6 @@
 * [Upload Slides](https://datatracker.ietf.org/meeting/115/session/dnsop)
 
 
-## Session I
-
 * Date:
 * Time:
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf115/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf115/?group=dnsop&short=&item=1)
@@ -39,21 +37,33 @@
 
 ### Current Working Group Business
 
-*
+*   DNS Error Reporting
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-error-reporting/
+    - Roy Arends <roy@dnss.ec>, 15 min
+    - Chairs Action:
 
+*   Negative Caching of DNS Resolution Failures
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
+    - Duane Wessels dwessels@verisign.com, 5-10 min
+    - Chairs Action:
 
-### New Working Group Business
+### For Consideration
 
-*
+*   Control Options For DNS Client Proxies
+    - https://datatracker.ietf.org/doc/draft-homburg-add-codcp/
+    - Philip Homburg philip@nlnetlabs.nl, 15 min
+    - Chairs Action:
 
+*   Consistency for CDS/CDNSKEY and CSYNC is Mandatory
+    - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
+    - Peter Thomassen <peter@desec.io>, 15 min
+    - Chairs Action:
+
+*   key exchange in multi-signer setups
+    - https://datatracker.ietf.org/
+    - Peter Thomassen <peter@desec.io>, 15 min
+    - Chairs Action:
 
 ### Time Permitting
 
-## Session II
 
-* Date:
-* Time:
-* Room: []()
-
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* EtherPad: []()
