@@ -67,4 +67,7 @@
 
 ### Time Permitting
 
-
+*   The ALT Special Use Top Level Domain
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/
+    - Warren Kumari, warren@kumari.net, 15 min
+    - Chairs Action:
