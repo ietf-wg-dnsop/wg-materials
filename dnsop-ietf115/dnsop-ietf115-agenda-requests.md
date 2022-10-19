@@ -18,15 +18,27 @@
     - Time Requested: 15 min
     - Chairs Action:
 
-*   draft-ietf-dnsop-caching-resolution-failures:
+*   Negative Caching of DNS Resolution Failures
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
     - Requester Email: Duane Wessels dwessels@verisign.com
     - Time Requested: 5-10 minutes
     - Chairs Action:
 
-*   Draft name: draft-homburg-add-codcp
+*   Control Options For DNS Client Proxies
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-add-codcp/
     - Requester Email: Philip Homburg philip@nlnetlabs.nl
+    - Time Requested: 15 minutes
+    - Chairs Action:
+
+*   Consistency for CDS/CDNSKEY and CSYNC is Mandatory
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
+    - Requester Email: Peter Thomassen <peter@desec.io>
+    - Time Requested: 15 minutes
+    - Chairs Action:
+
+*   key exchange in multi-signer setups
+    - Datatracker URL: https://datatracker.ietf.org/
+    - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 15 minutes
     - Chairs Action:
 
