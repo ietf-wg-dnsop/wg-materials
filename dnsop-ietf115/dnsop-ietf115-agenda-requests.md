@@ -20,13 +20,13 @@
 
 *   draft-ietf-dnsop-caching-resolution-failures:
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
-    - Requester Email: dwessels@verisign.com
+    - Requester Email: Duane Wessels dwessels@verisign.com
     - Time Requested: 5-10 minutes
     - Chairs Action:
 
 *   Draft name: draft-homburg-add-codcp
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-add-codcp/
-    - Requester Email: philip@nlnetlabs.nl
+    - Requester Email: Philip Homburg philip@nlnetlabs.nl
     - Time Requested: 15 minutes
     - Chairs Action:
 
