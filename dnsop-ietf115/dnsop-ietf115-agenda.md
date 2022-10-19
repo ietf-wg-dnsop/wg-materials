@@ -60,8 +60,8 @@
     - Peter Thomassen <peter@desec.io>, 15 min
     - Chairs Action:
 
-*   key exchange in multi-signer setups
-    - https://datatracker.ietf.org/
+*   Multi-Signer Key-Exchange (MSKE)
+    - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-mske/
     - Peter Thomassen <peter@desec.io>, 15 min
     - Chairs Action:
 

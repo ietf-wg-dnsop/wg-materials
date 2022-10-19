@@ -36,7 +36,8 @@ def getitems(newlines):
             addtalk(agendaitem)
             title = ' '.join(fields[1:])
             title = title.replace('Draft name: ', '')
-            agendaitem = {'title': title}
+            agendaitem = {}
+            agendaitem.setdefault('title', title)
         if 'Datatracker URL' in l:
             url = fields[-1]
             wgdoc = bool('draft-ietf-dnsop' in url)
@@ -64,6 +65,9 @@ def printitem(docs):
 def printitems():
     newlines = []
 
+    alltimes.append("Agenda Bashing Blue Sheets\tChairs\t10\n")
+    alltimes.append("Updates of Old Work\tChairs\t10\n")
+
     alltimes.append('### Current Working Group Business\n')
     newlines.append('### Current Working Group Business\n')
     newlines.extend(printitem(alltalks.get('wgdocs')))
@@ -75,7 +79,7 @@ def printitems():
     for l in newlines:
         print(l)
 
-    print("------\n\n# timetable")
+    print("------\n# Timetable\n")
     for t in alltimes:
         print(t)
 
