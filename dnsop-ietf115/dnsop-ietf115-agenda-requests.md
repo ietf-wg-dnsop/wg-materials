@@ -12,6 +12,12 @@
 
 ## Requests
 
+*   DNS Error Reporting
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-error-reporting/
+    - Requester Email: Roy Arends <roy@dnss.ec>
+    - Time Requested: 15 min
+    - Chairs Action:
+
 *   draft-ietf-dnsop-caching-resolution-failures:
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
     - Requester Email: dwessels@verisign.com
