@@ -20,13 +20,13 @@
 
 *   Negative Caching of DNS Resolution Failures
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
-    - Requester Email: Duane Wessels dwessels@verisign.com
+    - Requester Email: Duane Wessels <dwessels@verisign.com>
     - Time Requested: 10 minutes
     - Chairs Action:
 
 *   Control Options For DNS Client Proxies
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-add-codcp/
-    - Requester Email: Philip Homburg philip@nlnetlabs.nl
+    - Requester Email: Philip Homburg <philip@nlnetlabs.nl>
     - Time Requested: 15 minutes
     - Chairs Action:
 
@@ -46,4 +46,10 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/
     - Requester Email: Warren Kumari, warren@kumari.net
     - Time Requested: 15 minutes
+    - Chairs Action:
+
+*   Draft name: Structured Data for Filtered DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - Requester Email: tirumal reddy <kondtir@gmail.com>
+    - Time Requested: 10 minutes
     - Chairs Action:

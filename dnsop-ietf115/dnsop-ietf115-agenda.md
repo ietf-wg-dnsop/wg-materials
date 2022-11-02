@@ -19,12 +19,13 @@
 
 
 * Date: Tuesday November 8, 2022
-* Time: 0930-1130 UTC
-* Kensington 2
+* Time: 09:30-11:30 GMT (UTC)
+* Kensington 1
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf115/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf115/?group=dnsop&short=&item=1)
-* Minutes: [https://codimd.ietf.org/notes-ietf-115-dnsop](https://codimd.ietf.org/notes-ietf-115-dnsop)
+* Minutes: [https://notes.ietf.org/notes-ietf-115-dnsop](https://notes.ietf.org/notes-ietf-115-dnsop)
 
 * Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* Zulip:   [https://zulip.ietf.org/#narrow/stream/dnsop](https://zulip.ietf.org/#narrow/stream/dnsop)
 
 
 #
@@ -32,7 +33,7 @@
 
 ### Administrivia
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc, 5 min
 
 * Updates of Old Work, Chairs, 10 min
 
@@ -45,14 +46,14 @@
 
 *   Negative Caching of DNS Resolution Failures
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/
-    - Duane Wessels dwessels@verisign.com, 10 min
+    - Duane Wessels <dwessels@verisign.com>, 10 min
     - Chairs Action:
 
 ### For Consideration
 
 *   Control Options For DNS Client Proxies
     - https://datatracker.ietf.org/doc/draft-homburg-add-codcp/
-    - Philip Homburg philip@nlnetlabs.nl, 15 min
+    - Philip Homburg <philip@nlnetlabs.nl>, 15 min
     - Chairs Action:
 
 *   Consistency for CDS/CDNSKEY and CSYNC is Mandatory
@@ -65,9 +66,16 @@
     - Peter Thomassen <peter@desec.io>, 15 min
     - Chairs Action:
 
-### Time Permitting
+### Current Working Group Business (cont'd)
 
 *   The ALT Special Use Top Level Domain
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/
-    - Warren Kumari, warren@kumari.net, 15 min
+    - Paul Hoffman <paul.hoffman@icann.org>, 15 min
+    - Chairs Action:
+
+### Time Permitting
+
+*   Structured Data for Filtered DNS
+    - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
+    - tirumal reddy <kondtir@gmail.com>, 10 min
     - Chairs Action:
