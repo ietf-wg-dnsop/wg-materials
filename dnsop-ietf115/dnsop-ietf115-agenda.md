@@ -39,6 +39,10 @@
 
 ### Current Working Group Business
 
+*   The ALT Special Use Top Level Domain
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/
+    - Paul Hoffman <paul.hoffman@icann.org>, 15 min
+    - Chairs Action:
 *   DNS Error Reporting
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-error-reporting/
     - Roy Arends <roy@dnss.ec>, 15 min
@@ -64,13 +68,6 @@
 *   Multi-Signer Key-Exchange (MSKE)
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-mske/
     - Peter Thomassen <peter@desec.io>, 15 min
-    - Chairs Action:
-
-### Current Working Group Business (cont'd)
-
-*   The ALT Special Use Top Level Domain
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/
-    - Paul Hoffman <paul.hoffman@icann.org>, 15 min
     - Chairs Action:
 
 ### Time Permitting
