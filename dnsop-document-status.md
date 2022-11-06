@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 13 September 2022
+### Updated: 5 November 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -13,14 +13,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
 
+* ["DNS Security Extensions (DNSSEC)"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/)
 
 ## IESG Queue
 
-* draft-ietf-dnsop-dnssec-bcp
+* draft-ietf-dnsop-rfc5933-bis
 
 ## WGLC Approved
-
-* draft-ietf-dnsop-rfc5933-bis
 
 * draft-ietf-dnsop-avoid-fragmentation
 
@@ -33,16 +32,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-glue-is-not-optional
-    - WGLC Real Soon Now 
 
-## Adopted by WG, Under Discussion (ranked)
+* draft-ietf-dnsop-rfc8499bis
 
 * draft-ietf-dnsop-alt-tld
-    - Currently being Held
-    - **Action**: Chairs
 
 * draft-ietf-dnsop-dns-error-reporting
-    - **Action**: 
+
+## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-dnssec-bootstrapping
     - Recently adopted
@@ -51,30 +48,29 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - document has three TODO to address
     - **Action**: Shumon working on adding an author to help
 
-* draft-ietf-dnsop-rfc8499bis
-    -  **Action**: Interim 25 September
-
 * draft-ietf-dnsop-zoneversion
     - Was named rrserial
 
 * draft-ietf-dnsop-dnssec-automation
-    - Recently adopted
 
 * draft-ietf-dnsop-domain-verification-techniques
-    - Recently adopted
 
 * draft-ietf-dnsop-caching-resolution-failures
-    - Recently adopted
+
+* draft-ietf-dnsop-svcb-dane
+    - was draft-rebs-dnsop-svcb-dane
 
 ## Recently Expired Documents
 
-
 ## Active Calls for Adoption
 
-* draft-rebs-dnsop-svcb-dane
-    - Needs a few more
-
 ## Candidates For Adoption
+
+* draft-homburg-add-codcp
+
+* draft-thomassen-dnsop-cds-consistency
+
+* draft-thomassen-dnsop-mske
 
 * draft-dulaunoy-dnsop-passive-dns-cof
 
@@ -85,7 +81,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## New Documents
 
 * draft-yorgos-dnsop-dry-run-dnssec
-
 
 ## Needs more Review
 
