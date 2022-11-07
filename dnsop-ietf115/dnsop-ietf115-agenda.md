@@ -76,3 +76,8 @@
     - https://datatracker.ietf.org/doc/draft-wing-dnsop-structured-dns-error-page/
     - tirumal reddy <kondtir@gmail.com>, 10 min
     - Chairs Action:
+
+*   Survey of Domain Verification Techniques using DNS 
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Shivan Kaul Sahib <shivankaulsahib@gmail.com>, 10 min
+    - Chairs Action:
