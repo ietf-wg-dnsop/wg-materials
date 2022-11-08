@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 5 November 2022
+### Updated: 7 November 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -19,11 +19,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc5933-bis
 
+* draft-ietf-dnsop-dns-catalog-zones
+
 ## WGLC Approved
 
 * draft-ietf-dnsop-avoid-fragmentation
-
-* draft-ietf-dnsop-dns-catalog-zones
 
 ## In WG Last Call
 
@@ -37,19 +37,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-alt-tld
 
+* draft-ietf-dnsop-zoneversion
+
 * draft-ietf-dnsop-dns-error-reporting
 
 ## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-dnssec-bootstrapping
-    - Recently adopted
 
 * draft-ietf-dnsop-ns-revalidation
     - document has three TODO to address
     - **Action**: Shumon working on adding an author to help
-
-* draft-ietf-dnsop-zoneversion
-    - Was named rrserial
 
 * draft-ietf-dnsop-dnssec-automation
 
@@ -66,17 +64,15 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Candidates For Adoption
 
+* draft-wing-dnsop-structured-dns-error-page
+
 * draft-homburg-add-codcp
 
 * draft-thomassen-dnsop-cds-consistency
 
 * draft-thomassen-dnsop-mske
 
-* draft-dulaunoy-dnsop-passive-dns-cof
-
 * draft-klh-dnsop-rfc8109bis
-
-* draft-wing-dnsop-structured-dns-error-page
 
 ## New Documents
 
