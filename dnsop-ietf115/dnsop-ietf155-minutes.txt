@@ -1,0 +1,78 @@
+
+
+
+DNSOP WG
+IETF 115
+2022-11-08
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+Notes here are only what happened at the mic, not on the slides
+Minutes taken by Paul Hoffman
+
+Chairs' slides
+    https://datatracker.ietf.org/meeting/115/materials/slides-115-dnsop-chairs-slides
+
+The ALT Special Use Top Level Domain
+    draft-ietf-dnsop-alt-tld, Paul Hoffman
+    ###############TIM WILL FILL IN HERE######################
+
+Hackathon at IETF 115
+    Willem Toorop presented on the Hackathon results
+    Perl libraries for DNS error reporting
+    Encrypted Client Hello was also implented by one implementer
+
+DNS Error Reporting
+    draft-ietf-dnsop-dns-error-reporting, Roy Arends
+    Viktor Dukhovni: Should a resolver behind a forwarder do something different:
+        Roy: Could cause cascading
+            Will add language regarding forwarders, or clients who don't do error detecting
+
+Negative Caching of DNS Resolution Failures
+    draft-ietf-dnsop-caching-resolution-failures, Duane Wessels
+    Peter Thomassen: Partitioning of the cache is up to the implementers, but the ECS breaks that
+        Duane: If an implementation normally has different caches based on the ECS, the cache can blow up
+        Peter: Could go into "protect yourself" section
+    Peter Koch: Resolution is not DNSSEC protected; add this to Security Considerations
+    Ralf Weber: It would be great to ignore ECS, but doing so would be hard
+        Leave up to the implementation
+
+Control Options For DNS Client Proxies
+    draft-homburg-add-codcp, Philip Homburg
+    Benno: Wants to know if the WG wants this
+    Ralf: Is this local-only, or can you extend it?
+        Only between two programs
+        Why not do this as an API
+        Philip: Wants to do this within the DNS protocol
+            Outside the DNS community if we do an API
+        Ralf: Prefers API for on-machine, DNS for off-machine
+    Viktor: DANE/PKIX is either no mention or mandatory: this is fragile
+        This ignores opportunistic DANE
+        Philip: Set both bits to zero to get that operation
+            Can clarify the language to use DANE
+    Benjamin: Disagrees that we don't stanardize APIs
+        This feels like an API
+        Browsers have rapidly-evolving requirements for how they do DNS lookups
+        This is a new protocol between two parties
+        Philip: The client has a probing query is already there
+
+Consistency for CDS/CDNSKEY and CSYNC is Mandatory
+    draft-thomassen-dnsop-cds-consistency, Peter Thomassen
+    Wes: Supports this
+        Likes mandating checking everywhere
+    Ralf: Supports this
+        Can't ask "all" servers in anycast
+        What if you don't get a response
+        Peter: Ask each provider
+            Is willing to add in wording about unresponses 
+        Paul Wouters: This wasn't in CSYNC, our bug
+    Viktor: Concern was hidden masters and nameservers that are gone and are never going to come back
+
+Multi-Signer Key-Exchange (MSKE)
+    draft-thomassen-dnsop-mske, Peter Thomassen
+    Viktor: What about ongoing ZSK rollovers, particularly timing
+        Peter: If one provider does a ZSK rollover unilaterally: unsafe
+            Needs to think more about it
+
+Structured Data for Filtered DNS
+    draft-wing-dnsop-structured-dns-error-page, Tirumal Reddy
+    Lots of industry interest
+
