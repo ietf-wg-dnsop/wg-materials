@@ -1,6 +1,4 @@
 
-
-
 DNSOP WG
 IETF 115
 2022-11-08
@@ -13,7 +11,24 @@ Chairs' slides
 
 The ALT Special Use Top Level Domain
     draft-ietf-dnsop-alt-tld, Paul Hoffman
-    ###############TIM WILL FILL IN HERE######################
+
+    Wes Hardaker: Root Server Operator. Add should not forward statement.
+    Preference is "Should"
+
+    Anthony Somerset: Does not AS112.  Leakage from root operators?
+    Do not need to do anything.
+
+    Eliot Lear:  Many thanks, GNS relies on this
+
+    Paul Wouters: AS112 wrong tool for this
+
+    Ben Schwartz:  Queries to the root.  wants DNSSEC vaidated.
+    "DNS Context" is confusuing
+
+    Rob Wilton: Thanks for working on this, could this now focus on stub resolvers.
+    Recommends Standards Track not Infomational.
+    **Chairs Action: Time for WGLC**
+
 
 Hackathon at IETF 115
     Willem Toorop presented on the Hackathon results
@@ -65,6 +80,7 @@ Consistency for CDS/CDNSKEY and CSYNC is Mandatory
             Is willing to add in wording about unresponses 
         Paul Wouters: This wasn't in CSYNC, our bug
     Viktor: Concern was hidden masters and nameservers that are gone and are never going to come back
+    **Chairs Action: CfA**
 
 Multi-Signer Key-Exchange (MSKE)
     draft-thomassen-dnsop-mske, Peter Thomassen
@@ -75,4 +91,5 @@ Multi-Signer Key-Exchange (MSKE)
 Structured Data for Filtered DNS
     draft-wing-dnsop-structured-dns-error-page, Tirumal Reddy
     Lots of industry interest
+    **Chairs Action: CfA**
 

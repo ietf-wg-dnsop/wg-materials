@@ -1,0 +1,403 @@
+Tim Wicinski 04:21
+Can folks hear me or see those slides?
+
+Ralf Weber 04:26
+We heard you typing earlier, but its quiet now
+
+Tim Wicinski 04:27
+thx do have the noisy keyboard
+
+Nigel Hickson 04:33
+Good morning indeed. Thanks for Session
+
+Tim Wicinski 04:33
+taking notes via https://notes.ietf.org/notes-ietf-115-dnsop?edit
+
+Peter van Dijk 04:37
+audio is terrible
+
+David Lawrence 04:37
+Lots of static and echo from your link, Tim
+
+Hazel Smith 04:37
+OK, so it's not jujst me that's hearing the "darth vader" voice?
+
+Peter van Dijk 04:37
+there's an echo and lots of distortion
+
+Anthony Somerset 04:37
+tim your mic seems to be causing some wierd dalek like inteference
+
+David Lawrence 04:37
+Getting worse
+
+Shane Kerr 04:37
+THE BEES!!!
+
+Peter van Dijk 04:37
+Benno sounds fine
+
+Anthony Somerset 04:37
+@meetecho may need your assistance incase its a room issue
+
+Suzanne Woolf 04:38
+@meetecho we're having some trouble with echoes for a remote speaker
+
+Wes Hardaker 04:38
+tim turn off and back on again.
+
+Lorenzo Miniero 04:38
+We're aware and monitoring
+
+Daniel Gillmor 04:38
+it's echoing bees
+
+Suzanne Woolf 04:38
+thx
+
+Peter van Dijk 04:38
+better!
+
+David Lawrence 04:38
+Reboot Tim!
+
+Daniel Gillmor 04:38
+but now it's better
+
+Shane Kerr 04:38
+Wow reboot actually worked.
+
+Suzanne Woolf 04:38
+There is no need to reboot Tim :-)
+
+Daniel Gillmor 04:38
+the bees are returning
+
+Peter van Dijk 04:38
+small numbers of bees spotted
+they're gaining ground
+
+Warren Kumari 04:39
+Turn if off and on again!
+
+Jan-Frederik Rieckers 04:39
+And it gets worse again.
+It seems that the audio signal is duplicated somehow.
+
+Anthony Somerset 04:39
+its starting to degrade again
+tim your mic seems to be causing some wierd dalek like inteference
+
+Jan-Frederik Rieckers 04:39
+and the duplicated signal is delayed. Wow. I would really like to know how this could happen....
+
+Tim Wicinski 04:39
+I'll drop out. Arrggh !
+
+Anthony Somerset 04:39
+its starting to degrade again
+
+Tim Wicinski 04:40
+We agree !
+
+Warren Kumari 04:40
+Yup, an echo and a delay >= the echo canceller time
+
+Éric Vyncke 04:41
+WG chairs have the 'power' to request a DNS directorate review
+
+Tim Wicinski 04:41
+Thanks Eric V!
+We shall
+
+Suzanne Woolf 04:41
+Happy to push the relevant button to get a review-- good reminder to have, thx Geoff
+
+Éric Vyncke 04:41
+:thumbsup:
+
+Lorenzo Miniero 04:42
+Looks like that's the audio stream we're getting from the browser, so it's not a mixing quirk on our end. Tim, have you tried using a different browser just to see if that may fix it?
+
+Anthony Somerset 04:42
+is it just me or does the network feel flaky/laggy in the room?
+
+Warren Kumari 04:42
+DNSDIR Review requested.
+Much thanks to everyone who serves on the DNSDIR and the DNSDIR secretaries....
+
+Tim Wicinski 04:43
+Using Firefox @lorenzo, I could try Brave; Safari but not during the session
+
+Warren Kumari 04:48
+I can probably drives the slides if that helps?
+
+Tim Wicinski 04:50
+it appears to be stuck "processing decks"
+
+Anthony Somerset 04:50
+@Lorenzo Miniero heads up
+
+Tim Wicinski 04:51
+This is a good reason to get your slides in early
+
+Jabber 04:51
+sftcd: I get a 4 04 for https://datatracker.ietf.org/meeting/115/materials/slides-115-dnsop-the-alt-special-use-top-level-domain-draft-ietf-dnsop-alt-tld-18
+
+Alessandro Amirante 04:51
+yeah it seems that the deck is not available on the datatracker
+it 4 04s
+
+Tim Wicinski 04:52
+https://datatracker.ietf.org/meeting/115/materials/slides-115-dnsop-the-alt-special-use-top-level-domain-draft-ietf-dnsop-alt-tld-18-00.pdf
+
+Warren Kumari 04:52
+Reuploading them....
+Plan is that I can just share my screen with the sldies if that works for the chairs...
+
+Suzanne Woolf 04:54
+@meetecho we're having a very weird problem with slides in the datatracker
+OK thx Warren
+
+Alessandro Amirante 04:54
+they should be available now
+
+Benno Overeinder 04:54
+Thanks!
+
+Tim Wicinski 04:54
+So Roy gets Willem to give his talk?!?
+
+Jabber 04:55
+sftcd: I'm not sure but think the dns name on that slide should be defo.ie :-)
+
+ 04:56
+dkg: defol.io says "Defolio is run by Estonian Marketing Association"
+
+ 04:56
+sftcd: yeah, that's not mine:-)
+
+Mark Andrews 05:08
+https://datatracker.ietf.org/meeting/115/agenda/ will need fixing as the slides are not there yet
+
+Peter van Dijk 05:08
+I've been ignoring the .alt draft, as an implementer. I see now that I was wrong about that. This keeps happening :)
+
+Benjamin Schwartz 05:08
+I vote for MAY
+
+Jabber 05:09
+dkg: why would MAY be preferable to SHOULD ?
+
+Benjamin Schwartz 05:09
+(... with some language explaining that they're not allowed to break DNSSEC in the process)
+
+Jabber 05:09
+dkg: "weird" is not a good argument against
+
+Mark Andrews 05:09
+.onion hacks break DNSSEC
+
+Peter van Dijk 05:10
+MAY sounds better than SHOULD, but still seems way too strong
+
+Benjamin Schwartz 05:10
+Another option would be to simply note that Local Root is allowed, which subsumes this
+
+Eric Orth 05:11
+Maybe a better argument than "weird" is that informational implies a lack of strict requirements and thus MUST and maybe SHOULD become a bit ambiguous as to how strict of a requirement it actually is.
+
+Peter van Dijk 05:12
+to qualify "some resolvers", it looks like Unbound and Knot Resolver handle .onion specially by default; BIND and PowerDNS Recursor do not
+
+Ralf Weber 05:13
+Akamai Cacheserve also not
+
+Peter van Dijk 05:13
+thanks - can't "git grep" that one here ;)
+
+Andrew Campling 05:13
+Listening to thia presentation seems to make an increasingly strong
+
+Stéphane Bortzmeyer 05:14
+DNAME in the root:-) https://datatracker.ietf.org/doc/draft-bortzmeyer-dname-root/
+
+Andrew Campling 05:14
+*Listening to this discussion, it seems to make an increasingly strong case for not moving forward with .alt
+
+Benjamin Schwartz 05:15
+Also, Aggressive NSEC will minimize the number of queries to the root anyway
+
+Tim Wicinski 05:17
+Queue is closed, folks can place their comments here and will be incorporated into minutes
+
+Warren Kumari 05:17
++QNAME minimization....
+
+Ray Bellis 05:18
+With my RSO hat on - I disagree with those assertions. We simply cannot know at this point.
+If name spaces under .alt end up being very popular then the leakage load could become significant.
+
+Warren Kumari 05:20
+... but if there is no .alt, the same thing is true. Having them in .alt means that negative caching can help suppress.
+I think it isn't "if things in .alt become popolar", it is more "if alternative resolution things leak"
+
+Jabber 05:21
+dkg: meetecho: minor echo of the remote speaker via the room mic
+
+Ray Bellis 05:21
+if we're going to put requirements on resolvers, it should be on stub resolvers only.
+
+Jabber 05:22
+dkg: i think the speaker can hear it too
+
+Viktor Dukhovni 05:23
+We have language for .HOME that covers synthesis.
+So .alt can be handled just like .HOME
+
+Ray Bellis 05:23
+there is no .home - Homenet got forced to use .home.arpa instead
+
+Suzanne Woolf 05:25
+Those who we had to kick out of the queue-- apologies and if you put your coments in the chat they'll be picked up in the minutes
+
+Warren Kumari 05:26
+We could ask them too -- some implementations may do it - e.g systemd people are quite active at adding things.
+
+Eric Orth 05:26
+As a stub implementor, I'd appreciate a MAY on dropping alt queries, just as general permission in case I ever get around to adding it.
+
+Lars-Johan Liman 05:26
+In response to @Benjamin Schwartz : the queries are not supposed to appear at all. If you leak a query to you local resolver, I'd argue that not responding at all is the appropriate way to treat this. No need neither for doing a full cycle to find the "NXDOMAIN" from the root, nor for sythesizing. Just "shut up" or respond with "REFUSED".
+
+Warren Kumari 05:26
+Sorry, context was unclear -- them == stub resolver people.
+
+Ray Bellis 05:27
+@eric ultimately the "protocol" switch has to happen in the client (stub) anyway, at least w.r.t. those API calls that go into gethostbyname(), etc.
+
+Mark Andrews 05:28
+Mirror zones and aggressive negative caching will suppress traffic to the root in recursive servers and keep DNSSEC working
+
+Ray Bellis 05:28
+so in this context when I say stub I mean the "name resolution service" on the client, before it gets to the point of saying "oh, you mean DNS"
+
+Benjamin Schwartz 05:28
+@Lars If this is "not a protocol change" then I think it's clear that it shouldn't change the behavior of recursive resolvers, and we should still be able to ask "does .alt exist in the root" and get a signed answer.
+
+Mark Andrews 05:29
+Do not intercept queries for .alt in recursive servers. The above two solutions should be enough.
+
+George Michaelson 05:29
+@ray putting "name resolution service" into quotes gets to the point that it might be GNS or NIS/yellow pages
+
+Ray Bellis 05:30
+@ggm yes, and that's a good thing.
+
+George Michaelson 05:30
+ie its out-of-scope of the DNS to tell a host how it maps names
+except where "name resolution service" IS the DNS
+It's probably just a language thing but when a document puts times in and its "five minutes" it feels like a heuristic to a human problem, not an algorithm. -"try it for a bit but give up if you want to make some coffee"
+
+Ray Bellis 05:32
+The whole point of this draft is that it's not DNS, though. Surely it's not our of scope to say that client stubs MUST NOT send their queries to the upstream DNS resolver?
+
+Anthony Somerset 05:32
+EDNS client subnet resolution failures - i guess depends on the class of error - e.g. SERVFAIL vs NXDOMAIN
+should we handle different error classes differently like we do email errors (permanent fails vs temporary fails)
+
+Benjamin Schwartz 05:32
+@Ray If it's "not DNS", then surely there is no stub resolver!
+
+George Michaelson 05:32
+@ray yea, I could go there. "hey, non-DNS implementors. if you implement a fallback, failover or side query to the DNS, do us a favour and don't ask for this list of things"
+
+Ray Bellis 05:33
+@ben see above - I'm really talking one level below that, e.g. getaddrinfo()
+i.e. the NSS layer
+
+Peter van Dijk 05:34
+note that 7871 currently prohibits ecs-scoped NXDOMAINs; that doesn't mean the same should go for failures, though
+
+Benjamin Schwartz 05:34
+@Ray Leaving aside the question of whether that layer actually exists, what recommendation would you make about names containing characters that are not allowed in the root zone? .alt is the same: a label that, by policy, is not permitted to appear in the root.
+
+Ray Bellis 05:38
+@ben _if_ those queries leak to the root, return signed NXDOMAIN. If the name is not in a form that's even legal in the DNS then they'll likely get a FORMERR from their configured DNS recursive resolver. Either way, the client will get a name resolution failure and there's not much else we as DNS operators can do to mitigate that. It's down to the client and its "protocol switch" to do the right thing and not leak.
+
+Mark Andrews 05:41
+DNS allows any characters in the labels. The root zone rules for delegated zones are DLH restricted.
+
+Ray Bellis 05:41
+btw, another argument not to DNAME to AS112 for .alt is that anyone can stand-up an AS112 server, and without QNAME minimization the full .alt query name (if legal DNS) will appear in their logs
+@Mark I was thinking of the case where the name length or label lengths exceed DNS's constraints (255/63). That said, I still think it would be a mistake for any alt naming system that wants to co-exist alongside the DNS to allow this.
+
+Stéphane Bortzmeyer 05:45
+@Mark Andrews Not just a matter of allowed characters but also of size.
+
+Éric Vyncke 05:45
+'link local' can be weird when connected to multiple links though
+
+Jabber 05:51
+sftcd: FWIW I'm in favour of progressing draft-homburg-add-codcp, not sure how feasible it is to expect stubs to implement, nor how often people use such local proxies, but I do have such a setup so would use it
+
+ 05:53
+dkg: can we stop saying that we don't standardize APIs? we have documented APIs and they are deeply useful in clarifying our thinking about what we offer to the layers above us.
+
+ 05:53
+dkg: APIs do not evolve fast
+
+Ray Bellis 05:54
+getaddrinfo() was defined in RFC 2553
+
+Jabber 05:55
+dkg: i mean, some do, but some are extremely long-lived. thoughtful API design can shape the ecosystem to align it with what features the protocols support.
+
+Stéphane Bortzmeyer 05:55
+We are in 2022, guys, we no longer use only C, how to design and specify an API for N programming languages?
+
+Warren Kumari 05:57
+REST! <runs away>
+
+Jabber 05:57
+sftcd: given that "we want better than getaddrinfo()" has been clear for some years and seemingly nothing much has happened, I don't think that desire is a good reason to hold up or not do related work at this point (at the same time it'd be great if real work happened on "better than getaddrinfo()")
+
+ 05:57
+dkg: Stéphane, there are still bindings from the C ABI to most programming languages, so that can be useful. Or, for languages whose idioms are significantly different, it's possible to just take inspiration from an abstract API if it's widely understood.
+
+Sean Turner 05:59
+Captive Portal API: https://datatracker.ietf.org/doc/rfc8908/
+
+Benjamin Schwartz 05:59
+@Sean That's a protocol, not an API :)
+
+Warren Kumari 05:59
+My question was what are the privacy / fingerprinting implications when these leak? Currently e.g an ISP resolver just sees lots of queries from my (IPv4) NAT. When the forwarder on my CPE blindly forwards these, doesn't it share a bunch more about my internal list of clients?
+
+Ray Bellis 05:59
+on any POSIX system there's a good chance that other languages' name lookup functions internally use getaddrinfo() anyway.
+
+Sean Turner 05:59
+:)
+I'll go back under my bridge.
+
+Warren Kumari 06:00
+Erm. Isn't any IPC API basically a protocol?
+
+Benjamin Schwartz 06:01
+@Warren Depends on whether it uses shared memory...
+
+Warren Kumari 06:01
+I send you an RPC <message>, you send a <response>. These are formatted protocol messages
+
+Benjamin Schwartz 06:03
+For API work at the IETF, I usually point to TAPS https://datatracker.ietf.org/wg/taps/about/
+
+Warren Kumari 06:03
+Even with shared memory -- I put a specially formatted "packet" in memory (this packet might be just '(int32) 17'), but we have an agreement on "octet 1 means X, octet 2 means Y". You parse and understand this message/language, and so do I...
+This is all navel gazing...
+(Sorry, unclear -- I meany my "isn't IPC a protocol" is navel gazing)
+
+Peter van Dijk 06:12
+https://datatracker.ietf.org/doc/rfc8 063/ - Key Relay Mapping for the Extensible Provisioning Protocol
+
