@@ -171,10 +171,10 @@ So Roy gets Willem to give his talk?!?
 Jabber 04:55
 sftcd: I'm not sure but think the dns name on that slide should be defo.ie :-)
 
- 04:56
+04:56
 dkg: defol.io says "Defolio is run by Estonian Marketing Association"
 
- 04:56
+04:56
 sftcd: yeah, that's not mine:-)
 
 Mark Andrews 05:08
@@ -341,10 +341,8 @@ Stéphane Bortzmeyer 05:45
 Jabber 05:51
 sftcd: FWIW I'm in favour of progressing draft-homburg-add-codcp, not sure how feasible it is to expect stubs to implement, nor how often people use such local proxies, but I do have such a setup so would use it
 
- 05:53
+05:53
 dkg: can we stop saying that we don't standardize APIs? we have documented APIs and they are deeply useful in clarifying our thinking about what we offer to the layers above us.
-
- 05:53
 dkg: APIs do not evolve fast
 
 Ray Bellis 05:54
@@ -362,7 +360,7 @@ REST! <runs away>
 Jabber 05:57
 sftcd: given that "we want better than getaddrinfo()" has been clear for some years and seemingly nothing much has happened, I don't think that desire is a good reason to hold up or not do related work at this point (at the same time it'd be great if real work happened on "better than getaddrinfo()")
 
- 05:57
+05:57
 dkg: Stéphane, there are still bindings from the C ABI to most programming languages, so that can be useful. Or, for languages whose idioms are significantly different, it's possible to just take inspiration from an abstract API if it's widely understood.
 
 Sean Turner 05:59
@@ -378,8 +376,7 @@ Ray Bellis 05:59
 on any POSIX system there's a good chance that other languages' name lookup functions internally use getaddrinfo() anyway.
 
 Sean Turner 05:59
-:)
-I'll go back under my bridge.
+:) I'll go back under my bridge.
 
 Warren Kumari 06:00
 Erm. Isn't any IPC API basically a protocol?
@@ -399,5 +396,5 @@ This is all navel gazing...
 (Sorry, unclear -- I meany my "isn't IPC a protocol" is navel gazing)
 
 Peter van Dijk 06:12
-https://datatracker.ietf.org/doc/rfc8 063/ - Key Relay Mapping for the Extensible Provisioning Protocol
+https://datatracker.ietf.org/doc/rfc8063/ - Key Relay Mapping for the Extensible Provisioning Protocol
 
