@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 7 November 2022
+### Updated: 27 December 2022
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -20,14 +20,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc5933-bis
 
 * draft-ietf-dnsop-dns-catalog-zones
+    - Telechat 2023-01-05
+
+* draft-ietf-dnsop-avoid-fragmentation
 
 ## WGLC Approved
 
-* draft-ietf-dnsop-avoid-fragmentation
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-dnssec-validator-requirements
+
+* draft-ietf-dnsop-alt-tld
 
 ## Upcoming WG Last Calls
 
@@ -35,11 +39,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc8499bis
 
-* draft-ietf-dnsop-alt-tld
-
 * draft-ietf-dnsop-zoneversion
 
 * draft-ietf-dnsop-dns-error-reporting
+
+* draft-ietf-dnsop-domain-verification-techniques
 
 ## Adopted by WG, Under Discussion (ranked)
 
@@ -51,12 +55,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-automation
 
-* draft-ietf-dnsop-domain-verification-techniques
-
 * draft-ietf-dnsop-caching-resolution-failures
 
 * draft-ietf-dnsop-svcb-dane
-    - was draft-rebs-dnsop-svcb-dane
 
 ## Recently Expired Documents
 
@@ -75,8 +76,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-klh-dnsop-rfc8109bis
 
 ## New Documents
-
-* draft-yorgos-dnsop-dry-run-dnssec
 
 ## Needs more Review
 
