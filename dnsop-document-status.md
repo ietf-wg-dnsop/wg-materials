@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 27 December 2022
+### Updated: 24 January 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -18,22 +18,25 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc5933-bis
+    - AD Followup
 
 * draft-ietf-dnsop-dns-catalog-zones
-    - Telechat 2023-01-05
+    - Revised I-D Needed
 
 * draft-ietf-dnsop-avoid-fragmentation
 
 ## WGLC Approved
 
+* draft-ietf-dnsop-alt-tld
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-dnssec-validator-requirements
-
-* draft-ietf-dnsop-alt-tld
+    - Need updated doc
 
 ## Upcoming WG Last Calls
+
+* draft-ietf-dnsop-domain-verification-techniques
 
 * draft-ietf-dnsop-glue-is-not-optional
 
@@ -42,8 +45,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-zoneversion
 
 * draft-ietf-dnsop-dns-error-reporting
-
-* draft-ietf-dnsop-domain-verification-techniques
 
 ## Adopted by WG, Under Discussion (ranked)
 
@@ -54,6 +55,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - **Action**: Shumon working on adding an author to help
 
 * draft-ietf-dnsop-dnssec-automation
+    - need updated draft
 
 * draft-ietf-dnsop-caching-resolution-failures
 
@@ -63,11 +65,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-## Candidates For Adoption
-
 * draft-wing-dnsop-structured-dns-error-page
+    - Ends 2023-02-05
 
-* draft-homburg-add-codcp
+## Candidates For Adoption
 
 * draft-thomassen-dnsop-cds-consistency
 
@@ -75,7 +76,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-klh-dnsop-rfc8109bis
 
+* draft-homburg-add-codcp
+
 ## New Documents
+
+* draft-hardaker-dnsop-rfc8624-bis
+
+* draft-peltan-edns-presentation-format
 
 ## Needs more Review
 
