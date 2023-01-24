@@ -11,3 +11,8 @@
     - Chairs Action:
 
 ## Requests
+
+*   Draft name: draft-schanzen-gns
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-schanzen-gns/
+    - Requester Email: Christian Grothoff, grothoff@gnu.org
+    - Time Requested: 10min
