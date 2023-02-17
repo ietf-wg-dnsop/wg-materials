@@ -16,3 +16,8 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-schanzen-gns/
     - Requester Email: Christian Grothoff, grothoff@gnu.org
     - Time Requested: 10min
+
+*   Draft name:  draft-ietf-dnsop-structured-dns-error
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
+    - Requester Email: Ralf Weber, rweber@akamai.com
+    - Time Requested: 15min
