@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 24 January 2023
+### Updated: 01 March 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -15,36 +15,37 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["DNS Security Extensions (DNSSEC)"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/)
 
+* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/)
+
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc5933-bis
     - AD Followup
 
-* draft-ietf-dnsop-dns-catalog-zones
-    - Revised I-D Needed
-
 * draft-ietf-dnsop-avoid-fragmentation
-
-## WGLC Approved
 
 * draft-ietf-dnsop-alt-tld
 
+## WGLC Approved
+
 ## In WG Last Call
-
-* draft-ietf-dnsop-dnssec-validator-requirements
-    - Need updated doc
-
-## Upcoming WG Last Calls
-
-* draft-ietf-dnsop-domain-verification-techniques
 
 * draft-ietf-dnsop-glue-is-not-optional
 
 * draft-ietf-dnsop-rfc8499bis
 
+* draft-ietf-dnsop-domain-verification-techniques
+
+* draft-ietf-dnsop-dnssec-validator-requirements
+    - updated doc
+
+## Upcoming WG Last Calls
+
 * draft-ietf-dnsop-zoneversion
 
 * draft-ietf-dnsop-dns-error-reporting
+
+* draft-ietf-dnsop-caching-resolution-failures
 
 ## Adopted by WG, Under Discussion (ranked)
 
@@ -55,20 +56,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - **Action**: Shumon working on adding an author to help
 
 * draft-ietf-dnsop-dnssec-automation
-    - need updated draft
-
-* draft-ietf-dnsop-caching-resolution-failures
 
 * draft-ietf-dnsop-svcb-dane
+
+* draft-ietf-dnsop-structured-dns-error-page
 
 ## Recently Expired Documents
 
 ## Active Calls for Adoption
 
-* draft-wing-dnsop-structured-dns-error-page
-    - Ends 2023-02-05
-
 ## Candidates For Adoption
+
+* draft-hardaker-dnsop-rfc8624-bis
 
 * draft-thomassen-dnsop-cds-consistency
 
@@ -76,11 +75,14 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-klh-dnsop-rfc8109bis
 
-* draft-homburg-add-codcp
 
 ## New Documents
 
-* draft-hardaker-dnsop-rfc8624-bis
+* draft-huque-dnsop-compact-lies
+
+* draft-bellis-dnsop-qdcount-is-one
+
+* draft-bellis-dnsext-multi-qtypes
 
 * draft-peltan-edns-presentation-format
 

@@ -21,3 +21,8 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
     - Requester Email: Ralf Weber, rweber@akamai.com
     - Time Requested: 15min
+
+*   Draft name: draft-huque-dnsop-compact-lies/
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
+    - Requester Email: Shumon Huque, <shuque@gmail.com>
+    - Time Requested: 15min
