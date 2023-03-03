@@ -26,3 +26,8 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
     - Requester Email: Shumon Huque, <shuque@gmail.com>
     - Time Requested: 15min
+
+*   Draft name: draft-thomassen-dnsop-cds-consistency
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
+    - Requester Email: Peter Thomassen, peter@desec.io  
+    - Time Requested: 10min
