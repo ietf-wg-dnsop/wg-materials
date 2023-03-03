@@ -29,5 +29,10 @@
 
 *   Draft name: draft-thomassen-dnsop-cds-consistency
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
-    - Requester Email: Peter Thomassen, peter@desec.io  
+    - Requester Email: Peter Thomassen, peter@desec.io
     - Time Requested: 10min
+
+*   Draft name: draft-thomassen-dnsop-generalized-dns-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 15min
