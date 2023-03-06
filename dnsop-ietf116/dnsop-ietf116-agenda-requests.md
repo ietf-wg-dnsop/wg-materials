@@ -20,6 +20,7 @@
 *   Draft name:  draft-ietf-dnsop-structured-dns-error
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
     - Requester Email: Ralf Weber, rweber@akamai.com
+                       Gianpaolo Scalone, Gianpaolo-Angelo.Scalone@vodafone.com
     - Time Requested: 15min
 
 *   Draft name: draft-huque-dnsop-compact-lies/
