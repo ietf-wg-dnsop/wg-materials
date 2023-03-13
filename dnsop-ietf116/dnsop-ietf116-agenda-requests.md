@@ -1,4 +1,4 @@
-## IETF DNSOP Agenda Requests
+## IETF DNSOP Agenda Reruests
 
 ## Propose Slides: https://datatracker.ietf.org/meeting/116/session/dnsop
 
@@ -42,3 +42,14 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
     - Requester Email: Taekyoung Kwon <tkkwon98@gmail.com>
     - Time Requested: 10min
+
+*   Draft name: draft-ietf-dnsop-domain-verification-techniques
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Requester Email: Shivan Kaul Sahib <shivankaulsahib@gmail.com>
+    - Time Requested: 15min
+
+*   Draft name: draft-ietf-dnsop-structured-dns-error
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
+    - Requester Email: tirumal reddy <kondtir@gmail.com>
+    - Time Requested: 5min
+

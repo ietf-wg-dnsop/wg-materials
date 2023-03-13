@@ -33,7 +33,7 @@
 
 ### Administrivia
 
-* Agenda Bashing, Blue Sheets, etc,  10 min
+* Agenda Bashing, Blue Sheets, etc,  5 min
 
 * Updates of Old Work, Chairs, 10 min
 
@@ -45,28 +45,47 @@
 
 *   Structured Error Data for Filtered DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
+    - Requester Email: tirumal reddy <kondtir@gmail.com>
+    - 5min
+    - Chairs Action:
+
+*   Structured Error Data for Filtered DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
     - Requester Email: Ralf Weber, rweber@akamai.com
                        Gianpaolo Scalone, Gianpaolo-Angelo.Scalone@vodafone.com
-    - 20min
+    - 15min
+    - Chairs Action:
+
+*   Domain Verification Techniques using DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Requester Email: Shivan Kaul Sahib <shivankaulsahib@gmail.com>
+    - 15min
     - Chairs Action:
 
 ### For Consideration
 
 *   Compact Denial of Existence in DNSSEC
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
-    - Requester Email: Shumon Huque, <shuque@gmail.com>, 15min
+    - Requester Email: Shumon Huque, <shuque@gmail.com>
+    - 15min
     - Chairs Action: Worthy of adoption?
 
 *   Consistency for CDS/CDNSKEY and CSYNC is Mandatory
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
-    - Requester Email: Peter Thomassen, peter@desec.io, 15min
+    - Requester Email: Peter Thomassen, peter@desec.io
+    - 10min
     - Chairs Action: Worthy of adoption?
 
 *   Generalized DNS Notifications
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
-    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15min
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - 15min
     - Chairs Action: Worthy of adoption?
-
 
 ### Time Permitting
 
+*   DNSSEC Extension by Using PKIX Certificates
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
+    - Requester Email: Taekyoung Kwon <tkkwon98@gmail.com>
+    - 10min
+    - Chairs Action:
