@@ -53,3 +53,7 @@
     - Requester Email: tirumal reddy <kondtir@gmail.com>
     - Time Requested: 5min
 
+*   Draft name: draft-grubto-dnsop-dns-out-of-protocol-signalling
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 10min
