@@ -42,3 +42,8 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
     - Requester Email: Taekyoung Kwon <tkkwon98@gmail.com>
     - Time Requested: 10min
+
+*   Draft name: draft-grubto-dnsop-dns-out-of-protocol-signalling
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 10min
