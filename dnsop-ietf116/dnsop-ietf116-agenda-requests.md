@@ -37,3 +37,8 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
     - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
     - Time Requested: 15min
+
+*   Draft name: draft-dnsop-dnssec-extension-pkix
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
+    - Requester Email: Taekyoung Kwon <tkkwon98@gmail.com>
+    - Time Requested: 10min
