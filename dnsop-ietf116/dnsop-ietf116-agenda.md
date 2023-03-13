@@ -25,7 +25,7 @@
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
 * Minutes: [https://codimd.ietf.org/notes-ietf-116-dnsop](https://codimd.ietf.org/notes-ietf-116-dnsop)
 
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* Zulip:  [https://zulip.ietf.org/#narrow/stream/dnsop](https://zulip.ietf.org/#narrow/stream/dnsop)
 
 
 #
@@ -37,14 +37,35 @@
 
 * Updates of Old Work, Chairs, 10 min
 
+*   GNU Name System (Very Short Update)
+    - https://datatracker.ietf.org/doc/draft-schanzen-gns/
+    - Christian Grothoff, grothoff@gnu.org, 10min
+    -
 ### Current Working Group Business
 
-*
-
+*   Structured Error Data for Filtered DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
+    - Requester Email: Ralf Weber, rweber@akamai.com
+                       Gianpaolo Scalone, Gianpaolo-Angelo.Scalone@vodafone.com
+    - 20min
+    - Chairs Action:
 
 ### For Consideration
 
-*
+*   Compact Denial of Existence in DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
+    - Requester Email: Shumon Huque, <shuque@gmail.com>, 15min
+    - Chairs Action: Worthy of adoption?
+
+*   Consistency for CDS/CDNSKEY and CSYNC is Mandatory
+    - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
+    - Requester Email: Peter Thomassen, peter@desec.io, 15min
+    - Chairs Action: Worthy of adoption?
+
+*   Generalized DNS Notifications
+    - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15min
+    - Chairs Action: Worthy of adoption?
 
 
 ### Time Permitting

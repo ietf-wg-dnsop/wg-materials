@@ -25,7 +25,7 @@
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1)
 * Minutes: [https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop](https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop)
 
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
+* Zulip:  [https://zulip.ietf.org/#narrow/stream/dnsop](https://zulip.ietf.org/#narrow/stream/dnsop)
 
 
 #
