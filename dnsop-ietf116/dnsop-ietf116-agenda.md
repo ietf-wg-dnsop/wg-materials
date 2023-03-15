@@ -57,7 +57,7 @@
 
 *   Domain Verification Techniques using DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
-    - Shivan Kaul Sahib <shivankaulsahib@gmail.com>, 15 min
+    - Shivan Kaul Sahib <shivankaulsahib@gmail.com>, 10 min
     - Chairs Action:
 
 ### For Consideration
