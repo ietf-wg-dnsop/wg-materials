@@ -20,10 +20,11 @@
 
 ## Session I
 
-* Date:
-* Time:
+* Date: Thursday, 30 March 2023
+* Time: 09:30-11:30 JST (UTC+9)
+* Room G403
 * MeetEcho: [https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
-* Minutes: [https://codimd.ietf.org/notes-ietf-116-dnsop](https://codimd.ietf.org/notes-ietf-116-dnsop)
+* Minutes: [https://notes.ietf.org/notes-ietf-116-dnsop](https://notes.ietf.org/notes-ietf-116-dnsop)
 
 * Zulip: [https://zulip.ietf.org/#narrow/stream/dnsop](https://zulip.ietf.org/#narrow/stream/dnsop)
 
@@ -39,50 +40,51 @@
 
 *   GNU Name System (Very Short Update)
     - https://datatracker.ietf.org/doc/draft-schanzen-gns/
-    - Christian Grothoff, grothoff@gnu.org, 5min
-    -
+    - Christian Grothoff <grothoff@gnu.org>, 10 min
+
 ### Current Working Group Business
 
 *   Structured Error Data for Filtered DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
-    - Requester Email: tirumal reddy <kondtir@gmail.com>, 5min
+    - tirumal reddy <kondtir@gmail.com>, 5 min
     - Chairs Action:
 
 *   Structured Error Data for Filtered DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
-    - Requester Email: Ralf Weber, rweber@akamai.com, 15min
-                       Gianpaolo Scalone, Gianpaolo-Angelo.Scalone@vodafone.com
+    - Ralf Weber <rweber@akamai.com>
+    - Gianpaolo Scalone <Gianpaolo-Angelo.Scalone@vodafone.com>, 15 min
     - Chairs Action:
 
 *   Domain Verification Techniques using DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
-    - Requester Email: Shivan Kaul Sahib <shivankaulsahib@gmail.com>, 15min
+    - Shivan Kaul Sahib <shivankaulsahib@gmail.com>, 15 min
     - Chairs Action:
 
 ### For Consideration
 
 *   Compact Denial of Existence in DNSSEC
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
-    - Requester Email: Shumon Huque, <shuque@gmail.com>, 15min
+    - https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
+    - Shumon Huque, <shuque@gmail.com>, 15 min
     - Chairs Action: Worthy of adoption?
 
 *   Consistency for CDS/CDNSKEY and CSYNC is Mandatory
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
-    - Requester Email: Peter Thomassen, peter@desec.io, 10min
+    - Peter Thomassen <peter@desec.io>, 10 min
     - Chairs Action: Worthy of adoption?
 
 *   Generalized DNS Notifications
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
-    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15min
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15 min
     - Chairs Action: Worthy of adoption?
 
-*   Draft name: draft-grubto-dnsop-dns-out-of-protocol-signalling
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
-    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>, 10min
+*   DNS Out Of Protocol Signalling
+    - https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+    - Willem Toorop <willem@nlnetlabs.nl>, 10min
     - Chairs Action:
 
 ### Time Permitting
 
 *   DNSSEC Extension by Using PKIX Certificates
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
-    - Requester Email: Taekyoung Kwon <tkkwon98@gmail.com>, 10min
+    - https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
+    - Taekyoung Kwon <tkkwon98@gmail.com>, 10 min
+    - Chairs Action:
