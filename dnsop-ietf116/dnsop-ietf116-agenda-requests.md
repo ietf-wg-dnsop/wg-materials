@@ -1,4 +1,4 @@
-## IETF DNSOP Agenda Reruests
+## IETF DNSOP Agenda Requests
 
 ## Propose Slides: https://datatracker.ietf.org/meeting/116/session/dnsop
 
