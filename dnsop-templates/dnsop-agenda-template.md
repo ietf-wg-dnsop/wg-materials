@@ -2,6 +2,14 @@
 # DNS Operations (DNSOP) Working Group
 ## IETF %%MTG%%
 
+* Date:
+* Time:
+* Room:
+
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1)
+* [Minutes](https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop)
+* [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
+
 
 ### Chairs
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
@@ -16,17 +24,6 @@
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 * [Upload Slides](https://datatracker.ietf.org/meeting/%%MTG%%/session/dnsop)
-
-
-## Session I
-
-* Date:
-* Time:
-* MeetEcho: [https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1)
-* Minutes: [https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop](https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop)
-
-* Zulip:  [https://zulip.ietf.org/#narrow/stream/dnsop](https://zulip.ietf.org/#narrow/stream/dnsop)
-
 
 #
 ## Agenda

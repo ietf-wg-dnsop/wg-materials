@@ -2,6 +2,14 @@
 # DNS Operations (DNSOP) Working Group
 ## IETF 116
 
+* Date: Thursday, 30 March 2023
+* Time: 09:30-11:30 JST (UTC+9 Tokyo)
+* Room G403
+
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
+* [Minutes](https://notes.ietf.org/notes-ietf-116-dnsop)
+
+* [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
 
 ### Chairs
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
@@ -16,18 +24,6 @@
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
 * [Upload Slides](https://datatracker.ietf.org/meeting/116/session/dnsop)
-
-
-## Session I
-
-* Date: Thursday, 30 March 2023
-* Time: 09:30-11:30 JST (UTC+9)
-* Room G403
-* MeetEcho: [https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
-* Minutes: [https://notes.ietf.org/notes-ietf-116-dnsop](https://notes.ietf.org/notes-ietf-116-dnsop)
-
-* Zulip: [https://zulip.ietf.org/#narrow/stream/dnsop](https://zulip.ietf.org/#narrow/stream/dnsop)
-
 
 #
 ## Agenda
@@ -44,12 +40,11 @@
 
 ### Current Working Group Business
 
-*   Structured Error Data for Filtered DNS
+*   Structured Error Data for Filtered DNS - **Document Update**
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
     - tirumal reddy <kondtir@gmail.com>, 5 min
-    - Chairs Action:
 
-*   Structured Error Data for Filtered DNS
+*   Structured Error Data for Filtered DNS - **Implementation**
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
     - Ralf Weber <rweber@akamai.com>
     - Gianpaolo Scalone <Gianpaolo-Angelo.Scalone@vodafone.com>, 15 min
