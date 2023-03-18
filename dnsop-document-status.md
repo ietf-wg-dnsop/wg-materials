@@ -9,11 +9,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
+~~draft-ietf-dnsop-dnssec-bcp~~ **RFC9364**
+
 ### RFC Ed Queue
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-
-* ["DNS Security Extensions (DNSSEC)"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bcp/)
+    - Came back out for quick edit, on its way back
 
 * ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/)
 
@@ -25,8 +26,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-avoid-fragmentation
 
 * draft-ietf-dnsop-alt-tld
+    - IETF LC until 2023-04-10)
 
 ## WGLC Approved
+
 
 ## In WG Last Call
 
@@ -52,8 +55,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dnssec-bootstrapping
 
 * draft-ietf-dnsop-ns-revalidation
-    - document has three TODO to address
-    - **Action**: Shumon working on adding an author to help
 
 * draft-ietf-dnsop-dnssec-automation
 
@@ -74,7 +75,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-thomassen-dnsop-mske
 
 * draft-klh-dnsop-rfc8109bis
-
 
 ## New Documents
 

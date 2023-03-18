@@ -3,8 +3,8 @@
 ## IETF 116
 
 * Date: Thursday, 30 March 2023
-* Time: 09:30-11:30 JST (UTC+9 Tokyo)
-* Room G403
+* Time: 09:30-11:30 JST (00:30-02:30 UTC)
+* Room: G403
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
 * [Minutes](https://notes.ietf.org/notes-ietf-116-dnsop)
@@ -25,7 +25,6 @@
 
 * [Upload Slides](https://datatracker.ietf.org/meeting/116/session/dnsop)
 
-#
 ## Agenda
 
 ### Administrivia
