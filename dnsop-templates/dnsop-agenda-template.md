@@ -1,5 +1,6 @@
 
 # DNS Operations (DNSOP) Working Group
+
 ## IETF %%MTG%%
 
 * Date:
@@ -9,23 +10,23 @@
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1)
 * [Minutes](https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-
+* [Upload Slides](https://datatracker.ietf.org/meeting/%%MTG%%/session/dnsop)
 
 ### Chairs
+
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
 * Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
 * Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
 
 ### IESG Overlord
+
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
 
 ### Document Status
+
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-* [Upload Slides](https://datatracker.ietf.org/meeting/%%MTG%%/session/dnsop)
-
-#
 ## Agenda
 
 ### Administrivia

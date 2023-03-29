@@ -9,8 +9,8 @@
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
 * [Minutes](https://notes.ietf.org/notes-ietf-116-dnsop)
-
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
+* [Upload Slides](https://datatracker.ietf.org/meeting/116/session/dnsop)
 
 ### Chairs
 
@@ -26,8 +26,6 @@
 
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
-
-* [Upload Slides](https://datatracker.ietf.org/meeting/116/session/dnsop)
 
 ## Agenda
 

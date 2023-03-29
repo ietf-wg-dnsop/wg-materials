@@ -1,9 +1,9 @@
 # DNSOP Chairs Status
-### Updated: 01 March 2023
+### Updated: 28 March 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
-This Document: https://github.com/DNSOP/wg-materials/blob/master/dnsop-document-status.md
+This Document: https://github.com/DNSOP/wg-materials/blob/main/dnsop-document-status.md
 
 Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
@@ -14,7 +14,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ### RFC Ed Queue
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-    - Came back out for quick edit, on its way back
+    - IETF LC until 2023-04-03
 
 * ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/)
 
@@ -24,23 +24,26 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - AD Followup
 
 * draft-ietf-dnsop-avoid-fragmentation
+    - No followup from implementors on appendix
 
 * draft-ietf-dnsop-alt-tld
-    - IETF LC until 2023-04-10)
+    - IETF LC until 2023-04-10
 
 ## WGLC Approved
 
-
-## In WG Last Call
+* draft-ietf-dnsop-rfc8499bis
+    - Writeup after IETF
 
 * draft-ietf-dnsop-glue-is-not-optional
+    - Writeup in next week.
 
-* draft-ietf-dnsop-rfc8499bis
+## In WG Last Call
 
 * draft-ietf-dnsop-domain-verification-techniques
 
 * draft-ietf-dnsop-dnssec-validator-requirements
-    - updated doc
+    - Another person doing editorial review
+    - Will take some time to clean up text
 
 ## Upcoming WG Last Calls
 
@@ -49,18 +52,22 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dns-error-reporting
 
 * draft-ietf-dnsop-caching-resolution-failures
+    - Authors feel ready
 
 ## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-dnssec-bootstrapping
 
 * draft-ietf-dnsop-ns-revalidation
+    - Updated Document, resolved all outstanding TODOs
 
 * draft-ietf-dnsop-dnssec-automation
+    - Still needs another agenda
 
 * draft-ietf-dnsop-svcb-dane
 
 * draft-ietf-dnsop-structured-dns-error-page
+    - Work In Progress
 
 ## Recently Expired Documents
 
