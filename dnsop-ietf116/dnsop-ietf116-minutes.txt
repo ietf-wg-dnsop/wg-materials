@@ -1,0 +1,108 @@
+DNSOP WG
+IETF 116, Yokohama
+Thursday moringing, March 30, 2023
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski (remote)
+Minutes taken by Paul Hoffman
+Only stuff said that happened at the mic is reported here
+
+Administrivia and updates of old work
+
+GNU Name System (Very Short Update), Christian Grothoff
+	https://datatracker.ietf.org/doc/draft-schanzen-gns/
+	Warren Kumari: Need to reply to authors
+		Did the IETF conflict review
+			Close to DNSOP, but doesn't prevent publication
+			Has a limited number of possible responses in the conflict review
+	Wes Hardaker: Thank you for using .alt
+		Lots of cool technology in the protocol
+		Christian: Knew that they had publish a RFC
+		Conflict with the RRtypes, prevents working with the DNS in the future
+	George Michaelson: Mostly philosophical comments
+		Implement a registry function for .alt
+		First occupant has some expectation of structure
+		Who has control of the registry?
+			Christian: Will do first come, first served in their own .alt
+		Has an issue with "reservers"
+		Should not be spinning an alternate registry
+			Christian: Didn't get an IANA, so they did their own
+	Eliot Lear: Thanks to the WG, authors and ADs
+		Has not made a publication decision yet
+		Invites people to still commment to the ISE
+
+Structured Error Data for Filtered DNS - Document Update, Tirumal Reddy
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
+	Ben Schwartz: Would like to see the registries tightly controlled: IETF review
+		Wants to prevent the designated expert from being pressured for odd states
+	Tommy Pauly: Agrees with Ben on reviews
+		Wants the text to not be browser-specific
+		Contact info marked as mandatory
+			There may be future cases which don't need contact info
+			Browser or OS may know better than the DNS about what to do because it has more context
+			Tiru: Agrees, didn't put specific URIs in
+			Should be a list of URIs, but may be too narrow
+	
+Structured Error Data for Filtered DNS - Implementation, Gianpaolo Scalone (remote) and Ralf Weber (local)
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
+	Designed an extension for Chrome
+	Wes: Super happy to see the deployment
+		Ralf: No address redirection
+			Use NXDOMAIN with EDE
+		What is the UI when the main page is fine but are requesting sub-resource like JS or CSS
+	Tiru: Don't want a user to go to another page, so put it all on the main page
+	Gianpaolo: Sees some text to explain this
+	Tiru: Can address comments gotten here
+
+Domain Verification Techniques using DNS, Shivan Kaul Sahib
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques
+	Yasuhiro Morishita: Wants information for external DNS providers
+		Users cannot usually add underscore names
+	John Levine: Draft has considerbly improved
+		Wants more definition of what is machine-readable and what is human-readable
+		Give plausible argument about why CNAME is not a good idea
+	Wes: Encourage text that says if not using DNSSEC, must do other mechanisms
+
+Compact Denial of Existence in DNSSEC, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-huque-dnsop-compact-lies/
+	Lars-Johan Liman: Does the draft do things differently if the DO bit is set?
+		Shumon: Not currently, but is considering
+		But this has impact on resolver, please describe in document
+	Viktor Dukhovni: A lot of complexity depending on resolver setting DO bit
+		Someone might deliberately send known NXDOMAIN through resolvers
+			Shumon: Will document this
+		May take a while for current implementations to go away
+			Shumon: Optimistic that the current implementers can change quickly
+	Jim Reid: Skeptical of this
+		Rather ugly from protocol point of view
+		A lot of work for just to make responses shorter
+		Would want it to be informational
+			Shumon: Wants to implement what is already done
+	Christian Elmerot: Thinks that this simplifies things quite a bit
+		Already using in production, but are doing it differently
+		Wants to have one way to suggested
+		Jim: Happy to have this help coordination, not standard
+	Ralf: Thanks for doing this, need to document it
+		Should minimize impact on the rest of the ecosystem
+
+Consistency for CDS/CDNSKEY and CSYNC is Mandatory, Peter Thomassen (remote)
+	https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
+	Viktor: Corner case: if someone is moving to a hoster that doesn't do DNSSEC
+		Peter: Could add a way to turn off DNSSEC on transfer
+	Johan Stenstram: Breaks the logic that "if it is signed, it is good"
+		Doesn't like "if this is really important"
+		Let's not go there
+		Authoritative servers are proxies for the registrant
+		Out of sync is reflection on the registrant: business issues
+	Wes: CSYNC was for keeping DNS up and running
+		CSYNC can't fix the business problems
+	Peter: Agrees that one signature should be OK
+		Other parts of the spec also suggest asking multiple places
+
+Generalized DNS Notifications, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
+	Viktor: Once it is a service, is the transport UDP?
+
+DNS Out Of Protocol Signalling, Willem Toorop
+	https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+	Lars-Johan: Please do this
+
+	
