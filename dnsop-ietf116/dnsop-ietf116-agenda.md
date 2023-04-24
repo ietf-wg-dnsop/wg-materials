@@ -74,7 +74,7 @@
 
 *   DNS Out Of Protocol Signalling
     - https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
-    - Willem Toorop <willem@nlnetlabs.nl>, 10min
+    - Willem Toorop <willem@nlnetlabs.nl>, 10 min
     - Chairs Action:
 
 ### Time Permitting
