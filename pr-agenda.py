@@ -56,7 +56,7 @@ def printitem(docs):
     for i in docs:
         lines.append(f"*   {i.get('title')}")
         lines.append(f"    - {i.get('url')}")
-        lines.append(f"    - {i.get('email')}, {i.get('time')} min")
+        lines.append(f"    - {i.get('email')}, {i.get('time')}")
         lines.append("    - Chairs Action:")
         lines.append("")
         alltimes.append(f"{i.get('title')}\t{i.get('email')}\t{i.get('time')}\n")

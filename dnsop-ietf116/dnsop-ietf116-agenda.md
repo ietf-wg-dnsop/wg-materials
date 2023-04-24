@@ -1,31 +1,32 @@
 
 # DNS Operations (DNSOP) Working Group
+
 ## IETF 116
 
 * Date: Thursday, 30 March 2023
-* Time: 09:30-11:30 JST (UTC+9 Tokyo)
-* Room G403
+* Time: 09:30-11:30 JST (00:30-02:30 UTC)
+* Room: G403
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf116/?group=dnsop&short=&item=1)
 * [Minutes](https://notes.ietf.org/notes-ietf-116-dnsop)
-
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
+* [Upload Slides](https://datatracker.ietf.org/meeting/116/session/dnsop)
 
 ### Chairs
+
 * Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
 * Suzanne Woolf [suzworldwide@gmail.com](suzworldwide@gmail.com)
 * Tim Wicinski [tjw.ietf@gmail.com](tjw.ietf@gmail.com)
 
 ### IESG Overlord
+
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
 
 ### Document Status
+
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-* [Upload Slides](https://datatracker.ietf.org/meeting/116/session/dnsop)
-
-#
 ## Agenda
 
 ### Administrivia
