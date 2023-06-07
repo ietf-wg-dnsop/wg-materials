@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 28 March 2023
+### Updated: 7 June 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,12 +9,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-~~draft-ietf-dnsop-dnssec-bcp~~ **RFC9364**
-
 ### RFC Ed Queue
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-    - IETF LC until 2023-04-03
 
 * ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/)
 
@@ -62,26 +59,32 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - Updated Document, resolved all outstanding TODOs
 
 * draft-ietf-dnsop-dnssec-automation
-    - Still needs another agenda
+    - Still needs another author
 
 * draft-ietf-dnsop-svcb-dane
 
 * draft-ietf-dnsop-structured-dns-error-page
     - Work In Progress
 
+* draft-ietf-dnsop-rfc8109bis
+
+* draft-ietf-dnsop-compact-denial-of-existence
+
 ## Recently Expired Documents
 
 ## Active Calls for Adoption
+
+* draft-thomassen-dnsop-cds-consistency
 
 ## Candidates For Adoption
 
 * draft-hardaker-dnsop-rfc8624-bis
 
-* draft-thomassen-dnsop-cds-consistency
-
 * draft-thomassen-dnsop-mske
 
-* draft-klh-dnsop-rfc8109bis
+* draft-dsawp-notify
+
+* draft-thomassen-dnsop-generalized-dns-notify
 
 ## New Documents
 
