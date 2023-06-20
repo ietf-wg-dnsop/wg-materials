@@ -22,10 +22,11 @@
 
 * Date: 20 June 2023
 * Time: 18:00-19:00 UTC
-* MeetEcho: [https://meetings.conf.meetecho.com/interim/?short=7e86a1ea-71f7-40c0-8c34-eb16a1a57a6e](https://meetings.conf.meetecho.com/interim/?short=7e86a1ea-71f7-40c0-8c34-eb16a1a57a6e)
 
-* Jabber:  [dnsop@jabber.ietf.org](dnsop@jabber.ietf.org)
-* Minutes: [https://notes.ietf.org/notes-ietf-interim-2023-dnsop-01-dnsop](https://notes.ietf.org/notes-ietf-interim-2023-dnsop-01-dnsop)
+* [MeetEcho](https://meetings.conf.meetecho.com/interim/?short=7e86a1ea-71f7-40c0-8c34-eb16a1a57a6e)
+* [Jabber](dnsop@jabber.ietf.org)
+* [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-interim-2023-dnsop-01-dnsop)
 
 
 ## Agenda
