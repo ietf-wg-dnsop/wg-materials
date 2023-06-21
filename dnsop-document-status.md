@@ -15,6 +15,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/)
 
+* ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/)
+
+
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc5933-bis
@@ -23,33 +26,29 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-avoid-fragmentation
     - No followup from implementors on appendix
 
-* draft-ietf-dnsop-alt-tld
-    - IETF LC until 2023-04-10
+* draft-ietf-dnsop-glue-is-not-optional
 
 ## WGLC Approved
 
 * draft-ietf-dnsop-rfc8499bis
-    - Writeup after IETF
 
-* draft-ietf-dnsop-glue-is-not-optional
-    - Writeup in next week.
+* draft-ietf-dnsop-zoneversion
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-domain-verification-techniques
 
 * draft-ietf-dnsop-dnssec-validator-requirements
-    - Another person doing editorial review
-    - Will take some time to clean up text
-
-## Upcoming WG Last Calls
-
-* draft-ietf-dnsop-zoneversion
 
 * draft-ietf-dnsop-dns-error-reporting
 
+
+## Upcoming WG Last Calls
+
 * draft-ietf-dnsop-caching-resolution-failures
     - Authors feel ready
+
+* draft-ietf-dnsop-svcb-dane
 
 ## Adopted by WG, Under Discussion (ranked)
 
@@ -61,8 +60,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dnssec-automation
     - Still needs another author
 
-* draft-ietf-dnsop-svcb-dane
-
 * draft-ietf-dnsop-structured-dns-error-page
     - Work In Progress
 
@@ -70,11 +67,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-compact-denial-of-existence
 
+* draft-ietf-dnsop-cds-consistency
+
 ## Recently Expired Documents
 
 ## Active Calls for Adoption
-
-* draft-thomassen-dnsop-cds-consistency
 
 ## Candidates For Adoption
 
@@ -87,8 +84,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-thomassen-dnsop-generalized-dns-notify
 
 ## New Documents
-
-* draft-huque-dnsop-compact-lies
 
 * draft-bellis-dnsop-qdcount-is-one
 
