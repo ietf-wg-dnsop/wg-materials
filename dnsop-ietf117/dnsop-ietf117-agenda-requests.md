@@ -33,4 +33,8 @@
     - DocType: For Consideration
 
 
-
+*   Draft name: draft-bellis-dnsop-qdcount-is-one
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
+    - Requester Email: Ray Bellis <ray@bellis.me.uk>
+    - Time Requested: 15min
+    - DocType: For Consideration
