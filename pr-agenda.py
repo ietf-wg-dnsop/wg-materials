@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # prints out agenda and timetable from agenda requests
 
+# run this
+# pr-agenda.py <session> [--write]
+
 import argparse
 
 alltimes = []
 alltalks = {}
 
 def addtalk(agendaitem):
-    #       wgdoc = bool('draft-ietf-dnsop' in url)
     if agendaitem:
         if agendaitem.get('wgdoc'):
             alltalks.setdefault('wgdocs', []).append(agendaitem)
@@ -46,7 +48,7 @@ def getitems(newlines):
         if 'Requester Email' in l:
             agendaitem.setdefault('email', ' '.join(fields[3::]))
         if 'Time Requested' in l:
-            agendaitem.setdefault('time', fields[3])
+            agendaitem.setdefault('time', fields[3].replace('min', ''))
 
     addtalk(agendaitem)
 
@@ -62,37 +64,54 @@ def printitem(docs):
         alltimes.append(f"{i.get('title')}\t{i.get('email')}\t{i.get('time')}\n")
     return lines
 
-def printitems():
+def writef(filename, records):
+    with open(filename, "w", encoding="ascii") as f:
+        for r in records or []:
+            f.write(f"{r}\n")
+
+def printitems(args):
     newlines = []
 
     alltimes.append("Agenda Bashing Blue Sheets\tChairs\t10\n")
     alltimes.append("Updates of Old Work\tChairs\t10\n")
 
-    alltimes.append('### Current Working Group Business\n')
-    newlines.append('### Current Working Group Business\n')
+    alltimes.append('\n### Current Working Group Business\n')
+    newlines.append('\n### Current Working Group Business\n')
     newlines.extend(printitem(alltalks.get('wgdocs')))
 
-    alltimes.append('### For Consideration\n')
-    newlines.append('### For Consideration\n')
+    alltimes.append('\n### For Consideration\n')
+    newlines.append('\n### For Consideration\n')
     newlines.extend(printitem(alltalks.get('nonwgdocs')))
 
-    for l in newlines:
-        print(l)
+    print("------\n# Agenda\n")
+    if args.write:
+        ofile = f"dnsop-ietf{args.session}-docs.md"
+        writef(ofile, newlines)
+        print(f"import {ofile} into dnsop-ietf{args.session}/dnsop-ietf{args.session}-agenda.md")
+    else:
+        for t in newlines:
+            print(t)
 
     print("------\n# Timetable\n")
-    for t in alltimes:
-        print(t)
+    if args.write:
+        ofile = f"dnsop-ietf{args.session}-times.tsv"
+        writef(ofile, alltimes)
+        print(f"import {ofile} into timetable")
+    else:
+        for t in alltimes:
+            print(t)
 
 def main():
     parser = argparse.ArgumentParser(description='print agenda')
     parser.add_argument('session', help='session')
+    parser.add_argument('--write', action='store_true', help='write')
     # parser.add_argument('--verbose', action='store_true', help='Be more Verbose')
     args = parser.parse_args()
 
     requestfile = f"dnsop-ietf{args.session}/dnsop-ietf{args.session}-agenda-requests.md"
     lines = readf(requestfile)
     getitems(lines)
-    printitems()
+    printitems(args)
 
 if __name__ == "__main__":
     main()

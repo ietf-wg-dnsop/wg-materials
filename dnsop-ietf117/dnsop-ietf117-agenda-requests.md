@@ -20,7 +20,7 @@
 
 
 *   Draft name: draft-ietf-dnsop-cds-consistency
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-cds-consistency/
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
     - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 15min
     - DocType: Current Business
