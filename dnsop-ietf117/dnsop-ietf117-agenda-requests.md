@@ -38,3 +38,12 @@
     - Requester Email: Ray Bellis <ray@bellis.me.uk>
     - Time Requested: 15min
     - DocType: For Consideration
+
+
+*   Draft name: draft-ietf-dnsop-compact-denial-of-existence
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+    - Requester Email:  Shumon Huque <shuque@gmail.com>
+    - Time Requested: 15 min
+    - DocType: Current Business
+
+
