@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 7 June 2023
+### Updated: 27 June 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -13,10 +13,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
 
-* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/)
+* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/) ~~RFC9432~~
 
 * ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/)
 
+* ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/)
 
 ## IESG Queue
 
@@ -26,13 +27,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-avoid-fragmentation
     - No followup from implementors on appendix
 
-* draft-ietf-dnsop-glue-is-not-optional
-
 ## WGLC Approved
 
 * draft-ietf-dnsop-rfc8499bis
 
 * draft-ietf-dnsop-zoneversion
+
+* draft-ietf-dnsop-dns-error-reporting
 
 ## In WG Last Call
 
@@ -40,19 +41,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-validator-requirements
 
-* draft-ietf-dnsop-dns-error-reporting
-
+* draft-ietf-dnsop-caching-resolution-failures
 
 ## Upcoming WG Last Calls
 
-* draft-ietf-dnsop-caching-resolution-failures
-    - Authors feel ready
-
 * draft-ietf-dnsop-svcb-dane
 
-## Adopted by WG, Under Discussion (ranked)
-
 * draft-ietf-dnsop-dnssec-bootstrapping
+
+
+## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-ns-revalidation
     - Updated Document, resolved all outstanding TODOs
@@ -60,7 +58,7 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dnssec-automation
     - Still needs another author
 
-* draft-ietf-dnsop-structured-dns-error-page
+* draft-ietf-dnsop-structured-dns-error
     - Work In Progress
 
 * draft-ietf-dnsop-rfc8109bis
