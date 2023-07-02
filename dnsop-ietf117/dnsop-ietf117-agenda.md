@@ -58,7 +58,7 @@
 *   draft-bash-rfc7958bis
     - https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
     - Paul Hoffman <paul.hoffman@icann.org>, 15
-    - Chairs Action:
+    - Chairs Action: Adopt ?
 
 *   draft-bellis-dnsop-qdcount-is-one
     - https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
