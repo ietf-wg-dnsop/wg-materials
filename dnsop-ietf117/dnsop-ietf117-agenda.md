@@ -2,9 +2,9 @@
 
 ## IETF 117
 
-* Date:
-* Time:
-* Room:
+* Date: July 24, 2023
+* Time: 0930-1130 PDT (1630-1830 UTC)
+* Room: Continental 5
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf117/?group=dnsop&short=&item=1)
 * [Minutes](https://codimd.ietf.org/notes-ietf-117-dnsop)
