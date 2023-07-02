@@ -35,3 +35,44 @@
 * Updates of Old Work, Chairs, 10 min
 
 
+### Current Working Group Business
+
+*   draft-ietf-dnsop-cds-consistency
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
+    - Peter Thomassen <peter@desec.io>, 15
+    - Chairs Action:
+
+*   draft-ietf-dnsop-compact-denial-of-existence
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+    - Shumon Huque <shuque@gmail.com>, 15
+    - Chairs Action:
+
+
+### For Consideration
+
+*   draft-dnsop-dnssec-extension-pkix
+    - https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
+    - Hyeonmin Lee <min0921110@gmail.com> and Taekyoung Kwon <tkkwon98@gmail.com>, 15
+    - Chairs Action:
+
+*   draft-bash-rfc7958bis
+    - https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 15
+    - Chairs Action:
+
+*   draft-bellis-dnsop-qdcount-is-one
+    - https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
+    - Ray Bellis <ray@bellis.me.uk>, 15
+    - Chairs Action:
+
+*   draft-thomassen-dnsop-generalized-dns-notify
+    - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
+    - Peter Thomassen <peter@desec.io> Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15
+    - Chairs Action:
+
+*   draft-johani-tld-zone-pipeline
+    - https://datatracker.ietf.org/doc/draft-johani-tld-zone-pipeline/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se> jakob <jakob@kirei.se>, 15
+    - Chairs Action:
+
+

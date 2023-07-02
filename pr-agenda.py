@@ -102,9 +102,9 @@ def printitems(args):
             print(t)
 
 def main():
-    parser = argparse.ArgumentParser(description='print agenda')
-    parser.add_argument('session', help='session')
-    parser.add_argument('--write', action='store_true', help='write')
+    parser = argparse.ArgumentParser(description='Convert Agenda Requests into Agenda')
+    parser.add_argument('session', help='Meeting Number (1##)')
+    parser.add_argument('--write', action='store_true', help='Write Files')
     # parser.add_argument('--verbose', action='store_true', help='Be more Verbose')
     args = parser.parse_args()
 
