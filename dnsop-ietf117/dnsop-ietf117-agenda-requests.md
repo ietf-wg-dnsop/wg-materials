@@ -52,3 +52,11 @@
     - Requester Email:  Peter Thomassen <peter@desec.io> Johan Stenstam <johan.stenstam@internetstiftelsen.se>
     - Time Requested: 15 min
     - DocType: For Consideration
+
+
+*   Draft name: draft-johani-tld-zone-pipeline
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-tld-zone-pipeline/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>  jakob <jakob@kirei.se>
+    - Time Requested: 15 min
+    - DocType: For Consideration
+
