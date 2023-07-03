@@ -60,3 +60,10 @@
     - Time Requested: 15 min
     - DocType: For Consideration
 
+
+* Draft name: draft-grubto-dnsop-dns-out-of-protocol-signalling
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+    - Requester Email: Willem Toorop
+    - Time Requested: 15 min (I can do it in 10 minutes if needed)
+    - DocType: For Consideration
+
