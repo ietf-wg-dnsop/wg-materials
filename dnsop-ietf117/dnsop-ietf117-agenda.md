@@ -75,4 +75,7 @@
     - Johan Stenstam <johan.stenstam@internetstiftelsen.se> jakob <jakob@kirei.se>, 15
     - Chairs Action:
 
-
+*   draft-grubto-dnsop-dns-out-of-protocol-signalling
+    - https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+    - Willem Toorop, 15 min
+    - Chairs Action:
