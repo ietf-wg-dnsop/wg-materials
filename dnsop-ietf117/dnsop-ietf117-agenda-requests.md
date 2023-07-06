@@ -29,14 +29,14 @@
 *   Draft name: draft-bash-rfc7958bis
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
     - Requester Email: Paul Hoffman <paul.hoffman@icann.org>
-    - Time Requested: 15min
+    - Time Requested: 15 min
     - DocType: For Consideration
 
 
 *   Draft name: draft-bellis-dnsop-qdcount-is-one
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
     - Requester Email: Ray Bellis <ray@bellis.me.uk>
-    - Time Requested: 15min
+    - Time Requested: 15 min
     - DocType: For Consideration
 
 
@@ -50,20 +50,20 @@
 *   Draft name: draft-thomassen-dnsop-generalized-dns-notify
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
     - Requester Email:  Peter Thomassen <peter@desec.io> Johan Stenstam <johan.stenstam@internetstiftelsen.se>
-    - Time Requested: 15 min
+    - Time Requested: 10 min
     - DocType: For Consideration
 
 
 *   Draft name: draft-johani-tld-zone-pipeline
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-tld-zone-pipeline/
     - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>  jakob <jakob@kirei.se>
-    - Time Requested: 15 min
+    - Time Requested: 10 min
     - DocType: For Consideration
 
 
-* Draft name: draft-grubto-dnsop-dns-out-of-protocol-signalling
+*   Draft name: draft-grubto-dnsop-dns-out-of-protocol-signalling
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
     - Requester Email: Willem Toorop
-    - Time Requested: 15 min (I can do it in 10 minutes if needed)
+    - Time Requested: 10 min
     - DocType: For Consideration
 

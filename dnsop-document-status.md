@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 27 June 2023
+### Updated: 10 July 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -25,23 +25,28 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
     - AD Followup
 
 * draft-ietf-dnsop-avoid-fragmentation
-    - No followup from implementors on appendix
+    - 1 Week Followup
 
 ## WGLC Approved
 
 * draft-ietf-dnsop-rfc8499bis
+    - awaiting writeup
 
 * draft-ietf-dnsop-zoneversion
+    - awaiting writeup
 
 * draft-ietf-dnsop-dns-error-reporting
+    - awaiting writeup
+
+* draft-ietf-dnsop-caching-resolution-failures
+    - awaiting writeup
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-domain-verification-techniques
 
 * draft-ietf-dnsop-dnssec-validator-requirements
-
-* draft-ietf-dnsop-caching-resolution-failures
+    - PARKED
 
 ## Upcoming WG Last Calls
 
@@ -49,14 +54,12 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-bootstrapping
 
-
 ## Adopted by WG, Under Discussion (ranked)
 
 * draft-ietf-dnsop-ns-revalidation
     - Updated Document, resolved all outstanding TODOs
 
 * draft-ietf-dnsop-dnssec-automation
-    - Still needs another author
 
 * draft-ietf-dnsop-structured-dns-error
     - Work In Progress
@@ -73,21 +76,19 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Candidates For Adoption
 
-* draft-hardaker-dnsop-rfc8624-bis
+* draft-bash-rfc7958bis
 
-* draft-thomassen-dnsop-mske
-
-* draft-dsawp-notify
+* draft-bellis-dnsop-qdcount-is-one
 
 * draft-thomassen-dnsop-generalized-dns-notify
 
 ## New Documents
 
-* draft-bellis-dnsop-qdcount-is-one
-
-* draft-bellis-dnsext-multi-qtypes
-
 * draft-peltan-edns-presentation-format
+
+* draft-johani-tld-zone-pipeline
+
+* draft-grubto-dnsop-dns-out-of-protocol-signalling
 
 ## Needs more Review
 

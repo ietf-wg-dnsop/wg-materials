@@ -50,11 +50,6 @@
 
 ### For Consideration
 
-*   draft-dnsop-dnssec-extension-pkix
-    - https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
-    - Hyeonmin Lee <min0921110@gmail.com> and Taekyoung Kwon <tkkwon98@gmail.com>, 15 min
-    - Chairs Action:
-
 *   draft-bash-rfc7958bis
     - https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
     - Paul Hoffman <paul.hoffman@icann.org>, 15 min
@@ -63,6 +58,11 @@
 *   draft-bellis-dnsop-qdcount-is-one
     - https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
     - Ray Bellis <ray@bellis.me.uk>, 15 min
+    - Chairs Action:
+
+*   draft-dnsop-dnssec-extension-pkix
+    - https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
+    - Hyeonmin Lee <min0921110@gmail.com> and Taekyoung Kwon <tkkwon98@gmail.com>, 15 min
     - Chairs Action:
 
 *   draft-grubto-dnsop-dns-out-of-protocol-signalling
