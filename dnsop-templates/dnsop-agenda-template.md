@@ -27,6 +27,9 @@
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
+* [ietf_wg_dnsop](https://twitter.com/ietf_wg_dnsop)
+* [@ietf_wg_dnsop@hachyderm.io](https://hachyderm.io/@ietf_wg_dnsop)
+
 ## Agenda
 
 ### Administrivia
