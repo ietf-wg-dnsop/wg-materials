@@ -55,17 +55,17 @@
 
 *   draft-bash-rfc7958bis
     - https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
-    - Paul Hoffman <paul.hoffman@icann.org>, 15 min
+    - Paul Hoffman <paul.hoffman@icann.org>, 10 min
     - Chairs Action: Adopt ?
 
 *   draft-bellis-dnsop-qdcount-is-one
     - https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
-    - Ray Bellis <ray@bellis.me.uk>, 15 min
+    - Ray Bellis <ray@bellis.me.uk>, 10 min
     - Chairs Action:
 
 *   draft-dnsop-dnssec-extension-pkix
     - https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
-    - Hyeonmin Lee <min0921110@gmail.com> and Taekyoung Kwon <tkkwon98@gmail.com>, 15 min
+    - Hyeonmin Lee <min0921110@gmail.com> and Taekyoung Kwon <tkkwon98@gmail.com>, 10min
     - Chairs Action:
 
 *   draft-grubto-dnsop-dns-out-of-protocol-signalling
@@ -82,3 +82,8 @@
     - https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
     - Peter Thomassen <peter@desec.io> Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10 min
     - Chairs Action:
+
+*   draft-dnsop-multi-alg-rules
+    -  https://github.com/shuque/draft-dnsop-multi-alg-rules
+    -  Peter Thomassen <peter@desec.io> and Shumon Huque <shuque@gmail.com>, 10 min
+    -  Chairs Action:
