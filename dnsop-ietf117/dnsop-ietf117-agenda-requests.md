@@ -67,3 +67,8 @@
     - Time Requested: 10 min
     - DocType: For Consideration
 
+*   Draft name: draft-momoka-v6ops-ipv6-only-resolver
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+    - Requester Email: Momoka Yamamoto <momoka.my6@gmail.com>
+    - Time Requested: 10 min
+    - DocType: For Consideration at v6ops
