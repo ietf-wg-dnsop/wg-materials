@@ -26,8 +26,8 @@
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-* [ietf_wg_dnsop](https://twitter.com/ietf_wg_dnsop)
-* [@ietf_wg_dnsop@hachyderm.io](https://hachyderm.io/@ietf_wg_dnsop)
+* [Twitter ietf_wg_dnsop](https://twitter.com/ietf_wg_dnsop)
+* [Mastodont @ietf_wg_dnsop@hachyderm.io](https://hachyderm.io/@ietf_wg_dnsop)
 
 ## Agenda
 
@@ -55,27 +55,22 @@
 
 *   draft-bash-rfc7958bis
     - https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
-    - Paul Hoffman <paul.hoffman@icann.org>, 10 min
+    - Paul Hoffman <paul.hoffman@icann.org>, 15 min
     - Chairs Action: Adopt ?
 
 *   draft-bellis-dnsop-qdcount-is-one
     - https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
-    - Ray Bellis <ray@bellis.me.uk>, 10 min
-    - Chairs Action:
-
-*   draft-dnsop-dnssec-extension-pkix
-    - https://datatracker.ietf.org/doc/draft-dnsop-dnssec-extension-pkix/
-    - Hyeonmin Lee <min0921110@gmail.com> and Taekyoung Kwon <tkkwon98@gmail.com>, 10min
+    - Ray Bellis <ray@bellis.me.uk>, 15 min
     - Chairs Action:
 
 *   draft-grubto-dnsop-dns-out-of-protocol-signalling
     - https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
-    - Willem Toorop, 10 min
+    - Willem Toorop, 15 min
     - Chairs Action:
 
 *   draft-johani-tld-zone-pipeline
     - https://datatracker.ietf.org/doc/draft-johani-tld-zone-pipeline/
-    - Johan Stenstam <johan.stenstam@internetstiftelsen.se> jakob <jakob@kirei.se>, 10 min
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se> jakob <jakob@kirei.se>, 15 min
     - Chairs Action:
 
 *   draft-thomassen-dnsop-generalized-dns-notify
