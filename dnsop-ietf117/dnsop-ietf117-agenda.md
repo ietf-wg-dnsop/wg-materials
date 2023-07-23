@@ -6,7 +6,9 @@
 * Time: 0930-1130 PDT (1630-1830 UTC)
 * Room: Continental 5
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf117/?group=dnsop&short=&item=1)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf117/?session=30465)
+* [OnSiteTool](https://meetings.conf.meetecho.com/onsite117/?session=30465)
+
 * [Minutes](https://notes.ietf.org/notes-ietf-117-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
 * [Upload Slides](https://datatracker.ietf.org/meeting/117/session/dnsop)
@@ -79,6 +81,6 @@
     - Chairs Action:
 
 *   draft-dnsop-multi-alg-rules
-    -  https://github.com/shuque/draft-dnsop-multi-alg-rules
+    -  https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
     -  Peter Thomassen <peter@desec.io> and Shumon Huque <shuque@gmail.com>, 10 min
     -  Chairs Action:

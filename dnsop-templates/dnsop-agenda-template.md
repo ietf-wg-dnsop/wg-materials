@@ -7,7 +7,9 @@
 * Time:
 * Room:
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf%%MTG%%/?group=dnsop&short=&item=1)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf%%MTG%%/?session=)
+* [OnSiteTool](https://meetings.conf.meetecho.com/onsite%%MTG%%/?session=)
+
 * [Minutes](https://codimd.ietf.org/notes-ietf-%%MTG%%-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
 * [Upload Slides](https://datatracker.ietf.org/meeting/%%MTG%%/session/dnsop)

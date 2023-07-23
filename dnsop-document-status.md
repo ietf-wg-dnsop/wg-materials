@@ -9,11 +9,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
+* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/) ~~RFC9432~~
+
 ### RFC Ed Queue
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-
-* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/) ~~RFC9432~~
 
 * ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/)
 
@@ -24,10 +24,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-rfc5933-bis
     - AD Followup
 
-* draft-ietf-dnsop-avoid-fragmentation
-    - 1 Week Followup
+* draft-ietf-dnsop-caching-resolution-failures
+
 
 ## WGLC Approved
+
+* draft-ietf-dnsop-avoid-fragmentation
+    - 1 Week Followup
 
 * draft-ietf-dnsop-rfc8499bis
     - awaiting writeup
@@ -38,15 +41,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dns-error-reporting
     - awaiting writeup
 
-* draft-ietf-dnsop-caching-resolution-failures
-    - awaiting writeup
-
-## In WG Last Call
-
 * draft-ietf-dnsop-domain-verification-techniques
 
-* draft-ietf-dnsop-dnssec-validator-requirements
-    - PARKED
+## In WG Last Call
 
 ## Upcoming WG Last Calls
 
@@ -62,13 +59,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-dnssec-automation
 
 * draft-ietf-dnsop-structured-dns-error
-    - Work In Progress
 
 * draft-ietf-dnsop-rfc8109bis
 
 * draft-ietf-dnsop-compact-denial-of-existence
 
 * draft-ietf-dnsop-cds-consistency
+
+## Parked
+
+* draft-ietf-dnsop-dnssec-validator-requirements
 
 ## Recently Expired Documents
 
@@ -82,13 +82,16 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-thomassen-dnsop-generalized-dns-notify
 
+* draft-grubto-dnsop-dns-out-of-protocol-signalling
+
+* draft-dnsop-multi-alg-rules
+
 ## New Documents
 
 * draft-peltan-edns-presentation-format
 
 * draft-johani-tld-zone-pipeline
 
-* draft-grubto-dnsop-dns-out-of-protocol-signalling
 
 ## Needs more Review
 
