@@ -1,0 +1,110 @@
+DNSOP WG
+IETF 117, San Francisco
+Monday moringing, July, 2023
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+Minutes taken by Paul Hoffman
+Only stuff said that happened at the mic is reported here
+
+Administrivia and updates of old work
+	https://datatracker.ietf.org/meeting/117/materials/slides-117-dnsop-chairs-slides-02
+	Lots of stuff on the chair slides
+
+Current drafts
+
+draft-ietf-dnsop-cds-consistency, Peter Thomassen
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
+	Johan Stenstam: Doesn't like the CSYNC stuff
+		This is changing the the definition of what "correct" means
+		Had a related problem for .se about 15 years ago
+		Dangerous to have a system where you need agreement from all of them
+		Peter: Not questioning validation of signatures
+	Ed Lewis: Doesn't like silent fail
+		Hard for operations
+		Peter: Wants registries for some kind of reporting
+	Warren noted about the wireless issues in the room 
+	Wes Hardaker: These are all hard problems
+		Wrote CSYNC to help folks update their parents
+		Having these types of capabilities is important, but maybe we need to start over
+	Mark Andrews: Wants multisigner to be safe
+		To do that we need multiple inputs
+		Is willing to do manual recovery if a server is dead
+		DNS is loosely coherent
+	
+
+draft-ietf-dnsop-compact-denial-of-existence, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+	Viktor Dukhovni:
+		We should only standardize with ENT, not NXDOMAIN
+			NXDOMAIN causes a conflict
+	Dave Lawrence: Wants both signals, but if we only have one, wants NXDOMAIN
+	Jim Reid: Will you have two meta RRtypes?
+		Shumon: Yes
+	Christian Elmerot:
+		Wants NXDOMAIN RRtype more than ENT
+		Is doing NXDOMAIN, also has code for ENT case
+	Ed: This disagrees with RFC 4035
+		Rationale is that the signed and unsigned be coherent
+		Maybe create a different RRtype, don't overload NSEC
+		Don't upend original work
+	Paul Hoffman: Don't register in IANA until the document is stable
+	David: Wants to recommend things with guidance
+		Resolver should be able to indicate that they understand this
+		Shumon: It can be deployed
+
+Possible future work
+
+draft-bash-rfc7958bis, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
+	Tim: Wants to see it adopted
+
+draft-bellis-dnsop-qdcount-is-one, Ray Bellis
+	https://datatracker.ietf.org/doc/draft-bellis-dnsop-qdcount-is-one/
+	Warren: Why QDCOUNT of 0?
+		Ray: DNS cookies have it
+	Peter Thomassen: Why are we solving this?
+		Ray: Don't want it on the public internet
+	Ted Lemon: Wants the document to be smaller
+		OpenThread (IoT thing used in Matter) DNSSD client uses QDCOUNT=2 for two RRtypes
+		Different nameservers give different responses to QDCOUNT=2
+		Should say "don't do this" and "what should you do if you get such a query"
+		Maybe document that there are implementations
+	Mark: BIND9 returns FORMERR without the question
+	Lars-Johan Liman: Why do we need to define this?
+		If you send a query with QDCOUNT > 1, it's your problem to deal with it
+		Ray: Wants to prevent this for different corner cases
+		Ted: It is not possible to be well-defined
+	Jim: Should say "don't do this" but not "what should you do if you get such a query" 
+		Make the background as an informational RFC
+		Ray: has some of this in another draft
+
+draft-grubto-dnsop-dns-out-of-protocol-signalling, Willem Toorop
+	https://datatracker.ietf.org/doc/draft-grubto-dnsop-dns-out-of-protocol-signalling/
+	Ben Schwartz: Why is this specific to DNS?
+		Willem: It is not specific to DNS
+			There are some conditions that can be noticed within the nameserver
+		Ben: Should be a specification closer to BGP, and then a BCP closer to DNS
+	Ray: Can't necessarily hand off directly to the BGP daemon
+
+draft-johani-tld-zone-pipeline, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-johani-tld-zone-pipeline/
+
+draft-thomassen-dnsop-generalized-dns-notify, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-thomassen-dnsop-generalized-dns-notify/
+	Warren: This was floated when the original docs but was considered a DoS vector
+		Johan: Doesn't think it is a major issue
+			Important thing is to be able to tell the parent before a full scan
+	Ed: Event-driven is more elegant than polling
+		Wants to see polling fail before we adopt this
+	John Levine: Thinks this is a good idea
+		You have to poll either regularly or when prompted to
+		Take out the new RRtype
+
+draft-dnsop-multi-alg-rules, Peter Thomassen
+	https://github.com/shuque/draft-dnsop-multi-alg-rules
+	Ed: Needs to be solved
+		Don't have metadata now, and this would cause metadata in the configuration
+	Sam Weiler: Takes the signalling out of band
+		What if you were to define a new algorithm number such as 8 or 13
+	Ben: Thinks he wants the opposite of this
+		Wrote "DNSSEC strict mode", still wants that
+		Maybe write something that causes immutable algorithm numbers
