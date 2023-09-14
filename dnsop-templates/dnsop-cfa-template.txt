@@ -12,5 +12,4 @@ Please also indicate if you are willing to contribute text, review, etc.
 This call for adoption ends: $DATE
 
 Thanks,
-tim wicinski
 For DNSOP co-chairs

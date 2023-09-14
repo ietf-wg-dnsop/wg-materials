@@ -16,4 +16,3 @@ If someone feels the document is *not* ready for publication, please speak out w
 This starts a two week Working Group Last Call process, and ends on:  $DATE
 
 thanks
-tim
