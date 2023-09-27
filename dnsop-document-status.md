@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 13 September 2023
+### Updated: 27 September 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -13,21 +13,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
 
-* ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/)
+* ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/) ~~RFC9476~~
 
 * ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/)
 
 ### RFC Ed Queue
 
+* draft-ietf-dnsop-rfc8499bis
+
+* draft-ietf-dnsop-caching-resolution-failures
+
 ## IESG Queue
 
 * draft-ietf-dnsop-rfc5933-bis
     - AD Followup
-
-* draft-ietf-dnsop-caching-resolution-failures
-
-* draft-ietf-dnsop-rfc8499bis
-    2023-09-21
 
 ## WGLC Approved
 
@@ -43,11 +42,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## In WG Last Call
 
+* draft-ietf-dnsop-dnssec-bootstrapping
+
 ## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-rfc8109bis
-
-* draft-ietf-dnsop-dnssec-bootstrapping
 
 * draft-ietf-dnsop-svcb-dane
 
@@ -71,9 +70,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-## Candidates For Adoption
-
 * draft-thomassen-dnsop-generalized-dns-notify
+    - ends 2023-09-28
+
+## Candidates For Adoption
 
 * draft-bash-rfc7958bis
 
