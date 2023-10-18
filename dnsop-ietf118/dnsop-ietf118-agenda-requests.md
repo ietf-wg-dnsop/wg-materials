@@ -41,3 +41,9 @@
     - Requester Email: Paul Hoffman, <paul.hoffman@icann.org>
     - Time Requested: 10 min
     - DocType: For Consideration
+
+*   Draft name: draft-ietf-dnsop-compact-denial-of-existence
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+    - Requester Email: Shumon Huque, <shuque@gmail.com>
+    - Time Requested: 15 min
+    - DocType: Current Business
