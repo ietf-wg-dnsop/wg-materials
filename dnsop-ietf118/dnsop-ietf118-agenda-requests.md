@@ -23,6 +23,7 @@
     - Requester Email: Shumon Huque, <shuque@gmail.com>
     - Time Requested: 15min
     - DocType: Current Business
+    - Remark: request for slot on Tuesday
 
  *  Draft name: draft-hollenbeck-regext-epp-delete-bcp
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
@@ -47,3 +48,16 @@
     - Requester Email: Shumon Huque, <shuque@gmail.com>
     - Time Requested: 15 min
     - DocType: Current Business
+
+*   Draft name: draft-many-dnsop-dns-isolated-networks
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
+    - Requester Email: Marc Blanchet, <marc.blanchet@viagenie.ca>
+    - Time Requested: 10 min
+    - DocType: Current Business
+    - Remark: request for slot on Tuesday
+
+*   Draft name: draft-peltan-edns-presentation-format
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-peltan-edns-presentation-format/
+    - Requester Email: Libor Peltan, <libor.peltan@nic.cz>
+    - Time Requested: 10 min
+    - DocType: For Consideration
