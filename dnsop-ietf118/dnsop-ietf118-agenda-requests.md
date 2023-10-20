@@ -29,7 +29,7 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
     - Requester Email: Scott Hollenbeck, <shollenbeck@verisign.com>
     - Time Requested: 10 min
-    - DocType: Liaison REGEXT
+    - DocType: Liaison REGEXT WG
 
 *   Draft name: draft-ietf-dnsop-rfc8109bis
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
@@ -61,3 +61,9 @@
     - Requester Email: Libor Peltan, <libor.peltan@nic.cz>
     - Time Requested: 10 min
     - DocType: For Consideration
+
+*   Draft name: draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-core-dns-over-coap/ and https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
+    - Requester Email: Martine Lenders, <martine.lenders@tu-dresden.de>
+    - Time Requested: 15 min
+    - DocType: Liaison CORE WG
