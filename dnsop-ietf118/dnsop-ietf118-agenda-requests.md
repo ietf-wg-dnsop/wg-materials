@@ -67,3 +67,9 @@
     - Requester Email: Martine Lenders, <martine.lenders@tu-dresden.de>
     - Time Requested: 15 min
     - DocType: Liaison CORE WG
+
+*   Draft name: draft-johani-dnsop-delegation-mgmt-via-ddns
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Requester Email: Johan Stenstam, <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 20 min
+    - DocType: For Consideration
