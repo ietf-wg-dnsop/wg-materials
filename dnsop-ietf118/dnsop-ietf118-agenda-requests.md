@@ -67,3 +67,10 @@
     - Requester Email: Martine Lenders, <martine.lenders@tu-dresden.de>
     - Time Requested: 15 min
     - DocType: Liaison CORE WG
+
+*   Draft name: draft-ietf-dnsop-generalized-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Requester Email: Peter Thomassen, <peter@desec.io>
+    - Time Requested: 20min
+    - DocType: Current Business
+    - Remark: request for slot on Tuesday
