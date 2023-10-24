@@ -73,3 +73,9 @@
     - Requester Email: Johan Stenstam, <johan.stenstam@internetstiftelsen.se>
     - Time Requested: 20 min
     - DocType: For Consideration
+
+*   Draft name: draft-ietf-dnsop-svcb-dane
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-dane/
+    - Requester Email: Ben Schwartz, <bemasc@meta.com>
+    - Time Requested: 10 min
+    - DocType: Current Business
