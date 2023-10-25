@@ -48,11 +48,13 @@
 *   draft-ietf-dnsop-domain-verification-techniques
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
     - Shumon Huque, <shuque@gmail.com>, 15
+    - Remark: request for slot on Tuesday
     - Chairs Action:
 
 *   draft-ietf-dnsop-generalized-notify
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Peter Thomassen, <peter@desec.io>, 20
+    - Remark: request for slot on Tuesday
     - Chairs Action:
 
 
@@ -63,6 +65,7 @@
 *   draft-many-dnsop-dns-isolated-networks
     - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
     - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10
+    - Remark: request for slot on Tuesday
     - Chairs Action:
 
 
