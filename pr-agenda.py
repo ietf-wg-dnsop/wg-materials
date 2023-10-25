@@ -49,6 +49,13 @@ def getitems(newlines):
             agendaitem.setdefault('email', ' '.join(fields[3::]))
         if 'Time Requested' in l:
             agendaitem.setdefault('time', fields[3].replace('min', ''))
+        if 'DocType' in l:
+            doctype = ' '.join(fields[2::])
+            if doctype not in ['Current Business', 'For Consideration']:
+                agendaitem.setdefault('doctype', ' '.join(fields[2::]))
+        if 'Remark' in l:
+            agendaitem.setdefault('remark', ' '.join(fields[2::]))
+
 
     addtalk(agendaitem)
 
@@ -60,6 +67,10 @@ def printitem(docs):
         lines.append(f"    - {i.get('url')}")
         lines.append(f"    - {i.get('email')}, {i.get('time')}")
         lines.append("    - Chairs Action:")
+        if i.get('remark'):
+            lines.append(f"    - Remark: {i.get('remark')}")
+        if i.get('doctype'):
+            lines.append(f"    - DocType: {i.get('doctype')}")
         lines.append("")
         alltimes.append(f"{i.get('title')}\t{i.get('email')}\t{i.get('time')}\n")
     return lines
