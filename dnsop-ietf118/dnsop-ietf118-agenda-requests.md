@@ -18,7 +18,7 @@
     - Time Requested: 10 min
     - DocType: For Consideration
 
-*   Draft name: draft-ietf-dnsop-cds-consistency
+*   Draft name: draft-ietf-dnsop-domain-verification-techniques
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
     - Requester Email: Shumon Huque, <shuque@gmail.com>
     - Time Requested: 15min
@@ -41,7 +41,7 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
     - Requester Email: Paul Hoffman, <paul.hoffman@icann.org>
     - Time Requested: 10 min
-    - DocType: For Consideration
+    - DocType: Current Business
 
 *   Draft name: draft-ietf-dnsop-compact-denial-of-existence
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
@@ -53,7 +53,7 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
     - Requester Email: Marc Blanchet, <marc.blanchet@viagenie.ca>
     - Time Requested: 10 min
-    - DocType: Current Business
+    - DocType: For Consideration
     - Remark: request for slot on Tuesday
 
 *   Draft name: draft-peltan-edns-presentation-format
