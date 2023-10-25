@@ -51,6 +51,7 @@
     - Remark: request for slot on Tuesday
     - Chairs Action:
 
+
 *   draft-ietf-dnsop-generalized-notify
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Peter Thomassen, <peter@desec.io>, 20
@@ -91,15 +92,18 @@
     - Paul Hoffman, <paul.hoffman@icann.org>, 5
     - Chairs Action:
 
+
 *   draft-ietf-dnsop-rfc7958bis
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
     - Paul Hoffman, <paul.hoffman@icann.org>, 10
     - Chairs Action:
 
+
 *   draft-ietf-dnsop-compact-denial-of-existence
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
     - Shumon Huque, <shuque@gmail.com>, 15
     - Chairs Action:
+
 
 *   draft-ietf-dnsop-svcb-dane
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-dane/
@@ -120,15 +124,18 @@
     - Libor Peltan, <libor.peltan@nic.cz>, 10
     - Chairs Action:
 
+
 *   draft-johani-dnsop-delegation-mgmt-via-ddns
     - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
     - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
     - Chairs Action:
 
+
 *   draft-momoka-dnsop-3901bis
     - https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
     - Momoka Yamamoto, <momoka.my6@gmail.com>, 10
     - Chairs Action:
+
 
 ### Liaison with other WGs
 
@@ -136,6 +143,7 @@
     - https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
     - Scott Hollenbeck, <shollenbeck@verisign.com>, 10
     - Chairs Action:
+
 
 *   draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor
     - https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
