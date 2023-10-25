@@ -24,7 +24,7 @@
 ## Session I
 
 * Date: November 7, 2023
-* Time: 17:00-18:00 CET (16:00-17:00 UTC)
+* Time: 1700-1800 CET (1600-1700 UTC)
 * Room: Congress Hall 3
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf118/?session=31560)
@@ -38,26 +38,35 @@
 
 ### Administrivia
 
-* 
+* Updates of Old Work, Chairs, 10 min
 
-* 
+* Hackathon Results, Tentative, 10 min
 
 
 ### Current Working Group Business
 
-*   
+*   draft-ietf-dnsop-domain-verification-techniques
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Shumon Huque, <shuque@gmail.com>, 15
+    - Chairs Action:
 
-*   
+*   draft-ietf-dnsop-generalized-notify
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Peter Thomassen, <peter@desec.io>, 20
+    - Chairs Action:
 
 
 ### For Consideration
 
-*   
+(requested due to travel schedule. open for WG discussion)
 
-*   
+*   draft-many-dnsop-dns-isolated-networks
+    - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
+    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10
+    - Chairs Action:
 
 
-## Session II 
+## Session II
 
 * Date: November 10, 2023
 * Time: 09:30-11:30 CET (08:30-10:30 UTC)
@@ -71,3 +80,56 @@
 * [Upload Slides](https://datatracker.ietf.org/meeting/118/session/31559/slides)
 
 ## Agenda
+
+### Current Working Group Business
+
+*   draft-ietf-dnsop-rfc8109bis
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
+    - Paul Hoffman, <paul.hoffman@icann.org>, 5
+    - Chairs Action:
+
+*   draft-ietf-dnsop-rfc7958bis
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
+    - Paul Hoffman, <paul.hoffman@icann.org>, 10
+    - Chairs Action:
+
+*   draft-ietf-dnsop-compact-denial-of-existence
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+    - Shumon Huque, <shuque@gmail.com>, 15
+    - Chairs Action:
+
+*   draft-ietf-dnsop-svcb-dane
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-dane/
+    - Ben Schwartz, <bemasc@meta.com>, 10
+    - Chairs Action:
+
+
+### For Consideration
+
+*   draft-homburg-dnsop-igadp
+    - https://datatracker.ietf.org/doc/draft-homburg-dnsop-igadp/
+    - Philip Homburg, <pch-dnsop-5@u-1.phicoh.com>, 10
+    - Chairs Action:
+
+
+*   draft-peltan-edns-presentation-format
+    - https://datatracker.ietf.org/doc/draft-peltan-edns-presentation-format/
+    - Libor Peltan, <libor.peltan@nic.cz>, 10
+    - Chairs Action:
+
+*   draft-johani-dnsop-delegation-mgmt-via-ddns
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
+    - Chairs Action:
+
+*   draft-momoka-dnsop-3901bis
+    - https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
+    - Momoka Yamamoto, <momoka.my6@gmail.com>, 10
+    - Chairs Action:
+
+### Liaison with other WGs
+
+*   draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor
+    - https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
+    - Martine Lenders, <martine.lenders@tu-dresden.de>, 15
+    - Chairs Action:

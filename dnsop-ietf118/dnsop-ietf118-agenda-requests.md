@@ -25,12 +25,6 @@
     - DocType: Current Business
     - Remark: request for slot on Tuesday
 
- *  Draft name: draft-hollenbeck-regext-epp-delete-bcp
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
-    - Requester Email: Scott Hollenbeck, <shollenbeck@verisign.com>
-    - Time Requested: 10 min
-    - DocType: Liaison REGEXT WG
-
 *   Draft name: draft-ietf-dnsop-generalized-notify
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Requester Email: Peter Thomassen, <peter@desec.io>
@@ -38,14 +32,20 @@
     - DocType: Current Business
     - Remark: request for slot on Tuesday
 
+*   Draft name: draft-hollenbeck-regext-epp-delete-bcp
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
+    - Requester Email: Scott Hollenbeck, <shollenbeck@verisign.com>
+    - Time Requested: 10 min
+    - DocType: Liaison REGEXT WG
+
 *   Draft name: draft-ietf-dnsop-rfc8109bis
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
     - Requester Email: Paul Hoffman, <paul.hoffman@icann.org>
     - Time Requested: 5 min
     - DocType: Current Business
 
-*   Draft name: draft-bash-rfc7958bis
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-bash-rfc7958bis/
+*   Draft name: draft-ietf-dnsop-rfc7958bis
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
     - Requester Email: Paul Hoffman, <paul.hoffman@icann.org>
     - Time Requested: 10 min
     - DocType: Current Business
