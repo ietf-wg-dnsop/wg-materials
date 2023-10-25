@@ -31,6 +31,13 @@
     - Time Requested: 10 min
     - DocType: Liaison REGEXT WG
 
+*   Draft name: draft-ietf-dnsop-generalized-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Requester Email: Peter Thomassen, <peter@desec.io>
+    - Time Requested: 20min
+    - DocType: Current Business
+    - Remark: request for slot on Tuesday
+
 *   Draft name: draft-ietf-dnsop-rfc8109bis
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
     - Requester Email: Paul Hoffman, <paul.hoffman@icann.org>
