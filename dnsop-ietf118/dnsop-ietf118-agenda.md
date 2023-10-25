@@ -129,6 +129,11 @@
 
 ### Liaison with other WGs
 
+*   draft-hollenbeck-regext-epp-delete-bcp
+    - https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
+    - Scott Hollenbeck, <shollenbeck@verisign.com>, 10
+    - Chairs Action:
+
 *   draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor
     - https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
     - Martine Lenders, <martine.lenders@tu-dresden.de>, 15
