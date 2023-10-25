@@ -79,3 +79,9 @@
     - Requester Email: Ben Schwartz, <bemasc@meta.com>
     - Time Requested: 10 min
     - DocType: Current Business
+
+*   Draft name: draft-momoka-dnsop-3901bis
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
+    - Requester Email: Momoka Yamamoto, <momoka.my6@gmail.com>
+    - Time Requested: 10 min
+    - DocType: For Consideration
