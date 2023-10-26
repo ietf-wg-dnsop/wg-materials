@@ -50,6 +50,7 @@
     - Shumon Huque, <shuque@gmail.com>, 15
     - Remark: request for slot on Tuesday
     - Chairs Action:
+    - Remark: request for slot on Tuesday
 
 
 *   draft-ietf-dnsop-generalized-notify
@@ -57,6 +58,7 @@
     - Peter Thomassen, <peter@desec.io>, 20
     - Remark: request for slot on Tuesday
     - Chairs Action:
+    - Remark: request for slot on Tuesday
 
 
 ### For Consideration
@@ -68,6 +70,7 @@
     - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10
     - Remark: request for slot on Tuesday
     - Chairs Action:
+    - Remark: request for slot on Tuesday
 
 
 ## Session II
@@ -113,6 +116,13 @@
 
 ### For Consideration
 
+*   draft-johani-dnsop-delegation-mgmt-via-ddns
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
+    - Chairs Action:
+    - Remark: request for slot on Tuesday
+
+
 *   draft-homburg-dnsop-igadp
     - https://datatracker.ietf.org/doc/draft-homburg-dnsop-igadp/
     - Philip Homburg, <pch-dnsop-5@u-1.phicoh.com>, 10
@@ -122,12 +132,6 @@
 *   draft-peltan-edns-presentation-format
     - https://datatracker.ietf.org/doc/draft-peltan-edns-presentation-format/
     - Libor Peltan, <libor.peltan@nic.cz>, 10
-    - Chairs Action:
-
-
-*   draft-johani-dnsop-delegation-mgmt-via-ddns
-    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
-    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
     - Chairs Action:
 
 
