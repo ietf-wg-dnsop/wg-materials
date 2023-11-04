@@ -47,7 +47,7 @@
 
 *   draft-ietf-dnsop-domain-verification-techniques
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
-    - Shumon Huque, <shuque@gmail.com>, 15
+    - Shumon Huque, <shuque@gmail.com>, 15 min
     - Remark: request for slot on Tuesday
     - Chairs Action:
     - Remark: request for slot on Tuesday
@@ -55,7 +55,7 @@
 
 *   draft-ietf-dnsop-generalized-notify
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
-    - Peter Thomassen, <peter@desec.io>, 20
+    - Peter Thomassen, <peter@desec.io>, 20 min
     - Remark: request for slot on Tuesday
     - Chairs Action:
     - Remark: request for slot on Tuesday
@@ -67,7 +67,7 @@
 
 *   draft-johani-dnsop-delegation-mgmt-via-ddns
     - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
-    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
+    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20 min
     - Chairs Action:
     - Remark: request for slot on Tuesday
 
@@ -90,25 +90,25 @@
 
 *   draft-ietf-dnsop-rfc8109bis
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
-    - Paul Hoffman, <paul.hoffman@icann.org>, 5
+    - Paul Hoffman, <paul.hoffman@icann.org>, 5 min
     - Chairs Action:
 
 
 *   draft-ietf-dnsop-rfc7958bis
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
-    - Paul Hoffman, <paul.hoffman@icann.org>, 10
+    - Paul Hoffman, <paul.hoffman@icann.org>, 10 min
     - Chairs Action:
 
 
 *   draft-ietf-dnsop-compact-denial-of-existence
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
-    - Shumon Huque, <shuque@gmail.com>, 15
+    - Shumon Huque, <shuque@gmail.com>, 15 min
     - Chairs Action:
 
 
 *   draft-ietf-dnsop-svcb-dane
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-dane/
-    - Ben Schwartz, <bemasc@meta.com>, 10
+    - Ben Schwartz, <bemasc@meta.com>, 10 min
     - Chairs Action:
 
 
@@ -116,26 +116,26 @@
 
 *   draft-many-dnsop-dns-isolated-networks
     - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
-    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10
+    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10 min
     - Remark: request for slot on Tuesday
     - Chairs Action:
     - Remark: request for slot on Tuesday
 
 *   draft-homburg-dnsop-igadp
     - https://datatracker.ietf.org/doc/draft-homburg-dnsop-igadp/
-    - Philip Homburg, <pch-dnsop-5@u-1.phicoh.com>, 10
+    - Philip Homburg, <pch-dnsop-5@u-1.phicoh.com>, 10 min
     - Chairs Action:
 
 
 *   draft-peltan-edns-presentation-format
     - https://datatracker.ietf.org/doc/draft-peltan-edns-presentation-format/
-    - Libor Peltan, <libor.peltan@nic.cz>, 10
+    - Libor Peltan, <libor.peltan@nic.cz>, 10 min
     - Chairs Action:
 
 
 *   draft-momoka-dnsop-3901bis
     - https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
-    - Momoka Yamamoto, <momoka.my6@gmail.com>, 10
+    - Momoka Yamamoto, <momoka.my6@gmail.com>, 10 min
     - Chairs Action:
 
 
@@ -143,11 +143,11 @@
 
 *   draft-hollenbeck-regext-epp-delete-bcp
     - https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
-    - Scott Hollenbeck, <shollenbeck@verisign.com>, 10
+    - Scott Hollenbeck, <shollenbeck@verisign.com>, 10 min
     - Chairs Action:
 
 
 *   draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor
-    - https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
-    - Martine Lenders, <martine.lenders@tu-dresden.de>, 15
+    - https://datatracker.ietf.org/doc/draft-ietf-core-dns-over-coap/ and https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
+    - Martine Lenders, <martine.lenders@tu-dresden.de>, 15 min
     - Chairs Action:
