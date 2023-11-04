@@ -65,13 +65,11 @@
 
 (requested due to travel schedule. open for WG discussion)
 
-*   draft-many-dnsop-dns-isolated-networks
-    - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
-    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10
-    - Remark: request for slot on Tuesday
+*   draft-johani-dnsop-delegation-mgmt-via-ddns
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
     - Chairs Action:
     - Remark: request for slot on Tuesday
-
 
 ## Session II
 
@@ -116,12 +114,12 @@
 
 ### For Consideration
 
-*   draft-johani-dnsop-delegation-mgmt-via-ddns
-    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
-    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20
+*   draft-many-dnsop-dns-isolated-networks
+    - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
+    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10
+    - Remark: request for slot on Tuesday
     - Chairs Action:
     - Remark: request for slot on Tuesday
-
 
 *   draft-homburg-dnsop-igadp
     - https://datatracker.ietf.org/doc/draft-homburg-dnsop-igadp/

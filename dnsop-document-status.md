@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 27 September 2023
+### Updated: 4 November 2023
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,13 +9,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/) ~~RFC9432~~
+* ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/) ~~RFC9471~~
 
-* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
-
-* ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/) ~~RFC9476~~
-
-* ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/)
+* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/) ~~RFC9460~~
 
 ### RFC Ed Queue
 
@@ -31,12 +27,13 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## WGLC Approved
 
 * draft-ietf-dnsop-avoid-fragmentation
+    - AD Followup
 
 * draft-ietf-dnsop-zoneversion
-    - awaiting writeup
+    - AD Followup
 
 * draft-ietf-dnsop-dns-error-reporting
-    - awaiting writeup
+    - Waiting for AD Go-Ahead
 
 * draft-ietf-dnsop-domain-verification-techniques
 
@@ -44,9 +41,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-dnssec-bootstrapping
 
-## Upcoming WG Last Calls
-
 * draft-ietf-dnsop-rfc8109bis
+
+## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-svcb-dane
 
@@ -60,6 +57,10 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-cds-consistency
 
+* draft-ietf-dnsop-qdcount-is-one
+
+* draft-ietf-dnsop-generalized-notify
+
 ## Parked
 
 * draft-ietf-dnsop-dnssec-validator-requirements
@@ -70,14 +71,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Active Calls for Adoption
 
-* draft-thomassen-dnsop-generalized-dns-notify
-    - ends 2023-09-28
 
 ## Candidates For Adoption
-
-* draft-bash-rfc7958bis
-
-* draft-bellis-dnsop-qdcount-is-one
 
 * draft-grubto-dnsop-dns-out-of-protocol-signalling
 
@@ -86,7 +81,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 ## New Documents
 
 * draft-johani-tld-zone-pipeline
-
 
 ## Needs more Review
 
