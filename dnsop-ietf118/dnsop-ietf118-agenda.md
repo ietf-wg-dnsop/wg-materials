@@ -94,8 +94,8 @@
     - Chairs Action:
 
 
-*   draft-ietf-dnsop-rfc7958bis
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
+*   draft-ietf-bash-rfc7958bis
+    - https://datatracker.ietf.org/doc/draft-ietf-bash-rfc7958bis/
     - Paul Hoffman, <paul.hoffman@icann.org>, 10 min
     - Chairs Action:
 
