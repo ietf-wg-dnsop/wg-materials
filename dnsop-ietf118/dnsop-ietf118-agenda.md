@@ -24,7 +24,7 @@
 ## Session I
 
 * Date: November 7, 2023
-* Time: 1700-1800 CET (1600-1700 UTC)
+* Time: 17:00-18:00 CET (16:00-17:00 UTC)
 * Room: Congress Hall 3
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf118/?session=31560)
@@ -38,9 +38,9 @@
 
 ### Administrivia
 
-* Updates of Old Work, Chairs, 10 min
+* Opening, Note Well and Blue Sheets, Chairs, 5 min
 
-* Hackathon Results, Tentative, 10 min
+* Hackathon Results, Petr Spacek, 10 min
 
 
 ### Current Working Group Business
@@ -48,28 +48,24 @@
 *   draft-ietf-dnsop-domain-verification-techniques
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
     - Shumon Huque, <shuque@gmail.com>, 15 min
-    - Remark: request for slot on Tuesday
     - Chairs Action:
-    - Remark: request for slot on Tuesday
 
 
 *   draft-ietf-dnsop-generalized-notify
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Peter Thomassen, <peter@desec.io>, 20 min
-    - Remark: request for slot on Tuesday
     - Chairs Action:
-    - Remark: request for slot on Tuesday
 
 
 ### For Consideration
 
-(requested due to travel schedule. open for WG discussion)
+(Requested due to travel schedule.  Open for WG discussion.)
 
-*   draft-johani-dnsop-delegation-mgmt-via-ddns
-    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
-    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20 min
+*   draft-many-dnsop-dns-isolated-networks
+    - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
+    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10 min
     - Chairs Action:
-    - Remark: request for slot on Tuesday
+
 
 ## Session II
 
@@ -85,6 +81,20 @@
 * [Upload Slides](https://datatracker.ietf.org/meeting/118/session/31559/slides)
 
 ## Agenda
+
+### Administrivia
+
+* Updates of Old Work, Chairs, 10 min
+
+### For Consideration
+
+(Requested due to travel schedule.  Open for WG discussion.)
+
+*   draft-johani-dnsop-delegation-mgmt-via-ddns
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam, <johan.stenstam@internetstiftelsen.se>, 20 min
+    - Chairs Action:
+    - Remark: request for slot on Tuesday
 
 ### Current Working Group Business
 
@@ -114,13 +124,6 @@
 
 ### For Consideration
 
-*   draft-many-dnsop-dns-isolated-networks
-    - https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
-    - Marc Blanchet, <marc.blanchet@viagenie.ca>, 10 min
-    - Remark: request for slot on Tuesday
-    - Chairs Action:
-    - Remark: request for slot on Tuesday
-
 *   draft-homburg-dnsop-igadp
     - https://datatracker.ietf.org/doc/draft-homburg-dnsop-igadp/
     - Philip Homburg, <pch-dnsop-5@u-1.phicoh.com>, 10 min
@@ -149,5 +152,5 @@
 
 *   draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor
     - https://datatracker.ietf.org/doc/draft-ietf-core-dns-over-coap/ and https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
-    - Martine Lenders, <martine.lenders@tu-dresden.de>, 15 min
+    - Martine Lenders, <martine.lenders@tu-dresden.de>, 10 min
     - Chairs Action:
