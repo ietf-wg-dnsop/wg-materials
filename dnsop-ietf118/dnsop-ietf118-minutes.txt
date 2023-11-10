@@ -1,0 +1,197 @@
+DNSOP WG
+IETF 118, Prague
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+Minutes taken by Paul Hoffman
+Only stuff said that happened at the mic is reported here
+
+Tuesday 2023-11-07 afternoon
+
+Administrivia and updates of old work
+	https://datatracker.ietf.org/meeting/118/session/dnsop/
+	Lots of stuff on the chair slides
+
+Hackathon Updates, Petr Špaček
+	See slides; there's lots there
+	Discussion of new DELEG RRtype
+	Also being discussed on DNS-OARC Mattermost server
+
+Current Working Group Business
+
+draft-ietf-dnsop-domain-verification-techniques, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+	Daniel Kahn Gillmor: Glad that it is being coordinated with ACME
+		May be an attack where someone is giving you parts to splice together
+		All need to be spliced as prefix, or suffix, not both
+	John Levine: Looks better since last time
+		We have a registry to use underscore tags
+		Thinks the PSL won't add flags or tags
+			The PSL is just a heuristic
+			Erik Nygren: Not needing anything new from the PSL
+
+draft-ietf-dnsop-generalized-notify, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+	Erik: If you want it at the zone apex, don't use SVCB unless it uses an underscore name
+	Petr: Might need extra parameters
+		Such as "talk to me over TLS"
+	JohnL: Needs a new RRtype to reduce the security issues instead of SVCB
+		Johan: This is for SIG(0), not shared secret
+	Jim Reid: Now at the implementation details
+		How will the client find out who the parent is?
+		Johan: There are algorithms for that
+			Already dealing with the problem in other contexts
+	Ben Schwartz: Doesn't think this draft needs to talk about transport
+		How does this deal with dynamic DNS
+		Johan: Wait for Friday
+	Peter Thomassen: Can determine in two queries if this is signed
+		Could parents use this to publish new records under the same label
+	Ray Bellis: Go for a new RRtype
+		Maybe stick with SVCB format
+
+For Consideration
+
+draft-many-dnsop-dns-isolated-networks, Marc Blanchet
+	https://datatracker.ietf.org/doc/draft-many-dnsop-dns-isolated-networks/
+	BenS: Is someone doing that today?
+		Marc: Will be happening on the moon, no DNS
+			This has additional use cases
+		BenS: Wants real operational experience
+			Suggests that you don't do DNS in space
+	Ralf Weber: Where are the connections terminated?
+		Marc: Mostly local
+		Ralf: Cries for local infrastructure
+	Wes Hardaker: LocalRoot Project already does this type of stuff
+		Has done research with this
+		Will add link on the LocalRoot site
+
+
+Friday 2023-11-10 morning
+
+AD report on a document that got dropped from the WG
+	draft-ietf-dnsop-rfc5933-bis
+	Went to the ISE
+	Is that OK?
+	(No objection in the room)
+
+For Consideration
+
+draft-johani-dnsop-delegation-mgmt-via-ddns, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+	Wes: Likes this
+		Key distribution, authorization, authentication are still a problem
+		Johan: "smaller parents" already have a communication mechanism
+			Can just do it once with this key
+	Ed Lewis: REGEXT has the same example with EPP
+		Operators don't want dynamic update exposed to the public
+	Suzanne: Maybe have an interim
+
+Current Working Group Business
+
+draft-ietf-dnsop-rfc8109bis, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
+
+draft-ietf-dnsop-rfc7958bis, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
+	Warren: Can we add another format for the XML file
+		Paul: That's up to the WG, IANA will respond
+	PeterT: Please be sure the hash is kept in the trust anchor file
+		Paul: It is still mandatory
+
+draft-ietf-dnsop-compact-denial-of-existence, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+	Ed: Explicitly not allowed to query for NSEC3, can do this here
+		This is complex to describe
+		Needs an applicability statement saying you don't need to do this 
+	Christian Elmerot: Cloudflare has made changes in deployment pipeline
+		Shumon: Do you treat metatypes special?
+		Christian: Yes
+	BenS: Doesn't understand the motivation
+	 Any reasonable implementation would have a cache
+	 This draft does not save any CPU time
+	 Is it really worth it for response size?
+	 Clarify the text
+	 Christian: This does save CPU time at Cloudflare
+	 Shumon: Also the packet size
+	 Shane: We synthesize on the fly
+
+draft-ietf-dnsop-svcb-dane, Ben Schwartz
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-dane/
+	This is related to the new DELEG discussion
+	Benno: Almost ready for WG Last Call
+
+For Consideration
+
+draft-homburg-dnsop-igadp, Philip Homburg
+	https://datatracker.ietf.org/doc/draft-homburg-dnsop-igadp/
+	Ed: This sounds like lazy evaluation of zone transfer
+		How do you predict which parts to update?
+		Philip: Don't do anything special
+	Stefan Ubbink: Likes this idea, willing to help
+	PeterT: Sounds like a resolver with restricted capability
+		Philip: Using that word will be confusing, but is mostly forwarding
+	Johan: Likes this
+		For large zones, will never use most parts of the zone 
+		So, not IXFR, but instead for limited use
+	Petr: This is done in BIND for weird reasons today
+	Peter Koch: Like an authoritative with a long line to the database
+		Why document this protocol?
+		Maybe just document the operational aspect
+
+draft-peltan-edns-presentation-format, Libor Peltan
+	https://datatracker.ietf.org/doc/draft-peltan-edns-presentation-format/
+	Paul: Explained why this was an individual document
+	Petr: Original purpose was to help interoperabilty testing
+		Good luck
+	Jim Reid: If you just want review, send to DNS Directorate
+		AD sponsored is a good path forward
+	Greg Choules: If there was a much better way to show this, it would help folks understand DNS
+
+draft-momoka-dnsop-3901bis, Momoka Yamamoto
+	https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
+	Geoff Huston: Is a heretic in the church of IPv6
+		All about fragmentation
+		In IPv6, the likelihood of fragments getting lost is very high
+		The failure rate for large packets on IPv6 rockets
+		Timers in DNS software are longer than TCP timeouts
+		This says "I hate users"
+		This is irresponsible because we have measured that it will hurt users
+		Strikes him as crazy
+	Erik Nygren: Thank you for doing this
+		Long overdue
+	Wes: Strong support for this
+		Geoff's concerns are valid but limited
+	Ralf: Supports
+		Did research about what parts of the DNS is not v6-ready
+		New networks are often faster for v6
+	Tobias Fiebig: Hears the arguments about MTU
+		Problem across all protocol families
+	Andrew Fregly: Has been looking at post-quantum signature sizes
+		Research should drive the development
+
+Liaison with other WGs
+
+draft-hollenbeck-regext-epp-delete-bcp, Scott Hollenbeck
+	https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/
+	Paul: New mailing list
+		We don't deal with dead things well
+	Ed: DNS does not recognize operator
+		Is not a protocol issue
+	PeterT: Get as close as possible to something that is consistent
+		Delete things that are dead
+	Warren: Doesn't know where it should live
+		Maybe another mailing list
+		This is an ongoing problem with lots of research
+		Work on this quickly
+	Scott: Active SSAC work on this
+
+draft-ietf-core-dns-over-coap and draft-lenders-dns-cbor, Martine Lenders
+	https://datatracker.ietf.org/doc/draft-ietf-core-dns-over-coap/
+	https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
+	Ed: Is these devices doing their own DNS resolution or use a resolver
+		Uses a DoC server
+		That server can confirm the source
+		A DELEG record can help get from this DNS to that DNS, but will be huge
+	BenS: Good to get a review here
+		A lot like defining a JSON representation for DNS
+		An interesting challenge
+
+	
