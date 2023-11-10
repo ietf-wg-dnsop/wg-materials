@@ -80,6 +80,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## New Documents
 
+* draft-bellis-dnsext-multi-qtypes
+*
 * draft-johani-tld-zone-pipeline
 
 ## Needs more Review
