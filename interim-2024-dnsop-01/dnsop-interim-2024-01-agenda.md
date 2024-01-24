@@ -15,7 +15,7 @@
 * [Github](https://github.com/ietf-wg-dnsop/wg-materials/blob/main/dnsop-document-status.md)
 * [Datatracker](https://datatracker.ietf.org/wg/dnsop/documents/)
 
-* [Propose Slides](https://datatracker.ietf.org/meeting/interim-2023-dnsop-01/session/dnsop)
+* [Propose Slides](https://datatracker.ietf.org/meeting/interim-2024-dnsop-01/session/dnsop)
 
 
 ## Session interim-2024-dnsop-01
@@ -23,10 +23,10 @@
 * Date: 30 January 2024
 * Time: 17:00-18:00 UTC
 
-* [MeetEcho](https://meetings.conf.meetecho.com/interim/?short=7e86a1ea-71f7-40c0-8c34-eb16a1a57a6e)
+* [MeetEcho](https://meetings.conf.meetecho.com/interim/?group=3d47363c-d68e-46b7-aedf-094716d4d64f)
 * [Jabber](dnsop@jabber.ietf.org)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Minutes](https://notes.ietf.org/notes-ietf-interim-2023-dnsop-01-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-interim-2024-dnsop-01-dnsop)
 
 
 ## Agenda
@@ -38,17 +38,22 @@
 
 ### New Business
 
-* Presentation on state of DELEG draft.
+* Presentation on state of DELEG draft
+    - https://datatracker.ietf.org/doc/draft-dnsop-deleg/
     - 15 minutes
 
-* Legacy resolver compliance testing results.
+* Legacy resolver compliance testing results
     - 5 minutes
 
-* Open discussion points in the draft:
+* Open discussion points in the draft
     - 10 minutes
 
-* Open Discussiontime for discussions
-    - 20 minutes
+* Initial reflections on DELEG
+    - Paul Wouters
+    - 15 minutes
+
+* Open discussion: discussion and reflection on interim
+    - 10 minutes
 
 * IETF Process Time
-    * BoF? New WG ? Another Hour Needed at next IETF
+    - BoF? New WG? Another hour needed at next IETF
