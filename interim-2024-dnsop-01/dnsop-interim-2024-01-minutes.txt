@@ -1,0 +1,58 @@
+DNSOP WG
+Interim meeting 2024-01-30 1700 UTC
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+Minutes taken by Paul Hoffman
+Only stuff said that happened at the mic is reported here
+Agenda: https://datatracker.ietf.org/doc/agenda-interim-2024-dnsop
+Materials: https://datatracker.ietf.org/meeting/interim-2024-dnsop-01/session/dnsop
+
+Intro from the chairs
+	This interim is for bootstrapping the topic before IETF119
+
+Presentation on state of DELEG draft, Ralf Weber
+	https://datatracker.ietf.org/doc/draft-dnsop-deleg/
+
+Legacy resolver compliance testing results, Roy Arends
+
+Open discussion points in the draft
+	Viktor Dukovni: Didn't see Microsoft's resolver tested; very different in origin
+		Found the draft more confusing than illuminating
+		Examples are haphazard
+		Wants reorganization
+		Wants a motivations document; what problem are we solving
+	Roy: Maybe split the document into different topics
+		This document is core
+		Another document can have all the offerings
+		Another document that gives an introduction to the whole thing
+		This is a -00
+	Ralf: Wanted to get it ready for the interim
+		OK with splitting out motivations into a different draft
+	Suzanne: this discussion is not about specifics in the draft
+
+Initial reflections on DELEG, Paul Wouters
+
+Open discussion: discussion and reflection on interim
+	Suzanne: Process discussion not today
+	Ralf: PaulW's proposal #1 didn't want to do this to prolong DELEG
+		Can happen in parallel
+		There are plenty of implementations that don't share names
+	Viktor:
+		The idea of having more records at the parent needs motivation, but seems mostly harmless
+		Putting more records puts more pressure on resolvers under attack
+	Warren Kumari: Process-related
+		BoF request was for extensions
+		IESG doesn't feel that you can have a BoF for something that doesn't exist
+		Wants the BoF to be about DELEG itself
+			No assumption that people have been at interim
+			Maybe a WG-forming BoF
+			Need to be careful that DNSOPs folks participate
+			Thus, in OPS
+			Scheduled right after DNSOP so that there is overlap
+	Roy: Will talk with Warren about the BoF request
+	Viktor: Make the draft shorter and clearer
+	Benno: Keep contributing to the DNSOP mailing list, specific text can go into the repo
+	Peter Thomassen: Where to discuss this?
+		Benno: On the mailing list
+		Suzanne: This helps identify new work that might be spun off
+		Benno: Protocol discussion on the mailing list
+	Ralf: People coming early to DNS-OARC next week, there is an informal room on Wednesday
