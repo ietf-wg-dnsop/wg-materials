@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 27 September 2023
+### Updated: 02 January 2024
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -9,44 +9,41 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Done since Last Meeting
 
-* ["DNS Catalog Zone" - draft-ietf-dnsop-dns-catalog-zones"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dns-catalog-zones/) ~~RFC9432~~
+* ["Negative Caching of DNS Resolution Failures"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/) ~~RFC9520~~
 
-* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/)
+* ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/) ~~RFC9471~~
 
-* ["The ALT Special Use Top Level Domain"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-alt-tld/) ~~RFC9476~~
-
-* ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/)
+* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/) ~~RFC9460~~
 
 ### RFC Ed Queue
 
 * draft-ietf-dnsop-rfc8499bis
 
-* draft-ietf-dnsop-caching-resolution-failures
-
 ## IESG Queue
 
+* draft-ietf-dnsop-avoid-fragmentation
+    - IESG Telechat
+
 * draft-ietf-dnsop-rfc5933-bis
-    - AD Followup
+    - New Version, still in holding
 
 ## WGLC Approved
 
-* draft-ietf-dnsop-avoid-fragmentation
-
 * draft-ietf-dnsop-zoneversion
-    - awaiting writeup
+    - AD Followup
 
 * draft-ietf-dnsop-dns-error-reporting
-    - awaiting writeup
-
-* draft-ietf-dnsop-domain-verification-techniques
+    - Waiting on AD
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-dnssec-bootstrapping
 
-## Upcoming WG Last Calls
-
 * draft-ietf-dnsop-rfc8109bis
+
+* draft-ietf-dnsop-domain-verification-techniques
+
+## Upcoming WG Last Calls
 
 * draft-ietf-dnsop-svcb-dane
 
@@ -54,11 +51,17 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Adopted by WG, Under Discussion (ranked)
 
-* draft-ietf-dnsop-ns-revalidation
+* draft-ietf-dnsop-dnssec-automation
 
 * draft-ietf-dnsop-compact-denial-of-existence
 
 * draft-ietf-dnsop-cds-consistency
+
+* draft-ietf-dnsop-qdcount-is-one
+
+* draft-ietf-dnsop-generalized-notify
+
+* draft-ietf-dnsop-rfc7958bis
 
 ## Parked
 
@@ -66,18 +69,11 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Recently Expired Documents
 
-* draft-ietf-dnsop-dnssec-automation
+* draft-ietf-dnsop-ns-revalidation
 
 ## Active Calls for Adoption
 
-* draft-thomassen-dnsop-generalized-dns-notify
-    - ends 2023-09-28
-
 ## Candidates For Adoption
-
-* draft-bash-rfc7958bis
-
-* draft-bellis-dnsop-qdcount-is-one
 
 * draft-grubto-dnsop-dns-out-of-protocol-signalling
 
@@ -85,8 +81,9 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## New Documents
 
-* draft-johani-tld-zone-pipeline
+* draft-bellis-dnsext-multi-qtypes
 
+* draft-johani-tld-zone-pipeline
 
 ## Needs more Review
 

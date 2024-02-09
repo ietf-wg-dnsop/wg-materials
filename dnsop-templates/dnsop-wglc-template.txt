@@ -10,8 +10,12 @@ $DATATRACKER
 The Current Intended Status of this document is: $STATUS
 
 Please review the draft and offer relevant comments.
-If this does not seem appropriate please speak out. 
-If someone feels the document is *not* ready for publication, please speak out with your reasons.
+
+For WGLC, we need positive support and constructive comments; lack of objection is not enough.
+So if you think this draft should be published as an RFC, please say so.
+
+If you feel the document is *not* ready for publication, please speak out with your reasons.
+
 
 This starts a two week Working Group Last Call process, and ends on:  $DATE
 
