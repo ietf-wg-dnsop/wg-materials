@@ -12,4 +12,8 @@
 
 ## Requests
 
-
+*   Draft name: draft-ietf-dnsop-generalized-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Requester Email: peter@desec.io
+    - Time Requested: 10-15
+    - DocType: current business
