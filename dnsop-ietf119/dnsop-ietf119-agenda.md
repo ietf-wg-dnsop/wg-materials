@@ -23,9 +23,9 @@
 
 ## Session I
 
-* Date: March ..., 2024
-* Time: 17:00-18:00 CET (16:00-17:00 UTC)
-* Room: 
+* Date: Monday, March 18, 2024
+* Time: 15:30-17:00 AEST (05:30-07:00 UTC)
+* Room: Plaza Terrace
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf118/?session=31560)
 * [OnSiteTool](https://meetings.conf.meetecho.com/onsite118/?session=31560)
@@ -40,23 +40,23 @@
 
 * Opening, Note Well and Blue Sheets, Chairs, 5 min
 
-* 
+*
 
 
 ### Current Working Group Business
 
-*   
+*
 
 
 ### For Consideration
 
-*   
+*
 
 
 ## Session II
 
-* Date: March ..., 2024
-* Time: 09:30-11:30 CET (08:30-10:30 UTC)
+* Date: Friday, March 22, 2024
+* Time: 15:00-16:30 AEET (05:00-07:30 UTC)
 * Room:
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf118/?session=31559)
@@ -70,19 +70,19 @@
 
 ### Administrivia
 
-* 
+*
 
 
 ### Current Working Group Business
 
-*   
+*
 
 
 ### For Consideration
 
-*   
+*
 
 
 ### Liaison with other WGs
 
-*   
+*
