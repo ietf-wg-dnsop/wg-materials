@@ -27,12 +27,12 @@
 * Time: 15:30-17:00 AEST (05:30-07:00 UTC)
 * Room: Plaza Terrace
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf118/?session=31560)
-* [OnSiteTool](https://meetings.conf.meetecho.com/onsite118/?session=31560)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf119/?session=31930)
+* [OnSiteTool](https://meetings.conf.meetecho.com/onsite119/?session=31930)
 
-* [Minutes](https://notes.ietf.org/notes-ietf-118-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-119-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/118/session/31560/slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31930/slides)
 
 ## Agenda
 
@@ -56,15 +56,15 @@
 ## Session II
 
 * Date: Friday, March 22, 2024
-* Time: 15:00-16:30 AEET (05:00-07:30 UTC)
+* Time: 15:00-16:30 AEST (05:00-06:30 UTC)
 * Room:
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf118/?session=31559)
-* [OnSiteTool](https://meetings.conf.meetecho.com/onsite118/?session=31559)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf119/?session=31929)
+* [OnSiteTool](https://meetings.conf.meetecho.com/onsite119/?session=31929)
 
-* [Minutes](https://notes.ietf.org/notes-ietf-118-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-119-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/118/session/31559/slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31929/slides)
 
 ## Agenda
 
