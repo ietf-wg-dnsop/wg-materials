@@ -35,3 +35,15 @@
     - Requester Email: Shumon Huque <shuque@gmail.com>
     - Time Requested: 10 min 
     - DocType: current business
+
+*   Draft name: draft-huque-dnsop-grease
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-grease/
+    - Requester Email: Shumon Huque <shuque@gmail.com>
+    - Time Requested: 10 min 
+    - DocType: new business
+
+*   Draft name: Report on the DNS delegations BoF
+    - Datatracker URL: 
+    - Requester Email: Dave Lawrence <tale@dd.org>
+    - Time Requested: 15 min in Friday session
+    - DocType: 

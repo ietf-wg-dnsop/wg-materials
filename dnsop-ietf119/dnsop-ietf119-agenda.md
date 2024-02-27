@@ -25,7 +25,7 @@
 
 * Date: Monday, March 18, 2024
 * Time: 15:30-17:00 AEST (05:30-07:00 UTC)
-* Room: Plaza Terrace
+* Room: Plaza Terrace Room
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf119/?session=31930)
 * [OnSiteTool](https://meetings.conf.meetecho.com/onsite119/?session=31930)
@@ -57,7 +57,7 @@
 
 * Date: Friday, March 22, 2024
 * Time: 15:00-16:30 AEST (05:00-06:30 UTC)
-* Room:
+* Room: M3
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf119/?session=31929)
 * [OnSiteTool](https://meetings.conf.meetecho.com/onsite119/?session=31929)
