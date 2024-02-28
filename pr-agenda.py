@@ -50,8 +50,8 @@ def getitems(newlines):
         if 'Time Requested' in l:
             agendaitem.setdefault('time', fields[3].replace('min', ''))
         if 'DocType' in l:
-            doctype = ' '.join(fields[2::])
-            if doctype not in ['Current Business', 'For Consideration']:
+            doctype = ' '.join(fields[2::]).lower()
+            if doctype not in ['current business', 'for consideration']:
                 agendaitem.setdefault('doctype', ' '.join(fields[2::]))
         if 'Remark' in l:
             agendaitem.setdefault('remark', ' '.join(fields[2::]))
