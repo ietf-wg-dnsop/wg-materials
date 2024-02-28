@@ -42,6 +42,24 @@
     - Time Requested: 10 min 
     - DocType: new business
 
+*   Draft name: draft-hardaker-dnsop-rfc8624-bis
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hardaker-dnsop-rfc8624-bis/
+    - Requester Email: Wes Hardaker <wjhns1@hardakers.net>
+    - Time Requested: 10 min
+    - DocType: 
+
+*   Draft name: draft-hardaker-dnsop-must-not-sha1
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hardaker-dnsop-must-not-sha1/
+    - Requester Email: Wes Hardaker <wjhns1@hardakers.net>
+    - Time Requested: 5 min
+    - DocType: 
+
+*   Draft name: draft-hardaker-dnsop-must-not-ecc-gost
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hardaker-dnsop-must-not-ecc-gost/
+    - Requester Email: Wes Hardaker <wjhns1@hardakers.net>
+    - Time Requested: 5 min
+    - DocType: 
+
 *   Draft name: Report on the DNS delegations BoF
     - Datatracker URL: 
     - Requester Email: Dave Lawrence <tale@dd.org>
