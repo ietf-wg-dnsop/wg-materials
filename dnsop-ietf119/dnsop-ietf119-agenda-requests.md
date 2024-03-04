@@ -66,4 +66,14 @@
     - Time Requested: 15 min in Friday session
     - DocType: wg updates
 
+*   Draft name: draft-ietf-dnsop-ns-revalidation
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+    - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
+    - Time Requested: 15 min
+    - DocType: current business
 
+*   Draft name: draft-toorop-dnsop-ranking-dns-data
+    - Datatracker URL: 
+    - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
+    - Time Requested: 15 min
+    - DocType: for consideration
