@@ -38,19 +38,45 @@
 
 ### Administrivia
 
-* Opening, Note Well and Blue Sheets, Chairs, 5 min
+* Opening, Note Well and Blue Sheets, Chairs, 10 min
 
-*
+* Hackathon Results, 10 min
 
 
 ### Current Working Group Business
 
-*
+*   draft-ietf-dnsop-generalized-notify
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Peter Thomassen <peter@desec.io>, 15 min
+    - Chairs Action:
+
+*   draft-ietf-dnsop-rfc8109bis
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 10 min
+    - Chairs Action:
+
+*   draft-ietf-dnsop-rfc7958bis
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 10 min
+    - Chairs Action:
+
+*   draft-ietf-dnsop-compact-denial-of-existence
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+    - Shumon Huque <shuque@gmail.com>, 10 min
+    - Chairs Action:
+
+*   draft-ietf-dnsop-ns-revalidation
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+    - Willem Toorop <willem@NLnetLabs.nl>, 15 min
+    - Chairs Action:
 
 
 ### For Consideration
 
-*
+*   draft-huque-dnsop-grease
+    - https://datatracker.ietf.org/doc/draft-huque-dnsop-grease/
+    - Shumon Huque <shuque@gmail.com>, 10 min
+    - Chairs Action:
 
 
 ## Session II
@@ -70,19 +96,35 @@
 
 ### Administrivia
 
-*
-
-
-### Current Working Group Business
-
-*
+* Opening, Note Well and Blue Sheets, Chairs, 5 min
 
 
 ### For Consideration
 
-*
+*   draft-hardaker-dnsop-rfc8624-bis
+    - https://datatracker.ietf.org/doc/draft-hardaker-dnsop-rfc8624-bis/
+    - Wes Hardaker <wjhns1@hardakers.net>, 10 min
+    - Chairs Action:
+
+*   draft-hardaker-dnsop-must-not-sha1
+    - https://datatracker.ietf.org/doc/draft-hardaker-dnsop-must-not-sha1/
+    - Wes Hardaker <wjhns1@hardakers.net>, 5 min
+    - Chairs Action:
+
+*   draft-hardaker-dnsop-must-not-ecc-gost
+    - https://datatracker.ietf.org/doc/draft-hardaker-dnsop-must-not-ecc-gost/
+    - Wes Hardaker <wjhns1@hardakers.net>, 5 min
+    - Chairs Action:
+
+*   draft-toorop-dnsop-ranking-dns-data
+    - https://datatracker.ietf.org/doc/draft-toorop-dnsop-ranking-dns-data/
+    - Willem Toorop <willem@NLnetLabs.nl>, 15 min
+    - Chairs Action:
 
 
 ### Liaison with other WGs
 
-*
+*   Report on the DNS delegations BoF
+    - https://datatracker.ietf.org/wg/deleg/about/
+    - Dave Lawrence <tale@dd.org>, 15 min
+    - Chairs Action:
