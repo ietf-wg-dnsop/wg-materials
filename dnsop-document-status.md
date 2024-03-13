@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 02 January 2024
+### Updated: 13 March  2024
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,41 +11,37 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["Negative Caching of DNS Resolution Failures"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/) ~~RFC9520~~
 
-* ["DNS Glue Requirements in Referral Responses"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-glue-is-not-optional/) ~~RFC9471~~
-
-* ["Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)" - draft-ietf-dnsop-svcb-https](https://datatracker.ietf.org/doc/draft-ietf-dnsop-svcb-https/) ~~RFC9460~~
 
 ### RFC Ed Queue
 
 * draft-ietf-dnsop-rfc8499bis
 
+* draft-ietf-dnsop-dns-error-reporting
+
 ## IESG Queue
 
 * draft-ietf-dnsop-avoid-fragmentation
-    - IESG Telechat
 
-* draft-ietf-dnsop-rfc5933-bis
-    - New Version, still in holding
+* draft-ietf-dnsop-rfc8109bis
 
 ## WGLC Approved
+
+* draft-ietf-dnsop-dnssec-bootstrapping
 
 * draft-ietf-dnsop-zoneversion
     - AD Followup
 
-* draft-ietf-dnsop-dns-error-reporting
-    - Waiting on AD
-
 ## In WG Last Call
 
-* draft-ietf-dnsop-dnssec-bootstrapping
+* draft-ietf-dnsop-qdcount-is-one
 
-* draft-ietf-dnsop-rfc8109bis
-
-* draft-ietf-dnsop-domain-verification-techniques
 
 ## Upcoming WG Last Calls
 
+
 * draft-ietf-dnsop-svcb-dane
+
+* draft-ietf-dnsop-domain-verification-techniques
 
 * draft-ietf-dnsop-structured-dns-error
 
@@ -56,8 +52,6 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-ietf-dnsop-compact-denial-of-existence
 
 * draft-ietf-dnsop-cds-consistency
-
-* draft-ietf-dnsop-qdcount-is-one
 
 * draft-ietf-dnsop-generalized-notify
 
@@ -75,15 +69,20 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 ## Candidates For Adoption
 
-* draft-grubto-dnsop-dns-out-of-protocol-signalling
-
-* draft-dnsop-multi-alg-rules
-
 ## New Documents
 
-* draft-bellis-dnsext-multi-qtypes
+* draft-hardaker-dnsop-rfc8624-bis
 
-* draft-johani-tld-zone-pipeline
+* draft-huque-dnsop-grease
+
+* draft-hardaker-dnsop-must-not-sha1
+
+* draft-hardaker-dnsop-must-not-ecc-gost
+
+* draft-toorop-dnsop-ranking-dns-data
+
+## For Consideration
+
 
 ## Needs more Review
 

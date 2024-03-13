@@ -99,6 +99,12 @@
 * Opening, Note Well and Blue Sheets, Chairs, 5 min
 
 
+### DELEG BOF Update
+
+*   Report on the DNS delegations BoF
+    - https://datatracker.ietf.org/wg/deleg/about/
+    - Dave Lawrence <tale@dd.org>, 15 min
+
 ### For Consideration
 
 *   draft-hardaker-dnsop-rfc8624-bis
@@ -121,10 +127,3 @@
     - Willem Toorop <willem@NLnetLabs.nl>, 15 min
     - Chairs Action:
 
-
-### Liaison with other WGs
-
-*   Report on the DNS delegations BoF
-    - https://datatracker.ietf.org/wg/deleg/about/
-    - Dave Lawrence <tale@dd.org>, 15 min
-    - Chairs Action:
