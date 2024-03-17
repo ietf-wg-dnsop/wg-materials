@@ -32,7 +32,7 @@
 
 * [Minutes](https://notes.ietf.org/notes-ietf-119-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31930/slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31930/propose_slides)
 
 ## Agenda
 
@@ -90,7 +90,7 @@
 
 * [Minutes](https://notes.ietf.org/notes-ietf-119-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31929/slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31929/propose_slides)
 
 ## Agenda
 
