@@ -127,3 +127,16 @@
     - Willem Toorop <willem@NLnetLabs.nl>, 15 min
     - Chairs Action:
 
+### Time Permitting
+
+*   Automated Delegation Sync from Child to Parent
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/ 
+      https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15 min
+    - Chairs Action:
+
+*   Measurement of CDS/CDNSKEY inconsistencies
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
+    - Peter Thomassen <peter@desec.io>, 15 min
+    - Chairs Action:
+
