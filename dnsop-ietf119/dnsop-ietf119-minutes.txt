@@ -1,0 +1,200 @@
+DNSOP WG
+Session I
+Date: Monday, March 18, 2024
+Time: 15:30-17:00 AEST (05:30-07:00 UTC)
+Room: Plaza Terrace Room
+
+Chat Logs: https://datatracker.ietf.org/doc/chatlog-119-dnsop-202403181530/00/
+
+Only discussion during the mic line are covered here, not the slides
+**You should definitely read the slides**
+
+Administrivia, Chairs
+Opening, Note Well and Blue Sheets
+draft-johani-tld-zone-pipeline
+	How to handle this
+	Paul Wouters: The ISE might blackhole this
+		It's weird for a WG to say "we don't think this is important, go to the ISE"
+	Warren Kumari: Need to think about why to do this
+	Paul Hoffman: This specific document feels like the kind of thing that the ISE likes
+		It's "here is how .SE does it" is good long-term idea
+
+Hackathon Results
+	Stéphane Bortzmeyer, Willem Toorop, Johan Stenstam
+
+Current Working Group Business
+
+draft-ietf-dnsop-generalized-notify, Peter Thomassen
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+	PaulW: If you sync records related to DNSSEC, the parent should be signed
+		DSYNC label could be a DDoS attack
+		Would like DNSSEC required
+		Peter: Required for CSYNC, maybe not for other methods
+	Wes Hardaker: Authoritative servers doing key management now needs to query; worrisome
+		Peter: Would have one set of servers that is monitoring and other that might config
+		Wes: Still worries about this additon
+	Jim Reid: Really likes the idea
+		Flashback to earlier discussion of looking for zone cut
+		Peter: Would like to learn the history as well
+	Johan: The entity that looks up the DSYNC is the child, when it wants to make a change
+		Per-child once a year or less
+		Has a hard time seeing this as a volumetric attack
+
+draft-ietf-dnsop-rfc8109bis, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8109bis/
+
+    Paul mentions that this was pulled back from IESG to WG due to discussion.
+    Currently do not deal with status of root zone operators as stated.
+    Root zone and root zone operators are special. Mark Andrews to send text.
+    If WG agrees to this, will fundamentally change document.
+    Willem's email ties into Mark's comments.
+
+    Warren Kumari: Please review this text.
+
+draft-ietf-dnsop-rfc7958bis, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc7958bis/
+    Currently IANA has many ways to say the same thing. Removed what authors
+    think are historic mechanisms.
+    Still open issues.
+
+    Paul Wouters: Relying on transport security?
+    PaulH: No, still self-signed version existing.
+    George Michaelson: Don't think you are going to get closure on this.
+    Lars-Johan Liman: Publishing in many ways is the way.
+
+draft-ietf-dnsop-compact-denial-of-existence, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-compact-denial-of-existence/
+	No mic line
+	
+draft-ietf-dnsop-ns-revalidation, Willem Toorop
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+	Ralf Weber: It is technically possible that a fully-DNSSEC-signed server to put you in a bad state
+		Keep this implementation-specific
+	PaulW: This comes from Unbound
+		RHEL did this about 10 years ago, and there were never any problems
+		Please do this
+	
+For Consideration
+
+draft-huque-dnsop-grease, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-huque-dnsop-grease/
+	Terry Manderson: Really really likes this approach
+		Expect criticism, should go forward
+	Lars-Johan Liman: supports this
+		Use RIPE Atlas probes
+	Peter: TLS greasing causes things to break
+		For DNS, you get a picture and measure 
+		Can you press bad implementations
+		Mark Andrews: We do want pressure them
+			We see lots of things for earlier standards that have not been widely adopted because of this
+			Couldn't bump the EDNS version when it was improved
+
+
+
+Session II
+Date: Friday, March 22, 2024
+Time: 15:00-16:30 AEST (05:00-06:30 UTC)
+Room: M3
+
+Chat Logs: https://datatracker.ietf.org/doc/chatlog-119-dnsop-202403221500/00/
+
+DELEG BoF Update, Dave Lawrence
+	https://datatracker.ietf.org/wg/deleg/about/
+	Summary of what his impressions were
+	Thought the BoF went well
+	Discussion is happening on dd@ietf.org
+	Settling on charter
+	Draft authors will continue to develop their draft
+	Wes: Also thought it went well
+		Active discussion on the charter
+		Sooner we finish, the sooner we hand it to Warren
+	Warren: Also thought it went very well
+		Thought it was going to be more contentious
+	Jim: Thanks for getting the BoF set up
+		What's the timeline for when the charter will be ready
+		Wes: We want to see the discussion happen, then peter down
+			No specific timeline
+			Will work with Warren on when it is ready for the IESG
+			No fixed timeline
+	Warren: We want good chairs, so will ask for them
+		Doesn't have to be in OPS, but if not, strong coordination is needed
+	Tale: Was very encouraged in Prague by the numbers of people interested
+		Concerned that we might lose the momentum
+	Paul: Will keep the mailing list open to keep up the momentum
+	Tale: Éric says that Will take IESG about four weeks 
+
+For Consideration
+
+draft-hardaker-dnsop-rfc8624-bis, Wes Hardaker
+draft-hardaker-dnsop-must-not-sha1, Wes Hardaker
+draft-hardaker-dnsop-must-not-ecc-gost, Wes Hardaker
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-rfc8624-bis/
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-must-not-sha1/
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-must-not-ecc-gost/
+	Mike Bishop: Agrees with the goals
+		How often do you expect this to happen?
+		If this happens 10 times a year, that's bad
+		Wes: New RFCs will short
+			Less than yearly changes
+	Ray Bellis: New algorithm lifecycles document is coming
+		States can be mapped
+	Paul: Wants context in the IANA registy to show that this is about implementation, not operations
+	Warren: Expecting one a year
+		Maybe more for post-quantum algorithms
+	Jim: How does this table get updated
+		RFCs, particularly standards RFC
+	Eliot Lear: Should adopt this draft
+		From the ISE perspective, this is fine
+		Forsees some possible corner cases where an ISE draft says "remove that old ISE document"
+	<< Added draft-huque-dnsop-multi-alg-rules discussion >>
+	Daniel Kahn Gilmor: How do we measure universal support
+		How can we do timely updates
+		Peter: Need to discuss later
+	Wes: No strong opinion on this column
+		Column can become less useful if someone turns off support
+	Warren: Expert reviewer "makes their best guess" for universal support
+	Paul: Does not support adoption of draft-hardaker-dnsop-must-not-sha1 until there is better security reasoning
+
+draft-toorop-dnsop-ranking-dns-data, Willem Toorop
+	https://datatracker.ietf.org/doc/draft-toorop-dnsop-ranking-dns-data/
+	Ben Schwartz: Thinks this is time, but get rid of it
+		Ranking was never true
+		Willem: Some resolvers do this exactly as listed
+	Mark: ZONEMD doesn't change glue
+		When everything is signed, we can get rid of this
+		Until then, we need ranking because get stale
+	Warren: We should do this
+		We have seen places where bad implementations have failed
+	Daniel: Agrees we need this kind of discussion
+		Might discuss that there is no consensus
+		There may be contextual information that changes tradeoffs
+	Ralf: Local policies always wins
+		Could say that there are multiple 
+	Jim: Thinks this is good work
+
+draft-johani-dnsop-delegation-mgmt-via-ddns and draft-ietf-dnsop-generalized-notify, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+	Mark: BIND already uses TCP for updating PTR records
+		At TLDs, can use EPP
+	Daniel: Replace "over TCP" use "with IP source verification"
+		Might use encrypted transport with authentication
+		Johan: Is not being prescriptive, giving examples of mechanisms
+	Chat: This is a downgrade from what we are doing
+		Johan: Then don't do it
+	Ben: Does this increase the usability of DNSSEC
+		Johan: Orthoganal to usability
+			Will help automation
+		Ben: Should have big warnings
+	Mark: With this, you can update all the delegation mechanisms
+	 Getting a key that the parent accepts has always been the problems
+	 Ben: If this makes it easier to sign their zones, it makes it easier for the attacker to do
+	Johan: If the parent chooses a policy that is harder than this, fine
+		Same for easier
+		It doesn't have to be dangerous
+
+draft-ietf-dnsop-cds-consistency, Peter Thomassen
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
+	Paul: Question about whether whole CDS RRset must match
+		Peter: Yes
+
