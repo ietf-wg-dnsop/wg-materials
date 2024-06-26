@@ -19,5 +19,17 @@
 *   Draft name: DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
     - Datatracker URL: 
     - Requester Email: Ben Schwartz <bemasc@meta.com>
-    - Time Requested: 5 min
+    - Time Requested: 15 min
     - DocType: wg updates/side meeting coordination
+
+*   Draft name: Secure Nameserver Selection Algorithm for DNS Resolvers
+    - Datatracker URL:
+    - Requester Email: Davey Song <songlinjian@gmail.com>
+    - Time Requested: 15 min
+    - DocType: for consideration
+
+*   Draft name: 464 Customer-side Translator (CLAT): Node Recommendations
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-link-v6ops-claton/
+    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
+    - Time Requested: 10 min
+    - DocType: liaison with other WGs
