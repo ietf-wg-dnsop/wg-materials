@@ -1,5 +1,5 @@
 # DNSOP Chairs Status
-### Updated: 13 March  2024
+### Updated: 10 April 2024
 
 Official document list: https://datatracker.ietf.org/wg/dnsop/documents/
 
@@ -11,39 +11,40 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * ["Negative Caching of DNS Resolution Failures"](https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/) ~~RFC9520~~
 
-
-### RFC Ed Queue
+* draft-ietf-dnsop-dns-error-reporting
 
 * draft-ietf-dnsop-rfc8499bis
 
-* draft-ietf-dnsop-dns-error-reporting
+### RFC Ed Queue
 
 ## IESG Queue
 
 * draft-ietf-dnsop-avoid-fragmentation
 
 * draft-ietf-dnsop-rfc8109bis
-
-## WGLC Approved
+    - Pulled back
 
 * draft-ietf-dnsop-dnssec-bootstrapping
 
+## WGLC Approved
+
 * draft-ietf-dnsop-zoneversion
-    - AD Followup
+  - needs followup wglc
 
 ## In WG Last Call
 
 * draft-ietf-dnsop-qdcount-is-one
-
+  - needs to be closed out
 
 ## Upcoming WG Last Calls
-
 
 * draft-ietf-dnsop-svcb-dane
 
 * draft-ietf-dnsop-domain-verification-techniques
+    - Number of Open Issues need to verified as done/closed.
 
 * draft-ietf-dnsop-structured-dns-error
+    - Authors pushing for WGLC but Tim wants more implementartion experience.
 
 ## Adopted by WG, Under Discussion (ranked)
 
@@ -57,19 +58,18 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 
 * draft-ietf-dnsop-rfc7958bis
 
-## Parked
+* draft-ietf-dnsop-ns-revalidation
+    - Finally added an additional author,
+    - this work may have more relevance with respect to deleg
 
-* draft-ietf-dnsop-dnssec-validator-requirements
+## Parked
 
 ## Recently Expired Documents
 
-* draft-ietf-dnsop-ns-revalidation
 
 ## Active Calls for Adoption
 
 ## Candidates For Adoption
-
-## New Documents
 
 * draft-hardaker-dnsop-rfc8624-bis
 
@@ -78,6 +78,8 @@ Questions, Concerns, etc:  dnsop-chairs at ietf.org
 * draft-hardaker-dnsop-must-not-sha1
 
 * draft-hardaker-dnsop-must-not-ecc-gost
+
+## New Documents
 
 * draft-toorop-dnsop-ranking-dns-data
 

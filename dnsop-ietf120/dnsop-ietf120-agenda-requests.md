@@ -11,13 +11,13 @@
 ## Requests
 
 *   Draft name: best practices for using client auth when making encrypted DNS connections-00
-    - Datatracker URL: 
+    - Datatracker URL:
     - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
     - Time Requested: 15 min
     - DocType: for consideration
 
 *   Draft name: DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
-    - Datatracker URL: 
+    - Datatracker URL:
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: 15 min
     - DocType: wg updates/side meeting coordination
@@ -33,3 +33,11 @@
     - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
     - Time Requested: 10 min
     - DocType: liaison with other WGs
+
+*   Draft name: draft-ietf-dnsop-generalized-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Requester Email: John Levine <johnl@taugh.com>
+    - Time Requested: 10 min
+    - DocType: Current Work
+
+
