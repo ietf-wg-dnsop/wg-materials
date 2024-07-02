@@ -37,7 +37,7 @@
 *   Draft name: draft-ietf-dnsop-generalized-notify
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Requester Email: John Levine <johnl@taugh.com>
-    - Time Requested: 10 min
+    - Time Requested: 15 min
     - DocType: Current Work
 
 *   Draft name: experiments with PowerDNS implementation of a post-quantum signing algorihtm
