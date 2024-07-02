@@ -20,7 +20,7 @@
     - Datatracker URL:
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: 15 min
-    - DocType: wg updates/side meeting coordination
+    - DocType: Session 1: wg updates/side meeting coordination
 
 *   Draft name: Secure Nameserver Selection Algorithm for DNS Resolvers
     - Datatracker URL:
@@ -45,3 +45,9 @@
     - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 15 min
     - DocType: Presentation - Checking with IEPG and MAPRG
+
+*   Draft name: DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
+    - Datatracker URL:
+    - Requester Email: Ben Schwartz <bemasc@meta.com>
+    - Time Requested: 10 min
+    - DocType: Session 2: Possible followup
