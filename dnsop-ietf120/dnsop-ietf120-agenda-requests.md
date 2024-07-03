@@ -23,7 +23,7 @@
     - DocType: Session 1: wg updates/side meeting coordination
 
 *   Draft name: Secure Nameserver Selection Algorithm for DNS Resolvers
-    - Datatracker URL:
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-ns-selection/
     - Requester Email: Davey Song <songlinjian@gmail.com>
     - Time Requested: 15 min
     - DocType: for consideration
