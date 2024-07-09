@@ -16,6 +16,12 @@
     - Time Requested: 15 min
     - DocType: Current Work
 
+*   Draft name: Delegation Revalidation by DNS Resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+    - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
+    - Time Requested: 10 min
+    - DocType: Current Work
+
 
 *   Draft name: DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
     - Datatracker URL:
@@ -34,12 +40,6 @@
     - Requester Email: Davey Song <songlinjian@gmail.com>
     - Time Requested: 15 min
     - DocType: for consideration
-
-*   Draft name: Delegation Revalidation by DNS Resolvers
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
-    - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
-    - Time Requested: 10 min
-    - DocType: Current Work
 
 *   Draft name: 464 Customer-side Translator (CLAT): Node Recommendations
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-link-v6ops-claton/
