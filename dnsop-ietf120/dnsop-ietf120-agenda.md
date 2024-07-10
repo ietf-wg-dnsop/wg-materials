@@ -23,16 +23,16 @@
 
 ## Session I
 
-* Date: TBD
-* Time: TBD
-* Room: TBD
+* Date: Monday July 22, 2024
+* Time: 1530-1700
+* Room: Regency C/D
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf119/?session=31930)
-* [OnSiteTool](https://meetings.conf.meetecho.com/onsite119/?session=31930)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf120/?session=33060)
+* [OnSiteTool](https://meetings.conf.meetecho.com/ietf120/?session=33060)
 
-* [Minutes](https://notes.ietf.org/notes-ietf-119-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-120-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31930/propose_slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/120/session/33060/propose_slides)
 
 ## Agenda
 
@@ -40,30 +40,57 @@
 
 * Opening, Note Well and Blue Sheets, Chairs, 10 min
 
-* Hackathon Results, XX min
+* Hackathon Results 10 minutes
 
+*  DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
+    - Datatracker URL:
+    - Requester Email: Ben Schwartz <bemasc@meta.com>
+    - Time Requested: 15 min
+    - DocType: Session 1: wg updates/side meeting coordination
 
 ### Current Working Group Business
 
-*   
+*   draft-ietf-dnsop-generalized-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Requester Email: John Levine <johnl@taugh.com>
+    - Time Requested: 15 min
+
+*   Delegation Revalidation by DNS Resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+    - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
+    - Time Requested: 10 min
 
 ### For Consideration
 
-*   
+*   best practices for using client auth when making encrypted DNS connections-00
+    - Datatracker URL:
+    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
+    - Time Requested: 15 min
+
+*   Secure Nameserver Selection Algorithm for DNS Resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-ns-selection/
+    - Requester Email: Davey Song <songlinjian@gmail.com>
+    - Time Requested: 15 min
+
+*   464 Customer-side Translator (CLAT): Node Recommendations
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-link-v6ops-claton/
+    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
+    - Time Requested: 10 min
+    - DocType: liaison with other WGs
 
 
 ## Session II
 
-* Date: TBD
-* Time: TBD
-* Room: TBD
+* Date: Thursday July 25, 2024
+* Time: 1830-1930
+* Room: Georgia B
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf119/?session=31929)
-* [OnSiteTool](https://meetings.conf.meetecho.com/onsite119/?session=31929)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf120/?session=33061)
+* [OnSiteTool](https://meetings.conf.meetecho.com/ietf120/?session=33061)
 
-* [Minutes](https://notes.ietf.org/notes-ietf-119-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-120-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/31929/propose_slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/119/session/33061/propose_slides)
 
 ## Agenda
 
@@ -72,14 +99,21 @@
 * Opening, Note Well and Blue Sheets, Chairs, 5 min
 
 
-### DELEG Update
-
-*   
-
 ### For Consideration
 
-*   
+*   experiments with PowerDNS implementation of a post-quantum signing algorihtm
+    - Datatracker URL:
+    - Requester Email: Peter Thomassen <peter@desec.io>
+    - Time Requested: 15 min
+    - DocType: Presentation - Checking with IEPG and MAPRG
+
+*   DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
+    - Datatracker URL:
+    - Requester Email: Ben Schwartz <bemasc@meta.com>
+    - Time Requested: 10 min
+    - DocType: Session 2: Possible followup
+
 
 ### Time Permitting
 
-*   
+*
