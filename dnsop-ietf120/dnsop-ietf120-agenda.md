@@ -110,7 +110,7 @@
     - Time Requested: 15 min
     - DocType: Presentation - Checking with IEPG and MAPRG
 
-*   DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
+*   DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting summary
     - Datatracker URL:
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: 10 min
