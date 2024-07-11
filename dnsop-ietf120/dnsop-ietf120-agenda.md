@@ -53,21 +53,16 @@
 *   draft-ietf-dnsop-generalized-notify
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Requester Email: John Levine <johnl@taugh.com>
-    - Time Requested: 10 min
+    - Time Requested: 15 min
     - Chairs Action:
 
 *   Delegation Revalidation by DNS Resolvers
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
     - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
-    - Time Requested: 10 min
+    - Time Requested: 15 min
     - Chairs Action:
 
 ### For Consideration
-
-*   Client Authentication Recommendations for Encrypted DNS
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-tjjk-cared/
-    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
-    - Time Requested: 15 min
 
 *   Secure Nameserver Selection Algorithm for DNS Resolvers
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-ns-selection/
@@ -93,8 +88,6 @@
 
 * Opening, Note Well and Blue Sheets, Chairs, 5 min
 
-### For Consideration
-
 ### Liaison with other WGs
 
 *   464 Customer-side Translator (CLAT): Node Recommendations
@@ -109,6 +102,12 @@
     - Time Requested: 10 min
     - DocType: Session 2: Possible followup
 
+### For Consideration
+
+*   Client Authentication Recommendations for Encrypted DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-tjjk-cared/
+    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
+    - Time Requested: 15 min
 
 ### Time Permitting
 
