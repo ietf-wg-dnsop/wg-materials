@@ -38,7 +38,7 @@
 
 ### Administrivia
 
-* Opening, Note Well and Blue Sheets, Chairs, 10 min
+* Opening, Note Well and Chairs Updates, Chairs, 15 min
 
 * Hackathon Results 10 minutes
 
@@ -46,7 +46,7 @@
     - Datatracker URL:
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: 15 min
-    - DocType: Session 1: wg updates/side meeting coordination
+    - Chairs Action: Session 1 - WG updates/side meeting coordination
 
 ### Current Working Group Business
 
@@ -54,18 +54,15 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Requester Email: John Levine <johnl@taugh.com>
     - Time Requested: 15 min
+    - Chairs Action:
 
 *   Delegation Revalidation by DNS Resolvers
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
     - Requester Email: Willem Toorop <willem@NLnetLabs.nl>
     - Time Requested: 10 min
+    - Chairs Action:
 
 ### For Consideration
-
-*   best practices for using client auth when making encrypted DNS connections-00
-    - Datatracker URL:
-    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
-    - Time Requested: 15 min
 
 *   Secure Nameserver Selection Algorithm for DNS Resolvers
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-ns-selection/
@@ -76,8 +73,7 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-link-v6ops-claton/
     - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
     - Time Requested: 10 min
-    - DocType: liaison with other WGs
-
+    - Chairs Action: Liaison with other WGs
 
 ## Session II
 
@@ -101,17 +97,16 @@
 
 ### For Consideration
 
-*   experiments with PowerDNS implementation of a post-quantum signing algorihtm
-    - Datatracker URL:
-    - Requester Email: Peter Thomassen <peter@desec.io>
-    - Time Requested: 15 min
-    - DocType: Presentation - Checking with IEPG and MAPRG
-
 *   DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
     - Datatracker URL:
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: 10 min
     - DocType: Session 2: Possible followup
+
+*   best practices for using client auth when making encrypted DNS connections-00
+    - Datatracker URL:
+    - Requester Email: Tommy Jensen <Jensen.Thomas@microsoft.com>
+    - Time Requested: 15 min
 
 
 ### Time Permitting
