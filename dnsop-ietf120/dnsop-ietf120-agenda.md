@@ -110,8 +110,6 @@
     - DocType: Session 2: Possible followup
 
 
-=======
->>>>>>> refs/remotes/origin/main
 ### Time Permitting
 
 *
