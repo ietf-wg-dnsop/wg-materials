@@ -66,7 +66,7 @@
 
 *   Secure Nameserver Selection Algorithm for DNS Resolvers
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-ns-selection/
-    - Requester Email: Davey Song <songlinjian@gmail.com>
+    - Requester Email: Fenglu Zhang <szfl20@tsinghua.org.cn>
     - Time Requested: 15 min
 
 ## Session II
