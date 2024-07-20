@@ -66,7 +66,7 @@
 
 *   Secure Nameserver Selection Algorithm for DNS Resolvers
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-ns-selection/
-    - Requester Email: Fenglu Zhang <szfl20@tsinghua.org.cn>
+    - Requester Email: Fenglu Zhang <zfl20@tsinghua.org.cn>
     - Time Requested: 15 min
 
 ## Session II
@@ -111,4 +111,7 @@
 
 ### Time Permitting
 
-*
+*   Zone Hopping: A method to prevent zone-walking in DNSSEC
+    - URL: https://dsn2024uq.github.io/Proceedings/pdfs/DSN-S2024-3LLnxbOIgEGedw7VY2pz6a/957000a104/957000a104.pdf
+    - Requester Email: Fatema Bannat Wala <fatemabw@es.net>
+    - Time Requested: 15 min
