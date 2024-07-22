@@ -42,7 +42,7 @@
 
 * Hackathon Results, 10 minutes
 
-*  DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
+*   DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting announcement
     - Datatracker URL:
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: 15 min
@@ -54,6 +54,12 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Requester Email: John Levine <johnl@taugh.com>
     - Time Requested: 15 min
+    - Chairs Action:
+
+*   draft-johani-dnsop-delegation-mgmt-via-ddns
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns//
+    - Requester Email: Johan Stenstam
+    - Time Requested: 5 min
     - Chairs Action:
 
 *   Delegation Revalidation by DNS Resolvers
