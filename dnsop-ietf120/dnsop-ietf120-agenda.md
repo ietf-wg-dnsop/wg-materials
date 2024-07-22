@@ -112,6 +112,6 @@
 ### Time Permitting
 
 *   Zone Hopping: A method to prevent zone-walking in DNSSEC
-    - URL: https://dsn2024uq.github.io/Proceedings/pdfs/DSN-S2024-3LLnxbOIgEGedw7VY2pz6a/957000a104/957000a104.pdf
+    - URL: https://datatracker.ietf.org/doc/draft-fbw-dnsop-dnszonehop/
     - Requester Email: Fatema Bannat Wala <fatemabw@es.net>
     - Time Requested: 15 min
