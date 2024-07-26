@@ -1,0 +1,157 @@
+DNSOP WG
+Vancouver, BC, Canada
+Session 1
+Date: Monday, July 22, 2024
+Time: 15:30-17:00 local
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+
+Only discussion during the mic line are covered here, not the slides
+You should definitely read the slides
+
+Administrivia, Chairs
+	Opening, Note Well and Blue Sheets
+	Lots of review of the past few months in the slides
+	Side meeting on DNS "load balancing" on Wednesday
+	Hackathon update: Willem Toorop and Johan Stenstam
+
+Generalized DNS Notifications, Peter Thomassen
+	draft-ietf-dnsop-generalized-notify
+	Ben Schwartz: Litmus test for SVCB records is whether it is under a URI scheme
+		Only useful if you have a URI for the things you want to use
+	Ondřej Surý: Confusing to use the word "notify" and "notifications"
+	Robert Story: You don't want to send the notify until all your nameservers are in sync
+		Maybe set a timer in a record to tell when to revalidate
+	Q Misell: No different notifications for CDS and CDNSKEY
+		Is it appropriate for a registrar to implement this?
+		Peter: how would a registrar announce the endpoint for this?
+	Johan Stenstam: Sympathize with with Ondřej's confusion
+		This is a new use case, keep with the NOTIFY name
+		Child has no way to know when a parental scan will happen, so scan now
+	Matt Pounsett: Break the assumption of about NOTIFY
+		SVCB is not appropriate without doing new stuff
+
+Automating DNS Delegation Management via DDNS, Johan Stenstam
+	draft-johani-dnsop-delegation-mgmt-via-ddns
+	Ondřej: Wanted to deprecate SIG(0)
+		Johan: We really like it
+	Paul Hoffman: What is the KSK you talked about?
+		Johan: It is the same 
+	Ted Lemon: Can't get of SIG(0)
+
+Delegation Revalidation by DNS Resolvers, Willem Toorop
+	draft-ietf-dnsop-ns-revalidation
+	Ben Schwartz: If resolver doesn't block responding, what is the security advantage?
+		Willem: After the first response
+		Ben: Are there deployed resovers with strict resolver security?
+		Willem: Maybe RHEL
+		Ben: Wants to be cautious about security claims
+	Ondřej: Document is underspecified for when you get no nameservers
+		More on error conditions
+	Robert: Would like more description of the rankings
+		Maybe new terminology
+	Mark Andrews: A lot of things broke when they turned this on
+		Needs to get Google and other public resolvers and fail fully when child records don't match
+		Willem: Some places in DNS namespace are more resilient, still work to do
+	Jim Reid: Mark's idea is unrealistic, non-starter
+
+Secure Nameserver Selection Algorithm for DNS Resolvers, Fenglu Zhang
+	draft-zhang-dnsop-ns-selection
+	Ondřej: Purpose of multiple nameservers is not balancing, but resilience
+		Language of the draft is overly agressive, tone it down
+		Disagrees with the vulnerabilities in BIND
+		Based on wrong premise
+		Fenglu: About 3% of nameservers are non-responsive
+			Was imprecise about BIND9 status for some things in the draft
+	Ben: A lot of these issues are inappropriate for IETF draft
+		The one that seems closed to this is the disabling attack
+		Question about what constitutes a vulnerability
+		Think carefully about what the promises that are being made
+	Benno: Ask an implementer about the next draft
+	
+Session 2
+Date: Thursday, July 25, 2024
+Time: 18:30-19:30 local
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+
+464 Customer-side Translator (CLAT): Node Recommendations, Tommy Jensen
+	draft-link-v6ops-claton
+	Warren: Can we be creative with the wording in 7050
+	Jen Linkova: Would like 7050 to disappear
+		Send clear message with MUST NOT
+	Ben: SHOULD but we know you won't
+		Can change the examples
+		But if nobody does this, we should reflect reality
+		Validating stub resol
+	Mark: The text does not say what the secure channel is
+		DNS64 will change the AAAA records because it breaks DNSSEC
+		Make DNS64 obsolete
+	David Schinazi: Has implemented RFC 7050
+		There are cases where you need to use NAT64 directly for happy eyeballs
+		Deprecate 7050 and DNS64
+	Lorenzo Colitti: This is not a good mechanism
+		It would be nice of 7050 goes away, not using prefs option
+		Tommy: We should be honest
+		Could update 7050 to point out that most links are already encrypted
+	Nick Buraglio: Deprecating this would not preclude anything that exists
+		Sends a message because this is the modern way to do it
+		Better from an operator perspective
+	Warren: Everbody is doing this
+		We don't have to keep DNS64, and say why
+	Jen: In V6OPS WG, they already have a document to deprecate
+		Good to say "don't use this because it is obsolete"
+
+DNS based load balancing (a.k.a. GeoDNS, GSLB) side meeting summary, Ben Schwartz
+	Will need a name for the mailing list
+	Should we be thinking in terms internal to nameservers, or the protocols talking between the parties
+
+Client Authentication Recommendations for Encrypted DNS, Tommy Jensen
+	draft-tjjk-cared
+	Warren: Comcast can say "please fill in this form to get access to our resolver"
+		Tommy: This would be inappropriate
+			Would be willing to write why this is bad
+		Why not do this in ADD?
+		Tommy: ADD is for discovering server properties
+	Tobias Fiebig: The connection must be very explicit
+		Tommy: Does not want to be over-inclusive
+	Wes: Likes the guidance; it is super-critical
+		Knowing whether you expect to authenticate is important
+		If you can spell it out to say "managed devices", that would be better
+	Ben: Agrees with substantitive content of the draft, horrified by everything else
+		We are not empowered to tell people "of the things that can work together, don't use these two"
+		We can give a list of implications, don't require a specific protocol
+		Maybe can use Privacy Pass for this
+		Doesn't like the normative language
+		Tommy: We don't say "shouldn't do anything else"
+		Talk about the properties, don't do a survey
+	Jim: Great piece of work, should be adopted in DNSOP
+		No one else is the right home
+	Joe: Agrees with Jim
+		Volunteers to help
+		Interop is important, annoying if everyone does it their own way
+		Bad if you get this wrong
+		Defending the user of devices, preventing privacy leaking everywhere
+	Jessica Krynitsky: Like the energy and hate of what it is worded
+		Agrees with the idea of enumerating properties
+	Erik Nygren: Will help interop
+		Warn people about the shart edges
+	Q: Good informational document
+		Might have reasons to run something else
+	Warren: Corporate resolvers horrifies us
+		Interoperability is good; we should document this
+		Is not clear if this is in the charter
+		Wants a poll: more "yes" than "no", equal number of "no opinion"
+	
+Zone Hopping: A method to prevent zone-walking in DNSSEC, Fatema Bannat Wala
+	draft-fbw-dnsop-dnszonehop
+	Joe: Aggressive NSEC caching
+		Stopped zone walking, but also stops resolution in the real world
+		Fatema: Interested in the drawbacks
+	Ondřej: Horrible idea, wearing a developer's hat
+		DNS deployment has a long tail, it will take years
+		Will not implement this
+	Evan Hunt: Same remark as NSEC5
+		Zone walking is not a problem
+		Don't need another solution
+		Waste of WG time for something that is not a problem
+	Q: There is no such thing as a senstive DNS name
+
