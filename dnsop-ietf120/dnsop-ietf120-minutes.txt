@@ -5,7 +5,7 @@ Date: Monday, July 22, 2024
 Time: 15:30-17:00 local
 Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
 
-https://datatracker.ietf.org/doc/chatlog-120-dnsop-202407221530/
+Chat Logs: https://datatracker.ietf.org/doc/chatlog-120-dnsop-202407221530/
 
 Only discussion during the mic line are covered here, not the slides
 You should definitely read the slides
