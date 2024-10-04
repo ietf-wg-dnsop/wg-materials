@@ -23,16 +23,16 @@
 
 ## Session I
 
-* Date: 
-* Time: 
-* Room: 
+* Date: Monday November 4, 2024
+* Time: 1730-1900 IST/UTC
+* Room: The Auditorium
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf120/?session=33060)
-* [OnSiteTool](https://meetings.conf.meetecho.com/onsite120/?session=33060)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf121/?session=33348)
+* [OnSiteTool](https://meetings.conf.meetecho.com/onsite121/?session=33348)
 
-* [Minutes](https://notes.ietf.org/notes-ietf-120-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-121-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/120/session/33060/propose_slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/121/session/33348/propose_slides)
 
 ## Agenda
 
@@ -42,28 +42,28 @@
 
 * Hackathon Results, 10 minutes
 
-*   
+*
 
 ### Current Working Group Business
 
-*  
+*
 
 ### For Consideration
 
-*   
+*
 
 ## Session II
 
-* Date: 
-* Time: 
-* Room: 
+* Date: Thursday November 7, 2024
+* Time: 1730-1830 IST/UTC
+* Room:  Liffey B
 
-* [MeetEcho](https://meetings.conf.meetecho.com/ietf120/?session=33061)
-* [OnSiteTool](https://meetings.conf.meetecho.com/onsite120/?session=33061)
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf121/?session=33349)
+* [OnSiteTool](https://meetings.conf.meetecho.com/onsite121/?session=33349)
 
-* [Minutes](https://notes.ietf.org/notes-ietf-120-dnsop)
+* [Minutes](https://notes.ietf.org/notes-ietf-121-dnsop)
 * [Zulip](https://zulip.ietf.org/#narrow/stream/dnsop)
-* [Upload Slides](https://datatracker.ietf.org/meeting/120/session/33061/propose_slides)
+* [Upload Slides](https://datatracker.ietf.org/meeting/121/session/33349/propose_slides)
 
 ## Agenda
 
@@ -73,12 +73,12 @@
 
 ### Liaison with other WGs
 
-*   
+*
 
 ### For Consideration
 
-*   
+*
 
 ### Time Permitting
 
-*   
+*
