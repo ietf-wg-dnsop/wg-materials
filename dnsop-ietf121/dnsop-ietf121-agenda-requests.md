@@ -22,3 +22,8 @@
     - Time Requested: 15 min
     - DocType: I-D
 
+*   Draft name: draft-fujiwara-dnsop-dns-upper-limit-values
+    - Datatracker URL:  https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-dns-upper-limit-values/
+    - Requester Email: fujiwara@jprs.co.jp / fujiwara@wide.ad.jp
+    - Time Requested: 15 min
+    - DocType: I-D
