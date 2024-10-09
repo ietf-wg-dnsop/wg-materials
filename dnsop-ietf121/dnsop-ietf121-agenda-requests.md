@@ -27,3 +27,9 @@
     - Requester Email: fujiwara@jprs.co.jp / fujiwara@wide.ad.jp
     - Time Requested: 15 min
     - DocType: I-D
+
+*   Draft name: draft-tjjk-cared
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-tjjk-cared/
+    - Requester Email: tojens.ietf@gmail.com
+    - Time Requested: 15 min
+    - DocType: I-D
