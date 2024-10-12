@@ -34,3 +34,9 @@
     - Time Requested: 15 min
     - DocType: I-D
     - Notes: First to be bumped
+
+*   Draft name: draft-bortzmeyer-more-edes
+    - Datatracker URL:  https://datatracker.ietf.org/doc/draft-bortzmeyer-more-edes/
+    - Requester Email: bortzmeyer@nic.fr
+    - Time Requested: 15 min
+    - DocType: I-D
