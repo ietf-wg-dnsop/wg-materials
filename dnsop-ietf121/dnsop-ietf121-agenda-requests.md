@@ -40,3 +40,9 @@
     - Requester Email: bortzmeyer@nic.fr
     - Time Requested: 15 min
     - DocType: I-D
+
+*   Draft name: draft-easlake-dnsop-rfc2930bis-tkey
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-easlake-dnsop-rfc2930bis-tkey/
+    - Requester Email: Donald Eastlake <d3e3e3@gmail.com>
+    - Time Requested: 10 min
+    - DocType: I-D
