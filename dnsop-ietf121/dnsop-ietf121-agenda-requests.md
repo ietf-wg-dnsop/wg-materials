@@ -46,3 +46,15 @@
     - Requester Email: Donald Eastlake <d3e3e3@gmail.com>
     - Time Requested: 10 min
     - DocType: I-D
+
+*   Draft name: draft-ietf-dnsop-rfc8624-bis
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8624-bis/
+    - Requester Email: Wes Hardaker <wjhns1@hardakers.net>
+    - Time Requested: 15 min
+    - DocType: Current Work
+
+*   Draft name: draft-davies-internal-tld
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-davies-internal-tld/
+    - Requester Email: Kim Davies <kim.davies@iana.org>
+    - Time Requested: 10 min
+    - DocType: I-D
