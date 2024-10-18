@@ -58,3 +58,9 @@
     - Requester Email: Kim Davies <kim.davies@iana.org>
     - Time Requested: 10 min
     - DocType: I-D
+
+*   Draft name: draft-pan-dnsop-explicit-forged-answer-signal
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-pan-dnsop-explicit-forged-answer-signal/
+    - Requester Email: Yu Fu <fuy186@chinaunicom.cn>
+    - Time Requested: 10 min
+    - DocType: I-D
