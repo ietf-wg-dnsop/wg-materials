@@ -64,3 +64,16 @@
     - Requester Email: Yu Fu <fuy186@chinaunicom.cn>
     - Time Requested: 10 min
     - DocType: I-D
+
+*   Draft name: draft-ietf-dnsop-domain-verification-techniques
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Requester Email: shivankaulsahib@gmail.com
+    - Time Requested: 10 min
+    - DocType: Current Work
+
+
+*   Draft name: draft-momoka-dnsop-3901bis
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
+    - Requester Email: Tobias Fiebig <tobias@fiebig.nl>
+    - Time Requested: 15 min
+    - DocType: I-D
