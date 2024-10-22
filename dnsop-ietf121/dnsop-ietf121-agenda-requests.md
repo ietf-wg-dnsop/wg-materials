@@ -71,9 +71,26 @@
     - Time Requested: 10 min
     - DocType: Current Work
 
-
 *   Draft name: draft-momoka-dnsop-3901bis
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
     - Requester Email: Tobias Fiebig <tobias@fiebig.nl>
     - Time Requested: 15 min
+    - DocType: I-D
+
+*   Draft name: draft-ietf-dnsop-generalized-notify
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Requester Email: Peter Thomassen <peter@desec.io>
+    - Time Requested: 5 min
+    - DocType: Current Work
+
+*   Draft name: draft-berra-dnsop-keystate
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-berra-dnsop-keystate/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 10 mind
+    - DocType: I-D
+
+*   Draft name: draft-johani-dnsop-delegation-mgmt-via-ddns
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 10 min
     - DocType: I-D
