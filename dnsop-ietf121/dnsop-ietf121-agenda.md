@@ -42,15 +42,40 @@
 
 * Hackathon Results, 10 minutes
 
-*
-
 ### Current Working Group Business
 
-*
+*   draft-ietf-dnsop-generalized-notify
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    - Peter Thomassen <peter@desec.io>, 5
+    - Chairs Action:
+
+*   draft-ietf-dnsop-domain-verification-techniques
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - shivankaulsahib@gmail.com, 10
+    - Chairs Action:
+
+*   draft-ietf-dnsop-rfc8624-bis
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8624-bis/
+    - Wes Hardaker <wjhns1@hardakers.net>, 15
+    - Chairs Action:
 
 ### For Consideration
 
-*
+*   draft-sheth-dns-integration
+    - https://datatracker.ietf.org/doc/draft-sheth-dns-integration/
+    - Sheth, Swapneel <ssheth@Verisign.com>, 15
+    - Chairs Action:
+
+*   draft-momoka-dnsop-3901bis
+    - https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
+    - Tobias Fiebig <tobias@fiebig.nl>, 15
+    - Chairs Action:
+
+*   draft-easlake-dnsop-rfc2930bis-tkey
+    - https://datatracker.ietf.org/doc/draft-easlake-dnsop-rfc2930bis-tkey/
+    - Donald Eastlake <d3e3e3@gmail.com>, 10
+    - Chairs Action:
+
 
 ## Session II
 
@@ -71,14 +96,47 @@
 
 * Opening, Note Well and Blue Sheets, Chairs, 5 min
 
-### Liaison with other WGs
-
-*
-
 ### For Consideration
 
-*
+*   draft-fujiwara-dnsop-dns-upper-limit-values
+    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-dns-upper-limit-values/
+    - fujiwara@jprs.co.jp / fujiwara@wide.ad.jp, 15
+    - Chairs Action:
+
+*   draft-bortzmeyer-more-edes
+    - https://datatracker.ietf.org/doc/draft-bortzmeyer-more-edes/
+    - bortzmeyer@nic.fr, 15
+    - Chairs Action:
+
+*   draft-buraglio-deprecate7050
+    - https://datatracker.ietf.org/doc/draft-buraglio-deprecate7050/
+    - buraglio@forwardingplane.net, 15
+    - Chairs Action:
+
+*   draft-davies-internal-tld
+    - https://datatracker.ietf.org/doc/draft-davies-internal-tld/
+    - Kim Davies <kim.davies@iana.org>, 10
+    - Chairs Action:
+
+*   draft-pan-dnsop-explicit-forged-answer-signal
+    - https://datatracker.ietf.org/doc/draft-pan-dnsop-explicit-forged-answer-signal/
+    - Yu Fu <fuy186@chinaunicom.cn>, 10
+    - Chairs Action:
+
+*   draft-berra-dnsop-keystate
+    - https://datatracker.ietf.org/doc/draft-berra-dnsop-keystate/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10
+    - Chairs Action:
+
+*   draft-johani-dnsop-delegation-mgmt-via-ddns
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10
+    - Chairs Action:
 
 ### Time Permitting
 
-*
+*   draft-tjjk-cared
+    - https://datatracker.ietf.org/doc/draft-tjjk-cared/
+    - tojens.ietf@gmail.com, 15
+    - Chairs Action:
+

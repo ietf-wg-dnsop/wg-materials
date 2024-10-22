@@ -51,7 +51,7 @@ def getitems(newlines):
             agendaitem.setdefault('time', fields[3].replace('min', ''))
         if 'DocType' in l:
             doctype = ' '.join(fields[2::]).lower()
-            if doctype not in ['current business', 'for consideration']:
+            if doctype not in ['current', 'for consideration', 'i-d']:
                 agendaitem.setdefault('doctype', ' '.join(fields[2::]))
         if 'Remark' in l:
             agendaitem.setdefault('remark', ' '.join(fields[2::]))
@@ -83,8 +83,8 @@ def writef(filename, records):
 def printitems(args):
     newlines = []
 
-    alltimes.append("Agenda Bashing Blue Sheets\tChairs\t10\n")
-    alltimes.append("Updates of Old Work\tChairs\t10\n")
+    alltimes.append("Opening, Note Well and Chairs Updates\tChairs\t15\n")
+    alltimes.append("Hackathon Results\tChairs\t10\n")
 
     alltimes.append('\n### Current Working Group Business\n')
     newlines.append('\n### Current Working Group Business\n')
