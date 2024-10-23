@@ -61,19 +61,19 @@
 
 ### For Consideration
 
-*   draft-sheth-dns-integration
-    - https://datatracker.ietf.org/doc/draft-sheth-dns-integration/
-    - Sheth, Swapneel <ssheth@Verisign.com>, 15
-    - Chairs Action:
-
 *   draft-momoka-dnsop-3901bis
     - https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
     - Tobias Fiebig <tobias@fiebig.nl>, 15
     - Chairs Action:
 
-*   draft-easlake-dnsop-rfc2930bis-tkey
-    - https://datatracker.ietf.org/doc/draft-easlake-dnsop-rfc2930bis-tkey/
+*   draft-eastlake-dnsop-rfc2930bis-tkey
+    - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2930bis-tkey/
     - Donald Eastlake <d3e3e3@gmail.com>, 10
+    - Chairs Action:
+
+*   draft-sheth-dns-integration
+    - https://datatracker.ietf.org/doc/draft-sheth-dns-integration/
+    - Sheth, Swapneel <ssheth@Verisign.com>, 15
     - Chairs Action:
 
 
