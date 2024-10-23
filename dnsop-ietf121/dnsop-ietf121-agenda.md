@@ -71,9 +71,9 @@
     - Donald Eastlake <d3e3e3@gmail.com>, 10
     - Chairs Action:
 
-*   draft-sheth-dns-integration
-    - https://datatracker.ietf.org/doc/draft-sheth-dns-integration/
-    - Sheth, Swapneel <ssheth@Verisign.com>, 15
+*   draft-buraglio-deprecate7050
+    - https://datatracker.ietf.org/doc/draft-buraglio-deprecate7050/
+    - buraglio@forwardingplane.net, 15
     - Chairs Action:
 
 
@@ -81,7 +81,7 @@
 
 * Date: Thursday November 7, 2024
 * Time: 1730-1830 IST/UTC
-* Room:  Liffey B
+* Room: Liffey B
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf121/?session=33349)
 * [OnSiteTool](https://meetings.conf.meetecho.com/onsite121/?session=33349)
@@ -98,9 +98,9 @@
 
 ### For Consideration
 
-*   draft-fujiwara-dnsop-dns-upper-limit-values
-    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-dns-upper-limit-values/
-    - fujiwara@jprs.co.jp / fujiwara@wide.ad.jp, 15
+*   draft-sheth-dns-integration
+    - https://datatracker.ietf.org/doc/draft-sheth-dns-integration/
+    - Sheth, Swapneel <ssheth@Verisign.com>, 15
     - Chairs Action:
 
 *   draft-bortzmeyer-more-edes
@@ -108,15 +108,17 @@
     - bortzmeyer@nic.fr, 15
     - Chairs Action:
 
-*   draft-buraglio-deprecate7050
-    - https://datatracker.ietf.org/doc/draft-buraglio-deprecate7050/
-    - buraglio@forwardingplane.net, 15
-    - Chairs Action:
-
 *   draft-davies-internal-tld
     - https://datatracker.ietf.org/doc/draft-davies-internal-tld/
     - Kim Davies <kim.davies@iana.org>, 10
     - Chairs Action:
+
+*   draft-fujiwara-dnsop-dns-upper-limit-values
+    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-dns-upper-limit-values/
+    - fujiwara@jprs.co.jp / fujiwara@wide.ad.jp, 15
+    - Chairs Action:
+
+### Time Permitting
 
 *   draft-pan-dnsop-explicit-forged-answer-signal
     - https://datatracker.ietf.org/doc/draft-pan-dnsop-explicit-forged-answer-signal/
@@ -132,8 +134,6 @@
     - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
     - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10
     - Chairs Action:
-
-### Time Permitting
 
 *   draft-tjjk-cared
     - https://datatracker.ietf.org/doc/draft-tjjk-cared/
