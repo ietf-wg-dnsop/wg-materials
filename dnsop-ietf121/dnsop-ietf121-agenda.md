@@ -24,7 +24,7 @@
 ## Session I
 
 * Date: Monday November 4, 2024
-* Time: 1730-1900 IST/UTC
+* Time: 1730-1900 IST/GMT/UTC
 * Room: The Auditorium
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf121/?session=33348)
@@ -80,7 +80,7 @@
 ## Session II
 
 * Date: Thursday November 7, 2024
-* Time: 1730-1830 IST/UTC
+* Time: 1730-1830 IST/GMT/UTC
 * Room: Liffey B
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf121/?session=33349)
