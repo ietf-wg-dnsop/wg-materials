@@ -66,8 +66,9 @@
     - Tobias Fiebig <tobias@fiebig.nl>, 15
     - Chairs Action:
 
-*   draft-eastlake-dnsop-rfc2930bis-tkey
+*   draft-eastlake-dnsop-rfc2930bis-tkey and draft-eastlake-dnsop-rfc2931bis-sigzero
     - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2930bis-tkey/
+    - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2931bis-sigzero/
     - Donald Eastlake <d3e3e3@gmail.com>, 10
     - Chairs Action:
 
