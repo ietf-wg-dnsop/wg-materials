@@ -47,11 +47,11 @@
 *   draft-ietf-dnsop-generalized-notify
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
     - Peter Thomassen <peter@desec.io>, 5
-    - Chairs Action:
+    - Chairs Action: WGLC time?
 
 *   draft-ietf-dnsop-domain-verification-techniques
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
-    - shivankaulsahib@gmail.com, 10
+    - shivankaulsahib@gmail.com, 15
     - Chairs Action:
 
 *   draft-ietf-dnsop-rfc8624-bis
@@ -64,18 +64,18 @@
 *   draft-momoka-dnsop-3901bis
     - https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
     - Tobias Fiebig <tobias@fiebig.nl>, 15
-    - Chairs Action:
+    - Chairs Action: Adoption?
 
 *   draft-eastlake-dnsop-rfc2930bis-tkey and draft-eastlake-dnsop-rfc2931bis-sigzero
     - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2930bis-tkey/
     - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2931bis-sigzero/
     - Donald Eastlake <d3e3e3@gmail.com>, 10
-    - Chairs Action:
+    - Chairs Action: Adoption?
 
 *   draft-buraglio-deprecate7050
     - https://datatracker.ietf.org/doc/draft-buraglio-deprecate7050/
-    - buraglio@forwardingplane.net, 15
-    - Chairs Action:
+    - buraglio@forwardingplane.net, 10
+    - Chairs Action: Adoption? Here or elsewhere?
 
 
 ## Session II
