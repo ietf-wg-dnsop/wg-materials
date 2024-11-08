@@ -1,0 +1,175 @@
+DNSOP WG
+Dublin, Ireland
+Session 1
+Date: Monday, November 4, 2024
+Time: 1730-1900 local
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+
+Only discussion during the mic line are covered here, not the slides
+You should definitely read the slides
+Minutes by Paul Hoffman
+
+Administrivia, Chairs
+    Opening, Note Well and Blue Sheets
+    Lots of review of the past few months in the slides
+    Hackathon results ??????
+
+draft-ietf-dnsop-generalized-notify, Peter Thomassen
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-generalized-notify/
+    See slides
+
+Domain Control Validation using DNS, Shivan Sahib
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    Ben Schwartz: Used in places where it is not the right approach
+        This is a kind of weird thing to want
+        Instead it's the other way around: Hey domain name, is this user associated with it?
+        Thinks text about this is buried in the security considerations
+        Shivan: Is this a point-in-time check, or long-term? (Point-in-time)
+        Shumon Huque: Agrees that moving this section up is good
+            Is good to categorize applications that do DCV
+            Not good for long term
+        Ben: Provide good guidance earlier in the doc
+        Shumon: Can reorganize the doc to make it more readable
+            Helped get ACME to make improvements that are in play
+
+DNSSEC Cryptographic Algorithm Recommendation Update Process, Wes Hardaker
+    https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc8624-bis/
+    Daniel Kahn Gillmor: Doesn't like using RECOMMENDED because this doesn't help administrator pick one
+        Wes: Didn't want to get into the discussion of what is the one to do
+    Jim Reid: What is the distinction between implementing and using
+        Wes: Implementers write code, users use
+    Tommy Jensen: Doesn't want the implementation column to have a too-narrow list
+    Mike St Johns: Should instead talk about publication side versus client side
+        Wes: Send text to help make the distinction
+
+DNS IPv6 Transport Operational Guidelines, Momoka Yamamoto and Tobias Fiebig
+    https://datatracker.ietf.org/doc/draft-momoka-dnsop-3901bis/
+    Wes: In v6, you can't figure out what's broken
+        This is a bigger problem than just the DNS
+        Geoff Huston wants to fix v6
+        How will I even be able to detect the problem?
+        We're stuck in the middle
+    Èric Vynke: Would love to have this document
+        Be more careful of when you cannot follow the SHOULD
+        The IANA considerations is only about IANA zones, not good
+    Tommy: Likes this, OK with splitting out
+        We need to work on this, is willing to help
+    Eric Nygren: Important work for us to do
+        No going back, documenting what to fix is important
+        Keep focus on v6, do transport later
+    Ben: Do transport later
+    Mark Andrews: BIND has ways to resolve across v4 or v6 islands
+        BIND already has a v6 bias
+        The bias is useful
+        Handles fragmentation since 1999
+    Paul Hoffman: Is this the right WG for this?
+        But after hearing Mark, maybe the developers have enough expertise
+
+
+Secret Key Agreement for DNS: The TKEY Resource Record
+Domain Name System (DNS) Public Key Based Request and Transaction Authentication ( SIG(0) )
+Donald Eastlake
+    https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2930bis-tkey/
+    https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2931bis-sigzero/
+    Petr Špaček: What is the use case for ECDH TSIG?
+        Don: Suggested by Mark Andrews
+        Petr: Maybe toss it out
+            Sees a use case for SIG0
+    Johan Stenstam: Wants to keep some sort of mechanism to do asymmetric signing
+        Would not mind a new record type that
+
+
+Deprecation of DNS64 for Discovery of IPv6 Prefix Used for IPv6 Address Synthesis, Nick Buraglio
+    https://datatracker.ietf.org/doc/draft-buraglio-deprecate7050/
+    Jen Linkova: 7050 won't work in multihoming
+        Would like to see this adopted
+    Lorenzo Colitti: Would like to do this
+        Have you asked the mobile operators why they do this?
+        Maybe not realistic
+        Nick: Maybe say "non-mobile environments"
+    Tommy: Will not update his earlier draft, this is a better draft
+    Èric: Likes this
+        Nick: Not saying remove the old ones
+    Lorenzo: Talk to mobile operators, maybe drop the old stuff
+
+
+Session 2
+Date: THursday, November 7, 2024
+Time: 1730-1830 local
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+
+Only discussion during the mic line are covered here, not the slides
+You should definitely read the slides
+Minutes by Paul Hoffman
+
+Integration of DNS Domain Names into Application Environments: Motivations and Considerations, Andrew Kaizer
+    https://datatracker.ietf.org/doc/draft-sheth-dns-integration/
+    Paul: Supports adoption
+        Likes the parts about name lifecycle
+    Wes Hardaker: Likes the draft
+        Has a student looking at it
+        If we don't explain how to do things properly, we won't be helping them
+    Andrew Campling: Respecting DNS settings on the end point
+        Wants our experience used
+
+Addition of Extended DNS Errors codes, Stéphane Bortzmeyer
+    https://datatracker.ietf.org/doc/draft-bortzmeyer-more-edes/
+    Warren: Don't see much value in LocalRoot
+        Discussion in the IESG about using Internet Draft, he thinks it's fine
+    Wes: Original RFC talked about generic or specific
+        Ended up with first-come-first-served
+        Good for guidance to come, good practice
+    Peter van Dijk: Response size are important
+    Roy Arends: It is fine to reference drafts
+        Pick a generic code point
+        IANA uses some discretion on the registry
+        WG is busy, doesn't need to be a WG draft, ask your peers
+    Petr: As an implementer, would talk to other implementers before he would use
+        So talk to other implementers
+    Puneet Sood: Maybe start with private use
+        ECS EDE: how is this providing information?
+    Gianpaolo Scalone: Be more generic so the customers can understand better
+
+A Top-level Domain for Private Use, Kim Davies
+    https://datatracker.ietf.org/doc/draft-davies-internal-tld/
+    Mark Andrews: Would like it in the root giving NXDOMAIN
+        Resolvers need to add negative trust anchors if they are validating
+        Would have done this for .onion
+    Petr: Want a special use registration
+    Jim Reid: Should not be registered
+        IETF should keep away from these names
+    Andrew: Which RFC track?
+        Maybe ISE
+        Kim: Mostly to bring awareness
+    Lars-Johan Liman: Thank you for documenting it
+        Wants more content
+        What root servers and others to know what to do with it
+        Might even be a BCP
+        Wants it handled in the IETF
+    Duane Wessels: Should be a special-use domain name
+        Weird that this one would be different than local
+    Warren: IANA did not fail at what they were asked
+    Suzanne: The WG needs to decide whether it would benefit the discussion
+    Liman: Wants a BCP to give it more weight
+
+Upper limit values for DNS, Kazunori Fujiwara
+    https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-dns-upper-limit-values/
+    Roy: First document the limits we already know before suggesting new limits
+        Ask developers
+    Tobias Fiebig: Caution about upper limits
+        Limits of SPF of maximum number of lookups were overrun by reality
+            Says 10, really 20 is needed
+        Has data to show
+    Stéphane: Agrees with numerical limits
+        Doesn't agree on non-numerical limits because they are unrelated
+    Puneet: Agees with the idea, but also has caution about the cycle of having to update the limits
+        Maybe not an RFC
+    Petr: Thinks the name server is in scope
+    Ondrej: It is useful to have an RFC to help support their decisions in their implementation
+        Doesn't think it is so important to update
+        Good to have it listed somewhere
+    Wes: We need to have a conversation about each of these
+        Supports this as a BCP as how to implement on Internet
+        DNS is also used other places
+        Future-proofing is a problem
+
