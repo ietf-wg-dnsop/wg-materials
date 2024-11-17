@@ -1,4 +1,34 @@
-DNSOP WG
+# DNSOP IETF121 Chairs Actions
+
+* draft-ietf-dnsop-rfc8624-bis
+    - Chairs Action: WGLC
+
+* draft-crocker-dnsop-dnssec-algorithm-lifecycle
+    - Chairs Action: authors requested adoption call
+
+* draft-buraglio-deprecate7050
+    - Chairs Action: Interest in adopting
+
+* Does draft-momoka-dnsop-3901bis belong in DNSOP?
+    - Chairs Action:  schedule call for adoption (same action as from ietf118)
+
+*   draft-sheth-dns-integration
+    - Chairs Action: some interest in adopting but more discussion
+
+*   draft-bortzmeyer-more-edes
+    - Chairs Action: No need to adopt unless changing the registry (no interest in that)
+
+*   draft-davies-internal-tld
+    - Chairs Action: interest in adopting, but also not sure what value. ISE?
+
+*   draft-fujiwara-dnsop-dns-upper-limit-values
+    - Chairs Action: Interest, but more discussion
+
+*   draft-eastlake-dnsop-rfc2930bis-tkey and draft-eastlake-dnsop-rfc2931bis-sigzero
+    - Chairs Action: Needs more work
+
+
+DNSOP WG Minutes
 Dublin, Ireland
 Session 1
 Date: Monday, November 4, 2024

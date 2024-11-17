@@ -74,7 +74,7 @@
 
 *   draft-buraglio-deprecate7050
     - https://datatracker.ietf.org/doc/draft-buraglio-deprecate7050/
-    - buraglio@forwardingplane.net, 10
+    - Nick Buraglio buraglio@forwardingplane.net, 10
     - Chairs Action: Adoption? Here or elsewhere?
 
 
