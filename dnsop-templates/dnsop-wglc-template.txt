@@ -1,13 +1,23 @@
-Template: Working Group Last Call for 
+Template: Working Group Last Call for $DRAFT, $TITLE
 
 
 
 This starts a Working Group Last Call for $DRAFT
 
-Current versions of the draft is available here:
+Current version of the draft is available here:
 $DATATRACKER
 
 The Current Intended Status of this document is: $STATUS
+Shepherd is: $SHEPHERD
+
+[Optional historical or backgroud information; example from draft-ietf-dnsop-dnssec-automation WGLC:
+The Working Group adopted draft-ietf-dnsop-dnssec-automation in May
+2022. Since then, the draft has undergone multiple revisions following
+Working Group meeting presentations and feedback. Both the Security
+Directorate and DNS Directorate have completed their reviews, and
+their suggestions have been incorporated into the latest
+version. Additionally, a proof-of-concept implementation is available,
+as referenced in the draft.]
 
 Please review the draft and offer relevant comments.
 
