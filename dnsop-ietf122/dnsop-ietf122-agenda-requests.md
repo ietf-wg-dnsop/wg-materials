@@ -42,4 +42,10 @@
     - Time Requested: 5 min
     - DocType: I-D
  
-
+*   Draft name: DNS Update with JSON
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-duj/
+    - Requester Email: Paul Hoffman
+    - Time Requested: 10-15 min
+    - DocType: I-D
+    - Chairs Action: Consider for adoption
+ 
