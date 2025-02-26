@@ -41,11 +41,16 @@
     - Requester Email: Johan Stenstam
     - Time Requested: 5 min
     - DocType: I-D
- 
+
 *   Draft name: DNS Update with JSON
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-duj/
     - Requester Email: Paul Hoffman
     - Time Requested: 10-15 min
     - DocType: I-D
     - Chairs Action: Consider for adoption
- 
+
+*   Draft name: draft-eastlake-dnsop-rfc2931bis-sigzero
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2931bis-sigzero/
+    - Requester Email: Donald Eastlake, <d3e3e3@gmail.com>
+    - Time Requested: 10-15 min
+    - DocType: For Consideration
