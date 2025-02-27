@@ -54,3 +54,9 @@
     - Requester Email: Donald Eastlake, <d3e3e3@gmail.com>
     - Time Requested: 10-15 min
     - DocType: For Consideration
+
+*   Draft name: draft-nottingham-public-resolver-errors
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors/
+    - Requester Email: Mark Nottingham
+    - Time Requested: 10-15 min
+    - DocType: For Consideration
