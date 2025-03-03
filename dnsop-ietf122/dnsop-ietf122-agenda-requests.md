@@ -66,3 +66,9 @@
     - Requester Email: Shumon Huque, <shuque@gmail.com>
     - Time Requested: 15 min
     - DocType: I-D
+
+*   Draft name: draft-davies-internal-tld
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-davies-internal-tld/
+    - Requester Email: Warren Kumari, <warren@kumari.net>
+    - Time Requested: 10 min
+    - DocType: I-D
