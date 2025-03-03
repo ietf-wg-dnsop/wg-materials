@@ -60,3 +60,9 @@
     - Requester Email: Mark Nottingham
     - Time Requested: 10-15 min
     - DocType: For Consideration
+
+*   Draft name: draft-huque-dnsop-keytags
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-keytags/
+    - Requester Email: Shumon Huque, <shuque@gmail.com>
+    - Time Requested: 15 min
+    - DocType: I-D
