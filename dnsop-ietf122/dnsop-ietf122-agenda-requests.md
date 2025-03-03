@@ -72,3 +72,9 @@
     - Requester Email: Warren Kumari, <warren@kumari.net>
     - Time Requested: 10 min
     - DocType: I-D
+
+*   Draft name: dry-run DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-yorgos-dnsop-dry-run-dnssec/
+    - Requester Email: Yorgos Thessalonikefs, <yorgos@nlnetlabs.nl>
+    - Time Requested: 15 min
+    - DocType: I-D
