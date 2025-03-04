@@ -78,3 +78,9 @@
     - Requester Email: Yorgos Thessalonikefs, <yorgos@nlnetlabs.nl>
     - Time Requested: 15 min
     - DocType: I-D
+
+*   Draft name: Clarifications to the DNS Ranking Data
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-ranking-data/
+    - Requester Email: Kazunori Fujiwara <fujiwara@jprs.co.jp>, Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 15 min
+    - DocType: I-D
