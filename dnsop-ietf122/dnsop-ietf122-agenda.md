@@ -44,13 +44,18 @@
 
 * Opening, Note Well and Chairs Updates, Chairs, 15 min
 
-* Hackathon Results, 10 minutes
+* Hackathon Results, 5 minutes
 
 ### Current Working Group Business
 
 *   Clarifications on CDS/CDNSKEY and CSYNC Consistency
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
     - Peter Thomassen <peter@desec.io>, 5 min
+    - Chairs Action: 
+
+*   Domain Verification Techniques using DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Shumon Huque <shuque@gmail.com>, 5 min
     - Chairs Action: 
 
 ### For Consideration
