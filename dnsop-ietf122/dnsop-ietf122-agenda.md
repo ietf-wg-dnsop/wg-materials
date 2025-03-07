@@ -21,7 +21,7 @@
 ### Social Media
 
 * [Bluesky @ietf-wg-dnsop.bsky.social](https://bsky.app/profile/ietf-wg-dnsop.bsky.social)
-* [Mastodont @ietf_wg_dnsop@hachyderm.io](https://hachyderm.io/@ietf_wg_dnsop)
+* [Mastodon @ietf_wg_dnsop@hachyderm.io](https://hachyderm.io/@ietf_wg_dnsop)
 
 
 ## Session I
