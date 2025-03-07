@@ -138,6 +138,16 @@
 
 ### Time Permitting
 
+*   Standardized Query Name for DNS Resolver Reachability Probes
+    - https://datatracker.ietf.org/doc/draft-sst-dnsop-probe-name/
+    - Ben Schwarz <bemasc@meta.com>, 5 min
+    - Chairs Action: 
+
+*   Service Binding Mapping for Service Levels
+    - https://datatracker.ietf.org/doc/draft-gakiwate-dnsop-svcb-sla-parameter/
+    - Gautam Akiwate <gakiwate@apple.com>, 5 min
+    - Chairs Action:
+
 *   The impact of MTU-Blackholes on DNS Recursion
     - https://datatracker.ietf.org/wg/dnsop/documents/
     - Tobias Fiebig <tfiebig@mpi-inf.mpg.de>, 30 min
