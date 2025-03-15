@@ -12,6 +12,7 @@
 ### IESG Overlord
 
 * Warren Kumari [warren@kumari.net](warren@kumari.net)
+* Mohamed Boucadair [mohamed.boucadair@orange.com](mohamed.boucadair@orange.com)
 
 ### Document Status
 
@@ -28,7 +29,7 @@
 
 * Date: Monday, 17 March 2025
 * Time: 15:30-16:30 ICT (08:30-09:30 UTC)
-* Room: Sala Thai Ballroom 
+* Room: Sala Thai Ballroom
 
 * [MeetEcho](https://meetings.conf.meetecho.com/ietf122/?session=33775)
 * [OnSiteTool](https://meetings.conf.meetecho.com/onsite122/?session=33775)
@@ -51,19 +52,19 @@
 *   Clarifications on CDS/CDNSKEY and CSYNC Consistency
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
     - Peter Thomassen <peter@desec.io>, 5 min
-    - Chairs Action: 
+    - Chairs Action:
 
 *   Domain Verification Techniques using DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
     - Shumon Huque <shuque@gmail.com>, 5 min
-    - Chairs Action: 
+    - Chairs Action:
 
 ### For Consideration
 
 *   DNS Filtering Details for Applications
     - https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors/
     - Mark Nottingham <mnot@mnot.net>, 15 min
-    - Chairs Action: 
+    - Chairs Action:
 
 *  Clarifications to the DNS Ranking Data
     - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-ranking-data/
@@ -118,7 +119,7 @@
 *  Domain Name System (DNS) Public Key Based Request and Transaction Authentication ( SIG(0) )
     - https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2931bis-sigzero/
     - Donald Eastlake <d3e3e3@gmail.com>, 10 min
-    - Chairs Action: 
+    - Chairs Action:
 
 *   Collision Free Keytags for DNSSEC
     - https://datatracker.ietf.org/doc/draft-huque-dnsop-keytags/
@@ -141,7 +142,7 @@
 *   Standardized Query Name for DNS Resolver Reachability Probes
     - https://datatracker.ietf.org/doc/draft-sst-dnsop-probe-name/
     - Ben Schwarz <bemasc@meta.com>, 5 min
-    - Chairs Action: 
+    - Chairs Action:
 
 *   Service Binding Mapping for Service Levels
     - https://datatracker.ietf.org/doc/draft-gakiwate-dnsop-svcb-sla-parameter/
