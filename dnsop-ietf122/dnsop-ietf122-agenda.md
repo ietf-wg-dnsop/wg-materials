@@ -96,8 +96,8 @@
 
 ### For Consideration
 
-*   Distributed DNSSEC Multi-Signer Bootstrap
-    - https://datatracker.ietf.org/doc/draft-leon-distributed-multi-signer/
+*   Signaling Zone Owner Intent
+    - https://datatracker.ietf.org/doc/draft-leon-dnsop-signaling-zone-owner-intent/
     - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10 min
     - Chairs Action:
 
