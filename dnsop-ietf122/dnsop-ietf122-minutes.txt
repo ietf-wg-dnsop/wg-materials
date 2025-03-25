@@ -1,0 +1,143 @@
+DNSOP WG
+Bangkok, Thailand
+Session 1
+Date: Monday, March 17, 2025
+Time: 1530-1630 local
+Chairs: Benno Overeinder, Suzanne Woolf, Tim Wicinski
+
+Only discussion during the mic line are covered here, not the slides
+You should definitely read the slides
+Minutes by Paul Hoffman
+
+Administrivia, Chairs
+	New AD for the WG: Mohamed Boucadair (Med)
+		Lots of clapping for Warren
+	Opening, Note Well
+	90ish people in Meetecho/Zulip
+	Lots of review of the past few months in the slides
+	Wes Hardaker: Three docs in front of the IESG will have small changes by next week
+	Geoff Huston: Reminds the chairs that the DNS Directorate exists for getting reviews
+
+Hackathon results
+	See slides
+	Six documents had work done
+
+Clarifications on CDS/CDNSKEY and CSYNC Consistency, Peter Thomassen
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-cds-consistency/
+	Maybe ready for WG Last Call
+
+Domain Verification Techniques using DNS, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+	Ben Schwartz: Domain control validation vs. domain authorization
+		Latter is like MX records
+		The section on wildcards should go further down
+	Daniel Kahn Gilmore: Worried about the overlap beween the DNS and the other networks
+		Doesn't want users to be tricked into making claims they don't know
+		If a malicious operator can convince users to add records unde the wrong _label, big security issues
+
+DNS Filtering Details for Applications, Mark Nottingham
+	https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors/
+	Gautam Akiwate: DNS filtering is being discussed in ICANN's SSAC
+		Safari already displays messages based on DNS error codes
+		Need to figure out the trust model for the URLs
+	Ben: Doesn't agree with the role for IANA
+		Likes the care the draft shows
+		Norms from the IETF are paid attention to
+		Let's not charge down the wrong path
+	Wes: Extended DNS Error draft tried to deal with some of these issues, were told not to
+		Can end up displaying messages that are harmful
+		Read the WG discussion on EDE, maybe the WG will change
+		Mark: Browser vendors deal with this kind of thing all the time
+	Vittorio Bertola: This could be in a policy forum
+		This should be done
+		Should be for everyone, not just public resolvers
+	Ralf Weber: Message to be displayed to the users might be a subset of the registry?
+		Mark: Now is just a URL
+	Mark: Is DNSOP the right venue for this?
+		Benno: Need to discuss with the ADs, but for now DNSOP is fine
+
+Clarifications to the DNS Ranking Data, Kazunori Fujiwara
+	https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-ranking-data/
+	Ondřej Surý: DELEG is more important than this
+		Willem: Legacy way to do delegations will be around for a while
+			Good to bring clarity for that
+	Jim Reid: Thinks we have to do both
+		Wants to clean up now, DELEG is long in the future
+	Ralf: DNS is currently working
+		Mixes different functions we have in the DNS
+		Might have to change the structure for the future
+		Don't change the guidance
+		Willem: Not trying to mix everything together
+			Collect guidance
+
+Session 2
+Date: Thursday, March 20, 2025
+Time: 1300-1430 local
+
+Collision Free Keytags for DNSSEC, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-huque-dnsop-keytags/
+	Jim: Would rather a document that said "you should avoid collisions" instead of "you must not have collisions"
+		Suggestions are more moving parts around key generation and validation
+		Creating this complexity might cause more problems that it solves
+		Mark: BIND has been avoiding key collisions for 20 years
+			Now has code for partitioning
+		Jim: How often has this actually been seen in the wild
+		Shumon: Wants to make the validation process predictable 
+	Christian Elmerot: Prefers a flag date
+		Easiest option does not involve coordination
+		Important draft to get adoption
+	Roy Arends: Prevents validators from being abused
+		Important to adopt
+		Collisions happen more often than you think
+	Petr Špaček: We need something like this because different implementations do different things
+		Causing operational issues today
+	Ralf: Supports this work 
+		Overall problem space is low
+
+Distributed DNSSEC Multi-Signer Bootstrap, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-leon-distributed-multi-signer/
+Automating DNS Delegation Management via DDNS
+	https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+Signalling Key State Via DNS EDNS(0) OPT
+	https://datatracker.ietf.org/doc/draft-berra-dnsop-keystate/
+	No mic line
+	Does not have a strong feeling about whether they all need to go together
+
+DNS Update with JSON, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-hoffman-duj/
+	Tobias Fiebig: Likes the draft, needs more work
+	Peter Tomasson: Question about having multiple additions or deletions, and whether a DNS host needs to block add-then-remove
+		Paul: Answered on the list earlier today
+	Paweł Kowalik: Caution about using DUJS instead of DUJ64 because quotation marks might be munged in the browser
+
+Domain Name System (DNS) Public Key Based Request and Transaction Authentication ( SIG(0) ), Donald Eastlake
+	https://datatracker.ietf.org/doc/draft-eastlake-dnsop-rfc2931bis-sigzero/
+	Ted Lemon: Using SIG(0) heavily in SRP document, soon to be published
+		Likes a new RRTYPE as a first guess
+	Petr: How compatible is this with current SIG(0) deployment?
+		Donald: Not sure, but will research
+		Petr: Probably prefer new RRtype		
+		
+dry-run DNSSEC, Yorgos Thessalonikefs
+	https://datatracker.ietf.org/doc/draft-yorgos-dnsop-dry-run-dnssec/
+	Petr: What is the interaction with aggressive caching?
+		Are resolvers supposed to act as if the zone is signed?
+		Yorgos: Need to think about it?
+	Peter: Instead of just signing a zone with dry-run, also test parents' checking
+		Would not help with a wildcard error
+		Should think about the checks that the parents should be doing
+		Jorgos: Likes this
+
+A Top-level Domain for Private Use, Warren Kumari
+	https://datatracker.ietf.org/doc/draft-davies-internal-tld/
+	Ted: Should work on this
+	Tommy Jensen: Work on here
+		Consider that libraries MAY treat it as special to catch things from going upstream
+	Stuart Cheshire: Agree with logic, should be listed in registry
+	Jim: Not for IETF because ICANN told us what to do
+		Maybe figure out the process
+		Thanks for bearing with all the machinations
+	Mark: Locally served registry requires that the names have insecure delegations in the DNS
+		Bring-your-own-devices work because of this insecure validation
+	Suzanne: How much work is needed?
+		Warren: Almost no work
