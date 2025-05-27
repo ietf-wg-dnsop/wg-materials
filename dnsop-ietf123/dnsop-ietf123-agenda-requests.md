@@ -12,6 +12,12 @@
 
 ## Requests
 
+*   Draft name: DNS Zone Version (ZONEVERSION) Extended
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ubbink-zoneversion-extended/
+    - Requester Email: Stefan Ubbink <Stefan.Ubbink@sidn.nl>
+    - Time Requested: 15 min
+    - DocType: I-D
+
 *   Draft name: Best Practices for Persistent References in DNS
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-sheth-identifiers-dns/
     - Requester Email: Andrew Kaizer <akaizer@verisign.com>
@@ -22,4 +28,10 @@
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
     - Requester Email: Dan Wing
     - Time Requested: 30 min
+    - DocType: I-D
+
+*   Draft name: Best Practice Recommendations for DS Automation
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-shetho-dnsop-ds-automation/
+    - Requester Email: Peter Thomassen
+    - Time Requested: 20 min
     - DocType: I-D
