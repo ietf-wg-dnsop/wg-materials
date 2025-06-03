@@ -44,6 +44,6 @@
 
 *   Draft name: Multiple Algorithm Rules in DNSSEC
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
-    - Requester Email: Peter Thomassen <peter@desec.io> (tentatively)
+    - Requester Email: Shumon Huque <shuque@gmail.com>
     - Time Requested: 20 min
     - DocType: I-D
