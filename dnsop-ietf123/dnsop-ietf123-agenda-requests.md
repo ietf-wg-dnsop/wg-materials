@@ -32,7 +32,7 @@
 
 *   Draft name: Best Practice Recommendations for DS Automation
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-shetho-dnsop-ds-automation/
-    - Requester Email: Peter Thomassen <peter@desec.io
+    - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 20 min
     - DocType: I-D
 
@@ -44,6 +44,6 @@
 
 *   Draft name: Multiple Algorithm Rules in DNSSEC
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
-    - Requester Email: Peter Thomassen <peter@desec.io (tentatively)
+    - Requester Email: Peter Thomassen <peter@desec.io> (tentatively)
     - Time Requested: 20 min
     - DocType: I-D
