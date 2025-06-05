@@ -47,3 +47,9 @@
     - Requester Email: Shumon Huque <shuque@gmail.com>
     - Time Requested: 20 min
     - DocType: I-D
+
+*   Draft name: Standardized Query Name for DNS Resolver Reachability Probes
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-sst-dnsop-probe-name/
+    - Requester Email: Ben Schwartz <bemasc@meta.com>
+    - Time Requested: "few" min
+    - DocType: I-D
