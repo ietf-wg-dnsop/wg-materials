@@ -53,3 +53,9 @@
     - Requester Email: Ben Schwartz <bemasc@meta.com>
     - Time Requested: "few" min
     - DocType: I-D
+
+*   Draft name: Handling Unvalidated Data during DNSSEC Troubleshooting
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhang-dnsop-dnssec-unvalidated-data/
+    - Requester Email: zhangsh <zhangsh22@mails.tsinghua.edu.cn>
+    - Time Requested: 20 min
+    - DocType: I-D
