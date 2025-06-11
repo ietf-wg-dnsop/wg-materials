@@ -59,3 +59,9 @@
     - Requester Email: Shuhan Zhang <zhangsh22@mails.tsinghua.edu.cn>
     - Time Requested: 20 min
     - DocType: I-D
+
+*   Draft name: DNS IPv6 Transport Operational Guidelines
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-3901bis/
+    - Requester Email: Tobias Fiebig <tobias@fiebig.nl>
+    - Time Requested: 30 min (but "make work whatever time still fits into the agenda")
+    - DocType: I-D
