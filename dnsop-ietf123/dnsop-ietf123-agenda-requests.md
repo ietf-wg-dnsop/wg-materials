@@ -65,3 +65,9 @@
     - Requester Email: Tobias Fiebig <tobias@fiebig.nl>
     - Time Requested: 30 min (but "make work whatever time still fits into the agenda")
     - DocType: I-D
+
+*   Draft name: Signalling a Zone Cut to Nowhere in the DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-jabley-dnsop-zone-cut-to-nowhere/
+    - Requester Email: Joe Abley <jabley@strandkip.nl>
+    - Time Requested: 5 min
+    - DocType: I-D
