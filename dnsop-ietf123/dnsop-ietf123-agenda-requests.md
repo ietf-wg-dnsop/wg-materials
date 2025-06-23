@@ -71,3 +71,10 @@
     - Requester Email: Joe Abley <jabley@strandkip.nl>
     - Time Requested: 5 min
     - DocType: I-D
+
+*   Draft name: dry-run DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-yorgos-dnsop-dry-run-dnssec/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 5 min
+    - DocType: I-D
+
