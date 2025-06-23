@@ -84,3 +84,8 @@
     - Time Requested: 10 min
     - DocType: I-D
 
+*   Draft name: DNS Catalog Zone Properties for Zone Transfers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-axu-dnsop-catalog-zone-xfr-properties/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 10 min
+    - DocType: I-D
