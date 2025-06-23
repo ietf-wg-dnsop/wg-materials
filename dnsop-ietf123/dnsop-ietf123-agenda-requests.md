@@ -78,3 +78,9 @@
     - Time Requested: 5 min
     - DocType: I-D
 
+*   Draft name: Synchronizing caches of DNS resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-bortzmeyer-dnsop-poisonlicious/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 10 min
+    - DocType: I-D
+
