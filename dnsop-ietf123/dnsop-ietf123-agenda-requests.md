@@ -71,3 +71,9 @@
     - Requester Email: Joe Abley <jabley@strandkip.nl>
     - Time Requested: 5 min
     - DocType: I-D
+
+*   Draft name: Domain Control Validation using DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Requester Email: Shumon Huque <shuque@gmail.com> (Speaker: Erik Nygren <erik+ietf@nygren.org>)
+    - Time Requested: 15 min
+    - DocType: I-D
