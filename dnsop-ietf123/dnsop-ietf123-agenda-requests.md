@@ -30,7 +30,7 @@
     - Time Requested: 30 min
     - DocType: WG Document
 
-*   Draft name: Best Practice Recommendations for DS Automation
+*   Draft name: Operational Recommendations for DS Automation
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-shetho-dnsop-ds-automation/
     - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 20 min
