@@ -21,7 +21,7 @@
 *   Draft name: Best Practices for Persistent References in DNS
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-sheth-identifiers-dns/
     - Requester Email: Andrew Kaizer <akaizer@verisign.com>
-    - Time Requested: 15 (or 10) min
+    - Time Requested: 15 (or 10) min, preferably Monday
     - DocType: I-D
 
 *   Draft name: Structured Error Data for Filtered DNS
