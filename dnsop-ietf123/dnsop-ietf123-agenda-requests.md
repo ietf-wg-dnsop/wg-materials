@@ -21,7 +21,7 @@
 *   Draft name: Best Practices for Persistent References in DNS
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-sheth-identifiers-dns/
     - Requester Email: Andrew Kaizer <akaizer@verisign.com>
-    - Time Requested: 15 min
+    - Time Requested: 15 (or 10) min, preferably Monday
     - DocType: I-D
 
 *   Draft name: Structured Error Data for Filtered DNS
@@ -30,7 +30,7 @@
     - Time Requested: 30 min
     - DocType: WG Document
 
-*   Draft name: Best Practice Recommendations for DS Automation
+*   Draft name: Operational Recommendations for DS Automation
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-shetho-dnsop-ds-automation/
     - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested: 20 min
@@ -89,3 +89,34 @@
     - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
     - Time Requested: 10 min
     - DocType: I-D
+
+*   Draft name: Domain Control Validation using DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Requester Email: Shumon Huque <shuque@gmail.com> (Speaker: Erik Nygren <erik+ietf@nygren.org>)
+    - Time Requested: 15 min
+    - DocType: I-D
+
+*   Draft name: Announce Existence of Parent CDS/CSYNC Scanner
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-berra-dnsop-announce-scanner/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 5 min
+    - DocType: I-D
+
+*   Draft name: Authoritative DNS Transport Signaling
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-dnsop-transport-signaling/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 15 min
+    - DocType: I-D
+
+*   Draft name: Signaling Zone Owner Intent
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-leon-dnsop-signaling-zone-owner-intent/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested: 3 min
+    - DocType: I-D
+ 
+*   Draft name: The "_for-sale" Underscored and Globally Scoped DNS Node Name
+    - Datatracker URL: https://datatracker.ietf.org/doc/html/draft-davids-forsalereg
+    - Requester Email: Marco Davids <marco.davids@sidn.nl>
+    - Time Requested: 5 min
+    - DocType I-D
+
