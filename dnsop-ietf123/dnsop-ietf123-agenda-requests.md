@@ -72,6 +72,24 @@
     - Time Requested: 5 min
     - DocType: I-D
 
+*   Draft name: dry-run DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-yorgos-dnsop-dry-run-dnssec/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 5 min
+    - DocType: I-D
+
+*   Draft name: Synchronizing caches of DNS resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-bortzmeyer-dnsop-poisonlicious/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 10 min
+    - DocType: I-D
+
+*   Draft name: DNS Catalog Zone Properties for Zone Transfers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-axu-dnsop-catalog-zone-xfr-properties/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested: 10 min
+    - DocType: I-D
+
 *   Draft name: Domain Control Validation using DNS
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
     - Requester Email: Shumon Huque <shuque@gmail.com> (Speaker: Erik Nygren <erik+ietf@nygren.org>)
@@ -101,3 +119,4 @@
     - Requester Email: Marco Davids <marco.davids@sidn.nl>
     - Time Requested: 5 min
     - DocType I-D
+
