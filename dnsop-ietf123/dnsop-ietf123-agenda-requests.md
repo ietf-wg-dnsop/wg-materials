@@ -95,3 +95,9 @@
     - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
     - Time Requested: 3 min
     - DocType: I-D
+ 
+*   Draft name: The "_for-sale" Underscored and Globally Scoped DNS Node Name
+    - Datatracker URL: https://datatracker.ietf.org/doc/html/draft-davids-forsalereg
+    - Requester Email: Marco Davids <marco.davids@sidn.nl>
+    - Time Requested: 5 min
+    - DocType I-D
