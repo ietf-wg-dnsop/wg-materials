@@ -56,9 +56,9 @@
 
 ### Current Working Group Business
 
-*   Structured Error Data for Filtered DNS
-    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/
-    - Dan Wing <>, 20 min
+*   Structured Error Data for Filtered DNS / draft-nottingham-public-resolver-errors
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/ / https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors/
+    - Dan Wing <danwing@gmail.com>, 20 min
     - Chairs Action:
 
 *   DNS IPv6 Transport Operational Guidelines
