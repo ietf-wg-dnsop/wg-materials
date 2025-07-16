@@ -52,13 +52,13 @@
 
 * Opening, Note Well and Chairs Updates, Chairs, 10 min
 
-* Hackathon Results, X minutes
+* Hackathon Results
 
 ### Current Working Group Business
 
 *   Structured Error Data for Filtered DNS / draft-nottingham-public-resolver-errors
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/ / https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors/
-    - Dan Wing <danwing@gmail.com>, 20 min
+    - Dan Wing <danwing@gmail.com> / Mark Nottingham <mnot@mnot.net>, 20 min
     - Chairs Action:
 
 *   DNS IPv6 Transport Operational Guidelines
