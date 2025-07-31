@@ -7,7 +7,7 @@
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
-    - Time Requested:
+    - Time Requested (including Q&A):
     - Chairs Action:
 
 ## Requests
