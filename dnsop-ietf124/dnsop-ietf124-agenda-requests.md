@@ -36,6 +36,18 @@
     - Time Requested (including Q&A):
     - Chairs Action: /DISPATCH/
 
+*   Draft name: draft-hoffman-rfc9364bis
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-rfc9364bis/
+    - Requester Email: Paul Hoffman <paul.hoffman@icann.org>
+    - Time Requested (including Q&A): 5
+    - Chairs Action:
+
+*   Draft name: draft-wkumari-dnsop-localroot-bcp
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-wkumari-dnsop-localroot-bcp/
+    - Requester Email: Jim Reid <jim@rfc1035.com>
+    - Time Requested (including Q&A): 5-10
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
