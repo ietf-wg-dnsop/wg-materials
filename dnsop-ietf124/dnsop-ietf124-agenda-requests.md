@@ -23,3 +23,22 @@
     - Requester Email: Mark Andrews <marka@isc.org>
     - Time Requested (including Q&A): ?
     - Chairs Action:
+
+*   Draft name: draft-davids-forsalereg
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-davids-forsalereg/
+    - Requester Email: Marco Davids <marco.davids@sidn.nl>
+    - Time Requested (including Q&A): 15
+    - Chairs Action: /DISPATCH/
+
+*   Draft name: draft-yao-dbound-identify-dns-boundary
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-yao-dbound-identify-dns-boundary/
+    - Requester Email: Jiankang Yao <yaojk@cnnic.cn>
+    - Time Requested (including Q&A):
+    - Chairs Action: /DISPATCH/
+
+*   Draft name:
+    - Datatracker URL:
+    - Requester Email:
+    - Time Requested (including Q&A):
+    - Chairs Action:
+
