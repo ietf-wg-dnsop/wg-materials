@@ -21,7 +21,7 @@
 *   Draft name: draft-andrews-ds-support-for-private-algorithms
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-andrews-ds-support-for-private-algorithms/
     - Requester Email: Mark Andrews <marka@isc.org>
-    - Time Requested (including Q&A): ?
+    - Time Requested (including Q&A): 10
     - Chairs Action:
 
 *   Draft name: draft-davids-forsalereg
