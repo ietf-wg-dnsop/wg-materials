@@ -48,9 +48,16 @@
     - Time Requested (including Q&A): 5-10
     - Chairs Action:
 
+*   Draft name: draft-fobser-dnsop-dnssec-keyrestore
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fobser-dnsop-dnssec-keyrestore/
+    - Requester Email: Florian Obser <florian+ietf@narrans.de>
+    - Time Requested (including Q&A): 5-10
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
     - Time Requested (including Q&A):
     - Chairs Action:
+
 
