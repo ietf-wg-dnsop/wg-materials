@@ -66,6 +66,12 @@
     - Time Requested (including Q&A): 15
     - Chairs Action:
 
+*   Draft name: Domain Control Validation using DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Requester Email: Tim Wicinski <tjw.ietf@gmail.com>
+    - Time Requested (including Q&A): 10-15
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
