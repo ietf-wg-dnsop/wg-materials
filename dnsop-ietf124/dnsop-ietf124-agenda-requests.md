@@ -72,6 +72,12 @@
     - Time Requested (including Q&A): 10'
     - Chairs Action:
 
+*   Draft name: Operational Recommendations for DS Automation
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-ds-automation/
+    - Requester Email: Peter Thomassen <peter@desec.io>
+    - Time Requested (including Q&A): 10'
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
