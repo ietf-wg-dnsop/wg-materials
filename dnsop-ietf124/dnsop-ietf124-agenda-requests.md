@@ -78,6 +78,24 @@
     - Time Requested (including Q&A): 10'
     - Chairs Action:
 
+*   Draft name: draft-berra-dnsop-announce-scanner
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-berra-dnsop-announce-scanner/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested (including Q&A): 15
+    - Chairs Action:
+
+*   Draft name: draft-johani-dnsop-transport-signaling
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-dnsop-transport-signaling/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested (including Q&A): 10-15
+    - Chairs Action:
+
+*   Draft name: draft-johani-dnsop-delegation-mgmt-via-ddns
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested (including Q&A): 7-10
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
