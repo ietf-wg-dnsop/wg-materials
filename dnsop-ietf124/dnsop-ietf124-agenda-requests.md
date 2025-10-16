@@ -60,11 +60,11 @@
     - Time Requested (including Q&A): 5
     - Chairs Action:
 
-*   Draft name: Dispatch: "Standardizing Post-Quantum DNSSEC – Where does this work belong?" [no draft]
-    - Datatracker URL:
+*   Draft name: Post-Quantum Cryptography Strategy for DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-sheth-pqc-dnssec-strategy/
     - Requester Email: Sheth, Swapneel <ssheth@Verisign.com>
     - Time Requested (including Q&A): 15
-    - Chairs Action:
+    - Chairs Action: /DISPATCH/
 
 *   Draft name: Signalling a Zone Cut to Nowhere in the DNS
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-jabley-dnsop-zone-cut-to-nowhere/
