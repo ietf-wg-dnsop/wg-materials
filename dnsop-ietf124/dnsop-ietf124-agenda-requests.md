@@ -96,6 +96,12 @@
     - Time Requested (including Q&A): 7-10
     - Chairs Action:
 
+*   Draft name: Multiple Algorithm Rules in DNSSEC
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
+    - Requester Email: Peter Thomassen <peter@desec.io>
+    - Time Requested (including Q&A): 10
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
