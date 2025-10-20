@@ -102,6 +102,18 @@
     - Time Requested (including Q&A): 10
     - Chairs Action:
 
+*   Draft name: Problems Statement and Requirements Analysis of DNS for Internet of Agents (IoA)
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ye-problems-and-requirements-of-dns-for-ioa/
+    - Requester Email: Jiaming Ye <yejiaming@chinamobile.com>
+    - Time Requested (including Q&A): 10
+    - Chairs Action:
+
+*   Draft name: DNS Protocol Modifications for Extended Delegation Type
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ppr-dd-auth-delegation-types/
+    - Requester Email: Roy Arends <roy.arends@icann.org>
+    - Time Requested (including Q&A): 15
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
