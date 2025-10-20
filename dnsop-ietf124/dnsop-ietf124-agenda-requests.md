@@ -114,6 +114,12 @@
     - Time Requested (including Q&A): 15
     - Chairs Action:
 
+*   Draft name: DNS IPv6 Transport Operational Guidelines
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-3901bis/
+    - Requester Email: Tobias Fiebig <tobias@fiebig.nl>
+    - Time Requested (including Q&A): 20
+    - Chairs Action:
+
 *   Draft name:
     - Datatracker URL:
     - Requester Email:
