@@ -5,8 +5,8 @@
 
 ### Chairs
 
-* Benno Overeinder [benno@nlnetlabs.nl](benno@nlnetlabs.nl)
-* Ondrej Sury [ondrej+dnsop-chairs@sury.org](ondrej+dnsop-chairs@sury.org)
+* Benno Overeinder [benno@nlnetlabs.nl](mailto:benno@nlnetlabs.nl)
+* Ondrej Sury [ondrej+dnsop-chairs@sury.org](mailto:ondrej+dnsop-chairs@sury.org)
 
 ### Secretaries
 
@@ -15,11 +15,11 @@
 
 ### Technical Advisor
 
-* Jim Reid <jim@rfc1035.com>
+* Jim Reid [jim@rfc1035.com](mailto:jim@rfc1035.com)
 
 ### IESG Overlord
 
-* Mohamed Boucadair [mohamed.boucadair@orange.com](mohamed.boucadair@orange.com)
+* Mohamed Boucadair [mohamed.boucadair@orange.com](mailto:mohamed.boucadair@orange.com)
 
 ### Document Status
 
@@ -56,47 +56,47 @@
 
 ### Current Working Group Business
 
-* DNS IPv6 Transport Operational Guidelines
-  - https://datatracker.ietf.org/doc/draft-ietf-dnsop-3901bis/
-  - Tobias Fiebig <tobias@fiebig.nl>, 15min
+*   DNS IPv6 Transport Operational Guidelines
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-3901bis/
+    - Tobias Fiebig <tobias@fiebig.nl>, 15min
 
-* Domain Control Validation using DNS
-  - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
-  - Erik Nygren <erik+ietf@nygren.org>, 15min
+*   Domain Control Validation using DNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
+    - Erik Nygren <erik+ietf@nygren.org>, 15min
 
-* Integration of DNS Domain Names into Application Environments: Motivations and Considerations
-  - https://datatracker.ietf.org/doc/draft-ietf-dnsop-integration/
-  - Andrew Kaizer <akaizer@verisign.com>, 10min
+*   Integration of DNS Domain Names into Application Environments: Motivations and Considerations
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-integration/
+    - Andrew Kaizer <akaizer@verisign.com>, 10min
 
-* Operational Recommendations for DS Automation
-  - https://datatracker.ietf.org/doc/draft-ietf-dnsop-ds-automation/
-  - Peter Thomassen <peter@desec.io>, 10min
+*   Operational Recommendations for DS Automation
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-ds-automation/
+    - Peter Thomassen <peter@desec.io>, 10min
 
 ### For Consideration
 
-* DNS Security Extensions (DNSSEC)
-  - https://datatracker.ietf.org/doc/draft-hoffman-rfc9364bis/
-  - Paul Hoffman <paul.hoffman@icann.org>, 10min
+*   DNS Security Extensions (DNSSEC)
+    - https://datatracker.ietf.org/doc/draft-hoffman-rfc9364bis/
+    - Paul Hoffman <paul.hoffman@icann.org>, 10min
 
-* Multiple Algorithm Rules in DNSSEC
-  - https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
-  - Shumon Huque <shuque@gmail.com>, 10min
+*   Multiple Algorithm Rules in DNSSEC
+    - https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
+    - Shumon Huque <shuque@gmail.com>, 10min
 
-* Making LocalRoot a Best Current Practice
-  - https://datatracker.ietf.org/doc/draft-wkumari-dnsop-localroot-bcp/
-  - Jim Reid <jim@rfc1035.com>, 10min
+*   Making LocalRoot a Best Current Practice
+    - https://datatracker.ietf.org/doc/draft-wkumari-dnsop-localroot-bcp/
+    - Jim Reid <jim@rfc1035.com>, 10min
 
-* Announce Existence of Parent CDS/CSYNC Scanner
-  - https://datatracker.ietf.org/doc/draft-berra-dnsop-announce-scanner/
-  - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10min
+*   Announce Existence of Parent CDS/CSYNC Scanner
+    - https://datatracker.ietf.org/doc/draft-berra-dnsop-announce-scanner/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10min
 
-* Authoritative DNS Transport Signaling
-  - https://datatracker.ietf.org/doc/draft-johani-dnsop-transport-signaling/
-  - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10min
+*   Authoritative DNS Transport Signaling
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-transport-signaling/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10min
 
-* Automating DNS Delegation Management via DDNS
-  - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
-  - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10min
+*   Automating DNS Delegation Management via DDNS
+    - https://datatracker.ietf.org/doc/draft-johani-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 10min
 
 
 ## Session II
@@ -121,42 +121,42 @@
 
 ### For Consideration
 
-* Signalling a Zone Cut to Nowhere in the DNS
-  - https://datatracker.ietf.org/doc/draft-jabley-dnsop-zone-cut-to-nowhere/
-  - Joe Abley <jabley@strandkip.nl>, 10min
+*   Signalling a Zone Cut to Nowhere in the DNS
+    - https://datatracker.ietf.org/doc/draft-jabley-dnsop-zone-cut-to-nowhere/
+    - Joe Abley <jabley@strandkip.nl>, 10min
 
-* DNS Protocol Modifications for Delegation Extensions
-  - https://datatracker.ietf.org/doc/draft-arends-dnsop-delext/
-  - Roy Arends <roy.arends@icann.org>, 15min
+*   DNS Protocol Modifications for Delegation Extensions
+    - https://datatracker.ietf.org/doc/draft-arends-dnsop-delext/
+    - Roy Arends <roy.arends@icann.org>, 15min
 
-* DS support for private DNSSEC algorithms
-  - https://datatracker.ietf.org/doc/draft-andrews-ds-support-for-private-algorithms/
-  - Mark Andrews <marka@isc.org>, 10min
+*   DS support for private DNSSEC algorithms
+    - https://datatracker.ietf.org/doc/draft-andrews-ds-support-for-private-algorithms/
+    - Mark Andrews <marka@isc.org>, 10min
 
-* DNSSEC Key Restore
-  - https://datatracker.ietf.org/doc/draft-fobser-dnsop-dnssec-keyrestore/
-  - Florian Obser <florian+ietf@narrans.de>, 10min
+*   DNSSEC Key Restore
+    - https://datatracker.ietf.org/doc/draft-fobser-dnsop-dnssec-keyrestore/
+    - Florian Obser <florian+ietf@narrans.de>, 10min
 
 ### Liaise?
 
-* The "_for-sale" Underscored and Globally Scoped DNS Node Name
-  - https://datatracker.ietf.org/doc/draft-davids-forsalereg/
-  - Marco Davids <marco.davids@sidn.nl>, 10min
+*   The "_for-sale" Underscored and Globally Scoped DNS Node Name
+    - https://datatracker.ietf.org/doc/draft-davids-forsalereg/
+    - Marco Davids <marco.davids@sidn.nl>, 10min
 
-* A Method for Identifying the Administrative Boundaries of DNS Names
-  - https://datatracker.ietf.org/doc/draft-yao-dbound-identify-dns-boundary/
-  - Jiankang Yao <yaojk@cnnic.cn>, 10min
+*   A Method for Identifying the Administrative Boundaries of DNS Names
+    - https://datatracker.ietf.org/doc/draft-yao-dbound-identify-dns-boundary/
+    - Jiankang Yao <yaojk@cnnic.cn>, 10min
 
-* Post-Quantum Cryptography Strategy for DNSSEC
-  - https://datatracker.ietf.org/doc/draft-sheth-pqc-dnssec-strategy/
-  - Swapneel Sheth <ssheth@Verisign.com>, 10min
+*   Post-Quantum Cryptography Strategy for DNSSEC
+    - https://datatracker.ietf.org/doc/draft-sheth-pqc-dnssec-strategy/
+    - Swapneel Sheth <ssheth@Verisign.com>, 10min
 
 ### Time Permitting
 
-* Considerations for Protective DNS Server Operators
-  - https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
-  - Mingxuan Liu <liumx@mail.zgclab.edu.cn>, 5min
+*   Considerations for Protective DNS Server Operators
+    - https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
+    - Mingxuan Liu <liumx@mail.zgclab.edu.cn>, 5min
 
-* Problems Statement and Requirements Analysis of DNS for Internet of Agents (IoA)
-  - https://datatracker.ietf.org/doc/draft-ye-problems-and-requirements-of-dns-for-ioa/
-  - Jiaming Ye <yejiaming@chinamobile.com>, 10min
+*   Problems Statement and Requirements Analysis of DNS for Internet of Agents (IoA)
+    - https://datatracker.ietf.org/doc/draft-ye-problems-and-requirements-of-dns-for-ioa/
+    - Jiaming Ye <yejiaming@chinamobile.com>, 10min
