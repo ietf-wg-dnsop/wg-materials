@@ -108,8 +108,8 @@
     - Time Requested (including Q&A): 10
     - Chairs Action:
 
-*   Draft name: DNS Protocol Modifications for Extended Delegation Type
-    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ppr-dd-auth-delegation-types/
+*   Draft name: DNS Protocol Modifications for Delegation Extensions
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-arends-dnsop-delext/
     - Requester Email: Roy Arends <roy.arends@icann.org>
     - Time Requested (including Q&A): 15
     - Chairs Action:
