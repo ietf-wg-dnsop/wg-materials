@@ -58,7 +58,7 @@
 
 *   DNS IPv6 Transport Operational Guidelines
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-3901bis/
-    - Tobias Fiebig <tobias@fiebig.nl>, 15min
+    - Tobias Fiebig <tobias@fiebig.nl> and Momoka Yamamoto <momoka.my6@gmail.com>, 15min
 
 *   Domain Control Validation using DNS
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-domain-verification-techniques/
