@@ -78,9 +78,9 @@
     - https://datatracker.ietf.org/doc/draft-hoffman-rfc9364bis/
     - Paul Hoffman <paul.hoffman@icann.org>, 10min
 
-*   Multiple Algorithm Rules in DNSSEC
-    - https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
-    - Shumon Huque <shuque@gmail.com>, 10min
+*   Documenting and Managing DNSSEC Algorithm Lifecycles
+    - https://datatracker.ietf.org/doc/draft-crocker-dnsop-dnssec-algorithm-lifecycle/
+    - Steve Crocker <steve@shinkuro.com>, 10min
 
 *   Making LocalRoot a Best Current Practice
     - https://datatracker.ietf.org/doc/draft-wkumari-dnsop-localroot-bcp/
@@ -128,6 +128,10 @@
 *   DNS Protocol Modifications for Delegation Extensions
     - https://datatracker.ietf.org/doc/draft-arends-dnsop-delext/
     - Roy Arends <roy.arends@icann.org>, 15min
+
+*   Multiple Algorithm Rules in DNSSEC
+    - https://datatracker.ietf.org/doc/draft-huque-dnsop-multi-alg-rules/
+    - Duane Wessels <dwessels@verisign.com>, 10min
 
 *   DS support for private DNSSEC algorithms
     - https://datatracker.ietf.org/doc/draft-andrews-ds-support-for-private-algorithms/
