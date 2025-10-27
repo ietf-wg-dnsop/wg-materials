@@ -11,13 +11,13 @@
 ### Secretaries
 
 * Peter Thomassen <peter@desec.io>
-* Shuman Huque <shuque@gmail.com>
+* Shumon Huque <shuque@gmail.com>
 
 ### Technical Advisor
 
 * Jim Reid [jim@rfc1035.com](mailto:jim@rfc1035.com)
 
-### IESG Overlord
+### Responsible Area Director
 
 * Mohamed Boucadair [mohamed.boucadair@orange.com](mailto:mohamed.boucadair@orange.com)
 
