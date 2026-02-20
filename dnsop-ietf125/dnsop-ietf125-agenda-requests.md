@@ -11,3 +11,9 @@
     - Chairs Action:
 
 ## Requests
+
+*   Draft name: draft-ferro-dnsop-apertodns-protocol-02
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ferro-dnsop-apertodns-protocol/
+    - Requester Email: Andrea Ferro <irn@irn3.com>
+    - Time Requested (including Q&A):
+    - Chairs Action:
