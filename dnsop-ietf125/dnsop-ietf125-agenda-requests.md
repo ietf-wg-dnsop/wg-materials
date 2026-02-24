@@ -17,3 +17,11 @@
     - Requester Email: Andrea Ferro <irn@irn3.com>
     - Time Requested (including Q&A):
     - Chairs Action:
+
+
+*   Draft name: draft-liu-dnsop-protective-dns-02
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
+    - Requester Email: Mingxuan Liu <liumx@mail.zgclab.edu.cn>
+    - Time Requested (including Q&A): 10
+    - Chairs Action:
+
