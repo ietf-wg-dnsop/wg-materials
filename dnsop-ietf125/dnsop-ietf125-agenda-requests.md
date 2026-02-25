@@ -41,3 +41,11 @@
     - Requester Email:  Johan Stenstam <johan.stenstam@internetstiftelsen.se>
     - Time Requested (including Q&A): 10-15'
     - Chairs Action:
+
+
+*   Draft name: draft-liu-dnsop-protective-dns-02
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
+    - Requester Email: Mingxuan Liu <liumx@mail.zgclab.edu.cn>
+    - Time Requested (including Q&A): 10
+    - Chairs Action:
+
