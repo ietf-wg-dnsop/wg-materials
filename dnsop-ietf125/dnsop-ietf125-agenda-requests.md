@@ -49,3 +49,8 @@
     - Time Requested (including Q&A): 10
     - Chairs Action:
 
+*   Draft name: draft-nottingham-dnsop-censorship-transparency
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency
+    - Requester Email: Mark Nottingham <mnot@mnot.net>
+    - Time Requested (including Q&A): 15
+    - Chairs Action: CfA?
