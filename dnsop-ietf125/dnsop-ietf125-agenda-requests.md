@@ -54,3 +54,10 @@
     - Requester Email: Mark Nottingham <mnot@mnot.net>
     - Time Requested (including Q&A): 15
     - Chairs Action: CfA?
+
+## Non-draft Requests
+
+*   Title: Bitsquatting root-servers.net
+    - Requester Email: Peter Thomassen <peter@desec.io>
+    - Time Requested (including Q&A): 10-20
+
