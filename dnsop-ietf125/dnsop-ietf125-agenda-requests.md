@@ -24,11 +24,11 @@
     - Time Requested (including Q&A): 20'?
     - Chairs Action:
 
-*   Draft name: LocalRoot
-    - Datatracker URL: 
+*   Draft name: draft-hoffman-rootcache
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hoffman-rootcache/
     - Requester Email: Paul Hoffman <paul.hoffman@icann.org>
-    - Time Requested (including Q&A): 5'?
-    - Chairs Action:
+    - Time Requested (including Q&A): 10-15
+    - Chairs Action: 
 
 *   Draft name:  draft-zhu-dnsop-de-eeas-01
     - Datatracker URL:  https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
@@ -42,7 +42,6 @@
     - Time Requested (including Q&A): 10-15'
     - Chairs Action:
 
-
 *   Draft name: draft-liu-dnsop-protective-dns-02
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
     - Requester Email: Mingxuan Liu <liumx@mail.zgclab.edu.cn>
@@ -55,9 +54,9 @@
     - Time Requested (including Q&A): 15
     - Chairs Action: CfA?
 
+
 ## Non-draft Requests
 
 *   Title: Bitsquatting root-servers.net
     - Requester Email: Peter Thomassen <peter@desec.io>
     - Time Requested (including Q&A): 10-20
-
