@@ -34,8 +34,89 @@
 
 ## Session I
 
-...
+* Date: Monday, March 16, 2026
+* Time: 11:30-12:30 CST
+* Room: Grand Ballroom 2
+
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf125/?session=35160)
+* [Onsite Tool](https://meetings.conf.meetecho.com/onsite125/?session=35160)
+
+* [Minutes](https://notes.ietf.org/notes-ietf-125-dnsop)
+* [Zulip chat](https://zulip.ietf.org/#narrow/stream/dnsop)
+* [Upload Slides](https://datatracker.ietf.org/meeting/125/session/35160/slides)
+
+
+## Agenda
+
+### Administrivia
+
+* Opening, Note Well and Chairs Updates, Chairs, 10 min
+
+
+### Current Working Group Business
+
+*   Automating DNS Delegation Management via DDNS
+    - https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-mgmt-via-ddns/
+    - Johan Stenstam <johan.stenstam@internetstiftelsen.se>, 15 min
+    - Chairs Action:
+
+
+### For Consideration
+
+*   DNS Filtering Transparency
+    - https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency
+    - Mark Nottingham <mnot@mnot.net>, 15 min
+    - Chairs Action: CfA?
+
+*   Considerations for Protective DNS Server Operators
+    - https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
+    - Mingxuan Liu <liumx@mail.zgclab.edu.cn>, 10 min
+    - Chairs Action:
+
 
 ## Session II
 
-...
+* Date: Thursday, March 19, 2026
+* Time: 16:30-18:00 CST
+* Room: Grand Ballroom 2
+
+* [MeetEcho](https://meetings.conf.meetecho.com/ietf125/?session=35159)
+* [Onsite Tool](https://meetings.conf.meetecho.com/onsite125/?session=35159)
+
+* [Minutes](https://notes.ietf.org/notes-ietf-125-dnsop)
+* [Zulip chat](https://zulip.ietf.org/#narrow/stream/dnsop)
+* [Upload Slides](https://datatracker.ietf.org/meeting/125/session/35159/slides)
+
+
+## Agenda
+
+### Administrivia
+
+* Opening, Note Well and Blue Sheets, Chairs, 5 min
+
+### For Consideration
+
+*   Draft name: LocalRoot (draft-wkumari-dnsop-localroot-bcp / draft-hardaker-dnsop-root-zone-publication-points / draft-hardaker-dnsop-dns-xfr-scheme / draft-hardaker-dnsop-root-zone-pub-list-guidelines)
+    - Datatracker URL: 
+    - Wes Hardaker <wjhns1@hardakers.net>, 20 min
+    - Chairs Action:
+
+*   RootCache: Filling Resolver Caches with Root Zone Records
+    - https://datatracker.ietf.org/doc/draft-hoffman-rootcache/
+    - Paul Hoffman <paul.hoffman@icann.org>, 15 min
+    - Chairs Action: 
+
+*   ApertoDNS Protocol: A Modern Dynamic DNS Update Protocol
+    - https://datatracker.ietf.org/doc/draft-ferro-dnsop-apertodns-protocol/
+    - Andrea Ferro <irn@irn3.com>, 10 min
+    - Chairs Action:
+
+### Time Permitting
+
+*   DNS Extensions to Energy Efficiency as Service (EEAS)
+    - https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
+    - zhuhh11@chinatelecom.cn, 10 min
+    - Chairs Action:
+
+*   Title: Bitsquatting root-servers.net
+    - Peter Thomassen <peter@desec.io>, 10 min
