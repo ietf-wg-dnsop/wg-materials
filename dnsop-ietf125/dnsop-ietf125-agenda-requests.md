@@ -65,6 +65,10 @@
     - Requester Email:  Roland.Schott@telekom.de
     - Time Requested (including Q&A): 10 minutes
 
+*   Draft name:  draft-fujiwara-dnsop-ranking-data
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-ranking-data/
+    - Requester Email:  willem@nlnetlabs.nl
+    - Time Requested (including Q&A): 10 minutes
 
 ## Non-draft Requests
 
