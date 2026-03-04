@@ -54,6 +54,17 @@
     - Time Requested (including Q&A): 15
     - Chairs Action: CfA?
 
+*   Draft name: draft-avoid-large-wildcard-records-00
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-avoid-large-wildcard-records/
+    - Requester Email: Bashan Zuo (on behalf of Peng Zuo)   bashanzuo@gmail.com
+    - Time Requested (including Q&A): 5-10
+    - Chairs Action:
+    
+*   Draft name:  draft-mozleywilliams-dnsop-dnsaid
+    - Datatracker URL:  https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/
+    - Requester Email:  Roland.Schott@telekom.de
+    - Time Requested (including Q&A): 10 minutes
+
 
 ## Non-draft Requests
 

@@ -96,8 +96,8 @@
 
 ### For Consideration
 
-*   Draft name: LocalRoot (draft-wkumari-dnsop-localroot-bcp / draft-hardaker-dnsop-root-zone-publication-points / draft-hardaker-dnsop-dns-xfr-scheme / draft-hardaker-dnsop-root-zone-pub-list-guidelines)
-    - Datatracker URL: 
+*   Local Root drafts
+    - draft-wkumari-dnsop-localroot-bcp / draft-hardaker-dnsop-root-zone-publication-points / draft-hardaker-dnsop-dns-xfr-scheme / draft-hardaker-dnsop-root-zone-pub-list-guidelines
     - Wes Hardaker <wjhns1@hardakers.net>, 20 min
     - Chairs Action:
 
@@ -106,12 +106,24 @@
     - Paul Hoffman <paul.hoffman@icann.org>, 15 min
     - Chairs Action: 
 
+### DNS DISPATCH
+
 *   ApertoDNS Protocol: A Modern Dynamic DNS Update Protocol
     - https://datatracker.ietf.org/doc/draft-ferro-dnsop-apertodns-protocol/
     - Andrea Ferro <irn@irn3.com>, 10 min
     - Chairs Action:
 
+*   Draft name:  DNS for AI Discovery
+    - https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/
+    - Roland Schott <Roland.Schott@telekom.de>, 10 min
+    - Chairs Action:
+
 ### Time Permitting
+
+*   Avoid Large Records with a Wildcard Owner Name
+    - https://datatracker.ietf.org/doc/draft-avoid-large-wildcard-records/
+    - Peng Zuo, 10 min
+    - Chairs Action:
 
 *   DNS Extensions to Energy Efficiency as Service (EEAS)
     - https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
