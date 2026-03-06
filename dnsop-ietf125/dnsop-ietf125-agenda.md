@@ -5,8 +5,8 @@
 
 ### Chairs
 
-* Benno Overeinder [benno@nlnetlabs.nl](mailto:benno@nlnetlabs.nl)
-* Ondrej Sury [ondrej+dnsop-chairs@sury.org](mailto:ondrej+dnsop-chairs@sury.org)
+* Benno Overeinder <benno@nlnetlabs.nl>
+* Ondrej Sury <ondrej+dnsop-chairs@sury.org>
 
 ### Secretaries
 
@@ -15,11 +15,11 @@
 
 ### Technical Advisor
 
-* Jim Reid [jim@rfc1035.com](mailto:jim@rfc1035.com)
+* Jim Reid <jim@rfc1035.com>
 
 ### Responsible Area Director
 
-* Mohamed Boucadair [mohamed.boucadair@orange.com](mailto:mohamed.boucadair@orange.com)
+* Mohamed Boucadair <mohamed.boucadair@orange.com>
 
 ### Document Status
 
@@ -63,14 +63,21 @@
 
 ### For Consideration
 
-*   DNS Filtering Transparency
-    - https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency
-    - Mark Nottingham <mnot@mnot.net>, 15 min
-    - Chairs Action: CfA?
+*   Clarifications to the DNS Ranking Data
+    - https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-ranking-data/
+    - Willem Toorop <willem@nlnetlabs.nl>, 10 min
+    - Chairs Action:
 
 *   Considerations for Protective DNS Server Operators
     - https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
     - Mingxuan Liu <liumx@mail.zgclab.edu.cn>, 10 min
+    - Chairs Action:
+
+### Time Permitting
+
+*   Avoid Large Records with a Wildcard Owner Name
+    - https://datatracker.ietf.org/doc/draft-avoid-large-wildcard-records/
+    - Peng Zuo, 10 min
     - Chairs Action:
 
 
@@ -96,15 +103,20 @@
 
 ### For Consideration
 
-*   Local Root drafts
-    - draft-wkumari-dnsop-localroot-bcp / draft-hardaker-dnsop-root-zone-publication-points / draft-hardaker-dnsop-dns-xfr-scheme / draft-hardaker-dnsop-root-zone-pub-list-guidelines
-    - Wes Hardaker <wjhns1@hardakers.net>, 20 min
-    - Chairs Action:
+*   DNS Filtering Transparency
+    - https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency
+    - Mark Nottingham <mnot@mnot.net>, 15 min
+    - Chairs Action: CfA?
 
 *   RootCache: Filling Resolver Caches with Root Zone Records
     - https://datatracker.ietf.org/doc/draft-hoffman-rootcache/
     - Paul Hoffman <paul.hoffman@icann.org>, 15 min
     - Chairs Action: 
+
+*   Local Root drafts
+    - draft-wkumari-dnsop-localroot-bcp / draft-hardaker-dnsop-root-zone-publication-points / draft-hardaker-dnsop-dns-xfr-scheme / draft-hardaker-dnsop-root-zone-pub-list-guidelines
+    - Wes Hardaker <wjhns1@hardakers.net>, 20 min
+    - Chairs Action:
 
 ### DNS DISPATCH
 
@@ -119,11 +131,6 @@
     - Chairs Action:
 
 ### Time Permitting
-
-*   Avoid Large Records with a Wildcard Owner Name
-    - https://datatracker.ietf.org/doc/draft-avoid-large-wildcard-records/
-    - Peng Zuo, 10 min
-    - Chairs Action:
 
 *   DNS Extensions to Energy Efficiency as Service (EEAS)
     - https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
