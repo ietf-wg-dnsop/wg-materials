@@ -103,11 +103,6 @@
 
 ### For Consideration
 
-*   DNS Filtering Transparency
-    - https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency
-    - Mark Nottingham <mnot@mnot.net>, 15 min
-    - Chairs Action: CfA?
-
 *   RootCache: Filling Resolver Caches with Root Zone Records
     - https://datatracker.ietf.org/doc/draft-hoffman-rootcache/
     - Paul Hoffman <paul.hoffman@icann.org>, 15 min
@@ -116,6 +111,16 @@
 *   Local Root drafts
     - draft-wkumari-dnsop-localroot-bcp / draft-hardaker-dnsop-root-zone-publication-points / draft-hardaker-dnsop-dns-xfr-scheme / draft-hardaker-dnsop-root-zone-pub-list-guidelines
     - Wes Hardaker <wjhns1@hardakers.net>, 20 min
+    - Chairs Action:
+
+*   DNS Filtering Transparency
+    - https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency
+    - Mark Nottingham <mnot@mnot.net>, 15 min
+    - Chairs Action: CfA?
+
+*   Ordering of RRSets in DNS Message Sections 
+    - https://datatracker.ietf.org/doc/draft-jabley-dnsop-ordered-answer-section/
+    - Joe Abley <jabley@cloudflare.com>, 10 min
     - Chairs Action:
 
 ### DNS DISPATCH
