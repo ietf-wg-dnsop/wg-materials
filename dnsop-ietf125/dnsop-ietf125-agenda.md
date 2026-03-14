@@ -141,6 +141,3 @@
     - https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
     - zhuhh11@chinatelecom.cn, 10 min
     - Chairs Action:
-
-*   Title: Bitsquatting root-servers.net
-    - Peter Thomassen <peter@desec.io>, 10 min
