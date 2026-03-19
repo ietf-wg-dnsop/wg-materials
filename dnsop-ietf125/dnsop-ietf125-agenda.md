@@ -77,7 +77,7 @@
 
 *   Avoid Large Records with a Wildcard Owner Name
     - https://datatracker.ietf.org/doc/draft-avoid-large-wildcard-records/
-    - Peng Zuo, 10 min
+    - Peng Zuo (presenter Bashan Zuo), 10 min
     - Chairs Action:
 
 
@@ -127,12 +127,12 @@
 
 *   ApertoDNS Protocol: A Modern Dynamic DNS Update Protocol
     - https://datatracker.ietf.org/doc/draft-ferro-dnsop-apertodns-protocol/
-    - Andrea Ferro <irn@irn3.com>, 10 min
+    - Andrea Ferro <irn@irn3.com> (presenter Joe Abley), 10 min
     - Chairs Action:
 
 *   Draft name:  DNS for AI Discovery
     - https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/
-    - Roland Schott <Roland.Schott@telekom.de>, 10 min
+    - Roland Schott <Roland.Schott@telekom.de> (presenter Nic Williams), 10 min
     - Chairs Action:
 
 ### Time Permitting
