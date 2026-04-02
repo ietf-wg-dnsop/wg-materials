@@ -1,0 +1,204 @@
+DNSOP WG
+Shenzhen, China
+Session 1
+Date: Monday, March 15, 2026
+Time: 1130-1230 local
+100ish participants in Meetecho
+Chairs: Benno Overeinder, Ondřej Surý
+
+Only discussion during the mic line are covered here, not the slides
+You should definitely read the slides
+Minutes by Paul Hoffman
+
+Administrivia, Chairs
+	Opening, Note Well, Review of current WG documents	
+	
+Automating DNS Delegation Management via DDNS, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-mgmt-via-ddns/
+	Peter Thomassen: Parent is usually signed, but this is supposed to work with unsigned
+		Johan: parent can poke from vantage points or can use a subdomain
+		Peter: there should be description in one place for this
+
+Clarifications to the DNS Ranking Data, Willem Toorop
+	https://datatracker.ietf.org/doc/draft-fujiwara-dnsop-ranking-data/
+	Jim Reid: Great work, thanks for getting it started
+		Needs stronger guidelines for recursive resolvers
+	Ondřej Surý: This is useful.
+		Should DELEG be included as well?
+		Willem: Yes, could be included as well.
+	Ralf Weber: Supports this.
+		Has a problem with the MUST for Additional Section returns from resolvers.
+	Jim: Get this document out the door and not wait for DELEG.
+		Can update later for DELEG.
+
+Considerations for Protective DNS Server Operators, Mingxuan Liu
+	https://datatracker.ietf.org/doc/draft-liu-dnsop-protective-dns/
+	Ondřej: Up to the WG to adopt, but not a good document to become an RFC.
+		DNS landscape changes often
+		Better for DNS-OARC Best Practices work
+		Mingxuan: There are operators who need information on how to start
+	Stéphane Bortzmeyer: Agrees that this not good for DNSOP
+		Can be used for lots of uses
+		Tone of the draft seems like an endorsement
+		Could be limited to technical aspects
+	Ben Schwartz: Don't think this should move forward
+		Unlikely to get IETF consensus for this
+		This conflicts with existing DNS specs (extended DNS errors, DNSSEC, ...)
+		Are other venues, not the IETF is that
+	Vittorio Bertolia: Thank for the document, but not fit for standards track
+		Maybe informational document, will help
+	Gianpaolo Scalone: Needs more specificity on some points
+
+Avoid Large Records with a Wildcard Owner Name, Bashon Zuo
+	https://datatracker.ietf.org/doc/draft-avoid-large-wildcard-records/
+	Ondřej: Is this idea worth an RFC?
+	Warren Kumari: This is DNSOP operations, we should be able to do 1 page RFCs.
+	Johan: There should be a mechanism to do things fast.
+	Warren: It's a failure if people go to other venues.
+	Benno Overeinder: We can start trying to do short drafts.
+	Ondřej: That takes activity from the WG.
+	
+	
+Session 2
+Date: Thursday, March 19, 2026
+Time: 1630-1800 local
+70ish participants in Meetecho
+
+Only discussion during the mic line are covered here, not the slides
+You should definitely read the slides
+Minutes by Paul Hoffman
+
+Hackathon report
+
+RootCache: Filling Resolver Caches with Root Zone Records, Paul Hoffman
+	https://datatracker.ietf.org/doc/draft-hoffman-rootcache/
+Local Root drafts, Wes Hardaker
+	https://datatracker.ietf.org/doc/draft-wkumari-dnsop-localroot-bcp/ &&
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-root-zone-publication-points/ && 
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-dns-xfr-scheme/ &&
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-root-zone-pub-list-guidelines/
+	Joe Abley: Neither proposal does any harm; is fine
+		Would like to see a problem statement
+		Doesn't think the privacy or failure argument is very strong
+		Why should we put a lot of effort into this?
+		Wes: That's fair
+			RSS has never gone down, but your access to it has gone down at times
+	Duane Wessels: Doesn't object to the proposals, but objects to making it the default or much more popular
+		Could lead to preventing evolution (ossification) of the root zone
+		Think about how you could change the root zone today if LocalRoot had already been deployed in the past
+		DELEG, for example
+		This is a one-way street, so think about how you could back out
+		Paul: If someone is running 8806 or LocalRoot, that has to act as a DELEG-aware authoritative as well
+			I hear the ossification argument
+	Ralf: There are already implementations of this that have been running fine
+		Talking to root server operators, maybe we have not thought enough about this
+		We should make this WG documents and try to work through them together
+	Ted Hardie: We have been doing this in the world for a long time (over 25 years)
+		Useful to tell people doing this how to do it as safely as possible to avoid pitfalls
+		Finds the ossification interesting, thinks that RootCache has better properties for this than LocalRoot
+		It's not asking you to behave as a root server, it is asking you to behave as if you know something you already know
+		That's entirely sensible
+	Peter: The ossification issue is already seen in the discussion of ETags and Expire headers
+		What happens in the future if we want to talk to the root servers with a special EDNS0 flag or something?
+		Won't work through some CDN
+		Doesn't see how this can be considered less dependencies
+		Root server operators are not concerned about traffic
+		Wants to see a problem statement
+		Wes: No one has said that this is all traffic problems
+	Jim: Wants to see the use cases and problem statement worked on quickly
+		Doesn't think it is a good idea to do both RootCache and LocalRoot
+	Mark Nottingham: (Imitates Microsoft Clippy)
+		Consider getting an early review from the HTTP Directorate
+		It may seem like that it's obvious, but there are a lot of nuances
+		We can help you make it better
+	Ray Bellis: Is a root server operator
+		Has seen comments in the chat the the current root server system is unsustainable
+		Would like to hear on what basis they say that
+		As an RSO, they think it is completely sustainable
+		Other than B-root, none of the RSO have brought this up
+		Wes: Hasn't said that the RSS is unsustainable
+		Paul: Others have said let's have a problem statement, this could be part of that or not
+		Ray: 7706 and 8806 were too prescriptive on how the mechanism works
+			Should not be default behavior
+	Petr Špaček: Wants to point out that URL definitions are unrelated to the specification
+		Single out and work on separately, maybe useful on its own
+	Viktor Dukhovni: Might not find any post-quantum algorithms for DNSSEC that work with traditional signing approaches
+		Might have to go to Merkle tree signing, which might affect how the root is signed or delivered
+		This affects ossification question
+		Doesn't see how DELEG would cause ossification
+		Wes: If there was an alternate signing mechanism, you might not need the signatures
+			Viktor: You would need them to serve the zone to validating clients due to recycling, maybe multiple signers
+				TBD
+	Robert Carolina: Agrees that we need a problem statement
+		Solution looking for a problem
+		No difficulty with resolvers having multiple options for how they obtain root zone data
+		Doesn't like "SHOULD" do it this way
+		Those who are saying that this is some kind of solution to geopolitical stress: this is rather naive
+			Questions whether this is the right forum to solve that problem
+			More importantly, this doesn't solve that problem
+	Chairs: We need volunteers for problem statement document
+		Maybe could be the set of authors, or anyone else
+
+DNS Filtering Transparency, Mark Nottingham
+	https://datatracker.ietf.org/doc/draft-nottingham-dnsop-censorship-transparency/
+	Florian Obser: What if the filtering data gets filtered?
+	Paul: It's not just public resolvers
+	Vittorio Bertola: Supports
+		Make as broad as possible to handle as many use cases
+	Ralf: Supports
+		Likes the way the indirection to databases
+		Would like more use cases
+	Robert Carolina: Mapping social problem on technical solution gets cloudy
+		Compare to 451 return code in HTTP for sites that are instead using it for human rights abuses
+	Gianpaolo Scalone: The trust dependency is essential
+		First draft was going in the wrong direction, happier with the current direction
+		Examples in Italy where the citizens are not aware of how they are being blocked
+		Use for protest
+		Supports adoption of the idea if it is open to ISPs
+
+Ordering of RRSets in DNS Message Sections, Joe Abley
+	https://datatracker.ietf.org/doc/draft-jabley-dnsop-ordered-answer-section/
+	Stuart Chesire: Understands the motivation
+		Don't send the message that clients should not be updated
+		Encourage fixing, not just future
+	Ondřej: BIND made a change for uppercase/lowercase that didn't cause a new RFC
+		Maybe don't write an RFC for this, write a new 1034/1035
+		Joe: Shame that we have to write this document
+			Cost is low, benefit is non-zero
+
+DNS DISPATCH
+	Benno: Now official part of DNSOP
+		Determine where this work should go
+
+ApertoDNS Protocol: A Modern Dynamic DNS Update Protocol, Joe Abley
+	https://datatracker.ietf.org/doc/draft-ferro-dnsop-apertodns-protocol/
+	Stuart: Old curmudgeon
+		DNS has a protocol for doing updates
+		Apple implemented in MacOS 10.4
+		DNS community supported
+		LEASE option, garbage collection, supports authorization
+		This has already been done
+	Mark Andrews: Apple used an _underscore name for this
+		Doesn't see a reason to do it over HTTP, but if we do, it should use the DNS wire format
+	Ralf: Not in DNSOP, should be in DNS Applications
+	Ted: There are lots of variants of the Dyn 
+		Only do this if the people doing variants will actually update
+		No evidence that the variants would adopt it
+		Focused BoF in Vienna
+	Peter: Not for DNSOP
+		Application-layer thing
+		Maybe standardize Dyn protocol for interoperability
+		Not need a new protocol, maybe simple extensions
+
+Draft name: DNS for AI Discovery, Nic Williams
+	https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/
+	Di Ma: DNS service discovery has been around a long time
+		AI is just a type of service
+	Paul: Should be new BoF/WG
+	Nan Geng: What is the relationship to a centralized registry?
+		Nic: Help discovery for local sovereignty, avoid centralization
+	Linjian Song: What are the real problem spaces
+		We don't use DNS to find somebody
+	Jim: Talk to ADs
+		Don't abuse TXT records
+	Ralf: Not DNSOP
