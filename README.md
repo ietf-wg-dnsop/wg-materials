@@ -2,12 +2,9 @@
 
 https://datatracker.ietf.org/wg/dnsop/about/
 
-Chairs:
-  - Benno Overeinder
-  - Tim Wicinski
-  - Suzanne Woolf
-
-Area Director: Warren Kumari
+* Chairs: Benno Overeinder & Ondřej Surý
+* Secretaries:	Peter Thomassen & Shumon Huque
+* Area Director: Mohamed Boucadair
 
 Mailing List: http://www.ietf.org/mailman/listinfo/dnsop
 
