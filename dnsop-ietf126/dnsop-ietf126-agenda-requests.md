@@ -44,8 +44,8 @@
     - Time Requested (including Q&A): 15 min
     - Chairs Action:
 
-*   Draft name:
-    - Datatracker URL:
-    - Requester Email:
-    - Time Requested (including Q&A):
+*   Draft name: Signalling a Zone Cut to Nowhere in the DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-jabley-dnsop-zone-cut-to-nowhere/
+    - Requester Email: Joe Abley <jabley@strandkip.nl>
+    - Time Requested (including Q&A): 15 min
     - Chairs Action:
