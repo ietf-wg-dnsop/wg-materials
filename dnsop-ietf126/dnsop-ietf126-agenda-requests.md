@@ -49,3 +49,9 @@
     - Requester Email: Joe Abley <jabley@strandkip.nl>
     - Time Requested (including Q&A): 15 min
     - Chairs Action:
+
+*   Draft name: DNS Root Server System Usage Considerations
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-hardaker-dnsop-rss-usage-considerations/
+    - Requester Email: Wes Hardaker <wjhns1@hardakers.net>
+    - Time Requested (including Q&A): 10-15 min
+    - Chairs Action:
