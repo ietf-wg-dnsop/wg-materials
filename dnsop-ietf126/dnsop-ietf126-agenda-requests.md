@@ -61,3 +61,9 @@
     - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
     - Time Requested (including Q&A): 10-15 min
     - Chairs Action:
+
+*   Draft name: Add TTLs to DNS errors
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-dnsop-dettl/
+    - Requester Email: Philip Homburg <pch-dnsop-7@u-1.phicoh.com>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
