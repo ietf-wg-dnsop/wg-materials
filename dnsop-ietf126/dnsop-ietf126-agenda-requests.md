@@ -55,3 +55,9 @@
     - Requester Email: Wes Hardaker <wjhns1@hardakers.net>
     - Time Requested (including Q&A): 10-15 min
     - Chairs Action:
+
+*   Draft name: DNS Catalog Zone Properties for Zone Transfers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-axu-dnsop-catalog-zone-xfr-properties/
+    - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
+    - Time Requested (including Q&A): 10-15 min
+    - Chairs Action:
