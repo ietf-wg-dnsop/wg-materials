@@ -61,3 +61,9 @@
     - Requester Email: Willem Toorop <willem@nlnetlabs.nl>
     - Time Requested (including Q&A): 10-15 min
     - Chairs Action:
+
+*   Draft name: DNSSEC Key Restore
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-keyrestore/
+    - Requester Email: Florian Obser <florian+ietf@narrans.de>
+    - Time Requested (including Q&A): 10-15 min
+    - Chairs Action:
