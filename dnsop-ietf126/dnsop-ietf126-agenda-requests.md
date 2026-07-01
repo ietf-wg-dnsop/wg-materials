@@ -67,3 +67,9 @@
     - Requester Email: Philip Homburg <pch-dnsop-7@u-1.phicoh.com>
     - Time Requested (including Q&A): 10 min
     - Chairs Action:
+ 
+*   Draft name: Parent-Centric Delegation Handling in DNS Resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-sury-dnsop-parent-centric-resolver/
+    - Requester Email: Ondřej Surý <ondrej@isc.org>
+    - Time Requested (including Q&A): 10-15 min
+    - Chairs Action:
