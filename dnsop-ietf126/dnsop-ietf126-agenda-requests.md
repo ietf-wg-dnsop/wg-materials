@@ -103,3 +103,9 @@
     - Requester Email: Kaizer, Andrew <akaizer@verisign.com>
     - Time Requested (including Q&A): 10 min
     - Chairs Action: 
+
+*   Draft name: DNS Work Amplification: Problem Statement, Terminology, and Taxonomy
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-duan-dnsop-work-amplification/
+    - Requester Email: Xu Liwen <liwen.xu@inf.ethz.ch>
+    - Time Requested (including Q&A): 15 min
+    - Chairs Action: 
