@@ -97,3 +97,9 @@
     - Requester Email: Joe Abley <jabley@strandkip.nl>
     - Time Requested (including Q&A): 10 min
     - Chairs Action:
+
+*   Draft name: PQC DNSSEC MTL updates
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fregly-dnsop-slh-dsa-mtl-dnssec/ ?
+    - Requester Email: Kaizer, Andrew <akaizer@verisign.com>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action: 
