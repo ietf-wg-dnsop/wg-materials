@@ -68,6 +68,11 @@
     - Time Requested (including Q&A): 10-15 min
     - Chairs Action:
 
+*   Draft name: DNSSEC Key Restore
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-keyrestore/
+    - Requester Email: Florian Obser <florian+ietf@narrans.de>
+    - Time Requested (including Q&A): 10-15 min
+    - Chairs Action:
 *   Draft name: Add TTLs to DNS errors
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-dnsop-dettl/
     - Requester Email: Philip Homburg <pch-dnsop-7@u-1.phicoh.com>
