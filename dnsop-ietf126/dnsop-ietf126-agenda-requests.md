@@ -18,6 +18,12 @@
     - Time Requested (including Q&A): 10 min
     - Chairs Action:
 
+*   Draft name: Domain Authority (DA): A DNS-Designated Service Endpoint for Domain Information
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-swaminathan-da/
+    - Requester Email: Kishore Swaminathan <k.s.swaminathan@live.com>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
+
 *   Draft name: DNS Extensions to Energy Efficiency as a Service
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
     - Requester Email: zhuhh11@chinatelecom.cn
@@ -26,7 +32,7 @@
 
 *   Draft name: UTXO6 DNS: Domain Names for Multi‑Chain Blockchain Addresses
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-guorong-utxo-dns/
-    - Requester Email: 
+    - Requester Email: foundation@utxocp.cn
     - Time Requested (including Q&A): 10 min
     - Chairs Action:
 
@@ -67,3 +73,44 @@
     - Requester Email: Florian Obser <florian+ietf@narrans.de>
     - Time Requested (including Q&A): 10-15 min
     - Chairs Action:
+*   Draft name: Add TTLs to DNS errors
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-dnsop-dettl/
+    - Requester Email: Philip Homburg <pch-dnsop-7@u-1.phicoh.com>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
+ 
+*   Draft name: Parent-Centric Delegation Handling in DNS Resolvers
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-sury-dnsop-parent-centric-resolver/
+    - Requester Email: Ondřej Surý <ondrej@isc.org>
+    - Time Requested (including Q&A): 10-15 min
+    - Chairs Action:
+
+*   Draft name: DNS-Based Address Mapping Record (AMR) for IPv4/IPv6 Mapping in IPv6-only Networks
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-dong-dnsop-dns-record-amr/
+    - Requester Email: Guozhen Dong<donggz@chinatelecom.cn>
+    - Time Requested (including Q&A): 15 min
+    - Chairs Action:
+
+*   Draft name: Optimistic DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-gakiwate-dnsop-optimistic-dns/
+    - Requester Email: Gautam Akiwate <gakiwate@apple.com>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
+
+*   Draft name: Handling Verification Failures of TSIG-Signed DNS Messages
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-sury-dnsop-tsig-clarify/
+    - Requester Email: Joe Abley <jabley@strandkip.nl>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
+
+*   Draft name: PQC DNSSEC MTL updates
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-fregly-dnsop-slh-dsa-mtl-dnssec/ ?
+    - Requester Email: Kaizer, Andrew <akaizer@verisign.com>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action: 
+
+*   Draft name: DNS Work Amplification: Problem Statement, Terminology, and Taxonomy
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-duan-dnsop-work-amplification/
+    - Requester Email: Xu Liwen <liwen.xu@inf.ethz.ch>
+    - Time Requested (including Q&A): 15 min
+    - Chairs Action: 
