@@ -73,6 +73,7 @@
     - Requester Email: Florian Obser <florian+ietf@narrans.de>
     - Time Requested (including Q&A): 10-15 min
     - Chairs Action:
+
 *   Draft name: Add TTLs to DNS errors
     - Datatracker URL: https://datatracker.ietf.org/doc/draft-homburg-dnsop-dettl/
     - Requester Email: Philip Homburg <pch-dnsop-7@u-1.phicoh.com>
@@ -114,3 +115,9 @@
     - Requester Email: Xu Liwen <liwen.xu@inf.ethz.ch>
     - Time Requested (including Q&A): 15 min
     - Chairs Action: 
+
+*   Draft name: Automating DNS Delegation Management via DDNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-mgmt-via-ddns/02/
+    - Requester Email: Johan Stenstam <johan.stenstam@internetstiftelsen.se>
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
