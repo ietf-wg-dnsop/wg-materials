@@ -63,7 +63,7 @@
 
 *   Disclosure of Negative Trust Anchors in DNS Responses
     - https://datatracker.ietf.org/doc/draft-farrokhi-dnsop-ede-nta/
-    - Joe Abley <jabley@strandkip.nl>, 15 min
+    - Babak Farrokhi <babak@farrokhi.net>, 15 min
     - Chairs Action:
 
 *   Signalling a Zone Cut to Nowhere in the DNS
