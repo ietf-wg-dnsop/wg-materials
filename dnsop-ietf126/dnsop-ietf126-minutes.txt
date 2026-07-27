@@ -1,0 +1,173 @@
+DNSOP WG
+Vienna, Austria
+Session 1
+Date: Monday, 20 July 2026
+Time: 14:30-16:30 local
+130ish participants in Meetecho
+Chairs: Benno Overeinder, Ondřej Surý
+
+Only discussion during the mic line is covered here, not the slides.
+You should definitely read the slides.
+Minutes by Paul Hoffman
+
+Administrivia, Chairs
+	Opening, Note Well, Review of current WG documents	
+	
+Integration of DNS Domain Names into Application Environments: Motivations and Considerations, Andrew Kaizer
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-integration/
+	Ben Schwartz: Needs more guidance about internationalised domain names.
+		Proposes a preferred format for domain names.
+
+DNSSEC Key Restore, Florian Obser
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-keyrestore/
+	Wes Hardaker: Wants more detail about comparison of TTLs and signature expiration.
+		If you only lose your ZSK, you don't lose continuity.
+	Philip Homburg: Has this been tested on signers? Which?
+		Florian: Works with Knot DNS.
+			This is supposed to just be ways to use current algorithm.
+		Philip: This won't work with upcoming Cascade because changing KSK causes other changes.
+	Ondřej: The draft should have an implementation section.
+
+Automating DNS Delegation Management via DDNS, Johan Stenstam
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-mgmt-via-ddns/
+
+Disclosure of Negative Trust Anchors in DNS Responses, Babak Farrokhi
+	https://datatracker.ietf.org/doc/draft-farrokhi-dnsop-ede-nta/
+	Pieter Lexis: Intends to merge PR, likes this
+	Ralf Weber: Likes this, supports
+	Jim Reid: Wonders if there is a point to this?
+		Would a typical user understand it?
+		Working on getting DNS providers to be able to describe
+	Warren Kumari: Users are never going to see this, so useful
+		Ralf: This is useful for operators
+			If the information isn't there, you're in the dark
+	Viktor Dukhovni: Just implemented it in his stub resolver
+
+Signalling a Zone Cut to Nowhere in the DNS, Joe Abley
+	https://datatracker.ietf.org/doc/draft-jabley-dnsop-zone-cut-to-nowhere/
+	Wes: Summarise results: no worse than anything else we see
+		Good that we have a signal
+		TTLs become a big deal
+		Mark Andrew's concern is valid, Wes will have a report
+	Paul Hoffman: This helped with making a zone in BIND that needed an NS
+		Joe: Wants a signal
+	Tobias Fiebig: Why not "REFUSED"?
+		Wes: That's not a signal
+	Peter Thomason: Needs to say explicitly that the root does not have an address
+		John Levine: MX records already do this
+		Joe: If someone tried to add an address to ., they would hear about this
+	Pieter Lexis: This affects ACME requests for internal hosts that want a certificate
+		Joe: Would add wording to deal with this
+
+Add TTLs to DNS errors, Philip Homburg
+	https://datatracker.ietf.org/doc/draft-homburg-dnsop-dettl/
+	Ondřej: I like the idea, not necessarily the details
+	Ben: Supports adoption after we have settled on the technical direction
+		Likes EDNSO for solution
+		Supports guidance 
+		Might extend attackers
+	Warren: Likes the option, then the WG thinks how to transport
+	Ralf: Likes the idea, but needs to work on the security
+		Maybe limit it to secure transports
+	Viktor: What is the scope of the TTL?
+		Is it for one server, or for all servers?
+		Philip: Would not change current logic for dealing with errors
+
+DNS-Based Address Mapping Record (AMR) for IPv4/IPv6 Mapping in IPv6-only Networks, Guozhen Dong
+	https://datatracker.ietf.org/doc/draft-dong-dnsop-dns-record-amr/
+	Ben: Needs to understand who would use this
+	Shane Kerr: DNSOP is a good place to discuss this
+
+DNS DISPATCH session
+
+Domain Key Authorities (DKA): DNS-Designated Public Key Distribution for Email-Address Identifiers, Kishore Swaminathan
+	https://datatracker.ietf.org/doc/draft-swaminathan-dka-framework/
+	Daniel Gilmore: HKP draft in OpenPGP does similar things that this is doing
+		Look into the OpenPGP WG
+		DNS already has keys
+	Peter van Dijk: Same as Daniel said
+	Paul: Needs to be in a Security Group
+	Ralf: Can go anywhere
+	John Levine: Doesn't think the patent is good, and has reservations about the IETF having change control
+	Kishore: You want an arms-length delegation, so thinks 
+
+DNS Extensions to Energy Efficiency as a Service (EEAS), Huahong Zhu
+	https://datatracker.ietf.org/doc/draft-zhu-dnsop-de-eeas/
+	Tobias: Dispatch to SUSTAIN in IRTF
+	Paul: Dispatch to SUSTAIN in IRTF, then GREEN WG
+	Jim: Agrees with Tobias and Paul
+
+UTXO Domain Name System (UTXO6-DNS): Base Protocol and PRN Regulatory Extensions, Guorong Tian
+	https://datatracker.ietf.org/doc/draft-guorong-utxo-dns/
+	Tobias: Dispatch to CFRG
+	Paul: Dispatch to nowhere
+	Joe: No work for DNSOP
+	Jim: No work for DNSOP
+
+Domain Authority (DA): A DNS-Designated Service Endpoint for Domain Information, Kishore Swaminathan
+	https://datatracker.ietf.org/doc/draft-swaminathan-da/
+	Tobias: Dispatch to DELEG
+	John: This is what RDAP does, and it's well-deployed
+	Peter: Can apply for RRTYPE 
+	Ralf: Agree with Peter, out of scope for this WG
+	Ben: Dispatch to a BoF
+	Med: Check with regext to see what is the overlap
+
+Session 2
+Date: Friday, July 24, 2026
+Time: 11:30-12:30 local
+
+Report from the Hackathon
+
+Delegation Revalidation by DNS Resolvers, Shumon Huque
+	https://datatracker.ietf.org/doc/draft-ietf-dnsop-ns-revalidation/
+	Petr Spaček: Wants an updated implementation section
+		Make sure the entire draft has been implemented
+	Ben: Encourages that this draft and draft-sury-dnsop-parent-centric-resolver are a matched pair
+		Recommendations for child-centric vs. parent-centric
+		Shumon: will consider title change and better descriptions	
+
+Parent-Centric Delegation Handling in DNS Resolvers, Ondřej Surý
+	https://datatracker.ietf.org/doc/draft-sury-dnsop-parent-centric-resolver/
+	Wes: Security Considerations section needs more work before adoption
+	Ben: Encourage to look closely at what the draft does with RD bit
+		Maybe leave that bit alone
+	Shane: Makes sense for adoption.
+		Whatever the resolver is actually using for NS could be hidden.
+		There is a lot of internal state for a resolver that is hidden.
+		Ondřej: Doesn't like cache snooping but may be useful for debugging, but isn't reliable.
+	Ralf: Has been doing it since 2002 without a lot of problems for a lot of customers.
+		This helps domains that are not protected by DNSSEC.
+
+DNS Catalog Zone Properties for Zone Transfers, Willem Toorop
+	https://datatracker.ietf.org/doc/draft-axu-dnsop-catalog-zone-xfr-properties/
+	Peter: For replication, it is good to know what the serial number is in the synthesised zone.
+		This draft is a good place to define the format.
+		Willem: Agrees, but it is different semantics, but in a different draft.
+
+Optimistic DNS, Gautam Akiwate
+	https://datatracker.ietf.org/doc/draft-gakiwate-dnsop-optimistic-dns/
+	Petr: Do you have data that compares with resolver prefetch?
+		Gautam: Need to work with a range of resolvers.
+	Marway Fayed: Was deeply offended, but is now happy.
+	Sebastian Poreba: Supports; has been using it in production.
+		Has not seen problems.
+		Same as bad caching in the middle.
+	Mike Blanche: This solution would be great.
+	Erik Nygren: OK with this for short sessions, not for longer.
+
+DNS Root Server System Usage Considerations, Wes Hardaker
+	https://datatracker.ietf.org/doc/draft-hardaker-dnsop-rss-usage-considerations/
+	Paul: Doesn't need to be done.
+	Petr: Agrees with Paul.
+		Implementations figured it out.
+		Likes the schema and publication points.
+		Wes: Doesn't prescribe exactly what to do.
+	Roy Arends: Wants to hear experiences with deploying LocalRoot.
+		Google might have used this, can maybe add experience.
+		Even a small amount of queries go to a root server, LocalRoot adds additional braces.
+		Wes: It didn't fail.
+	Ben: Supports LocalRoot.
+		Sees a lot of complexity and fragmentation of the DNS.
+		URI schemes seem like an architectural red flag.
+		Build the minimal amount.
