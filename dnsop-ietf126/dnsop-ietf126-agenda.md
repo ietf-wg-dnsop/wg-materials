@@ -47,7 +47,7 @@
 *   Integration of DNS Domain Names into Application Environments: Motivations and Considerations
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-integration/
     - Andrew Kaizer <akaizer@verisign.com>, 10 min
-    - Chairs Action:
+    - Chairs Action: ready for WGLC?
 
 *   DNSSEC Key Restore
     - https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-keyrestore/
@@ -92,7 +92,7 @@
 
 *   UTXO Domain Name System (UTXO6-DNS): Base Protocol and PRN Regulatory Extensions
     - https://datatracker.ietf.org/doc/draft-guorong-utxo-dns/
-    - Guorong Tian <foundation@utxocp.cn>, 10 min
+    - Guorong Tian <foundation@utxocp.cn> and Yang Fanyin, 10 min
 
 #### Time Permitting
 
