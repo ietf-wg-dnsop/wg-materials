@@ -48,15 +48,15 @@
 * Post-quantum Cryptography for DNSSEC, a temporary view, 10 min
     - Paul Hoffman
 
-* ML-DSA at 1.1.1.1, 10 min
+* Alg 18 in 1.1.1.1, 10 min
     - Bas Westerbaan
 
-* MTL-mode approach to PQ-DNSSEC, 10 min
+* How Merkle Tree Ladders Help Address PQC DNSSEC Challenges, 10 min
     - Andrew Kaizer
 
 * Preliminary Results of Measuring TCP Pressure on DNS Authoritative Servers, 10 min
     - Paul Hoffman
 
 * Open discussion, 20 min
+    - Wes Hardaker: Planning for large packet sizes -- discussion
     - steps forward
-
