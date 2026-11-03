@@ -12,7 +12,12 @@
 
 ## DNS DISPATCH Requests
 
-
+*   Draft name: draft-kinnear-dnsop-globally-relevant
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-kinnear-dnsop-globally-relevant/
+    - Requester Email: ekinnear@apple.com
+    - Time Requested (including Q&A): 10mins (could be shorter if needed)
+    - Purpose: Present the draft, address feedback, and seek guidance as to DNSOP as a potential place to do this work
+    - Chairs Action:
 
 ## Regular Requests
 
