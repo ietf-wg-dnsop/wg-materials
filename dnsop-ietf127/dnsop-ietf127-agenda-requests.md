@@ -44,3 +44,15 @@
     - Requester Email: kim.davies@iana.org
     - Time Requested (including Q&A): 10 minutes
     - Chairs Action:
+
+*   Draft name: Module-Lattice-Based Signatures with Merkle Tree Ladders (ML-DSA-MTL) for DNSSEC / with SigTag Extension
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-kaizer-dnsop-ml-dsa-mtl-dnssec/ and https://datatracker.ietf.org/doc/draft-hdong-dnsop-ml-dsa-mtl-dnssec-sigtag-ext/
+    - Requester Email: akaizer@verisign.com
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action: 
+
+*   Draft name: Optimistic DNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-gakiwate-dnsop-optimistic-dns/
+    - Requester Email: Gautam Akiwate <gakiwate@apple.com>
+    - Time Requested (including Q&A): 5 min
+    - Chairs Action:
