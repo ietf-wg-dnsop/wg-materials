@@ -62,3 +62,9 @@
     - Requester Email: DNSOP Chairs
     - Time Requested (including Q&A): 10 min
     - Chairs Action:
+
+*   Draft name: WG Split Charter Discussion
+    - Datatracker URL: https://mailarchive.ietf.org/arch/msg/dnsop/6oQgF_HjtCrXzBwtKrq_uwl5W4g/
+    - Requester Email: DNSOP Chairs
+    - Time Requested (including Q&A): 20 min
+    - Chairs Action:
