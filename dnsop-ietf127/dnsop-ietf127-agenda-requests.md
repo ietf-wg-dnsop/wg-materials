@@ -56,3 +56,9 @@
     - Requester Email: Gautam Akiwate <gakiwate@apple.com>
     - Time Requested (including Q&A): 5 min
     - Chairs Action:
+
+*   Draft name: Automating DNS Delegation Management via DDNS
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-ietf-dnsop-delegation-mgmt-via-ddns/
+    - Requester Email: DNSOP Chairs
+    - Time Requested (including Q&A): 10 min
+    - Chairs Action:
