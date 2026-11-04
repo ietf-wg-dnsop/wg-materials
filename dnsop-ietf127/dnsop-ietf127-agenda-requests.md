@@ -68,3 +68,9 @@
     - Requester Email: DNSOP Chairs
     - Time Requested (including Q&A): 20 min
     - Chairs Action:
+
+*   Time donated to the DELEG WG
+    - Datatracker URL: https://datatracker.ietf.org/group/deleg/about/
+    - Requester Email: DNSOP Chairs
+    - Time Requested (including Q&A): 20 min
+    - Chairs Action:
