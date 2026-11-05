@@ -69,6 +69,12 @@
     - Time Requested (including Q&A): 20 min
     - Chairs Action:
 
+*   Draft name: Refusing DNS Queries That Have QTYPE=RRSIG
+    - Datatracker URL: https://mailarchive.ietf.org/arch/msg/dnsop/6oQgF_HjtCrXzBwtKrq_uwl5W4g/
+    - Requester Email: Ondřej Surý <ondrej@sury.org>
+    - Time Requested (including Q&A): 5 min
+    - Chairs Action:
+
 *   Time donated to the DELEG WG
     - Datatracker URL: https://datatracker.ietf.org/group/deleg/about/
     - Requester Email: DNSOP Chairs
