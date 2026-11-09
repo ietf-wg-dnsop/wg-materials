@@ -70,7 +70,7 @@
     - Chairs Action:
 
 *   Draft name: Refusing DNS Queries That Have QTYPE=RRSIG
-    - Datatracker URL: https://mailarchive.ietf.org/arch/msg/dnsop/6oQgF_HjtCrXzBwtKrq_uwl5W4g/
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-sury-dnsop-rrsig-refused/
     - Requester Email: Ondřej Surý <ondrej@sury.org>
     - Time Requested (including Q&A): 5 min
     - Chairs Action:
