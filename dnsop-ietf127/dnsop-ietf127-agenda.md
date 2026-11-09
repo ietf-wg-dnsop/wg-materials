@@ -85,6 +85,11 @@
     - Ondřej Surý <ondrej@sury.org>, 5 min
     - Chairs Action:
 
+*   Ordering of RRSets in CNAME Responses in the DNS
+    - https://datatracker.ietf.org/doc/draft-jabley-dnsop-ordered-answer-section/
+    - Joe Abley <jabley@strandkip.nl>, 10 min
+    - Chairs Action:
+
 ### Charter for New WG
 
 *   WG Split Charter Discussion
