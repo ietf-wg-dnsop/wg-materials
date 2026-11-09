@@ -26,6 +26,13 @@
     - Purpose: Present the draft, address feedback, and seek guidance as to DNSOP as a potential place to do this work
     - Chairs Action:
 
+*   Draft name: draft-shigeya-dns-opkey
+    - Datatracker URL: https://datatracker.ietf.org/doc/draft-shigeya-dns-opkey/
+    - Requester Email: shigeya@wide.ad.jp
+    - Time Requested (including Q&A): not stated
+    - Purpose: Present the draft (new OPKEY RR type with TLSA format under _op, plus SVCB/TXT use) and ask for dispatch guidance on WG fit; possibly SEC/ART involvement for the verifier side
+    - Chairs Action:
+
 ## Regular Requests
 
 *   Draft name: draft-zhang-dnssec-wildcard-validation
